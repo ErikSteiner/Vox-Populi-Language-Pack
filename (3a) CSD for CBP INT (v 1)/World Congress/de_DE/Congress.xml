@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/20/2013 2:16:05 PM -->
+<GameData>
+	<language_de_DE>
+		<Row Tag="TXT_KEY_CITY_STATE_PERMANENT_ALLY_TT">
+			<Text>{1_CivName:textkey} ist ihr momentaner Verbündeter. Bis ihr [COLOR_POSITIVE_TEXT]Einflussbereich[ENDCOLOR] nicht entfernt wird, können Sie sie nicht von dieser Position entfernen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_PERMA">
+			<Text>Weil dort eine [COLOR_POSITIVE_TEXT]Politik der offenen Tür[ENDCOLOR] Effekt aktiv ist, kann keiner mit diesem Stadtstaat verbündet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI">
+			<Text>Einflussbereich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SOI_HELP">
+			<Text>Verlangt nach einem Einflussbereich über einen Stadtstaat. Wenn erfolgreich, dann wird der vorschlagende Spieler permanenter Verbündeter des Stadtstaates (bis dieser Vorschlag aufgehoben wird). [NEWLINE][NEWLINE]Verfügbar ab der Erforschung der Dampfmaschine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
+			<Text>Einflussbereich: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
+			<Text>{@1_CivName} (für {@2_CivName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION">
+			<Text>Entkolonialisierung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECOLONIZATION_HELP">
+			<Text>Machen Sie die Entkolonialisierung bei einem Spieler geltend. Wenn erfolgreich, ist der [ICON_INFLUENCE] Einfluss des Spielers, mit allen nicht-permanenten Stadtstaaten Verbündeten um 50 reduziert. [NEWLINE][NEWLINE]Verfügbar ab der Erforschung des Funkwesens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR">
+			<Text>Offene Tür</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR">
+			<Text>Offene Türen: {1_CivsList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR_ENTRY">
+			<Text>{@1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_OPEN_DOOR_HELP">
+			<Text>Verordnen Sie eine Offene Türenpolitik für einen Stadtstaaten. Wenn erfolgreich, wird der [ICON_INFLUENCE] Einfluss aller Zivilizationen mit diesem Stadtstaat auf 40 festgelegt und niemand kann der Verbündete dieses Stadtstaats werden, bis dieser Vorschlag aufgehoben wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
+			<Text>{@1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_PROPOSER">
+			<Text>{1_CivAdj}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY_CSD">
+			<Text>Wählt einen Stadtstaat den diese Resolution betreffen soll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION">
+			<Text>Raumfahrt Kontrollausschuss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_SPACESHIP_INSPECTION_HELP">
+			<Text>Der Raumfahrt Kontrollausschuss wurde mit der Aufgabe betraut, die Verbreitung von modernen ballistischen Technologien zu regeln, nationale Raumfahrt-Programme zu beaufsichtigen und den Fortschritt potenziell gefährliche Technologien zu beschränken. [NEWLINE][NEWLINESo lange diese Resolution in Kraft ist, werden alle Spieler einen globalen -25% [ICON_PRODUCTION] Produktions-Malus auf [ICON_VICTORY_SPACE] Raumschiffteile, +25% [ICON_GOLD] Goldkauf-Kosten für [ICON_VICTORY_SPACE] Raumschiffteile und +25% [ICON_PEACE] Kauf mit Glauben für Ingenieure erhalten.[NEWLINE][NEWLINE]Verfügbar ab der Erforschung der Atomtheorie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
+			<Text>{1_Spaceship}% [ICON_PRODUCTION] Produktion beim Bau von RS Teilen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
+			<Text>+{1_Spaceship}% kosten für [ICON_GOLD] Goldkäufe von RS Teilen und [ICON_PEACE] Kauf mit Glauben für Große Ingenieure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR">
+			<Text>Casus Belli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_WAR_HELP">
+			<Text>Die Welt erkennt den Bedarf an einen gerechtfertigten Krieg an, um diplomatische Streitigkeiten zu lösen. [NEWLINE][NEWLINE]So lange diese Resolution in Kraft ist, wird der Unterhalt von Einheiten um 15% [ICON_GOLD] Gold gesenkt. [ICON_VICTORY_DOMINATION] Kriegstreiber-Strafen für Stadt-Eroberungen und Kriegserklärungen werden drastisch reduziert und [ICON_VICTORY_DOMINATION] die Kriegstreiber Punkte verfallen viel schneller als normalerweise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
+			<Text>{1_UnitMaintenancePercent}% [ICON_GOLD] Unterhaltskosten für Einheiten. [ICON_VICTORY_DOMINATION] Kriegstreiber-Strafen drastisch verringert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
+			<Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] Unterhaltskosten für Einheiten. [ICON_VICTORY_DOMINATION] Kriegstreiber-Strafen unverändert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR">
+			<Text>Kalter Krieg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_COLD_WAR_HELP">
+			<Text>Ideologische Unterschiede haben die Welt in einen Kalten Krieg gestürzt und wirtschaftliche und politische Splittergruppen formen sich, allein auf ihre Ideologien gestützt. [NEWLINE][NEWLINE]So lange diese Resolution in Kraft ist, können Spieler nur [ICON_INTERNATIONAL_TRADE] Handelswege mit Zivilisationen der selben Ideologie oder mit verbündeten Stadtstaaten vereinbaren. Außerdem verringert sich der [ICON_INFLUENCE] Einfluss mit verbündeten Stadtstaaten nicht. [NEWLINE][NEWLINE]Verfügbar ab der Erforschung der Atomtheorie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
+			<Text>>Keine [ICON_INTERNATIONAL_TRADE] Handelswege mit gegnerischen Ideologien oder nicht verbündeten Stadtstaaten. Der [ICON_INFLUENCE] Einfluss bei verbündeten Stadtstaaten sinkt nicht.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
+			<Text>Verhindert durch eine aktive oder vorgeschlagene Resolution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
+			<Text>Nicht verfügbar bis eine Welt Ideologie aktiv ist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_SCIENCEY">
+			<Text>Schub auf [ICON_FOOD]/[ICON_RESEARCH] für Zivilisationen mit Punktestand unter dem globalen Durchschnitt. +{1_GreatPersonRateMod}% Generierungsrate für {2_GreatPersonList}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE_ARTSY">
+			<Text>Schub auf [ICON_PRODUCTION]/[ICON_CULTURE] für Zivilisationen mit Punktestand unter dem globalen Durchschnitt. +{1_GreatPersonRateMod}% Generierungsrate für {2_GreatPersonList}</Text>
+		</Row>
+	</language_de_DE>
+</GameData>

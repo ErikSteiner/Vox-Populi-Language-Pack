@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2016 9:26:47 PM -->
+<GameData>
+	<language_de_DE>
+		<!-- Civil Servant Text -->
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_TITLE">
+			<Text>Staatsdiener</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_HEADING3_BODY">
+			<Text>Staatsdiener produzieren eine Vielzahl an Erträgen als auch in Richtung Große Diplomaten. Diese Einheiten sind wichtig, wenn Ihr einen Diplomatiesieg anstrebt oder ein paar Stadtstaaten-Allianzen hinzugewinnen wollt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CIVIL_SERVANT_ADV_QUEST">
+			<Text>Was tun Staatsdiener?</Text>
+		</Row>
+		<!-- Automation Text -->
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>Diplomatische Mission (Automatisiert)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>Automatisiert alle Aktionen von [COLOR_UNIT_TEXT]diplomatischen Einheiten[ENDCOLOR]. Die Einheit bleibt automatisiert, bis Ihr seine Automatisierung beendet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>Keine gültige Ziele für Diplomatie zu diesem Zeitpunkt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
+			<Text>[NEWLINE][ICON_BULLET]{1_NumVotes} von Verteidigungsbündnissen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Große Diplomaten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_DIPLOMAT_DETAILS">
+			<Text>[ICON_PLUS] Große Diplomaten</Text>
+		</Row>
+	</language_de_DE>
+  
+</GameData>

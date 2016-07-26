@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" version="3">
+  <Properties>
+    <Name>(1a) Community Patch International</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(7-7) Translation of the Community Patch to different languages.</Teaser>
+    <Description>Translation of the Community Patch to different languages.</Description>
+    <Authors>The Community</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="66225F1E6BF4C4956A3559664D0A9514" import="0">Core Files/Core Tables/de_DE/SampleEvents.xml</File>
+    <File md5="345A142E3D48E0D689FEC3564E66E71E" import="0">Core Files/PNM Mods DB/API/de_DE/Espionage.xml</File>
+    <File md5="73F8F75C80FDE5BE198B77C093CEF443" import="0">Core Files/PNM Mods DB/API/de_DE/Religion.xml</File>
+    <File md5="17D8F074D40C6BD96C98B7BAC5CCF618" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/GoodyHutMessages.xml</File>
+    <File md5="B06582D2D344B86800394A9C74730810" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/SpyNames.xml</File>
+    <File md5="0ED4D6F34262C60DB2B35B3FE06F4FF5" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/UnitclassNotUnit.xml</File>
+    <File md5="375BE8DEE72558674C83F4D7AF1EE492" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/UnitNaming.xml</File>
+    <File md5="36ADB92C2C3240E2E7A22E530EED744C" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/VariableRecon.xml</File>
+    <File md5="0DB889771205A4A0EBDF93F2EC3057FB" import="0">Core Files/Text/CoreText_de_DE.xml</File>
+    <File md5="340C4993050B8B21DCE3C6ED532EE2F3" import="0">Core Files/Text/CoreText_de_DE.sql</File>
+    <File md5="06AE5D08425DCF2652F8FAC93A554038" import="0">Modules/Events/Text/de_DE/City_de_DE.xml</File>
+    <File md5="D9DC0E7E44719538633E7FD5B23FBBF4" import="0">Modules/Events/Text/de_DE/EventCore_de_DE.xml</File>
+    <File md5="D8FA313F94D597B2FE36E146BE24CAB1" import="0">Modules/Events/Text/de_DE/Player_de_DE.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/de_DE/Espionage.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/API/de_DE/Religion.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/de_DE/GoodyHutMessages.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/de_DE/SpyNames.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/BUGFIX/de_DE/UnitclassNotUnit.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/de_DE/UnitNaming.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/PNM Mods DB/PROMOTIONS/de_DE/VariableRecon.xml</UpdateDatabase>
+      <UpdateDatabase>Core Files/Text/CoreText_de_DE.sql</UpdateDatabase>
+      <UpdateDatabase>Core Files/Text/CoreText_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/de_DE/City_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/de_DE/EventCore_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>Modules/Events/Text/de_DE/Player_de_DE.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

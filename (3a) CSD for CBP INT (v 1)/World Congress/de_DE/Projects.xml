@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/2/2014 10:59:14 PM -->
+<GameData>
+	<language_de_DE>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET">
+			<Text>Schatzflotte Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_TREASURE_FLEET_HELP">
+			<Text>Steuert die [ICON_PRODUCTION] Produktion dieser Stadt dem Schatzflotten Projekt bei. Kosten steigen, basierend auf der Anzahl der Spieler im Spiel und dem momentanen Zeitalter.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET">
+			<Text>Schatzflotte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_TREASURE_FLEET_HELP">
+			<Text>Beginnt das Schatzflotten Projekt. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen.  Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET">
+			<Text>Schatzflotte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET_SPLASH">
+			<Text>Admiräle, Navigatoren, Matrosen und Schiffbaumeister aus der gesamten Welt sammeln Mittel um eine Schatzflotte zu bauen. Die größte und renommierteste Flotten von Schiffen die jemals gebaut wurde.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1">
+			<Text>Preisgekrönter Schiffsbaumeister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_1_HELP">
+			<Text>Erhaltet eine Fregatte. 300 Punkte für das nächste [ICON_GOLDEN_AGE] Goldene Zeitalter.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2">
+			<Text>Erfahrener Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_2_HELP">
+			<Text>Erhaltet einen freien Großen Admiral und 3 Eurer Militäreinheiten werden Unterhaltskosten-Frei.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3">
+			<Text>Kapitän der Flotte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TREASURE_FLEET_3_HELP">
+			<Text>Große Kanal Wunder erscheint in der [ICON_CAPITAL] Hauptstadt. ({TXT_KEY_BUILDING_GRAND_CANAL_HELP})</Text>
+		</Row>
+		<!-- Wargames -->
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES">
+			<Text>Globale Kriegsspiele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WARGAMES_HELP">
+			<Text>Steuert die [ICON_PRODUCTION] Produktion dieser Stadt dem Projekt "Globale Kriegsspiele" bei. Kosten steigen, basierend auf der Anzahl der Spieler im Spiel und dem momentanen Zeitalter.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES">
+			<Text>Globale Kriegsspiele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_WARGAMES_HELP">
+			<Text>Beginnt das "Globale Kriegsspiele" Projekt. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen.  Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP} [NEWLINE][NEWLINE]Verfügbar ab der Erforschung der Normbauteile.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES">
+			<Text>Globale Kriegsspiele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WARGAMES_SPLASH">
+			<Text>Das Militär und die militärischen Offiziere der Weltreiche haben sich versammelt, um ihren Kampfeswillen und die globale Überlegenheit hervorzuheben.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1">
+			<Text>Oberst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_1_HELP">
+			<Text>Erhaltet eine Infanterie und 4 Eurer Militäreinheiten werden Unterhaltskosten-Frei.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2">
+			<Text>Generalmajor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_2_HELP">
+			<Text>Erhaltet einen freien Großen General und +4 [ICON_HAPPINESS_1] Zufriedenheit.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3">
+			<Text>Feldmarschall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
+			<Text>Erhaltet einen +25% Angriffsbonus für alle Militäreinheiten, über die nächsten 30 Runden.</Text>
+		</Row>
+		<!-- UNITED_NATIONS -->
+		
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS">
+			<Text>Vereinte Nationen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS_HELP">
+			<Text>Steuert die [ICON_PRODUCTION] Produktion dieser Stadt dem Vereinte Nationen Projekt bei. Kosten steigen, basierend auf der Anzahl der Spieler im Spiel und dem momentanen Zeitalter.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS">
+			<Text>Vereinte Nationen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS_HELP">
+			<Text>Beginnt das Vereinte Nationen Projekt. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen.  Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP} [NEWLINE][NEWLINE]Verfügbar ab der Erforschung der Atomtheorie.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS">
+			<Text>Vereinte Nationen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS_SPLASH">
+			<Text>Eine neue Ära in der globalen Diplomatie und internationaler Beziehungen ist angebrochen. Delegierte, Beamte und Würdenträger der gesamten Welt haben sich versammelt, den Aufbau der Vereinten Nationen zu feiern und mit ihm die Zukunft der menschlichen Rasse.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1">
+			<Text>Hochkommissar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP">
+			<Text>Erhaltet einen freien Großen Diplomaten.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2">
+			<Text>Ständiges Mitglied</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP">
+			<Text>Erhaltet sofort einen Schub in Höhe von 25 [ICON_INFLUENCE] Einfluss mit allen Stadtstaaten. Das Nationale Wunder Konsulat erscheint in der [ICON_CAPITAL] Hauptstadt. ({TXT_KEY_CONSULATE_HELP})</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3">
+			<Text>Generalsekretär</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
+			<Text>Vereinte Nationen Wunder erscheint in der [ICON_CAPITAL] Hauptstadt. ({TXT_KEY_UN_HELP})</Text>
+		</Row>
+		
+	</language_de_DE>  
+</GameData>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<language_de_DE>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_GOLD"/>
+			<Set>
+				<Text>In den Ruinen findet Ihr die Schätze eines längst vergessenen Reiches!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_PROPHET_FAITH"/>
+			<Set>
+				<Text>Ihr entdeckt eine geheime religiöse Gemeinschaft. Der Prediger prophezeit die Ankunft eines großen Propheten.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_FAITH"/>
+			<Set>
+				<Text>Ihr entdeckt ein altes Orakel. Die Priesterin hat Euch mit einer göttlichen Offenbarung gesegnet.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_GOODY_CULTURE"/>
+			<Set>
+				<Text>Ihr entdeckt kulturelle Artefakte, welche Eure Bürger in Ehrfurcht versetzen!</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_MISC_RECEIVED_GOLD"/>
+			<Set>
+				<Text>[SPACE]Ihr erhaltet {1_Num} [ICON_GOLD] Gold!</Text>
+			</Set>
+		</Update>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_CULTURE">
+			<Text>[SPACE]Ihr erlangt {1_Num} [ICON_CULTURE] Kultur!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_FAITH">
+			<Text>[SPACE]Ihr erlangt {1_Num} [ICON_PEACE] Glauben!</Text>
+		</Row>
+	</language_de_DE>
+</GameData>

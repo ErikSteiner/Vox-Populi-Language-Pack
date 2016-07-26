@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_de_DE>
+		<Replace Tag="TXT_KEY_PREVIOUS_ITEM_TT">
+			<Text>Zentriere Karte auf vorherigen Element</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NEXT_ITEM_TT">
+			<Text>Zentriere Karte auf nächstem Element</Text>
+		</Replace>
+	</Language_de_DE>
+</GameData>

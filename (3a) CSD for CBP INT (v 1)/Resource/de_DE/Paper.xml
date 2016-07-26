@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<language_de_DE>
+		<Row Tag="TXT_KEY_RESOURCE_PAPER">
+			<Text>Papier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PAPER_HELP">
+			<Text>Wird benötigt um [ICON_INFLUENCE] Diplomatische Einheiten auszubilden. Die Produktion höherwertiger Diplomatischer Einheiten benötigen mehr als eine Einheit Papier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_PAPER">
+			<Text>Papier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_PAPER_TEXT">
+			<Text>
+				Papier ist ein dünnes Material, das im wesentlichen aus Fasern, meist pflanzlicher Herkunft besteht und durch Entwässerung einer Fasersuspension auf einem Sieb gebildet wird. Papier ist vielseitig einsetzbar. Während es vor allem zum Schreiben und Drucken verwendet wird, findet es auch als Verpackungsmaterial, in vielen Reinigungsprodukten, in einer Vielzahl von industriellen Herstellungsprozessen und sogar als Inhaltsstoff für Nahrung, vor allem in der asiatischen Kultur, Verwendung. Papier und der Zellstoff Papierherstellungsprozess soll in China 200 v. Chr. entwickelt worden sein, frühestens jedoch 105 v. Chr. von Cai Lun, einem Beamten der Behörde für Fertigung von Instrumenten und Waffen am chinesischen Kaiserhof. Die frühsten archäologischen Funde von Papier stammen ebenfalls aus dem 2. Jh. v. Chr. aus China.[NEWLINE][NEWLINE]In Civ V wird ‚Papier‘ für diplomatische Zwecke genutzt. Es ist eine Metapher an die Staatsführung, politische Dokumentation und Behörden.
+			</Text>
+		</Row>
+	</language_de_DE>
+</GameData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/21/2014 12:19:12 PM -->
+<GameData>
+	<language_de_DE>
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>Errichtet eine [LINK=IMPROVEMENT_EMBASSY]Botschaft[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>Einheit wird aufgebraucht.[NEWLINE][NEWLINE]Diese große Geländefeld Modernisierung kann nicht auf strategischen oder auf Luxus-Ressourcen errichtet werden. Gewährt [COLOR_POSITIVE_TEXT]1 Weltkongress-Stimme[ENDCOLOR] wenn vollendet.</Text>
+		</Row>
+	</language_de_DE>
+</GameData>
