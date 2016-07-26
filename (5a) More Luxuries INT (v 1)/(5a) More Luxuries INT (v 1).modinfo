@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="cdcea37d-ccbf-4c72-b63f-5a2c150a2641" version="3">
+  <Properties>
+    <Name>(5a) More Luxuries INT</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(6-14) Translation of the More Luxuries into several non-English languages.</Teaser>
+    <Description>Translation of the More Luxuries into several non-English languages.</Description>
+    <Authors>The Community</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+   <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
+	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+	<Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries - CBO Edition" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0EB87C23ADCA46682BC9344E7177DA6D" import="0">XML/de_DE/NewLuxuries_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/de_DE/NewLuxuries_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_de_DE>
+		<Row Tag="TXT_KEY_PREVIOUS_ANTIQUITY_TT">
+			<Text>Zentriere Karte auf vorherigen Altertum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEXT_ANTIQUITY_TT">
+			<Text>Zentriere Karte auf nächstem Altertum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_OVERLAY_ANTIQUITIES">
+			<Text>Altertümer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_GOODY_HUT">
+			<Text>Alte Ruinen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_DIG_SITE">
+			<Text>Altertumsstätte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_HIDDEN_SITE">
+			<Text>Verborgene Altertumsstätte</Text>
+		</Row>
+	</Language_de_DE>
+</GameData>

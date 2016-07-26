@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="39bc1f7d-c98c-4db9-8120-736cbabe0f1c" version="3">
+  <Properties>
+    <Name>(4a) Civ IV Diplomatic Features INT</Name>
+    <Stability>Beta</Stability>
+    <Teaser>(6-14b) Translation of Civ IV Diplomatic Features into several non-English languages.</Teaser>
+    <Description>Translation of Civ IV Diplomatic Features into several non-English languages.</Description>
+    <Authors>The Community</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
+    <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="0" maxversion="999" title="(4) C4DF - CBP" />
+  </Dependencies>
+  <References />
+  <Blocks>
+    <Mod id="275db698-0c69-401e-89a8-7eab501b6bcf" minversion="0" maxversion="999" title="Civilization IV Diplomatic Features - Standalone" />
+    <Mod id="781d81cf-49e1-4acb-ae5f-b9e3713f98d3" minversion="0" maxversion="999" title="(1a) Civ IV Diplomatic Features - CP" />
+  </Blocks>
+  <Files>
+    <File md5="23E9CD90710F33236EA878FADB69239E" import="0">XML/Text/de_DE/de_DE_Text_CivilopediaC4DF.xml</File>
+    <File md5="B748DAF33842348C82A253A437D4F508" import="0">XML/Text/de_DE/de_DE_Text_Generic_DiplomacyC4DF.xml</File>
+    <File md5="6D095FA8B448572DE2F561D917E6565C" import="0">XML/Text/de_DE/de_DE_Text_UIC4DF.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Text/de_DE/de_DE_Text_CivilopediaC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/de_DE/de_DE_Text_Generic_DiplomacyC4DF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/de_DE/de_DE_Text_UIC4DF.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

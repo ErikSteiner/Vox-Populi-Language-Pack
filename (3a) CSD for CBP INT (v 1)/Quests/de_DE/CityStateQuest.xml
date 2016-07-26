@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/8/2014 12:25:57 PM -->
+<GameData>
+	<language_de_DE>
+		<!-- DOW on Bully -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR">
+			<Text>Wir wollen, dass Ihr {1_TargetName:textkey} den Krieg erklärt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_WAR">
+			<Text>{@2_MinorCivName} wurde kürzlich schikaniert und seine Bewohner verlangen Vergeltung für {1_TargetName:textkey}. Wenn Ihr ihnen mit einer Kriegserklärung an {1_TargetName:textkey} helft, werdet Ihr fürstlich entlohnt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_WAR">
+			<Text>{@2_MinorCivName} trachtet nach einem Krieg gegen {1_TargetName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_WAR">
+			<Text>Bewohner von {@1_MinorCivName} sind erfreut, dass Ihr zu ihren Gunsten den Krieg erklärt habt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_WAR">
+			<Text>Krieg für {@1_MinorCivName} begonnen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
+			<Text>Sie wollen eine Kriegserklärung an {1_TargetName:textkey}.</Text>
+		</Row>
+
+		<!-- Construct National Wonder -->
+		
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>Wir wünschen die Errichtung von {@1_NationalWonderName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>Die Historiker von {@2_CivName} beklagen, dass die Reiche der Welt dekadent und überheblich sind. Sie erklären, dass die Zivilisation welche {@1_NationalWonderName} baut, ihre imperiale Pracht und mit ihr die Gunst des Stadtstaats zurück erlangt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@2_CivName} sehnt sich nach {@1_NationalWonderName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>Wie von {@2_CivName} erhofft, habt Ihr {@1_NationalWonderName} errichtet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
+			<Text>{@1_NationalWonderName} für {@2_CivName} errichtet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
+			<Text>Sie wünschen den Bau von {1_NationalWonderName:textkey}.</Text>
+		</Row>
+
+		<!-- Find City State -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE">
+			<Text>Wir wollen, dass Ihr {1_TargetName:textkey} findet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY_STATE">
+			<Text>Die Händler von {2_CivName:textkey} haben von einer fernen Stadt namens {1_TargetName:textkey} gehört. {2_CivName:textkey} sucht nun nach Kundschaftern, die ihnen bei ihrer Suche helfen. Wenn Ihr die Stadt findet, werdet Ihr beloht.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY_STATE">
+			<Text>{2_CivName:textkey} möchte, dass Ihr {1_TargetName:textkey} entdeckt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>Wie von {2_CivName:textkey} erhofft, habt Ihr die Stadt {1_TargetName:textkey} gefunden!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY_STATE">
+			<Text>{1_TargetName:textkey} für {2_CivName:textkey} gefunden!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
+			<Text>Sie wollen, dass Ihr den Stadtstaat {1_CityStateName:textkey} findet.</Text>
+		</Row>
+
+		<!-- Influence Boost -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE">
+			<Text>Sendet Diplomaten zu unserem Gipfel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_INFLUENCE">
+			<Text>{3_MinorCivName:textkey} hält ein Forum über Staatskunst ab und ermutigt die Abgeordneten aller Zivilisationen daran teilzunehmen. Jede diplomatische Mission zu ihnen wird während dieser Zeit um [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] [ICON_INFLUENCE] Einfluss wirksamer sein.  [COLOR_POSITIVE_TEXT]{1_TurnsRemaining} Runden verbleiben.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INFLUENCE">
+			<Text>{1_MinorCivName:textkey} hält ein Forum ab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INFLUENCE">
+			<Text>Das Forum in {1_MinorCivName:textkey} ging zu Ende. Die Menge an gewonnenem [ICON_INFLUENCE] Einfluss durch diplomatische Missionen ist wieder zum normalen Niveau zurückgekehrt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INFLUENCE">
+			<Text>{1_MinorCivName:textkey} hat sein Forum beendet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
+			<Text>Diplomatische Missionen sind momentan wirksamer.</Text>
+		</Row>
+		
+		<!-- Tourism Contest -->
+		
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_TOURISM">
+			<Text>>Bereitet Euch auf ein Festspiel der Nationen vor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_TOURISM">
+			<Text>Die Menschen von {3_MinorCivName:textkey} halten bald ein Festspiel der Nationen ab. Zur Vorbereitung senden sie Abgeordnete in jede große Zivilisation der bekannten Welt. Der Spieler mit der höchsten [ICON_TOURISM] Tourismusproduktion nach {2_TurnsDuration} Runden, wird die Abgeordneten zweifelsfrei am meisten beeindrucken. [COLOR_POSITIVE_TEXT]{1_TurnsRemaining} Runden bis das Festspiel beginnt.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_TOURISM">
+			<Text>{1_MinorCivName:textkey} bereitet ein Festspiel der Nationen vor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TOURISM">
+			<Text>Ihr habt {1_MinorCivName:textkey} mit dem [ICON_TOURISM] Tourismus Eurer Zivilisation beeindruckt!  Sie wurden von den anderen Zivilisationen nicht beeindruckt. Zivilisationen denen es gelang (Gleichstand ist erlaubt):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>Eine andere Zivilisation hat {1_MinorCivName:textkey} mit seinem [ICON_TOURISM] Tourismus eingeschüchtert.  Euer [ICON_TOURISM] Tourismus reichte nicht aus.  Zivilisationen denen es gelang (Gleichstand ist erlaubt):[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TOURISM">
+			<Text>{1_MinorCivName:textkey} wurde von Eurem Tourismus beeindruckt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TOURISM">
+			<Text>{1_MinorCivName:textkey}  wurde nicht von Eurem Tourismus beeindruckt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
+			<Text>Sie werden den Spieler mit dem höchsten [ICON_TOURISM] Tourismus pro Runde belohnen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} So far, you have the lead with [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{1_PlayerScore} per turn[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} Bisher hat der Führende [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{1_PlayerScore} und Ihr habt [ICON_TOURISM] [COLOR_POSITIVE_TEXT]{2_PlayerScore} pro Runde[ENDCOLOR].[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Archaeology -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY">
+			<Text>Erkundet einen Ort nahe des Stadtstaats.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARCHAEOLOGY">
+			<Text>Ein brillianter Professor von {1_MinorCivName:textkey} hat eine weltweite Anfrage gestartet, um nach einem wertvollen Artefakt in der Nähe zu suchen. Der erste Spieler der einen Archäologen zur nahe gelegenen Stelle entsendet, wird belohnt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARCHAEOLOGY">
+			<Text>{1_MinorCivName:textkey} sucht einen Archäologen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>Der Professor von {1_MinorCivName:textkey} ist von Euren Ausgrabungen begeistert und behauptet, dass was auch immer Ihr gefunden habt, gehöre in ein Museum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARCHAEOLOGY">
+			<Text>Archäologische Ausgrabungen für {1_MinorCivName:textkey} abgeschlossen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
+			<Text>Sendet einen Archäologen zur nahe gelegenen Stelle des Stadtstaats.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>Eine andere Gruppe von Archäologen war Euch einen Schritt voraus und untersuchte die Stelle in der Nähe von  {1_MinorCivName:textkey} zuerst. Der Professor von {1_MinorCivName:textkey} war von deren Arbeit beeindruckt und ihr Einfluss mit diesem Stadtstaat ist gewachsen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARCHAEOLOGY">
+			<Text>Stelle wurde von jemand anderem ausgegraben!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ARCHAEOLOGY_QUEST_LONG">
+			<Text>Der Stadtstaat von {1_CivName:textkey} möchte, dass Ihr einen Archäologen zur Studie des Geländefeldes entsendet.</Text>
+		</Row>
+
+		<!-- Circumnavigation -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION">
+			<Text>Beweist, dass die Erde rund ist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CIRCUMNAVIGATION">
+			<Text>Die Seeleute von {1_MinorCivName:textkey} haben gehört, dass Seeleute von anderen Zivilisationen und Stadtstaaten behaupten, die Erde sei rund. Daher möchten sie, dass Ihr die Wahrheit herausfindet. Wenn Ihr beweisen könnt, dass die Erde rund ist, wird Euer [ICON_INFLUENCE] Einfluss mit diesem Stadtstaat zunehmen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CIRCUMNAVIGATION">
+			<Text>{1_MinorCivName:textkey} ersucht um unerschrockene Seeleute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>Die Seeleute von {1_MinorCivName:textkey} sind in Ehrfurcht vor Euren erfahrenen Seeleuten und begeistert davon zu hören, dass die Erde weder flach noch eine Scheibe ist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CIRCUMNAVIGATION">
+			<Text>Umrundung für {1_MinorCivName:textkey} vollendet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
+			<Text>Seid der Erste der die Welt umrundet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>Jemand anderes hat die Welt für {1_MinorCivName:textkey} umrundet. Eure Seeleute sind niedergeschlagen und Euer Einfluss in diesem Stadtstaat hat nicht zugenommen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CIRCUMNAVIGATION">
+			<Text>Jemand anderes hat die Welt umrundet</Text>
+		</Row>
+
+		<!-- Liberation -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION">
+			<Text>Befreit einen Stadtstaat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_LIBERATION">
+			<Text>Partisanen der eroberten Stadt von {1_MinorCivName:textkey} haben sich mit den Anführern von {2_MinorCivName:textkey} verbündet und ersuchen Eure Hilfe ihre Hauptstadt zurück zu erobern. Wenn Ihr den Partisanen von {1_MinorCivName:textkey} dabei helft ihre Hauptstadt zu befreien, wird Euer [ICON_INFLUENCE] Einfluss bei beiden Stadtstaaten zunehmen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_LIBERATION">
+			<Text>{2_MinorCivName:textkey} ruft nach der Befreiung von {1_MinorCivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_LIBERATION">
+			<Text>Die Anführer von {2_MinorCivName:textkey} lobpreisen Eure heldenhaften Taten und danken Euch für die Befreiung von {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_LIBERATION">
+			<Text>Befreiung von {1_MinorCivName:textkey} für {2_MinorCivName:textkey} vollendet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
+			<Text>Sie wollen, dass Ihr den Stadtstaat {1_CityStateName:textkey} befreit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_LIBERATION">
+			<Text>Die Partisanen von {1_CityStateName:textkey} wünschen nicht länger Eure Hilfe, Daher haben die Anführer von {2_MinorCivName:textkey} ihr Hilfegesuch widerrufen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_LIBERATION">
+			<Text>Unterstützung bei der Befreiung von {1_MinorCivName:textkey} ist nicht länger nötig</Text>
+		</Row>
+
+		<!-- Horde -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE">
+			<Text>Barbarenhorde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_HORDE">
+			<Text>Eine Horde Barbaren ist nahe {2_MinorCivName:textkey} aufgetaucht! Wenn die Barbaren ihre Belagerung für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden aufrechterhalten, [COLOR_NEGATIVE_TEXT]wird die Stadt geplündert[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_HORDE">
+			<Text>Eine Horde Barbaren greift {1_MinorCivName:textkey} an!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_HORDE">
+			<Text>Die Barbarenhorde nahe {1_MinorCivName:textkey} versagte die Stadt zu plündern und hat sich aufgelöst.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_HORDE">
+			<Text>Horde nahe {1_MinorCivName:textkey} aufgelöst!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
+			<Text>Beschützt sie vor der Barbarenhorde!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_HORDE">
+			<Text>{1_CityStateName:textkey} ist in die Hand von Barbaren gefallen und [COLOR_NEGATIVE_TEXT]wurde geplündert[ENDCOLOR]! Sie bleibt unter der Kontrolle der Barbaren, bis sie zurückerobert wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_HORDE">
+			<Text>Barbaren plünderten {1_MinorCivName:textkey}!</Text>
+		</Row>
+		
+		<!--Rebellion -->
+
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION">
+			<Text>Ideologische Rebellen</Text>
+		</Row>
+
+			<!-- Start Desc -->		
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL">
+			<Text>Bewohner von {3_MinorCivName:textkey} haben einen Aufstand in {2_TargetName:textkey} angezettelt! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen[ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK">
+			<Text>Bewohner von {2_MinorCivName:textkey} haben einen Aufstand gegen {2_TargetName:textkey} angezettelt! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen[ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK_RANDOM">
+			<Text>Bewohner von {2_MinorCivName:textkey} haben einen Aufstand gegen ihren momentanen Herrscher angezettelt! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen [ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_FREEDOM">
+			<Text>Freiheitskämpfer von {3_MinorCivName:textkey} führen einen Aufstand gegen {2_TargetName:textkey} an! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen [ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_ORDER">
+			<Text>Das Proletariat von {3_MinorCivName:textkey} führt einen Aufstand gegen {2_TargetName:textkey} an! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen [ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_AUTOCRACY">
+			<Text>Guerillakämpfer von {3_MinorCivName:textkey} führen einen Aufstand gegen {2_TargetName:textkey} an! Wenn die Präsenz der Rebellen für [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] Runden anhält, [COLOR_NEGATIVE_TEXT]wird die Stadt dem Aufstand zum Opfer fallen [ENDCOLOR] und seine Bündnisse werden sich ändern.</Text>
+		</Row>
+
+			<!-- Start Summary -->
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION">
+			<Text>Revolution gegen {1_TargetName:textkey} in {2_MinorCivName:textkey}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK">
+			<Text>Revolution gegen {1_TargetName:textkey} in {2_MinorCivName:textkey}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION_BLANK_RANDOM">
+			<Text>Revolution in {1_MinorCivName:textkey}</Text>
+		</Row>
+
+			<!-- Complete -->
+		
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_REBELLION">
+			<Text>Die Revolutionäre von {1_MinorCivName:textkey} haben versagt und ihre Moral ist gebrochen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_REBELLION">
+			<Text>Revolution in {1_MinorCivName:textkey} niedergeschmettert!</Text>
+		</Row>
+
+			<!-- Formal -->
+		
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
+			<Text>Eine Revolution gegen ihren Verbündeten ist im Gange!</Text>
+		</Row>
+
+			<!-- Ended -->
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION">
+			<Text>Die Revolution in {2_CityStateName:textkey} war erfolgreich und seine Allianz mit {1_TargetName:textkey} wurde beendet. {2_CityStateName:textkey} schaut sich nun bei anderen Reichen nach Freundschaft und Schutz um.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REBELLION">
+			<Text>Revolution in {1_MinorCivName:textkey} siegreich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION_BLANK">
+			<Text>Die Revolution in {1_CityStateName:textkey} war erfolgreich. {1_CityStateName:textkey} schaut sich nun bei anderen Reichen nach Freundschaft und Schutz um.</Text>
+		</Row>
+
+	</language_de_DE>
+</GameData>

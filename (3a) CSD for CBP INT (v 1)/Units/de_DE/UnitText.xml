@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/7/2010 4:48:53 PM -->
+<GameData>
+	<language_de_DE>
+		<!-- EMISSARY -->
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>Abgesandter</Text>
+			<Gender>neuter:ein</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>Der Abgesandte ist die erste Diplomatische Einheit, die dem Spieler zur Verfügung steht und stellt die ersten Versuche friedlicher Zusammenarbeit zwischen den Zivilisationen dar. Da die Kultur der Diplomatie in der alten Ära noch recht grob ist, ist der Abgesandte nicht sehr wirksam. Gewinnt nur etwa 20 Einfluss durch eine Diplomatische Mission und beherrscht weder die Fertigkeit der Staatskunst, noch überraschenderweise die fremden Sprachen der Nachbarstaaten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_EMISSARY_TEXT">
+			<Text>Obwohl die günstigste und frühste verfügbare Diplomatische Einheit, sind Abgesandte nicht sehr zuverlässige Quellen stetigen Einflusses. Spieler sollten Abgesandte nur zur Sicherung oder Aufrechterhaltung von Stadtstaaten nutzen, mit denen sie bereits befreundet oder verbündet sind. Als solches ist es am besten diese Einheit als Erweiterung für das Erfüllen von Stadtstaaten-Quests zu nutzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
+			<Text>Erhaltet kostenlos die [COLOR_POSITIVE_TEXT]Eingeweihter[ENDCOLOR] Beförderung, welche 40 [ICON_INFLUENCE] Einfluss durch Diplomatische Missionen gewährt. [ICON_MOVES] Bewegt diese Einheit zu einem Stadtstaat mit dem ihr Euch nicht im Krieg befindet und führt eine Diplomatische Mission durch um [ICON_INFLUENCE] Einfluss zu gewinnen.</Text>
+		</Row>
+		
+		<!-- Envoy -->
+		<Row Tag="TXT_KEY_UNIT_ENVOY">
+			<Text>Bote</Text>
+			<Gender>neuter:ein</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MEDIEVAL_ENVOY_TEXT">
+			<Text>Während des Mittelalters wurde die Kunst der Diplomatie endlich erwachsen. Neue Theorien der Außenpolitik entstanden, die nicht mehr länger auf dem Prinzip der "Macht des Stärkeren" beruhten, sondern auf der Kunst der Schmeichelei, Raffinesse und falls erforderlich, auf der Einschüchterung. Der Bote repräsentiert diesen Sprung in der diplomatischen Macht und als solcher sowohl effektiver als auch teurer als der Abgesandte.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_STRATEGY">
+			<Text>Boten sind eine viel nützlichere Quelle des diplomatischen Einflusses bei Stadtstaaten. Diese Einheit kommt jedoch auch mit deutlich höheren Kosten einher. Spieler benötigen viel Papier, beschaffbar entweder durch Handel oder den Bau von Kanzleien, um die wachsende Nachfrage des diplomatischen Dienstes zu decken. Stadtstaaten-Quests sind noch für die Aufrechterhaltung freundlicher oder verbündeter Beziehungen wichtig, doch ihre Bedeutung schwindet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
+			<Text>Erhaltet kostenlos die [COLOR_POSITIVE_TEXT]Meister[ENDCOLOR] Beförderung, welche 50 [ICON_INFLUENCE] Einfluss bei Diplomatischen Missionen gewährt.[ICON_MOVES] Bewegt diese Einheit zu einem Stadtstaat, mit dem Ihr euch nicht im Krieg befindet und führt eine Diplomatische Mission durch um [ICON_INFLUENCE] Einfluss zu erhalten.</Text>
+		</Row>
+		
+		<!-- Diplomat -->
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT">
+			<Text>Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DIPLOMAT_TEXT">
+			<Text>Mit der Philosophie der Aufklärung und der Macht der modernen Industrie im Schlepptau, entwickelten sich Diplomaten während des Industriezeitalters zu wahren Kraftpaketen der Diplomatie und des Einflusses. Obwohl deutlich teurer, ermöglichen Diplomaten dem Spieler im deutlich größeren Umfang Einfluss bei Stadtstaaten zu gewinnen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
+			<Text>Diplomaten sind sehr teuer, im Vergleich zum Abgesandten und Boten. Spieler die nicht ständig die Versorgung von Papier erhöht haben, werden es schwer haben weiterhin Einfluss auf die Stadtstaaten dieser Welt zu üben. Wenn Ihr jedoch die Ressourcen und die Produktion für den Bau vieler Diplomatischer Einheiten sichergestellt habt, wird sich die Welt vor Eurer sanften Gewalt und Eurem überzeugenden Einfluss beugen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
+			<Text>Erhaltet kostenlos die [COLOR_POSITIVE_TEXT]Experte[ENDCOLOR] Beförderung, welche 60 [ICON_INFLUENCE] Einfluss bei Diplomatischen Missionen gewährt.[ICON_MOVES] Bewegt diese Einheit zu einem Stadtstaat, mit dem Ihr euch nicht im Krieg befindet und führt eine Diplomatische Mission durch um [ICON_INFLUENCE] Einfluss zu erhalten.</Text>
+		</Row>
+		
+		<!-- Ambassador -->
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
+			<Text>Botschafter</Text>
+			<Gender>neuter:ein</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">
+			<Text>Der moderne Botschafter, geboren in den wachsenden Spannungen der atomaren Kriegsführung, ist der Höhepunkt der diplomatischen Macht. Jahre formeller Ausbildung in Linguistik, Politik, Kultur und Wissenschaft erlauben es dem Botschafter jeden Stadtstaat zu kontrollieren den sie wollen. Diese Talente machen den Botschafter jedoch zu eine der teuersten diplomatischen Einheiten im Spiel - jeder Botschafter kostet fast so viel wie ein Panzer! Diese Investition mag hoch erscheinen, wenn aber ein Spieler von der Stadtstaaten Diplomatie absieht, wird er schnell seinen schwindenden Einfluss auf der weltpolitischen Bühne bemerken und andere Spieler werden sicherlich kommen, um den Weltkongress zu dominieren.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
+			<Text>Botschafter, wenn auch teuer, sind unerlässlich für einen Diplomatiesieg. Benutzt sie um die Kontrolle über Stadtstaaten von anderen Mitspielern zu entreißen. Pflegt Eure eigenen Bündnisse und haltet die Macht des Weltkongresses in Euren Händen. Diese Macht ermöglicht es Euch jegliche von Euch gewählte Resolutionen zu verabschieden und Eure Weltherrschaft ist zum greifen nah.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
+			<Text>Erhaltet kostenlos die [COLOR_POSITIVE_TEXT]Bevollmächtigter[ENDCOLOR] Beförderung, welche 70 [ICON_INFLUENCE] Einfluss bei Diplomatischen Missionen gewährt.[ICON_MOVES] Bewegt diese Einheit zu einem Stadtstaat, mit dem Ihr euch nicht im Krieg befindet und führt eine Diplomatische Mission durch um [ICON_INFLUENCE] Einfluss zu erhalten.</Text>
+		</Row>
+		
+		<!-- Great Diplomat-->
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT">
+			<Text>Großer Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREAT_DIPLOMAT_TEXT">
+			<Text>Überall in der Geschichte jeder Zivilisationen sind große Vermittler, Berater und Würdenträger während Zeiten des Streits oder Zeiten großer Macht erschienen. Große Diplomaten repräsentieren diese wichtigen Ereignisse und als solche in der Lage, die diplomatische Macht des Spielers zu erweitern. Spieler können sie verwenden, um sofort großen Einfluss bei einem Stadtstaat zu gewinnen oder, wenn sie weiter in die Zukunft schauen, dafür verwendet werden eine Botschaft im Land eines Stadtstaates zu bauen. Diese gewährt dem Spieler eine zusätzliche Stimme im Weltkongress sobald er gegründet wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
+			<Text>Erhaltet kostenlos die [COLOR_POSITIVE_TEXT]Meister Diplomat[ENDCOLOR] Beförderung, welche 70 [ICON_INFLUENCE] Einfluss bei Diplomatischen Missionen gewährt sowie weiteren [ICON_INFLUENCE] Einfluss für jedes abgeschlossene Zeitalter. Ihr könnt diese Einheit zu einem Stadtstaat [ICON_MOVES] bewegen, mit dem Ihr euch nicht im Krieg befindet und aus zwei Optionen wählen: Zuerst könnt Ihr eine [COLOR_POSITIVE_TEXT]Diplomatische Mission[ENDCOLOR] durchführen um [ICON_INFLUENCE] Einfluss zu gewinnen und den [ICON_INFLUENCE] Einfluss von anderen Zivilisationen um den gleichen Betrag zu reduzieren. Des Weiteren könnt Ihr eine [COLOR_POSITIVE_TEXT]Botschaft[ENDCOLOR] errichten, welche Euch eine weitere Stimme im Weltkongress gewährt. Für mehr Informationen zur Botschaft, schaut in die Civilopedia unter der Kategorie Modernisierungen. Der Große Diplomat wird bei bei beiden Verwendungszwecken verbraucht.</Text>
+		</Row>
+	</language_de_DE>
+</GameData>

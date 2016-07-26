@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2016 9:34:32 PM -->
+<GameData>
+	<language_de_DE>
+		<!-- Civilopedia-->
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_27">
+			<Text>Konzerne und Monopole</Text>
+		</Row>
+	</language_de_DE>
+</GameData>

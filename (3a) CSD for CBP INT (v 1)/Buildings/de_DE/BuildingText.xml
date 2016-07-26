@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/2/2011 2:22:56 PM -->
+<GameData>
+	<language_de_DE>
+		<!--Diplo Building Names-->
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
+			<Text>Kanzlei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE">
+			<Text>Nachrichtenagentur</Text>
+		</Row>
+		<!--National Wonder Names-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS">
+			<Text>Buchpresse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE">
+			<Text>Auswärtiges Amt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
+			<Text>Königliche Schreiber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE">
+			<Text>Palast für Kultur und Wissenschaften</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE">
+			<Text>Ehrenhalle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER">
+			<Text>Internationales Finanzzentrum</Text>
+		</Row>
+		<!-- World Wonder Names -->
+		<Row Tag="TXT_KEY_BUILDING_FORUM">
+			<Text>Forum Romanum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE">
+			<Text>Sommer Palast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL">
+			<Text>Großer Kanal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE">
+			<Text>Olympisches Dorf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE">
+			<Text>Kristallpalast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL">
+			<Text>Kammer des Sicherheitsrat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE">
+			<Text>Konsulat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UN">
+			<Text>Vereinigte Nationen</Text>
+		</Row>
+		<!--Diplo Building Help
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_HELP">
+			<Text>+1 [ICON_RES_PAPER] Papier. +10% [ICON_PRODUCTION] Produktion für diplomatische Einheiten. Gewährt diplomatischen Einheiten die Beförderung [COLOR_POSITIVE_TEXT]Königliches Siegel[ENDCOLOR] in der Stadt in der sie ausgebildet werden. [NEWLINE][NEWLINE] +5% Produktion [ICON_PRODUCTION] zur aktuellen Stadtproduktion pro neuen Bürger [ICON_CITIZEN].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Papier. +10% [ICON_PRODUCTION] Produktion für diplomatische Einheiten. Gewährt diplomatischen Einheiten die Beförderung [COLOR_POSITIVE_TEXT]Nachrichtenagentur[ENDCOLOR] in der Stadt in der sie ausgebildet werden. [NEWLINE][NEWLINE] +5% Produktion [ICON_PRODUCTION] zur aktuellen Stadtproduktion pro neuen Bürger [ICON_CITIZEN].</Text>
+		</Row>-->
+		<!--Diplo National Wonder Help-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
+			<Text>+2 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Nachrichtendienst in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Can only be constructed in a player's Capital. [NEWLINE][NEWLINE] +5% of the City's [ICON_PRODUCTION] Production is added to the current [ICON_PRODUCTION] Production amount every time the city gains a [ICON_CITIZEN] Citizen.</Text>
+		</Row>-->
+		<!--Diplo World Wonder Help-->
+		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
+			<Text>Receive 1 free Great Diplomat when completed. +1 [ICON_RES_PAPER] Paper. +20% [ICON_PRODUCTION] Production of Diplomatic Units. All Diplomatic Units receive the [COLOR_POSITIVE_TEXT]Imperial Seal[ENDCOLOR] Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Gewährt eine freie Kanzlei in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
+			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
+			<Text>Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +15 [ICON_PEACE] Glauben in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle. [NEWLINE][NEWLINE]Benötigt eine Militär Akademie in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
+			<Text>Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt. [NEWLINE][NEWLINE]Benötigt eine Börse in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
+			<Text>Erhaltet einen weiteren Handelsweg. Gewährt allen Marineeinheiten, außer U-Booten und Frachtern, die Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR], welche +10% Kampfstärke beim Angriff, +1 [ICON_MOVES] Fortbewegung, +1 Sicht und die Fähigkeit sich außerhalb von freundlichem Gebiet zu heilen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
+			<Text>25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Modernisierungen (Wahrzeichen, Moai-Statuen, Chateau) wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Erhaltet +3 [ICON_HAPPINESS_1] Zufriedenheit und +3 [ICON_CULTURE] Kultur in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_HELP">
+			<Text>Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +2 [ICON_PRODUCTION] Produktion und +2 [ICON_RESEARCH] Wissenschaft von allen Fabriken in eigenen Städten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSULATE_HELP">
+			<Text>Erhaltet einen weiteren Abgeordneten im Weltkongress.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_SECURITY_COUNCIL_HELP">
+			<Text>+1 [ICON_RES_PAPER] Paper. +10% [ICON_PRODUCTION] Production of Diplomatic Units. Receive additional [ICON_SPY] Spies.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_UN_HELP">
+			<Text>Erhaltet 10 [ICON_INFLUENCE] Einfluss für alle Stadtstaaten die Ihr getroffen habt, wenn Ihr eine Große Persönlichkeit aufbraucht. Erhaltet einen weiteren Abgeordneten im Weltkongress. Löst sowohl ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, als auch eine Sondersitzung der [COLOR_POSITIVE_TEXT]Vereinten Nationen[ENDCOLOR] aus.</Text>
+		</Row>
+		
+		<!--Diplo Building Strategy
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_STRATEGY">
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city. The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_STRATEGY">
+			<Text>Increases Diplomatic Unit production speed and increases the amount of Influence received for Diplomatic Units built in the city.  The Civil Servant specialist of this building offers a little [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_GOLD] Gold, in exchange for [ICON_FOOD] Food and [ICON_PRODUCTION] Production. The additional [ICON_PRODUCTION] Production granted upon City growth makes it important to build this building early on to maximize the boost.</Text>
+		</Row>-->
+		<!--Diplo National Wonder Strategy-->
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY">
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Kanzlei in all seinen Städte gebaut hat. Baut es um eine Steigerung der Produktionsgeschwindigkeit für den Bau von Diplomatischen Einheiten in der Stadt zu erhalten, in der es gebaut wird. Erhöht Fortbewegung und Einfluss aller Diplomatischen Einheiten und gewährt die Fähigkeit negative Geländemodifikationen zu ignorieren.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY">
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Presseagentur in all seinen Städte gebaut hat. Baut es um eine Steigerung der Produktionsgeschwindigkeit für den Bau von Diplomatischen Einheiten in der Stadt zu erhalten, in der es gebaut wird. Erhöht Fortbewegung und Einfluss aller Diplomatischen Einheiten und gewährt die Fähigkeit Diplomatische Einheiten durch gegnerisches Gelände zu bewegen ohne die Vereinbarung [COLOR_POSITIVE_TEXT]Offene Grenzen[ENDCOLOR] zu besitzen.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY">
+			<Text>This National Wonder is unique, in that players may build it in their Capital without any other prerequisites. The Scrivener's Office gives a small production boost when building diplomatic units in the capital, and one [ICON_RES_PAPER] Paper resource. Build this building if you want to secure a city-state ally or two during the first few eras of the game.</Text>
+		</Row>-->
+		<!-- Diplo World Wonder Strategy-->
+		<Row Tag="TXT_KEY_BUILDING_FORUM_STRATEGY">
+			<Text>Baut dieses Wunder um einen permanenten Anstieg auf Eure Beziehungen mit Stadtstaaten, durch besser ausgebildete Diplomatische Einheiten zu erhalten. Gewährt einen Großen Diplomaten, der zu einem nahe gelegenen Stadtstaat geschickt werden kann.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_STRATEGY">
+			<Text>Baut dieses Wunder um Euren Diplomatischen Einheiten das Betreten gegnerischen Geländes zu ermöglichen, ohne Offene Grenzen vereinbart zu haben - Jahrhunderte vor allen anderen. Gewährt eine freie Kanzlei in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY">
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Öffentliche Schule in all seinen Städten gebaut hat. Baut dieses Nationale Wunder um weitere Stimmen für den Weltkongress zu erhalten, basierend auf der Anzahl von momentan vereinbarten Forschungsabkommen mit anderen Spielern. Ihr erhaltet außerdem einen großen Bonus bei der Kultur- und Wissenschaftsproduktion, in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_STRATEGY">
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Militärakademie in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl eroberter Hauptstädte. Ihr erhaltet außerdem einen großen Bonus bei der Tourismus- und Glaubensproduktion, in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY">
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Börse in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl momentaner Freundschaftserklärung mit anderen Zivilisationen. Ihr erhaltet außerdem einen großen Bonus bei der Nagrungs- und Goldproduktion, in der Stadt in der es gebaut wird.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_STRATEGY">
+			<Text>Baut dieses Wunder um die Stärke und Haltbarkeit Eurer Marine mit der Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR] zu verbessern und erhaltet einen weiteren Handelsweg. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_STRATEGY">
+			<Text>Kombiniert die Stärken des Hotels, Stadions und Klosters in einem: Das Olympische Dorf ist ein kulturelles Kraftpaket im späten Spielverlauf. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_STRATEGY">
+			<Text>Wie sein reales Gegenstück, besticht der Kristallpalast mit einer breiten Palette an Boni. Spieler mit vielen Städten und Fabriken profitieren am meisten von ihm. Jedoch sind die zusätzliche Kultur und Plätze für Große Kunstwerke für jede Zivilisation nützlich. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE_STRATEGY">
+			<Text>Das Konsulat gibt dem Besitzer einen leichten Vorsprung im Weltkongress, durch Gewährung eines weiteren Abgeordneten. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+		</Row>
+		<!--
+		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL_STRATEGY">
+			<Text>The Security Council Office grants its owner an additional Spy, and improves the rate of Diplomatic Unit production. May only be built collaboratively through the World Congress.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_BUILDING_UN_STRATEGY">
+			<Text>Wenn es mit einer hohen Generierungsrate von Großen Persönlichkeiten kombiniert wird, gewähren die Vereinten Nationen dem Besitzer einen deutlichen Anstieg der diplomatischen Macht im Weltkongress. Es gewährt außerdem einen weiteren Abgeordneten und leitet ein [ICON_GOLDEN_AGE] Goldenes Zeitalter ein. [NEWLINE][NEWLINE]Zusätzlich zu diesen unmittelbaren Vorteilen, löst die Errichtung der Vereinten Nationen den Beginn einer Sondersitzung des Weltkongresses aus, die den Diplomatiesieg freischaltet. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+		</Row>
+		<!--Diplo Building Civilopedia Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CHANCERY_TEXT">
+			<Text>Während der früh-mittelalterlichen Zeit drangen Kanzleien als ein Arm von vielen königlichen Häusern empor. Beauftragt mit der Herausgabe von Gerichtsunterlagen, Verwaltung von königlichen Dekreten, der Rechtspflege und Prüfung der Einnahmen eines Monarchen, versuchten sich Kanzleien in allen Elementen der Staatskunst, darunter auch Diplomatie. Als Königreiche und Staaten in ihrer Größe und Umfang in der frühen Neuzeit zu nahmen, wuchs auch die Macht der Kanzleien. Bis in das 17. und 18. Jahrhundert trennten die meisten westlichen Länder die Kanzleien rechtlich in mehrere, präzisere Auskunfteien auf. Somit ist die Kanzlei der Vorfahre des modernen öffentlichen Dienstes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIRE_SERVICE_TEXT">
+			<Text>Obwohl heute selbstverständlich, war die Einrichtung von regionalen, nationalen und schließlich internationalen Nachrichtendiensten (oder Informationsdiensten) ein großer Segen für die wirtschaftliche, politische und kulturelle Vernetzung der Welt. Durch die Standardisierung der Geschwindigkeit, Qualität und Stabilität der Kommunikation auf einer globalen Ebene, sind moderne Nachrichtendienste nicht nur nützlich für die Verbreitung von populärem und intellektuellem Wissen, sondern auch für die Beschleunigung des Diskurs zwischen Regierungen. Schließlich schufen die meisten Länder nationale Nachrichtendienste, die auf Außenpolitik und Diplomatie ihren Fokus legten. Viele dieser Organisationen standen unter der Kontrolle eines Auswärtige Amts.</Text>
+		</Row>
+		<!--Diplo National Wonder Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PRINTING_PRESS_TEXT">
+			<Text>Von einer einzigen Druckerei in Mainz (Deutschland), verbreitete sich die Druckkunst mit beweglichen Lettern bis zum Ende des 15. Jahrhunderts über nicht weniger als 270 Städte in Zentral-, West- und Ost-Europa. Es wird vermutet, dass bereits 1480 "das gedruckte Buch in Europa im allgemeinen Gebrauch war". Um 1500 hatten die betriebenen Druckmaschinen in ganz Westeuropa bereits mehr als zwanzig Millionen Exemplare produziert. Europäische Druckmaschinen waren um 1600 in der Lage 3.600 Drucke pro Arbeitstag zu produzieren. Zum Vergleich der Buchdruck im Fernen Osten: Druckerpressen waren hier unbekannt. Hier wurde Papier händisch auf spiegelverkehrte Platten aus Holz gerieben, wodurch sie nicht mehr als 40 Seiten am Tag produzieren konnten. Die Schnelligkeit der typografischen Textproduktion sowie der starke Rückgang der Stückkosten, führte zur Herausgabe der ersten Zeitungen, die ein völlig neues Feld der aktuellen Informationsbeschaffung für die Öffentlichkeit öffnete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FOREIGN_OFFICE_TEXT">
+			<Text>Das Auswärtige Amt befindet sich im Herzen des modernen Imperiums. Es wimmelt hier von riesigen, endlosen Legionen von Beamten, Diplomaten und Helfern. Alle Nachrichten sowohl kritische als auch banale passieren hier die Hallen des Auswärtigen Amts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
+			<Text>Die Position der königlichen Schreiber und das Büro darin, ist eine der ältesten und wichtigsten Positionen innerhalb des öffentlichen Dienstes. Obwohl ein moderner Staat Hunderte von Beamten hat die schreiben, bearbeiten und Regierungsdekrete veröffentlichen, wurden in der Antike diese Aufgaben in der Regel von jemand bestimmtem, dem Schreiber erledigt. Schreiber übten eine immense Macht aus, da sie die Kontrolle über die Formulierung, die Übersetzung und die Interpretation von Gesetzen des Landes hatten. Aufgrund dieser großen Macht war ein guter loyaler Schreiber eine unschätzbare Ressource.</Text>
+		</Row>
+		
+		<!-- Diplo Project UN Wonders 
+		-->
+		<!--
+		<Row Tag="TXT_KEY_SECURITY_COUNCIL_DESC">
+			<Text>The United Nations Security Council (UNSC) is one of the six principal organs of the United Nations and is charged with the maintenance of international peace and security. Its powers include the establishment of peacekeeping operations, the establishment of international sanctions, and the authorization of military action through Security Council resolutions; it is the only UN body with the authority to issue binding resolutions to member states. The Security Council held its first session on 17 January 1946. Like the UN as a whole, the Security Council was created following World War II to address the failings of another international organization, the League of Nations, in maintaining world peace.</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_CONSULATE_DESC">
+			<Text>Das Amt eines Konsuls wird als Konsulat bezeichnet und ist in der Regel der Hauptvertretung in einem fremden Land untergeordnet, meist einer Botschaft oder bei einem Staatenbund einem Hochkommissariat in der Hauptstaat des Aufnahmelands. Wie der Begriff Botschaft kann sich das Wort Konsulat nicht nur das Amt des Konsuls, sondern auch auf das vom Konsul bezogene Gebäude mit seinem Personal beziehen. Das Konsulat kann Räumlichkeiten mit der Botschaft selbst teilen. In der heutigen Zeit arbeiten viele Konsulate mit den Vereinten Nationen und/oder anderen internationalen Organisationen zusammen.</Text>
+		</Row>
+		
+		<!--Diplo World Wonder Entries-->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FORUM_TEXT">
+			<Text>Das Forum Romanum ist ein rechteckiges Forum (Platz) umgeben von den Ruinen mehrerer wichtiger alter Regierungsgebäude in der Mitte der Stadt Rom. Es war über Jahrhunderte das Zentrum des öffentlichen Lebens: der Ort der Triumphzüge und Wahlen, Veranstaltungsort für öffentliche Reden, Strafverfahren, Gladiatorenspiele und wirtschaftlichen Angelegenheiten. Das schlagende Herz des antiken Roms, es wurde als der berühmteste Treffpunkt der Welt in der gesamten Geschichte bezeichnet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FORUM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Ich bekam eine Stadt aus Ziegeln und hinterließ eine Stadt aus Marmor."[NEWLINE]- Augustus Caesar[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUMMER_PALACE_TEXT">
+			<Text>In Abschnitten während des späten Mittelalters und frühen Neuzeit gebaut, war der Sommerpalast ein großes, prächtiges Gebäude der Kraft und Macht der frühen Qing Dynastie und ein Gegenstück zum Hauptpalast des Kaisers in Peking. Berühmt für seinen exquisiten Landschaftsbau, üppigen Gärten und spektakulären Aussicht, bleibt der Sommerpalast ein wichtiges Symbol für die Macht der frühen Neuzeit Chinas und ein beliebtes Touristenziel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SUMMER_PALACE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Eine Monarchie ist die teuerste aller Regierungsformen, ..er welcher sich selbst zum Herrscher ernannt hat, muss seine Macht durch Bestechung der Aktiven und Unterwerfung derer die er nicht bestechen kann festigen."[NEWLINE]- James F. Cooper[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_SCIENCE_CULTURE_TEXT">
+			<Text>Der Kultur- und Wissenschaftspalast in Warschau ist das größte Gebäude in Polen und das acht-höchste Gebäude in der Europäischen Union. Die ursprüngliche Widmung an Stalin "Josef-Stalin-Kultur-und-Wissenschaftspalast" wurde im Zuge der De-Stalinisierung widerrufen. Stalins Name wurde sowohl in der inneren Empfangshalle entfernt, als auch eine Statue die ihn abbildete. Zur Zeit ist es das 187. höchste Gebäude in der Welt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EHRENHALLE_TEXT">
+			<Text>Die "Ehrenhalle" wurde von der Stadt Nürnberg nach einem Plan des deutschen Architekten Fritz Mayer gebaut. Sie wurde im Jahr 1930 vor der Hitlerzeit während der Weimarer Republik eingeweiht. Es handelt sich um eine Arkadenhalle mit einer angrenzenden aus Stein gepflasterten Terrasse die beidseitig von einer Sockelreihe mit Flammenschalen begrenzt ist. Alle vierzehn Flammenschalen blieben praktisch intakt und wurden seit dem letzten Reichsparteitag im September 1938 nicht mehr entzündet. Ursprünglich war die Halle eine Gedenkstätte für die 9.855 Soldaten aus Nürnberg die im Ersten Weltkrieg gefallen waren. Während des Parteitags von 1929 wurde die damals noch unvollendete Ehrenhalle für die Inszenierung eines Totenkult durch die Nationalsozialisten missbraucht. Während des Dritten Reiches nutzten die Nazis die Halle vor allem als Gedenkstätte an die Gefallenen des Ersten Weltkriegs und der 16 Toten des "Hitler-Putsch" (die so genannten "Märtyrer der NS-Bewegung") vom 9. November 1923 in München. Hitler, begleitet von SS-Führer Heinrich Himmler und SA-Führer Viktor Lutze, schritt über den Platz und über den 240 Meter langen Granitweg von der Haupttribüne zur Terrasse der Ehrenhalle, wo er den Hitlergruß zeigte. Das Ritual war der Höhepunkt der Feierlichkeiten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FINANCE_CENTER_TEXT">
+			<Text>Ein Finanzzentrum ist eine Weltstadt, die eine Heimat für zahlreiche international bedeutende Banken, Unternehmen und Börsen ist. Ein International Financial Center, manchmal abgekürzt mit IFC, ist eine unspezifisch genutzte Bezeichung für einen wichtigen Teilnehmer am internationalen Handel der mindestens eine Börse besitzen. Ein Großteil des 20. Jahrhunderts waren die Vereinigten Staaten mit seiner Finanz-Hauptstadt New York führend. Doch seit den 1990er Jahren, mit dem Aufkommen einer multipolaren Welt, mit neuen Regionalmächten und einem globalen Kapitalismus, haben zahlreiche Finanzzentren die Vorherrschaft der Wall Street - insbesondere Asien, wo einige Analysten den Neuen Mittelpunkt des globalen Wachstums sehen, herausgefordert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_CANAL_TEXT">
+			<Text>
+				Der Canal Grande ist der größte Kanal in Venedig (Italien) und bleibt eine der wichtigsten Handels- und Verkehrskorridore in der Stadt. Als Stadt der kleinen Inseln wurde diese im Mittelalter durch das Ausbaggern des Bodens verbessert. Sumpfiger Boden wurde dadurch über die Gezeitenlinie gehoben und so entstanden überflutete Kanäle. Diese Kanäle trugen zur Blüte der nautischen Kultur bei und dessen wirtschaftliche Bedeutung vom Mittelalter bis weit in die heutige Zeit reicht. Noch heute bieten diese Kanäle die Möglichkeit für den Transport von Gütern und Menschen in der Stadt. Das Labyrinth aus Kanälen die sich durch die Stadt winden erfordert den Einsatz von mehr als 400 Brücken, um den Verkehrsfluss zu Fuß zu ermöglichen. Im Jahr 2011 eröffnete die Stadt Ponte della Costituzione die vierte Brücke über den Canal Grande, die den Piazza Roma Bus Terminal mit der Stazione Ferroviaria (Bahnhof) verbindet. Die anderen Brücken sind die Ponte di Rialto, Ponte Accademia und die Ponte Degli Scalzi.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRAND_CANAL_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Eine Stadt zu bauen wo es unmöglich ist eine Stadt zu bauen ist Wahnsinn, aber dort eine der elegantesten und großartigsten Städte zu bauen ist der Wahnsinn eines Genies.”[NEWLINE]- Alexander Herzen[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_OLYMPIC_VILLAGE_TEXT">
+			<Text>
+				Ein Olympisches Dorf ist eine Unterkunft für die Olympischen Spiele, in der Regel innerhalb eines Olympiaparks oder anderswo in der Gastgeberstadt. Olympische Dörfer werden gebaut, um alle teilnehmenden Athleten und Beamte, sowie athletische Trainer zu beherbergen. Die Idee des Olympischen Dorfes stammt von Pierre de Coubertin, da nämlich bis zu den Olympischen Spielen im Sommer 1924 das Olympische Komitee nur Standorte für die Unterbringung rund um die Gastgeberstadt vermietete und das recht teuer war, bauten die Organisatoren für die Olympischen Sommerspiele 1924 Häuser nahe der Stade Olympique de Colombes um den Athleten den problemlosen Zugang zum Veranstaltungsort zu ermöglichen. Das Olympische Dorf der Sommerspiele von 1932 dient immer noch als Modell der heutigen Olympischen Dörfer - es bestand aus einer Reihe von Gebäuden mit Zimmern um die Athleten zu beherbergen und anderen Räumlichkeiten.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OLYMPIC_VILLAGE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Das Wichtigste bei den Olympischen Spielen ist nicht zu Gewinnen, sondern daran teilzunehmen.; Wesentlich ist nicht gesiegt, sondern ritterlich gut gekämpft zu haben" [NEWLINE]- Pierre de Coubertin[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_PALACE_TEXT">
+			<Text>
+				Der Kristallpalast war ein Gebäude im Stil der Gusseisen-Architektur ganz aus Glas und Gusseisen, welches ursprünglich im Hyde Park, London zur Weltausstellung von 1851 errichtet wurde. Mehr als 14.000 Aussteller aus der ganzen Welt versammelten sich auf der 990.000 Quadratmeter großen Ausstellungsfläche, um die neusten Errungenschaften der Industriellen Revolution zu präsentieren. Entworfen von Sir Joseph Paxton, war das Weltausstellungsgebäude 1851 Fuß lang (564 Meter), mit einer Innenhöhe von 128 Fuß (39 Meter). Aufgrund der jüngsten Erfindung der Glasarchitektur im Jahr 1848, die die Verwendung von großem günstigen aber auch starkem Glas ermöglichte, war der Kristallpalast zu jener Zeit mit der größten Menge an Glas versehen die jemals in einem Gebäude zum Einsatz kam. Er beeindruckte die Besucher mit durchsichtigen Wänden und Decken die keine Innenbeleuchtung benötigten, sprich ein "Kristallpalast".
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CRYSTAL_PALACE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Ich träumte, dass die Ausstellung... war, wie sie sein müsste, ein Palast ganz aus Kristall, der Himmel schaut durch jeden Teil des Daches über alle Nationen darunter." [NEWLINE]- Douglas Jerrold[NEWLINE][TAB]
+			</Text>
+		</Row>
+	</language_de_DE>
+</GameData>
