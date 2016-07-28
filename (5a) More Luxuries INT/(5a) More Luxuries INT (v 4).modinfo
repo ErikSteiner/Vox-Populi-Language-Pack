@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="cdcea37d-ccbf-4c72-b63f-5a2c150a2641" version="3">
+<Mod id="cdcea37d-ccbf-4c72-b63f-5a2c150a2641" version="4">
   <Properties>
     <Name>(5a) More Luxuries INT</Name>
     <Stability>Beta</Stability>
@@ -8,7 +8,7 @@
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
