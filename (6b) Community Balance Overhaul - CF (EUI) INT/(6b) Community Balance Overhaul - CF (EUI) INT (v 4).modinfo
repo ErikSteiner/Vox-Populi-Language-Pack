@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="3">
+<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="4">
   <Properties>
     <Name>(6b) Community Balance Overhaul - CF (EUI) INT</Name>
     <Stability>Beta</Stability>
@@ -8,7 +8,7 @@
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
