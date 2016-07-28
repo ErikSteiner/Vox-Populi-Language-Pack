@@ -1,3 +1,5 @@
-# Vox-Populi-Translation-Framework
-The Framework contains all data that are needed to translate Vox Populi to different languages.
-It can be used to translate the project or to use the result for playing the game in your native language.
+# Vox-Populi-Language-Pack
+The Language Pack contains all data that are needed to show you Vox Populi in a different language than English.
+Currently only German is supported, but by using the "Vox Populi Translation Framework" you are able to create your own translation, for your native language. If you like your language will then be added to the Language Pack, making it available to the community and to your fellow countrymen.
+
+If you decide to become a translater and Gazebo releases a new version, please look at the changes of the "Vox Populi Translation Framework", so your translation will be soon up-to-date again.
