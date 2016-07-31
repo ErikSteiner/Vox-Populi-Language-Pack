@@ -2399,7 +2399,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_BUILD_X_COMPLETE">
-			<Text>The builders fromm {@2_Civ} are dazzled by your monumental construction efforts.</Text>
+			<Text>The builders from {@1_Civ} are dazzled by your monumental construction efforts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BUILD_X_COMPLETE">
 			<Text>Construction project completed!</Text>
@@ -2644,11 +2644,14 @@
 		</Row>
 
 		<!-- Score Text -->
+		<Row Tag="TXT_KEY_REPLAY_DATA_TOURISMPERTURN">
+			<Text>Tourismus [ICON_TOURISM] pro Runde</Text>
+		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
-			<Text>{1_Num} from City-State Alliances</Text>
+			<Text>{1_Num} durch Stadtstaat Allianzen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
-			<Text>{1_Num} from Military Power</Text>
+			<Text>{1_Num} durch militärische Stärke</Text>
 		</Row>
 		<!-- CS TEXT CBP -->
 		<Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
@@ -6419,9 +6422,42 @@
 			<Text>Aktiviert Ereignis System</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_HELP">
-			<Text>Check to enable Vox Populi's Player and City Events System</Text>
+			<Text>Hakt es an um das Vox Populi Spieler- und Stadtereignis System zu aktivieren</Text>
 		</Row>
-		
+
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_GOOD">
+			<Text>Keine guten Ereignisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_GOOD_HELP">
+			<Text>Hakt es an um Ereignisse mit positiven Ausgang des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_NEUTRAL">
+			<Text>Keine neutralen Ereignisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_NEUTRAL_HELP">
+			<Text>Hakt es an um Ereignisse mit neutralem Ausgang des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_BAD">
+			<Text>Keine schlechten Ereignisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_BAD_HELP">
+			<Text>Hakt es an um Ereignisse mit schlechtem Ausgang des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE">
+			<Text>Keine Handelseregnisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE_HELP">
+			<Text>Hakt es an um Handelseregnisse (sonstige) des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAMEOPTION_CIV_SPECIFIC_EVENTS">
+			<Text>Keine Zivilisations-spezifischen Ereignisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_CIV_SPECIFIC_EVENTS_HELP">
+			<Text>Hakt es an um Zivilisations-spezifische Ereignisse des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+		</Row>
+
 		<!-- Egypt CBO-->
 
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">

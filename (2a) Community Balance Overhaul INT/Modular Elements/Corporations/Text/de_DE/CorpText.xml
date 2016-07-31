@@ -64,7 +64,7 @@
 			<Text>{TXT_KEY_TOPIC_CORPORATION_TYPES}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_CORPORATION_TYPES_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]Corporation Types[ENDCOLOR]: there are seven Corporations avaialable in the Community Balance Patch. Each of these can only be constructed once (and only one per player), so choose wisely![NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Civilized Jewelers:[ENDCOLOR] {TXT_KEY_CORP_HELPER_CIVILIZED_JEWELERS} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Firaxite Materials:[ENDCOLOR] {TXT_KEY_CORP_HELPER_FIRAXITE_MATERIALS} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Giorgio Armeier:[ENDCOLOR] {TXT_KEY_CORP_HELPER_GIORIO_ARMEIER} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Hexxon Refinery:[ENDCOLOR] {TXT_KEY_CORP_HELPER_HEXXON_REFINERY} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]LandSea Extractors:[ENDCOLOR] {TXT_KEY_CORP_HELPER_LANDSEA_EXTRACTORS} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Trader Sid's:[ENDCOLOR] {TXT_KEY_CORP_HELPER_TRADER_SIDS} [NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]TwoKay Foods:[ENDCOLOR] {TXT_KEY_CORP_HELPER_TWOKAY_FOODS}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Corporation Types[ENDCOLOR]: there are seven Corporations avaialable in the Community Balance Patch. Each of these can only be constructed once (and only one per player), so choose wisely! For more on this, see the [COLOR_POSITIVE_TEXT]Corporations[ENDCOLOR] Tab of the Civilopedia.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TYPES_QUESTION">
 			<Text>How do I spread my Corporation?</Text>
@@ -246,7 +246,7 @@
 			<Text>Corporation Founded!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER">
-			<Text>{1_PlayerName} has founded [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]! This Corporation can no longer be established unless the other player's Corporation Headquarters is destroyed (on city capture).</Text>
+			<Text>{1_PlayerName} has founded [COLOR_POSITIVE_TEXT]{@2_CorporationName}[ENDCOLOR]! This Corporation can no longer be established unless the other player's Corporation Headquarters is destroyed (on city capture).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER_SUMMARY">
 			<Text>{1_PlayerName} has founded a Corporation!</Text>

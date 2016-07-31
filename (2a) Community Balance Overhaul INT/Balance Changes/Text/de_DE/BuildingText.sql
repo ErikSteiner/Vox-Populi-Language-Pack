@@ -104,7 +104,7 @@ SET Text = '+1 [ICON_PRODUCTION] Produktion von allen Wald- und Dschungel-Gelän
 WHERE Tag = 'TXT_KEY_BUILDING_WORKSHOP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Die Stadt muss mindestens eine dieser Ressourcen mit einem Steinbruch verbessern.'
+SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Die Stadt muss mindestens eine dieser Ressourcen modernisiert haben.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -256,7 +256,7 @@ SET Text = 'Die Raumschiffteile Fabrik steigert die Geschwindigkeit mit der eine
 WHERE Tag = 'TXT_KEY_BUILDING_SPACESHIP_FACTORY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '50% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +50%.'
+SET Text = '25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25%.'
 WHERE Tag = 'TXT_KEY_BUILDING_HOTEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

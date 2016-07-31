@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="22bfc64e-243a-40e6-aa12-9c51ae64ea5d" version="4">
+<Mod id="22bfc64e-243a-40e6-aa12-9c51ae64ea5d" version="3">
   <Properties>
     <Name>(3a) CSD for CBP INT</Name>
     <Stability>Beta</Stability>
@@ -8,7 +8,7 @@
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
