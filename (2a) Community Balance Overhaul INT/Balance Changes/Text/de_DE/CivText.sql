@@ -84,7 +84,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT' AND EXISTS (SELECT * FROM COMMUNITY
 -- Austria
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Use [ICON_GOLD] Gold to arrange Marriages to City-States. While at peace with the City-State, Marriages eliminate [ICON_INFLUENCE] Influence decay, grant +1 Delegate to World Congress, and +10% [ICON_GREAT_PEOPLE] Great Person Rate in your [ICON_CAPITAL] Capital.'
+SET Text = '+50% rewards from City-State Quests. May arrange Marriages with City-States using [ICON_GOLD] Gold. Marriages halt [ICON_INFLUENCE] Influence decay, grant +1 World Congress Delegate, and boost [ICON_GREAT_PEOPLE] Great People Rate in [ICON_CAPITAL] Capital by +15%.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -112,7 +112,7 @@ WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY' AND EXISTS (SELECT * FROM CO
 -- Aztecs
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion für je 4 [ICON_CITIZEN] Bürger in der Stadt. Jeder bewirtschaftete See gewährt +2 [ICON_FOOD] Nahrung und Fluß-Geländefelder +1 [ICON_FOOD] Nahrung.'
+SET Text = '+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion für je 2 [ICON_CITIZEN] Bürger in der Stadt. Jeder bewirtschaftete See gewährt +2 [ICON_FOOD] Nahrung und Fluß-Geländefelder +1 [ICON_FOOD] Nahrung.'
 WHERE Tag = 'TXT_KEY_BUILDING_FLOATING_GARDENS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -264,7 +264,7 @@ WHERE Tag = 'TXT_KEY_CIV5_DENMARK_BERSERKER_STRATEGY' AND EXISTS (SELECT * FROM 
 -- Egypt
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Recieve a free unique Egytian [ICON_GREAT_WORK] Artifact when constructed.[NEWLINE][NEWLINE]When a [ICON_INTERNATIONAL_TRADE] Land Trade Route originating here and targeting another Civ is completed, receive a [ICON_TOURISM] Tourism boost with the Civ based on your recent [ICON_CULTURE] Culture output.[NEWLINE][NEWLINE]Receive 10 [ICON_GOLDEN_AGE] Golden Age Points whenever you win a battle. Bonus scales with era.[NEWLINE][NEWLINE]Land Trade Routes gain +50% Range and +2 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_TRUFFLES] Truffles: +2 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_COTTON] Cotton: +1 [ICON_PRODUCTION] Production, +1 [ICON_CULTURE] Culture.[NEWLINE]Neabry [ICON_RES_FUR] Furs: +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production.'
+SET Text = 'Receive a free unique Egytian [ICON_GREAT_WORK] Artifact when constructed.[NEWLINE][NEWLINE]When a [ICON_INTERNATIONAL_TRADE] Land Trade Route originating here and targeting another Civ is completed, receive a [ICON_TOURISM] Tourism boost with the Civ based on your recent [ICON_CULTURE] Culture output.[NEWLINE][NEWLINE]Receive 10 [ICON_GOLDEN_AGE] Golden Age Points whenever you win a battle. Bonus scales with era.[NEWLINE][NEWLINE]Land Trade Routes gain +50% Range and +2 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_TRUFFLES] Truffles: +2 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_COTTON] Cotton: +1 [ICON_PRODUCTION] Production, +1 [ICON_CULTURE] Culture.[NEWLINE]Neabry [ICON_RES_FUR] Furs: +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production.'
 WHERE Tag = 'TXT_KEY_BUILDING_BURIAL_TOMB_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -827,7 +827,7 @@ SET Text = 'Melee naval unit which excels at sea exploration. Has higher Combat 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PORTUGUESE_NAU' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'When your Trade Units move, receive +2 [ICON_RESEARCH] Science, [ICON_GREAT_ADMIRAL] Great Admiral Points (for Cargo Ships), and [ICON_GREAT_GENERAL] Great General Points (for Caravans), scaling with Era.'
+SET Text = 'Wenn sich eine Handelseiheit bewegt, erhaltet Ihr +3 [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold, [ICON_GREAT_ADMIRAL] Große Admiral Punkte (für Frachter) und [ICON_GREAT_GENERAL] Große General Punkte (für Karawanen), steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_TRADE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -879,11 +879,11 @@ SET Text = 'Ostrog is a Russian term for a small fort, typically wooden and ofte
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'All Strategic Resources provide +1 [ICON_RESEARCH] Science and double their normal quantity. When you purchase a tile with [ICON_GOLD] Gold, receive +20 [ICON_RESEARCH] Science. Bonus scales with Era.'
+SET Text = 'Alle strategische Ressourcen gewähren +1 [ICON_RESEARCH] Wissenschaft und verdoppeln ihre Menge. Erhaltet +15 [ICON_RESEARCH] Wissenschaft, wenn Ihr ein Geländefeld erwerbt oder mit Gold kauft. Steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_STRATEGIC_RICHES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Only the Russians may build it. This Unit has a combat bonus when fighting enemies that have already taken damage, and its attacks can force enemies to retreat.'
+SET Text = 'Kann nur von den Russen erbaut werden. Diese Einheit hat einen Kampfbonus gegen Einheiten, die bereits Schaden erlitten haben und seine Angriffe können Feinde zurückweichen lassen.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_COSSACK' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 --------------------

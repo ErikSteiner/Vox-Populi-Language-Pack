@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="39bc1f7d-c98c-4db9-8120-736cbabe0f1c" version="3">
+<Mod id="39bc1f7d-c98c-4db9-8120-736cbabe0f1c" version="4">
   <Properties>
     <Name>(4a) Civ IV Diplomatic Features INT</Name>
     <Stability>Beta</Stability>
@@ -8,7 +8,7 @@
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>

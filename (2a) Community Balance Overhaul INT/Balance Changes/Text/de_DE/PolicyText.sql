@@ -334,7 +334,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT' AND EXISTS (SELECT * FROM COMM
 
 -- Cultural Exchange
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR][NEWLINE]Increases the [ICON_TOURISM] Tourism modifier for shared religion, trade routes, and open borders by 25% each. The empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.'
+SET Text = '[COLOR_POSITIVE_TEXT]Kultureller Austausch[ENDCOLOR][NEWLINE]Erhöht den [ICON_TOURISM] Tourismusmodifikator für gemeinsame Religion, Handelswege und offene Grenzen jeweils um 20%. Das Reich tritt sofort in ein [ICON_GOLDEN_AGE] Goldenes Zeitalter ein.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Opener -- now called Industry
@@ -426,33 +426,34 @@ WHERE Tag = 'TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_TEXT' AND EXISTS (SELECT * F
 
 -- Merchant Navy -- Now called Exploitation -- +1 Food and +1 Production from Snow, Desert and Mountain Tiles
 UPDATE language_de_DE
-SET Text = 'Exploitation'
+SET Text = 'Ausbeutung'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Exploitation[ENDCOLOR][NEWLINE]Farms and Plantations gain +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food. Military Units can be upgraded in territory owned by allied City-States.'
+SET Text = '[COLOR_POSITIVE_TEXT]Ausbeutung[ENDCOLOR][NEWLINE]Bauernhöfe und Plantagen erhalten +1 [ICON_PRODUCTION] Produktion und +1 [ICON_FOOD] Nahrung. Eure Streitkräfte sind um 25% effektiver bei der Einschüchterung von Stadtstaaten.'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
 SET Text = 'Exploitation is the use of someone or something in an unjust or cruel manner, or generally as a means to an end. Most often, the word exploitation is used to refer to economic exploitation; that is, the act of using another person as a means to profit, particularly using their labor without offering or providing them fair compensation.'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Naval Tradition -- Military Tradition -- +25% to Great Admiral and Great General Production -- Barracks, Armories and Military Academies provide +1 Science.
+-- Naval Tradition -- Now called Military Tradition -- Receive a free Great Admiral -- Reveals all Capitals.
 UPDATE language_de_DE
-SET Text = 'Military Tradition'
+SET Text = 'Militärtradition'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Earn [ICON_GREAT_ADMIRAL] Great Admirals and [ICON_GREAT_GENERAL] Great Generals 33% more quickly. Barracks, Armories and Military Academies provide +3 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture.'
-WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
+SET Text = '[COLOR_POSITIVE_TEXT]Militärtradition[ENDCOLOR][NEWLINE]Earn [ICON_GREAT_ADMIRAL] Great Admirals and [ICON_GREAT_GENERAL] Great Generals 33% more quickly. Barracks, Armories, and Military Academies provide +3 [ICON_RESEARCH] Science and +1 [ICON_CULTURE] Culture.'
+WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
 SET Text = 'Military tradition is the specific set of practices associated with the military or soldiers in general. The concept may describe the styles of military uniform, drill, or even the music of a military unit.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Navigation School -- Now called Exploration -- Receive a free Great Admiral -- Reveals all Capitals.
+-- Navigation School -- Exploration -- +25% to Great Admiral and Great General Production -- Barracks, Armories and Military Academies provide +1 Science.
+
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR][NEWLINE] Receive a free [ICON_GREAT_ADMIRAL] Great Admiral. All undiscovered [ICON_CAPITAL] Capitals are revealed. Embarked units receive +2 [ICON_MOVES] Movement, and [ICON_GREAT_GENERAL] Great Generals recieve +1 [ICON_MOVES] Movement.'
+SET Text = '[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR][NEWLINE] Receive a free [ICON_GREAT_ADMIRAL] Great Admiral. Military Units can be upgraded in territory owned by friendly City-States. Embarked units receive +2 [ICON_MOVES] Movement, and [ICON_GREAT_GENERAL] Great Generals receive +1 [ICON_MOVES] Movement.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -462,6 +463,10 @@ WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION' AND EXISTS (SELECT * FROM COMMUNITY
 UPDATE language_de_DE
 SET Text = 'Exploration is the act of searching for the purpose of discovery of information or resources. Exploration occurs in all non-sessile animal species, including humans. In human history, its most dramatic rise was during the Age of Discovery when European explorers sailed and charted much of the rest of the world, largely in a pursuit of material wealth. Since then, major explorations after the Age of Discovery have occurred for reasons mostly aimed at information discovery.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVALTRADITION_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
+
+UPDATE language_de_DE
+SET Text = 'Policy Modifier for Bullying'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Treasure Fleets -- Now called Civilizing Mission -- Receive a free Military Base, and a lump sum of Gold, when you conquer a city. Reduced maintenance.
 UPDATE language_de_DE

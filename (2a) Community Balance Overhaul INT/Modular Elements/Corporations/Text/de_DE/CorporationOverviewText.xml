@@ -44,11 +44,11 @@
 		<Row Tag="TXT_KEY_CPO_OFFICE_BENEFIT">
 			<Text>Office Benefit</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
-			<Text>(Right-click the Corporation Icon for more information)</Text>
-		</Row>
 		<Row Tag="TXT_KEY_CPO_FRANCHISE_BENEFIT">
 			<Text>Franchise Benefit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CPO_RIGHT_CLICK_MORE_INFO">
+			<Text>(Right-click the Corporation Icon for more information)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CPO_OFFICES">
 			<Text>Offices Established</Text>

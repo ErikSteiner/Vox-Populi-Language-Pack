@@ -73,10 +73,10 @@
 			<Text>Bran, the Sleeping Guardian</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA">
-			<Text>+1 [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, and [ICON_RESEARCH] Science for every 5 Followers</Text>
+			<Text>+1 [ICON_CULTURE] Kultur, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft für je 5 Anhänger Eures Pantheons in eigenen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
-			<Text>Dagda, the All-Father</Text>
+			<Text>Dagda, der große Vater</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
