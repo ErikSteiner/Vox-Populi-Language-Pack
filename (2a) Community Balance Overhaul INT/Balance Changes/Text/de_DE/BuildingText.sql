@@ -112,12 +112,16 @@ SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer ve
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 		
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold von Küsten- und Ozean-Geländefeldern.[NEWLINE][NEWLINE]Bildet eine [ICON_CONNECTED] Stadtverbindung mit der [ICON_CAPITAL] Hauptstadt über Wasser. Die Stadt muss an der Küste liegen.'
+SET Text = '+1 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold von Küsten- und Ozean-Geländefeldern.[NEWLINE][NEWLINE]Bildet eine [ICON_CONNECTED] Stadtverbindung mit anderen Städten über Wasser, wenn diese ebenfalls einen Leuchtturm besitzen. Die Stadt muss an der Küste liegen.'
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
-UPDATE Language_en_US
+UPDATE Language_de_DE
 SET Text = 'Der Leuchtturm kann nur in Städten gebaut werden, die direkt an ein Küsten-Geländefeld angrenzen. Er steigert die [ICON_FOOD] Nahrungs- und [ICON_GOLD] Goldproduktion von Wasser-Geländefeldern. Erlaubt außerdem Stadtverbindungen über Wasser (siehe Konzepte für mehr Informationen).'
 WHERE Tag = 'TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Wenn eine Stadt durch eine Straße und/oder einen Leuchtturm mit Eurer Hauptstadt verbunden ist (sprich beide Städte haben einen Leuchtturm), hat diese Stadt einen "Handelsweg" mit der Hauptstadt. Jeder Handelsweg ist eine bestimmte Menge Gold pro Runde wert, der durch die Größe beider Städte bestimmt wird.'
+WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = 'Benötigt einen Leuchtturm in dieser Stadt. [ICON_INTERNATIONAL_TRADE] Seehandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kulturertrag.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung [ICON_GOLD] von Küsten- und Ozean-Geländefeldern und +1 [ICON_PRODUCTION] Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Seehandelswege haben eine um 50% erhöhte Reichweite und produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion von Marineeinheiten. Stadt muss an der Küste liegen.'
@@ -164,7 +168,7 @@ SET Text = 'Wenn Ihr [ICON_GOLD] Gold für den Kauf von Einheiten ausgebt oder i
 WHERE Tag = 'TXT_KEY_BUILDING_BANK_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadt benötigt eine Bank. +1 [ICON_GOLD] Gold für je 5 [ICON_CITIZEN] Bürger in der Stadt.'
+SET Text = 'Stadt benötigt eine Bank. +1 [ICON_GOLD] Gold für je 5 [ICON_CITIZEN] Bürger in der Stadt. Kosten für das Kaufen mit [ICON_GOLD] Gold um 10% in dieser Stadt reduziert.'
 WHERE Tag = 'TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -180,11 +184,11 @@ SET Text = '+1 [ICON_RESEARCH] Wissenschaft von Dschungel- und Wald-Geländefeld
 WHERE Tag = 'TXT_KEY_BUILDING_UNIVERSITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
     
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_RESEARCH] für je 4 [ICON_CITIZEN] Bürger in der Stadt. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Erlaub den Bau von Archäologen in dieser Stadt. [NEWLINE][NEWLINE]Stadt benötigt eine Universität.'
+SET Text = '+1 [ICON_RESEARCH] für je 2 [ICON_CITIZEN] Bürger in der Stadt. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Erlaub den Bau von Archäologen in dieser Stadt. [NEWLINE][NEWLINE]Stadt benötigt eine Universität.'
 WHERE Tag = 'TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Jede Quelle von [ICON_RES_ALUMINUM] Aluminum und [ICON_RES_URANIUM] Uran die von dieser Stadt bewirtschaftet wird, produziert +3 [ICON_RESEARCH] Wissenschaft. Reduziert [ICON_HAPPINESS_3] Unwissenheit stark.[NEWLINE][NEWLINE]Krankenhäuser, Fabriken und Medizinische Labore produzieren +2 [ICON_RESEARCH] Wissenschaft.[NEWLINE][NEWLINE]Stadt benötigt eine Öffentliche Schule.'
+SET Text = '+4 [ICON_RESEARCH] Wissenschaft von [ICON_RES_ALUMINUM] Aluminium, und [ICON_RES_URANIUM] Uran und Akademien die von dieser Stadt bewirtschaftet werden, produziert +3 [ICON_RESEARCH] Wissenschaft. Reduziert [ICON_HAPPINESS_3] Unwissenheit stark.[NEWLINE][NEWLINE]+4 [ICON_RESEARCH] Wissenschaft von Krankenhäuser, Fabriken und Medizinische Labore. [ICON_GREAT_SCIENTIST] Große Wissenschaftler werden um 33% schneller in dieser Stadt produziert.[NEWLINE][NEWLINE]Stadt benötigt eine Öffentliche Schule.'
 WHERE Tag = 'TXT_KEY_BUILDING_LABORATORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -204,11 +208,11 @@ SET Text = 'Die Windmühle ist ein Gebäude aus der Renaissance, das die [ICON_P
 WHERE Tag = 'TXT_KEY_BUILDING_WINDMILL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+3 [ICON_PRODUCTION] Produktion in jedem Geländefeld an einem Fluss.  [NEWLINE][NEWLINE]Stadt muss an einem Fluss liegen. Benötigt [ICON_RES_ALUMINUM] Aluminium.'
+SET Text = '+2 [ICON_PRODUCTION] Produktion, [ICON_RESEARCH] Wissenschaft und [ICON_FOOD] Nahrung auf jedem Geländefeld an einem Fluss.  [NEWLINE][NEWLINE]Stadt muss an einem Fluss liegen. Benötigt [ICON_RES_ALUMINUM] Aluminium.'
 WHERE Tag = 'TXT_KEY_BUILDING_HYDRO_PLANT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Das Wasserkraftwerk ist ein Gebäude im mittleren Abschnitt des Spiels, das nur in Städten gebaut werden kann, die an einem Fluss liegen. Das Wasserkraftwerk erhöht die [ICON_PRODUCTION] Produktion jedes Geländefelds, das von der Stadt bewirtschaftet wird und ebenfalls an dem Fluss liegt.'
+SET Text = 'Das Wasserkraftwerk ist ein Gebäude im mittleren Abschnitt des Spiels, das nur in Städten gebaut werden kann, die an einem Fluss liegen. Das Wasserkraftwerk erhöht die [ICON_PRODUCTION] Produktion, [ICON_RESEARCH] Wissenschaft und [ICON_FOOD] Nahrung jedes Geländefelds, das von der Stadt bewirtschaftet wird und an einem Fluss liegt.'
 WHERE Tag = 'TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -216,15 +220,15 @@ SET Text = 'Beseitigt zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit in einer [
 WHERE Tag = 'TXT_KEY_BUILDING_COURTHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 6 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
+SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
 WHERE Tag = 'TXT_KEY_BUILDING_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 8 und die Trefferpunkte um 75 erhöht. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
+SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15 und die Trefferpunkte um 100 erhöht. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 100 erhöht, sodass sie schwieriger einzunehmen ist. Tie Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
+SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Tie Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -236,7 +240,7 @@ SET Text = '+20% [ICON_PRODUCTION] Produktion von Lufteinheiten. Stationierte Ei
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Militärstützpunkt ist ein Gebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke der Stadt um 12 und die Trefferpunkte um 125 erhöht. Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Garrisoned units receive an additional 10 Health when healing in this city.'
+SET Text = 'Der Militärstützpunkt ist ein Gebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um 200 erhöht. Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Stationierte Einheiten erhalten zusätzlich 10 Gesundheit, wenn sie sich in dieser Stadt heilen.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -244,7 +248,7 @@ SET Text = 'Reduziert Bevölkerungsverluste durch Atomangriffe um 75%. Erhöht d
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +1 [ICON_PRODUCTION] Produktion für je 4 [ICON_CITIZEN] Bürger in der Stadt.'
+SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +1 [ICON_PRODUCTION] Produktion für je 4 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]Alle Ingenieur Spezialisten in der Stadt erhalten +2 [ICON_GOLD] Gold und alle Händler Spezialisten in der Stadt erhalten +2 [ICON_PRODUCTION] Produktion.'
 WHERE Tag = 'TXT_KEY_BUILDING_FACTORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -288,11 +292,11 @@ SET Text = 'Arena'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nahe Dschungel- und Waldgeländefelder gewähren +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Zoo reduziert Langeweile in einer Stadt und produziert zusätzliche Wissenschaft und Kultur.'
+SET Text = 'Der Zoo reduziert Langeweile in einer Stadt, produziert zusätzliche Wissenschaft und Kultur und steigert den Wert von nahen Dschungel- und Waldgeländefeldern.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
