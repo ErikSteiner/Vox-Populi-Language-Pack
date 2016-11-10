@@ -3,7 +3,7 @@
 -- America
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Alle Land-Militäreinheiten haben +1 Sicht. 50% Rabatt beim Kauf von Geländefeldern. Erwerb von, durch bereits von anderen Zivilizationen beanspruchten Geländefelder möglich, jedoch zu einem deutlich höheren Preis als üblich.'
+SET Text = 'Alle Land-Militäreinheiten haben +1 Sicht. 50% Rabatt beim Kauf von Geländefeldern und der Erwerb von Geländefeldern gewährt +25 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, Bonus steigt mit jedem Zeitalter. Erwerb von durch bereits von anderen Zivilizationen beanspruchten Geländefelder möglich, jedoch zu einem deutlich höheren Preis als üblich.'
 WHERE Tag = 'TXT_KEY_TRAIT_RIVER_EXPANSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -150,7 +150,7 @@ WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMM
 --------------------
 
 UPDATE Language_de_DE
-SET Text = 'When a [ICON_GOLDEN_AGE] Golden Age begins, 40% of [ICON_GOLDEN_AGE] Golden Age Points convert into [ICON_GOLD] Gold and [ICON_TOURISM] Tourism, and Cities gain 10 turns of Carnaval. +20% [ICON_CULTURE] Culture and -50% [ICON_HAPPINESS_3] Unhappiness from Needs in Cities during Carnaval.'
+SET Text = 'Wenn ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt werden 50% der [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte in [ICON_GOLD] Gold und [ICON_TOURISM] Tourismus umgewandelt und Städte erhalten 10 Runden für Karneval. +25% [ICON_CULTURE] Kultur und -50% [ICON_HAPPINESS_3] Unzufriedenheit durch Bedürfnisse in Städten während des Karnevals.'
 WHERE Tag = 'TXT_KEY_TRAIT_CARNIVAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -161,25 +161,21 @@ UPDATE Language_de_DE
 SET Text = 'This melee unit earns points toward starting a Golden Age when it defeats an enemy. Use them to fight wars in foreign lands to push your Civilization towards a Culture victory. May only be gifted by Minor Civilizations.'
 WHERE Tag = 'TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
---UPDATE Language_de_DE
---SET Text = 'Because of your unique Carnival bonus, [ICON_TOURISM] Tourism output is currently +25% with all civilizations, you are earning [ICON_GREAT_PEOPLE] Great People 25% faster, and 25% of your [ICON_CAPITAL] Capital''s [ICON_CULTURE] Culture is being converted into [ICON_TOURISM] Tourism.'
---WHERE Tag = 'TXT_KEY_TP_CARNIVAL_EFFECT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
-
 UPDATE Language_de_DE
-SET Text = 'Constructs a Brazilwood Camp, which increases the amount of yields provided by this tile, while keeping the Jungle intact.'
+SET Text = 'Errichtet ein Brasilholzlager das die Ertragshöhe von diesem Geländefeld erhöht und 1 Kopie der [ICON_RES_BRAZILWOOD] Brasilholz Ressource gewährt, während es den Dschungel oder Wald intakt lässt.'
 WHERE Tag = 'TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'It will increase the amount of yields provided by this tile, while keeping the Jungle intact.'
+SET Text = 'Es erhöht die Erträge von diesem Geländefeld, während es den Dschungel oder Wald intakt lässt. Produziert 1 Kopie der [ICON_RES_BRAZILWOOD] Brasilholz Ressource.'
 WHERE Tag = 'TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A Brazilwood Camp can only be built on a Jungle tile.  It provides additional yields.'
+SET Text = 'A Brazilwood Camp can only be built on Jungle or Forest tiles, and cannot be built adjacent to another Brazilwood Camp.  It provides additional yields, and 1 copy of the [ICON_RES_BRAZILWOOD] Brazilwood Resource. [NEWLINE][NEWLINE]Brazilwood is a tropical hardwood whose bark produces a bright crimson and deep purple extract used in dyes. Its wood is dense, and is prized for crafting stringed instruments (especially the bows) and cabinetry. The harvesting of brazilwood did not cease until 1875, by which time synthetic dyes dominated the textile industry and other hardwoods had been found to be better for musical instruments.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A Brazilwood Camp can only be built on a Jungle tile.  It provides additional yields. [NEWLINE][NEWLINE]Brazilwood is a tropical hardwood whose bark produces a bright crimson and deep purple extract used in dyes. Its wood is dense, and is prized for crafting stringed instruments (especially the bows) and cabinetry. The harvesting of brazilwood did not cease until 1875, by which time synthetic dyes dominated the textile industry and other hardwoods had been found to be better for musical instruments.'
-WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+SET Text = 'A Brazilwood Camp can only be built on Jungle or Forest tiles, and cannot be built adjacent to another Brazilwood Camp.  It provides additional yields, and 1 copy of the [ICON_RES_BRAZILWOOD] Brazilwood Resource. [NEWLINE][NEWLINE]Brazilwood is a tropical hardwood whose bark produces a bright crimson and deep purple extract used in dyes. Its wood is dense, and is prized for crafting stringed instruments (especially the bows) and cabinetry. The harvesting of brazilwood did not cease until 1875, by which time synthetic dyes dominated the textile industry and other hardwoods had been found to be better for musical instruments.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
 -- Byzantium
@@ -188,11 +184,23 @@ UPDATE Language_de_DE
 SET Text = 'Is always eligible to found a Religion, and receives an additional Belief when founding a Religion. Is allowed to choose from Beliefs already in other Religions.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
+UPDATE Language_de_DE
+SET Text = 'Fast and powerful mid-game Mounted Unit. Weak to Pikemen. Only the Byzantines may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength, defends better, and attacks cities more effectively than the Knight which it replaces.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'The Cataphract is a Byzantine unique unit, replacing the Knight. Cataphracts are slower but more powerful than the Knight unit, making them one of the most dangerous cavalry units until the arrival of the Lancer. They can move after attacking. They are able to gain defensive bonuses, unlike the Knight. Also their penalty for attacking cities is not as severe.'
+WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Is always eligible to found a Religion, and receives an additional Belief when founding a Religion. Is allowed to choose from Beliefs already in other Religions.'
+WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_BELIEF' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
 --------------------
 -- Carthage
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Cities produce 200 [ICON_GOLD] Gold when founded, scaling with Era. Owned coastal Cities receive a free Lighthouse, and Resource diversity triples the [ICON_GOLD] Gold value of Trade Routes.'
+SET Text = 'Städte produzieren 175 [ICON_GOLD] Gold bei der Gründung, Bonus steigt mit jedem Zeitalter. Eigene Küstenstädte erhalten einen freien Leuchtturm und  coastal Cities receive a free Lighthouse und Ressourcenvielfalt verdreifacht den [ICON_GOLD] Goldwert von Handelswegen.'
 WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -226,7 +234,7 @@ SET Text = 'The Paper Maker is the Chinese unique building, replacing the Librar
 WHERE Tag = 'TXT_KEY_BUILDING_PAPER_MAKER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+50% [ICON_FOOD] Growth in Cities during Golden Ages and "We Love the Empress Day." [ICON_GREAT_PEOPLE] Great People grant [ICON_GOLDEN_AGE] Golden Age Points and trigger 10 turns of "We Love the Empress Day" when born.'
+SET Text = '+75% [ICON_FOOD] Growth in Cities during Golden Ages and "We Love the Empress Day." [ICON_GREAT_PEOPLE] Great People grant [ICON_GOLDEN_AGE] Golden Age Points and trigger 10 turns of "We Love the Empress Day" when born.'
 WHERE Tag = 'TXT_KEY_TRAIT_ART_OF_WAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -334,7 +342,7 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDIN
 -- France
 --------------------
 UPDATE Language_de_DE
-SET Text = '50% der [ICON_CULTURE] Kultur der [ICON_CAPITAL] Hauptstadt zählen als [ICON_TOURISM] Tourismus während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters. Stehlt weitere [ICON_GREAT_WORK] Große Werke von Eurem Gegner durch das Erobern seiner Städte. Könnt Ihr nichts stehlen, erhaltet Ihr stattdessen einen [ICON_CULTURE] Kulturschub.'
+SET Text = '50% der [ICON_CULTURE] Kultur der [ICON_CAPITAL] Hauptstadt zählen als [ICON_TOURISM] Tourismus während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters. Wenn Ihr eine Stadt erobert, stehlt [ICON_GREAT_WORK] Große Werke vom Besitzer und erhaltet stattdessen einen zeitlich begrenzten [ICON_CULTURE] Kulturschub.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_CULTURE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -393,7 +401,7 @@ SET Text = '10% of the City''s [ICON_GOLD] Gold output is added to the City''s [
 WHERE Tag = 'TXT_KEY_BUILDING_HANSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'In addition to the regular abilities of the Customs House (additional [ICON_GOLD] Gold output, and additional [ICON_GOLD] Gold from Trade Routes), the Hanse provides [ICON_PRODUCTION] Production for each Trade Route within your civilization that connects to a City-State. The Trade Routes can come from any combination of cities, even cities without the Hanse (Example: If you have trade routes from Berlin to Geneva, Munich to Geneva, Munich to Berlin, and Berlin to Brussels, then all cities with the Hanse would get +15% [ICON_PRODUCTION] Production). Only Germany may build it.'
+SET Text = 'In addition to the regular abilities of the Customs House (additional [ICON_GOLD] Gold output, and additional [ICON_GOLD] Gold from Trade Routes), the Hanse provides extra [ICON_GOLD] Gold and an additional Specialist. Also, [ICON_PRODUCTION] Production for each Trade Route within your civilization that connects to a City-State. The Trade Routes can come from any combination of cities, even cities without the Hanse (Example: If you have trade routes from Berlin to Geneva, Munich to Geneva, Munich to Berlin, and Berlin to Brussels, then all cities with the Hanse would get +15% [ICON_PRODUCTION] Production). Only Germany may build it.'
 WHERE Tag = 'TXT_KEY_BUILDING_HANSE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -465,7 +473,7 @@ SET Text = 'Horse Archers are fast ranged units, deadly on open terrain. They st
 -- Inca
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Units ignore terrain costs when on Hills and may cross Mountains. Cities, Roads, and Railroads may be built on Mountains, and Mountains produce [ICON_FOOD] Food and [ICON_GOLD] Gold based on the number of adjacent Mountains.'
+SET Text = 'Einheiten ignorieren Geländefeldkosten, wenn auf einem Hügel und können Berge passieren. Städte, Straßen und Schienen können auf Bergen gebaut werden und Berge produzieren [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold und [ICON_PEACE] Glauben, Bonus steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -495,7 +503,7 @@ SET Text = 'Ein Furcht einflößender Anblick auf dem Schlachtfeld und für die 
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Eine schnelle Fernwaffen-Einheit, die in flachem Gelände sehr effektiv ist. Nur die Inder können sie bauen. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampf- und Fernkampfstärke als der Kürassier und hat zwar keinen Stadtangriff Malus, hat dafür jedoch eine geringere Bewegungsreichweite. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier.' 
+SET Text = 'Eine schnelle Fernwaffen-Einheit, die in flachem Gelände sehr effektiv ist. Nur die Inder können sie bauen. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampf- und Fernkampfstärke als der Kürassier, hat dafür jedoch eine geringere Bewegungsreichweite. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier.' 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -561,7 +569,7 @@ WHERE Tag = 'TXT_KEY_RESOURCE_PEPPER_HELP' AND EXISTS (SELECT * FROM COMMUNITY W
 -- Iroquois
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Einheiten ignorieren Bewegungskosten für Wald- und Jungel-Geländefelder. Wald und Jungel kann [ICON_CONNECTED] Stadtverbindungen herstellen. Land-Militäreinheiten starten mit der Waldkampf Beförderung.'
+SET Text = 'Einheiten ignorieren Bewegungskosten für Wald- und Jungel-Geländefelder und diese Geländefelder errichten eine Stadtverbindung. Land-Militäreinheiten starten mit der Waldkampf Beförderung und alle Einheiten erhalten +20% [ICON_STRENGTH] Stärke wenn sie sich innerhalb von 3 Geländefeldern eines Naturwunders befinden.'
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -576,8 +584,12 @@ WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY' AND EXISTS (SELECT * FROM COMM
 -- Japan
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Die [ICON_STRENGTH] Kampfstärke Eurer Einheiten steigt, wenn sie Schaden erleiden. +2 [ICON_CULTURE] Kultur und +1 [ICON_FOOD] Nahrung von Fischerbooten und Atollen. Nahkampfeinheiten können Fischerboote bauen.'
+SET Text = 'Gain [ICON_GREAT_WORK] Great Writer/Artist/Musician Points in [ICON_CAPITAL] Capital when [ICON_GREAT_GENERAL] Great Generals or [ICON_GREAT_ADMIRAL] Admirals are born. Recieve -50% [ICON_TOURISM] Tourism from Civs that lack a [ICON_INTERNATIONAL_TRADE] Trade Route from you, and they cannot send you [ICON_INTERNATIONAL_TRADE] Trade Routes.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Sakoku'
+WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
 SET Text = 'The Samurai are the Japanese unique unit, replacing the Longswordsman. It is more powerful as the Swordsman, generates more Great Generals, and gains more experience from combat.'
@@ -706,7 +718,7 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' A
 -- Morocco
 --------------------
 UPDATE Language_de_DE
-SET Text = 'A Kasbah can only be built adjacent to a City.  It provides additional [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture. It also provides a +30% defense bonus and connects any Luxury or Strategic resources underneath it to your trade network.'
+SET Text = 'Ein Kasbah kann nur an eine Stadt angrenzend gebaut werden. Es gewährt zusätzliche [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion, [ICON_GOLD] Gold und [ICON_CULTURE] Kultur. Außerdem gewährt es einen +30% Verteidigungsbonus, verursacht 5 Schaden an angrenzende Militäreinheiten und verbindet jede Luxus- oder strategische Ressource unter sich mit Eurem Handelsnetz.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

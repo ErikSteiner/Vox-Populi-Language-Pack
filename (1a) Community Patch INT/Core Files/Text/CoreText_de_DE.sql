@@ -3,6 +3,71 @@ INSERT INTO language_de_DE
 VALUES		('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS',		'GG/GA Punkte durch Barbaren'),
 			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Erlaubt allen Spielern das Sammeln Groﬂer General und Groﬂer Admiral Punkten durch das Bek‰mpfen von Barbaren.');
 
+-- Siege Unit
+UPDATE language_de_DE
+SET Text = 'Bewegt sich mit halber Geschwindigkeit in feindlichem Territorium'
+WHERE Tag = 'TXT_KEY_PROMOTION_MUST_SET_UP';
+
+UPDATE language_de_DE
+SET Text = 'Bewegt sich mit halber Geschwindigkeit in feindlichem Territorium'
+WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_MUST_SET_UP';
+
+UPDATE language_de_DE
+SET Text = 'Artillery is a deadly siege weapon, more powerful than a cannon and with a longer range. Like the cannon it has limited visibility and moves at half speed in enemy territory, but its Ranged Combat strength is tremendous. Artillery also has the "indirect fire" ability, allowing it to shoot over obstructions at targets it cannot see (as long as other friendly units can see them). Like other siege weapons, Artillery is vulnerable to melee attack.'
+WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'The Cannon is an important mid-game siege unit, devastating against civilizations which have not yet acquired them. Like other siege units, the Cannon moves at half speed in enemy territory. Cannon remain potent into the Industrial era. Cannon cannot see as far as other units, and should be protected with melee units.'
+WHERE Tag = 'TXT_KEY_UNIT_CANNON_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'The Catapult is a siege weapon, extremely useful when assaulting early enemy cities. It is slow and extremely vulnerable to enemy melee attack; it always should be supported by other units when it''s in the field. It moves at half-speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_CATAPULT_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'Roman unique unit, more powerful than the Catapult it replaces. The Ballista is an excellent siege weapon. It is extremely useful against cities, but it is quite vulnerable to attack. Be sure to protect the Ballista with other military units. Moves at half-speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'A Trebuchet is a medieval siege weapon, significantly more powerful than the earlier Catapult units. The Trebuchet moves at half-speed in enemy territory, but once it is in position it can do serious damage to a fortified enemy city. Defend your trebuchets with melee and ranged units to keep enemy units from getting too close.'
+WHERE Tag = 'TXT_KEY_UNIT_TREBUCHET_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'Rocket Artillery is an extremely powerful siege weapon, far superior to the standard artillery. Rocket Artillery does not lose speed in enemy territory, making it much quicker than earlier guns. Although the Rocket Artillery''s sight range is limited, it can use indirect fire to attack targets it cannot see (as long as other friendly units can see them). Like all artillery it is vulnerable to infantry or armor attack, and should be defended by appropriate units.'
+WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'Fast Siege Unit of the late-game. Unlike other Siege Units, it does not move at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY';
+
+UPDATE language_de_DE
+SET Text = 'The first Siege Unit in the game capable of firing 3 tiles away. Moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY';
+
+UPDATE language_de_DE
+SET Text = 'Powerful Renaissance Era Siege Unit. Moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_CANNON';
+
+UPDATE language_de_DE
+SET Text = 'Powerful Medieval Siege Unit, good at reducing the defenses of enemy Cities. Moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_TREBUCHET';
+
+UPDATE language_de_DE
+SET Text = 'First siege Unit of the game. Does major damage to Units and Cities from a distance. Moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_CATAPULT';
+
+UPDATE language_de_DE
+SET Text = 'Siege Unit that does major damage from a distance. Moves at half speed in enemy territory. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength than the Catapult, which it replaces.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
+
+UPDATE language_de_DE
+SET Text = 'The Hwach''a is extremely effective against enemy land units. It is slow and vulnerable to enemy melee attack; it always should be supported by other units when it''s in the field. The Hwach''a moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY';
+
+UPDATE language_de_DE
+SET Text = 'Anti-personnel rocket unit of the Medieval Era. Strong against land units, but weak against cities. Only Korea may build it. Replaces the Trebuchet. Moves at half speed in enemy territory.'
+WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_HELP';
+
 -- CS Stuff
 UPDATE language_de_DE
 SET Text = 'Enslave {@1_Unit} - lose {2_NumInfluence} [ICON_INFLUENCE] Influence'
@@ -401,11 +466,11 @@ SET Text = 'Potential reflects the vulnerability of a city to Espionage. The hig
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE language_de_DE
-SET Text = 'The Potential of {1_CityName} is {2_Num}.[NEWLINE][NEWLINE]If your cities have high Potential, you should consider protecting them. There are two ways to do this. You may move your own spies to your cities to act as counterspies that have a chance to catch and kill enemy spies before they steal a technology. You may also slow down how quickly enemy spies can steal technologies by constructing buildings like the Constabulary, Police Station, and the Great Firewall.'
+SET Text = 'If your cities have high Potential, you should consider protecting them. There are two ways to do this. You may move your own spies to your cities to act as counterspies that have a chance to catch and kill enemy spies before they steal a technology. You may also slow down how quickly enemy spies can steal technologies by constructing buildings like the Constabulary, Police Station, and the Great Firewall.'
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE language_de_DE
-SET Text = '{1_SpyRank} {2_SpyName} is stealing from {4_CityName}.[NEWLINE]The current Potential of {5_CityName} is {6_Num}.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station.'
+SET Text = '{1_SpyRank} {2_SpyName} is stealing from {3_CityName}.[NEWLINE]The current Potential of {3_CityName} is {4_Num}.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE language_de_DE
@@ -413,37 +478,56 @@ SET Text = '{1_SpyRank} {2_SpyName} cannot steal technologies from {3_CityName}.
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE language_de_DE
-SET Text = 'The Potential of {1_CityName} is believed to be {2_Num}.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station.'
+SET Text = 'The Potential of {1_CityName} is believed to be {2_Num}. Send a [ICON_SPY] Spy to this City to learn more about it.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity of the city, specifically its science and gold output.'
 WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
+
+UPDATE language_de_DE
+SET Text = 'Options for {1_SpyRank} {2_SpyName}:[NEWLINE][NEWLINE][ICON_BULLET] Move to a City-State and attempt to [COLOR_POSITIVE_TEXT]Rig an Election[ENDCOLOR] or [COLOR_POSITIVE_TEXT]Stage a Coup[ENDCOLOR].[NEWLINE][ICON_BULLET] Move to a non-Capital City owned by a Major Civilization and attempt to [COLOR_POSITIVE_TEXT]Steal Technology[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Uncover Intrigue[ENDCOLOR].[NEWLINE][ICON_BULLET] Move to a Capital City owned by a Major Civilization and attempt to [COLOR_POSITIVE_TEXT]Steal Technology[ENDCOLOR], [COLOR_POSITIVE_TEXT]Uncover Intrigue[ENDCOLOR], or [COLOR_POSITIVE_TEXT]Schmooze[ENDCOLOR] as a Diplomat.'
+WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 
 -- Notification
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = '{1_CivName:textkey} lost {1_CivName: plural 1?its; other?their;} [ICON_CAPITAL] Capital'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_LOST_CAPITAL';
 
 -- Ocean travel change
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'Can never end turn on an Ocean tile. May move through Ocean tiles if ending on a Coastal tile.'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE';
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'Cannot end turn on an Ocean tile until you have researched [COLOR_POSITIVE_TEXT]Astronomy[ENDCOLOR]. May move through Ocean tiles if ending on a Coastal tile.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'Cannot End Turn on Ocean Tile until Astronomy'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'Cannot End Turn on Ocean Tile'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'The Trireme is the first naval unit available to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot end its turn on Deep Ocean hexes outside of the city borders unless it is from Polynesia).'
 WHERE Tag = 'TXT_KEY_UNIT_TRIREME_STRATEGY';
 
-UPDATE Language_en_US
+UPDATE language_de_DE
 SET Text = 'The Galleass is the first naval unit with a ranged attack generally available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Galleass is useful for clearing enemy ships out of shallow waters. It cannot end its turn on Deep Ocean hexes unless it is from Polynesia.'
 WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY';
+
+-- Lua for Cities
+UPDATE language_de_DE
+SET Text = 'We have no tradeable cities and/or we do not have an Embassy with them.'
+WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE language_de_DE
+SET Text = 'They have no tradeable cities and/or they do not have an Embassy with us.'
+WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+	
+
+INSERT INTO language_de_DE
+			(Tag,										Text)
+SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'Your soldiers found [ICON_RESEARCH] Science during the conquest of {1_Name}!'
+WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT' AND Value= 1 );

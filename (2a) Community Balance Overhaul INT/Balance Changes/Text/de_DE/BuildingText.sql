@@ -16,7 +16,7 @@ SET Text = 'Die Wassermühle kann nur in Städten gebaut werden, die an einen Fl
 WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. +1 [ICON_FOOD] Nahrung von Seen und Oasen die von dieser Stadt bewirtschaftet werden. Reduziert [ICON_HAPPINESS_3] Armut leicht.'
+SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. +2 [ICON_FOOD] Nahrung von Seen und Oasen die von dieser Stadt bewirtschaftet werden. Reduziert [ICON_HAPPINESS_3] Armut leicht.'
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -24,11 +24,11 @@ SET Text = '30% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZE
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+25% [ICON_GREAT_PEOPLE] Generierung von Großen Persönlichkeiten in dieser Stadt.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_CITRUS] Zitronen: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COCOA] Kakao: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.'
+SET Text = '+25% [ICON_GREAT_PEOPLE] Generierung von Großen Persönlichkeiten in dieser Stadt.[NEWLINE]Jede von dieser Stadt genutzten Quelle Oasen: +2 [ICON_GOLD] Gold [ICON_RES_CITRUS] Zitronen: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COCOA] Kakao: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.'
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Garten steigert die Geschwindigkeit, mit der [ICON_GREAT_PEOPLE] Große Persönlichkeiten in der Stadt generiert werden, um 25%. Gärten können nur in Städten gebaut werden, die über ein Aquädukt verfügen.'
+SET Text = 'Der Garten steigert die Geschwindigkeit, mit der [ICON_GREAT_PEOPLE] Große Persönlichkeiten in der Stadt generiert werden, um 25% und steigert die Nahrungsproduktion von Oasen. Gärten können nur in Städten gebaut werden, die über ein Aquädukt verfügen.'
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -347,7 +347,7 @@ UPDATE Language_de_DE
 SET Text = 'Philosophie ist die Studie von allgemeinen und grundsätzlichen Problemen, wie diejenigen, die mit Wirklichkeit, Existenz, Kenntnissen, Werten, Grund, Meinung und Sprache verbunden sind. Sie forsche nach den obersten Prinzipien und ziele auf den Erwerb wahren Wissens. Sie ringe um die Erkenntnis aller Dinge, auch der unsichtbaren, sei Wissenschaft aller Möglichkeit und vom Absoluten. Sie ordne und verbinde alle Wissenschaft, stelle die „Wissenschaft aller Wissenschaften“ dar. Die Analyse, Bearbeitung und exakte Bestimmung von Begriffen stehe in ihrem Mittelpunkt. Das Wort Philosophie kommt aus dem Altgriechischen, welches wörtlich "Liebe zur Weisheit" bedeutet. In der Antike pflegte man die Einführung des Begriffs Philosophie Pythagoras von Samos zuzuschreiben.'
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 UPDATE Language_de_DE
-SET Text = 'Dieses Nationale Wunder gewährt allen Einheiten, die in dieser Stadt ausgebildet werden, die "Moral"-Beförderung, was ihre Kampfstärke um +10% verbessert. Zudem bringt es +1 [ICON_CULTURE] Kultur. Das Heldenepos kann erst gebaut werden, wenn eine Stadt über eine Kaserne verfügt.'
+SET Text = 'Dieses Nationale Wunder gewährt allen Einheiten, die in dieser Stadt ausgebildet wurden (Vergangenheit oder Zukunft), die "Moral"-Beförderung, was ihre Kampfstärke um +10% verbessert. Zudem bringt es +1 [ICON_CULTURE] Kultur. Das Heldenepos kann erst gebaut werden, wenn eine Stadt über eine Kaserne verfügt.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -393,7 +393,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_STRATEGY' AND EXISTS (SELECT * FROM
 -- Help Text
 
 UPDATE Language_de_DE
-SET Text = 'Alle neu ausgebildeten Nicht-Lufteinheiten in dieser Stadt erhalten die Beförderung [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] , was ihre [ICON_STRENGTH] Kampfstärke um 10% erhöht. Beinhaltet 1 Platz für ein Großes Literaturwerk.[NEWLINE][NEWLINE]Benötigt eine Kaserne in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Alle von dieser Stadt ausgebildeten Einheiten (Vergangenheit oder Zukunft) erhalten die Beförderung [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR], was ihre [ICON_STRENGTH] Kampfstärke um 10% erhöht. Beinhaltet 1 Platz für ein Großes Literaturwerk.[NEWLINE][NEWLINE]Benötigt eine Kaserne in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -465,15 +465,15 @@ SET Text = '1 freie Technologie. Bietet eine kostenlose Bibliothek in der Stadt,
 WHERE Tag = 'TXT_KEY_WONDER_GREAT_LIBRARY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Tradition-Zweigs. Bietet einen kostenlosen Garten in der Stadt, in der das Wunder gebaut wird.'
+SET Text = 'Erfordert die Vollendung des Traditionzweigs. Bietet einen kostenlosen Garten in der Stadt, in der das Wunder gebaut wird.'
 WHERE Tag = 'TXT_KEY_WONDER_HANGING_GARDEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Herrschaft-Zweigs. Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten. Erschafft eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Menge an [ICON_CULTURE] Kultur, wenn vollendet.'
+SET Text = 'Erfordert die Vollendung des Herrschaftzweigs. Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten. Erschafft eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Menge an [ICON_CULTURE] Kultur, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Fortschritt-Zweigs. Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten. Enthält ein vorgefertigtes Kunstwerk im Großes-Werk-Platz.[NEWLINE][NEWLINE]+3 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
+SET Text = 'Erfordert die Vollendung des Fortschrittzweigs. Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten. Enthält ein vorgefertigtes Kunstwerk im Großes-Werk-Platz.[NEWLINE][NEWLINE]+3 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_PARTHENON_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -481,15 +481,15 @@ SET Text = '1 freie Sozialpolitik. Reduziert [ICON_HAPPINESS_3] Unwissenheit in 
 WHERE Tag = 'TXT_KEY_WONDER_ORACLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten müssen in Eurem Territorium 1 [ICON_MOVES] Extra-Zug pro Geländefeld aufwenden. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern. Durch die Entdeckung des Dynamits veraltet die Große Mauer.'
+SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten müssen beim Eintritt in Eurer Territorium 1 [ICON_MOVES] Extra-Zug pro Geländefeld aufwenden. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern. Durch die Entdeckung des Dynamits veraltet die Große Mauer.'
 WHERE Tag = 'TXT_KEY_WONDER_GREAT_WALL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Alle neu ausgebildeten Nicht-Lufteinheiten in dieser Stadt erhalten die Beförderung [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR], die die [ICON_STRENGTH] Kampfstärke Kampfstärke gegen [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR]. Bringt eine kostenlose Burg in der Stadt, in der sie errichtet wird. Steigert die [ICON_CULTURE] Kulturproduktion der Stadt um 20%.'
+SET Text = 'Alle neu ausgebildeten Nicht-Lufteinheiten in dieser Stadt erhalten die Beförderung [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR], die die [ICON_STRENGTH] Kampfstärke Kampfstärke gegen [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR]. Bringt eine kostenlose Burg in der Stadt, in der sie errichtet wird. Steigert die [ICON_CULTURE] Kulturproduktion der Stadt um 10%.'
 WHERE Tag = 'TXT_KEY_WONDER_ALHAMBRA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Frömmigkeit-Zweigs. Erhaltet 50 [ICON_RESEARCH] Wissenschaft, wenn Ihr eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufbraucht. Bonus steigt mit jedem Zeitalter. Bietet eine kostenlose Moschee in der Stadt, in der das Wunder gebaut wird.'
+SET Text = 'Erfordert die Vollendung des Frömmigkeitzweigs. Erhaltet 50 [ICON_RESEARCH] Wissenschaft, wenn Ihr eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufbraucht. Bonus steigt mit jedem Zeitalter. Bietet eine kostenlose Moschee in der Stadt, in der das Wunder gebaut wird.'
 WHERE Tag = 'TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -517,15 +517,19 @@ SET Text = 'Muss in einer Heiligen Stätte errichtet werden. 3 freie Missionare 
 WHERE Tag = 'TXT_KEY_WONDER_BOROBUDUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_GOLD] Gold durch [ICON_CONNECTED] Stadtverbindungen. Stadt erhält +1 [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben für jedes Gebirge das innerhalb von 3 Geländefeldern um der Stadt liegt. [NEWLINE][NEWLINE]Die Stadt muss innerhalb von 2 Geländefeldern eines Gebirges in Eurem Gebiet gebaut werden.'
+SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Gewährt ein freie Burg in der Stadt in der es gebaut wurde.'
+WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = '+33% [ICON_GOLD] Gold durch [ICON_CONNECTED] Stadtverbindungen. Stadt erhält +1 [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben für jedes Gebirge das innerhalb von 3 Geländefeldern um der Stadt liegt. [NEWLINE][NEWLINE]Die Stadt muss innerhalb von 2 Geländefeldern eines Gebirges in Eurem Gebiet gebaut werden.'
 WHERE Tag = 'TXT_KEY_WONDER_MACHU_PICHU_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_NOTRE_DAME_HELP', 'Beinhaltet 2 Plätze für Große Kunstwerke oder Artefakte.[NEWLINE][NEWLINE]+3 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
+SELECT 'TXT_KEY_BUILDING_NOTRE_DAME_HELP', 'Erhaltet eine freie Kathedrale in der Stadt. Beinhaltet 2 Plätze für Große Kunstwerke oder Artefakte.[NEWLINE][NEWLINE]+3 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Staatskunst-Zweigs. Gewährt 2 zusätzliche Abgeordnete im Weltkongress für je 8 Stadtstaaten im Spiel. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
+SET Text = 'Erfordert die Vollendung des Staatskunstzweigs. Gewährt 2 zusätzliche Abgeordnete im Weltkongress für je 8 Stadtstaaten im Spiel. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -537,7 +541,7 @@ SET Text = '1 freier Großer Schriftsteller erscheint bei der Stadt, in der das 
 WHERE Tag = 'TXT_KEY_WONDER_GLOBE_THEATER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Ästhetik-Zweigs. 1 freier Großer Künstler erscheint bei der Stadt, in der das Wunder gebaut wurde. Enthält 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
+SET Text = 'Erfordert die Vollendung des Ästhetikzweigs. 1 freier Großer Künstler erscheint bei der Stadt, in der das Wunder gebaut wurde. Enthält 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_UFFIZI_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -545,19 +549,23 @@ SET Text = 'Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +1 [ICON_
 WHERE Tag = 'TXT_KEY_WONDER_PYRAMIDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
+SET Text = '+10% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_SISTINE_CHAPEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großer Ingenieur und eine freie Waffenkammer in der Stadt. Steigert deutlich die Wirksamkeit von [ICON_STRENGTH] Verteidigungsgebäuden in der Stadt.'
+SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt.'
 WHERE Tag = 'TXT_KEY_WONDER_RED_FORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Rationalism-Zweigs. Ein großer Wissenschaftler erscheint bei der Stadt, in der das Wunder gebaut wurde. Reduziert [ICON_HAPPINESS_3] Unwissenheit in allen Städten. 50% mehr [ICON_RESEARCH] Wissenschaft durch Forschungsabkommen. Wenn Forschungsabkommenn deaktiviert sind, gewährt es +25% [ICON_RESEARCH] Wissenschaft in der Stadt in der es errichtet wurde.'
+SET Text = '+25% Generation von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten in der Stadt und +10% in allen anderen Städten. Eine freie Große Persönlichkeit Eurer Wahl erscheint nahe der [ICON_CAPITAL] Hauptstadt.'
+WHERE Tag = 'TXT_KEY_WONDER_LEANING_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Ein großer Wissenschaftler erscheint bei der Stadt, in der das Wunder gebaut wurde. Reduziert [ICON_HAPPINESS_3] Unwissenheit in allen Städten. 50% mehr [ICON_RESEARCH] Wissenschaft durch Forschungsabkommen. Wenn Forschungsabkommenn deaktiviert sind, gewährt es +25% [ICON_RESEARCH] Wissenschaft in der Stadt in der es errichtet wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_PORCELAIN_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Imperialismus-Zweigs. Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten.'
+SET Text = 'Erfordert die Vollendung des Imperialismuszweigs. Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_BRANDENBURG_GATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -565,11 +573,11 @@ SET Text = '1 freier Großer Künstler erscheint bei der Stadt, in der das Wunde
 WHERE Tag = 'TXT_KEY_WONDER_LOUVRE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten. Der Eiffelturm bringt zusätzlich +12 [ICON_TOURISM] Tourismus sobald Ihr das Radio erforscht habt.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten.  [ICON_CULTURE] Kulturkosten für das Einführen neuer Politiken um 10% reduziert.'
 WHERE Tag = 'TXT_KEY_WONDER_EIFFEL_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Fleiß-Zweigs. Kosten für [ICON_GOLD] Gold-Käufe in allen Städten um 15% gesenkt. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
+SET Text = 'Erfordert die Vollendung des Fleißzweigs. Kosten für [ICON_GOLD] Gold-Käufe in allen Städten um 15% gesenkt. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_BIG_BEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -579,6 +587,10 @@ WHERE Tag = 'TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP' AND EXISTS (SELECT * FROM COMMU
 UPDATE Language_de_DE
 SET Text = '1 freier Großer Musiker erscheint bei der Stadt, in der das Wunder gebaut wurde. Enthält 3 Plätze für Große Musikwerke.[NEWLINE][NEWLINE]+15 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_BROADWAY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = '+25 [ICON_TOURISM] Tourismus. Hotels produzieren +2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus.'
+WHERE Tag = 'TXT_KEY_WONDER_CRISTO_REDENTOR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = '1 freie Sozialpolitik und +25% [ICON_CULTURE] Kultur in dieser Stadt. Enthält 2 Plätze für Große Musikwerke. Muss in einer Küstenstadt gebaut werden.[NEWLINE][NEWLINE]+15 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
