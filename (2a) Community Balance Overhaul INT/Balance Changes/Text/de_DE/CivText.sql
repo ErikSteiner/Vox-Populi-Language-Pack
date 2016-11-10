@@ -142,7 +142,7 @@ SET Text = 'The Walls of Babylon increase the damage output of all the city''s r
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_INFO' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Walls of Babylon are a Babylonian Unique Building, replacing the standard city Walls. The Walls of Babylon increase Defense Strength in a city by 9 and Hit Points by 75, both values much higher than standard Walls. The Walls of Babylon also provide a Scientist specialist slot and Science.'
+SET Text = 'Die Mauern von Babylon sind ein einzigartiges Gebäude von Babylon und ersetzen die normalen Stadtmauern. Die Mauern von Babylon erhöhen die Verteidigungsfähigkeit der Stadt um 15 und verschaffen der Stadt eine größere Kampfstärke von 75 Punkte bei Bombardierungsangriffen (weit mehr als normale Stadtmauern) Die Mauern von Babylon beinhalten außerdem einen Platz für einen Wissenschaftler-Spezialist und gewähren Wissenschaft.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -484,7 +484,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP' AND EXISTS (SELECT * F
 -- India
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Startet mit einem Pantheon. Jeder Anhänger Eurer primären Religion in einer Stadt erhöht den religiösen Druck and das [ICON_FOOD] Wachstum. Können keine Missionare ausbilden.'
+SET Text = 'Startet mit einem Pantheon. Jeder Anhänger Eurer primären Religion in einer Stadt erhöht den religiösen Druck and das [ICON_FOOD] Wachstum. Können keine Missionare oder Inquisitoren ausbilden.'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -863,7 +863,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY' AND EXISTS (SELECT * FROM COMMU
 -- Russia
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PRODUCTION] Produktion to Camps, Mines, and Lumbermills. Decreases tile cost in the City by 25%. Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]Increases city Defense Strength by 12 and Hit Points by 125.'
+SET Text = '+1 [ICON_PRODUCTION] Produktion to Camps, Mines, and Lumbermills. Decreases tile cost in the City by 25%. Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]Increases city Defense Strength by 25 and Hit Points by 200.'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -995,15 +995,23 @@ WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT' AND EXISTS (SELECT * FR
 -- Venice 
 --------------------
 UPDATE Language_de_DE 
-SET Text = 'The Great Galleass can only be gifted by Minor Civilizations.' 
+SET Text = 'Die Große Galeasse kann nur durch kleinere Zivilisation verschenkt werden.' 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'The Great Galleass is can only be gifted by Minor Civilizations. Has a stronger ranged attack, and is more resilient in battle.' 
+SET Text = 'Die Große Galeasse kann nur durch kleinere Zivilisation verschenkt werden. Hat einen stärkeren Fernkampfangriff und ist widerstandsfähiger in der Schlacht.' 
 WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Cannot found or annex cities, but can purchase Units, Buildings, and Tiles in puppeted cities. [ICON_INTERNATIONAL_TRADE] Trade Route maximum doubled, and receives a free Merchant of Venice after researching Trade.'
+SET Text = 'Der Händler von Venedig ist ein einzigartiger Ersatz für den Großen Händler. Neben den normalen Fähigkeiten eines Großen Händlers kann der Händler von Venedig einen Stadtstaat komplett aufkaufen und zu einer Marionette unter Venedigs Kontrolle machen. Der Händler von Venedig kann außerdem eine Colonia errichten, die eine leistungsfähigere Kleinstadt mit höheren Erträgen ist, mit der Fähigkeit angrenzende Geländefelder zu erwerben und der Fähigkeit außerhalb eigenen Territoriums errichtet zu werden. Wird der Händler von Venedig auf eine dieser Arten eingesetzt, wird er verbraucht.'
+WHERE Tag = 'TXT_KEY_UNIT_VENETIAN_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_de_DE 
+SET Text = 'Der Händler von Venedig ist ein einzigartiger Ersatz für den Großen Händler. Neben der Fähigkeit, eine Handelsmission auszuführen, kann der Händler von Venedig einen Stadtstaat komplett aufkaufen und zu einer Marionette unter Venedigs Kontrolle machen. Er kann außerdem eine Colonia errichten, eine leistungsfähigere Kleinstadt die angrenzende Geländefelder beansprucht und die an angrenzend an freundlichem Territorium errichtet werden kann.'
+WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+UPDATE Language_de_DE 
+SET Text = 'Doppelt so viele [ICON_INTERNATIONAL_TRADE] Handelswege verfügbar. Kann keine Siedler erhalten oder Städte annektieren, jedoch sind [ICON_GOLD] Käufe in [ICON_PUPPET] Marionettenstädten möglich. Ein Händler von Venedig erscheint nach der Erforschung des Handels und +20% [ICON_GREAT_MERCHANT] Große Händler Rate für jede [ICON_PUPPET] Marionettenstadt in Besitz.'
  WHERE Tag = 'TXT_KEY_TRAIT_SUPER_CITY_STATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
  
@@ -1011,17 +1019,17 @@ SET Text = 'Cannot found or annex cities, but can purchase Units, Buildings, and
 -- Zulu
 --------------------
 UPDATE Language_de_DE
-SET Text = '+15 EP for all Units. Grants unique promotions to all melee units, and reduces [ICON_STRENGTH] Crime slightly.'
+SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Kriminalität leicht.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'In addition to the regular abilities of the Barracks which it replaces, the Ikanda grants a unique set of promotions to all melee units created within the city. These include faster movement, and greater combat strength. Only the Zulu may build it.'
+SET Text = 'Zusätzlich zu den Fähigkeiten der Kaserne, die sie ersetzt, gewährt die Ikanda einzigartige Beförderungen für Nahkampfeinheiten, die in der Stadt gebaut werden. Dazu zählen schnellere Fortbewegung und gesteigerte Kampfstärke. Kann nur von den Zulu gebaut werden.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Specialized in defeating mounted units, and stronger overall than most units from its era. Only the Zulu may build it. Also performs a first-strike ranged attack before combat.'
+SET Text = 'Spezialisiert auf das Besiegen von berittenen Einheiten und insgesamt stärkere als die meisten Einheiten aus seiner Zeit. Kann nur von den Zulu gebaut werden. Führt vor dem Kampf einen Erstangriff aus der Ferne aus.'
  WHERE Tag = 'TXT_KEY_UNIT_HELP_ZULU_IMPI' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Melee units cost 50% less maintenance, units require 25% less experience to earn their next promotion, and your [ICON_GREAT_GENERAL] Great General combat bonus is increased by 10%.'
+SET Text = 'Nahkampfeinheiten und Einheiten mit Schusswaffen kosten 50% weniger Unterhalt, Einheiten benötigen 25% weniger Erfahrung für die nächste Beförderung und der Kampfbonus Eueres [ICON_GREAT_GENERAL] Großen Generals ist um 10% erhöht.'
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );

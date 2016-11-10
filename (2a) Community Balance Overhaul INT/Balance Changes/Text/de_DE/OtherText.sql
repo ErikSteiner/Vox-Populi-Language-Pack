@@ -1,148 +1,148 @@
-	UPDATE Language_de_DE
-	SET Text = '[ICON_TOURISM] Tourismus erhöht sich um 50% für 20 Runden.  Freie Sozialpolitik.'
-	WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-	
-	UPDATE Language_de_DE
-	SET Text = '[ICON_CULTURE] Kultur erhöht sich um 33% für 20 Runden.'
-	WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+UPDATE Language_de_DE
+SET Text = '[ICON_TOURISM] Tourismus erhöht um 50%, hält 20 Runden an. Freie Sozialpolitik.'
+WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = '[ICON_CULTURE] Kultur erhöht um 33%, hält 20 Runden an.'
+WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- CS Text Change
-	UPDATE Language_de_DE
-	SET Text = 'Gibt hohen Tribut'
-	WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+UPDATE Language_de_DE
+SET Text = 'Giving Heavy Tribute'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Aesthetics Change
-	UPDATE Language_de_DE
-	SET Text = 'Wenn verborgene Altertumsstätten mit einer Archäologischen Ausgrabung verbessert werden, können sie ein Artefakt hervorbringen, das in einem Großes-Kunstwerk-Platz platziert oder in eine Wahrzeichen-Modernisierung umgewandelt werden kann. Verborgene Altertumsstätten sind nur für Zivilisationen sichtbar, die alle Politiken im Politik-Zweig Ästhetik haben.'
-	WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+UPDATE Language_de_DE
+SET Text = 'Wenn verborgene Altertumsstätten mit einer Archäologischen Ausgrabung verbessert werden, können sie ein Artefakt hervorbringen, das in einem Großes-Kunstwerk-Platz platziert oder in eine Wahrzeichen-Modernisierung umgewandelt werden kann. Verborgene Altertumsstätten sind nur für Zivilisationen sichtbar, die alle Politiken im Politik-Zweig Ästhetik haben.'
+WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Help Text Changes
-	UPDATE Language_de_DE
-	SET Text = '[ICON_TOURISM] Tourismus ist der primäre Ertrag, um Euren kulturellen Einfluss auf andere Zivilisationen auszuweiten. Er wird passiv erzeugt durch [COLOR_POSITIVE_TEXT]Große Kunstwerke[ENDCOLOR] oder [COLOR_POSITIVE_TEXT]Artefakte[ENDCOLOR] und aktiv durch [COLOR_POSITIVE_TEXT]Historische Ereignisse[ENDCOLOR] (mehr über ''Historische Ereignisse'', finden Sie im Abschnitt mit diesem Label). Durch das Platzieren von immer mehr Großen Werken und Artefakten in Euren Museen, Amphitheatern, Opernhäusern, usw., wird sich Euer [ICON_TOURISM] Tourismus stetig erhöhen. Darüber hinaus könnt Ihr Eure [ICON_TOURISM] Tourismusproduktion etwas durch Offene Grenzen, Handelswege, gemeinsame Religion und bestimmte ideologische Grundsätze erhöhen.'
-	WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+UPDATE Language_de_DE
+SET Text = '[ICON_TOURISM] Tourismus ist der primäre Ertrag, um Euren kulturellen Einfluss auf andere Zivilisationen auszuweiten. Er wird passiv erzeugt durch [COLOR_POSITIVE_TEXT]Große Kunstwerke[ENDCOLOR] oder [COLOR_POSITIVE_TEXT]Artefakte[ENDCOLOR] und aktiv durch [COLOR_POSITIVE_TEXT]Historische Ereignisse[ENDCOLOR] (mehr über ''Historische Ereignisse'', finden Sie im Abschnitt mit diesem Label). Durch das Platzieren von immer mehr Großen Werken und Artefakten in Euren Museen, Amphitheatern, Opernhäusern, usw., wird sich Euer [ICON_TOURISM] Tourismus stetig erhöhen. Darüber hinaus könnt Ihr Eure [ICON_TOURISM] Tourismusproduktion etwas durch Offene Grenzen, Handelswege, gemeinsame Religion und bestimmte ideologische Grundsätze erhöhen.'
+WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Capture Popup
 
-	UPDATE Language_de_DE	
-	SET Text = '[COLOR_POSITIVE_TEXT]Puppeting[ENDCOLOR] the City causes it to generate Gold, Science, Culture, etc. for you like a normal City, but you [COLOR_POSITIVE_TEXT]may not choose what it produces[ENDCOLOR] or customize the City.[NEWLINE][NEWLINE]It will contribute much less [ICON_HAPPINESS_4] than an Annexed City, and will not increase the cost of your Social Policies and Great People. If you choose this, you may later Annex the City at any point.'
-	WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = '[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] the City into your empire causes it to become a normal City that produces extra [ICON_HAPPINESS_4] Unhappiness (until you construct a Courthouse).[NEWLINE][NEWLINE]Immediately Annexing the City (instead of Puppeting or Razing the City) [COLOR_POSITIVE_TEXT]invests[ENDCOLOR] in a Courthouse in the City, reducing its construction time by at least 50%, and [COLOR_POSITIVE_TEXT]halves[ENDCOLOR] City [ICON_RESISTANCE] Resistance.'
-	WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = '[COLOR_POSITIVE_TEXT]Razing[ENDCOLOR] the City will burn [ICON_RAZING] down each turn until it reaches 0 population, and is removed from the game. This produces [ICON_HAPPINESS_4] Unhappiness equal to the City''s population, but also greatly increases your [COLOR_POSITIVE_TEXT]War Score[ENDCOLOR] versus this player.[NEWLINE][NEWLINE]While razing, there is a large risk of generating [COLOR_NEGATIVE_TEXT]Partisans[ENDCOLOR] loyal to the former owner (if you are still at war with this player).'
-	WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
--- Citizen Food Consumption
-	UPDATE Language_de_DE	
-	SET Text = '-{1_Num} {2_IconString} von Bürgern verzehrt [ICON_CITIZEN] Citizens'
-	WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
--- Citizen Food Consumption
-
-	UPDATE Language_de_DE	
-	SET Text = 'Arbeiter'
-	WHERE Tag = 'TXT_KEY_CITIES_UNEMPLOYEDCITIZENS_HEADING3_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'Untätige Bürger bringen jeweils, im Vergleich zu anderen Spezialisten, ein geringes Maß an Erträgen ein. Jedoch könnt Ihr dieser Position so viele Bürger zuweisen wie Ihr wünscht. Nach Möglichkeit sollten sie Geländefelder bewirtschaften oder zu Spezialisten ausgebildet werden.'
-	WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'Arbeiter|Arbeiter'
-	WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'Arbeiter'
-	WHERE Tag = 'TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	-- CSs
-	UPDATE Language_de_DE	
-	SET Text = 'City-States can be bullied into giving up large amounts of Yields, but using force in this way will decrease your [ICON_INFLUENCE] Influence over them.'
-	WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	-- Trade Stuff
-	UPDATE Language_de_DE	
-	SET Text = '{1_CivName} has discovered {2_Num} technologies that you do not know, granting you +{4_Num} [ICON_RESEARCH] Science.[NEWLINE]+{3_Num} [ICON_RESEARCH] Science on this route due to your Cultural Influence over them.'
-	WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'You have discovered {1_Num} technologies that {2_CivName} does not know, granting them +{4_Num} [ICON_RESEARCH] Science.[NEWLINE]+{3_Num} [ICON_RESEARCH] Science on this route due to their Cultural Influence over you.'
-	WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	-- CS Gift Stuff
-
-	UPDATE Language_de_DE	
-	SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, {2_Gold} [ICON_GOLD] Gold)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'Als [COLOR_POSITIVE_TEXT]kaufmännischer[ENDCOLOR] Stadtstaat bieten ihre Märkte Eurer Bevölkerung exotische Handelswaren an! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, +{2_Gold} [ICON_GOLD] Gold)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = '[COLOR_POSITIVE_TEXT]Kaufmännische[ENDCOLOR] Stadtstaaten versorgen die Märkte Eures Reiches mit exotischsten Handelswaren! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, +{2_Gold} [ICON_GOLD] Gold)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'They will contribute fewer Units to your military, and less Science! ({1_Science} [ICON_RESEARCH] Science)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'Sie geben Euch nicht länger militärische Einheiten oder Wissenschaft! ({1_Science} [ICON_RESEARCH] Science)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
-	UPDATE Language_de_DE	
-	SET Text = 'As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will give you military Units and Science. (+{1_Science} [ICON_RESEARCH] Science)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );		
-
-	UPDATE Language_de_DE	
-	SET Text = 'As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will regularly give you military Units. (+{1_Science} [ICON_RESEARCH] Science)'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );		
-
-	-- Change instructions for Ideologies
-
-	UPDATE Language_de_DE
-	SET Text = 'The three Ideology trees, Freedom, Order, and Autocracy, have greatly expanded in Brave New World. All civilizations in the game, on completing three Social Policy branches after the Renaissance Era, or upon reaching the Modern Era, will be required to choose an Ideology for their civilization. Each Ideology tree contains 3 tiers of "tenets" that you use to customize your Ideology, with the third and final tier holding the most powerful benefits. As with regular Social Policies, players use Culture to purchase additional tenets as they move through the game.[NEWLINE][NEWLINE]Civilizations that share a common Ideology will receive benefits with their diplomatic relationships. Civilizations that have conflicting Ideologies have multiple side-effects. For example, a negative effect on their diplomatic relationship and happiness penalties take effect if an opposing Ideology has a stronger Cultural influence on your people. If you let your people become too unhappy, there is a chance that your cities may declare that they are joining your opponents empire. As a last resort, you, or other players, can resort to a "Revolution" to switch Ideologies to one that is preferable to your people.[NEWLINE][NEWLINE]For more information on Ideological Tenets, click on the "Social Policies" tab along the top of the Civilopedia, and scroll down to the Order, Freedom, and Autocracy sections.'
-	WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	UPDATE Language_de_DE
-	SET Text = 'Players interested in creating massive, sprawling civs should turn to the Order ideology, as the strength of the empire is determined by the total number of cities it contains. This ideology unlocks upon entering the Modern Era or completing three Social Policy branches after the Renaissance Era, whichever comes first.'
-	WHERE Tag = 'TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	UPDATE Language_de_DE
-	SET Text = 'The Autocracy ideology is well suited for those wishing nothing more than to crush their foes under the weight of their iron-plated boots. This ideology unlocks upon entering the Modern Era or completing three Social Policy branches after the Renaissance Era, whichever comes first.'
-	WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	UPDATE Language_de_DE
-	SET Text = 'The Freedom ideology provides bonuses for Culture, Tourism, Specialist production, and more. This ideology unlocks upon entering the Modern Era or completing three Social Policy branches after the Renaissance Era, whichever comes first.'
-	WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	UPDATE Language_de_DE
-	SET Text = 'Your people now consider themselves part of the Modern Era, and the ideas of modernization permeate your society. Your people clamor for you to pick an Ideology for your civilization.'
-	WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	UPDATE Language_de_DE
-	SET Text = 'Ideological tenets may not be purchased until you have chosen an Ideology. This choice becomes available if you are in the Modern Era or have completed three Social Policy branches after the Renaissance Era, whichever comes first.'
-	WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-	
 UPDATE Language_de_DE
-SET Text = 'Allows your Cities to build Atomic Bombs and Nuclear Missiles.[NEWLINE][NEWLINE]If you are the [COLOR_POSITIVE_TEXT]first[ENDCOLOR] to complete this, receive a free Research Lab and Atomic Bomb in your [ICON_CAPITAL] Capital.'
+SET Text = 'Wenn Ihr die Stadt zu einer [COLOR_POSITIVE_TEXT]Marionette[ENDCOLOR] macht, wird sie für Euch Gold, Wissenschaft, Kultur usw. generieren, aber Ihr [COLOR_POSITIVE_TEXT]könnt die Produktion der Stadt nicht auswählen[ENDCOLOR] oder anpassen.[NEWLINE][NEWLINE]Sie wird viel weniger [ICON_HAPPINESS_4] Unzufriedenheit produzieren als eine annektierte Stadt und die Kosten für Eure Sozialpolitik und Eure Großen Persönlichkeiten nicht erhöhen. Ihr könnt die Stadt natürlich später immer noch annektieren.'
+WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Wenn Ihr die Stadt [COLOR_POSITIVE_TEXT]annektiert[ENDCOLOR], wird sie eine normale Stadt in Eurem Reich, die ziemlich viel [ICON_HAPPINESS_4] Unzufriedenheit produziert(bis Ihr ein Gerichtsgebäude errichtet).[NEWLINE][NEWLINE]Das unmittelbare Annektieren der Stadt (anstatt sie zu einer Marionette zu machen oder zu zerstören) [COLOR_POSITIVE_TEXT]investiert[ENDCOLOR] in ein Gerichtsgebäude in der Stadt, was die Errichtungszeit um mindestens 50% verringert und den Widerstand [ICON_RESISTANCE] in der Stadt [COLOR_POSITIVE_TEXT]halbiert[ENDCOLOR].'
+WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Wird die Stadt [COLOR_POSITIVE_TEXT]Zerstört[ENDCOLOR], wird die Bevölkerung der Stadt jede Runde [ICON_RAZING] reduziert, bis der Wert 0 erreicht, und wird dann aus dem Spiel entfernt. Dieser Vorgang erzeugt [ICON_HAPPINESS_4] Unzufriedenheit gleich der Stadtbevölkerung, steigert jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegenüber diesem Spieler.[NEWLINE][NEWLINE]Während der Zerstörung besteht eine hohe Wahrscheinlichkeit, dass [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen die loyal zu ihrem vorherigen Besitzer sind (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
+WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- Citizen Food Consumption
+UPDATE Language_de_DE
+SET Text = '-{1_Num} {2_IconString} von [ICON_CITIZEN] Bürgern verzehrt'
+WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- Citizen Food Consumption
+
+UPDATE Language_de_DE
+SET Text = 'Arbeiter'
+WHERE Tag = 'TXT_KEY_CITIES_UNEMPLOYEDCITIZENS_HEADING3_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Untätige Bürger bringen jeweils, im Vergleich zu anderen Spezialisten, ein geringes Maß an Erträgen ein. Jedoch könnt Ihr dieser Position so viele Bürger zuweisen wie Ihr wünscht. Nach Möglichkeit sollten sie Geländefelder bewirtschaften oder zu Spezialisten ausgebildet werden.'
+WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Arbeiter|Arbeiter'
+WHERE Tag = 'TXT_KEY_SPECIALIST_CITIZEN' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Arbeiter'
+WHERE Tag = 'TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- CSs
+UPDATE Language_de_DE
+SET Text = 'Stadtstaaten können dazu gezwungen werden große Summen an Erträge zu liefern, aber wenn Ihr sie Euch mit Gewalt nehmt, sinkt Euer [ICON_INFLUENCE] Einfluss auf sie.'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- Trade Stuff
+UPDATE Language_de_DE
+SET Text = '{1_CivName} hat {2_Num} {2: plural 1?Technologie; other?Technologien;} entdeckt, die Euch unbekannt {2: plural 1?ist; other?sind;} und Euch daher +{4_Num} [ICON_RESEARCH] Wissenschaft {2: plural 1?gewährt; other?gewähren;}.[NEWLINE]Ihr erhaltet aufgrund Eures kulturellen Einflusses auf sie +{3_Num} [ICON_RESEARCH] Wissenschaft auf diesem Weg.'
+WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Ihr habt {1_Num} {1: plural 1?Technologie; other?Technologien;} entdeckt, die {2_CivName} unbekannt {1: plural 1?ist; other?sind;} und ihnen daher +{4_Num} [ICON_RESEARCH] Wissenschaft {2: plural 1?gewährt; other?gewähren;}.[NEWLINE]Sie erhalten aufgrund ihres kulturellen Einflusses auf Euch +{3_Num} [ICON_RESEARCH] Wissenschaft auf diesem Weg.'
+WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- CS Gift Stuff
+
+UPDATE Language_de_DE
+SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, {2_Gold} [ICON_GOLD] Gold)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Als [COLOR_POSITIVE_TEXT]kaufmännischer[ENDCOLOR] Stadtstaat bieten ihre Märkte Eurer Bevölkerung exotische Handelswaren an! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, +{2_Gold} [ICON_GOLD] Gold)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = '[COLOR_POSITIVE_TEXT]Kaufmännische[ENDCOLOR] Stadtstaaten versorgen die Märkte Eures Reiches mit exotischsten Handelswaren! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit, +{2_Gold} [ICON_GOLD] Gold)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Sie werden Eurem Militär weniger Einheiten und Wissenschaft stellen! ({1_Science} [ICON_RESEARCH] Science)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Sie geben Euch nicht länger militärische Einheiten oder Wissenschaft! ({1_Science} [ICON_RESEARCH] Wissenschaft)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Als [COLOR_POSITIVE_TEXT]militaristischer[ENDCOLOR] Stadtstaat stellen sie Euch von Zeit zu Zeit Militäreinheiten und Wissenschaft. (+{1_Science} [ICON_RESEARCH] Wissenschaft)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Als [COLOR_POSITIVE_TEXT]militaristischer[ENDCOLOR] Stadtstaat stellen sie Euch regelmäßig Militäreinheiten und Wissenschaft. (+{1_Science} [ICON_RESEARCH] Wissenschaft)'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+-- Change instructions for Ideologies
+
+UPDATE Language_de_DE
+SET Text = 'Die drei Ideologie-Bäume 'Freiheit', 'Ordnung' und 'Autokratie' wurden in Brave New World erheblich erweitert. Alle Zivilisationen im Spiel, die 18 Politiken erworben und mindestens das Industriezeitalter erreicht haben oder beim erreichen des Atomzeitalters, müssen eine Ideologie für sich wählen. Jeder Ideologie-Baum enthält 3 Stufen mit Grundsätzen, mit denen Ihr Eure Ideologie anpassen könnt. Die Grundsätze der dritten und letzten Stufe bringen natürlich die stärksten Vorteile. Wie bei normalen Sozialpolitiken nutzen die Spieler Kultur, um im Verlauf des Spiels weitere Grundsätze zu kaufen.[NEWLINE][NEWLINE]Zivilisationen, die eine Ideologie gemeinsam haben, erhalten Vorteile bei ihren diplomatischen Beziehungen. Bei Ideologien, die im Konflikt miteinander stehen, kann es mehrere Nebeneffekte geben. So kann es einen negativen Effekt auf die diplomatischen Beziehungen und Zufriedenheits-Malusse geben, wenn eine andere Ideologie einen stärkeren kulturellen Einfluss auf Euer Volk hat. Wenn Ihr Euer Volk zu unzufrieden werden lasst, kann es passieren, dass Eure Städte sich dem Reich eines Gegners anschließen. Als letztes Mittel könnt Ihr oder andere Spieler eine "Revolution" einsetzen, um eine Ideologie zu wählen, die Eurem Volk besser gefällt.[NEWLINE][NEWLINE]Weitere Informationen zu ideologischen Grundsätzen findet Ihr unter 'Sozialpolitiken' oben in der Zivilopädie, wenn Ihr zu den Abschnitten Ordnung, Freiheit und Autokratie herunterscrollt.'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Wer eine riesige, ausgedehnte Zivilisation gründen will, sollte sich der Ordnung verschreiben, denn die Stärke eines Reiches beruht auf der Anzahl der Städte, die es umfasst. Ordnung wird verfügbar, sobald Ihr das Atomzeitalter erreicht oder 18 Politiken erworben und mindestens das Industriezeitalter erreicht habt, je nachdem, was zuerst eintritt.'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_ORDER_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Die Ideologie Autokratie ist bestens geeignet für diejenigen, die sich nichts mehr wünschen, als ihre Gegner unter dem Gewicht ihrer Stiefel zu zerquetschen. Diese Politik ist ab dem Atomzeitalter verfügbar oder durch das Erwerben von 18 Politiken und mindestens dem Erreichen des Industriezeitalters, je nachdem, was zuerst eintritt.'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Die Ideologie Unabhängigkeit gewährt Boni auf Kultur-, Tourismus-, Spezialistenproduktion und vieles mehr. Diese Politik ist ab dem Atomzeitalter verfügbar oder durch das Erwerben von 18 Politiken und mindestens dem Erreichen des Industriezeitalters, je nachdem, was zuerst eintritt.'
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Euer Volk sieht sich nun als Teil des Atomzeitalters und der Gedanke der Modernisierung durchdringt Eure Gesellschaft. Euer Volk schreit in Erwartung einer Ideologie für Eure Zivilisation.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Ideologische Grundsätze können erst gekauft werden, wenn Ihr eine Ideologie gewählt habt. Diese Wahl ist verfügbar, sobald Ihr das Atomzeitalter erreicht oder 18 Politiken erworben und mindestens das Industriezeitalter erreicht habt, je nachdem, was zuerst eintritt.'
+WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+
+UPDATE Language_de_DE
+SET Text = 'Ermöglicht den Bau von Atombomben und Atomraketen.[NEWLINE][NEWLINE]Wenn Ihr der [COLOR_POSITIVE_TEXT]erste[ENDCOLOR] seid der es fertig stellt, erhaltet Ihr ein freies Forschungslabor und eine Atombombe in Eurer [ICON_CAPITAL] Hauptstadt.'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Manhattan Project allows a civilization to construct nuclear weapons. Each civilization must construct the Manhattan Project before it can construct nukes. If you are part of the first global team to complete this, you will receive a free Research Lab and Atomic Bomb in your Capital.'
+SET Text = 'Das Manhattan-Projekt ermöglicht den Bau von Atomwaffen. Jede Zivilisation muss das Manhattan-Projekt fertigstellen, um Atomwaffen bauen zu können. Wenn Ihr Teil des globalen Teams seid das es zuerst fertig stellt, erhaltet Ihr ein freies Forschungslabor und eine Atombombe in Eurer Hauptstadt'
 WHERE Tag = 'TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Signals the start of the space race, allowing your Cities to build spaceship parts. When the spaceship is completed, you win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]![NEWLINE][NEWLINE]If you are the [COLOR_POSITIVE_TEXT]first[ENDCOLOR] to complete this, receive a free [ICON_GREAT_SCIENTIST] Great Scientist near your [ICON_CAPITAL] Capital, and a [ICON_GOLDEN_AGE] Golden Age begins.'
+SET Text = 'Signalisiert den Start des Weltraumrennens und ermöglicht Euren Städten den Bau von Raumschiffteilen. Wenn das Raumschiff fertiggestellt ist, erringt Ihr einen [COLOR_POSITIVE_TEXT]Wissenschaftssieg[ENDCOLOR]![NEWLINE][NEWLINE]Wenn Ihr der [COLOR_POSITIVE_TEXT]erste[ENDCOLOR] seid der es fertig stellt, erhaltet Ihr einen freien [ICON_GREAT_SCIENTIST] Großen Wissenschaftler nahe Eurer [ICON_CAPITAL] Hauptstadt und ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt.'
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Apollo Program is the start of the space race. It allows construction of spaceship parts. Each civilization must complete this project before they can construct spaceship parts. If you are part of the first global team to complete this, you will receive a free Great Scientist near your Capital, and a Golden Age will begin.'
+SET Text = 'Das Apollo-Programm ist der Start des Weltraumrennens. Es ermöglicht den Bau von Raumschiffteilen. Jede Zivilisation muss dieses Projekt fertigstellen, um Raumschiffteile bauen zu können. Wenn Ihr Teil des globalen Teams seid das es zuerst fertig stellt, erhaltet Ihr einen freien Großen Wissenschaftler nahe Eurer Hauptstadt und ein Goldenes Zeitalter beginnt'
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -150,19 +150,19 @@ SET Text = 'Fischfang'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Fishing is the activity of trying to catch fish. Fishing usually takes place in the wild. Techniques for catching fish include hand gathering, spearing, netting, angling and trapping. The term fishing may be applied to catching other aquatic animals such as molluscs, cephalopods, crustaceans, and echinoderms. The term is not normally applied to catching farmed fish, or to aquatic mammals, such as whales, where the term whaling is more appropriate.'
+SET Text = 'Fischfang ist die Tätigkeit bei der versucht wird Fisch zu fangen. Er erfolgt in der Regel in der Natur. Zu den Techniken des Fischfangs zählen das händische Fangen, das Fangen mit Speeren, mit Netzen, Angeln und das Fallenstellen. Der Begriff Fischfang kann auch auf das Fangen von anderen Wassertieren wie Muscheln, Kopffüßer, Krebstiere und Stachelhäuter angewendet werden. Wird normalerweise jedoch nicht für das Fangen von Zuchtfischen oder Wassersäugetieren wie etwa Wale verwendet.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Militärtheorien'
+SET Text = 'Militärtheorie'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Military theory is the analysis of normative behavior and trends in military affairs and military history, beyond simply describing events in war, Military theories, especially since the influence of Clausewitz in the nineteenth century, attempt to encapsulate the complex cultural, political and economic relationships between societies and the conflicts they create. Theories and conceptions of warfare have varied in different places throughout human history. The Chinese Sun Tzu is recognized by scholars to be one of the earliest military theorists. His now-iconic Art of War laid the foundations for operational planning, tactics, strategy and logistics. In India, Chanakya (350 – 275 BCE) laid the foundations of military theory through his seminal text called Arthashastra. While the views of Clausewitz, Sun Tzu and Kautilya are not directly applicable to the modern battlefield, they are still referenced and acknowledged by military theorists for the insights they provide, which are then adapted to modern times.'
+SET Text = 'Militärtheorie ist die Analyse des normativen Verhaltens und der Richtungen in militärischen Angelegenheiten und militärischer Geschichte, darüber hinaus das einfache Beschreiben von Ereignissen im Krieg. Militärtheorie, besonders seit dem Einfluss von Clausewitz im neunzehnten Jahrhundert, versucht die komplizierten kulturellen, politischen und wirtschaftlichen Beziehungen zwischen Gesellschaften zusammenzufassen und die Konflikte herauszustellen die sie verursachen. Theorien und Konzeptionen der Kriegsführung haben an verschiedenen Orten überall in der Geschichte der Menschheit variiert. Der Chinese Sun Tzu wird von Wissenschaftlern als eine der frühsten Militärtheoretiker gesehen. Seine mittlerweile ikonische „Kunst des Krieges“ legte den Grundstein für die operative Planung, Taktiken, Strategien und Logistik. In Indien legte Chanakya (350 - 275 v. Chr.) den Grundstein für die Militärtheorie durch seinen bahnbrechenden Text, genannt „Arthashastra“. Während die Ansichten von Clausewitz, Sun Tzu und Chanakya auf das moderne Schlachtfeld nicht direkt anwendbar sind, werden auf sie immer noch verwiesen und sind von Militärtheoretikern für deren Einblicke immer noch anerkannt, die dann an die moderne Zeit angepasst werden.'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Barracks[ENDCOLOR], an essential building for early war.'
+SET Text = 'Ermöglicht den Bau von [COLOR_POSITIVE_TEXT]Kasernen[ENDCOLOR], einem grundlegenden Gebäude des frühen Krieges.'
 WHERE Tag = 'TXT_KEY_TECH_ARCHERY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -347,39 +347,39 @@ SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows
 WHERE Tag = 'TXT_KEY_TECH_POTTERY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Customs House[ENDCOLOR] and [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], improving [ICON_GOLD] Gold in your cities.'
+SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Zollamts[ENDCOLOR] und [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], die die [ICON_GOLD] Goldprodutkion in Euren Städten verbessert.'
 WHERE Tag = 'TXT_KEY_TECH_GUILDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows land units to [COLOR_POSITIVE_TEXT]Embark[ENDCOLOR] onto water tiles and travel along the coast. Also allows you to build economic ships, useful for exploration and harvesting resources in the water like [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fish[ENDCOLOR] and [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Pearls[ENDCOLOR].'
+SET Text = 'Ermöglicht Landeinheiten auf Wasser-Geländefeldern zu [COLOR_POSITIVE_TEXT]wassern[ENDCOLOR] und die Ozeane zu überqueren. Ermöglicht den Bau von Handelsschiffen, die sich zur Erkundung und zum Bewirtschaften bzw. Abbauen von Ressourcen im Wasser wie [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fisch[ENDCOLOR], [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Perlen[ENDCOLOR], [ICON_RES_WHALE] [COLOR_POSITIVE_TEXT]Walen[ENDCOLOR] und [ICON_RES_CRAB] [COLOR_POSITIVE_TEXT]Krabben[ENDCOLOR] eignen.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR] in coastal cities, improving [ICON_FOOD] Food output from water tiles, speeding their growth. Also grants you access to the [COLOR_POSITIVE_TEXT]Cargo Ship[ENDCOLOR].'
+SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Leuchtturms[ENDCOLOR] in Küstenstädten, der die [ICON_FOOD] Nahrungsproduktion von Wasser-Geländefeldern steigert und so ihr Wachstum beschleunigt. Ermöglicht außerdem den Bau des [COLOR_POSITIVE_TEXT]Frachters[ENDCOLOR], mit dem man lukrative Seehandelswege aufbauen kann.'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Observatory[ENDCOLOR], a powerful [ICON_RESEARCH] Science building. Also allows embarked land units to cross ocean tiles.'
+SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Observatoriums[ENDCOLOR], das eine erhebliche Steigerung der [ICON_RESEARCH] Wissenschaft bringt. Zudem können Landeinheiten zu Wasser Ozean-Geländefelder überqueren.'
 WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Frigate[ENDCOLOR] and the [COLOR_POSITIVE_TEXT]Corvette[ENDCOLOR], powerful Renaissance-era warships. Also allows coastal cities to build the [COLOR_POSITIVE_TEXT]Seaport[ENDCOLOR], which provides [ICON_PRODUCTION] Production from sea resources.'
+SET Text = 'Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Fregatten[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Corvette[ENDCOLOR], ein mächtiges Kriegsschiff der Renaissance. Ermöglicht außerdem den Bau von [COLOR_POSITIVE_TEXT]Seehäfen[ENDCOLOR] in Küstenstädten, was den [ICON_PRODUCTION] Produktionsausstoß von Meeresressourcen steigert.'
 WHERE Tag = 'TXT_KEY_TECH_NAVIGATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Reveals [ICON_RES_ALUMINUM] Aluminum, a resource used for many late-game units. Also allows Cities to build the [COLOR_POSITIVE_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold. Also allows you to build the [COLOR_POSITIVE_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River.'
+SET Text = 'Erhaltet einen weiteren [ICON_INTERNATIONAL_TRADE] Handelsweg. Zeigt [ICON_RES_ALUMINUM] Aluminium, eine Ressource, die im späteren Spielverlauf für viele Einheiten benötigt wird. Ermöglicht außerdem den Bau der [COLOR_POSITIVE_TEXT]Börse[ENDCOLOR], welche den [ICON_GOLD] Goldertrag steigert. Ermöglicht außerdem den Bau des [COLOR_POSITIVE_TEXT]Wasserkraftwerks[ENDCOLOR], das die [ICON_PRODUCTION] Produktion für Geländefelder an einem Fluss steigert'
 WHERE Tag = 'TXT_KEY_TECH_ELECTRICITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Penicilin and Nanotech 
 
 UPDATE Language_de_DE
-SET Text = 'All Workers receive the [COLOR_POSITIVE_TEXT]Fallout Reduction[ENDCOLOR] Promotion, which reduces the amount of damage they take while scrubbing Fallout. Allows you to build the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a Unit that specializes in amphibious assaults. Also allows you to build the [COLOR_POSITIVE_TEXT]Medical Lab[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities.'
+SET Text = 'Alle Bautrupps erhalten die [COLOR_POSITIVE_TEXT]Fallout Reduktion[ENDCOLOR] Beförderung, die die Menge an Schaden reduziert der beim Reinigen des Fallouts anfällt. Ermöglicht die Ausbildung von [COLOR_POSITIVE_TEXT]Marines[ENDCOLOR], einer Einheit, die auf amphibische Angriffe spezialisiert ist. Ermöglicht außerdem den Bau von [COLOR_POSITIVE_TEXT]Medizinischen Laboren[ENDCOLOR], die das [ICON_FOOD] Wachstum von Städten beschleunigen.'
 WHERE Tag = 'TXT_KEY_TECH_PENICILIN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'All Workers receive the [COLOR_POSITIVE_TEXT]Fallout Immunity[ENDCOLOR] Promotion, which eliminates any damage they would take while scrubbing Fallout. Allows you to build the [COLOR_POSITIVE_TEXT]XCOM Squad[ENDCOLOR], and the [COLOR_POSITIVE_TEXT]SS Stasis Chamber[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].'
+SET Text = 'Alle Bautrupps erhalten die [COLOR_POSITIVE_TEXT]Fallout Immunität[ENDCOLOR] Beförderung, die jeglichen Schaden verhindert der beim Reinigen des Fallouts anfällt. Ermöglicht den Bau des [COLOR_POSITIVE_TEXT]XCOM-Trupps[ENDCOLOR] und der [COLOR_POSITIVE_TEXT]RS-Stasekammer[ENDCOLOR], eines Raumschiff-Teils, das für einen [COLOR_POSITIVE_TEXT]Wissenschaftssieg[ENDCOLOR] nötig ist.'
 WHERE Tag = 'TXT_KEY_TECH_NANOTECHNOLOGY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Who knows what the future holds?[NEWLINE][NEWLINE]A repeating technology that will increase your score and create 10 [ICON_HAPPINESS_1] Happiness in your [ICON_CAPITAL] Capital each time it is researched.'
+SET Text = 'Wer weiß, was die Zukunft bringt?[NEWLINE][NEWLINE]Eine sich wiederholende Technologie, die jedes Mal bei ihrer Erforschung Punkte und 10 [ICON_HAPPINESS_1] Zufriedenheit in Eurer [ICON_CAPITAL] Hauptstadt bringt.'
 WHERE Tag = 'TXT_KEY_TECH_FUTURE_TECH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );

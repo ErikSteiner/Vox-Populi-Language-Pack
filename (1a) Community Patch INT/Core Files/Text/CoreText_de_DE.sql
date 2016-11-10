@@ -149,7 +149,7 @@ SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescriptio
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_YIELDCHANGES';
 
 UPDATE language_de_DE
-SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} ({TXT_KEY_ABLTY_NO_FRESH_WATER_STRING})'
+SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_NO_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_NOFRESHWATERYIELDCHANGES';
 
 UPDATE language_de_DE
@@ -169,7 +169,7 @@ SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (Fresh W
 WHERE Tag = 'TXT_KEY_FRESH_WATER';
 
 UPDATE language_de_DE
-SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} ({TXT_KEY_ABLTY_FRESH_WATER_STRING})'
+SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescription} {TXT_KEY_ABLTY_FRESH_WATER_STRING}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_FRESHWATERYIELDCHANGES';
 
 UPDATE language_de_DE
@@ -180,6 +180,21 @@ UPDATE language_de_DE
 SET Text = 'Allowed units receive [COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR] Promotion: {@2_PromotionHelp}'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
+UPDATE language_de_DE
+SET Text = 'Ein aktueller Krieg verhindert diese Handlung.'
+WHERE Tag = 'TXT_KEY_DIPLO_ALREADY_AT_WAR';
+
+UPDATE language_de_DE
+SET Text = 'Eine Stadtstaaten Allianz verhindert diese Handlung.'
+WHERE Tag = 'TXT_KEY_DIPLO_NO_WAR_ALLIES';
+
+UPDATE language_de_DE
+SET Text = 'Eine Stadtstaaten Allianz verhindert dies.'
+WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
+
+UPDATE language_de_DE
+SET Text = 'Stadtstaat führt dauerhaft Krieg.'
+WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
 
 -- Fixed diacritics for spy names.
 

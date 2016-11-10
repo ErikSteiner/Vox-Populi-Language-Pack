@@ -2640,7 +2640,7 @@
 			<Text>Two-Adjacencent Bonus:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_IMPROVEMENT_RESOURCE_CBP_LABEL">
-			<Text>Improvement Yield:</Text>
+			<Text>Modernisierungsertrag:</Text>
 		</Row>
 
 		<!-- Score Text -->
@@ -2667,7 +2667,7 @@
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
-			<Text>{1_Num} [ICON_TOURISM] Tourism from City</Text>
+			<Text>{1_Num} [ICON_TOURISM] Tourismus von der Stadt</Text>
 		</Row>
 		<!-- City Over Resource Need Notification -->
 		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT_CITY">
@@ -2685,35 +2685,32 @@
 		</Row>
 		<!-- Lua for Trade Routes -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
-			<Text>Open Borders [ICON_GOLD] Gold Bonus: +{1_Num}%</Text>
+			<Text>Offene Grenzen [ICON_GOLD] Gold Bonus: +{1_Num}%</Text>
 		</Row>
 		<!-- LUA for CBP -->
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
-			<Text>These Players have made a Declaration of Friendship.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF_YOU">
-			<Text>You have a Declaration of Friendship with them.</Text>
+			<Text>Eine Freundschaftserklärung verhindert dies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP">
-			<Text>These Players have a Defensive Pact.</Text>
+			<Text>Ein Verteidigungsbündnis verhindert dies.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_YOU">
-			<Text>You have signed a Defensive Pact.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NO_WAR_ALLIES_US">
-			<Text>You are allied with them.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT_ONE_LINE">
-			<Text>Cannot have Gold Per Turn and Gold in same trade.</Text>
+
+		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
+			<Text>Kriegspunktzahl muss über Null liegen. Aktuelle Kriegspunktzahl: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
-			<Text>Cannot add to non-surrendering party in Peace Deal</Text>
+			<Text>Kann keine sich nicht-ergebene Partei zum Friedensabkommen hinzufügen</Text>
 		</Row>
-
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_BLOCKED">
-			<Text>A diplomatic situation prevents war.</Text>
+			<Text>Eine diplomatische Situation verhindert diese Handlung.</Text>
 		</Row>
-
+		<Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE">
+			<Text>Kann mit diesem Spieler weder verhandeln, noch Frieden schließen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEED_EMBASSY">
+			<Text>Eine Botschaft wird benötigt um diesen Gegenstand zu handeln.</Text>
+		</Row>
+		
 		<!-- Peace Out Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR">
 			<Text>Peace Deal Value: {1_Num}.</Text>
@@ -2751,33 +2748,33 @@
 		</Row>
 		<!-- Defensive Pact Bonuses -->
 		<Row Tag="TXT_KEY_DIPLO_DP">
-			<Text>[COLOR_POSITIVE_TEXT]We have made a Defensive Pact![ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Wir haben ein Verteidigungsbündnis geschlossen![ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DP_MUTUAL">
-			<Text>[COLOR_POSITIVE_TEXT]We have made a Defensive Pact with the same leaders!</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Wir haben ein Verteidigungsbündnis mit den selben Anführern!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]You have made a Defensive Pact with one of their enemies![ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Sie haben einen Verteidigungspakt mit einem ihrer Feinde geschlossen!![ENDCOLOR]</Text>
 		</Row>
 		<!-- Open Borders Diplo Mod-->
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_MUTUAL">
-			<Text>[COLOR_POSITIVE_TEXT]We have opened our borders to each other.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Wir haben unsere Grenzen zu einander geöffnet.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_US">
-			<Text>[COLOR_POSITIVE_TEXT]We have opened our borders to them.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Wir haben unsere Grenzen zu ihnen geöffnet.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEM">
-			<Text>[COLOR_POSITIVE_TEXT]They have opened their borders to us.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Sie haben ihre Grenzen zu uns geöffnet.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_SAME_POLICIES">
-			<Text>[COLOR_POSITIVE_TEXT]We have similar Social Policies.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Wir haben ähnliche Sozialpolitiken.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DIFFERENT_POLICIES">
-			<Text>[COLOR_NEGATIVE_TEXT]We have divergent Social Policies.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Wir haben abweichende Sozialpolitikrn.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_SAME_PTP">
-			<Text>[COLOR_NEGATIVE_TEXT]We have Pledged to Protect the same City-States.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Wir haben dem selben Stadtstaat unser Schutzversprechen gegeben.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Aggressive Posture -->
@@ -6265,25 +6262,25 @@
 		
 		<!-- Morale Hit -->
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK">
-			<Text>Our {2_Unit} was forced to retreat by an enemy {1_Unit}!</Text>
+			<Text>Unsere {2_Unit} wurde durch eine feindliche {1_Unit} zum Rückzug gezwungen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK_S">
-			<Text>{1_Unit} has routed!</Text>
+			<Text>{1_Unit} wurde besiegt!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK_THEM">
-			<Text>Our {1_Unit} forced an enemy {2_Unit} to retreat!</Text>
+			<Text>Unsere {1_Unit} zwang eine {2_Unit} zum Rückzug!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MORALE_FALL_BACK_THEM_S">
-			<Text>Enemy {1_Unit} forced to retreat!</Text>
+			<Text>Feindliche {1_Unit} zum Rückzug gezwungen!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
-			<Text>Can only include City-States allied with either party in Peace Deals.</Text>
+			<Text>Kann nur verbündete Stadtstaaten im Friedensabkommen enthalten.</Text>
 		</Row>
 
 		<!-- Team Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">
-			<Text>+{1_Num}% Bonus for Same Team[NEWLINE]</Text>
+			<Text>+{1_Num}% Bonus für das selbe Team[NEWLINE]</Text>
 		</Row>
 
 		<!-- Building Tooltip -->
@@ -6510,6 +6507,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_17">
 			<Text>Sarcophagus of Ptolemy I</Text>
+		</Row>
+
+		<!--Policies-->
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
+			<Text>[COLOR_WARNING_TEXT]Ihr müsst {1_Num} Politiken aus anderen Zweigen freischalten, bevor dieser Zweig freigeschaltet wird. Ein Abschluss eines Baumes zählt nicht zu diesem Betrag.[ENDCOLOR]</Text>
 		</Row>
 	</language_de_DE>
 </GameData>
