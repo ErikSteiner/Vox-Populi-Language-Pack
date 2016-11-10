@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="5">
+<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="6">
   <Properties>
     <Name>(6b) Community Balance Overhaul - CF (EUI) INT</Name>
     <Stability>Beta</Stability>
-    <Teaser>(8-12) Translation of Community Balance Overhaul - CF (EUI) into several non-English languages.</Teaser>
+    <Teaser>(11-10) Translation of Community Balance Overhaul - CF (EUI) into several non-English languages.</Teaser>
     <Description>Translation of Community Balance Overhaul - CF (EUI) into several non-English languages.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>5</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>6</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
