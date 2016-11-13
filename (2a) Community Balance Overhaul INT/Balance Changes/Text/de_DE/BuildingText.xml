@@ -296,6 +296,7 @@
 			<Text>Der Windpark ist ein Gebäude der Moderne, das nur in einer Stadt errichtet werden kann die nicht an einem Fluß liegt. Der Windpark steigert den Produktions-, Wissenschafts- und Goldertrag für jedes Grasland- und Ebene-Geländefeld das von dieser Stadt bewirtschaftet wird.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_STRATEGY">
+			<Text>Der Gemischtwarenhändler ist ein Gebäude der Renaissance, das nur gebaut werden kann, wenn die Stadt bereits über ein Aquädukt verfügt. Der Gemischtwarenhändler lässt Eure Stadt schneller wachsen und bekämpft gleichzeitig die Armut.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_STRATEGY">
 			<Text>The Agribusiness is an Industrial-era building which can only be constructed if you have already built a Gemischtwarenhändler in der Stadt. An Agribusiness helps your City grow more quickly, however the use of Pferde is a risky tradeoff during an era in which Cavalry is still quite powerful.</Text>

@@ -65,26 +65,26 @@ SET Text = ' Zusätzlich zu der [ICON_RESEARCH] Wissenschaftsproduktion der Schu
 WHERE Tag = 'TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Unique Assyrian support Unit. Nearby owned Units gain +40% [ICON_STRENGTH] Combat Strength versus Cities when adjacent to an enemy City, or +20% [ICON_STRENGTH] Combat Strength if two tiles from an enemy City. Starts with [COLOR_POSITIVE_TEXT]Medic I[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Extra Sight[ENDCOLOR]. Cannot attack or defend itself.[NEWLINE][NEWLINE]May only have [COLOR_POSITIVE_TEXT]2[ENDCOLOR] Siege Towers active at one time.'
+SET Text = 'Mächtige assyrische Unterstützungseinheit, die Einheiten in der Nähe +40% [ICON_STRENGTH] Kampfstärke verleiht, wenn sie bei einer gegnerischen Stadt steht oder +20% [ICON_STRENGTH] Kampfstärke wenn sie zwei Geländefelder entfernt von einer Stadt steht. Beginnt mit [COLOR_POSITIVE_TEXT]Sanitäter I[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Zusätzliche Sicht[ENDCOLOR]. Kann weder angreifen noch sich verteidigen.[NEWLINE][NEWLINE]Es dürfen nur [COLOR_POSITIVE_TEXT]2[ENDCOLOR] Belagerungstürme gleichzeitig aktiv sein.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Unique Assyrian support Unit. This unit must move close to an enemy city to be effective, but once it has, it is devastating. It [COLOR_NEGATIVE_TEXT]cannot attack or defend itself[ENDCOLOR], so protect it at all costs! You cannot have more than 2 active Siege Towers at one time.[NEWLINE][NEWLINE]If adjacent to a city, the Siege Tower confers a huge combat bonus to all nearby units also attacking the city. If the Siege Tower is two tiles away from the City, all nearby units attacking the city receive half of this bonus. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.' 
+SET Text = 'Mächtige assyrische Unterstützungseinheit muss sich neben eine feindliche Stadt bewegen, um etwas zu bewirken, aber sobald sie das getan hat, ist sie verheerend. Sie kann [COLOR_NEGATIVE_TEXT]weder angreifen noch sich verteidigen[ENDCOLOR], beschützt sie daher um jeden Preis! Ihr könnt nicht mehr als zwei Belagerungstürme gleichzeitig befehligen.[NEWLINE][NEWLINE]Wenn an eine Stadt angrenzend, verleiht der Belagerungsturm allen nahegelegenen Einheiten die auch die Stadt angreifen einen riesigen Kampfbonus. Wenn der Belagerungsturm zwei Geländefelder weit von der Stadt entfernt ist, erhalten alle nahegelegenen angreifenden Einheiten die Hälfte des Bonus. Ergänzen Sie einen Belagerungsturm mit Nah- und Fernkampfeinheiten und stellen Sie sicher, dass er sein Ziel erreicht bevor er vernichtet wird. Dann fallen Städte durch ihn deutlich schneller.' 
 WHERE Tag = 'TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'When next to an enemy city, other units within 2 tiles get a 40% Bonus when attacking the city. If 2 tiles from an enemy city, other units within 2 tiles get a 20% Bonus when attacking the city. Bonuses do not stack.'
+SET Text = 'Angrenzend an eine feindliche Stadt erhalten alle anderen Einheiten innerhalb eines Radius von 2 Geländefeldern einen Bonus von 40% beim Angriff auf die Stadt.  Wenn 2 Geländefelder von der feindlichen Stadt entfernt erhalten alle anderen Einheiten innerhalb eines Radius von 2 Geländefeldern einen Bonus von 20% beim Angriff auf die Stadt. Boni addieren sich nicht.'
 WHERE Tag = 'TXT_KEY_PROMOTION_SAPPER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'When you conquer a City, gain either a Technology already known by the owner or, if impossible, a large [ICON_RESEARCH] Wissenschaft boost. All Great Works produce +2 [ICON_RESEARCH] Wissenschaft.'
+SET Text = 'Wenn eine Stadt erobert wird, erhaltet Ihr eine kostenlose Technologie, die der Besitzer schon erforscht hat oder wenn möglich eine Menge an [ICON_RESEARCH] Wissenschaft. Alle großen Werke produzieren +2 [ICON_RESEARCH] Wissenschaft.'
 WHERE Tag = 'TXT_KEY_TRAIT_SLAYER_OF_TIAMAT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 --------------------
 -- Austria
 --------------------
 UPDATE Language_de_DE
-SET Text = '+50% rewards from City-State Quests. May arrange Marriages with City-States using [ICON_GOLD] Gold. Marriages halt [ICON_INFLUENCE] Influence decay, grant +1 World Congress Delegate, and boost [ICON_GREAT_PEOPLE] Great People Rate in [ICON_CAPITAL] Capital by +15%.'
+SET Text = '+50% Belohnung von Stadtstaaten Quests. [ICON_GOLD] Gold kann zum arrangieren einer Hochzeit mit einem Stadtstaat eingesetzt werden. Hochzeiten stoppen den stetigen Verlust an [ICON_INFLUENCE] Einfluss, gewähren +1 Abgeordneten im Weltkongress und steigert die Rate mit der [ICON_GREAT_PEOPLE] Große Persönlichkeiten in der [ICON_CAPITAL] Hauptstadt generiert werden um +15%.'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -92,19 +92,19 @@ SET Text = 'Habsburgische Diplomatie'
 WHERE Tag = 'TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+33% [ICON_GREAT_PEOPLE] Great People generation in this City. 10% of the City''s [ICON_CULTURE] Culture converted to [ICON_RESEARCH] Wissenschaft every turn.[NEWLINE][NEWLINE]Carries over 15% of [ICON_FOOD] Food after City growth (effect stacks with Aqueduct), and reduces [ICON_HAPPINESS_3] Poverty.[NEWLINE][NEWLINE]Requires an Aqueduct in the City.'
+SET Text = '+33% [ICON_GREAT_PEOPLE] Auftauchen Großer Persönlichkeiten in dieser Stadt. 10% der städtischen [ICON_CULTURE] Kultur wird jede Runde in [ICON_RESEARCH] Wissenschaft umgewandelt.[NEWLINE][NEWLINE]15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird (Effekt addiert sich mit Aquädukt). Reduziert [ICON_HAPPINESS_3] Armut.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.'
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Coffee House is a Renaissance-era building unique to Austria, replacing the Grocer. It increases the city''s [ICON_GROWTH] Growth and speed at which [ICON_GREAT_PEOPLE] Great People are generated by 33%.'
+SET Text = 'Das Kaffeehaus ist ein einzigartiges Gebäude der Österreicher während der Renaissance, welches den Gemischtwarenhändler ersetzt. Es erhöht [ICON_GROWTH] das Wachstum und die Geschwindigkeit mit der [ICON_GREAT_PEOPLE] Große Persönlichkeiten Auftauchen um 33%.'
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A fast Mounted Unit used for scouting and hit-and-run attacks. Ignores Zone of Control. Only the Austrians may build it.'
+SET Text = 'Eine schnelle berittene Einheit, die zum Aufklären und für Überraschungsangriffe eingesetzt wird. Ignoriert Kontrollzonen. Nur die Österreicher können sie bauen.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_AUSTRIAN_HUSSAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Hussars are great scouts and flank attackers. They are slightly faster than Cavalry which they replace. They start with Promotions that give them +1 Sight and allows them to ignore Zone of Control.'
+SET Text = 'Husaren sind großartige Aufklärer und Flankenangreifer. Sie sind etwas schneller als die Kavallerie, die sie ersetzen. Sie starten mit Beförderungen, die ihnen +1 Sicht bringen und ihnen erlauben Kontrollzonen zu ignorieren.'
 WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 
@@ -112,37 +112,39 @@ WHERE Tag = 'TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY' AND EXISTS (SELECT * FROM CO
 -- Aztecs
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung and +1 [ICON_Produktion] Produktion für je 2 [ICON_CITIZEN] Bürger in der Stadt. Jeder bewirtschaftete See gewährt +2 [ICON_FOOD] Nahrung und Fluß-Geländefelder +1 [ICON_FOOD] Nahrung.'
+SET Text = '+1 [ICON_FOOD] Nahrung und +1 [ICON_Produktion] Produktion für je 2 [ICON_CITIZEN] Bürger in der Stadt. Jeder bewirtschaftete See gewährt +2 [ICON_FOOD] Nahrung und Fluß-Geländefelder +1 [ICON_FOOD] Nahrung.'
 WHERE Tag = 'TXT_KEY_BUILDING_FLOATING_GARDENS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Receive [ICON_GOLD] Gold and [ICON_PEACE] Faith for each enemy unit you kill. When you complete a favorable Peace Treaty, a [ICON_GOLDEN_AGE] Golden Age begins.'
+SET Text = 'Erhaltet [ICON_GOLD] Gold und [ICON_PEACE] Glauben für jeden Gegner den Ihr besiegt. Wenn Ihr einen vorteilhaften Friedensvertrag abschließt beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_CULTURE_FROM_KILLS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Fairly weak early-game military Unit. Only the Aztecs may build it. This Unit has higher [ICON_STRENGTH] Combat Strength than the Warrior, fights more effectively in Forests and Jungles, and heals damage when it kills an enemy Unit.'
+SET Text = 'Relativ schwache, frühe Militäreinheit. Nur die Azteken können sie bauen. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampfstärke als der Krieger, kämpft effektiver in Wäldern und Dschungel und heilt Schaden, wenn sie eine andere Einheit besiegt.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_JAGUAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
+
+
 --------------------
 -- Babylon
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Receive a free Great Scientist when you discover Writing, and Great Scientists are earned 50% faster than normal. Investing [ICON_GOLD] Gold in Buildings reduces their [ICON_Produktion] Produktion cost by an additional 15%.'
+SET Text = 'Freier Großer Wissenschaftler, wenn Ihr die Schrift erforscht. Große Wissenschaftler tauchen 50% schneller auf. Das Investieren von [ICON_GOLD] Gold in Gebäuden reduziert deren [ICON_Produktion] Produktionskosten um weitere 15%.'
 WHERE Tag = 'TXT_KEY_TRAIT_INGENIOUS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'This Babylonian Unique Unit replaces the Composite Bowman. The Bowman is stronger and can better withstand melee attacks than the standard Composite Bowman. Starts with Indirect Fire promotion.'
+SET Text = 'Diese babylonische Spezialeinheit ist eine der ersten verfügbaren Fernwaffeneinheiten und ersetzt den Kompositbogenschützen. Der Kampfbogenschütze ist stärker und kann Nahkampfangriffen besser standhalten als der Kompositbogenschütze anderer Zivilisationen. Startet mit der [COLOR_POSITIVE_TEXT]Indirektes Feuer[ENDCOLOR] Beförderung.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Bowman is the Babylonian Unique Unit, replacing the Composite Bowman. This Unit is defensively stronger than the Composite Bowman, allowing placement in the front line. The Bowman''s improved combat prowess helps ameliorate any concern that it may be quickly overrun.'
+SET Text = 'Der Kampfbogenschütze ist die babylonische Spezialeinheit und ersetzt den Kompositbogenschützen. Diese Einheit ist im Kampf sowohl offensiv als auch defensiv stärker als der Kompositbogenschützen und kann daher an vorderster Front eingesetzt werden. Die verbesserte Kampfstärke des Kampfbogenschützen verhindert, dass er einfach überrannt werden kann.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Walls of Babylon increase the damage output of all the city''s ranged attacks and increase the city''s defense.'
+SET Text = 'Die Mauern von Babylon erhöhen den Schaden durch Fernangriffe der Stadt und die Verteidigung der Stadt.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_INFO' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Mauern von Babylon sind ein einzigartiges Gebäude von Babylon und ersetzen die normalen Stadtmauern. Die Mauern von Babylon erhöhen die Verteidigungsfähigkeit der Stadt um 15 und verschaffen der Stadt eine größere Kampfstärke von 75 Punkte bei Bombardierungsangriffen (weit mehr als normale Stadtmauern) Die Mauern von Babylon beinhalten außerdem einen Platz für einen Wissenschaftler-Spezialist und gewähren Wissenschaft.'
+SET Text = 'Die Mauern von Babylon sind ein einzigartiges Bauwerk von Babylon und ersetzen die normalen Stadtmauern. Die Mauern von Babylon erhöhen die Verteidigungsfähigkeit der Stadt um 15 und verschaffen der Stadt eine größere Kampfstärke von 75 Punkte bei Bombardierungsangriffen (weit mehr als normale Stadtmauern). Die Mauern von Babylon bieten außerdem Platz für einen Spezialisen der Wissenschaft und produzieren.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -154,11 +156,11 @@ SET Text = 'Wenn ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt werden 50% der
 WHERE Tag = 'TXT_KEY_TRAIT_CARNIVAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'May only be gifted by Minor Civilizations. Modern Era infantry unit that earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy. Starts with Survivalism I.'
+SET Text = 'Kann nur von kleineren Zivilisationen verschenkt werden. Infanterieeinheit der Moderne, die Punkte für ein [ICON_GOLDEN_AGE] Goldenes Zeitalter sammelt, wenn sie einen Gegner besiegt. Startet mit der [COLOR_POSITIVE_TEXT]Survivalismus I[ENDCOLOR] Beförderung.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'This melee unit earns points toward starting a Golden Age when it defeats an enemy. Use them to fight wars in foreign lands to push your Civilization towards a Culture victory. May only be gifted by Minor Civilizations.'
+SET Text = 'Diese Nahkampfeinheit verdient Punkte, um das nächste goldene Zeitalter zu starten, wenn sie einen Gegner besiegt. Setzt sie in anderen Ländern für den Krieg ein, um Brasilien einen Kultursieg zu bescheren. Kann nur von kleineren Zivilisationen verschenkt werden.'
 WHERE Tag = 'TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
