@@ -200,7 +200,7 @@ SET Text = 'Das Observatorium kann nur in Städten gebaut werden, die innerhalb 
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_PRODUCTION] Produktion bei der Errichtung von Gebäuden. Krämer und Kornspeicher in der Stadt produzieren +2 [ICON_FOOD] Nahrung.'
+SET Text = '+15% [ICON_PRODUCTION] Produktion bei der Errichtung von Gebäuden. Gemischtwarenhändler und Kornspeicher in der Stadt produzieren +2 [ICON_FOOD] Nahrung.'
 WHERE Tag = 'TXT_KEY_BUILDING_WINDMILL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
