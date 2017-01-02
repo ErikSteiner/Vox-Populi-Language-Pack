@@ -319,13 +319,13 @@
 			<Text>[NEWLINE][ICON_BULLET]Mandarin Bureaucracy ([ICON_GOLDEN_AGE]): {1_Num}%[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA">
-			<Text>The birth of a {1_Resource:textkey} causes the city of {2_CityName:textkey} to enter "Kaiserlicher Feiertag", giving the city a +50% [ICON_FOOD] growth bonus!</Text>
+			<Text>Die Entdeckung von {1_Resource:textkey} veranlasst the Stadt von {2_CityName:textkey} einen "Kaiserlicher Feiertag" einzuleiten, der der Stadt +75% [ICON_FOOD] Wachstumsbonus beschert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA">
 			<Text>{1_CityName:textkey} loves the Empress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_RESOURCE">
-			<Text>The aquisition of {1_Resource:textkey} causes the city of {2_CityName:textkey} to enter "Kaiserlicher Feiertag", giving the city a +50% [ICON_FOOD] growth bonus!</Text>
+			<Text>Die Erschließung von {1_Resource:textkey} veranlasst the Stadt von {2_CityName:textkey} einen "Kaiserlicher Feiertag" einzuleiten, der der Stadt +75% [ICON_FOOD] Wachstumsbonus beschert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_RESOURCE">
 			<Text>{1_CityName:textkey} loves the Empress!</Text>
@@ -334,7 +334,7 @@
 			<Text>[NEWLINE][ICON_BULLET]Kaiserlicher Feiertag Modifier: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
-			<Text>The City of {1_CityName:textkey} wants {2_ResourceName:textkey}! Connecting that resource to your trade network will cause the city to enter "Kaiserlicher Feiertag," increasing its [ICON_FOOD] Growth rate by 50%!</Text>
+			<Text>Die Stadt von {1_CityName:textkey} verlangt nach {2_ResourceName:textkey}! Wenn Sie die Ressource mit Ihrem Handelsnetz verbinden, wird dies die Stadt dazu veralassen einen "Kaiserlicher Feiertag" abzuhalten , der der Stadt +75% [ICON_FOOD] Wachstumsbonus beschert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA">
 			<Text>This City is in "Kaiserlicher Feiertag", which increases [ICON_FOOD] growth!</Text>
@@ -382,10 +382,10 @@
 		</Row>
 		<!-- Trait LUA -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">
-			<Text>{1_Num} [ICON_TOURISM] Tourism from your Civilization Trait</Text>
+			<Text>{1_Num} [ICON_TOURISM] Tourismus von Zivilisations Eigenschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_TRAIT_BONUS">
-			<Text>+{1_Num} {2_IconString} from Trait</Text>
+			<Text>{1_Num} {2_IconString} von Eigenschaften</Text>
 		</Row>
 
 		<!-- Trade LUA -->
@@ -576,16 +576,16 @@
 			<Text>[NEWLINE][ICON_BULLET]Piety Modifer: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
-			<Text>{1_Num} {2_IconString} from Piety</Text>
+			<Text>{1_Num} {2_IconString} durch das Folgen der [ICON_RELIGION] Mehrheitsreligion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_PIETY">
-			<Text>{1_Num} [ICON_PEACE] from Piety</Text>
+			<Text>{1_Num} [ICON_PEACE] durch das Folgen der [ICON_RELIGION] Mehrheitsreligion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_CS_ALLIANCE">
 			<Text>{1_Num} [ICON_PEACE] from City-State Alliances</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_PIETY">
-			<Text>{1_Num} [ICON_CULTURE] from Piety</Text>
+			<Text>{1_Num} [ICON_CULTURE] durch das Folgen der [ICON_RELIGION] Mehrheitsreligion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_POP">
 			<Text>{1_Num} [ICON_PEACE] durch [ICON_CITIZEN] Bevölkerung</Text>
@@ -854,33 +854,56 @@
 			<Text>Requires an Ideology to become active.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNKNOWN_VC">
-			<Text>[ICON_CITIZEN] Bevölkerung must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung muss [COLOR_POSITIVE_TEXT]Zufrieden[ENDCOLOR] sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CONTENT_VC">
-			<Text>[ICON_CITIZEN] Bevölkerung [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Cultural Victory possible.</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung [COLOR_POSITIVE_TEXT]Zufrieden[ENDCOLOR]. Kultursieg möglich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_DISSIDENTS_VC">
-			<Text>[ICON_CITIZEN] Bevölkerung must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Dissidents[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung muss [COLOR_POSITIVE_TEXT]Zufrieden[ENDCOLOR] sein. Aktuell: [COLOR_NEGATIVE_TEXT]Dissidenten[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE_VC">
-			<Text>[ICON_CITIZEN] Bevölkerung must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Resistance[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung muss [COLOR_POSITIVE_TEXT]Zufrieden[ENDCOLOR] sein. Aktuell: [COLOR_NEGATIVE_TEXT]Ziviler Widerstand[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE_VC">
-			<Text>[ICON_CITIZEN] Bevölkerung must be [COLOR_POSITIVE_TEXT]Content[ENDCOLOR]. Currently: [COLOR_NEGATIVE_TEXT]Revolutionary Wave[ENDCOLOR].</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung muss [COLOR_POSITIVE_TEXT]Zufrieden[ENDCOLOR]. Aktuell: [COLOR_NEGATIVE_TEXT]Revolutionäre Welle[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA_ALT">
-			<Text>[COLOR_WARNING_TEXT]If you enter the {1_EraString:textkey} you can bypass the Policy requirement.[ENDCOLOR]</Text>
+			<Text>[COLOR_WARNING_TEXT]Wenn Sie das {1_EraString:textkey} Zeitalter erreichen, können Sie die Politikvoraussetzungen umgehen.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICYSCREEN_POLICIES_NEEDED_UNTIL_IDEOLOGY">
-			<Text>Number of Policies Remaining until Ideologies are unlocked: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>Anzahl der Politiken verbleibend bis Ideologien freigeschaltet werden: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PEDIA_ERA_YIELD">
-			<Text>Yield increase per Era (after Classical):</Text>
+			<Text>Ertragssteigerung pro Zeitalter:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_NATURAL_WONDER_FOUND_PROMOTE_OWNED">
 			<Text>[NEWLINE]Free Promotion for newly-created, valid units (if owned by player):[NEWLINE]{1_PromoteString}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_JAPAN_UA">
+			<Text>{1_Num}% Penalty from lack of Trade Routes (Sakoku)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU">
+			<Text>Due to the birth of {4_UnitName:textkey}, your [ICON_CAPITAL] Capital gains:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER] Great Writer Points[NEWLINE][ICON_BULLET]{2_Num}[ICON_GREAT_ARTIST] Artist Points[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN] Musician Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU_S">
+			<Text>Patronage of the Daimyo</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RESOURCE_BRAZILWOOD">
+			<Text>Brasilholz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BRAZILWOOD_HELP">
+			<Text>Einzigartiges Luxusguter der Brazilianer. Kann nur mit dem Brasilholzlager erschlossen werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_BRAZILWOOD">
+			<Text>Brasilholz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BRAZILWOOD_TEXT">
+			<Text>Brasilholz ist eine tropische Hartholzart, deren Rinde einen intensiven purpurroten und dunkelvioletten Stoff produziert, der zum Färben benutzt wird. Das Holz ist kompakt und wird für die Fertigung von Saiteninstrumenten (insbesondere von Bögen) und Möbeln geschätzt. In der Antike und in der mittelalterlichen Zeit war das aus dem Mittleren Osten nach Europa importierte Holz Caesalpinia Braziliensis und andere Arten von Caesalpinia. Caesalpinia Echinata (auf portugiesisch Pau-Brasil) ist an der brasilianischen Küste heimisch und spielte bei der Namensgebung dieses Landes eine Rolle.</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>

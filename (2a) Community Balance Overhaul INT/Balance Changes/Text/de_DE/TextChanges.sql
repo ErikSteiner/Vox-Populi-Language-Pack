@@ -120,7 +120,7 @@
 	WHERE Tag = 'TXT_KEY_CIV5_FEATURES_SOLOMONS_MINES_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	UPDATE Language_de_DE
-	SET Text = 'All Melee and Mounted-melee land units produced by the owner of this Natural Wonder gain the [COLOR_POSITIVE_TEXT]Everlasting Youth[ENDCOLOR] Promotion, allowing them to heal after moving.'
+	SET Text = 'Alle Nahkampf- und berittenen Nahkampfeinheiten, die vom Besitzer dieses Naturwunders ausgebildet werden, erhalten die [COLOR_POSITIVE_TEXT]Ewige Jugend[ENDCOLOR] Beförderung. Diese Erlaubt den Einheiten sich mit einer deutlich höheren Menge zu heilen als üblich.'
 	WHERE Tag = 'TXT_KEY_CIV5_FEATURES_FOUNTAIN_YOUTH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	UPDATE Language_de_DE

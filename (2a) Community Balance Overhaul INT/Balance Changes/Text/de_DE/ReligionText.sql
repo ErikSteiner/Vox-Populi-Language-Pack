@@ -168,7 +168,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER' AND EXISTS (SELECT * FROM COMMUNITY WH
 
 -- God-King
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur, [ICON_PEACE] Glauben, [ICON_GOLD] Gold und [ICON_RESEARCH] Wissenschaft für je 8 Anhänger Eures Pantheons in eigenen Städten'
+SET Text = '+1 [ICON_CULTURE] Kultur, [ICON_PEACE] Glauben, [ICON_GOLD] Gold und [ICON_RESEARCH] Wissenschaft für je 6 Anhänger Eures Pantheons in eigenen Städten'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_KING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Sun God
@@ -204,6 +204,9 @@ SET Text = 'Landeinheiten erhalten +15% [ICON_STRENGTH] Kampfstärke gegenüber 
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Jesuit Education 
+UPDATE Language_de_DE
+SET Text = 'Bau von Universitäten, Öffentlichen Schulen und Forschungslaboren mit [ICON_PEACE] Glauben möglich. Diese Gebäude produzieren jeweils +5 [ICON_RESEARCH] Wissenschaft.'
+WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Fervor (Now The One True Faith)
 UPDATE Language_de_DE
@@ -216,7 +219,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Sacred Sites
 UPDATE Language_de_DE
-SET Text = 'Alle Gebäude die mit Glauben gekauft werden gewähren jeweils 2 [ICON_TOURISM] Tourismus. Eremitage gewährt +5 [ICON_CULTURE] Kultur und +5 [ICON_TOURISM] Tourismus.'
+SET Text = 'Hotels und alle Gebäude die mit Glauben gekauft werden gewähren jeweils +3 [ICON_TOURISM] Tourismus. Eremitage gewährt +10 [ICON_CULTURE] Kultur und +10 [ICON_TOURISM] Tourismus.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Glory of God
@@ -226,7 +229,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD' AND EXISTS (SELECT * FROM COMMUNITY
 
 -- Underground Sect (Now Faith of the  Masses)
 UPDATE Language_de_DE
-SET Text = 'Baut Opernhäuser, Museen und Funktürme mit [ICON_PEACE] Glauben.'
+SET Text = 'Baut Opernhäuser, Museen und Funktürme mit [ICON_PEACE] Glauben. Diese Gebäude produzieren jeweils +5 [ICON_CULTURE] Kultur.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -259,7 +262,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_MOSQUE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Religious Texts (Now Hymns)
 UPDATE Language_de_DE
-SET Text = 'Religion verbreitet sich um 25% schneller (50% mit Druckerpresse). Eure Spione üben religiösen Druck auf die Städte aus die sie besetzen.'
+SET Text = 'Religion verbreitet sich um 30% schneller (60% mit Druckerpresse). Eure Spione üben religiösen Druck auf die Städte aus die sie besetzen.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -268,7 +271,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Reliquary (Now Tithes)
 UPDATE Language_de_DE
-SET Text = 'Heilige Stätte generiert +200 [ICON_GOLD] Gold wenn jede Stadt als erstes zu dieser Religion konvertiert. Erhaltet zusätzlich +1 [ICON_GOLD] Gold und [ICON_PEACE] Glauben für je 4 Anhänger in fremden Städten.'
+SET Text = 'Heilige Stätte generiert +200 [ICON_GOLD] Gold wenn jede Stadt als erstes zu dieser Religion konvertiert. Erhaltet zusätzlich +1 [ICON_GOLD] Gold und [ICON_PEACE] Glauben für je 6 Anhänger in fremden Städten.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -286,7 +289,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Heathen Conversion (Now Holy Warriors)
 UPDATE Language_de_DE
-SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten.'
+SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten. Die Menge an strategischen Ressourcen in eigenem Territorium ist um +25% erhöht.'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -322,7 +325,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Holy Order
 UPDATE Language_de_DE
-SET Text = 'Religion verbreitet sich von Städten um 50% weiter und zu Stadtstaaten mit der doppelten Rate. Druck über eigene [ICON_INTERNATIONAL_TRADE] Handelswege verdreifacht.'
+SET Text = 'Religion verbreitet sich von Städten um 20% weiter. Druck zu befreundeten Stadtstaaten und über eigene [ICON_INTERNATIONAL_TRADE] Handelswege verdoppelt.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -400,7 +403,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_FEED_WORLD_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Peace Gardens (Now Cooperation)
 UPDATE Language_de_DE
-SET Text = 'Erhaltet +10 auf alle Stadterträge jedes Mal wenn ein [ICON_CITIZEN] Bürger in der Stadt gebohren wird. Bonus steigt mit jedem Zeitalter.'
+SET Text = 'Erhaltet +7 auf alle Stadterträge jedes Mal wenn ein [ICON_CITIZEN] Bürger in der Stadt gebohren wird. Bonus steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -409,7 +412,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Choral Music (Now Scholarship)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je zwei Anhänger in der Stadt (max +15 [ICON_RESEARCH] Wissenschaft)'
+SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je zwei Anhänger in der Stadt (max +10 [ICON_RESEARCH] Wissenschaft)'
 WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -427,7 +430,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Liturgical Drama (Now Veneration)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für jeden Anhänger in der Stadt (max +10 [ICON_PEACE] Glauben)'
+SET Text = '+1 [ICON_PEACE] Glauben für jeden zweiten Anhänger in der Stadt (max +10 [ICON_PEACE] Glauben)'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -436,7 +439,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Ascetism
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung für je zwei Anhänger in der Stadt (max +20 [ICON_FOOD] Nahrung)'
+SET Text = '+1 [ICON_FOOD] Nahrung für je zwei Anhänger in der Stadt (max +15 [ICON_FOOD] Nahrung)'
 WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Center (Now Order)
@@ -558,7 +561,7 @@ INSERT INTO Language_de_DE (Tag, Text)
 	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-	SELECT 'TXT_KEY_BUILDING_STUPA_TOOLTIP', '+3 [ICON_PEACE] Glauben, +2 [ICON_GOLDEN_AGE_POINT] Goldenes Zeitalter Punkte[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}'
+	SELECT 'TXT_KEY_BUILDING_STUPA_TOOLTIP', '+3 [ICON_PEACE] Glauben[NEWLINE]+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}'
 	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
