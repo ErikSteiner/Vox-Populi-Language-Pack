@@ -8,7 +8,7 @@ SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZE
 WHERE Tag = 'TXT_KEY_BUILDING_GRANARY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion für je 4 [ICON_CITIZEN] Bürger in der Stadt. [NEWLINE][NEWLINE]Die Wassermühle kann nur in Städten gebaut werden, die an einen Fluss angrenzen. Kann nicht gebaut werden wenn die Stadt bereits einen Brunnen besitzt.'
+SET Text = '+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. [NEWLINE][NEWLINE]Die Wassermühle kann nur in Städten gebaut werden, die an einen Fluss angrenzen. Kann nicht gebaut werden wenn die Stadt bereits einen Brunnen besitzt.'
 WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -16,12 +16,16 @@ SET Text = 'Die Wassermühle kann nur in Städten gebaut werden, die an einen Fl
 WHERE Tag = 'TXT_KEY_BUILDING_WATERMILL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. +2 [ICON_FOOD] Nahrung von Seen und Oasen die von dieser Stadt bewirtschaftet werden. Reduziert [ICON_HAPPINESS_3] Armut leicht.'
+SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird und +25% der [ICON_PRODUCTION] Produktion der Stadt wird zur aktuellen städtischen [ICON_PRODUCTION] Produktion hinzugefügt. +2 [ICON_FOOD] Nahrung von Seen und Oasen die von dieser Stadt bewirtschaftet werden. Reduziert [ICON_HAPPINESS_3] Armut leicht.'
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '30% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. Reduziert [ICON_HAPPINESS_3] Armut stark.'
+SET Text = '30% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. Wissenschaftler-, Händler- und Ingenieur-Spezialisten produzieren +1 [ICON_RESEARCH] Wissenschaft in der Stadt. Reduziert [ICON_HAPPINESS_3] Armut stark.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Das Medizinische Labor ist ein Gebäude im späteren Spiel. Es verringert die zum Wachstum der Stadt benötigte [ICON_FOOD] Nahrung um 30% und steigert die städtische Produktion von Wissenschaft durch Spezialisten. Die Stadt braucht ein Krankenhaus, um das Medizinische Labor bauen zu können.'
+WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = '+25% [ICON_GREAT_PEOPLE] Generierung von Großen Persönlichkeiten in dieser Stadt.[NEWLINE]Jede von dieser Stadt genutzten Quelle Oasen: +2 [ICON_GOLD] Gold [ICON_RES_CITRUS] Zitronen: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COCOA] Kakao: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.'
@@ -32,7 +36,7 @@ SET Text = 'Der Garten steigert die Geschwindigkeit, mit der [ICON_GREAT_PEOPLE]
 WHERE Tag = 'TXT_KEY_BUILDING_GARDEN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_HOSPITAL_HELP', 'Reduziert [ICON_HAPPINESS_3] Armut. Einheiten heilen 15 TP pro Runde ungeachtet davon, ob sie eine Aktion ausgeführt haben oder nicht.'
+SELECT 'TXT_KEY_BUILDING_HOSPITAL_HELP', 'Reduziert [ICON_HAPPINESS_3] Armut. 5% der städtischen [ICON_FOOD] Nahrung wird jede Runde in [ICON_RESEARCH] Wissenschaft umgewandelt. Einheiten heilen 15 TP pro Runde ungeachtet davon, ob sie eine Aktion ausgeführt haben oder nicht.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -64,15 +68,15 @@ SET Text = 'Das Museum ist ein Gebäude im mittleren Abschnitt des Spiels, das d
 WHERE Tag = 'TXT_KEY_BUILDING_MUSEUM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_MUSEUM_HELP', '+1 [ICON_CULTURE] Kultur für je 5 [ICON_CITIZEN] Bürger in der Stadt. +33% [ICON_GREAT_ARTIST] Großer Künstler Rate in der Stadt und alle Künstlergilde produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+3 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
+SELECT 'TXT_KEY_BUILDING_MUSEUM_HELP', '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +33% [ICON_GREAT_ARTIST] Großer Künstler Rate in der Stadt und alle Künstlergilde produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]+15 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
+SET Text = '+1 [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus für je 5 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]+15 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Funkturm ist ein Gebäude im späteren Verlauf des Spiels, das den [ICON_CULTURE] Kulturertrag einer Stadt steigert. Funktürme können nur in Städten gebaut werden, die über ein Museum verfügen.'
+SET Text = 'Ein Funkturm ist ein Gebäude im späteren Verlauf des Spiels, das den [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismertrag einer Stadt steigert. Funktürme können nur in Städten gebaut werden, die über ein Museum verfügen.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -132,7 +136,7 @@ SET Text = 'Der Hafen ist ein Gebäude des Mittelalters und kann erst gebaut wer
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +25% [ICON_PRODUCTION] Produktion in der Stadt. +1 [ICON_PRODUCTION] Produktion und +1 [ICON_GOLD] Gold von allen Küsten- und Ozean-Geländefeldern. +2 [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden.[NEWLINE][NEWLINE]Die Stadt muss an der Küste liegen. Kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
+SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +15% [ICON_PRODUCTION] Produktion in der Stadt. +1 [ICON_PRODUCTION] Produktion und +1 [ICON_GOLD] Gold von allen Küsten- und Ozean-Geländefeldern. +2 [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden.[NEWLINE][NEWLINE]Die Stadt muss an der Küste liegen. Kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -192,11 +196,11 @@ SET Text = '+4 [ICON_RESEARCH] Wissenschaft von [ICON_RES_ALUMINUM] Aluminium, u
 WHERE Tag = 'TXT_KEY_BUILDING_LABORATORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadt muss innerhalb von zwei Geländefeldern an einem Gebirge liegen. Stadt erhält +1 [ICON_RESEARCH] Wissenschaft pro Gebirge innerhalb von 3 Geländefeldern von der Stadt.'
+SET Text = 'Stadt erhält +2 [ICON_RESEARCH] Wissenschaft pro Gebirge innerhalb von 3 Geländefeldern von der Stadt. Benötigt die ''Wissenschaftliche Revolution'' Politik.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Das Observatorium kann nur in Städten gebaut werden, die innerhalb von zwei Geländefeldern an einem Gebirge liegen. Das Observatorium steigert die [ICON_RESEARCH] Wissenschaftsproduktion einer Stadt in erheblichem Maße.'
+SET Text = 'Das Observatorium steigert die [ICON_RESEARCH] Wissenschaftsproduktion, besonders in Städten mit einer Vielzahl an Gebirgen in der Umgebung. Benötigt die ''Wissenschaftliche Revolution'' Politik.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -268,11 +272,11 @@ SET Text = 'Ermöglicht Lufttransport in diese oder aus dieser Stadt. [COLOR_POS
 WHERE Tag = 'TXT_KEY_BUILDING_AIRPORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile und gewährt eine bescheidene Summe an [ICON_CULTURE] Kultur, wenn vollendet.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile. Wenn vollendet gewährt es eine bescheidene Summe an [ICON_CULTURE] Kultur und es beginnt ein zehnründiger ''Feiertag'' in der Stadt.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Zirkus reduziert Langeweile in einer Stadt und verbessert den Kulturertrag von [ICON_RES_IVORY] Elfenbein. Baut ihn um Unzufriedenheit durch Langeweile zu bekämpfen und erhaltet einen schnellen Schub an Kultur.'
+SET Text = 'Der Zirkus reduziert Langeweile in einer Stadt und verbessert den Kulturertrag von [ICON_RES_IVORY] Elfenbein. Es lässt außerdem einen zehnründigen ''Feiertag'' in der Stadt beginnen. Baut ihn um Unzufriedenheit durch Langeweile zu bekämpfen und erhaltet einen schnellen Schub an Kultur.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -292,11 +296,11 @@ SET Text = 'Arena'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nahe Dschungel- und Waldgeländefelder gewähren +1 [ICON_GOLD] Gold.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nahe Dschungel- und Waldgeländefelder gewähren +1 [ICON_TOURISM] Tourismus. Erhaltet 200 [ICON_TOURISM] Tourismus (steigt mit jedem Zeitalter) mit allen bekannten Zivilisationen, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Zoo reduziert Langeweile in einer Stadt, produziert zusätzliche Wissenschaft und Kultur und steigert den Wert von nahen Dschungel- und Waldgeländefeldern.'
+SET Text = 'Der Zoo reduziert Langeweile in einer Stadt, produziert zusätzliche Kultur und steigert den Tourismuswert von nahen Dschungel- und Waldgeländefeldern. Schafft eine große Menge an Tourismus mit allen bekannten Zivilisationen, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -371,11 +375,11 @@ SET Text = 'Das Nationale Wunder Eisenhütte steigert die [ICON_PRODUCTION] Prod
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Das Nationale Wunder Universität von Oxford gewährt +1 [ICON_CULTURE] Kultur und reduziert [ICON_HAPPINESS_3] Unwissenheit um 2. +50 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Die Stadt muss über eine Universität  verfügen, bevor die Universität von Oxford errichtet werden kann.'
+SET Text = 'Das Nationale Wunder Universität von Oxford gewährt +1 [ICON_CULTURE] Kultur und reduziert [ICON_HAPPINESS_3] Unwissenheit um 2. +75 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Die Stadt muss über eine Universität  verfügen, bevor die Universität von Oxford errichtet werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Dieses Nationale Wunder gewährt +1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. Kann nicht gebaut werden, bevor die Stadt nicht über ein Opernhaus verfügt.'
+SET Text = 'Dieses Nationale Wunder gewährt +1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt und +10% [ICON_CULTURE] Kultur für die Stadt. Kann nicht gebaut werden, bevor die Stadt nicht über ein Opernhaus verfügt.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -387,7 +391,7 @@ SET Text = 'Ein wichtiges Gebäude für eine Zivilisation, die ihre Religion von
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Durch die enorme Förderung des [ICON_TOURISM] Tourismus ist das Nationale Besucherzentrum eine hervorragende Wahl für Zivilisationen, die einen Kultursieg erreichen oder ihren ideologischen Einfluss auf andere Zivilisationen erhöhen wollen. Baut es in Euer Stadt mit dem meisten [ICON_TOURISM] Tourismus. Stadt muss ein Hotel besitzen.'
+SET Text = 'Durch die enorme Förderung des [ICON_TOURISM] Tourismus ist das Nationale Besucherzentrum eine hervorragende Wahl für Zivilisationen, die einen Kultursieg erreichen oder ihren ideologischen Einfluss auf andere Zivilisationen erhöhen wollen. Baut es in Eurer Stadt mit dem meisten [ICON_TOURISM] Tourismus. Stadt muss ein Hotel besitzen.'
 WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 -- Help Text
@@ -413,19 +417,19 @@ SET Text = '+20% [ICON_RESEARCH] Wissenschaft in der Stadt während eines [ICON_
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+50 [ICON_RESEARCH] Wissenschaft wenn Ihr ein Gebäude in der Stadt errichtet. Bonus steigt mit jedem Zeitalter. Benötigt eine Schmiede in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = '+25 [ICON_RESEARCH] Wissenschaft wenn Ihr ein Gebäude in der Stadt errichtet. Bonus steigt mit jedem Zeitalter. Benötigt eine Schmiede in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Großer Wissenschaftler erscheint neben Eurer Stadt. +50 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Bonus steigt mit jedem Zeitalter. Enthält 2 Plätze für Große Literaturwerke. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Benötigt eine Universität in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+3 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.'
+SET Text = 'Ein Großer Wissenschaftler erscheint neben Eurer Stadt. +75 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Bonus steigt mit jedem Zeitalter. Enthält 2 Plätze für Große Literaturwerke. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Benötigt eine Universität in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+3 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]Benötigt ein Opernhaus in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
+SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +10% [ICON_CULTURE] Kultur in dieser Stadt. Beinhaltet 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]Benötigt ein Opernhaus in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Fremde Spione können keine Rebellion oder Unruhen in dieser Stadt anzetteln und es ist viel wahrscheinlicher, dass Eure Spione auf fremde [ICON_GREAT_PEOPLE] Große Persönlichkeiten einen Mordanschlag ausführen. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
