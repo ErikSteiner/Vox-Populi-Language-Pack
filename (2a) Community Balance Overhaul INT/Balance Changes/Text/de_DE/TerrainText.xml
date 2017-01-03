@@ -206,7 +206,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_CULTURE] Kultur auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +10% [ICON_PRODUCTION] Produktion in allen eigenen Städten.</Text>

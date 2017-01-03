@@ -82,7 +82,7 @@
 			<Text>Logistics</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
-			<Text>Heal 20 points when you destoy an enemy unit.</Text>
+			<Text>Heal 10 points when you destoy an enemy unit.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I">
@@ -137,7 +137,7 @@
 			<Text>Guerilla Fighter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>+10% [ICON_STRENGTH] Strength when attacking.</Text>
+			<Text>+15% [ICON_STRENGTH] Strength when attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
 			<Text>No Retreat</Text>
@@ -245,57 +245,57 @@
 			<Text>Righteousness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>Attack Wounded Mod (20%). +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Attack Wounded Mod (20%). +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>Courage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>Attack Mod (15%). +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Attack Mod (15%). +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
-			<Text>Benevolence</Text>
+			<Text>Nächstenliebe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>Units in adjacent tiles receive +5 TP when healing. +10 TP if you destroy an enemy unit</Text>
+			<Text>>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Einheiten in benachbarten Geländefeldern erhalten +5 TP wenn sie sich heilen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
-			<Text>Respect</Text>
+			<Text>Respekt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>+15% [ICON_STRENGTH] Strength versus Melee and Gun units. +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke gegenüber Nahkampfeinheiten und Einheiten mit Schusswaffen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
 			<Text>Sincerity</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>+50% Experience gained from combat. +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Erhält +50% Erfahrung von Kämpfen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
-			<Text>Honor</Text>
+			<Text>Ehre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
-			<Text>+15% [ICON_STRENGTH] Strength outside of friendly lands. +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke außerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
-			<Text>Loyalty</Text>
+			<Text>Loyalität</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>+15% [ICON_STRENGTH] Strength inside friendly lands. +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke innerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
-			<Text>Self Control</Text>
+			<Text>Selbstbeherrschung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>+15% [ICON_STRENGTH] Strength when defending. +10 TP if you destroy an enemy unit</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke bei Verteidigung. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
@@ -414,10 +414,10 @@
 		
 		<!-- Bandeirantes -->
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES">
-			<Text>Flag Bearers</Text>
+			<Text>Flaggen-Träger</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES_HELP">
-			<Text>When you reveal tiles, gain [ICON_GOLD] Gold and [ICON_CULTURE] Culture towards Border Growth in the nearest owned City.</Text>
+			<Text>Wenn Sie Geländefelder aufdecken erhalten Sie [ICON_GOLD] Gold, [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der am nächsten liegenden eigenen Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES">
 			<Text>Bandeirantes</Text>
@@ -426,10 +426,10 @@
 			<Text>The Bandeirantes ("those who carry the flag") were 17th-century Portuguese settlers in Brazil and fortune hunters. They led expeditions called bandeiras ("flags") which penetrated the interior of Brazil far south and west of the Tordesillas Line of 1494, which officially divided the Castilian or later Spanish (west) domain from the Portuguese (east) domain in South America. Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_STRATEGY">
-			<Text>Medieval-Era Unit that is unique to Brazil, replacing the Explorer. Is faster and stronger than the Explorer, and is available earlier. Generates Gold and Culture towards Border Growth from exploring unrevealed tiles. These yields are added to the nearest owned city. Also has the ability to construct Fort Improvements in owned territory, and is stronger versus Barbarians. Use these units to explore, clear any remaining Barbarian Encampments, and generate valuable yields for your frontier cities.</Text>
+			<Text>Medieval-Era Unit that is unique to Brazil, replacing the Explorer. Is faster and stronger than the Explorer, and is available earlier. Generates Gold, Culture, and Science from exploring unrevealed tiles. These yields are added to the nearest owned city. Also has the ability to construct Fort Improvements in owned territory, and is stronger versus Barbarians. Use these units to explore, clear any remaining Barbarian Encampments, and generate valuable yields for your frontier cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
-			<Text>Unique Brazilian Explorer. Generates [ICON_GOLD] Gold and [ICON_CULTURE] Culture towards Border Growth in the nearest owned City whenever you reveal tiles with this Unit. Can also construct Forts in owned territory.</Text>
+			<Text>Unique Brazilian Explorer. Generates [ICON_GOLD] Gold, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science whenever you reveal tiles with this Unit. Can also construct Forts in owned territory.</Text>
 		</Row>
 		
 		<!-- New Tier 4 Promotions -->
@@ -484,17 +484,17 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
-			<Text>Sacred Steps</Text>
+			<Text>Heilige Schritte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
-			<Text>+2 [ICON_MOVES] Movement.</Text>
+			<Text>+2 [ICON_MOVES] Fortbewegung.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
-			<Text>Everlasting Youth</Text>
+			<Text>Ewige Jugend</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
-			<Text>Unit heals every turn regardless of actions taken.</Text>
+			<Text>Einheiten heilen um zusätzliche +10 Trefferpunkte.</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>
