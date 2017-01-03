@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" version="6">
+<Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" version="7">
   <Properties>
     <Name>(1a) Community Patch International</Name>
     <Stability>Beta</Stability>
-    <Teaser>(11-10) Translation of the Community Patch to different languages.</Teaser>
+    <Teaser>(12-14) Translation of the Community Patch to different languages.</Teaser>
     <Description>Translation of the Community Patch to different languages.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>6</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>7</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
