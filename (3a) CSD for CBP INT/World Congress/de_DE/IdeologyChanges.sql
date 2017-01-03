@@ -58,7 +58,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE' AND EXISTS
 -- World Religion
 
 UPDATE language_de_DE
-SET Text = 'Benennen Sie eine Religion als die offizielle Weltreligion.  Zivilizationen, die mit ihren mehrheitlichen Städten dieser Religion folgen, erhalten einen zusätzlichen Abgeordneten. Der Gründer der Religion und/oder der Kontrolleur seiner Heiligen Stätte erhält 1 zusätzliche Stimme für jede andere Zivilisation die der Religion folgt. Die Religion verbreitet sich 25% schneller und seine Heilige Stätte erhält +50% [ICON_TOURISM] Tourismus.  Es kann nur eine Weltreligion auf einmal geben.'
+SET Text = 'Benennen Sie eine Religion als die offizielle Weltreligion.  Zivilizationen, die mit ihren mehrheitlichen Städten dieser Religion folgen, erhalten einen zusätzlichen Abgeordneten. Der Gründer der Religion und/oder der Kontrolleur seiner Heiligen Stätte erhält zusätzliche Stimmen, basierend auf der Anzahl der Zivilisationen die der Religion folgen. Die Religion verbreitet sich 25% schneller und seine Heilige Stätte erhält +50% [ICON_TOURISM] Tourismus.  Es kann nur eine Weltreligion auf einmal geben.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Ideology

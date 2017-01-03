@@ -118,7 +118,7 @@ WHERE Tag = 'TXT_KEY_SOCIALPOLICY_AUTOCRACY_HEADING3_BODY' AND EXISTS (SELECT * 
 
 UPDATE Language_de_DE
 SET Text = 'Die Ideologie Unabhängigkeit gewährt Boni auf Kultur-, Tourismus-, Spezialistenproduktion und vieles mehr. Diese Politik ist ab dem Atomzeitalter verfügbar oder durch das Erwerben von 18 Politiken und mindestens dem Erreichen des Industriezeitalters, je nachdem, was zuerst eintritt.'
-WHERE Tag = 'TXT_KEY_SOCIALPOLICY_IDEOLOGY_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+WHERE Tag = 'TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = 'Euer Volk sieht sich nun als Teil des Atomzeitalters und der Gedanke der Modernisierung durchdringt Eure Gesellschaft. Euer Volk schreit in Erwartung einer Ideologie für Eure Zivilisation.'
@@ -128,6 +128,9 @@ UPDATE Language_de_DE
 SET Text = 'Ideologische Grundsätze können erst gekauft werden, wenn Ihr eine Ideologie gewählt habt. Diese Wahl ist verfügbar, sobald Ihr das Atomzeitalter erreicht oder 18 Politiken erworben und mindestens das Industriezeitalter erreicht habt, je nachdem, was zuerst eintritt.'
 WHERE Tag = 'TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
+UPDATE Language_de_DE
+SET Text = 'Ihr habt die Moderne durchschritten. Die Gedanken der Moderne können Eure Gesellschaft jetzt durchdringen. Euer Volk wartet darauf, dass Ihr Euch für eine Ideologie für Eure Zivilisation entscheidet.'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = 'Ermöglicht den Bau von Atombomben und Atomraketen.[NEWLINE][NEWLINE]Wenn Ihr der [COLOR_POSITIVE_TEXT]erste[ENDCOLOR] seid der es fertig stellt, erhaltet Ihr ein freies Forschungslabor und eine Atombombe in Eurer [ICON_CAPITAL] Hauptstadt.'
