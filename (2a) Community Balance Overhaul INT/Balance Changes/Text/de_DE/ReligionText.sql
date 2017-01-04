@@ -93,12 +93,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT' AND EXISTS (SELECT * FR
 
 -- God of Festivals
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur und +2 [ICON_GOLD] Gold für jedes einzigartige Luxusgut das Ihr kontrolliert'
+SET Text = '+2 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur und +2 [ICON_GOLD] Gold für jedes einzigartige Luxusgut das Sie kontrollieren'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_FESTIVALS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Oral Tradition (Now Goddess of Springtime)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben und [ICON_CULTURE] Kultur von Plantagen und +2 [ICON_GOLD] Gold von Märkten'
+SET Text = '+1 [ICON_GOLD] Gold und [ICON_CULTURE] Kultur von Plantagen und +2 [ICON_PEACE] Glaube von Märkten'
 WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -289,7 +289,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Heathen Conversion (Now Holy Warriors)
 UPDATE Language_de_DE
-SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten. Die Menge an strategischen Ressourcen in eigenem Territorium ist um +25% erhöht.'
+SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten. Die Menge an strategischen Ressourcen in eigenem Territorium ist um +50% erhöht.'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -549,7 +549,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH_SHORT' AND EXISTS (SELECT * FROM COMMUN
 -- Belief Tooltips for Building beliefs
 
 INSERT INTO Language_de_DE (Tag, Text)
-	SELECT 'TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP', '+3 [ICON_PEACE] Glauben[NEWLINE]+3 [ICON_GOLD]Gold[NEWLINE]1 [ICON_GREAT_WORK] Große-Kunstwerk-Platz[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}'
+	SELECT 'TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP', '+2 [ICON_PEACE] Glauben[NEWLINE]+2 [ICON_GOLD]Gold[NEWLINE]1 [ICON_GREAT_WORK] Große-Kunstwerk-Platz[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}'
 	WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)

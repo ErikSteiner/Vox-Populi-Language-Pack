@@ -1,77 +1,82 @@
 -- Adjust Sortie
 	
 	UPDATE language_de_DE
-	SET Text = '+1 [COLOR_POSITIVE_TEXT]Interception[ENDCOLOR], and +1 operational range.'
+	SET Text = '+1 [COLOR_POSITIVE_TEXT]Abfangen[ENDCOLOR] und +1 Einsatzreichweite.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SORTIE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- March
-	UPDATE Language_en_US
-	SET Text = 'Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action. -10% [ICON_STRENGTH] Combat Strength while defending.'
+	UPDATE language_de_DE
+	SET Text = 'Einheit [COLOR_POSITIVE_TEXT]heilt jede Runde[ENDCOLOR], selbst wenn sie Aktionen durchführt. -10% [ICON_STRENGTH] Kampfstärke bei Verteidigung.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MARCH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+-- Evasion
+	UPDATE language_de_DE
+	SET Text = 'Ausweichen (80)'
+	WHERE Tag = 'TXT_KEY_PROMOTION_EVASION_II' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Replace Drill
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, +20% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, +25% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, +20% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, +25% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, +20% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, +25% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DRILL_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Replace Shock
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, [COLOR_POSITIVE_TEXT]Flank attack bonus[ENDCOLOR] increased by 25%.'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, [COLOR_POSITIVE_TEXT]Flankenangriff-Bonus[ENDCOLOR] um 25% erhöht.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SHOCK_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, [COLOR_POSITIVE_TEXT]Flank attack bonus[ENDCOLOR] increased by 25%.'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, [COLOR_POSITIVE_TEXT]Flankenangriff-Bonus[ENDCOLOR] um 25% erhöht.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SHOCK_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength, [COLOR_POSITIVE_TEXT]Flank attack bonus[ENDCOLOR] increased by 25%.'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke, [COLOR_POSITIVE_TEXT]Flankenangriff-Bonus[ENDCOLOR] um 25% erhöht.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_SHOCK_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Replace Accuracy
 
 	UPDATE language_de_DE
-	SET Text = '+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_ACCURACY_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_ACCURACY_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].'
+	SET Text = '+10% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% VS [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_ACCURACY_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Replace Barrage with +5% Ranged Combat Strength and damage versus wounded units.
 
 	UPDATE language_de_DE
-	SET Text = '+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].'
+	SET Text = '+5% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Verwundete Einheiten[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_BARRAGE_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].'
+	SET Text = '+5% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Verwundete Einheiten[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_BARRAGE_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].'
+	SET Text = '+5% [ICON_RANGE_STRENGTH] Fernkampfstärke, +10% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Verwundete Einheiten[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_BARRAGE_3_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Woodsman, Ambush, Charge and Formation all get buffs in different terrains
 
 	UPDATE language_de_DE
-	SET Text = '+10% [ICON_STRENGTH] Combat Strength when attacking in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain, +25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].'
+	SET Text = '+10% [ICON_STRENGTH] Kampfstärke beim Kampf in [COLOR_POSITIVE_TEXT]OFFENEM[ENDCOLOR] Gelände, +25% [ICON_STRENGTH] Kampfstärke VS [COLOR_POSITIVE_TEXT]Verwundete Einheiten[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_CHARGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = 'Double movement rate [COLOR_POSITIVE_TEXT]Through Forest and Jungle[ENDCOLOR], +10% [ICON_STRENGTH] Combat Strength when defending in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain.'
+	SET Text = 'Doppelte Fortbewegungsgeschwindigkeit [COLOR_POSITIVE_TEXT]durch Wald und Dschungel[ENDCOLOR], +10% [ICON_STRENGTH] Kampfstärke bei der Verteidigung in [COLOR_POSITIVE_TEXT]UNWEGSAMEN[ENDCOLOR] Gelände.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_WOODSMAN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
@@ -98,7 +103,7 @@
 -- Charge now a two-part upgrade
 
 	UPDATE language_de_DE
-	SET Text = 'Charge I'
+	SET Text = 'Angriff I'
 	WHERE Tag = 'TXT_KEY_PROMOTION_CHARGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Cover now 25 and 25

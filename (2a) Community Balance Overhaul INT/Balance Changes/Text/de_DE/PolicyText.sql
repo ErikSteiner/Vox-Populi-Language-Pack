@@ -683,15 +683,15 @@ WHERE Tag = 'TXT_KEY_POLICY_PATRONAGE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Philanthropy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Informants[ENDCOLOR][NEWLINE]Receive one or more additional [ICON_SPY] Spies (based on number of City-States in game).'
+SET Text = '[COLOR_POSITIVE_TEXT]Informanten[ENDCOLOR][NEWLINE]Erhaltet ein oder weitere [ICON_SPY] Spione (basierend auf der Anzahl an Stadtstaaten im Spiel).'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Informants'
+SET Text = 'Informanten'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'An informant is a person who provides privileged information about a person or organization to an agency. The term is usually used within the law enforcement world, where they are officially known as confidential or criminal informants (CI), and can often refer pejoratively to the supply of information without the consent of the other parties with the intent of malicious, personal or financial gain. However, the term is used in politics, industry and academia.'
+SET Text = 'Ein Informant ist eine Person, die ihre speziellen Kenntnisse an andere weitergibt. Ein Informant trägt Dritten bestimmte (Dienst-)leistungen oder Vergünstigungen, beziehungsweise Informationen zu. Diese Informationen stellen in der Regel Insiderwissen dar, das sich der Informant durch seinen gesellschaftlichen Umgang erworben hat und für Außenstehende nicht oder nur schwer zugänglich ist. Im Gegensatz zu einem Spion ist ein Informant kein „bezahlter Mitarbeiter“ desjenigen, der die Informationen haben möchte. Er bleibt von seinem Auftraggeber unabhängig und nutzt sein Insiderwissen vielmehr, um sich ein kleines „Zubrot“ zu verdienen oder um sich andere Vorteile zu sichern oder er gibt seine Informationen sogar aus Idealismus weiter.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Consulates
@@ -820,29 +820,29 @@ WHERE Tag = 'TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_TEXT' AND EXISTS (SELECT * FRO
 -- Secularism
 
 UPDATE language_de_DE
-SET Text = 'Scientific Revolution'
+SET Text = 'Wissenschaftliche Revolution'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE]+15% to Global Monopoly Yield Modifiers (including [ICON_GOLDEN_AGE] Golden Ages), and +3 to Global Monopoly Yields (including [ICON_HAPPINESS_1] Happiness).'
+SET Text = '[COLOR_POSITIVE_TEXT]Wissenschaftliche Revolution[ENDCOLOR][NEWLINE]+15% auf Ertragsmodifikatoren von Globalen Monopolen (inklusive [ICON_GOLDEN_AGE] Goldenes Zeitalter) und +3 auf Erträge von Globalen Monopolen (inklusive [ICON_HAPPINESS_1] Zufriedenheit). Erlaubt das Errichten des [COLOR_POSITIVE_TEXT]Observatoriums[ENDCOLOR] in allen Städten.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'A scientific revolution is a period when rapid advances in human knowledge or technology overturns the current worldview, as a result triggering yet more advancements in thought and knowledge. Much of Europe underwent a scientific revolution in the 16th century, following the publication of Nicolaus Copernicus'' work, "On the Revolutions of the Heavenly Spheres" and Andreas Vesalius'' "On the Fabric of the Human Body In Seven Books." Both used modern (for the period) scientific practices to examine parts of the world around them and overturned incorrect scientific theories, some dating back to the ancient Greeks. Following the success of these books, the floodgates were opened, and scientists began carefully examining everything around them, and human knowledge increased exponentially over the succeeding centuries.'
+SET Text = 'Eine wissenschaftliche Revolution ist eine Zeit, in der schnelle Entwicklungen im Bereich Wissen oder Technologie die aktuelle Weltanschauung verändern und so noch weitere Fortschritte in der Wissenschaft hervorbringen. Im 16. Jahrhundert fand in großen Teilen Europas eine wissenschaftliche Revolution statt, nachdem die Werke "Von den Umdrehungen der Himmelskörper" von Nikolaus Kopernikus und "Über den Bau des menschlichen Körpers" von Andreas Vesalius erschienen waren. In beiden Fällen wurden für die damalige Zeit sehr moderne wissenschaftliche Methoden angewandt, um Teile der Umwelt zu untersuchen und so falsche Theorien zu berichtigen, von denen einige noch auf die alten Griechen zurückgingen. Nach dem Erfolg beider Bücher begannen Wissenschaftler damit, ihre Umgebung möglichst genau zu untersuchen und ließen so das Wissen der Menschheit in den nächsten Jahrhunderten erheblich anwachsen.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Sovereignty
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Empiricism[ENDCOLOR][NEWLINE]+20% [ICON_RESEARCH] Science when you expend [ICON_GREAT_SCIENTIST] Great Scientists for an instant [ICON_RESEARCH] Science boost. Foreign [ICON_SPY] Spies are 25% less effective in all owned cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]Empirismus[ENDCOLOR][NEWLINE]+20% [ICON_RESEARCH] Wissenschaft, wenn Sie [ICON_GREAT_SCIENTIST] Große Wissenschaftler für einen sofortigen Schub an [ICON_RESEARCH] Wissenschaft aufbrauchen. Fremde [ICON_SPY] Spione sind um 25% weniger effektiv in allen eigenen Städten.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Empiricism'
+SET Text = 'Empirismus'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Empiricism is a theory which states that knowledge comes only or primarily from sensory experience. One of several views of epistemology, the study of human knowledge, along with rationalism and skepticism, empiricism emphasizes the role of experience and evidence, especially sensory experience, in the formation of ideas, over the notion of innate ideas or traditions; empiricists may argue however that traditions (or customs) arise due to relations of previous sense experiences.'
+SET Text = 'Empirismus ist eine Theorie, die besagt, dass Wissen nur oder primär auf Sinneserfahrungen beruht. In empiristischen Wissenschaftskonzepten, wie sie vor allem seit der frühen Neuzeit verbreitet sind, werden die wissenschaftlichen Erkenntnisse auf Beobachtung und Experiment zurückgeführt. Dieses Wissenschaftsverständnis entspricht den empiristischen Vorstellungen der Erkenntnis. Die wichtigsten klassischen Entwürfe des Empirismus werden bestimmten Philosophen des 17. Jahrhunderts, vor allem des Britischen Empirismus, zugeschrieben.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Free Thought

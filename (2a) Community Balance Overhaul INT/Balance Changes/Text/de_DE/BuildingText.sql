@@ -437,7 +437,7 @@ SET Text = 'Ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt. Reduziert [ICON_HA
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt ein Hotel in der Stadt.[NEWLINE][NEWLINE]100% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken um 100% erhöht. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Benötigt ein Hotel in der Stadt.[NEWLINE][NEWLINE]25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion aller Städte und weitere 25% zu dieser Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken in allen Städten um 25% und in dieser um weitere 25% erhöht.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -521,7 +521,7 @@ SET Text = 'Muss in einer Heiligen Stätte errichtet werden. 3 freie Missionare 
 WHERE Tag = 'TXT_KEY_WONDER_BOROBUDUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Gewährt ein freie Burg in der Stadt in der es gebaut wurde.'
+SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Gewährt einen freien Großen Spezialisten und eine freie Burg in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -601,7 +601,7 @@ SET Text = '1 freie Sozialpolitik und +25% [ICON_CULTURE] Kultur in dieser Stadt
 WHERE Tag = 'TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert die Effektivität feindlicher Spione in der Stadt, in der sie errichtet wird, um 99,9%. In allen anderen Städten der Zivilisation wird die Effektivität feindlicher Spione um 25% reduziert. Negiert den [ICON_TOURISM] Tourismus-Bonus von Technologien anderer Spieler.'
+SET Text = 'Alle Forschungslabore produzieren +10 [ICON_RESEARCH] Wissenschaft. Reduziert die Effektivität feindlicher Spione in der Stadt, in der sie errichtet wird, um 99,9%. In allen anderen Städten der Zivilisation wird die Effektivität feindlicher Spione um 25% reduziert. Negiert den [ICON_TOURISM] Tourismus-Bonus von Technologien anderer Spieler.'
 WHERE Tag = 'TXT_KEY_BUILDING_GREAT_FIREWALL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
