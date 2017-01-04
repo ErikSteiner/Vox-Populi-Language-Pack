@@ -371,10 +371,18 @@
 	WHERE Tag = 'TXT_KEY_UNIT_MACHINE_GUN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Atomic era ranged Unit that becomes stronger as it gets closer to the enemy, and deals great damage to Armor Units.'
+	SET Text = 'Fernkampfeinheit des Atomzeitalters, die mit abnehmender Distanz zum Feind stärker wird und hohen Schaden bei gepanzerten Einheiten verusacht'
 	WHERE Tag = 'TXT_KEY_UNIT_HELP_BAZOOKA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Bazooka is the last non-siege ranged unit, and is capable of truly terrfiying amounts of damage, especially to Armor units. It is the most powerful ranged unit, but it is much weaker than other military units of its era. As such, it should be used as a source of attrition. Like the Machine Gun, it weakens nearby enemy units. When attacking, the Bazooka deals less damage to fortified Units and cities, but deals additional damage to Armored units. This makes it a great defense unit.'
+	SET Text = 'Die Bazooka ist die letzte Nicht-Belagerungs-Fernkampfeinheit und ist in der Lage furchterregende Mengen an Schaden zu verursachen, besonders bei gepanzerten Einheiten. Es ist die mächtigste Fernkampfeinheit, doch ist sie deutlich schwächer als andere militärische Einheiten dieser Zeit. Als solche sollte sie als Quelle der Zermürbung eingesetzt werden. Wie das Maschinengewehr schwächt es umliegende feindliche Einheiten. Im Angriff verursacht die Bazooka weniger Schaden bei verschanzten Einheiten und Städten, verursacht jedoch zusätzlichen Schaden bei gepanzerten Einheiten. Das macht sie zu einer sehr guten Verteidigungseinheit.'
 	WHERE Tag = 'TXT_KEY_UNIT_BAZOOKA_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+	UPDATE Language_de_DE
+	SET Text = 'Artillerie ist eine gefährliche Belagerungswaffe, die stärker ist als die Kanone und über eine größere Reichweite verfügt. Ähnlich wie die Kanone hat sie auch nur eine begrenzte Sicht und muss vor dem Angriff in Stellung gebracht werden (1 FP), aber die Fernkampfstärke ist immens. Artillerie bietet zudem die Möglichkeit des "indirekten Feuers", sodass Ziele in Reichweite geraten, die blockiert und nicht sichtbar sind (solange eine andere freundlich gesinnte Einheit sie sehen kann). Genau wie andere Belagerungswaffen ist auch die Artillerie bei Nahkampfangriffen leicht verwundbar.'
+	WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+	UPDATE Language_de_DE
+	SET Text = 'Belagerungseinheit die drei Geländefelder weit feuern kann. Muss vor dem Feuern in Stellung gehen.'
+	WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 

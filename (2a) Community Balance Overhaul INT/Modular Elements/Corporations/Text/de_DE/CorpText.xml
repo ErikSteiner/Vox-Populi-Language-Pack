@@ -3,23 +3,23 @@
 <GameData>
 	<language_de_DE>
 		<Row Tag="TXT_KEY_PEDIA_CATEGORY_17_LABEL">
-			<Text>Corporations</Text>
+			<Text>Konzerne</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_PAGE_LABEL">
-			<Text>Corporations Home Page</Text>
+			<Text>Konzerne Hauptseite</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_LABEL1">
-			<Text>Corporations</Text>
+			<Text>Konzerne</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_BLURB">
-			<Text>[NEWLINE]"If you don't drive your business, you will be driven out of business."[NEWLINE]  - B.C. Forbes[NEWLINE]</Text>
+			<Text>[NEWLINE]"Wenn du dein Geschäft nicht vorantreibst, wirst du aus dem Geschäft getrieben."[NEWLINE]  - B.C. Forbes[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_CORPORATIONS_HOMEPAGE_TEXT1">
 			<Text>Trade and commerce has been a focal point of civilization since ancient times. Corporations are modern entities that authorizes a company or single group to act as a single entity. Corporations have become the largest facilitators of trade and influence in today's society. In Civilization V, Corporations allow you cement your civilization's wealth and deliver powerful trade benefits to your civilization.[NEWLINE][NEWLINE]To establish a Corporation, you must secure a Global Monopoly on any of its required resources, and found its Corporation Headquarters. After your Corporation is established, you may construct Offices in your cities and use them to build Franchises in foreign cities via [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOPIC_MONOPOLY">
-			<Text>Monopolies</Text>
+			<Text>Monopole</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_TITLE">
 			<Text>{TXT_KEY_TOPIC_MONOPOLY}</Text>
@@ -313,23 +313,29 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
-			<Text>{1_Num} {2_IconString} from your Corporation</Text>
+			<Text>{1_Num} {2_IconString} von Eurem Konzern</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_FOODMOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]Corporation Modifier: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Konzernmodifikator: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATION">
-			<Text>+{1_Num}% [ICON_CULTURE] from Corporation</Text>
+			<Text>+{1_Num}% [ICON_CULTURE] von Konzernen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATIONS">
+			<Text>+{1_Num} [ICON_CULTURE] von Konzernen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_CORPORATIONS">
+			<Text>+{1_Num} [ICON_PEACE] von Konzernen</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_SCIENCE">
-			<Text>Corporation [ICON_RESEARCH] Science Bonus: +{1_Num}%</Text>
+			<Text>Konzern [ICON_RESEARCH] Wissenschaftsbonus: +{1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_CORPORATION_MODIFIER_GOLD">
-			<Text>Corporation [ICON_GOLD] Gold Bonus: +{1_Num}%</Text>
+			<Text>Konzern [ICON_GOLD] Goldbonus: +{1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORP_MAX_FRANCHISE">

@@ -1,4 +1,4 @@
-# Vox-Populi-Language-Pack v1.11.10
+# Vox-Populi-Language-Pack v1.12.14
 The Language Pack contains all data that are needed to show you Vox Populi in a different language than English.
 Currently only German is supported, but by using the "Vox Populi Translation Framework" you are able to create your own translation, for your native language. If you like your language will then be added to the Language Pack, making it available to the community and to your fellow countrymen.
 

@@ -65,7 +65,7 @@
 			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
-			<Text>+2 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Nachrichtendienst in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>+2 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Presseagentur in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
@@ -76,22 +76,22 @@
 			<Text>Receive 1 free Great Diplomat when completed. +1 [ICON_RES_PAPER] Paper. +20% [ICON_PRODUCTION] Production of Diplomatic Units. All Diplomatic Units receive the [COLOR_POSITIVE_TEXT]Imperial Seal[ENDCOLOR] Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
-			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Gewährt eine freie Kanzlei in der Stadt in der es gebaut wird.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Gewährt eine freie Kanzlei in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
 			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
-			<Text>Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +15 [ICON_PEACE] Glauben in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle. [NEWLINE][NEWLINE]Benötigt eine Militär Akademie in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PRODUCTION] Produktion in der Stadt, in der es gebaut wurde. +1 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle.[NEWLINE][NEWLINE]Benötigt eine Militär Akademie in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
-			<Text>Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt. [NEWLINE][NEWLINE]Benötigt eine Börse in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wurde. +1 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt.[NEWLINE][NEWLINE]Benötigt eine Börse in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
 			<Text>Erhaltet einen weiteren Handelsweg. Gewährt allen Marineeinheiten, außer U-Booten und Frachtern, die Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR], welche +10% Kampfstärke beim Angriff, +1 [ICON_MOVES] Fortbewegung, +1 Sicht und die Fähigkeit sich außerhalb von freundlichem Gebiet zu heilen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
-			<Text>25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Modernisierungen (Wahrzeichen, Moai-Statuen, Chateau) wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Erhaltet +3 [ICON_HAPPINESS_1] Zufriedenheit und +3 [ICON_CULTURE] Kultur in der Stadt in der es gebaut wird.</Text>
+			<Text>25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Modernisierungen (Wahrzeichen, Moai-Statuen, Chateau) wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Erhaltet +3 [ICON_HAPPINESS_1] Zufriedenheit und +3 [ICON_CULTURE] Kultur in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_HELP">
 			<Text>Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +2 [ICON_PRODUCTION] Produktion und +2 [ICON_RESEARCH] Wissenschaft von allen Fabriken in eigenen Städten.</Text>
@@ -131,16 +131,16 @@
 			<Text>Baut dieses Wunder um einen permanenten Anstieg auf Eure Beziehungen mit Stadtstaaten, durch besser ausgebildete Diplomatische Einheiten zu erhalten. Gewährt einen Großen Diplomaten, der zu einem nahe gelegenen Stadtstaat geschickt werden kann.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_STRATEGY">
-			<Text>Baut dieses Wunder um Euren Diplomatischen Einheiten das Betreten gegnerischen Geländes zu ermöglichen, ohne Offene Grenzen vereinbart zu haben - Jahrhunderte vor allen anderen. Gewährt eine freie Kanzlei in der Stadt in der es gebaut wird.</Text>
+			<Text>Baut dieses Wunder um Euren Diplomatischen Einheiten das Betreten gegnerischen Geländes zu ermöglichen, ohne Offene Grenzen vereinbart zu haben - Jahrhunderte vor allen anderen. Gewährt eine freie Kanzlei in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY">
-			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Öffentliche Schule in all seinen Städten gebaut hat. Baut dieses Nationale Wunder um weitere Stimmen für den Weltkongress zu erhalten, basierend auf der Anzahl von momentan vereinbarten Forschungsabkommen mit anderen Spielern. Ihr erhaltet außerdem einen großen Bonus bei der Kultur- und Wissenschaftsproduktion, in der Stadt in der es gebaut wird.</Text>
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Öffentliche Schule in all seinen Städten gebaut hat. Baut dieses Nationale Wunder um weitere Stimmen für den Weltkongress zu erhalten, basierend auf der Anzahl von momentan vereinbarten Forschungsabkommen mit anderen Spielern. Sie erhalten außerdem einen großen Bonus bei der Kultur- und Wissenschaftsproduktion in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_STRATEGY">
-			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Militärakademie in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl eroberter Hauptstädte. Ihr erhaltet außerdem einen großen Bonus bei der Tourismus- und Glaubensproduktion, in der Stadt in der es gebaut wird.</Text>
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Militärakademie in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl eroberter Hauptstädte. Ihr erhaltet außerdem einen großen Bonus auf den Tourismus- und Glaubensertrag in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY">
-			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Börse in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl momentaner Freundschaftserklärung mit anderen Zivilisationen. Ihr erhaltet außerdem einen großen Bonus bei der Nagrungs- und Goldproduktion, in der Stadt in der es gebaut wird.</Text>
+			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Börse in all seinen Städten gebaut hat. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl momentaner Freundschaftserklärung mit anderen Zivilisationen. Ihr erhaltet außerdem einen großen Bonus auf die Nahrungs- und Goldproduktion in der Stadt, in der es gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_STRATEGY">
 			<Text>Baut dieses Wunder um die Stärke und Haltbarkeit Eurer Marine mit der Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR] zu verbessern und erhaltet einen weiteren Handelsweg. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>

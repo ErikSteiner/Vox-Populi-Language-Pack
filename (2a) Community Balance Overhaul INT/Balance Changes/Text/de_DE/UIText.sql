@@ -173,8 +173,12 @@ WHERE Tag = 'TXT_KEY_HIDDEN_SITES_TO_EXCAVATE' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Update text for diplomat.
 UPDATE Language_de_DE
-SET Text = '+{1_Num}% Bonus from Diplomat[NEWLINE]'
+SET Text = '+{1_Num}% Bonus durch Diplomaten[NEWLINE]'
 WHERE Tag = 'TXT_KEY_CO_PLAYER_TOURISM_PROPAGANDA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Möchtet Ihr, dass Euer Spion ein Diplomat wird? Ein Spion kann Diplomat sein, wenn Ihr ihn in der Hauptstadt einer anderen Zivilisation platziert, mit der Ihr nicht im Krieg steht. (Wenn Krieg erklärt wird, flüchtet der Spion aus der Stadt.) Ein Diplomat wird nicht versuchen, dem anderen Spieler Technologien zu stehlen, aber trotzdem noch intrigieren. Sobald der Weltkongress zusammentritt, könnt Ihr bestehende Meinungen zu Vorschlägen feststellen und bei Bedarf um Unterstützung handeln. Diplomaten gewähren automatisch eine Steigerung des [ICON_TOURISM] Tourismusertrag bei der Ziel-Zivilisation.'
+WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Update text for tooltips based on what you changed above.
 INSERT INTO Language_de_DE (

@@ -71,6 +71,19 @@
 			<Text>Flank attack bonus increased, and receives bonuses when embarked or attacking over rivers.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_DESC_FIELD_GUN">
+			<Text>Feldgeschütz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_PEDIA">
+			<Text>Ein Feldgeschütz ist ein Geschütz welches für den beweglichen Einsatz im Gelände konzipiert ist, und meist zur Unterstützung der Infanterie eingesetzt wird. Im Kampf konnte das Feldgeschütz schnell über das Schlachtfeld dorthin bewegt werden, wo es gebraucht wurde. Geschütze die in einer Festung installiert waren, Belagerungswaffen und Mörser waren zu groß um sie schnell zu verlegen und wurden daher nur bei lang anhaltenden Belagerungen verwendet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_STRATEGY">
+			<Text>Feldgeschütz haben eine höhere Reichweite und Kampfstärke als Kanonen, auch wenn ihre Sichtweite eingeschränkt ist. Nutzt Feldgeschütze um Eure Armee des Industriezeitalters zu unterstützen, doch lasst den Feind nicht in die Nähe der Geschütze kommen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_HELP">
+			<Text>Mächtige Belagerungseinheit des Industriezeitalters, die bis zu drei Geländefelder weit feuern kann.</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
 			<Text>Conscription</Text>
 		</Row>
@@ -153,6 +166,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
 			<Text>-25% [ICON_RANGE_STRENGTH] Ranged Strength vs. Naval units.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
+			<Text>Ungenauigkeit von Belagerungswaffen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
+			<Text>-33% [ICON_RANGE_STRENGTH] Fernkampfstärke vs. Landeinheiten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I">
 			<Text>Covering Fire I</Text>

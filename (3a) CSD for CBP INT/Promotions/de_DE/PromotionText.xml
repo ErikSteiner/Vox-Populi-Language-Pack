@@ -87,7 +87,7 @@
 			<Text>Gewährt +5 [ICON_MOVES] Einfluss, wenn Ihr eine Diplomatische Mission mit einem Stadtstaat durchführt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
-			<Text>Gewährt +5 [ICON_INFLUENCE] Einfluss, wenn Ihr eine diplomatische Mission mit einem Stadtstaat durchführt und die Fähigkeit gegnerisches Gelände zu betreten, ohne die Vereinbarung Offene Grenzen zu besitzen.</Text>
+			<Text>Gewährt +15 [ICON_INFLUENCE] Einfluss, wenn Ihr eine diplomatische Mission mit einem Stadtstaat durchführt und die Fähigkeit gegnerisches Gelände zu betreten, ohne die Vereinbarung Offene Grenzen zu besitzen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
 			<Text>Gewährt +1 [ICON_MOVES] Fortbewegung, +1 Sicht, +10% Kampfbonus beim Angriff und die Fähigkeit in nicht freundlichem Wasser zu heilen.</Text>
