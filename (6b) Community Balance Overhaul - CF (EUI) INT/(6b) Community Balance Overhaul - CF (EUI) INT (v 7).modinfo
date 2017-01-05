@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="7">
   <Properties>
-    <Name>(6b) Community Balance Overhaul - CF (EUI) INT</Name>
+    <Name>(6b) CBO - Compatibility Files (EUI) [COLOR_GREEN]Localized[ENDCOLOR]</Name>
     <Stability>Beta</Stability>
-    <Teaser>(11-10) Translation of Community Balance Overhaul - CF (EUI) into several non-English languages.</Teaser>
-    <Description>Translation of Community Balance Overhaul - CF (EUI) into several non-English languages.</Description>
+    <Teaser>(11-10) Translation of Community Balance Overhaul - Compatibility Files (EUI)</Teaser>
+    <Description>Translation of the Community Balance Overhaul - Compatibility Files (EUI) into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
@@ -19,26 +19,28 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
-    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
-    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="0" maxversion="999" title="CSD" />
-    <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="0" maxversion="999" title="C4DF" />
-    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="0" maxversion="999" title="Community Balance Overhaul - Compatibility Files (EUI)" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
+	<Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" minversion="7" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
+	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="7" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
+    <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="17" maxversion="999" title="CSD" />
+    <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="11" maxversion="999" title="C4DF" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="Community Balance Overhaul - Compatibility Files (EUI)" />
   </Dependencies>
   <References>
-    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="155" maxversion="999" title="More Luxuries" />
   </References>
   <Blocks>
     <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="CBP Compatibilty Files (No EUI)" />
   </Blocks>
   <Files>
-    <File md5="2D81FF7BE803B6C99129AC24217018DA" import="0">Corporations/Text/CorpText_de_DE.xml</File>
-    <File md5="C31633BC7570B3A4660F344878FDB37D" import="0">Corporations/Text/CorpText_de_DE.sql</File>
-    <File md5="FE0AA0D1FA5DB283D35C7033C04661F8" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
-    <File md5="F82A83B6017FE4858CF924888EB810AC" import="0">CSD/CompatibilityText/Compatibility_de_DE.xml</File>
-    <File md5="362F60D75B0A3405AD8690A619B291DB" import="0">EUI/EUI_text_de_DE.xml</File>
-    <File md5="CDEE67A4BA08E910C2099C8E7B412164" import="0">EUI/de_DE/NeededText.xml</File>
-    <File md5="D5BCF3968A5DAFB98790F0EAFC1182CC" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
+    <File md5="12d1d43f5f3f744affa1d5b2e67bea78" import="0">Corporations/Text/CorpText_de_DE.xml</File>
+    <File md5="cda024dfa0b26de662784cdedf57d826" import="0">Corporations/Text/CorpText_de_DE.sql</File>
+    <File md5="6f4548a19d6e7ae4382e46ce300ca599" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
+    <File md5="ac1ad9aac29ff2bef3bd29bac7880023" import="0">CSD/CompatibilityText/Compatibility_de_DE.xml</File>
+    <File md5="a6be8e1821dc7648f38555c6fefa8c03" import="0">EUI/EUI_text_de_DE.xml</File>
+    <File md5="4aa4349b6727fd215e912ddc357ca41e" import="0">EUI/de_DE/NeededText.xml</File>
+    <File md5="46854ce44524ea6356796a27182336cb" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
   </Files>
   <Actions>
     <OnModActivated>

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="cdcea37d-ccbf-4c72-b63f-5a2c150a2641" version="4">
   <Properties>
-    <Name>(5a) More Luxuries INT</Name>
+    <Name>(5a) More Luxuries - CBO Edition [COLOR_GREEN]Localized[ENDCOLOR]</Name>
     <Stability>Beta</Stability>
-    <Teaser>(6-14) Translation of the More Luxuries into several non-English languages.</Teaser>
-    <Description>Translation of the More Luxuries into several non-English languages.</Description>
+    <Teaser>(6-14) Translation of the More Luxuries - CBO Edition</Teaser>
+    <Description>Translation of the More Luxuries - CBO Edition into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
-    <AffectsSavedGames>1</AffectsSavedGames>
+    <AffectsSavedGames>0</AffectsSavedGames>
     <MinCompatibleSaveVersion>4</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
@@ -20,13 +20,15 @@
   </Properties>
    <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
-	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="Community Balance Patch" />
-	<Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries - CBO Edition" />
+	<Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" minversion="7" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
+	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="7" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
+	<Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="155" maxversion="999" title="More Luxuries - CBO Edition" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="0EB87C23ADCA46682BC9344E7177DA6D" import="0">XML/de_DE/NewLuxuries_Text.xml</File>
+    <File md5="6586e43b69d269ae4c81a8e575a9c21f" import="0">XML/de_DE/NewLuxuries_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
