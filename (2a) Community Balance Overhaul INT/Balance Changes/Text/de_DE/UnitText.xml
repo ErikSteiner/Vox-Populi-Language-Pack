@@ -92,29 +92,29 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
-			<Text>Logistics</Text>
+			<Text>Logistik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
-			<Text>Heal 10 points when you destoy an enemy unit.</Text>
+			<Text>Heilt 10 TP wenn Sie eine feindliche Einheit vernichten.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I">
-			<Text>Trailblazer I</Text>
+			<Text>Wegbereiter I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I_HELP">
-			<Text>Double Movement in Jungles and Forests</Text>
+			<Text>Doppelte Fortbewegungsgeschwindigkeit durch Wald und Dschungel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II">
-			<Text>Trailblazer II</Text>
+			<Text>Wegbereiter II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II_HELP">
-			<Text>Double Movement in Desert and Snow</Text>
+			<Text>Doppelte Fortbewegungsgeschwindigkeit durch Wüsten und Schnee</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III">
-			<Text>Trailblazer III</Text>
+			<Text>Wegbereiter III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III_HELP">
-			<Text>Ignores Zone of Control, Can Use Enemy Roads/Railroads</Text>
+			<Text>Ignoriert Kontrollzone, kann feindliche Straßen und Schienen nutzen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_I">
 			<Text>Bonus v. Gun (25)</Text>

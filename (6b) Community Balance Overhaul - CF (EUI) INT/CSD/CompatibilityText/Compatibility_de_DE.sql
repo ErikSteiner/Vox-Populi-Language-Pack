@@ -65,7 +65,7 @@ SET Text = 'Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PR
 WHERE Tag = 'TXT_KEY_BUILDING_EHRENHALLE_HELP';
 
 UPDATE language_de_DE
-SET Text = '>Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine Börse besitzt. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl momentaner Freundschaftserklärung mit anderen Zivilisationen. Ihr erhaltet außerdem einen großen Bonus auf die Nahrungs- und Goldproduktion in der Stadt, in der es gebaut wurde.'
+SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine Börse besitzt. Baut dieses Wunder um weitere Stimmen im Weltkongress zu erhalten, basierend auf der Anzahl momentaner Freundschaftserklärung mit anderen Zivilisationen. Ihr erhaltet außerdem einen großen Bonus auf die Nahrungs- und Goldproduktion in der Stadt, in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY';
 
 UPDATE language_de_DE
@@ -81,7 +81,7 @@ SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Di
 WHERE Tag = 'TXT_KEY_BUILDING_PRINTING_PRESS_HELP';
 
 UPDATE language_de_DE
-SET Text = Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine Presseagentur besitzt. Baut es um eine Steigerung der Produktionsgeschwindigkeit für den Bau von Diplomatischen Einheiten in der Stadt zu erhalten, in der es gebaut wird. Erhöht Fortbewegung und Einfluss aller Diplomatischen Einheiten und gewährt die Fähigkeit Diplomatische Einheiten durch gegnerisches Gelände zu bewegen ohne die Vereinbarung [COLOR_POSITIVE_TEXT]Offene Grenzen[ENDCOLOR] zu besitzen.'
+SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine Presseagentur besitzt. Baut es um eine Steigerung der Produktionsgeschwindigkeit für den Bau von Diplomatischen Einheiten in der Stadt zu erhalten, in der es gebaut wird. Erhöht Fortbewegung und Einfluss aller Diplomatischen Einheiten und gewährt die Fähigkeit Diplomatische Einheiten durch gegnerisches Gelände zu bewegen ohne die Vereinbarung [COLOR_POSITIVE_TEXT]Offene Grenzen[ENDCOLOR] zu besitzen.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY';
 
 UPDATE language_de_DE

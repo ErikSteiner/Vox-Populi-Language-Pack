@@ -739,66 +739,66 @@
 
 		<!-- Luxury Tooltip -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_THRESHOLD_VALUE">
-			<Text>Basierend auf Eurer aktuellen [ICON_CITIZEN] Bevölkerung ([COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]), acquiring a new Luxury Resource will increase your [ICON_HAPPINESS_1] Happiness by [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]. To increase the [ICON_HAPPINESS_1] Happiness you gain from all owned Luxuries, raise your [ICON_CITIZEN] Bevölkerung in [ICON_PUPPET] non-Puppet Cities to [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR].</Text>
+			<Text>Basierend auf Eurer aktuellen [ICON_CITIZEN] Bevölkerung ([COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]) erhöht sich durch die Erschließung eines neues Luxusguts die [ICON_HAPPINESS_1] Zufriedenheit im Reich um [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]. Um die [ICON_HAPPINESS_1] Zufriedenheit von durch im Besitz befindlichen Luxusgütern zu erhöhen, müssen Sie die [ICON_CITIZEN] Bevölkerung in [ICON_PUPPET] nicht-marionetten Städten auf [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] erhöhen.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
-			<Text>[COLOR_POSITIVE_TEXT]Connected[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Verbunden[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- LUA for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_AVERAGE_MODIFIER">
-			<Text>[ICON_GOLD] Gold Need Modifier: {1_num}%</Text>
+			<Text>[ICON_GOLD] Gold Bedarf Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_AVERAGE_MODIFIER">
-			<Text>[ICON_STRENGTH] Defense Need Modifier: {1_num}%</Text>
+			<Text>[ICON_STRENGTH] Verteidigung Bedarf Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_AVERAGE_MODIFIER">
-			<Text>[ICON_CULTURE] Culture Need Modifier: {1_num}%</Text>
+			<Text>[ICON_CULTURE] Kultur Bedarf Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_AVERAGE_MODIFIER">
-			<Text>[ICON_RESEARCH] Science Need Modifier: {1_num}%</Text>
+			<Text>[ICON_RESEARCH] Wissenschaft Bedarf Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_AVERAGE_MODIFIER">
-			<Text>[ICON_RELIGION] Religious Need Modifier: {1_num}%</Text>
+			<Text>[ICON_RELIGION] Religion Bedarf Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_GOLD] Gold Need Modifier in all Cities: {1_num}%</Text>
+			<Text>[ICON_GOLD] Gold Bedarf Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_STRENGTH] Defense Need Modifier in all Cities: {1_num}%</Text>
+			<Text>[ICON_STRENGTH] Verteidigung Bedarf Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_CULTURE] Culture Need Modifier in all Cities: {1_num}%</Text>
+			<Text>[ICON_CULTURE] Kultur Bedarf Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SCIENCE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_RESEARCH] Science Need Modifier in all Cities: {1_num}%</Text>
+			<Text>[ICON_RESEARCH] Wissenschaft Bedarf Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MINORITY_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_RELIGION] Religious Need Modifier in all Cities: {1_num}%</Text>
+			<Text>[ICON_RELIGION] Religion Bedarf Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<!-- LUA Threshold Mods for Buildings -->
 		<Row Tag="TXT_KEY_BUILDING_POVERTY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] New Need: {1_num} [ICON_GOLD] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Current: {2_Num} [ICON_GOLD] pro [ICON_CITIZEN]</Text>
+			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_GOLD] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_GOLD] pro [ICON_CITIZEN]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ILLITERACY_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] New Need: {1_num} [ICON_RESEARCH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Current: {2_Num} [ICON_RESEARCH] pro [ICON_CITIZEN]</Text>
+			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_RESEARCH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_RESEARCH] pro [ICON_CITIZEN]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] New Need: {1_num} [ICON_STRENGTH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Current: {2_Num} [ICON_STRENGTH] pro [ICON_CITIZEN]</Text>
+			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_STRENGTH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_STRENGTH] pro [ICON_CITIZEN]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] New Need: {1_num} [ICON_CULTURE] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Current: {2_Num} [ICON_CULTURE] pro [ICON_CITIZEN]</Text>
+			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_CULTURE] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_CULTURE] pro [ICON_CITIZEN]</Text>
 		</Row>
 
 		<!-- More LUA! -->
@@ -806,16 +806,16 @@
 			<Text>[COLOR_CYAN]{1_num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
-			<Text>[COLOR_CYAN]Happiness[ENDCOLOR]</Text>
+			<Text>[COLOR_CYAN]Zufriedenheit[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION">
-			<Text>[NEWLINE](Only includes local [ICON_HAPPINESS_1] Happiness provided by buildings, policies and beliefs specific to this City.)</Text>
+			<Text>[NEWLINE](Beinhaltet nur die lokale [ICON_HAPPINESS_1] Zufriedenheit in dieser Stadt, die durch Gebäude, Politiken und Glaubenssätze gewährt wird.)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS_EXPLANATION">
 			<Text>[NEWLINE](These 'Needs' are global averages of yields based on the number of [ICON_CITIZEN] Citizens in the City, as well as temporary situations, such as starvation or blockades. Global averages increase as the game progresses, and yields pro citizen decrease as a city grows. The bigger the divide between your city's yields and the global average, the higher your city's unhappiness!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS">
-			<Text>Local [ICON_HAPPINESS_1] Happiness: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
+			<Text>Lokale [ICON_HAPPINESS_1] Zufriedenheit: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS">
 			<Text>[COLOR_POSITIVE_TEXT]Global Average (Need) Modifiers:[ENDCOLOR]</Text>

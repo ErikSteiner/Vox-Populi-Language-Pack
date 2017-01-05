@@ -267,16 +267,16 @@ WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY 
 	
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_REC', 'It will boost your [ICON_FOOD] Food output on this tile. For every two Farms adjacent to this one, it will gain an additional +1 [ICON_FOOD] Food!'
+SELECT 'TXT_KEY_BUILD_FARM_REC', 'Er wird Eure [ICON_FOOD] Nahrungsproduktion auf diesem Geländefeld steigern. Für je zwei Bauernhöfe die zueinander angrenzen, erhalten Sie +1 zusätzliche [ICON_FOOD] Nahrung!'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Farms can be constructed on most any land to improve the output of food on the tile. For every two Farms adjacent to each other, Farms gain additional Food.[NEWLINE][NEWLINE]Farming is one of the earliest and most important of all human professions, as it allowed mankind to stop migrating and settle in one location without depleting the local resources.'
+SET Text = 'Bauernhöfe können auf fast jedem Land gebaut werden, um die Nahrungsproduktion auf dem Geländefeld zu verbessern. Für je zwei Bauernhöfe die nebeneinander liegen, produzieren sie zusätzliche Nahrung.[NEWLINE][NEWLINE]Landwirtschaft ist einer der ersten und wichtigsten aller menschlichen Berufe, da sie es ermöglicht, das nomadische Leben zu beenden und sich an einem Ort niederzulassen, ohne die vorhandenen Ressourcen gänzlich zu erschöpfen.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_HELP', 'Gain an additional +1 [ICON_FOOD] Food for every 2 Farms adjacent to one another.'
+SELECT 'TXT_KEY_BUILD_FARM_HELP', 'Erhaltet zusätzlich +1 [ICON_FOOD] Nahrung für je 2 Bauernhöfe die nebeneinander liegen.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 -- Trading Post - name change
@@ -332,38 +332,38 @@ SET Text = 'A Landmark is any magnificent artifact, structure, work of art, or w
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT';
 
 UPDATE Language_de_DE
-SET Text = 'You have found {@1_Name}!'
+SET Text = '>Entdeckt: {@1_Name}!'
 WHERE Tag = 'TXT_KEY_FOUND_NATURAL_WONDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Theming
 UPDATE Language_de_DE
-SET Text = '{1_Num} [ICON_TOURISM] Tourism from Theming Bonuses'
+SET Text = '{1_Num} [ICON_TOURISM] Tourismus Bonus durch thematisch ausgerichtet'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Happiness
 	
 UPDATE Language_de_DE
-SET Text = '[ICON_CITIZEN] Citizens in non-occupied Cities do not produce [ICON_HAPPINESS_3] Unhappiness directly. See the tooltips below for the sources of [ICON_HAPPINESS_3] Unhappiness in each City'
+SET Text = '[ICON_CITIZEN] Bürger in nicht besetzten Städten produzieren [ICON_HAPPINESS_3] Unzufriedenheit nicht direkt. Schaut in die darunter liegende Kurzinfo für die Quellen der [ICON_HAPPINESS_3] Unzufriedenheit in jeder Stadt'
 WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Every (non-occupied) City produces 0 [ICON_HAPPINESS_3] Unhappiness.'
+SET Text = 'Jede (nicht besetzte) Stadt produziert 0 [ICON_HAPPINESS_3] Unzufriedenheit.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Every (non-occupied) City produces 0 [ICON_HAPPINESS_3] Unhappiness (normally).'
+SET Text = 'Jede (nicht besetzte) Stadt produziert 0 [ICON_HAPPINESS_3] Unzufriedenheit (normalerweise).'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Every [ICON_OCCUPIED] Occupied City produces 0 [ICON_HAPPINESS_3] Unhappiness.'
+SET Text = 'Jede [ICON_OCCUPIED] Besetzte Stadt produziert 0 [ICON_HAPPINESS_3] Unzufriedenheit.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Every [ICON_CITIZEN] Citizen in an [ICON_OCCUPIED] Occupied City produces 1 [ICON_HAPPINESS_3] Unhappiness'
+SET Text = 'Jeder [ICON_CITIZEN] Bürger in einer [ICON_OCCUPIED] Besetzten Stadt produziert 1 [ICON_HAPPINESS_3] Unzufriedenheit'
 WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Sort By Unhappiness'
+SET Text = 'Sortieren nach Unzufriedenheit'
 WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -379,7 +379,7 @@ SET Text = '{1_Num} from [ICON_CITIZEN] Population in [ICON_OCCUPIED] Occupied o
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '{1_Num : number "#.##"} from [ICON_CITIZEN] Urbanization (Specialists).'
+SET Text = '{1_Num : number "#.##"} durch [ICON_CITIZEN] Urbanisierung (Spezialisten).'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_SPECIALISTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CITY_HAPPINESS' AND Value= 1 );
 
 -- Tutorial Text
@@ -407,42 +407,42 @@ WHERE Tag = 'TXT_KEY_HAPPINESS_LEVELSUNHAPPINESS_HEADING2_BODY' AND EXISTS (SELE
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Happiness Modifier: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
+SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Zufriedenheits-Modifikator: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
 
 
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]Modified due to Happiness: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
+SELECT '[NEWLINE][ICON_BULLET]Modifiziert durch Zufriedenheit: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 0 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Happiness Modifier: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
+SELECT '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Zufriedenheits-Modifikator: {1_Num}%', 'TXT_KEY_FOODMOD_HAPPY'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[NEWLINE][ICON_BULLET]Modified due to Happiness: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
+SELECT '[NEWLINE][ICON_BULLET]Modifiziert durch Zufriedenheit: {1_Num}%', 'TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 UPDATE Language_de_DE
-Set Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from your [ICON_GOLDEN_AGE] Golden Age.'
+Set Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] von Eurem Goldenen Zeitalter.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Rebels!
 UPDATE Language_de_DE
-SET Text = 'Because the empire has at least 20 [ICON_HAPPINESS_4] Unhappiness, an uprising has occurred in our territory!'
+SET Text = 'Da die [ICON_HAPPINESS_4] Unzufriedenheit im Reich mindestens den Wert 20 erreicht hat, ist es zu einem Aufstand in unserem Territorium gekommen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Update Text for Very Unhappy and Super Unhappy
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_de_DE
-SET Text = 'Your empire is [ICON_HAPPINESS_3] very unhappy![ENDCOLOR] [NEWLINE][NEWLINE]Because of this, empire-wide [ICON_CULTURE] Culture, [ICON_PEACE] Faith, [ICON_GOLD] Gold, [ICON_FOOD] Growth, and [ICON_RESEARCH] Science are reduced by[COLOR_NEGATIVE_TEXT] {1_num}% [ENDCOLOR], and [ICON_STRENGTH] Combat effectiveness is reduced by[COLOR_NEGATIVE_TEXT] {1_Num}%[ENDCOLOR]!'
+SET Text = 'Die Bevölkerung in Eurem Reich ist [ICON_HAPPINESS_3] sehr unzufrieden![ENDCOLOR] [NEWLINE][NEWLINE]Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um [COLOR_NEGATIVE_TEXT] {1_num}% [ENDCOLOR] reduziert und die effektive [ICON_STRENGTH] Kampfstärke um [COLOR_NEGATIVE_TEXT] {1_Num}%[ENDCOLOR] verringert!'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -455,7 +455,7 @@ SET Text = 'Your empire is [ICON_HAPPINESS_3] unhappy! [NEWLINE][NEWLINE][ENDCOL
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Total [ICON_HAPPINESS_1] Happiness Level of the empire is {1_Num}. Because of this, empire-wide [ICON_CULTURE] Culture, [ICON_PEACE] Faith, [ICON_GOLD] Gold, [ICON_FOOD] Growth, and [ICON_RESEARCH] Science are increased by [COLOR_POSITIVE_TEXT] +{2_num}% [ENDCOLOR].'
+SET Text = 'Die [ICON_HAPPINESS_1] Zufriedenheit im Reich beträgt insgesamt {1_Num}. Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um [COLOR_POSITIVE_TEXT] +{2_num}% [ENDCOLOR] erhöht.'
 WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- TOOLTIPS FOR TOP BAR
@@ -463,85 +463,85 @@ WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHE
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '{1_Num} due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS'
+SELECT '{1_Num} durch [ICON_HAPPINESS_1] Zufriedenheit.', 'TXT_KEY_TP_GOLD_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '{1_NUM} due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS'
+SELECT '{1_NUM} durch [ICON_HAPPINESS_3] Unzufriedenheit.', 'TXT_KEY_TP_GOLD_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
-
-
--- Text for city view tooltip.
-INSERT INTO Language_de_DE (
-Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS'
-WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
-
--- Text for city view tooltip.
-INSERT INTO Language_de_DE (
-Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] durch [ICON_HAPPINESS_1] Zufriedenheit.', 'TXT_KEY_TP_FAITH_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] durch [ICON_HAPPINESS_3] Unzufriedenheit.', 'TXT_KEY_TP_FAITH_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] due to due to [ICON_HAPPINESS_3] Unhappiness.', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] durch [ICON_HAPPINESS_1] Zufriedenheit.', 'TXT_KEY_TP_SCIENCE_GAINED_FROM_HAPPINESS'
+WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+
+
+-- Text for city view tooltip.
+INSERT INTO Language_de_DE (
+Text, Tag)
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] durch [ICON_HAPPINESS_3] Unzufriedenheit.', 'TXT_KEY_TP_SCIENCE_LOST_FROM_UNHAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 -- Text for city view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] due to [ICON_HAPPINESS_1] Happiness.', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS'
+SELECT '[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] durch [ICON_HAPPINESS_3] Unzufriedenheit.', 'TXT_KEY_TP_CULTURE_LOST_FROM_UNHAPPINESS'
+WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
+
+-- Text for city view tooltip.
+INSERT INTO Language_de_DE (
+Text, Tag)
+SELECT '[ICON_BULLET] [COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] durch [ICON_HAPPINESS_1] Zufriedenheit.', 'TXT_KEY_TP_CULTURE_GAINED_FROM_HAPPINESS'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '{@1_CityName} can no longer work on {@2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_CULTURE]!'
+SET Text = 'Die Stadt {@1_CityName} kann das Gebäude {@2_BldgName} nicht vollenden. Der Verlust an [ICON_PRODUCTION] wird in {3_NumGold}[ICON_CULTURE] umgewandelt!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 2 );
 
 UPDATE Language_de_DE
-SET Text = '{@1_CityName} can no longer work on {@2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_GOLDEN_AGE]!'
+SET Text = 'Die Stadt {@1_CityName} kann das Gebäude {@2_BldgName} nicht vollenden. Der Verlust an [ICON_PRODUCTION] wird in {3_NumGold}[ICON_GOLDEN_AGE] umgewandelt!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 3 );
 
 UPDATE Language_de_DE
-SET Text = '{@1_CityName} can no longer work on {@2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_RESEARCH]!'
+SET Text = 'Die Stadt {@1_CityName} kann das Gebäude {@2_BldgName} nicht vollenden. Der Verlust an [ICON_PRODUCTION] wird in {3_NumGold}[ICON_RESEARCH] umgewandelt!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 4 );
 
 UPDATE Language_de_DE
-SET Text = '{@1_CityName} can no longer work on {@2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_PEACE]!'
+SET Text = 'Die Stadt {@1_CityName} kann das Gebäude {@2_BldgName} nicht vollenden. Der Verlust an [ICON_PRODUCTION] wird in {3_NumGold}[ICON_PEACE] umgewandelt!'
 WHERE Tag = 'TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_WONDER_CONSOLATION_TWEAK' AND Value= 5 );
 
 -- Resource Changes
 
 UPDATE Language_de_DE
-SET Text = 'Marble is a beautiful rock highly prized as a building material and by artists for sculpting. Marble comes in a variety of colors and shades, sometimes mono-colored and sometimes with veins and pockets of many different colors within. Many of the most beautiful structures in the world - including the Taj Mahal, for one - are constructed of marble, as are the greatest sculptures of antiquity.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production when building pre-Industrial Wonders in the City where it is worked.'
+SET Text = 'Marmor ist ein wunderschöner Stein, der als Baumaterial und von Bildhauern hoch geschätzt wird. Marmor gibt es in verschiedenen Farben und Schattierungen, manchmal einfarbig und manchmal mit Adern oder Taschen in vielen verschiedenen Farben. Zahlreiche der schönsten Gebäude der Welt - z. B. das Taj Mahal - wurden aus Marmor gebaut, wie auch einige der großartigsten Skulpturen der Antike.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion beim Bau von Wundern der vorindustriellen Zeit in der Stadt des Abbaus.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_MARBLE_TEXT';
 
 UPDATE Language_de_DE
-SET Text = 'Found in the Earth''s crust and upper mantle, stone is perhaps the most crucial element in human construction efforts throughout history. There are three major classifications of stone - Sedimentary, Igneous, and Metamorphic - each differing in their origin.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION] Production when building pre-Renaissance Wonders in the City where it is worked.'
+SET Text = 'Stein findet sich in der Erdkruste und im oberen Erdmantel und ist vielleicht das Schlüsselelement in der Geschichte des menschlichen Gebäudebaus. Stein wird in drei Hauptgruppen eingeteilt - sedimentär, magmatisch und metamorph - die sich in ihrem Ursprung unterscheiden.[NEWLINE][NEWLINE]+10% [ICON_PRODUCTION]Produktion beim Bau von Wundern, vor der Zeit der Renaissance, in der Stadt des Abbaus.'
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
 -- Founding Cities
 
 UPDATE Language_de_DE
-SET Text = 'City Locations and Yields'
+SET Text = 'Stadt Standorte und Erträge'
 WHERE Tag = 'TXT_KEY_CITIES_WHERETOCONSTRUCT_HEADING2_TITLE';
 
 	
@@ -555,10 +555,10 @@ SET Text = 'Trade Routes are established between two cities of different civiliz
 WHERE Tag = 'TXT_KEY_TRADE_ROUTES_HEADING2_BODY';
 
 -- Moai
-UPDATE language_xx_XX
+UPDATE Language_de_DE
 SET Text = 'Moai-Statuen können nur an der Küste errichtet werden. Wenn eine Statue neben einer anderen errichtet wird, bietet sie zusätzliche [ICON_CULTURE] Kultur und [ICON_PRODUCTION] Produktion. Erhaltet zusätzliche Erträge durch Freischaltung neuer Technologien.[NEWLINE][NEWLINE]Wenn innerhalb von 3 Geländefeldern einer Moai-Statue, erhalten alle polinesischen Einheiten +20% [ICON_STRENGTH] Kampfstärke.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP';
 
-UPDATE language_xx_XX
+UPDATE Language_de_DE
 SET Text = 'Moai-Statuen können nur an der Küste errichtet werden.  Wenn eine Statue neben einer anderen errichtet wird, bietet sie zusätzliche [ICON_CULTURE] Kultur und [ICON_PRODUCTION] Produktion. Erhaltet zusätzliche Erträge durch Freischaltung neuer Technologien. Wenn innerhalb von 3 Geländefeldern einer Moai-Statue, erhalten alle polinesischen Einheiten +20% [ICON_STRENGTH] Kampfstärke.[NEWLINE][NEWLINE]Die Moai-Statuen, vielleicht besser bekannt als die "Osterinsel-Skulpturen", sind riesige, menschliche Figuren, die aus vulkanischen Steinen wie Tuff geschlagen sind. 887 dieser Statuen sind auf der Osterinsel zu finden und man nimmt an, dass sie zwischen 1250 und 1500 n. Chr. erschaffen wurden. Fast die Hälfte steht noch an den ursprünglichen Steinbrüchen, doch der Rest wurde zur Küste der Insel transportiert und dort aufgestellt. Sie sind leicht an den großen Köpfen und langgezogenen Gesichtszügen zu erkennen, und man nimmt an, dass es sich um Darstellungen verstorbener Ahnen und mächtiger Häuptlinge handelt.[NEWLINE][NEWLINE]Auch wenn die meisten Gelehrten darin übereinstimmen, warum und wie die Statuen erschaffen wurden, ist ihr Transport noch immer ein Geheimnis. Bei einem Gewicht von 9 bis 86 Tonnen pro Statue waren erstaunliche Ingenieursleistungen vonnöten, um sie vom Steinbruch zum Aufstellungsort zu befördern.[NEWLINE][NEWLINE]1994 wurden die Moai-Statuen von der UNESCO offiziell zum Weltkulturerbe erklärt.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';

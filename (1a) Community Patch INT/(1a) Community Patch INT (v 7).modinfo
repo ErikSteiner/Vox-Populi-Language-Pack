@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="7906b667-3fea-4325-8afa-c49fba1b0933" version="7">
   <Properties>
-    <Name>(1a) Community Patch International</Name>
+    <Name>(1a) Community Patch [COLOR_GREEN]Localized[ENDCOLOR]</Name>
     <Stability>Beta</Stability>
-    <Teaser>(12-14) Translation of the Community Patch to different languages.</Teaser>
-    <Description>Translation of the Community Patch to different languages.</Description>
+    <Teaser>(12-14) Translation of the Community Patch</Teaser>
+    <Description>Translation of the Community Patch to different languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
-    <AffectsSavedGames>1</AffectsSavedGames>
+    <AffectsSavedGames>0</AffectsSavedGames>
     <MinCompatibleSaveVersion>7</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
@@ -19,14 +19,14 @@
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="88" maxversion="999" title="Community Patch" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="480A38B4F4DFDF3CF24BC1C03A1F3C64" import="0">Core Files/Core Changes/de_DE/TextChanges.sql</File>
+    <File md5="6f8e42aea67061cd1e4a71b322505e78" import="0">Core Files/Core Changes/de_DE/TextChanges.sql</File>
     <File md5="1c8e4b03dcaf847f9e720006be4f890e" import="0">Core Files/Core Tables/de_DE/SampleEvents.xml</File>
-    <File md5="4FC51835F4E1FACE48D5D92A36189955" import="0">Core Files/Core Values/de_DE/CargoShipMod.sql</File>
+    <File md5="be61d018f4b4a563b71870eea1d10b0f" import="0">Core Files/Core Values/de_DE/CargoShipMod.sql</File>
     <File md5="1068e7f85bad2ebd5fc0877d44e7c32b" import="0">Core Files/PNM Mods DB/API/de_DE/Espionage.xml</File>
     <File md5="a9e2cfe8dbf758da9921f10fbc36edf9" import="0">Core Files/PNM Mods DB/API/de_DE/Religion.xml</File>
     <File md5="fe29e4556695cbf3282dc6d54b254eb1" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/GoodyHutMessages.xml</File>
@@ -34,11 +34,11 @@
     <File md5="71c5c2cb6203d6342bea1ff2bca47847" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/UnitclassNotUnit.xml</File>
     <File md5="3d5dab2b7f7dd8e45c3ee234aa2196d3" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/UnitNaming.xml</File>
     <File md5="99f6da4b2def5881fa2fbfe14a504aec" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/VariableRecon.xml</File>
-    <File md5="6de5760786b97e5c23734c9abb1a0c2e" import="0">Core Files/Text/CoreText_de_DE.xml</File>
-    <File md5="2ba68747b3c3b5a2035ecb836437ecf5" import="0">Core Files/Text/CoreText_de_DE.sql</File>
-    <File md5="bf918ad0aa13eb5365b79f95f62a5603" import="0">Modules/Events/Text/de_DE/City_de_DE.xml</File>
-    <File md5="c53cc9359670c489cbcb01852cf4982c" import="0">Modules/Events/Text/de_DE/EventCore_de_DE.xml</File>
-    <File md5="2ba73270f2e7291775ce52d4751eba94" import="0">Modules/Events/Text/de_DE/Player_de_DE.xml</File>
+    <File md5="87008930292333ef625edeb223ace881" import="0">Core Files/Text/CoreText_de_DE.xml</File>
+    <File md5="dca76a929a4a861f242d51e2afe109c7" import="0">Core Files/Text/CoreText_de_DE.sql</File>
+    <File md5="3d77a7eab3769e27bb31d5949b31bf3c" import="0">Modules/Events/Text/de_DE/City_de_DE.xml</File>
+    <File md5="2d5118244791ec890497170344135915" import="0">Modules/Events/Text/de_DE/EventCore_de_DE.xml</File>
+    <File md5="c94cf8b51eb962b6ffed08e4a5f61108" import="0">Modules/Events/Text/de_DE/Player_de_DE.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
