@@ -4,19 +4,19 @@
 	<Language_de_DE>
 		<!-- Event System-->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
-			<Text>{1_Happiness} Happiness from Events</Text>
+			<Text>{1_Happiness} Zufriedenheit durch Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED">
 			<Text>The effects of an Event have worn off:[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_T">
-			<Text>An Event has ended.</Text>
+			<Text>Ein Ereignis ging zu Ende.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY">
 			<Text>The effects of an Event in {2_City} have worn off:[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY_T">
-			<Text>An Event in {1_City} has ended.</Text>
+			<Text>Ein Ereignis in {1_City} ging zu Ende.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CANNOT_TAKE_TT">
 			<Text>[COLOR_WARNING_TEXT]You cannot take this Event Choice. Either you do not meet the requirements, or its effects are still active.[ENDCOLOR]</Text>
@@ -35,7 +35,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_RECENT_EVENT_INFORMATION">
-			<Text>Spieler Ereignisse Events</Text>
+			<Text>Spieler Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_RECENT_EVENT_INFORMATION">
 			<Text>Stadt Ereignisse</Text>
@@ -60,32 +60,32 @@
 			<Text>Unmittelbares Ereignis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_NAME">
-			<Text>Sort by Event Name</Text>
+			<Text>Sortiert nach Ereignisnamen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_DURATION">
-			<Text>Sort by Duration</Text>
+			<Text>Sortiert nach Dauer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_CHOICE_SORT_CITY_NAME">
-			<Text>Sort by City Name</Text>
+			<Text>Sortiert nach Stadtnamen</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_FROM_EVENTS">
-			<Text>{1_Num} {2_IconString} from Active Events</Text>
+			<Text>{1_Num} {2_IconString} durch aktive Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_EVENTS">
-			<Text>{1_Num} [ICON_CULTURE] from Active Events</Text>
+			<Text>{1_Num} [ICON_CULTURE] durch aktive Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FAITH_FROM_EVENTS">
-			<Text>{1_Num} [ICON_PEACE] from Active Events</Text>
+			<Text>{1_Num} [ICON_PEACE] durch aktive Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EVENT_MODIFIER">
-			<Text>{1_Num}% {2_Icon} {3_Name} from Active Events</Text>
+			<Text>{1_Num}% {2_Icon} {3_Name} durch aktive Ereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HIDE">
-			<Text>Hide</Text>
+			<Text>Verstecken</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HIDE_TT">
-			<Text>This hides the window, but does not dismiss the Event.</Text>
+			<Text>Dies versteckt das Fenster, verwirft jedoch nicht das Ereignis.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED">
 			<Text>'{3_Event}' trat nicht ein. Eure Entscheidung:[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
@@ -100,13 +100,13 @@
 			<Text>{2_City}: '{1_Event}' trat nicht ein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TITLE">
-			<Text>Ereignis in{1_City}: {2_Event}</Text>
+			<Text>Ereignis in {1_City}: {2_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HELP">
-			<Text>Nachrichten aus[COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]:[NEWLINE][NEWLINE]{2_Event}</Text>
+			<Text>Neuigkeiten aus [COLOR_POSITIVE_TEXT]{1_City}[ENDCOLOR]:[NEWLINE][NEWLINE]{2_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
-			<Text>{2_Num} {1_Improvement}(s) pillaged near {3_City} due to Event Choice!</Text>
+			<Text>{2_Num} {1_Improvement}(s) geplündert nahe {3_City} durch eine Ereigniswahl!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
 			<Text>{1_Building} zerstört in {2_City} durch eine Ereigniswahl!</Text>
@@ -151,7 +151,7 @@
 			<Text>{3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_SPECIALIST">
-			<Text>{2_Yield} {1_Name} Points</Text>
+			<Text>{2_Yield} {1_Name} Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION">
 			<Text>{1_Cost}{2_Yield}{3_City}{4_Turns}</Text>
@@ -160,22 +160,22 @@
 			<Text>{1_Cost}{2_Yield}{3_City}{4_GPP}{5_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_SPENT">
-			<Text>[NEWLINE]Spent: {3_Value} {2_Icon} {1_Yield}</Text>
+			<Text>[NEWLINE]Aufwenden: {3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_INSTANT">
-			<Text>[NEWLINE]Instant Yield: {3_Value} {2_Icon} {1_Yield}</Text>
+			<Text>[NEWLINE]Sofortiger Ertrag: {3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_CITY">
-			<Text>[NEWLINE]{3_Value} {2_Icon} {1_Yield} per turn in City</Text>
+			<Text>[NEWLINE]{3_Value} {2_Icon} {1_Yield} pro Runde in der Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_GPP">
-			<Text>[NEWLINE]{2_Yield} Great {1_Name} Points in City</Text>
+			<Text>[NEWLINE]{2_Yield} Große {1_Name} Punkte in der Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_TURNS">
-			<Text>[NEWLINE]Dauert an für: {1_Turns} Turns</Text>
+			<Text>[NEWLINE]Dauert an für: {1_Turns} Runden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
-			<Text>{1_Num} Turns</Text>
+			<Text>{1_Num} Runden</Text>
 		</Row>
 
 
@@ -196,85 +196,85 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_RESOURCE_LOCAL">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Resource near City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Ressource nahe der Stadt</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_IMPROVEMENT">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Improvement</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Modernisierung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_IMPROVEMENT_LOCAL">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Improvement near City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Modernisierung nahe der Stadt</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS_LOCAL">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} in City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} in der Stadt</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS_LOCAL">
-			<Text>[NEWLINE] [ICON_BULLET] Invalid if {1_Desc} in City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Ungültig wenn {1_Desc} in der Stadt</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_BUILDING_CLASS">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} in any City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} in einer beliebigen Stadt</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_NO_BUILDING_CLASS">
-			<Text>[NEWLINE] [ICON_BULLET] Invalid if {1_Desc} in any City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Ungültig wenn {1_Desc} in einer beliebigen Stadt</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_WAR_MINOR">
-			<Text>[NEWLINE] [ICON_BULLET] Must be at war with a City-State</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss im Krieg mit einem Stadtstaat sein</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_TERRAIN_NEARBY">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Terrain near City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Geländefeld nahe der Stadt</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_FEATURE_NEARBY">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Feature near City</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Geländeart nahe der Stadt</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_FEATURE">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Feature</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Geländeart</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_RESOURCE">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} Resource</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Ressource</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_COASTAL_CITIES">
-			<Text>[NEWLINE] [ICON_BULLET] Requires {1_Desc} coastal city/cities</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt {1_Desc} Küstenstadt/-städte</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_BE_VASSAL">
-			<Text>[NEWLINE] [ICON_BULLET] Must be a Vassal</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss ein Vasall sein</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_VASSAL">
-			<Text>[NEWLINE] [ICON_BULLET] Requires a Vassal</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt einen Vassall</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY">
-			<Text>[NEWLINE] [ICON_BULLET] Requires ownership of a Holy City.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt Eigentum an einer Heiligen Stätte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY_LOCAL">
-			<Text>[NEWLINE] [ICON_BULLET] Must be a Holy City.</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss eine Heilige Stätte sein.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_MET_OTHER_CIV">
-			<Text>[NEWLINE] [ICON_BULLET] Must have met another Major Civilization</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss eine andere Große Zivilisation getroffen haben</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_UNITCLASS_TYPE">
-			<Text>[NEWLINE] [ICON_BULLET] Must have at least one {1_Desc} Unit</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss mindestens eine {1_Desc} Einheit besitzen</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_SUPER_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Must be Very Unhappy</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss Sehr Unzufrieden sein</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_UNHAPPY">
-			<Text>[NEWLINE] [ICON_BULLET] Must be Unhappy</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Muss Unzufrieden sein</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_TRADE_SLOT">

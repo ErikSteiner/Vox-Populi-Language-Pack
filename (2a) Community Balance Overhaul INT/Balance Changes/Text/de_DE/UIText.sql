@@ -6,7 +6,7 @@ WHERE Tag = 'TXT_KEY_PEDIA_WONDERS_HELP_TEXT';
 -- Barb CS
 
 UPDATE Language_de_DE
-SET Text = 'You have killed a group of Barbarians near {1_CivName:textkey}! They are grateful, and your [ICON_INFLUENCE] Influence with them has increased by 15!'
+SET Text = 'Ihr habt eine Gruppe Barbaren in der Nähe von {1_CivName:textkey} ausgeschaltet! Man ist Euch dankbar, und Euer [ICON_INFLUENCE] Einfluss ist um 15 gestiegen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED';
 
 -- Culture Victory changes
@@ -267,7 +267,7 @@ WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY 
 	
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_REC', 'Er wird Eure [ICON_FOOD] Nahrungsproduktion auf diesem Geländefeld steigern. Für je zwei Bauernhöfe die zueinander angrenzen, erhalten Sie +1 zusätzliche [ICON_FOOD] Nahrung!'
+SELECT 'TXT_KEY_BUILD_FARM_REC', 'Dies wird Eure [ICON_FOOD] Nahrungsproduktion auf diesem Geländefeld steigern. Für je zwei Bauernhöfe die aneinander angrenzen, erhalten Sie +1 zusätzliche [ICON_FOOD] Nahrung!'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -282,43 +282,43 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDIN
 -- Trading Post - name change
 
 UPDATE Language_de_DE
-SET Text = 'Villages are smaller settlements scattered around the countryside of a civilization, representative of the people that live off of the land and trade. They can generate a lot of wealth for a society, particularly when placed on Roads, Railroads, or on Trade Routes.[NEWLINE][NEWLINE]Receive [ICON_GOLD] Gold [ICON_PRODUCTION] Production if built on a Road or Railroad that connects two owned Cities.[NEWLINE][NEWLINE]Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 pre-Industrial Era, +2 Industrial Era or later) if a Trade Route, either internal or international, passes over this Village.'
+SET Text = 'Dörfer sind kleinere Siedlungen, verstreut in den Provinzen einer Zivilisation die für die Menschen stehen, die auf dem Land leben und Handel treiben. Sie können einer Gesellschaft großen Reichtum bringen, besonders wenn sie auf Straßen, Eisenbahnstrecken oder Handelswegen gebaut werden.[NEWLINE][NEWLINE]Erhaltet [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn auf einer Straße oder Eisenbahnstrecke gebaut, die zwei eigene Städte miteinander verbinden.[NEWLINE][NEWLINE]Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 vorindustrielle Zeitalter, +2 Industriezeitalter und später) wenn ein Handelsweg, national oder international dieses Dorf passiert.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT';
 
 UPDATE Language_de_DE
-SET Text = 'Village'
+SET Text = 'Dorf'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TRADINGPOST';
 
 UPDATE Language_de_DE
-SET Text = 'Village'
+SET Text = 'Dorf'
 WHERE Tag = 'TXT_KEY_IMPROVEMENT_TRADING_POST';
 
 UPDATE Language_de_DE
-SET Text = 'Construct a [LINK=IMPROVEMENT_TRADING_POST]Village[\LINK]'
+SET Text = 'Errichtet ein [LINK=IMPROVEMENT_TRADING_POST]Dorf[\LINK]'
 WHERE Tag = 'TXT_KEY_BUILD_TRADING_POST';
 
 UPDATE Language_de_DE
-SET Text = 'Does the village provide gold?'
+SET Text = 'Produziert das Dorf Gold?'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_ADV_QUEST';
 
 UPDATE Language_de_DE
-SET Text = 'Construct a Village improvement in a tile to increase its gold output. Earns additional gold and production if placed on a Road or Railroad that connects two owned cities and/or if a Trade Route, either internal or international, passes over it. Cannot be built adjacent to one another.'
+SET Text = 'Der Bau eines Dorfes auf einem Geländefeld steigert den Goldertrag des Feldes. Erhaltet weiteres Gold und Produktion, wenn es auf einer Straße oder einer Eisenbahnstrecken liegt, die zwei Städte miteinander verbindet und/oder auf einem Handelsweg (national oder international) plaziert wird. Kann nicht nebeneinander gebaut werden.'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_de_DE
-SET Text = 'The village increases output of a tile by 3 gold and 1 culture. It does not access a resource. It generates additional gold and production if on a route and/or if built on a trade route.[NEWLINE]Technology Required: Currency[NEWLINE]Construction Time: 5 Turns[NEWLINE]May Be Constructed On: Any land tile but ice. Cannot be built adjacent to one another.'
+SET Text = 'Der Bau eines Dorfes auf einem Geländefeld steigert den Ertrag des Feldes um 3 Gold und 1 Kultur. Es macht keine Ressourcen verfügbar. Es produziert zusätzliches Gold und Produktion, wenn auf einem Weg und/oder Handelsweg gebaut.[NEWLINE]Benötigte Technologie: Währung[NEWLINE]Bauzeit: 5 Runden[NEWLINE]Baubar auf: Alle Geländefelder, außer Eis. Kann nicht nebeneinander gebaut werden.'
 WHERE Tag = 'TXT_KEY_WORKERS_TRADINGPOST_HEADING3_BODY';
 
 UPDATE Language_de_DE
-SET Text = 'The Village'
+SET Text = 'Das Dorf'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_TITLE';
 
 UPDATE Language_de_DE
-SET Text = 'During a game, you will create "workers" - non-military units who will "improve" the land around your cities, increasing productivity or providing access to a nearby "resource." Improvements include farms, villages, lumber mills, quarries, mines, and more. During wartime your enemy may "pillage" (destroy) your improvements. Pillaged improvements are ineffective until a worker has "repaired" them.'
+SET Text = 'Während des Spiels werdet Ihr "Bautrupps" ausbilden - nicht militärische Einheiten, die das Land um Eure Städte "modernisieren" werden und damit seine Erträge erhöhen oder Zugang zu einer nahegelegenen "Ressource" ermöglichen. Modernisierungen sind z. B. Bauernhöfe, Dörfer, Sägewerke, Steinbrüche, Minen und anderes mehr. In Kriegszeiten kann Euer Gegner Eure Modernisierungen "plündern" (zerstören). Geplünderte Modernisierungen sind leistungsunfähig, bis sie von einem Bautrupp "repariert" wurden.'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 
 UPDATE Language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 2 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.'
+SET Text = '[COLOR_NEGATIVE_TEXT]Kostet[ENDCOLOR] 2 [ICON_GOLD] Gold Unterhalt pro Runde.[NEWLINE][NEWLINE]Eine durchgehende Eisenbahnlinie ermöglicht es Einheiten, sich extrem schnell fortzubewegen.'
 WHERE Tag = 'TXT_KEY_BUILD_RAILROAD_HELP';
 
 -- Fort

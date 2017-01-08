@@ -371,22 +371,22 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
-			<Text>War Elephant</Text>
+			<Text>Kriegselefant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY">
-			<Text>War Elephants are more expensive and slower than the Horseman, but they are also much more powerful. They can move after attacking and strike fear into nearby enemy units, giving them a negative combat modifier. You must have a source of [ICON_RES_IVORY] Ivory to construct War Elephants, and the city where you wish to build them must have a Barracks. Unlike other Military Units, War Elephants do not consume resources when constructed.</Text>
+			<Text>Kriegselefanten sind teurer und  langsamer als Reiter, doch sind sie auch deutlich stärker. Sie können sich nach einem Angriff bewegen und verbreiten Angst unter nahe gelegenen Einheiten, wodurch diese einen negativen Kampfmodifikator erhalten. Sie müssen eine [ICON_RES_IVORY] Elfenbein Quelle besitzen um Kriegselefanten zu bauen und in der Stadt, in der Sie sie bauen wollen muss eine Kaserne stehen. Anders als andere Militäreinheiten verbrauchen Kriegselefanten keine Ressourcen, wenn sie gebaut wurden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_HELP">
-			<Text>Powerful early game Mounted Unit that is weak to Spearmen. This Unit has a higher [ICON_STRENGTH] Combat Strength than other Mounted Units and strikes fear into nearby enemy units. It is, however, much slower and more expensive than the Horseman. [NEWLINE][NEWLINE]You must have a source of [ICON_RES_IVORY] Ivory and a Barracks in order to construct this unit.</Text>
+			<Text>Als berittene Einheit im frühen Spielverlauf ist der Kriegselefant ziemlich verwundbar gegen Speerkämpfer. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampfstärke als andere berittene Einheiten und verbreitet Angst unter feindlichen Einheiten. Sie ist jedoch deutlich langsamer und teurer als der Reiter. [NEWLINE][NEWLINE]Ihr benötigt eine Quelle an [ICON_RES_IVORY] Elfenbein und Kasernen um diese Einheit zu bauen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_TEXT">
-			<Text>A War Elephant was an elephant trained and guided by humans for combat. Their main use was to charge the enemy, breaking their ranks and instilling terror. Elephantry are military units with elephant-mounted troops. They were first employed in India, the practice spreading out across south-east Asia and westwards into the Mediterranean. Their most famous use in the West was by the Greek general Pyrrhus of Epirus and in significant numbers by the armies of Carthage, including briefly by Hannibal.</Text>
+			<Text>Ein Kriegselefant war ein Elefant der von Menschen für den Kampf ausgebildet und geführt wurde. Ihr hauptsächlicher Verwendungszweck war das Erstürmen des Gegners, dessen Reihen zu brechen und Schrecken zu verbreiten. Elefantrie sind Militäreinheiten mit Elefanten-Truppen. Sie wurden zuerst in Indien eingesetzt und die Praxis verbreitete sich in Süd-Ost-Asien und westwärts bis zum Mittelmeer. Ihr berühmtester Gebrauch im Westen war durch den griechischen General Pyrrhus von Epirus und in bedeutender Anzahl durch die Armeen von Karthago, darunter die kurze Verwendung von Hannibal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR">
-			<Text>Steppe Nomads</Text>
+			<Text>Steppennomaden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
-			<Text>+2 [ICON_MOVES] Movement, and ignores Zone of Control</Text>
+			<Text>+2 [ICON_MOVES] Fortbewegung und ignoriert Kontrollzone</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">

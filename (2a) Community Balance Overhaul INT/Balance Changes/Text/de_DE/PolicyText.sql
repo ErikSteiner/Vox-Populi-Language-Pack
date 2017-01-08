@@ -9,7 +9,7 @@ SET Text = 'Martial Spirit'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Martial spirit represents the prevasiveness of competition and combat-oriented sports within a society. Today, athletes usually fight one-on-one, but may still use various skill sets such as strikes in boxing that only allows punching, taekwondo where punches and kicks are the focus or muay thai and burmese boxing that also allow the use of elbows and knees. There are also grappling based sports that may concentrate on obtaining a superior position as in freestyle or Collegiate wrestling using throws such as in judo and Greco-Roman wrestling the use of submissions as in Brazilian jiu-jitsu. Modern mixed martial arts competitions are similar to the historic Greek Olympic sport of pankration and allow a wide range of both striking and grappling techniques. Combat sports may also be armed and the athletes compete using weapons, such as types of sword in western fencing (the foil, ÈpÈe and saber) and kendo (shinai). Modern combat sports may also wear complex armour, like SCA Heavy Combat and kendo. In Gatka and Modern Arnis sticks are used, sometimes representing knives and swords.'
+SET Text = 'Martial spirit represents the prevasiveness of competition and combat-oriented sports within a society. Today, athletes usually fight one-on-one, but may still use various skill sets such as strikes in boxing that only allows punching, taekwondo where punches and kicks are the focus or muay thai and burmese boxing that also allow the use of elbows and knees. There are also grappling based sports that may concentrate on obtaining a superior position as in freestyle or Collegiate wrestling using throws such as in judo and Greco-Roman wrestling the use of submissions as in Brazilian jiu-jitsu. Modern mixed martial arts competitions are similar to the historic Greek Olympic sport of pankration and allow a wide range of both striking and grappling techniques. Combat sports may also be armed and the athletes compete using weapons, such as types of sword in western fencing (the foil, √©p√©e and saber) and kendo (shinai). Modern combat sports may also wear complex armour, like SCA Heavy Combat and kendo. In Gatka and Modern Arnis sticks are used, sometimes representing knives and swords.'
 WHERE Tag = 'TXT_KEY_POLICY_NEW_ORDER_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Cult of Personality
@@ -82,7 +82,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Military-Industrial Complex[ENDCOLOR][NEWLINE]-
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'The militaryñindustrial complex, or militaryñindustrialñcongressional complex, comprises the policy and monetary relationships which exist between legislators, national armed forces, and the arms industry that supports them. These relationships include political contributions, political approval for military spending, lobbying to support bureaucracies, and oversight of the industry. It is a type of iron triangle. The term is most often used in reference to the system behind the military of the United States, where it gained popularity after its use in the farewell address of President Dwight D. Eisenhower on January 17, 1961, though the term is applicable to any country with a similarly developed infrastructure'
+SET Text = 'The military‚Äìindustrial complex, or military‚Äìindustrial‚Äìcongressional complex, comprises the policy and monetary relationships which exist between legislators, national armed forces, and the arms industry that supports them. These relationships include political contributions, political approval for military spending, lobbying to support bureaucracies, and oversight of the industry. It is a type of iron triangle. The term is most often used in reference to the system behind the military of the United States, where it gained popularity after its use in the farewell address of President Dwight D. Eisenhower on January 17, 1961, though the term is applicable to any country with a similarly developed infrastructure'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Police State
@@ -242,7 +242,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR][NEWLINE][ICON_GOLD] Gold co
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Communism is a socioeconomic system structured upon common ownership of the means of production and characterized by the absence of social classes, money,[3][4] and the state; as well as a social, political and economic ideology and movement that aims to establish this social order. The movement to develop communism, in its MarxistñLeninist interpretations, significantly influenced the history of the 20th century, which saw intense rivalry between the states which claimed to follow this ideology and their enemies.'
+SET Text = 'Communism is a socioeconomic system structured upon common ownership of the means of production and characterized by the absence of social classes, money,[3][4] and the state; as well as a social, political and economic ideology and movement that aims to establish this social order. The movement to develop communism, in its Marxist‚ÄìLeninist interpretations, significantly influenced the history of the 20th century, which saw intense rivalry between the states which claimed to follow this ideology and their enemies.'
 WHERE Tag = 'TXT_KEY_POLICY_SKYSCRAPERS_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Socialist Realism
@@ -251,7 +251,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]People''s Army[ENDCOLOR][NEWLINE]Receive a free
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The People''s Liberation Army (PLA) traces its origins to the August 1, 1927, Nanchang Uprising in which Kuomintang (Nationalists, also spelled ''Guomindang'') troops led by Communist Party of China leaders Zhu De and Zhou Enlai (while engaged in the Northern Expedition) rebelled following the violent dissolution of the first Kuomintang-Communist Party of China united front earlier that year. The survivors of that and other abortive communist insurrections, including the Autumn Harvest Uprising led by Mao Zedong, fled to the Jinggang Mountains along the border of Hunan and Jiangxi provinces. Joining forces under the leadership of Mao and Zhu, this collection of communists, bandits, Kuomintang deserters, and impoverished peasants became the First Workers'' and Peasants'' Army, or Red Armyóthe military arm of the Chinese Communist Party.'
+SET Text = 'The People''s Liberation Army (PLA) traces its origins to the August 1, 1927, Nanchang Uprising in which Kuomintang (Nationalists, also spelled ''Guomindang'') troops led by Communist Party of China leaders Zhu De and Zhou Enlai (while engaged in the Northern Expedition) rebelled following the violent dissolution of the first Kuomintang-Communist Party of China united front earlier that year. The survivors of that and other abortive communist insurrections, including the Autumn Harvest Uprising led by Mao Zedong, fled to the Jinggang Mountains along the border of Hunan and Jiangxi provinces. Joining forces under the leadership of Mao and Zhu, this collection of communists, bandits, Kuomintang deserters, and impoverished peasants became the First Workers'' and Peasants'' Army, or Red Army‚Äîthe military arm of the Chinese Communist Party.'
 WHERE Tag = 'TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -311,7 +311,7 @@ SET Text = 'Refinement'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Sophistication is the quality of refinement ó displaying good taste, wisdom and subtlety rather than crudeness, stupidity and vulgarity. In the perception of social class, sophistication can link with concepts such as status, privilege and superiority.'
+SET Text = 'Sophistication is the quality of refinement ‚Äî displaying good taste, wisdom and subtlety rather than crudeness, stupidity and vulgarity. In the perception of social class, sophistication can link with concepts such as status, privilege and superiority.'
 WHERE Tag = 'TXT_KEY_POLICY_FINE_ARTS_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Flourishing of the Arts
@@ -342,7 +342,7 @@ WHERE Tag = 'TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT' AND EXISTS (SELECT * FROM COMM
 
 -- Cultural Exchange
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Kultureller Austausch[ENDCOLOR][NEWLINE]Erhˆht den [ICON_TOURISM] Tourismusmodifikator f¸r gemeinsame Religion, Handelswege und offene Grenzen jeweils um 20%. Das Reich tritt sofort in ein [ICON_GOLDEN_AGE] Goldenes Zeitalter ein.'
+SET Text = '[COLOR_POSITIVE_TEXT]Kultureller Austausch[ENDCOLOR][NEWLINE]Erh√∂ht den [ICON_TOURISM] Tourismusmodifikator f√ºr gemeinsame Religion, Handelswege und offene Grenzen jeweils um 20%. Das Reich tritt sofort in ein [ICON_GOLDEN_AGE] Goldenes Zeitalter ein.'
 WHERE Tag = 'TXT_KEY_POLICY_ETHICS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Opener -- now called Industry
@@ -438,7 +438,7 @@ SET Text = 'Ausbeutung'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Ausbeutung[ENDCOLOR][NEWLINE]Bauernhˆfe und Plantagen erhalten +1 [ICON_PRODUCTION] Produktion und +1 [ICON_FOOD] Nahrung. Eure Streitkr‰fte sind um 25% effektiver bei der Einsch¸chterung von Stadtstaaten und Milit‰reinheiten kˆnnen in Territorium von befreundeten Stadtstaaten modernisiert werden.'
+SET Text = '[COLOR_POSITIVE_TEXT]Ausbeutung[ENDCOLOR][NEWLINE]Bauernh√∂fe und Plantagen erhalten +1 [ICON_PRODUCTION] Produktion und +1 [ICON_FOOD] Nahrung. Eure Streitkr√§fte sind um 25% effektiver bei der Einsch√ºchterung von Stadtstaaten und Milit√§reinheiten k√∂nnen in Territorium von befreundeten Stadtstaaten modernisiert werden.'
 WHERE Tag = 'TXT_KEY_POLICY_MERCHANT_NAVY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -451,7 +451,7 @@ SET Text = 'Regimentsystem'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Regimentsystem[ENDCOLOR][NEWLINE]Erhaltet [ICON_GREAT_GENERAL] Groﬂe Gener‰le um 33% schneller. Kasernen, Waffenkammern und Milit‰rakademien produzieren +4 [ICON_RESEARCH] Wissenschaft und +1 [ICON_CULTURE] Kultur.'
+SET Text = '[COLOR_POSITIVE_TEXT]Regimentsystem[ENDCOLOR][NEWLINE]Erhaltet [ICON_GREAT_GENERAL] Gro√üe Gener√§le um 33% schneller. Kasernen, Waffenkammern und Milit√§rakademien produzieren +4 [ICON_RESEARCH] Wissenschaft und +1 [ICON_CULTURE] Kultur.'
 WHERE Tag = 'TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -465,7 +465,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Earn [ICON
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Milit‰r Tradition'
+SET Text = 'Milit√§r Tradition'
 WHERE Tag = 'TXT_KEY_POLICY_NAVAL_TRADITION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -616,11 +616,11 @@ SET Text = 'Freiheit'
 WHERE Tag = 'TXT_KEY_POLICY_CITIZENSHIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Freiheit[ENDCOLOR][NEWLINE]Die Konstruktionsrate der Gel‰ndefeld-Modernisierungen erhˆht sich um 25% und ein Bautrupp erscheint in der N‰he der [ICON_CAPITAL] Hauptstadt. Bauptrupps werden um 25% schneller ausgebildet.'
+SET Text = '[COLOR_POSITIVE_TEXT]Freiheit[ENDCOLOR][NEWLINE]Die Konstruktionsrate der Gel√§ndefeld-Modernisierungen erh√∂ht sich um 25% und ein Bautrupp erscheint in der N√§he der [ICON_CAPITAL] Hauptstadt. Bauptrupps werden um 25% schneller ausgebildet.'
 WHERE Tag = 'TXT_KEY_POLICY_CITIZENSHIP_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Der moderne Begriff der politischen Freiheit hat seinen Ursprung im griechischen Konzept der freien Arbeit und Sklavenarbeit. Frei zu sein bedeutete f¸r die Griechen, keinen Herrn zu haben, unabh‰ngig von einem Herrn zu sein (zu leben wie man es mˆchte). Das war der urspr¸ngliche griechische Begriff der Freiheit. Er ist eng mit dem Konzept der Demokratie verkn¸pft.'
+SET Text = 'Der moderne Begriff der politischen Freiheit hat seinen Ursprung im griechischen Konzept der freien Arbeit und Sklavenarbeit. Frei zu sein bedeutete f√ºr die Griechen, keinen Herrn zu haben, unabh√§ngig von einem Herrn zu sein (zu leben wie man es m√∂chte). Das war der urspr√ºngliche griechische Begriff der Freiheit. Er ist eng mit dem Konzept der Demokratie verkn√ºpft.'
 WHERE Tag = 'TXT_KEY_CIV5_POLICY_CITIZENSHIP_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Republic (Now Civil Engineers)
@@ -629,11 +629,11 @@ SET Text = 'Expertise'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Expertise[ENDCOLOR][NEWLINE] +20% [ICON_PRODUCTION] Produktion auf Geb‰ude.[NEWLINE] +1 [ICON_MOVES] Fortbewegung f¸r alle Zivilisten.'
+SET Text = '[COLOR_POSITIVE_TEXT]Expertise[ENDCOLOR][NEWLINE] +20% [ICON_PRODUCTION] Produktion auf Geb√§ude.[NEWLINE] +1 [ICON_MOVES] Fortbewegung f√ºr alle Zivilisten.'
 WHERE Tag = 'TXT_KEY_POLICY_REPUBLIC_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Ein Experte, auch Fachmann oder Sachkundiger, ist eine Person, die ¸ber ¸berdurchschnittlich umfangreiches Wissen auf einem Fachgebiet oder mehreren bestimmten Sacherschlieﬂungen oder ¸ber spezielle F‰higkeiten verf¸gt. Neben dem theoretischen Wissen kann eine kompetente Anwendung desselben, also praktisches Handlungswissen, f¸r einen Experten kennzeichnend sein. Historisch wurde ein Experte als Weiser (Sophos) bezeichnet. Das Individuum war in der Regel ein profunder Denker, der sich f¸r Weisheit und gesundes Urteil auszeichnete.'
+SET Text = 'Ein Experte, auch Fachmann oder Sachkundiger, ist eine Person, die √ºber √ºberdurchschnittlich umfangreiches Wissen auf einem Fachgebiet oder mehreren bestimmten Sacherschlie√üungen oder √ºber spezielle F√§higkeiten verf√ºgt. Neben dem theoretischen Wissen kann eine kompetente Anwendung desselben, also praktisches Handlungswissen, f√ºr einen Experten kennzeichnend sein. Historisch wurde ein Experte als Weiser (Sophos) bezeichnet. Das Individuum war in der Regel ein profunder Denker, der sich f√ºr Weisheit und gesundes Urteil auszeichnete.'
 WHERE Tag = 'TXT_KEY_CIV5_POLICY_REPUBLIC_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Representation 
@@ -659,7 +659,7 @@ SET Text = '[COLOR_POSITIVE_TEXT]Fraternity[ENDCOLOR][NEWLINE]+3 [ICON_FOOD] Foo
 WHERE Tag = 'TXT_KEY_POLICY_MERITOCRACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'In philosophy, fraternity is a kind of ethical relationship between people, which is based on love and solidarity. A synonym of fraternity is brotherhood. Fraternity is mentioned in the national motto of France, LibertÈ, ÈgalitÈ, fraternitÈ (Liberty, equality, fraternity). Today, connotions of fraternities vary according to the context, including companionships and brotherhoods dedicated to the religious, intellectual, academic, physical and/or social pursuits of its members. Additionally, in modern times, it sometimes connotes a secret society, especially regarding freemasonry, odd fellows and various academic and student societies.'
+SET Text = 'In philosophy, fraternity is a kind of ethical relationship between people, which is based on love and solidarity. A synonym of fraternity is brotherhood. Fraternity is mentioned in the national motto of France, Libert√©, √©galit√©, fraternit√© (Liberty, equality, fraternity). Today, connotions of fraternities vary according to the context, including companionships and brotherhoods dedicated to the religious, intellectual, academic, physical and/or social pursuits of its members. Additionally, in modern times, it sometimes connotes a secret society, especially regarding freemasonry, odd fellows and various academic and student societies.'
 WHERE Tag = 'TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Finisher
@@ -691,7 +691,7 @@ SET Text = 'Informanten'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Ein Informant ist eine Person, die ihre speziellen Kenntnisse an andere weitergibt. Ein Informant tr‰gt Dritten bestimmte (Dienst-)leistungen oder Verg¸nstigungen, beziehungsweise Informationen zu. Diese Informationen stellen in der Regel Insiderwissen dar, das sich der Informant durch seinen gesellschaftlichen Umgang erworben hat und f¸r Auﬂenstehende nicht oder nur schwer zug‰nglich ist. Im Gegensatz zu einem Spion ist ein Informant kein Ñbezahlter Mitarbeiterì desjenigen, der die Informationen haben mˆchte. Er bleibt von seinem Auftraggeber unabh‰ngig und nutzt sein Insiderwissen vielmehr, um sich ein kleines ÑZubrotì zu verdienen oder um sich andere Vorteile zu sichern oder er gibt seine Informationen sogar aus Idealismus weiter.'
+SET Text = 'Ein Informant ist eine Person, die ihre speziellen Kenntnisse an andere weitergibt. Ein Informant tr√§gt Dritten bestimmte (Dienst-)leistungen oder Verg√ºnstigungen, beziehungsweise Informationen zu. Diese Informationen stellen in der Regel Insiderwissen dar, das sich der Informant durch seinen gesellschaftlichen Umgang erworben hat und f√ºr Au√üenstehende nicht oder nur schwer zug√§nglich ist. Im Gegensatz zu einem Spion ist ein Informant kein ‚Äûbezahlter Mitarbeiter‚Äú desjenigen, der die Informationen haben m√∂chte. Er bleibt von seinem Auftraggeber unabh√§ngig und nutzt sein Insiderwissen vielmehr, um sich ein kleines ‚ÄûZubrot‚Äú zu verdienen oder um sich andere Vorteile zu sichern oder er gibt seine Informationen sogar aus Idealismus weiter.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Consulates
@@ -793,15 +793,15 @@ WHERE Tag = 'TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP' AND EXISTS (SELECT * FROM C
 
 -- Humanism (now Enlightenment) -- boost when happy
 UPDATE language_de_DE
-SET Text = 'Aufkl‰rung'
+SET Text = 'Aufkl√§rung'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Aufkl‰rung[ENDCOLOR][NEWLINE]Ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt. +10% [ICON_RESEARCH] Wissenschaft und +10% [ICON_FOOD] Wachstum in allen St‰dten w‰hrend eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
+SET Text = '[COLOR_POSITIVE_TEXT]Aufkl√§rung[ENDCOLOR][NEWLINE]Ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt. +10% [ICON_RESEARCH] Wissenschaft und +10% [ICON_FOOD] Wachstum in allen St√§dten w√§hrend eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Das Zeitalter der Aufkl‰rung (oder einfach die Aufkl‰rung oder das Zeitalter der Vernunft) ist die Zeit, in der kulturelle und gesellschaftliche Ver‰nderungen stattfanden, die Vernunft, Analyse und Individualismus anstatt traditionelle Denkweisen betonten. Initiiert von Philosophen mit Beginn des sp‰ten 17. Jahrhunderts in Westeuropa, wurde der Prozess der Ver‰nderung durch freiwillige Organisationen von M‰nnern vorangetrieben, die sich der Verbesserung der Gesellschaft verschrieben hatten. Diese M‰nner trafen sich  in Kaffeh‰usern, Salons und Freimaurerlogen. Institutionen die tief in der Gesellschaft verwurzelt waren, etwa der Staat und Religion, wurden in Frage gestellt und stattdessen ein st‰rkerer Fokus auf die Reform der Gesellschaft, mit Toleranz, Wissenschaft und Skepsis gelegt.'
+SET Text = 'Das Zeitalter der Aufkl√§rung (oder einfach die Aufkl√§rung oder das Zeitalter der Vernunft) ist die Zeit, in der kulturelle und gesellschaftliche Ver√§nderungen stattfanden, die Vernunft, Analyse und Individualismus anstatt traditionelle Denkweisen betonten. Initiiert von Philosophen mit Beginn des sp√§ten 17. Jahrhunderts in Westeuropa, wurde der Prozess der Ver√§nderung durch freiwillige Organisationen von M√§nnern vorangetrieben, die sich der Verbesserung der Gesellschaft verschrieben hatten. Diese M√§nner trafen sich  in Kaffeh√§usern, Salons und Freimaurerlogen. Institutionen die tief in der Gesellschaft verwurzelt waren, etwa der Staat und Religion, wurden in Frage gestellt und stattdessen ein st√§rkerer Fokus auf die Reform der Gesellschaft, mit Toleranz, Wissenschaft und Skepsis gelegt.'
 WHERE Tag = 'TXT_KEY_POLICY_HUMANISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Scientific Revolution
@@ -824,17 +824,17 @@ SET Text = 'Wissenschaftliche Revolution'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Wissenschaftliche Revolution[ENDCOLOR][NEWLINE]+15% auf Ertragsmodifikatoren von Globalen Monopolen (inklusive [ICON_GOLDEN_AGE] Goldenes Zeitalter) und +3 auf Ertr‰ge von Globalen Monopolen (inklusive [ICON_HAPPINESS_1] Zufriedenheit). Erlaubt das Errichten des [COLOR_POSITIVE_TEXT]Observatoriums[ENDCOLOR] in allen St‰dten.'
+SET Text = '[COLOR_POSITIVE_TEXT]Wissenschaftliche Revolution[ENDCOLOR][NEWLINE]+15% auf Ertragsmodifikatoren von Globalen Monopolen (inklusive [ICON_GOLDEN_AGE] Goldenes Zeitalter) und +3 auf Ertr√§ge von Globalen Monopolen (inklusive [ICON_HAPPINESS_1] Zufriedenheit). Erlaubt das Errichten des [COLOR_POSITIVE_TEXT]Observatoriums[ENDCOLOR] in allen St√§dten.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Eine wissenschaftliche Revolution ist eine Zeit, in der schnelle Entwicklungen im Bereich Wissen oder Technologie die aktuelle Weltanschauung ver‰ndern und so noch weitere Fortschritte in der Wissenschaft hervorbringen. Im 16. Jahrhundert fand in groﬂen Teilen Europas eine wissenschaftliche Revolution statt, nachdem die Werke "Von den Umdrehungen der Himmelskˆrper" von Nikolaus Kopernikus und "‹ber den Bau des menschlichen Kˆrpers" von Andreas Vesalius erschienen waren. In beiden F‰llen wurden f¸r die damalige Zeit sehr moderne wissenschaftliche Methoden angewandt, um Teile der Umwelt zu untersuchen und so falsche Theorien zu berichtigen, von denen einige noch auf die alten Griechen zur¸ckgingen. Nach dem Erfolg beider B¸cher begannen Wissenschaftler damit, ihre Umgebung mˆglichst genau zu untersuchen und lieﬂen so das Wissen der Menschheit in den n‰chsten Jahrhunderten erheblich anwachsen.'
+SET Text = 'Eine wissenschaftliche Revolution ist eine Zeit, in der schnelle Entwicklungen im Bereich Wissen oder Technologie die aktuelle Weltanschauung ver√§ndern und so noch weitere Fortschritte in der Wissenschaft hervorbringen. Im 16. Jahrhundert fand in gro√üen Teilen Europas eine wissenschaftliche Revolution statt, nachdem die Werke "Von den Umdrehungen der Himmelsk√∂rper" von Nikolaus Kopernikus und "√úber den Bau des menschlichen K√∂rpers" von Andreas Vesalius erschienen waren. In beiden F√§llen wurden f√ºr die damalige Zeit sehr moderne wissenschaftliche Methoden angewandt, um Teile der Umwelt zu untersuchen und so falsche Theorien zu berichtigen, von denen einige noch auf die alten Griechen zur√ºckgingen. Nach dem Erfolg beider B√ºcher begannen Wissenschaftler damit, ihre Umgebung m√∂glichst genau zu untersuchen und lie√üen so das Wissen der Menschheit in den n√§chsten Jahrhunderten erheblich anwachsen.'
 WHERE Tag = 'TXT_KEY_POLICY_SECULARISM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Sovereignty
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Empirismus[ENDCOLOR][NEWLINE]+20% [ICON_RESEARCH] Wissenschaft, wenn Sie [ICON_GREAT_SCIENTIST] Groﬂe Wissenschaftler f¸r einen sofortigen Schub an [ICON_RESEARCH] Wissenschaft aufbrauchen. Fremde [ICON_SPY] Spione sind um 25% weniger effektiv in allen eigenen St‰dten.'
+SET Text = '[COLOR_POSITIVE_TEXT]Empirismus[ENDCOLOR][NEWLINE]+20% [ICON_RESEARCH] Wissenschaft, wenn Sie [ICON_GREAT_SCIENTIST] Gro√üe Wissenschaftler f√ºr einen sofortigen Schub an [ICON_RESEARCH] Wissenschaft aufbrauchen. Fremde [ICON_SPY] Spione sind um 25% weniger effektiv in allen eigenen St√§dten.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -842,22 +842,22 @@ SET Text = 'Empirismus'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Empirismus ist eine Theorie, die besagt, dass Wissen nur oder prim‰r auf Sinneserfahrungen beruht. In empiristischen Wissenschaftskonzepten, wie sie vor allem seit der fr¸hen Neuzeit verbreitet sind, werden die wissenschaftlichen Erkenntnisse auf Beobachtung und Experiment zur¸ckgef¸hrt. Dieses Wissenschaftsverst‰ndnis entspricht den empiristischen Vorstellungen der Erkenntnis. Die wichtigsten klassischen Entw¸rfe des Empirismus werden bestimmten Philosophen des 17. Jahrhunderts, vor allem des Britischen Empirismus, zugeschrieben.'
+SET Text = 'Empirismus ist eine Theorie, die besagt, dass Wissen nur oder prim√§r auf Sinneserfahrungen beruht. In empiristischen Wissenschaftskonzepten, wie sie vor allem seit der fr√ºhen Neuzeit verbreitet sind, werden die wissenschaftlichen Erkenntnisse auf Beobachtung und Experiment zur√ºckgef√ºhrt. Dieses Wissenschaftsverst√§ndnis entspricht den empiristischen Vorstellungen der Erkenntnis. Die wichtigsten klassischen Entw√ºrfe des Empirismus werden bestimmten Philosophen des 17. Jahrhunderts, vor allem des Britischen Empirismus, zugeschrieben.'
 WHERE Tag = 'TXT_KEY_POLICY_SOVEREIGNTY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Free Thought
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Science and +2 [ICON_CULTURE] Culture from Villages, and -100% [ICON_HAPPINESS_3] Religious Unrest in all cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]Freidenkertum[ENDCOLOR][NEWLINE]+3 [ICON_RESEARCH] Wissenschaft und +2 [ICON_CULTURE] Kultur pro Dorf und -100% [ICON_HAPPINESS_3] Religi√∂se Unruhen in allen St√§dten.'
 WHERE Tag = 'TXT_KEY_POLICY_FREE_THOUGHT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Opener
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] focuses on generating Great People and the construction of an impressive Capital.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Tradition grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +2 [ICON_CULTURE] Culture and +2 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital. [NEWLINE] [ICON_BULLET] +5% [ICON_FOOD] Growth in all Cities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Tradition policy unlocked grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +5% [ICON_FOOD] Growth in all Cities, and +1 [ICON_FOOD] Food in your [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all Policies in Tradition grants:[ENDCOLOR][NEWLINE] [ICON_BULLET] Unlocks building the [COLOR_CYAN]Hanging Gardens[ENDCOLOR]. [NEWLINE] [ICON_BULLET] +1 [ICON_FOOD] Food from all Great Person Improvements and Landmarks, and [COLOR_CYAN]Throne Room[ENDCOLOR] built in [ICON_CAPITAL] Capital (+10% to all Yields, 1 Musician Specialist, 1 [ICON_GREAT_WORK] Great Work of Music slot, [ICON_GOLDEN_AGE] Golden Ages last 25% longer).[NEWLINE] [ICON_BULLET] Allows for the purchase of [ICON_GREAT_ENGINEER] Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era.'
+SET Text = '[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] fokusziert sich auf das generieren von Gro√üen Pers√∂nlichkeiten und die Errichtung einer beeindruckenden Hauptstadt.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Die Annahme von Tradition gew√§hrt:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +2 [ICON_CULTURE] Kultur und +2 [ICON_FOOD] Nahrung in der [ICON_CAPITAL] Hauptstadt. [NEWLINE] [ICON_BULLET] +5% [ICON_FOOD] Wachstum in allen St√§dten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Jede freigeschaltete Tradition Politik gew√§hrt:[ENDCOLOR] [NEWLINE] [ICON_BULLET] +5% [ICON_FOOD] Wachstum in allen St√§dten und +1 [ICON_FOOD] Nahrung in Eurer [ICON_CAPITAL] Hauptstadt.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Bei √úbernahme aller Politiken im Tradition-Zweig:[ENDCOLOR][NEWLINE] [ICON_BULLET] Schalet das Geb√§ude [COLOR_CYAN]H√§ngende G√§rten[ENDCOLOR] frei. [NEWLINE] [ICON_BULLET] +1 [ICON_FOOD] Nahrung von allen Modernisierungen und Wahrzeichen, die von Gro√üen Pers√∂nlichkeiten errichtet wurden. Errichtet das [COLOR_CYAN]Thronzimmer[ENDCOLOR] in der [ICON_CAPITAL] Hauptstadt (+10% auf alle Ertr√§ge, 1 Musiker Spezialist, 1 Platz f√ºr ein [ICON_GREAT_WORK] Gro√ües Musikwerk, [ICON_GOLDEN_AGE] Goldene Zeitalter dauern 25% l√§nger).[NEWLINE] [ICON_BULLET] Erlaubt den Kauf von [ICON_GREAT_ENGINEER] Gro√üen Ingeneuren mit [ICON_PEACE] Glauben, mit Beginn des Industriezeitalters.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_TRADITION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Aristocracy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Gerechtigkeit[ENDCOLOR][NEWLINE]Cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength. [COLOR_CYAN]Royal Guardhouse[ENDCOLOR] built in [ICON_CAPITAL] Capital (1 Engineer Specialist, +3 [ICON_STRENGTH] Defense, +25 Hit Points, +3 [ICON_PRODUCTION] Production).'
+SET Text = '[COLOR_POSITIVE_TEXT]Gerechtigkeit[ENDCOLOR][NEWLINE]St√§dte mit einer stationierten Einheit erhalten +50% [ICON_RANGE_STRENGTH] Fernkampfst√§rke. [COLOR_CYAN]K√∂nigliche Wache[ENDCOLOR] wird in der [ICON_CAPITAL] Hauptstadt errichtet (1 Ingeneur Spezialist, +3 [ICON_STRENGTH] Verteidigung, +25 Trefferpunkte, +3 [ICON_PRODUCTION] Produktion).'
 WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -870,24 +870,24 @@ WHERE Tag = 'TXT_KEY_POLICY_ARISTOCRACY_TEXT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Oligarchy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Souver‰nit‰t[ENDCOLOR][NEWLINE][ICON_CULTURE] Kulturkosten f¸r neue Gel‰ndefelder in allen St‰dten um 25% reduziert (exponentiell). [COLOR_CYAN]Hofkapelle[ENDCOLOR] wird in der [ICON_CAPITAL] Hauptstadt errichtet (1 K¸nstler-Spezialist, 1 [ICON_GREAT_WORK] Platz f¸r ein Groﬂes Kunstwerk, +2 [ICON_PEACE] Glauben).'
+SET Text = '[COLOR_POSITIVE_TEXT]Souver√§nit√§t[ENDCOLOR][NEWLINE][ICON_CULTURE] Kulturkosten f√ºr neue Gel√§ndefelder in allen St√§dten um 25% reduziert (exponentiell). [COLOR_CYAN]Hofkapelle[ENDCOLOR] wird in der [ICON_CAPITAL] Hauptstadt errichtet (1 K√ºnstler-Spezialist, 1 [ICON_GREAT_WORK] Platz f√ºr ein Gro√ües Kunstwerk, +2 [ICON_PEACE] Glauben).'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Souver‰nit‰t'
+SET Text = 'Souver√§nit√§t'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Ein Staat ist souver‰n, wenn er vˆllig unabh‰ngig von anderen M‰chten ¸ber die hˆchste Entscheidungs- und Herrschaftsgewalt in seinem Territorium verf¸gt. Im Rahmen der politischen Theorie ist Souver‰nit‰t ein Begriff, der hˆchste Autorit‰t ¸ber eine Regierungsform benennt. Es ist ein Grundprinzip, das dem vorherrschenden Westf‰lischen Modells der Staatsordnung unterliegt.'
+SET Text = 'Ein Staat ist souver√§n, wenn er v√∂llig unabh√§ngig von anderen M√§chten √ºber die h√∂chste Entscheidungs- und Herrschaftsgewalt in seinem Territorium verf√ºgt. Im Rahmen der politischen Theorie ist Souver√§nit√§t ein Begriff, der h√∂chste Autorit√§t √ºber eine Regierungsform benennt. Es ist ein Grundprinzip, das dem vorherrschenden Westf√§lischen Modells der Staatsordnung unterliegt.'
 WHERE Tag = 'TXT_KEY_POLICY_OLIGARCHY_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Monarchy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Majest‰t[ENDCOLOR][NEWLINE]Specialists in [ICON_CAPITAL] Capital consume half the normal amount of [ICON_FOOD] Food. [COLOR_CYAN]State Treasury[ENDCOLOR] built in [ICON_CAPITAL] Capital (1 Merchant Specialist, +3 [ICON_GOLD] Gold, +15% [ICON_GREAT_PEOPLE] Great Person Rate in all Cities).'
+SET Text = '[COLOR_POSITIVE_TEXT]Majest√§t[ENDCOLOR][NEWLINE]Specialists in [ICON_CAPITAL] Capital consume half the normal amount of [ICON_FOOD] Food. [COLOR_CYAN]State Treasury[ENDCOLOR] built in [ICON_CAPITAL] Capital (1 Merchant Specialist, +3 [ICON_GOLD] Gold, +15% [ICON_GREAT_PEOPLE] Great Person Rate in all Cities).'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Majest‰t'
+SET Text = 'Majest√§t'
 WHERE Tag = 'TXT_KEY_POLICY_MONARCHY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -904,7 +904,7 @@ SET Text = 'Pracht'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Pracht ein Begriff, der oft verwendet wird, um ˆffentliche Aktivit‰ten von Monarchen und Aristokraten zu beschreiben, insbesondere wenn man sich auf Macht oder Prestige bezieht.'
+SET Text = 'Pracht ein Begriff, der oft verwendet wird, um √∂ffentliche Aktivit√§ten von Monarchen und Aristokraten zu beschreiben, insbesondere wenn man sich auf Macht oder Prestige bezieht.'
 WHERE Tag = 'TXT_KEY_POLICY_LANDED_ELITE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Legalism

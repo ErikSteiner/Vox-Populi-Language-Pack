@@ -331,29 +331,29 @@
 			<Text>{1_CityName:textkey} loves the Empress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_WLTKD_UA">
-			<Text>[NEWLINE][ICON_BULLET]Kaiserlicher Feiertag Modifier: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Kaiserlicher Feiertag Modifikator: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
 			<Text>Die Stadt von {1_CityName:textkey} verlangt nach {2_ResourceName:textkey}! Wenn Sie die Ressource mit Ihrem Handelsnetz verbinden, wird dies die Stadt dazu veralassen einen "Kaiserlicher Feiertag" abzuhalten , der der Stadt +75% [ICON_FOOD] Wachstumsbonus beschert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA">
-			<Text>This City is in "Kaiserlicher Feiertag", which increases [ICON_FOOD] growth!</Text>
+			<Text>Diese Stadt hält einen "Kaiserlicher Feiertag" ab, der das [ICON_FOOD] Wachstum erhöht!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA">
-			<Text>Connecting this Resource to your trade network will cause this City to go into "Kaiserlicher Feiertag", which increases [ICON_FOOD] growth!</Text>
+			<Text>Das Verbinden dieser Ressource mit Eurem Handelsnetz wird diese Stadt dazu veranlassen einen "Kaiserlicher Feiertag" abzuhalten, der das [ICON_FOOD] Wachstum erhöht!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA">
 			<Text>Kaiserlicher Feiertag! ({1_Num})</Text>
 		</Row>
 		<!-- Brazil -->
 		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_CARNAVAL">
-			<Text>Carnaval! ({1_Num})</Text>
+			<Text>Karneval! ({1_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_CARNAVAL">
-			<Text>This City is celebrating Carnaval, which increases [ICON_CULTURE] Culture!</Text>
+			<Text>Diese Stadt feiert Karneval, der die [ICON_CULTURE] Kulturproduktion erhöht!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_CARNAVAL">
-			<Text>Connecting this Resource to your trade network will cause this City to celebrate Carnaval, which increases [ICON_CULTURE] Culture!</Text>
+			<Text>Das Verbinden dieser Ressource mit Eurem Handelsnetz wird diese Stadt dazu veranlassen Karneval zu feiern, der die [ICON_CULTURE] Kulturproduktion erhöht!</Text>
 		</Row>
 
 		<!-- Bully Metric Values -->
@@ -382,30 +382,30 @@
 		</Row>
 		<!-- Trait LUA -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">
-			<Text>{1_Num} [ICON_TOURISM] Tourismus von Zivilisations Eigenschaft</Text>
+			<Text>{1_Num} [ICON_TOURISM] Tourismus durch Zivilisations-Eigenschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_TRAIT_BONUS">
-			<Text>{1_Num} {2_IconString} von Eigenschaften</Text>
+			<Text>{1_Num} {2_IconString} durch Eigenschaften</Text>
 		</Row>
 
 		<!-- Trade LUA -->
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_ISOLATION_OTHER">
-			<Text>Highest Isolation</Text>
+			<Text>Höchste Isolation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_INFLUENCE_OTHER">
-			<Text>Highest Influence</Text>
+			<Text>Höchster Einfluss</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_PRODUCTION">
-			<Text>Highest Production</Text>
+			<Text>Höchste Produktion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_FOOD">
-			<Text>Highest Food</Text>
+			<Text>Höchste Nahrung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_POVERTY">
-			<Text>[ICON_GOLD] Poverty: {1_Num}</Text>
+			<Text>[ICON_GOLD] Armut: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ILLITERACY">
-			<Text>[ICON_RESEARCH] Illiteracy: {1_Num}</Text>
+			<Text>[ICON_RESEARCH] Unwissenheit: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_ISOLATION">
 			<Text>[ICON_BLOCKADED] Isolation: {1_Num}</Text>
@@ -414,7 +414,7 @@
 			<Text>[ICON_BLOCKADED] Isolation: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_INFLUENCE_OTHER">
-			<Text>Our [ICON_TOURISM]: {1_Num}%</Text>
+			<Text>Unser [ICON_TOURISM]: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CONNECTED">
 			<Text>[ICON_CONNECTED]</Text>
@@ -615,7 +615,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT_CBP">
-			<Text>Font of Dharma</Text>
+			<Text>Schrift des Dharma</Text>
 		</Row>
 
 		<!-- Top Panel -->

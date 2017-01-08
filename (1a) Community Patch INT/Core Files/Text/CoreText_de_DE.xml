@@ -9,31 +9,31 @@
 			<Text>Tourismus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOP_PANEL_ITR_TOURISM_YIELD_TT">
-			<Text>{1_Num} [ICON_TOURISM] Tourism</Text>
+			<Text>{1_Num} [ICON_TOURISM] Tourismus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_FROM_TRADE_ROUTES">
 			<Text>{1_perTurn:number "#,##"} [ICON_TOURISM] from Trade Routes established with this city</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_GOLDEN_AGE_POINTS">
-			<Text>Golden Age Points</Text>
+			<Text>Goldenes Zeitalter Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLDEN_AGE_POINTS_YIELD_TT">
-			<Text>{1_Num} [ICON_GOLDEN_AGE] Golden Age Points</Text>
+			<Text>{1_Num} [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLDEN_AGE_POINTS_FROM_TRADE_ROUTES">
 			<Text>{1_perTurn:number "#,##"} [ICON_GOLDEN_AGE] from Trade Routes established with this city</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_GREAT_GENERAL_POINTS">
-			<Text>Great General Points</Text>
+			<Text>Großer General Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_GREAT_ADMIRAL_POINTS">
-			<Text>Great Admiral Points</Text>
+			<Text>Großer Admiral Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_POPULATION">
-			<Text>Citizens</Text>
+			<Text>Bewohner</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_CULTURE_LOCAL">
-			<Text>Border Growth Points</Text>
+			<Text>Grenzwachstum Punkte</Text>
 		</Row>
 		<!-- America - Flavoured -->
 		<Row Tag="TXT_KEY_SPY_NAME_AMERICA_10">
@@ -2276,56 +2276,56 @@
 		
 		<!-- CS Quests -->
 		<Row Tag="TXT_KEY_CS_QUEST_BONUS_HEADER_FINISH">
-			<Text>[COLOR_POSITIVE_TEXT]     Quest Reward:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]     Quest-Belohnung:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_BONUS_HEADER_START">
-			<Text>[COLOR_POSITIVE_TEXT]     Potential Quest Reward:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]     Potenzielle Quest-Belohnung:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CS_QUEST_INFLUENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_INFLUENCE] Influence</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_INFLUENCE] Einfluss</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_ADMIRAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] Great Admiral Points</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] Großer Admiral Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GENERAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_GENERAL] Great General Points</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_GENERAL] Großer General Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_CULTURE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_CULTURE] Culture</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_CULTURE] Kultur</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_EXPERIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] Experience for all Military Units</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] Erfahrung für alle Militäteinheiten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FAITH">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PEACE] Faith</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PEACE] Glauben</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_FOOD">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_FOOD] Food in [ICON_CAPITAL] Capital</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_FOOD] Nahrung in der [ICON_CAPITAL] Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GAP">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Golden Age Points</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GOLD">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GOLD] Gold</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Great People Points in [ICON_CAPITAL] Capital</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Größe Persönlichkeiten Punkte in der [ICON_CAPITAL] Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP_GLOBAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Great Person Points in all Cities</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Größe Persönlichkeiten Punkte in allen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_HAPPINESS">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_HAPPINESS_1] Happiness in [ICON_CAPITAL] Capital</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_HAPPINESS_1] Zufriedenheit in der [ICON_CAPITAL] Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_TOURISM">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_TOURISM] Tourism with all known Civilizations</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_PRODUCTION">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PRODUCTION] Production in [ICON_CAPITAL] Capital</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_PRODUCTION] Produktion in der [ICON_CAPITAL] Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_SCIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_RESEARCH] Science</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_RESEARCH] Wissenschaft</Text>
 		</Row>
 
 		<!-- NEW CS Quests -->
@@ -2347,28 +2347,28 @@
 
 		<!-- Coup -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP">
-			<Text>Intelligence reports from {@2_CivName} indicate that {@1_CityName} is ripe for a coup. Complete this coup, and you will be greatly rewarded!</Text>
+			<Text>Spionageberichte aus {@2_CivName} deuten darauf hin, dass {@1_CityName} reif für einen Coup ist. Vollendet diesen Coup und Sie werden reich belohnt!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COUP">
-			<Text>Intelligence from {@1_CivName}</Text>
+			<Text>Spionageberichte aus {@1_CivName}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_CITY_COMPLETE">
-			<Text>{@1_Civname} commends you for your successful coup.</Text>
+			<Text>{@1_Civname} lobt Sie für Ihren erfolgreichen Coup.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_COUP_CITY_COMPLETE">
-			<Text>Successful coup for {@1_Civname}!</Text>
+			<Text>Erfolgreicher Coup für {@1_Civname}!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED">
-			<Text>Your coup has failed, either because your spy has died or {@1_City} is no longer a valid target. As such, the quest from {@2_Civname} was withdrawn.</Text>
+			<Text>Ihr Coup ist gescheitert, entweder weil Ihr Spion gestorben ist oder weil {@1_City} nicht länger ein gültiges Ziel darstellt. Daher wurde die Quest von {@2_Civname} zurückgezogen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_S">
-			<Text>Coup failed!</Text>
+			<Text>Coup gescheitert!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B">
-			<Text>Coup failed!</Text>
+			<Text>Coup gescheitert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B_S">
 			<Text>Your coup has failed, either because your spy has died or the is no longer a valid target. As such, the quest from {@1_Civname} was withdrawn.</Text>
@@ -4741,13 +4741,13 @@
 			<Text>How can you be so brazenly foolish?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_BAD_8">
-			<Text>You are a brute.</Text>
+			<Text>Ihr seid ein Unmensch.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_BAD_9">
-			<Text>This will not end well.</Text>
+			<Text>Das wird nicht gut ausgehen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_ATTACKED_MINOR_GOOD_2">
-			<Text>We shall see.</Text>
+			<Text>Wir werden sehen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_ATTACKED_MINOR_GOOD_3">
 			<Text>I hope your actions do not betray your words.</Text>
@@ -4756,31 +4756,31 @@
 			<Text>How can you justify this?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_SERIOUS_EXPANSION_WARNING_GOOD_2">
-			<Text>What gives you the right?</Text>
+			<Text>Was gibt Euch das Recht?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_EXPANSION_WARNING_GOOD_2">
-			<Text>Great. It is settled, then.</Text>
+			<Text>Großartig. Dann hat sich das erledigt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_EXPANSION_WARNING_GOOD_3">
-			<Text>I hope that this is the last time we have to discuss this.</Text>
+			<Text>Ich hoffe, dass wir das letzte Mal darüber sprechen mussten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_SERIOUS_PLOT_BUYING_WARNING_GOOD_2">
-			<Text>Really? What makes you say that?</Text>
+			<Text>Wirklich? Was bringt Euch dazu das zu sagen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_PLOT_BUYING_WARNING_GOOD_2">
-			<Text>You made the right choice.</Text>
+			<Text>Ihr habt die richtige Wahl getroffen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_PLOT_BUYING_WARNING_GOOD_3">
-			<Text>I'm glad this won't become an issue.</Text>
+			<Text>Ich bin froh, dass dies kein Problem wird.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_4">
-			<Text>I assume you are here to admit defeat?</Text>
+			<Text>Ich nehme an, Ihr seid hier, um die Niederlage einzugestehen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_5">
-			<Text>Your destruction is complete. Admit it.</Text>
+			<Text>Eure Zerstörung ist vollendet. Gibt es zu.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER_6">
-			<Text>Why do you still fight? The war is over.</Text>
+			<Text>Warum kämpft Ihr immer noch? Der Krieg ist vorbei.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_3">
 			<Text>I'll take it, but I'm not sure this is a fair deal for you.</Text>
@@ -5770,11 +5770,11 @@
 
 		<!-- Tourism -->
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_EMPIRE_SIZE">
-			<Text>+{1_Num}% Bonus for having fewer Cities[NEWLINE]</Text>
+			<Text>+{1_Num}% Bonus durch das besitzen weniger Städte[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_BOREDOM">
-			<Text>+{1_Num}% Bonus from Boredom in their Empire[NEWLINE]</Text>
+			<Text>+{1_Num}% Bonus durch Langeweile in deren Reich[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
@@ -5785,28 +5785,28 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY">
-			<Text>Historic Event</Text>
+			<Text>Historisches Ereignis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ERA">
-			<Text>Because your Civilization entered a new [ICON_RESEARCH] Era, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da Eure Zivilisation ein neues [ICON_RESEARCH] Zeitalter erreicht hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WAR">
-			<Text>Because your Civilization won a [ICON_VICTORY_DOMINATION] War, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da Eure Zivilisation einen [ICON_VICTORY_DOMINATION] Krieg gewonnen hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP">
-			<Text>Because a [ICON_GREAT_PEOPLE] Great Person was born in your Civilization, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da eine [ICON_GREAT_PEOPLE] Große Persönlichkeit in Eurer Zivilisation geboren wurde, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WW">
-			<Text>Because your Civilization constructed a [ICON_GOLDEN_AGE] World Wonder, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da Eure Zivilisation ein [ICON_GOLDEN_AGE] Weltwunder errichtet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_CS">
-			<Text>Because your Civilization completed a Global [ICON_CITY_STATE] City-State Quest, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da Eure Zivilisation eine globale [ICON_CITY_STATE] Stadtstaaten Quest erfüllt hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ARCHAEOLOGY">
-			<Text>Because your Civilization completed an [ICON_RES_ARTIFACTS] Archaeological Dig, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da Eure Zivilisation eine [ICON_RES_ARTIFACTS] Archäologische Ausgrabung beendet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
-			<Text>Because your Civilization entered a [ICON_GOLDEN_AGE] Golden Age, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Da in Eurer Zivilisation ein [ICON_GOLDEN_AGE] Goldenes Zeitalter begonnen hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
 		</Row>
 
 		<!-- Arabia -->
@@ -6229,34 +6229,34 @@
 
 
 		<Row Tag="TXT_KEY_TECH_HELP_UNITS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Units Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Einheiten freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_BUILDINGS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Buildings Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Gebäude freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_WONDERS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Wonders Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Wunder freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_PROJECTS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Projects Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Projects freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_PROCESSES_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Processes Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Processes freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_CORPS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]Konzerne freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_RESOURCES_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Resources Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Ressourcen freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_BUILDS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Builds Unlocked:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Modernisierungen freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_ACTIONS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]Unique Actions:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_YIELDS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Yield Changes:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Ertragsveränderungen:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 
 
@@ -6415,22 +6415,22 @@
 
 		<!-- Tooltip for Investments in cities -->
 		<Row Tag="TXT_KEY_ALREADY_INVESTED">
-			<Text>[NEWLINE]You have already invested [ICON_GOLD] Gold in this building. This building's [ICON_PRODUCTION] Production cost is reduced by {1_Num}%.</Text>
+			<Text>[NEWLINE]Sie haben bereits [ICON_GOLD] Gold in dieses Gebäude investiert. Die [ICON_PRODUCTION] Produktionskosten dieses Gebäudes sind um {1_Num}% reduziert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ALREADY_INVESTED_UNIT">
-			<Text>[NEWLINE]You have already invested [ICON_GOLD] Gold in this unit. This unit's [ICON_PRODUCTION] Production cost is reduced by {1_Num}%.</Text>
+			<Text>[NEWLINE]Sie haben bereits [ICON_GOLD] Gold in diese Einheit investiert. Die [ICON_PRODUCTION] Produktionskosten dieser Einheit sind um {1_Num}% reduziert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
-			<Text>[NEWLINE]You cannot [ICON_GOLD] Purchase this Unit without {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BuildingType}} constructed in the city.</Text>
+			<Text>[NEWLINE]Sie können diese Einheit nicht [ICON_GOLD] kaufen, ohne vorher {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BuildingType}} in der Stadt gebaut zu haben.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
-			<Text>[COLOR_POSITIVE_TEXT]Investing [ICON_GOLD] Gold in a Building reduces its [ICON_PRODUCTION] Production cost by {1_Num}%, or {2_Num}% if a Wonder.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Das Investieren von [ICON_GOLD] Gold in ein Gebäude reduziert seine [ICON_PRODUCTION] Produktionskosten um {1_Num}% oder um {2_Num}% bei einem Wunder.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_UNIT">
-			<Text>[COLOR_POSITIVE_TEXT]Investing [ICON_GOLD] Gold in a Unit reduces its [ICON_PRODUCTION] Production cost by {1_Num}%.[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Das Investieren von [ICON_GOLD] Gold in eine Einheit reduziert seine [ICON_PRODUCTION] Produktionskosten um {1_Num}%.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INVESTED">
-			<Text>[COLOR_POSITIVE_TEXT] (INVESTED) [ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT] (INVESTIERT) [ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>Aktiviert Ereignis System</Text>

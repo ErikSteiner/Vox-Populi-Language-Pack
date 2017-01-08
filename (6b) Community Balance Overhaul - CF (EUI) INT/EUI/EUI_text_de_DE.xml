@@ -169,7 +169,7 @@
 			<Text>Player Border Obstacle</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CAPITAL">
-			<Text>Capital</Text>
+			<Text>Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GOLDENAGE">
 			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}</Text>
@@ -232,13 +232,13 @@
 			<Text>Min Area Size {1}</Text>
 		</Row-->
 		<Row Tag="TXT_KEY_EUI_BUILDING_CONQUESTPROB">
-			<Text>{1}% Capture Chance</Text>
+			<Text>{1}% Eroberungschance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CITIESPREREQ">
-			<Text>Cities Prereq {1}</Text>
+			<Text>Städte Voraussetzung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_LEVELPREREQ">
-			<Text>Level Prereq {1}</Text>
+			<Text>Level Voraussetzung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALCULTURERATEMODIFIER">
 			<Text>Global Culture Rate Modifier {1}%</Text>

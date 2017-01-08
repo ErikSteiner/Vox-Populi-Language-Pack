@@ -313,7 +313,7 @@ WHERE Tag = 'TXT_KEY_TECH_THE_WHEEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WH
 -- Fix Currency Text
 
 UPDATE Language_de_DE
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to construct the [COLOR_POSITIVE_TEXT]Caravansary[ENDCOLOR], which greatly boosts the range and value of your land [ICON_INTERNATIONAL_TRADE] Trade Routes. Also allows Workers to construct the [COLOR_POSITIVE_TEXT]Village[ENDCOLOR], which increases the [ICON_GOLD] Gold output of map tiles.'
+SET Text = 'Erhaltet einen zusätzlichen [ICON_INTERNATIONAL_TRADE] Handelsweg. Erlaubt Euch den Bau des [COLOR_POSITIVE_TEXT]Karawanenhofs[ENDCOLOR], der die Reichweite und den Wert Eurer [ICON_INTERNATIONAL_TRADE] Handelswege über Land verbessert. Erlaubt Bautrupps außerdem das Errichten von [COLOR_POSITIVE_TEXT]Dörfern[ENDCOLOR], welche die [ICON_GOLD] Goldproduktion von Geländefeldern erhöhen.'
 WHERE Tag = 'TXT_KEY_TECH_CURRENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Other Text Fixes
@@ -350,7 +350,7 @@ SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows
 WHERE Tag = 'TXT_KEY_TECH_POTTERY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Zollamts[ENDCOLOR] und [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], die die [ICON_GOLD] Goldprodutkion in Euren Städten verbessert.'
+SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Zollamts[ENDCOLOR] und [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], die die [ICON_GOLD] Goldproduktion in Euren Städten verbessert.'
 WHERE Tag = 'TXT_KEY_TECH_GUILDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE

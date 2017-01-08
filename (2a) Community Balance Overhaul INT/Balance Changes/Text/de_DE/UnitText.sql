@@ -21,39 +21,39 @@
 	UPDATE Language_de_DE SET Text = 'Archaeologists are a special subtype of Worker that are used to excavate Antiquity Sites to either create Landmark improvements or to extract Artifacts to fill in Great Work of Art slots in Museums, Palaces, Hermitages, and selected Wonders. Archaeologists may work in territory owned by any player. They are consumed once they complete an Archaeological Dig at an Antiquity Site. Archaeologists may not be purchased with [ICON_GOLD] Gold and may only be built in a city with a Public School.' WHERE Tag = 'TXT_KEY_UNIT_HELP_ARCHAEOLOGIST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'A town is a human settlement larger than a village but smaller than a city. The size definition for what constitutes a "town" varies considerably in different parts of the world. The word town shares an origin with the German word Zaun, the Dutch word tuin, and the Old Norse tun. The German word Zaun comes closest to the original meaning of the word: a fence of any material.[NEWLINE][NEWLINE]Towns receive +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road that connects two owned Cities, and +2 [ICON_GOLD] and [ICON_PRODUCTION] Production if a Railroad. Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 for Roads, +2 for Railroads) if a Trade Route, either internal or international, passes over this Town.'
+	SET Text = 'Eine Kleinstadt ist eine menschliche Siedlung größer als ein Dorf, aber kleiner als eine Stadt. Die Größendefinition für das, was eine "Stadt" ausmacht, ist in verschiedenen Teilen der Welt sehr unterschiedlich. Das Wort engl. Town für Kleinstadt teilt seine Herkunft mit dem deutschen Wort Zaun, dem niederländischen Wort tuin und das altnordische tun. Das deutsche Wort Zaun kommt der ursprünglichen Bedeutung des Wortes am nächsten: ein Zaun aus jedem Material.[NEWLINE][NEWLINE]Kleinstädte erhalten +1 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn sie auf einer Straße gebaut wurden, die zwei eigene Städte miteinander verbindet und +2 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion wenn auf einer Eisenbahnstrecke. Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 für Straßen, +2 für Eisenbahnstrecken), wenn ein Handelsweg (national oder international) über diese Kleinstadt führt.'
 	WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'You can expend a Great Merchant to create a Town. When worked, a Town generates a lot of gold and food per turn for its city. [NEWLINE][NEWLINE]Towns gain additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road or Railroad that connects two owned Cities[NEWLINE][NEWLINE]Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 pre-Industrial Era, +2 Industrial Era or later) if a Trade Route, either internal or international, passes over this Town.'
+	SET Text = 'Ihr könnt einen Großen Händler einsetzen, um eine Kleinstadt zu bauen. Wenn bewirtschaftet, Produziert die Kleinstadt eine Menge Gold und Nahrung pro Runde für seine Stäadt. [NEWLINE][NEWLINE]Kleinstädte erhalten zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn sie auf einer Straße oder Eisenbahnstrecke errichtet wurden, die zwei eigene Städte miteinander verbindet.[NEWLINE][NEWLINE]Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 vorindustrielles Zeitalter, +2 Industriezeitalter und später), wenn ein Handelsweg (national oder international) über diese Kleinstadt führt.'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_CUSTOMSHOUSE_HEADING4_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Construct a Town'
+	SET Text = 'Errichtet eine Kleinstadt'
 	WHERE Tag = 'TXT_KEY_BUILD_CUSTOMS_HOUSE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Town'
+	SET Text = 'Kleinstadt'
 	WHERE Tag = 'TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Great Merchant can construct the special Town improvement which, when worked, produces [ICON_GOLD] Gold and [ICON_FOOD] Food. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold, starts a ''We Love the King Day'' in all owned cities and, (if not using CSD) garners many Influence Points with the city-state. The Great Merchant is expended when used in either of these ways.[NEWLINE][NEWLINE]Towns receive +1 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if built on a Road that connects two owned Cities, and +2 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production if a Railroad. Receive additional [ICON_GOLD] Gold and [ICON_PRODUCTION] Production (+1 for Roads, +2 for Railroads) if a Trade Route, either internal or international, passes over this Town.'
+	SET Text = 'Große Händler können die Spezialmodernisierung Kleinstadt errichten, die eine Menge [ICON_GOLD] Gold und [ICON_FOOD] Nahrung liefern kann, wenn sie bewirtschaftet wird. Der Große Händler kann auch zu einem Stadtstaat reisen und eine Handelsmission durchführen, was eine große Menge [ICON_GOLD] Gold, "Feiertage" in allen eigenen Städten und (wenn nicht die Mod CSD genutzt wird) viele Einflusspunkte bei diesem Stadtstaat einbringt. Bei beiden Verwendungsmöglichkeiten wird der Große Händler verbraucht.[NEWLINE][NEWLINE]Kleinstädte erhalten +1 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn sie auf einer Straße gebaut wurden, die zwei eigene Städte miteinander verbindet und +2 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion wenn auf einer Eisenbahnstrecke. Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 für Straßen, +2 für Eisenbahnstrecken), wenn ein Handelsweg (national oder international) über diese Kleinstadt führt.'
 	WHERE Tag = 'TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'What does the town special improvement do?'
+	SET Text = 'Was macht die Kleinstadt Spezialmodernisierung?'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_CUSTOMSHOUSE_ADV_QUEST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Special Improvement: Town'
+	SET Text = 'Spezialmodernisierung: Kleinstadt'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_CUSTOMSHOUSE_HEADING4_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Specialist Yields'
+	SET Text = 'Erträge durch Spezialisten'
 	WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_HEADING1_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'Great People Improvement Yields'
+	SET Text = 'Erträge durch Modernisierungen von Großen Persönlichkeiten'
 	WHERE Tag = 'TXT_KEY_BUILDINGS_SPECIALISTS_HEADING2_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 	UPDATE Language_de_DE

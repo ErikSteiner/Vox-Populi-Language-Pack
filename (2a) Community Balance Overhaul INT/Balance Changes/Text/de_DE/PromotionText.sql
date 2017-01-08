@@ -108,15 +108,15 @@
 
 -- Cover now 25 and 25
 	UPDATE language_de_DE
-	SET Text = '+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].'
+	SET Text = '+25% [COLOR_POSITIVE_TEXT]Verteidigung[ENDCOLOR] gegen alle [COLOR_POSITIVE_TEXT]Fernangriffe[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_COVER_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].'
+	SET Text = '+25% [COLOR_POSITIVE_TEXT]Verteidigung[ENDCOLOR] gegen alle [COLOR_POSITIVE_TEXT]Fernangriffe[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_COVER_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 	UPDATE language_de_DE
-	SET Text = '+5% [ICON_STRENGTH] Combat Strength, and +5% additional [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.'
+	SET Text = '+5% [ICON_STRENGTH] Kampfstärke und +5% zusätzliche [ICON_STRENGTH] Kampfstärke neben einer verbündeten Einheit.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DISCIPLINE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE

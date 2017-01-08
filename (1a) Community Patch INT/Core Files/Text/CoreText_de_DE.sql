@@ -450,7 +450,7 @@ WHERE Tag = 'TXT_KEY_LEADER_BARBARIAN';
 -- War
 
 UPDATE language_de_DE
-SET Text = '[COLOR_CYAN]Capture chance if defeated: {1_Num}%[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]Eroberungschance, wenn besiegt: {1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_CAPTURE_CHANCE';
 
 -- Religion
