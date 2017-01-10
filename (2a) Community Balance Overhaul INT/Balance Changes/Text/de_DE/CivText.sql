@@ -209,14 +209,11 @@ WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE' AND EXISTS (SELECT * FROM COMMUN
 -- Celts
 --------------------
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_CEILIDH_HALL_HELP', 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nach der Fertigstellung gewährt es eine bescheidene Summe an [ICON_CULTURE] Kultur und ein zehnründiger ''Feiertag'' beginnt in der Stadt.[NEWLINE] Nahegelegenes [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
+SELECT 'TXT_KEY_BUILDING_CEILIDH_HALL_HELP', 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nach der Fertigstellung gewährt es eine bescheidene Summe an [ICON_CULTURE] Kultur und in der Stadt beginnt ein zehnründiger ''Feiertag''.[NEWLINE] Nahegelegenes [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während der Renaissance, welches den Zirkus ersetzt. Es erhöht die [ICON_CULTURE] Kultur und die [ICON_HAPPINESS_1] Zufriedenheit der Stadt.
-
-
-Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während der Renaissance, welches den Zirkus ersetzt. Reduziert [ICON_HAPPINESS_3] Langeweile leicht und erhöht die [ICON_CULTURE] Kultur und den [ICON_PEACE] Glauben der Stadt. Nahegelegene Quellen an Elfenbein produzieren +3 [ICON_CULTURE] Kultur. Bietet 1 Platz für einen Musiker-Spezialisten und einen Platz für ein Großes Musikwerk.'
+SET Text = 'Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während des Mittelalters, das den Zirkus ersetzt. Reduziert [ICON_HAPPINESS_3] Langeweile leicht und erhöht die [ICON_CULTURE] Kultur und den [ICON_PEACE] Glauben der Stadt. Nahegelegene Quellen an Elfenbein produzieren +3 [ICON_CULTURE] Kultur. Bietet 1 Platz für einen Musiker-Spezialisten und einen Platz für ein Großes Musikwerk.'
 WHERE Tag = 'TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -578,7 +575,7 @@ SET Text = 'Einheiten ignorieren Bewegungskosten für Wald- und Jungel-Geländef
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_Produktion] Produktion and +1 [ICON_FOOD] Nahrung from all Forests and Jungles worked by this City. Requires a nearby, workable Forest or Jungle tile to be constructed.'
+SET Text = '+1 [ICON_Produktion] Produktion und +1 [ICON_FOOD] Nahrung von allen Wald- und Dschungel-Geländefeldern, die von dieser Stadt bewirtschaftet werden. Benötigt einen nahegelegenes bewirtschaftbares Wald- oder Dschungel-Geländefeld um errichtet zu werden.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -973,11 +970,11 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 -- Songhai
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Grants +1 [ICON_CULTURE] Culture to all River tiles near the city, and +10% [ICON_Produktion] Produktion when constructing Buildings in this City.[NEWLINE]Nearby [ICON_RES_MARBLE] Marble: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_STONE] Stone: +2 [ICON_Produktion] Produktion.[NEWLINE]Nearby [ICON_RES_SALT] Salt: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.'
+SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_CULTURE] Kultur, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen, die mit einem Steinbruch modernisiert wurde.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Tabya is a Songhai unique building, replacing the Stone Works. The Tabya greatly increases the [ICON_CULTURE] Culture of Cities on rivers, boosts the value of Stone, Marble, and Salt, and boosts the Produktion of future Buildings in the City by 10%. Also allows [ICON_Produktion] Produktion to be moved from this city along trade routes inside your civilization.'
+SET Text = 'Das Tabya ist das einzigartige Gebäude der Songhai und ersetzt die Steinwerke. Das Tabya erhöht im hohen Maße die [ICON_CULTURE] Kultur, von Städten an Flüßen, steigert den Wert von Stein, Marmor und Salz und steigert die [ICON_Produktion] Produktionsrate von zukünftigen Gebäuden um 10%. Ermöglicht außerdem den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE

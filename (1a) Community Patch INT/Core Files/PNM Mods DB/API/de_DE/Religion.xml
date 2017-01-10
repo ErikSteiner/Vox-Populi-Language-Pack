@@ -2,16 +2,16 @@
 <GameData>
 	<language_de_DE>
 		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_ACTIVE_PLAYER">
-			<Text>Ihr habt Euer Pantheon verbessert, indem Ihr einen neuen Glauben hinzugefügt habt.</Text>
+			<Text>Ihr habt Euer Pantheon verbessert, indem Ihr einen neuen Glaubenssatz hinzugefügt habt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED">
-			<Text>{1_CivName} {1: plural 1?hat; 2?haben;} sein Pantheon durch hinzufügen eines neuen Glaubens verbessert.</Text>
+			<Text>{1_CivName} {1: plural 1?hat; 2?haben;} sein Pantheon durch hinzufügen eines neuen Glaubenssatzes verbessert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_UNKNOWN">
-			<Text>Eine unbekannte Civilization hat sein Pantheon durch hinzufügen eines neuen Glaubens verbessert.</Text>
+			<Text>Eine unbekannte Civilization hat sein Pantheon durch hinzufügen eines neuen Glaubenssatzes verbessert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_ENHANCED_S">
-			<Text>Pantheon Verbessert</Text>
+			<Text>Pantheon verbessert</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

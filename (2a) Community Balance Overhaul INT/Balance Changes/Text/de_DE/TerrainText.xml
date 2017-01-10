@@ -226,22 +226,22 @@
 
 		<!-- Strategic Help-->
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_ALUMINUM">
-			<Text>Benötig für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 TP bei Heilung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 TP bei Heilung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD_COAL">
-			<Text>Benötig für mächtige Einheiten und Gebäude im mittleren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Marine Einheiten erhalten +1 [ICON_MOVES] Fortbewegung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im mittleren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Marine Einheiten erhalten +1 [ICON_MOVES] Fortbewegung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
-			<Text>Benötig für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
-			<Text>Benötig für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION_IRON">
-			<Text>Benötig für mächtige Einheiten während des gesamten Spiels.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke bei der Verteidigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten während des gesamten Spiels.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke bei der Verteidigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
-			<Text>Benötig für den Bau schrecklicher Massenvernichtungswaffen.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +10% [ICON_RESEARCH] Wissenschaft in allen eigenen Städten.</Text>
+			<Text>Benötigt für den Bau schrecklicher Massenvernichtungswaffen.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +10% [ICON_RESEARCH] Wissenschaft in allen eigenen Städten.</Text>
 		</Row>
 
 		<!-- Tooltip for Strategic Monopolies -->

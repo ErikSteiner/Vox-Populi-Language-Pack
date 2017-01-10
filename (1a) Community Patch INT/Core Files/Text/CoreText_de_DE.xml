@@ -3338,7 +3338,7 @@
 			<Text>Hail.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_8">
-			<Text>Yes?</Text>
+			<Text>Ja?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_9">
 			<Text>How may I help you?</Text>
@@ -4902,7 +4902,7 @@
 		<!-- Spy Killed -->
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S_ADVANCED">
-			<Text>{1_SpyName} killed in {2_CityName}!</Text>
+			<Text>{1_SpyName} wurde in {2_CityName} getötet!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_ADVANCED">
@@ -6238,10 +6238,10 @@
 			<Text>[NEWLINE][COLOR_CYAN]Wunder freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_PROJECTS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Projects freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Projekte freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_PROCESSES_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Processes freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Prozesse freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_CORPS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]Konzerne freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
@@ -6253,7 +6253,7 @@
 			<Text>[NEWLINE][COLOR_CYAN]Modernisierungen freigeschaltet:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_ACTIONS_UNLOCKED">
-			<Text>[NEWLINE][COLOR_CYAN]Unique Actions:[ENDCOLOR][NEWLINE]</Text>
+			<Text>[NEWLINE][COLOR_CYAN]Einzigartige Aktionen:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_HELP_YIELDS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]Ertragsveränderungen:[ENDCOLOR][NEWLINE]</Text>
@@ -6459,10 +6459,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE">
-			<Text>Keine Handelseregnisse</Text>
+			<Text>Keine Handelsereignisse</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS_TRADE_HELP">
-			<Text>Hakt es an um Handelseregnisse (sonstige) des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
+			<Text>Hakt es an um Handelsereignisse (sonstige) des Vox Populi Spieler- und Stadtereignis Systems zu deaktivieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GAMEOPTION_CIV_SPECIFIC_EVENTS">
@@ -6582,7 +6582,7 @@
 			<Text>An unidentified spy stole {1_GW} from {2_CityName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_S">
-			<Text>{1_CivShortDesc} stole {2_GW}!</Text>
+			<Text>{1_CivShortDesc} stahl {2_GW}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GW_STOLEN_SPY_IDENTIFIED_W_TIP">
 			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} spy stole {2_GW} from {3_CityName} during a heist![NEWLINE]You may want to place one of your own spies in this city to help protect it in the future.</Text>

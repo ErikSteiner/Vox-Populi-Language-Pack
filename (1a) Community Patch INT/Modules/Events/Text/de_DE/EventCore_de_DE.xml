@@ -251,7 +251,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_VASSAL">
-			<Text>[NEWLINE] [ICON_BULLET] Benötigt einen Vassall</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Benötigt einen Vasall</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NEED_HOLY_CITY">

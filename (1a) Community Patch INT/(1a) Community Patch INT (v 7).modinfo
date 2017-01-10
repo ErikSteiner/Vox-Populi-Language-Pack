@@ -3,7 +3,7 @@
   <Properties>
     <Name>(1a) Community Patch [COLOR_GREEN]Localized[ENDCOLOR]</Name>
     <Stability>Beta</Stability>
-    <Teaser>(12-14) Translation of the Community Patch</Teaser>
+    <Teaser>(01-10) Translation of the Community Patch</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>

@@ -3,10 +3,10 @@
 <GameData>
 	<language_de_DE>
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
-			<Text>What do you think of...</Text>
+			<Text>Was haltet Ihr von...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
-			<Text>WORLD MAP</Text>
+			<Text>WELTKARTE</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
 			<Text>Reveals all land explored by this civilization.[NEWLINE][NEWLINE]Note: Will not receive contact with unmet civilizations and city-states.</Text>
@@ -21,13 +21,13 @@
 			<Text>Kein Technologie Handel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING_HELP">
-			<Text>Deaktiviert den Technologie Handel zwischen den Zivilizationen.</Text>
+			<Text>Deaktiviert den Technologie Handel zwischen den Zivilisationen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS">
 			<Text>Aktiviert Forschungsabkommen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_RESEARCH_AGREEMENTS_HELP">
-			<Text>Wenn aktiviert, könnt ihr Forschungsabkommen mit anderen Zivilizationen schließen.</Text>
+			<Text>Wenn aktiviert, könnt ihr Forschungsabkommen mit anderen Zivilisationen schließen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
 			<Text>Keine Technologie Weitergabe</Text>
@@ -36,10 +36,10 @@
 			<Text>Wenn aktiviert, können Technologien die erhandelt wurden nicht an Dritte weitergegeben werden, bis Ihr sie selbst erforscht habt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
-			<Text>TECHNOLOGIES</Text>
+			<Text>TECHNOLOGIEN</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
-			<Text>TECHNOLOGIES</Text>
+			<Text>TECHNOLOGIEN</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
 			<Text>We have Technologies available to trade.</Text>
@@ -132,7 +132,7 @@
 		</Row>
 		<!-- Diplomacy Screen -->
 		<Row Tag="TXT_KEY_YOUR_CIV">
-			<Text>your civilization</Text>
+			<Text>Eure Zivilisationen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSALAGE_PEACE">
 			<Text>VASSAL STATE</Text>
@@ -345,7 +345,7 @@
 			<Text>Erlaubt menschliche Vasallen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_HUMAN_VASSALS_HELP">
-			<Text>Erlaubt menschlichen Spielern Vasallen von anderen Zivilizationen zu werden.[NEWLINE][NEWLINE]Tipp: Wenn "Keine Vasallen" Option aktiv ist, passiert nichts.</Text>
+			<Text>Erlaubt menschlichen Spielern Vasallen von anderen Zivilisationen zu werden.[NEWLINE][NEWLINE]Tipp: Wenn "Keine Vasallen" Option aktiv ist, passiert nichts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_OF">
 			<Text>[COLOR_GREY]Vasall von {1_CivName:textkey}[ENDCOLOR]</Text>
@@ -360,7 +360,7 @@
 			<Text>MASTERS</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DECLARE_WAR_VASSALS">
-			<Text>VASSALS</Text>
+			<Text>VASALL</Text>
 		</Row>
 		<!-- Vassal Overview -->
 		<Row Tag="TXT_KEY_VO_NUM_OUR_VASSALS">
@@ -550,16 +550,16 @@
 			<Text>[ICON_CITIZEN] Population</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_HAPPINESS_STAT">
-			<Text>Happiness</Text>
+			<Text>Zufriedenheit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_GROSS_GPT_STAT">
-			<Text>[ICON_GOLD] Gross Gold Per Turn</Text>
+			<Text>[ICON_GOLD] Brutto-Gold pro Runde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_GOLD_PER_TURN_STAT">
-			<Text>[ICON_GOLD] Gold Per Turn</Text>
+			<Text>[ICON_GOLD] Gold pro Runde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_STAT">
-			<Text>[ICON_TURNS_REMAINING] Trade Routes</Text>
+			<Text>[ICON_TURNS_REMAINING] Handelswege</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TRADE_ROUTES_LABEL">
 			<Text>{1_TradeRoutesUsed} / {2_TradeRoutesAvailable}</Text>
@@ -568,37 +568,37 @@
 			<Text>{1_Str}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_CULTURE_STAT">
-			<Text>[ICON_CULTURE] Culture</Text>
+			<Text>[ICON_CULTURE] Kultur</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_TOURISM_STAT">
-			<Text>[ICON_TOURISM] Tourism</Text>
+			<Text>[ICON_TOURISM] Tourismus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_FAITH_STAT">
-			<Text>[ICON_PEACE] Faith</Text>
+			<Text>[ICON_PEACE] Glauben</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_SCIENCE_STAT">
-			<Text>[ICON_RESEARCH] Science</Text>
+			<Text>[ICON_RESEARCH] Wissenschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_CITIES">
-			<Text>Cities</Text>
+			<Text>Städte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_POPULATION">
-			<Text>Population</Text>
+			<Text>Bevölkerung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_ECONOMY">
-			<Text>Economy</Text>
+			<Text>Wirtschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_CULTURE">
-			<Text>Culture</Text>
+			<Text>Kultur</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_RELIGION">
 			<Text>Religion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_SCIENCE">
-			<Text>Science</Text>
+			<Text>Wissenschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_NO_IDEOLOGY">
-			<Text>No Ideology</Text>
+			<Text>Keine Ideologie</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_NO_RELIGION">
 			<Text>No Majority Religion</Text>
@@ -645,19 +645,19 @@
 			<Text>{1_Num}% ({2_iTeamNum}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP">
-			<Text>Your [ICON_CITIZEN] Population</Text>
+			<Text>Eure [ICON_CITIZEN] Bevölkerung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_YOUR_POP_TT">
-			<Text>Our [ICON_CITIZEN] Population (Team [ICON_CITIZEN] Population)</Text>
+			<Text>Unsere [ICON_CITIZEN] Bevölkerung (Team [ICON_CITIZEN] Bevölkerung)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP">
-			<Text>Their [ICON_CITIZEN] Population</Text>
+			<Text>Deren [ICON_CITIZEN] Bevölkerung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_THEIR_POP_TT">
-			<Text>Their [ICON_CITIZEN] Population (Team [ICON_CITIZEN] Population)</Text>
+			<Text>Deren [ICON_CITIZEN] Bevölkerung (Team [ICON_CITIZEN] Bevölkerung)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT">
-			<Text>[ICON_CITIZEN] Population %</Text>
+			<Text>[ICON_CITIZEN] Bevölkerung %</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_VIEW_POP_PERCENT_TT">
 			<Text>Ratio between our [ICON_CITIZEN] Population and {1_MasterPlayer}'s [ICON_CITIZEN] Population.[NEWLINE][NEWLINE]Ratio between player [ICON_CITIZEN] Population (Ratio between team [ICON_CITIZEN] Population)</Text>
