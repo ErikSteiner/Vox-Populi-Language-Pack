@@ -298,7 +298,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Pious Celebrations)
 UPDATE Language_de_DE
-SET Text = 'Besitzer der Heiligen Stätte erhält +1 [ICON_HAPPINESS_1] Zufriedenheit für je zwei Städte die dieser Religion folgen und +15 [ICON_INFLUENCE] Einfluß auf den Ruhepunkt von Stadtstaaten die dieser Religion folgen.'
+SET Text = 'Besitzer der Heiligen Stätte erhält +1 [ICON_HAPPINESS_1] Zufriedenheit für je zwei Städte die dieser Religion folgen und +15 [ICON_INFLUENCE] Einfluß auf den Nullpunkt von Stadtstaaten die dieser Religion folgen.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
