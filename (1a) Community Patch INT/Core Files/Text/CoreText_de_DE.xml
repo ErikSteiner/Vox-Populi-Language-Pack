@@ -2429,18 +2429,18 @@
 
 		<!-- CS WAR -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_WAR">
-			<Text>The war between {1_Civ} and {2_Civ} has ended with a white peace. The world breathes a sigh of relief knowing that the war did not escalate further.</Text>
+			<Text>Der Krieg zwischen {1_Civ} und {2_Civ} endet mit einem weißen Frieden. Die Welt atmet erleichtert auf wissend, dass der Krieg nicht weiter eskaliert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CS_WAR">
-			<Text>Peace between {1_Civ} and {2_Civ}!</Text>
+			<Text>Es herrscht nun Frieden zwischen {1_Civ} und {2_Civ}!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_PEACE_MADE">
-			<Text>The war between {1_Civ} and {2_Civ} was ended, thanks to your diplomatic efforts.</Text>
+			<Text>Der Krieg zwischen {1_Civ} und {2_Civ} wurde Dank diplomatischer Anstrengungen beendet.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_OTHER_PEACE_MADE">
-			<Text>The war between {1_Civ} and {2_Civ} was ended, thanks to your the diplomatic actions of {3_Civ}.</Text>
+			<Text>Der Krieg zwischen {1_Civ} und {2_Civ} wurde Dank diplomatischer Anstrengungen von {3_Civ} beendet.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE_ATTACKED">
@@ -3844,7 +3844,7 @@
 			<Text>I sincerely hope that my war with {@1_MinorCivName} will not make you think less of me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_5">
-			<Text>Shall we make a public Declaration of Friendship? Such an act would be a model of civility for the lesser empires of the world.</Text>
+			<Text>Sollen wir öffentlich eine Freundschaftserklärung unterzeichnen? Eine solche Tat wäre ein Vorbild der Verbindlichkeit für die kleineren Reiche dieser Welt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_6">
 			<Text>I believe that you are an honorable and righteous leader. Let us make a Declaration of Friendship, so that others may look upon our pact with fear.</Text>
@@ -3880,7 +3880,7 @@
 			<Text>The time for war against {1_PlayerName:textkey} is nigh. Shall we combine our arms and strike down this villain?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_REQUEST_5">
-			<Text>{1_PlayerName:textkey} has gone too far, and must be stopped. I look to you for assistance: shall we fight this menace together?</Text>
+			<Text>{1_PlayerName:textkey} ist zu weit gegangen und muss aufgehalten werden. Ich baue auf Eure Unterstützung: Sollen wir diese Bedrohung zusammen bekämpfen??</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_REQUEST_6">
 			<Text>The actions of {1_PlayerName:textkey} have forced my hand. War is inevitable, and I need an ally. Will you join me?</Text>
@@ -4062,10 +4062,10 @@
 			<Text>You will get nothing from me, tyrant.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_DEMAND_REFUSE_HOSTILE_7">
-			<Text>Never!</Text>
+			<Text>Niemals!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_DEMAND_REFUSE_HOSTILE_8">
-			<Text>Impossible.</Text>
+			<Text>Unmöglich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_DEMAND_REFUSE_HOSTILE_9">
 			<Text>You must be joking. No way.</Text>
@@ -4338,13 +4338,13 @@
 			<Text>Looks good to me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TRADE_ACCEPT_ACCEPTABLE_5">
-			<Text>I find this acceptable.</Text>
+			<Text>Ich finde das akzeptabel.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TRADE_ACCEPT_ACCEPTABLE_6">
 			<Text>You drive a hard bargain. I accept.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TRADE_ACCEPT_AI_DEMAND_3">
-			<Text>Wonderful.</Text>
+			<Text>Wundervoll.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TRADE_ACCEPT_AI_DEMAND_4">
 			<Text>You made a wise decision.</Text>
@@ -4602,7 +4602,7 @@
 		</Row>
 		<!--AI Responses to a human peace offer-->
 		<Row Tag="TXT_KEY_GENERIC_PEACE_WHAT_WILL_HUMAN_OFFER_4">
-			<Text>Yes?</Text>
+			<Text>Ja?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_PEACE_WHAT_WILL_HUMAN_OFFER_5">
 			<Text>What is your proposal?</Text>
@@ -4617,35 +4617,35 @@
 			<Text>I hope this is the last war we fight.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_NO_PEACE_4">
-			<Text>My armies cannot be stopped.</Text>
+			<Text>Meine Armeen können nicht aufgehalten werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_NO_PEACE_5">
-			<Text>The time for diplomacy is long gone.</Text>
+			<Text>Die Zeit für Diplomatie ist längst zu Ende.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_NO_PEACE_6">
-			<Text>Not a chance.</Text>
+			<Text>Keine Chance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_NO_PEACE_2">
-			<Text>Impossible.</Text>
+			<Text>Unmöglich.</Text>
 		</Row>
 		<!--AI Responses to a discussion mode topics-->
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED_5">
-			<Text>Great!</Text>
+			<Text>Großartig!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED_6">
-			<Text>Fantastic.</Text>
+			<Text>Fantastisch.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED_7">
-			<Text>Perfect.</Text>
+			<Text>Perfekt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED_8">
-			<Text>Really? Wonderful.</Text>
+			<Text>Wirklich? Wundervoll.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_THANKFUL_4">
-			<Text>Thank you.</Text>
+			<Text>Danke.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_THANKFUL_5">
-			<Text>I am grateful.</Text>
+			<Text>Ich bin dankbar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_THANKFUL_6">
 			<Text>You have made a wise choice.</Text>
@@ -4654,7 +4654,7 @@
 			<Text>I cannot hide my disappointment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_DISAPPOINTED_5">
-			<Text>Really? Oh well.</Text>
+			<Text>Wirklich? Nun ja.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_RESPONSE_DISAPPOINTED_6">
 			<Text>I am saddened by your decision.</Text>
@@ -4841,7 +4841,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DOF_FRIENDS_1">
-			<Text>Our people have grown close over the years. It would be a shame to see this relationship decay. Shall we renew our Declaration of Friendship?</Text>
+			<Text>Unserer beiden Völker sind über die Jahre zusammen gewachsen. Es wäre eine Schande, diese Beziehung dahinschwinden zu sehen. Sollen wir unsere Freundschaftserklärung erneuern?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_FRIENDS_2">
 			<Text>You have proven to be a trustworthy friend, a rare trait in this world. Do you wish to renew our Declaration of Friendship?</Text>
@@ -5910,7 +5910,7 @@
 			<Text>{1_Num}% Penalty due to Active League Proposals[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_NO_LONGER_INFLUENTIAL">
-			<Text>Global Influence Shift</Text>
+			<Text>Globale Einflussverschiebung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_NO_LONGER_INFLUENTIAL_TT">
 			<Text>{1_CivName} {1_CivName: plural 1?is; other?are;} are no longer Influential over another player.</Text>
@@ -5920,19 +5920,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_EXOTIC_THEY">
-			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]Exotic[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]exotisch[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_FAMILIAR_THEY">
-			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]Familiar[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]vertraut[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_POPULAR_THEY">
-			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]Popular[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]beliebt[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_INFLUENTIAL_THEY">
-			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]Influential[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]einflussreich[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CO_DOMINANT_THEY">
-			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]Dominant[ENDCOLOR]</Text>
+			<Text>[NEWLINE][NEWLINE]Their [ICON_TOURISM] Tourism Influence over {1_Civ}: [COLOR_CYAN]dominant[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_STATIC_THEM">
@@ -5952,71 +5952,71 @@
 
 		<!-- Tourism Update -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SUMMARY">
-			<Text>Influence Shift!</Text>
+			<Text>Einflussverschiebung!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INFLUENCE_US_1">
-			<Text>Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}!</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist nun [COLOR_MAGENTA]exotisch[ENDCOLOR] für {1_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_2">
-			<Text>Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}!</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist nun [COLOR_MAGENTA]vertraut[ENDCOLOR] für {1_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_3">
-			<Text>Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}!</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist nun [COLOR_MAGENTA]beliebt[ENDCOLOR] für {1_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_4">
-			<Text>Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}!</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist nun [COLOR_MAGENTA]einflussreich[ENDCOLOR] für {1_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_5">
-			<Text>Our [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}!</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist nun [COLOR_MAGENTA]dominant[ENDCOLOR] für {1_Num}!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INFLUENCE_US_1_BAD">
-			<Text>Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Exotic[ENDCOLOR] to {1_Num}.</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist [COLOR_NEGATIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]exotisch[ENDCOLOR] für {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_2_BAD">
-			<Text>Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Familiar[ENDCOLOR] to {1_Num}.</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist [COLOR_NEGATIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]vertraut[ENDCOLOR] für {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_3_BAD">
-			<Text>Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Popular[ENDCOLOR] to {1_Num}.</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist [COLOR_NEGATIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]beliebt[ENDCOLOR] für {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_4_BAD">
-			<Text>Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Influential[ENDCOLOR] to {1_Num}.</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist [COLOR_NEGATIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]einflussreich[ENDCOLOR] für {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_US_5_BAD">
-			<Text>Our [ICON_CULTURE] Culture is [COLOR_NEGATIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Dominant[ENDCOLOR] to {1_Num}.</Text>
+			<Text>Unsere [ICON_CULTURE] Kultur ist [COLOR_NEGATIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]dominant[ENDCOLOR] für {1_Num}.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_1">
-			<Text>{1_Num} [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Exotic[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns nun [COLOR_MAGENTA]exotisch[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_2">
-			<Text>{1_Num} [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Familiar[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num} [ICON_CULTURE] Kultur ist für uns nun [COLOR_MAGENTA]vertraut[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_3">
-			<Text>{1_Num} [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Popular[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num} [ICON_CULTURE] Kultur ist für uns nun [COLOR_MAGENTA]beliebt[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_4">
-			<Text>{1_Num} [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Influential[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num} [ICON_CULTURE] Kultur ist für uns nun [COLOR_MAGENTA]einflussreich[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_5">
-			<Text>{1_Num} [ICON_CULTURE] Culture is now [COLOR_MAGENTA]Dominant[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num} [ICON_CULTURE] Kultur ist für uns nun [COLOR_MAGENTA]dominant[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_1_BAD">
-			<Text>{1_Num} [ICON_CULTURE] Culture is [COLOR_POSITIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Exotic[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns [COLOR_POSITIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]exotisch[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_2_BAD">
-			<Text>{1_Num} [ICON_CULTURE] Culture is [COLOR_POSITIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Familiar[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns [COLOR_POSITIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]vertraut[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_3_BAD">
-			<Text>{1_Num} [ICON_CULTURE] Culture is [COLOR_POSITIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Popular[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns [COLOR_POSITIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]beliebt[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_4_BAD">
-			<Text>{1_Num} [ICON_CULTURE] Culture is [COLOR_POSITIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Influential[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns [COLOR_POSITIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]einflussreich[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INFLUENCE_THEM_5_BAD">
-			<Text>{1_Num} [ICON_CULTURE] Culture is [COLOR_POSITIVE_TEXT]no longer[ENDCOLOR] [COLOR_MAGENTA]Dominant[ENDCOLOR] to us.</Text>
+			<Text>Die {1_Num}e [ICON_CULTURE] Kultur ist für uns [COLOR_POSITIVE_TEXT]nicht länger[ENDCOLOR] [COLOR_MAGENTA]dominant[ENDCOLOR].</Text>
 		</Row>
 
 		<!-- Anarchy -->
@@ -6047,7 +6047,7 @@
 
 		<!-- Lua for Buildings -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
-			<Text>[NEWLINE]Requires {1_FeatureName:textkey} near this City.</Text>
+			<Text>[NEWLINE]Benötigt {1_FeatureName:textkey} nahe dieser Stadt.</Text>
 		</Row>
 
 		<!-- LUA for Espionage -->
@@ -6299,16 +6299,16 @@
 
 		<!-- Building Tooltip -->
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_POLICIES">
-			<Text>Additional Policies needed to unlock: {1_Num}</Text>
+			<Text>Weitere freizuschaltende Politiken benötigt: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POLICY_NEEDED_LABEL">
-			<Text>Policies Required: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>Politiken benötigt: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Haben: {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_NATIONAL_NEEDED_LABEL">
-			<Text>National Population Required: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>Landesweite Bevölkerung benötigt: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Haben: {2_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
-			<Text>Local Population Required: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Have: {2_Num})</Text>
+			<Text>Lokale Bevölkerung benötigt: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Haben: {2_Num})</Text>
 		</Row>
 		
 		<!-- Instant Yield Text -->
@@ -6316,10 +6316,10 @@
 			<Text>Empire-Wide Bonus Yields</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_EMPIRE">
-			<Text>Bonus Yields Update</Text>
+			<Text>Update der Bonuserträge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_IN_CITY">
-			<Text>Bonus Yields in {1_City}!</Text>
+			<Text>Bonuserträge in {1_City}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CITY">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_City}: [ENDCOLOR]</Text>
@@ -6331,28 +6331,28 @@
 			<Text>[NEWLINE]{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH">
-			<Text>Birth of a [ICON_CITIZEN] Citizen:[NEWLINE]{1_YieldString}</Text>
+			<Text>Geburt eines [ICON_CITIZEN] Bewohners:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_CAPITAL">
-			<Text>Birth of a [ICON_CITIZEN] Citizen in [ICON_CAPITAL] Capital:[NEWLINE]{1_YieldString}</Text>
+			<Text>Geburt eines [ICON_CITIZEN] Bewohners in der [ICON_CAPITAL] Hauptstadt:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_ERA">
-			<Text>Entering a new [ICON_RESEARCH] Era:[NEWLINE]{1_YieldString}</Text>
+			<Text>Erreichen eines neuen [ICON_RESEARCH] Zeitalters:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_POLICY">
-			<Text>Unlocking a [ICON_CULTURE] Policy:[NEWLINE]{1_YieldString}</Text>
+			<Text>Eine [ICON_CULTURE] Politik freischalten:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_INSTANT">
-			<Text>Instant yield:[NEWLINE]{1_YieldString}</Text>
+			<Text>Sofortiger Ertrag:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TECH">
-			<Text>Researching a [ICON_RESEARCH] Technology:[NEWLINE]{1_YieldString}</Text>
+			<Text>Erforschen einer [ICON_RESEARCH] Technologie:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONSTRUCTION">
-			<Text>Constructing {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@2_Building}}:[NEWLINE]{1_YieldString}</Text>
+			<Text>{@2_Building} errichtet:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BORDERS">
-			<Text>Expanding [ICON_CULTURE] Borders:[NEWLINE]{1_YieldString}</Text>
+			<Text>Weiten der [ICON_CULTURE] Grenzen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PROPOSAL">
 			<Text>Passing a [ICON_INFLUENCE] Proposal:[NEWLINE]{1_YieldString}</Text>

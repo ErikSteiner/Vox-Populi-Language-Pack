@@ -227,10 +227,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
-			<Text>Reconnaissance</Text>
+			<Text>Aufklärung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
-			<Text>Gains EP from revealing tiles</Text>
+			<Text>Erhaltet EP durch das Aufdecken von Geländefeldern</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">

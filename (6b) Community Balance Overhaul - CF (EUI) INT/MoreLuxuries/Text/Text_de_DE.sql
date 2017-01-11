@@ -16,7 +16,7 @@ SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt. Ste
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Lundeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
+SET Text = '+2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
 WHERE Tag = 'TXT_KEY_BUILDING_ODEON_HELP';
 
 UPDATE language_de_DE

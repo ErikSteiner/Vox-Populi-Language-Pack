@@ -322,10 +322,10 @@
 			<Text>Politikkosten Cost Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTCULTURECOSTMODIFIER">
-			<Text>Plot Culture Cost Modifier {1}%</Text>
+			<Text>Kulturkosten für Geländefelder Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTCULTURECOSTMODIFIER">
-			<Text>Global Plot Culture Cost Modifier {1}%</Text>
+			<Text>Globaler Kulturkosten für Geländefelder Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
 			<Text>Plot Buy Cost Modifier {1}%</Text>

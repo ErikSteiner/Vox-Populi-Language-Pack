@@ -2,47 +2,47 @@
 -- Update for Progress Screen Texts (a little more serious)
 
 	UPDATE Language_de_DE
-	SET Text = '{1_Name:textkey} has completed their greatest work, the list of:'
+	SET Text = '{1_Name:textkey} hat seine größte Arbeit vollendet, die Auflistung der:'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Greatest Builders in History'
+	SET Text = 'Der größten Bauherrn in der Geschichte'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_WONDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Prosperous Civilizations'
+	SET Text = 'Die wohlhabendsten Zivilisationen'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_FOOD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Industrious People Today'
+	SET Text = 'Die fleißigsten Völker heute'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_PRODUCTION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Wealthiest People in the World'
+	SET Text = 'Die reichsten Völker der Welt'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_GOLD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Advanced People in History'
+	SET Text = 'Die fortschrittlichsten Völker der Geschichte'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_SCIENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Sophisticated Cultures'
+	SET Text = 'Die belesensten Völker der Welt'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CULTURE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Stable Nations in History'
+	SET Text = 'Die beständigsten Nationen in der Geschichte'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Mightiest Rulers in History'
+	SET Text = 'Die mächtigsten Herrscher in der Geschichte'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_POWER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Most Influential Nations'
+	SET Text = 'Die einflussreichsten Nationen'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 	UPDATE Language_de_DE
-	SET Text = 'The Most Dazzling Cities'
+	SET Text = 'Die schillerndsten Städte'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 -- Spy Stuff

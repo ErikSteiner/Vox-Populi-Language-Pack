@@ -149,11 +149,11 @@ SET Text = 'Das Apollo-Programm ist der Start des Weltraumrennens. Es ermöglich
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Fischfang'
+SET Text = 'Fischerei', Gender = 'feminine'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Fischfang ist die Tätigkeit bei der versucht wird Fisch zu fangen. Er erfolgt in der Regel in der Natur. Zu den Techniken des Fischfangs zählen das händische Fangen, das Fangen mit Speeren, mit Netzen, Angeln und das Fallenstellen. Der Begriff Fischfang kann auch auf das Fangen von anderen Wassertieren wie Muscheln, Kopffüßer, Krebstiere und Stachelhäuter angewendet werden. Wird normalerweise jedoch nicht für das Fangen von Zuchtfischen oder Wassersäugetieren wie etwa Wale verwendet.'
+SET Text = 'Fischerei ist die Tätigkeit bei der versucht wird Fisch zu fangen. Er erfolgt in der Regel in der Natur. Zu den Techniken des Fischerei zählen das händische Fangen, das Fangen mit Speeren, mit Netzen, Angeln und das Fallenstellen. Der Begriff Fischerei kann auch auf das Fangen von anderen Wassertieren wie Muscheln, Kopffüßer, Krebstiere und Stachelhäuter angewendet werden. Wird normalerweise jedoch nicht für das Fangen von Zuchtfischen oder Wassersäugetieren wie etwa Wale verwendet.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -185,7 +185,7 @@ SET Text = 'Sailing is the art of harnessing the power of the wind to move a boa
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Segeln'
+SET Text = 'Segeln', Gender = 'neuter'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
