@@ -1,7 +1,7 @@
 INSERT INTO language_de_DE
 			(Tag,											Text)
 VALUES		('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS',		'GG/GA Punkte durch Barbaren'),
-			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Erlaubt allen Spielern das Sammeln Groﬂer General und Groﬂer Admiral Punkten durch das Bek‰mpfen von Barbaren.');
+			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Erlaubt allen Spielern das Sammeln Gro√üer General und Gro√üer Admiral Punkten durch das Bek√§mpfen von Barbaren.');
 
 -- Siege Unit
 UPDATE language_de_DE
@@ -79,7 +79,7 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT';
 
 -- Fixed quest text - transitioned to new 'quest rewards' panel
 UPDATE language_de_DE
-SET Text = 'You have successfully destroyed the Barbarian Encampment as requested by {1_MinorCivName:textkey}!'
+SET Text = 'Ihr habt erfolgreich das Barbarenlager zerst√∂rt, wie es {1_MinorCivName:textkey} erbeten hat!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP';
 
 UPDATE language_de_DE
@@ -87,15 +87,15 @@ SET Text = '{3_TargetName:textkey} has declared war on {1_CivName:textkey}, citi
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'War breaks out between {2_CivName:textkey} and {1_TargetName:textkey}'
+SET Text = 'Krieg bricht zwischen {2_CivName:textkey} und {1_TargetName:textkey} aus'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'The war between {2_CivName:textkey} and {1_TargetName:textkey} has ended, with {2_CivName:textkey} emerging as the clear victor. Your advisors worry that this outcome may lead to future conflict.'
+SET Text = 'Der Krieg zwischen {2_CivName:textkey} und {1_TargetName:textkey} ist beendet ended, mit {2_CivName:textkey} als den klaren Sieger. Ihre Berater sorgen sich, dass dieses Ereignis zu k√ºnftigen Konflikten f√ºhren kann.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = '{1_TargetName:textkey} defeated by {2_CivName:textkey}!'
+SET Text = '{1_TargetName:textkey} von {2_CivName:textkey} geschlagen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE language_de_DE
@@ -258,25 +258,25 @@ SET Text = 'Eine Stadtstaaten Allianz verhindert dies.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
 
 UPDATE language_de_DE
-SET Text = 'Stadtstaat f¸hrt dauerhaft Krieg.'
+SET Text = 'Stadtstaat f√ºhrt dauerhaft Krieg.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
 
 -- Fixed diacritics for spy names.
 
 UPDATE language_de_DE
-SET Text = 'AntÙnio'
+SET Text = 'Ant√¥nio'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_0';
 
 UPDATE language_de_DE
-SET Text = 'EstÍv„o'
+SET Text = 'Est√™v√£o'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_3';
 
 UPDATE language_de_DE
-SET Text = 'Fern„o'
+SET Text = 'Fern√£o'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_4';
 
 UPDATE language_de_DE
-SET Text = 'TomÈ'
+SET Text = 'Tom√©'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_8';
 
 UPDATE language_de_DE
@@ -361,7 +361,7 @@ SET Text = 'The deal we suggest may be an unfair exchange for you. Please inspec
 WHERE Tag = 'TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_2';
 
 UPDATE language_de_DE
-SET Text = 'Impossible. You go too far.'
+SET Text = 'Unm√∂glich. Ihr geht zu weit.'
 WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU';
 
 UPDATE language_de_DE
