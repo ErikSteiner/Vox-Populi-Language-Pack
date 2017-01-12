@@ -6313,7 +6313,7 @@
 		
 		<!-- Instant Yield Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD">
-			<Text>Empire-Wide Bonus Yields</Text>
+			<Text>Landesweite Bonuserträge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD_EMPIRE">
 			<Text>Update der Bonuserträge</Text>
@@ -6358,28 +6358,28 @@
 			<Text>Passing a [ICON_INFLUENCE] Proposal:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GP_USE">
-			<Text>Expending a [ICON_GREAT_PEOPLE] Great Person:[NEWLINE]{1_YieldString}</Text>
+			<Text>Verbrauchen einer [ICON_GREAT_PEOPLE] Großen Persönlichkeit:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_GP_BORN">
-			<Text>Birth of a [ICON_GREAT_PEOPLE] Great Person:[NEWLINE]{1_YieldString}</Text>
+			<Text>Geburt einer [ICON_GREAT_PEOPLE] Großen Persönlichkeit:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_CONQUEST">
-			<Text>[ICON_VICTORY_DOMINATION] Conquering a City:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] Eine Stadt erobern:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_VICTORY">
-			<Text>[ICON_VICTORY_DOMINATION] Winning a battle:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_VICTORY_DOMINATION] Eine Schlacht gewinnen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_UNIT_PRODUCTION">
-			<Text>[ICON_PRODUCTION] Producing a military unit:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_PRODUCTION] Eine Militäreinheit produzieren:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PURCHASE">
-			<Text>[ICON_GOLD] Purchasing a unit or building:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD] Eine Einheit oder Gebäude kaufen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TILE_PURCHASE">
-			<Text>[ICON_GOLD] Purchasing a Tile:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLD] Ein Geländefeld kaufen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_FOUND">
-			<Text>[ICON_GOLDEN_AGE] Founding a City:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_GOLDEN_AGE] Eine Stadt gründen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_TRADE_ROUTE">
 			<Text>Completing a [ICON_INTERNATIONAL_TRADE] Trade Route:[NEWLINE]{1_YieldString}</Text>

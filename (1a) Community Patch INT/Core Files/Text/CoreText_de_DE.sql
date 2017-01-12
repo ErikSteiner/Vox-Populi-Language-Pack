@@ -91,7 +91,7 @@ SET Text = 'Krieg bricht zwischen {2_CivName:textkey} und {1_TargetName:textkey}
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'Der Krieg zwischen {2_CivName:textkey} und {1_TargetName:textkey} ist beendet ended, mit {2_CivName:textkey} als den klaren Sieger. Ihre Berater sorgen sich, dass dieses Ereignis zu künftigen Konflikten führen kann.'
+SET Text = 'Der Krieg zwischen {2_CivName:textkey} und {1_TargetName:textkey} ist beendet, mit {2_CivName:textkey} als den klaren Sieger. Ihre Berater sorgen sich, dass dieses Ereignis zu künftigen Konflikten führen kann.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE language_de_DE

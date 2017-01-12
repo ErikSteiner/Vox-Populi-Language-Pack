@@ -2,7 +2,7 @@
 -- Update for Progress Screen Texts (a little more serious)
 
 	UPDATE Language_de_DE
-	SET Text = '{1_Name:textkey} hat seine größte Arbeit vollendet, die Auflistung der:'
+	SET Text = '{1_Name:textkey} hat seine größte Arbeit vollendet, die Auflistung:'
 	WHERE Tag = 'TXT_KEY_PROGRESS_SCREEN_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 	UPDATE Language_de_DE

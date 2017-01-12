@@ -112,29 +112,29 @@
 			<Text>Ihr erhaltet von Ihnen [COLOR_POSITIVE_TEXT]{1_Num} [ICON_GOLD] Gold[ENDCOLOR] pro Runde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN_CS">
-			<Text>Total: {1_Num} [ICON_RESEARCH] Science (due to [ICON_INFLUENCE] Influence over this City-State)</Text>
+			<Text>Gesamt: {1_Num} [ICON_RESEARCH] Wissenschaft (durch [ICON_INFLUENCE] Einfluss über diesen Stadtstaat)</Text>
 		</Row>
 
 		<!-- WLTKD LUA -->
 		<Row Tag="TXT_KEY_PRODUCTION_WLTKD_BUILDING">
-			<Text>[NEWLINE] [ICON_BULLET]Building Modifier from 'We Love the King Day:' {1_Num}%</Text>
+			<Text>[NEWLINE] [ICON_BULLET]Gebäudemodifikator durch 'Feiertag': {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_GOLD_FROM_INTERNAL_TRADE">
-			<Text>{1_Num} from [ICON_INTERNATIONAL_TRADE] Internal Trade Routes.</Text>
+			<Text>{1_Num} von [ICON_INTERNATIONAL_TRADE] internen Handelswegen.</Text>
 		</Row>
 		<!-- Austria Text -->
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED">
-			<Text>[COLOR_POSITIVE_TEXT]MARRIED[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]VERMÄHLT[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_SMALL">
-			<Text>[COLOR_POSITIVE_TEXT]Married[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Vermählt[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_MARRIED_TT">
 			<Text>[COLOR_POSITIVE_TEXT]Diplomatic Marriage:[ENDCOLOR] While at peace with this City-State, your [ICON_INFLUENCE] Influence does not decay, you gain +1 Delegate to the World Congress, and +15% [ICON_GREAT_PEOPLE] Great Person Rate in your [ICON_CAPITAL] Capital.</Text>
 		</Row>
 		<!-- America! -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey} bought some of your land!</Text>
+			<Text>{1_CivName:textkey} kaufte etwas von Ihrem Land!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UA_STOLE_PLOT">
 			<Text>{1_CivName:textkey} decrees Manifest Destiny!</Text>

@@ -3,108 +3,108 @@
 <GameData>
 	<Language_de_DE>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Autarky[ENDCOLOR][NEWLINE]Internal [ICON_INTERNATIONAL_TRADE] Trade Routes grant +10 [ICON_GOLD] Gold, and [ICON_CONNECTED] City Connections provide +3 [ICON_PRODUCTION] Production.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Autarkie[ENDCOLOR][NEWLINE]Interne [ICON_INTERNATIONAL_TRADE] Handelswege gewähren +10 [ICON_GOLD] Gold und [ICON_CONNECTED] Stadtverbindungen +3 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
-			<Text>Autarky</Text>
+			<Text>Autarkie</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
-			<Text>Autarky is the quality of being self-sufficient. Usually the term is applied to political states or their economic systems. Autarky exists whenever an entity can survive or continue its activities without external assistance or international trade. If a self-sufficient economy also refuses all trade with the outside world then it is called a closed economy. Autarky is not necessarily an economic phenomenon; for example, a military autarky would be a state that could defend itself without help from another country. Autarky can be said to be the policy of a state or other entity when it seeks to be self-sufficient as a whole, but also can be limited to a narrow field such as possession of a key raw material.</Text>
+			<Text>Autarkie im allgemeinen Sinne bedeutet, dass Organisationseinheiten oder Ökosysteme alles, was sie ver- oder gebrauchen, aus eigenen Ressourcen selbst erzeugen oder herstellen. Normalerweise wird der Begriff auf politische Staaten oder ihre Wirtschaftssysteme angewendet. Autarkie besteht immer dann, wenn eine Einheit bestehen oder seine Aktivitäten ohne externe Unterstützung oder internen Handel fortsetzen kann. Wenn eine autarke Wirtschaft auch den Handel mit der Außenwelt ablehnt, dann wird sie geschlossene Wirtschaft genannt. Autarkie ist nicht unbedingt ein wirtschaftliches Phänomen, so wäre zum Beispiel eine Militärautarkie ein Staat, der sich ohne Hilfe aus einem anderen Land verteidigen könnte. Autarkie kann die Politik eines Staates oder einer anderen Einheit sein, wenn sie danach strebt, autark als Ganzes zu sein, kann aber auch auf einen engen Bereich wie den Besitz eines Schlüsselrohstoffs beschränkt sein.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Universal Healthcare[ENDCOLOR][NEWLINE]Receive a free Hospital in every City. +50 [ICON_CULTURE] when a Citizen is born in any City, scaling with Era.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Allgemeine Krankenversicherung[ENDCOLOR][NEWLINE]Erhaltet ein freies Krankenhaus in jeder Stadt. +50 [ICON_CULTURE] wenn ein Bürger in einer Stadt geboren wird, steigt mit jedem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
-			<Text>Universal Healthcare</Text>
+			<Text>Allgemeine Krankenversicherung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
-			<Text>Earn [ICON_GOLD] Gold, [ICON_CULTURE] Culture, and [ICON_GOLDEN_AGE] Golden Age Points from kills</Text>
+			<Text>Erhaltet [ICON_GOLD] Gold, [ICON_CULTURE] Kultur und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von getöteten Einheiten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
-			<Text>Morrigan, Harbinger of Strife</Text>
+			<Text>Morrígan, Boting der Zwietracht</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA">
-			<Text>Receive +15 [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_FOOD] Food when your Borders expand, scaling with Era</Text>
+			<Text>Erhaltet +15 [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_FOOD] Nahrung, wenn sich Eure Grenzen weiten. Steigt mit jedem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
-			<Text>Epona, the Great Mare</Text>
+			<Text>Epona, Göttin der Pferde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+1 [ICON_CULTURE] Culture for every 15 [ICON_GOLD] Gold per turn, and +1 [ICON_GOLDEN_AGE] Golden Age Points for every 10 [ICON_RESEARCH] Science per turn</Text>
+			<Text>+1 [ICON_CULTURE] Kultur für je 15 [ICON_GOLD] Gold pro Runde und +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte für je 10 [ICON_RESEARCH] Wissenschaft pro Runde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
-			<Text>Nuada, the Silver-Handed King</Text>
+			<Text>Nuadu mit der Silberhand</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
-			<Text>+1 [ICON_FOOD] Food from Forests, +1 [ICON_PRODUCTION] Production from Jungles</Text>
+			<Text>+1 [ICON_FOOD] Nahrung von Wäldern und +1 [ICON_PRODUCTION] Produktion von Dschungel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
-			<Text>Cernunnos, the Horned Stag</Text>
+			<Text>Cernunnos der Gehörnte</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH">
-			<Text>+4 [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold in Cities with a Specialist, +1 [ICON_CULTURE] Culture from World Wonders</Text>
+			<Text>+4 [ICON_CULTURE] Kultur, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold in Städten mit einem Spezialisten, +1 [ICON_CULTURE] Kultur von Weltwundern</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
-			<Text>Lugh, the Skilled One</Text>
+			<Text>Lugh der Kunstfertige/Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
-			<Text>+2 [ICON_GOLDEN_AGE] Golden Age Points, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold in every City</Text>
+			<Text>+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold in jeder Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
-			<Text>Rhiannon, Goddess of Sovereignty</Text>
+			<Text>Rhiannon, Göttin der Souveränität</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
-			<Text>+2 [ICON_FOOD] Food, +3 [ICON_PRODUCTION] Production, and +4 [ICON_GOLD] Gold in coastal Cities</Text>
+			<Text>+2 [ICON_FOOD] Nahrung, +3 [ICON_PRODUCTION] Produktion und +4 [ICON_GOLD] Gold in Küstenstädten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
-			<Text>Mannanan, Son of the Sea</Text>
+			<Text>Manannan, Sohn des Meeres</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA">
-			<Text>+1 [ICON_RESEARCH] Science for every 4 [ICON_CITIZEN] Citizens in a City, and gain 8 [ICON_CULTURE] Culture when a [ICON_CITIZEN] Citizen is born</Text>
+			<Text>+1 [ICON_RESEARCH] Wissenschaft für je 4 [ICON_CITIZEN] Bürger in einer Stadt und erhaltet 8 [ICON_CULTURE] Kultur, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
-			<Text>Ogma, the Learned</Text>
+			<Text>Ogma, Gott der Redekunst</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN">
-			<Text>+100% increase to [ICON_RANGE_STRENGTH] Ranged Combat Strength, +25% [ICON_FOOD] Growth, and +1 [ICON_CULTURE] Culture in every City</Text>
+			<Text>+100% erhöhte [ICON_RANGE_STRENGTH] Fernkampfstärke, +25% [ICON_FOOD] Wachstum und +1 [ICON_CULTURE] Kultur in jeder Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
-			<Text>Bran, the Sleeping Guardian</Text>
+			<Text>Bran der schlafende Wächter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA">
-			<Text>+1 [ICON_CULTURE] Kultur, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft für je 5 Anhänger Eures Pantheons in eigenen Städten</Text>
+			<Text>+1 [ICON_CULTURE] Kultur, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft für je 5 Anhänger Eures Pantheons, in eigenen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
 			<Text>Dagda, der große Vater</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Peace, Land, Bread[ENDCOLOR][NEWLINE][ICON_HAPPINESS_3] Poverty reduced by 20% and [ICON_FOOD] Growth increased by 20% in all cities.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Frieden, Land, Brot[ENDCOLOR][NEWLINE][ICON_HAPPINESS_3] Armut um 20% reduziert und [ICON_FOOD] Wachstum in allen Städten um 20% erhöht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
-			<Text>Peace, Land, Bread</Text>
+			<Text>Frieden, Land, Brot</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O">
-			<Text>The phrase 'Peace, Land, Bread,' popularized by Lenin and others during the early days of the Soviet Revolution, highlighted their desire to focus on the needs of the impoverished Russian peasantry. The Bolshevik Initial Decrees of the 1910-20s were announced as soon as the Bolsheviks declared their success in the October Revolution (October 26, 1917). The decrees conformed to the popular Bolshevik slogan "Peace, Bread, and Land", taken up by the masses during the July Days (July 1917), an uprising of workers and military forces.</Text>
+			<Text>Der Ausdruck "Frieden, Land, Brot" war neben "Alle Macht den Sowjets" eine zentrale Losung der Bolschewiki in der russischen Revolution von 1917, die von den Massen während der Juli-Tage (Juli 1917), einem Aufstand der Arbeiter und militärischen Kräfte aufgegriffen wurde. Die Formel sollte die unmittelbaren Interessen der russischen arbeitenden Klassen zum Ausdruck bringen: Sofortige Beendigung des Krieges, Lösung der Landfrage und Versorgung der Bevölkerung mit Nahrung.</Text>
 		</Row>	
 		<Row Tag="TXT_KEY_PROCESS_CULTURE">
-			<Text>Arts</Text>
+			<Text>Kunst</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Arts[ENDCOLOR] converts 20% of [ICON_PRODUCTION] Production of this City into [ICON_CULTURE] Culture.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Kunst[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_CULTURE] Kultur um.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
-			<Text>Investing production in art is a good way to boost your Civilization's cutural output, either to grab that next policy or to stave off a Tourism victory.</Text>
+			<Text>Das Investieren von Produktion in Kust ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD">
 			<Text>Landwirtschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Landwirtschaft[ENDCOLOR] wandelt 20% der [ICON_PRODUCTION] Produktion dieser Stadt in [ICON_FOOD] Nahrung um.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Landwirtschaft[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_FOOD] Nahrung um.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
-			<Text>Das Investieren von Produktion in Landwirtschaft ist ein guter Weg um das Stadtwachstum zu erhöhen. Dies kann nützlich sein wenn Ihr technologisch zurückfallt oder einfach eine größere Stadt benötigt.</Text>
+			<Text>Das Investieren von Produktion in Landwirtschaft ist eine gute Möglichkeit das Stadtwachstum zu erhöhen. Dies kann nützlich sein wenn Ihr technologisch zurückfallt oder einfach eine größere Stadt benötigt.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_FIRST_ON_MOON">
@@ -118,13 +118,13 @@
 			<Text>Reiseverbot</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_PENALTY_HELP">
-			<Text>Restricts international travel between Civilizations. Reduces the [ICON_TOURISM] Tourism modifier for all Civilizations by 50%.</Text>
+			<Text>Beschränkt das internationale Reisen zwischen den Zivilisationen. Reduziert den [ICON_TOURISM] Tourismusmodifikator aller Zivilisationen um 50%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS">
-			<Text>Passport System</Text>
+			<Text>Reisepass-System</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_TOURISM_BONUS_HELP">
-			<Text>Increases international travel between Civilizations. Increases the [ICON_TOURISM] Tourism modifier for all Civilizations by 50%.</Text>
+			<Text>Erhöht das internationale Reisen zwischen den Zivilisationen. Erhöht den [ICON_TOURISM] Tourismusmodifikator aller Zivilisationen um 50%.</Text>
 		</Row>
 		
 		<!-- Venetian Customs House -->
@@ -132,7 +132,7 @@
 			<Text>Colonia</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENT_CUSTOMS_HOUSE_VENICE_TEXT">
-			<Text>Colonia sind verbesserte Versionen des Großen Händlers Kleinstadt. Zusätzlich zu höheren Erträgen, erweitert sie die Grenzen Eurer Zivilisation um ein Feld um die  Colonia herum (wie die Zitadelle).  Ihr könnt Colonia auf unbeanspruchten Geländefeldern errichten, die an Euer Gebiet angrenzen. Diese Fähigkeiten ermöglichen Venedig zusätzliche Gebiete zu Beanspruchen, trotz der Unfähigkeit neue Städte zu gründen. Colonia generieren zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn sie auf einer Straße oder Eisenbahnstrecke gebaut werden, welche zwei Städte miteinander verbindet[NEWLINE][NEWLINE]Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 Vor-Industrielles Zeitalter, +2 Industriezeitalter oder später) wenn ein Handelsweg, entweder international oder national über diese Colonia verläuft.[NEWLINE][NEWLINE]Als venezianische Kolonien (Colonia) (in der Eigenbezeichnung Stato da Mar, der Staat des Meeres) werden im engeren Sinne die von der Republik Venedig beherrschten Gebiete in der Adria und im östlichen Mittelmeer bezeichnet, einschließlich Istrien, Dalmatien, Albanien, Negroponte, Morea ("Königreich von Morea"), dem Herzogtum Archipelagos, den Inseln von Kreta ("Königreich von Candia") und Zypern. Zu Venedigs Besitzungen zählten neben dem "Dogado" der "Stato da Mar" (Seestaat, Venezianische Kolonien) und auf dem Festland die "Terraferma" (auch Stato da Terra genannt).</Text>
+			<Text>Colonia sind verbesserte Kleinstädte des Großen Händlers. Zusätzlich zu höheren Erträgen, erweitern sie die Grenzen Eurer Zivilisation mit einem Radius von einem Feld, um die Colonia herum (wie die Zitadelle). Sie kann auf unbeanspruchten Geländefeldern errichten, die an Euer Gebiet angrenzen. Diese Eigenschaften ermöglichen Venedig zusätzliche Gebiete zu beanspruchen, trotz der fehlenden Fähigkeit neue Städte zu gründen. Colonia generieren weiterhin [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion, wenn sie auf einer Straße oder Eisenbahnstrecke gebaut werden, die zwei Städte miteinander verbindet[NEWLINE][NEWLINE]Erhaltet zusätzliches [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion (+1 Vor-Industrielles Zeitalter, +2 Industriezeitalter oder später) wenn ein Handelsweg (international oder national) über diese Colonia verläuft.[NEWLINE][NEWLINE]Das "Stato da Mar" oder "Domini da Mar" ("Staat / Gebiete des Meeres") war der Name der, von der Republik von Venedig, beherrschten Gebiete und der darin befindlichen See- und Übersee-Kolonien. Darunter Istrien, Dalmatien, Albanien, Negroponte, das Morea (das Königreich der Morea), die Ägäischen Inseln des Herzogtums des Archipels und die Inseln Kreta (Königreich von Candia) und Zypern. Das "Stato da Mar" oder "Domini da Mar", war eine von drei Unterteilungen der Besitztümer der Republik von Venedig. Die beiden anderen waren der Dogado, genauer gesagt Venedig, und der Domini di Terraferma in Norditalien.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_CUSTOMS_HOUSE_VENICE">
 			<Text>Errichtet eine Colonia</Text>
