@@ -32,7 +32,7 @@ SET Text = 'Wenn Ihr die Stadt [COLOR_POSITIVE_TEXT]annektiert[ENDCOLOR], wird s
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Wird die Stadt [COLOR_POSITIVE_TEXT]Zerstört[ENDCOLOR], wird die Bevölkerung der Stadt jede Runde [ICON_RAZING] reduziert, bis der Wert 0 erreicht, und wird dann aus dem Spiel entfernt. Dieser Vorgang erzeugt [ICON_HAPPINESS_4] Unzufriedenheit gleich der Stadtbevölkerung, steigert jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegenüber diesem Spieler.[NEWLINE][NEWLINE]Während der Zerstörung besteht eine hohe Wahrscheinlichkeit, dass [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen die loyal zu ihrem vorherigen Besitzer sind (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
+SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegen diesen Spieler.[NEWLINE][NEWLINE]Während der Vernichtung besteht eine hohe Wahrscheinlichkeit, dass zu ihrem ehemaligen Besitzer loyale [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
