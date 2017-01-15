@@ -2371,7 +2371,7 @@
 			<Text>Coup gescheitert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B_S">
-			<Text>Your coup has failed, either because your spy has died or the is no longer a valid target. As such, the quest from {@1_Civname} was withdrawn.</Text>
+			<Text>Your coup has failed, either because your spy has died or the city is no longer a valid target. As such, the quest from {@1_Civname} was withdrawn.</Text>
 		</Row>
 
 
