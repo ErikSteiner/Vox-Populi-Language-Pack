@@ -160,7 +160,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>+15% Military Unit [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion from all Holy Sites.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR">
 			<Text>Großer Altar</Text>
@@ -231,7 +231,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>+4 [ICON_GOLDEN_AGE] Golden Age Points.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Golden Age Points from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduces [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE">
 			<Text>Apostolischer Palast</Text>
@@ -244,7 +244,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>+5 [ICON_CULTURE] Kultur from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this city by 50%, and increases the city's resistance to conversion by 20%.</Text>
+			<Text>+5 [ICON_CULTURE] Kultur von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY">
 			<Text>Großes Ossuarium</Text>
@@ -323,7 +323,7 @@
 			<Text>15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird (Effekt addiert sich mit Aquädukt). Reduziert [ICON_HAPPINESS_3] Armut.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_HELP">
-			<Text>+2 [ICON_PRODUCTION] Produktion on every Grassland and Plains tile. Requires [ICON_RES_ALUMINUM] Aluminum to be constructed. [NEWLINE][NEWLINE]City must not be built next to a River.</Text>
+			<Text>+2 [ICON_PRODUCTION] Produktion auf jedem Grasland- und Ebene-Geländefeld. Benötigt für den Bau [ICON_RES_ALUMINUM] Aluminium. [NEWLINE][NEWLINE]Stadt darf nicht neben einem Fluss gebaut werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_HELP">
 			<Text>+15% [ICON_FOOD] Nahrung in dieser Stadt.[NEWLINE][NEWLINE]Benötigt 2 [ICON_RES_HORSE] Pferde.</Text>
@@ -594,7 +594,7 @@
 			<Text>+2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
-			<Text>Einzigartiges griechisches Gebäude, dass die Arena ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus. Vor allem die beiden letztgenannten, während eines Krieges. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt.</Text>
+			<Text>Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus. Vor allem die beiden letztgenannten, während eines Krieges. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM">
 			<Text>Kolosseum</Text>
@@ -603,10 +603,10 @@
 			<Text>Das Kolosseum (antiker Name: Amphitheatrum Novum oder Amphitheatrum Flavium, italienisch: Colosseo) ist das größte der im antiken Rom erbauten Amphitheater, der größte geschlossene Bau der römischen Antike und weiterhin das größte je gebaute Amphitheater der Welt. Zwischen 72 und 80 n. Chr. errichtet, diente das Kolosseum als Austragungsort zumeist höchst grausamer und brutaler Veranstaltungen, die von Mitgliedern des Kaiserhauses zur Unterhaltung und Belustigung der freien Bewohner Roms und des römischen Reichs bei kostenlosem Eintritt ausgerichtet wurden. Heute ist die Ruine des Bauwerks eines der Wahrzeichen der Stadt und zugleich ein Zeugnis für die hochstehende Baukunst der Römer in der Antike.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP">
-			<Text>+2 [ICON_TOURISM] Tourismus. Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +3 [ICON_GREAT_GENERAL] Großer-General-Punkte (+3 [ICON_GREAT_ADMIRAL] Großer-Admiral-Punkte wenn Marineeinheiten) und +3 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, Bonus steigt mit jedem Zeitalter. [NEWLINE][NEWLINE]Kasernen, Schmieden und Waffenkammern in dieser Stadt erhalten +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE][ICON_CITY_CONNECTED] Stadtverbingungen produzieren +2% mehr [ICON_GOLD] Gold. Reduced [ICON_HAPPINESS_3] Langeweile leicht.</Text>
+			<Text>+2 [ICON_TOURISM] Tourismus. Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +3 [ICON_GREAT_GENERAL] Großer-General-Punkte (+3 [ICON_GREAT_ADMIRAL] Großer-Admiral-Punkte wenn Marineeinheiten) und +3 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, Bonus steigt mit jedem Zeitalter. [NEWLINE][NEWLINE]Kasernen, Schmieden und Waffenkammern in dieser Stadt erhalten +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE][ICON_CITY_CONNECTED] Stadtverbindungen produzieren +2% mehr [ICON_GOLD] Gold. Reduziert [ICON_HAPPINESS_3] Langeweile leicht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_STRATEGY">
-			<Text>Einzigartiges römisches Gebäude, dass die Arena ersetzt. Baut das Kolosseum um die städtische Kultur, den Tourismus, die Produktion und den Gewinn Eures Reiches zu maximieren, den Ihr durch den Sieg Eurer siegreichen Armeen erhaltet. Jedes Kolosseum steigert leicht den Goldwert einer Stadtverbingung, sodass Rom von großen, weitläufigen Reichen profitiert.</Text>
+			<Text>Einzigartiges römisches Gebäude, dass die Arena ersetzt. Baut das Kolosseum um die städtische Kultur, den Tourismus, die Produktion und den Gewinn Eures Reiches zu maximieren, den Ihr durch den Sieg Eurer siegreichen Armeen erhaltet. Jedes Kolosseum steigert leicht den Goldwert einer Stadtverbindung, sodass Rom von großen, weitläufigen Reichen profitiert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL">
 			<Text>Dampfmühle</Text>

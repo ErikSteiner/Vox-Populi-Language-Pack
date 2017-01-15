@@ -32,7 +32,7 @@ SET Text = 'Wenn Ihr die Stadt [COLOR_POSITIVE_TEXT]annektiert[ENDCOLOR], wird s
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Wird die Stadt [COLOR_POSITIVE_TEXT]Zerstört[ENDCOLOR], wird die Bevölkerung der Stadt jede Runde [ICON_RAZING] reduziert, bis der Wert 0 erreicht, und wird dann aus dem Spiel entfernt. Dieser Vorgang erzeugt [ICON_HAPPINESS_4] Unzufriedenheit gleich der Stadtbevölkerung, steigert jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegenüber diesem Spieler.[NEWLINE][NEWLINE]Während der Zerstörung besteht eine hohe Wahrscheinlichkeit, dass [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen die loyal zu ihrem vorherigen Besitzer sind (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
+SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegen diesen Spieler.[NEWLINE][NEWLINE]Während der Vernichtung besteht eine hohe Wahrscheinlichkeit, dass zu ihrem ehemaligen Besitzer loyale [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
@@ -149,11 +149,11 @@ SET Text = 'Das Apollo-Programm ist der Start des Weltraumrennens. Es ermöglich
 WHERE Tag = 'TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Fischfang'
+SET Text = 'Fischerei', Gender = 'feminine'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Fischfang ist die Tätigkeit bei der versucht wird Fisch zu fangen. Er erfolgt in der Regel in der Natur. Zu den Techniken des Fischfangs zählen das händische Fangen, das Fangen mit Speeren, mit Netzen, Angeln und das Fallenstellen. Der Begriff Fischfang kann auch auf das Fangen von anderen Wassertieren wie Muscheln, Kopffüßer, Krebstiere und Stachelhäuter angewendet werden. Wird normalerweise jedoch nicht für das Fangen von Zuchtfischen oder Wassersäugetieren wie etwa Wale verwendet.'
+SET Text = 'Fischerei ist die Tätigkeit bei der versucht wird Fisch zu fangen. Er erfolgt in der Regel in der Natur. Zu den Techniken des Fischerei zählen das händische Fangen, das Fangen mit Speeren, mit Netzen, Angeln und das Fallenstellen. Der Begriff Fischerei kann auch auf das Fangen von anderen Wassertieren wie Muscheln, Kopffüßer, Krebstiere und Stachelhäuter angewendet werden. Wird normalerweise jedoch nicht für das Fangen von Zuchtfischen oder Wassersäugetieren wie etwa Wale verwendet.'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -185,7 +185,7 @@ SET Text = 'Sailing is the art of harnessing the power of the wind to move a boa
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Segeln'
+SET Text = 'Segeln', Gender = 'neuter'
 WHERE Tag = 'TXT_KEY_TECH_OPTICS_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -313,7 +313,7 @@ WHERE Tag = 'TXT_KEY_TECH_THE_WHEEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WH
 -- Fix Currency Text
 
 UPDATE Language_de_DE
-SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows you to construct the [COLOR_POSITIVE_TEXT]Caravansary[ENDCOLOR], which greatly boosts the range and value of your land [ICON_INTERNATIONAL_TRADE] Trade Routes. Also allows Workers to construct the [COLOR_POSITIVE_TEXT]Village[ENDCOLOR], which increases the [ICON_GOLD] Gold output of map tiles.'
+SET Text = 'Erhaltet einen zusätzlichen [ICON_INTERNATIONAL_TRADE] Handelsweg. Erlaubt Euch den Bau des [COLOR_POSITIVE_TEXT]Karawanenhofs[ENDCOLOR], der die Reichweite und den Wert Eurer [ICON_INTERNATIONAL_TRADE] Handelswege über Land verbessert. Erlaubt Bautrupps außerdem das Errichten von [COLOR_POSITIVE_TEXT]Dörfern[ENDCOLOR], welche die [ICON_GOLD] Goldproduktion von Geländefeldern erhöhen.'
 WHERE Tag = 'TXT_KEY_TECH_CURRENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Other Text Fixes
@@ -350,7 +350,7 @@ SET Text = 'Receive an additional [ICON_INTERNATIONAL_TRADE] Trade Route. Allows
 WHERE Tag = 'TXT_KEY_TECH_POTTERY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Zollamts[ENDCOLOR] und [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], die die [ICON_GOLD] Goldprodutkion in Euren Städten verbessert.'
+SET Text = 'Ermöglicht die Errichtung des [COLOR_POSITIVE_TEXT]Zollamts[ENDCOLOR] und [COLOR_POSITIVE_TEXT]East India Company[ENDCOLOR], die die [ICON_GOLD] Goldproduktion in Euren Städten verbessert.'
 WHERE Tag = 'TXT_KEY_TECH_GUILDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE

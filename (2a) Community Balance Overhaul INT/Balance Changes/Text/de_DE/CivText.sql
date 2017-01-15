@@ -209,14 +209,11 @@ WHERE Tag = 'TXT_KEY_TRAIT_PHOENICIAN_HERITAGE' AND EXISTS (SELECT * FROM COMMUN
 -- Celts
 --------------------
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_CEILIDH_HALL_HELP', 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nach der Fertigstellung gewährt es eine bescheidene Summe an [ICON_CULTURE] Kultur und ein zehnründiger ''Feiertag'' beginnt in der Stadt.[NEWLINE] Nahegelegenes [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
+SELECT 'TXT_KEY_BUILDING_CEILIDH_HALL_HELP', 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nach der Fertigstellung gewährt es eine bescheidene Summe an [ICON_CULTURE] Kultur und in der Stadt beginnt ein zehnründiger ''Feiertag''.[NEWLINE] Nahegelegenes [ICON_RES_IVORY] Elfenbein: +3 [ICON_CULTURE] Kultur.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während der Renaissance, welches den Zirkus ersetzt. Es erhöht die [ICON_CULTURE] Kultur und die [ICON_HAPPINESS_1] Zufriedenheit der Stadt.
-
-
-Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während der Renaissance, welches den Zirkus ersetzt. Reduziert [ICON_HAPPINESS_3] Langeweile leicht und erhöht die [ICON_CULTURE] Kultur und den [ICON_PEACE] Glauben der Stadt. Nahegelegene Quellen an Elfenbein produzieren +3 [ICON_CULTURE] Kultur. Bietet 1 Platz für einen Musiker-Spezialisten und einen Platz für ein Großes Musikwerk.'
+SET Text = 'Die Ceilidh-Halle ist ein einzigartiges Gebäude der Kelten während des Mittelalters, das den Zirkus ersetzt. Reduziert [ICON_HAPPINESS_3] Langeweile leicht und erhöht die [ICON_CULTURE] Kultur und den [ICON_PEACE] Glauben der Stadt. Nahegelegene Quellen an Elfenbein produzieren +3 [ICON_CULTURE] Kultur. Bietet 1 Platz für einen Musiker-Spezialisten und einen Platz für ein Großes Musikwerk.'
 WHERE Tag = 'TXT_KEY_BUILDING_CEILIDH_HALL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -578,7 +575,7 @@ SET Text = 'Einheiten ignorieren Bewegungskosten für Wald- und Jungel-Geländef
 WHERE Tag = 'TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_Produktion] Produktion and +1 [ICON_FOOD] Nahrung from all Forests and Jungles worked by this City. Requires a nearby, workable Forest or Jungle tile to be constructed.'
+SET Text = '+1 [ICON_Produktion] Produktion und +1 [ICON_FOOD] Nahrung von allen Wald- und Dschungel-Geländefeldern, die von dieser Stadt bewirtschaftet werden. Benötigt einen nahegelegenes bewirtschaftbares Wald- oder Dschungel-Geländefeld um errichtet zu werden.'
 WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -743,15 +740,15 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_BERBER_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 -- Netherlands
 --------------------
 UPDATE Language_de_DE
-SET Text = '+4 [ICON_CULTURE] Culture for each different Luxury Resource you import from other Civilizations and City-States, +4 [ICON_GOLD] Gold for each different Luxury Resource you export to other Civilizations. Bonuses scale with Era.'
+SET Text = '+4 [ICON_CULTURE] Kultur für jedes unterschiedliche Luxusgut, das Sie von einer anderen Zivilisation oder einem Stadtstaat importiert, +4 [ICON_GOLD] Gold für jedes unterschiedliche Luxusgut, dass sie zu einer anderen Zivilisation exportieren. Bonus steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A Polder can be built on tiles with access to fresh water. It generates [ICON_FOOD] Nahrung, [ICON_GOLD] Gold, and [ICON_Produktion] Produktion, and grants [ICON_GOLD] Gold to adjacent Villages and Towns. Provides additional yields once later techs are researched.'
+SET Text = 'Ein Koog kann nur auf Geländefeldern mit Zugang zu Frischwasser gebaut werden. Es produziert [ICON_FOOD] Nahrung, [ICON_GOLD] Gold und [ICON_Produktion] Produktion und gewährt angrenzenden Dörfern und Kleinstädten [ICON_GOLD] Gold. Außerdem bietet es weitere Erträge, sobald spätere Technologien erforscht wurden.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A Polder can be built on tiles with access to fresh water. It generates [ICON_FOOD] Nahrung, [ICON_GOLD] Gold, and [ICON_Produktion] Produktion, and grants [ICON_GOLD] Gold to adjacent Villages and Towns. Provides additional yields once later techs are researched.[NEWLINE][NEWLINE]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country''s land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."'
+SET Text = 'Ein Koog kann nur auf Geländefeldern mit Zugang zu Frischwasser gebaut werden. Es produziert [ICON_FOOD] Nahrung, [ICON_GOLD] Gold und [ICON_Produktion] Produktion und gewährt angrenzenden Dörfern und Kleinstädten [ICON_GOLD] Gold. Außerdem bietet es weitere Erträge, sobald spätere Technologien erforscht wurden.[NEWLINE][NEWLINE]Ein Koog besteht aus flachem, durch Entwässerung gewonnenem Marschland, das durch Deiche geschützt wird. Köge sind für gewöhnlich Landflächen, die aus einem See, dem Meer, Schwemmland oder Sümpfen gewonnen wurden. Mit der Zeit sinkt das entwässerte Land, sodass der gesamte Koog irgendwann unter dem umgebenden Wasserspiegel liegt. Dann sickert Wasser in den Koog, das abgepumpt oder anderweitig abgeleitet werden muss. Die Deiche werden oft aus bereits vorhandenen Baustoffen der natürlichen Umgebung wie Erde oder Sand gebaut. In modernen Zeiten erhalten diese Barrieren eine Schutzschicht oder werden gleich aus Beton errichtet. Der entwässerte Boden ist überaus fruchtbar und bietet ausgezeichnetes Weide- oder Ackerland.[NEWLINE][NEWLINE]Die ersten Köge wurden im 11. Jahrhundert n. Chr. gebaut, obwohl schon die Römer Barrieren errichteten, um Wasser abzugrenzen. Die Niederlande gewinnen schon seit Langem Land aus Sümpfen, Feuchtgebieten und dem Meeresboden - die Hälfte der durch Köge gewonnenen Landflächen in Europa sind in den Niederlanden zu finden. Köge gibt es aber nicht nur in Europa, sondern auch in Asien und Nordamerika. Die Niederlande besitzen 3000 Köge, die 27% der Landfläche ausmachen. Amsterdam selbst wurde größtenteils auf Kögen gebaut. Ein niederländisches Sprichwort sagt: "Gott hat die Welt geschaffen, aber die Niederländer ihr eigenes Land".'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -973,11 +970,11 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 -- Songhai
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Grants +1 [ICON_CULTURE] Culture to all River tiles near the city, and +10% [ICON_Produktion] Produktion when constructing Buildings in this City.[NEWLINE]Nearby [ICON_RES_MARBLE] Marble: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_STONE] Stone: +2 [ICON_Produktion] Produktion.[NEWLINE]Nearby [ICON_RES_SALT] Salt: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.'
+SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_CULTURE] Kultur, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen, die mit einem Steinbruch modernisiert wurde.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Tabya is a Songhai unique building, replacing the Stone Works. The Tabya greatly increases the [ICON_CULTURE] Culture of Cities on rivers, boosts the value of Stone, Marble, and Salt, and boosts the Produktion of future Buildings in the City by 10%. Also allows [ICON_Produktion] Produktion to be moved from this city along trade routes inside your civilization.'
+SET Text = 'Das Tabya ist das einzigartige Gebäude der Songhai und ersetzt die Steinwerke. Das Tabya erhöht im hohen Maße die [ICON_CULTURE] Kultur, von Städten an Flüßen, steigert den Wert von Stein, Marmor und Salz und steigert die [ICON_Produktion] Produktionsrate von zukünftigen Gebäuden um 10%. Ermöglicht außerdem den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE

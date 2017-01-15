@@ -1,7 +1,7 @@
 INSERT INTO language_de_DE
 			(Tag,											Text)
 VALUES		('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS',		'GG/GA Punkte durch Barbaren'),
-			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Erlaubt allen Spielern das Sammeln Gro�er General und Gro�er Admiral Punkten durch das Bek�mpfen von Barbaren.');
+			('TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP',	'Erlaubt allen Spielern das Sammeln Großer General und Großer Admiral Punkten durch das Bekämpfen von Barbaren.');
 
 -- Siege Unit
 UPDATE language_de_DE
@@ -13,200 +13,200 @@ SET Text = 'Bewegt sich mit halber Geschwindigkeit in feindlichem Territorium'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_MUST_SET_UP';
 
 UPDATE language_de_DE
-SET Text = 'Artillery is a deadly siege weapon, more powerful than a cannon and with a longer range. Like the cannon it has limited visibility and moves at half speed in enemy territory, but its Ranged Combat strength is tremendous. Artillery also has the "indirect fire" ability, allowing it to shoot over obstructions at targets it cannot see (as long as other friendly units can see them). Like other siege weapons, Artillery is vulnerable to melee attack.'
+SET Text = 'Artillerie ist eine gefährliche Belagerungswaffe, die stärker ist als die Kanone und über eine größere Reichweite verfügt. Ähnlich wie die Kanone hat sie auch nur eine begrenzte Sicht und bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit, aber die Fernkampfstärke ist immens. Artillerie bietet zudem die Möglichkeit des "indirekten Feuers", sodass Ziele in Reichweite geraten, die blockiert und nicht sichtbar sind (solange eine andere freundlich gesinnte Einheit sie sehen kann). Genau wie andere Belagerungswaffen ist auch die Artillerie bei Nahkampfangriffen leicht verwundbar.'
 WHERE Tag = 'TXT_KEY_UNIT_ARTILLERY_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'The Cannon is an important mid-game siege unit, devastating against civilizations which have not yet acquired them. Like other siege units, the Cannon moves at half speed in enemy territory. Cannon remain potent into the Industrial era. Cannon cannot see as far as other units, and should be protected with melee units.'
+SET Text = 'Die Kanone ist eine wichtige Belagerungseinheit im mittleren Abschnitt des Spiels und besonders vernichtend gegen Zivilisationen, die sie noch nicht entdeckt haben. Wie die meisten Belagerungswaffen, bewegt sich die Kanone durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit. Kanonen behalten bis zum Industriezeitalter ihre Bedeutung. Sie können nicht so weit sehen wie andere Einheiten und sollten stets von Nahkampfeinheiten begleitet werden.'
 WHERE Tag = 'TXT_KEY_UNIT_CANNON_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'The Catapult is a siege weapon, extremely useful when assaulting early enemy cities. It is slow and extremely vulnerable to enemy melee attack; it always should be supported by other units when it''s in the field. It moves at half-speed in enemy territory.'
+SET Text = 'Das Katapult ist eine Belagerungswaffe, die extrem nützlich ist, um frühe feindliche Städte anzugreifen. Es ist langsam und im Nahkampf extrem leicht zu zerstören, weshalb es auf dem Schlachtfeld immer von anderen Einheiten unterstützt werden sollte. Er bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_CATAPULT_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Roman unique unit, more powerful than the Catapult it replaces. The Ballista is an excellent siege weapon. It is extremely useful against cities, but it is quite vulnerable to attack. Be sure to protect the Ballista with other military units. Moves at half-speed in enemy territory.'
+SET Text = 'Die Balliste ist die Spezialeinheit der Römer und mächtiger als das Katapult, das durch sie ersetzt wird. Sie ist eine ausgezeichnete Belagerungswaffe und sehr nützlich im Kampf gegen Städte, aber fast wehrlos gegen Angriffe. Schützt Ballisten immer mit anderen Militäreinheiten. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'A Trebuchet is a medieval siege weapon, significantly more powerful than the earlier Catapult units. The Trebuchet moves at half-speed in enemy territory, but once it is in position it can do serious damage to a fortified enemy city. Defend your trebuchets with melee and ranged units to keep enemy units from getting too close.'
+SET Text = 'Ein Tribok ist eine mittelalterliche Belagerungswaffe, deutlich stärker als die älteren Katapulteinheiten. Der Tribok bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit, doch wenn er erst einmal in Stellung gebracht wurde, kann er bei befestigten feindlichen Städten erhebliche Schäden anrichten. Ein Tribok sollte stets mit Nahkampf- und Fernwaffen-Einheiten geschützt werden, um Feinde am Näherkommen zu hindern.'
 WHERE Tag = 'TXT_KEY_UNIT_TREBUCHET_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Rocket Artillery is an extremely powerful siege weapon, far superior to the standard artillery. Rocket Artillery does not lose speed in enemy territory, making it much quicker than earlier guns. Although the Rocket Artillery''s sight range is limited, it can use indirect fire to attack targets it cannot see (as long as other friendly units can see them). Like all artillery it is vulnerable to infantry or armor attack, and should be defended by appropriate units.'
+SET Text = 'Raketenartillerie ist eine extrem starke Belagerungswaffe und der normalen Artillerie haushoch überlegen. Raketenartillerie verliert keine Fortbewegungsgeschwindigkeit in feindlichem Gelände und ist somit viel schneller einsetzbar als ältere Feuerwaffen. Auch wenn ihre Sichtweite beschränkt ist, kann die Raketenartillerie durch indirektes Feuer Ziele angreifen, die sie selbst nicht sieht (solange eine andere freundlich gesinnte Einheit sie sehen kann). Wie jede andere Artillerieeinheit ist sie besonders durch Infanterie- und Panzerangriffe gefährdet und sollte deshalb mit geeigneten Einheiten geschützt werden.'
 WHERE Tag = 'TXT_KEY_UNIT_ROCKET_ARTILLERY_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Fast Siege Unit of the late-game. Unlike other Siege Units, it does not move at half speed in enemy territory.'
+SET Text = 'Schnelle Belagerungseinheit des späteren Spiels. Anders als andere Belagerungseinheiten, verliert sie keine Fortbewegungsgeschwindigkeit in feindlichem Gelände.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY';
 
 UPDATE language_de_DE
-SET Text = 'The first Siege Unit in the game capable of firing 3 tiles away. Moves at half speed in enemy territory.'
+SET Text = 'Die erste Belagerungseinheit des Spiels, die drei Geländefelder weit feuern kann. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ARTILLERY';
 
 UPDATE language_de_DE
-SET Text = 'Powerful Renaissance Era Siege Unit. Moves at half speed in enemy territory.'
+SET Text = 'Mächtige Belagerungseinheit der Renaissance. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CANNON';
 
 UPDATE language_de_DE
-SET Text = 'Powerful Medieval Siege Unit, good at reducing the defenses of enemy Cities. Moves at half speed in enemy territory.'
+SET Text = 'Mächtige mittelalterliche Belagerungseinheit, die gut die Verteidigungen feindlicher Städte dezimieren kann. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_TREBUCHET';
 
 UPDATE language_de_DE
-SET Text = 'First siege Unit of the game. Does major damage to Units and Cities from a distance. Moves at half speed in enemy territory.'
+SET Text = 'Erste Belagerungseinheit des Spiels. Kann aus der Distanz großen Schaden bei Einheiten und Städten anrichten. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_CATAPULT';
 
 UPDATE language_de_DE
-SET Text = 'Siege Unit that does major damage from a distance. Moves at half speed in enemy territory. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength than the Catapult, which it replaces.'
+SET Text = 'Belagerungseinheit, die großen Schaden aus der Distanz anrichten kann. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit. Nur die Römer können sie bauen. Diese Einheit hat eine höhere [ICON_RANGE_STRENGTH] Fernkampfstärke als das Katapult, das sie ersetzt.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BALLISTA';
 
 UPDATE language_de_DE
-SET Text = 'The Hwach''a is extremely effective against enemy land units. It is slow and vulnerable to enemy melee attack; it always should be supported by other units when it''s in the field. The Hwach''a moves at half speed in enemy territory.'
+SET Text = 'Die Hwach''a ist extrem effektiv gegen Landeinheiten, aber langsam und verwundbar bei feindlichen Nahkampfangriffen und sollte daher auf dem Schlachtfeld immer durch andere Einheiten unterstützt werden. Die Hwach''a bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Anti-personnel rocket unit of the Medieval Era. Strong against land units, but weak against cities. Only Korea may build it. Replaces the Trebuchet. Moves at half speed in enemy territory.'
+SET Text = 'Personenabwehrraketen-Einheit des Mittelalters. Stark gegen Landeinheiten, aber schwach gegen Städte. Nur Korea darf sie bauen. Ersetzt den Tribok. Bewegt sich durch feindliches Gelände mit halber Fortbewegungsgeschwindigkeit.'
 WHERE Tag = 'TXT_KEY_CIV5_KOREA_HWACHA_HELP';
 
 -- CS Stuff
 UPDATE language_de_DE
-SET Text = 'Enslave {@1_Unit} - lose {2_NumInfluence} [ICON_INFLUENCE] Influence'
+SET Text = '{@1_Unit} versklaven - kostet {2_NumInfluence} [ICON_INFLUENCE] Einfluss'
 WHERE Tag = 'TXT_KEY_POPUP_MINOR_BULLY_UNIT_AMOUNT';
 
 UPDATE language_de_DE
-SET Text = 'If this City-State is more [COLOR_POSITIVE_TEXT]afraid[ENDCOLOR] of you than they are [COLOR_WARNING_TEXT]resilient[ENDCOLOR], you can demand one {@3_Unit} as tribute of at the cost of [ICON_INFLUENCE] Influence.  {1_FearLevel}{2_FactorDetails}'
+SET Text = 'Wenn dieser Stadtstaat mehr vor Ihnen [COLOR_POSITIVE_TEXT]verängstigt[ENDCOLOR] ist als er [COLOR_WARNING_TEXT]belastbar[ENDCOLOR] ist, könnt Ihr {3: gender masculine?ein; feminine?eine;} {@3_Unit} als Tribut, auf Kosten von [ICON_INFLUENCE] Einfluss verlangen.  {1_FearLevel}{2_FactorDetails}'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_UNIT_TT';
 
 -- Fixed quest text - transitioned to new 'quest rewards' panel
 UPDATE language_de_DE
-SET Text = 'You have successfully destroyed the Barbarian Encampment as requested by {1_MinorCivName:textkey}!'
+SET Text = 'Ihr habt erfolgreich das Barbarenlager zerstört, wie es {1_MinorCivName:textkey} erbeten hat!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP';
 
 UPDATE language_de_DE
-SET Text = '{3_TargetName:textkey} has declared war on {1_CivName:textkey}, citing diplomatic concerns. Receive the [COLOR_POSITIVE_TEXT]full[ENDCOLOR] Quest Reward from {1_TargetName:textkey} by [COLOR_NEGATIVE_TEXT]destroying[ENDCOLOR] {3_CivName:textkey}, or a [COLOR_POSITIVE_TEXT]partial[ENDCOLOR] Quest Reward through [COLOR_POSITIVE_TEXT]allying[ENDCOLOR] both City-States. International pressure will force peace in [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] turns, so act fast if you intend to intervene!'
+SET Text = '{3_TargetName:textkey} hat {1_CivName:textkey} den Krieg erklärt, unter Berufung auf diplomatische Anliegen. Erhaltet die [COLOR_POSITIVE_TEXT]volle[ENDCOLOR] Quest Belohnung von {1_TargetName:textkey} durch das [COLOR_NEGATIVE_TEXT]Vernichten[ENDCOLOR] von {3_CivName:textkey} oder eine [COLOR_POSITIVE_TEXT]teilweise[ENDCOLOR] Quest Belohnung durch das [COLOR_POSITIVE_TEXT]Verbünden[ENDCOLOR] mit beiden Stadtstaaten. Internationaler Druck wird Frieden in  [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] Runden erzwingen, handelt also schnell, wenn Ihr beabsichtigt zu intervenieren!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'War breaks out between {2_CivName:textkey} and {1_TargetName:textkey}'
+SET Text = 'Krieg bricht zwischen {2_CivName:textkey} und {1_TargetName:textkey} aus'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'The war between {2_CivName:textkey} and {1_TargetName:textkey} has ended, with {2_CivName:textkey} emerging as the clear victor. Your advisors worry that this outcome may lead to future conflict.'
+SET Text = 'Der Krieg zwischen {2_CivName:textkey} und {1_TargetName:textkey} ist beendet, mit {2_CivName:textkey} als den klaren Sieger. Ihre Berater sorgen sich, dass dieses Ereignis zu künftigen Konflikten führen kann.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = '{1_TargetName:textkey} defeated by {2_CivName:textkey}!'
+SET Text = '{1_TargetName:textkey} von {2_CivName:textkey} geschlagen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = 'Conquer {1_CityStateName:textkey} (full reward), or Ally both {1_CityStateName:textkey} and this City-State (partial reward).'
+SET Text = 'Erobert {1_CityStateName:textkey} (volle Belohnung) oder verbündet Euch mit {1_CityStateName:textkey} und diesem Stadtstaat (teilweise Belohnung).'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL';
 
 
 UPDATE language_de_DE
-SET Text = 'As {2_MinorCivName:textkey} requested, you have successfully connected {1_ResourceName} to your trade network! Their merchants are quite pleased!'
+SET Text = 'Wie von {2_MinorCivName:textkey} erbeten, habt Ihr erfolgreich {1_ResourceName} an Euer Handelsnetz angeschlossen! Ihre Kaufleute sind sehr zufrieden!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE';
 
 UPDATE language_de_DE
-SET Text = 'As {2_MinorCivName:textkey} requested, you have successfully constructed {1_WonderName}!'
+SET Text = 'Wie von {2_MinorCivName:textkey} erbeten, habt Ihr erfolgreich {1_WonderName} errichtet!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER';
 
 UPDATE language_de_DE
-SET Text = 'As {2_MinorCivName:textkey} requested, you have successfully created a {1_UnitName}! Their scholars are in awe.'
+SET Text = 'Wie von {2_MinorCivName:textkey} erbeten, habt Ihr erfolgreich {3: gender masculine?ein; feminine?eine;} {1_UnitName} erstellt! Their scholars are in awe.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON';
 
 UPDATE language_de_DE
-SET Text = 'Your discovery of a new Natural Wonder has inspired the citizens of {1_MinorCivName:textkey}!'
+SET Text = 'Eure Entdeckung eines neuen Naturwunders hat die Bewohner von {1_MinorCivName:textkey} inspiriert!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER';
 
 UPDATE language_de_DE
-SET Text = 'Your discovery of {1_TargetName:textkey} has greatly pleased the merchants of {2_MinorCivName:textkey}.'
+SET Text = 'Eure Entdeckung von {1_TargetName:textkey} hat den Kaufleuten von {2_MinorCivName:textkey} sehr gefallen.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER';
 
 UPDATE language_de_DE
-SET Text = 'Your gift of gold has helped {2_MinorCivName:textkey} recover from the tribute paid to {1_BullyName:textkey}!'
+SET Text = 'Euer Goldgeschenk an {2_MinorCivName:textkey} half ihnen sich von der Tributzahlung an {1_BullyName:textkey} zu erholen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD';
 
 UPDATE language_de_DE
-SET Text = 'Your promise to protect {2_MinorCivName:textkey} has helped them recover from the tribute paid to {1_BullyName:textkey}!'
+SET Text = 'Euer Schutzversprechen an {2_MinorCivName:textkey} half ihnen sich von der Tributzahlung an {1_BullyName:textkey} zu erholen!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT';
 
 UPDATE language_de_DE
-SET Text = 'You have impressed {1_MinorCivName:textkey} with your culture!  They turn a blind eye to the culture of other civilizations. Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = 'Ihr habt {1_MinorCivName:textkey} mit Eurer Kultur beeindruckt!  Sie drücken bei der Kultur anderer Zivilisationen ein Auge zu. Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE';
 
 UPDATE language_de_DE
-SET Text = 'Another civilization has impressed {1_MinorCivName:textkey} with its culture.  Your cultural growth was not enough. Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = 'Eine andere Zivilisation hat {1_MinorCivName:textkey} mit seiner Kultur beeindruckt.  Euer kulturelles Wachstum reichte nicht aus. Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE';
 
 UPDATE language_de_DE
-SET Text = 'The priesthood of {1_MinorCivName:textkey} are moved by your piety.  They shun the inferior faith of other civilizations. Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = 'Die Priesterschaft von {1_MinorCivName:textkey} ist von Eurer Frömmigkeit tief bewegt.  Sie scheuen den minderwertigen Glauben anderer Zivilisationen. Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH';
 
 UPDATE language_de_DE
-SET Text = 'Another civilization has impressed {1_MinorCivName:textkey} with its faith.  Your faith growth was not enough.  Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = 'Eine andere Zivilisation hat {1_MinorCivName:textkey} mit seinem Glauben beeindruckt.  Euer Wachstum an Glaube reichte nicht aus.  Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH';
 
 UPDATE language_de_DE
-SET Text = '{1_MinorCivName:textkey} is amazed by your swift technological advancements!  Their scientists and intellectuals dismiss other civilizations as stagnant. Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = '{1_MinorCivName:textkey} ist von Ihrem schnellen technologischen Fortschritt begeistert! Ihre Wissenschaftler und Intellektuellen tun andere Zivilisationen als stagnierend ab. Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS';
 
 UPDATE language_de_DE
-SET Text = 'Another civilization has impressed {1_MinorCivName:textkey} with its technological advancement.  Your scientific discoveries were not enough. Civilizations that succeeded (ties are allowed):[NEWLINE]'
+SET Text = 'Eine andere Zivilisation hat {1_MinorCivName:textkey} mit seinem technologischen Fortschritt beeindruckt.  Eure wissenschaftlichen Entdeckungen reichten nicht aus. Zivilisationen, die erfolgreich waren (Gleichstand erlaubt):[NEWLINE]'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS';
 
 UPDATE language_de_DE
-SET Text = '{2_MinorCivName:textkey} enjoyed seeing its rival {1_TargetName:textkey} squirm and give up hard earned resources.'
+SET Text = '{2_MinorCivName:textkey} genoss seinen Rivalen {1_TargetName:textkey} winden zu sehen und gibt daher hart verdiente Ressourcen ab.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE';
 
 UPDATE language_de_DE
-SET Text = '{2_MinorCivName:textkey} is relieved that the injustice they suffered at the hands of {1_TargetName:textkey} is now known by major world powers.'
+SET Text = '{2_MinorCivName:textkey} ist erleichtert, dass die Ungerechtigkeit die sie unter {1_TargetName:textkey} erlitten haben, nun unter den großen Weltmächten bekannt ist.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR';
 
 UPDATE language_de_DE
-SET Text = 'Citizens of {@2_MinorCivName} are glad to see {@1_ReligionName} come to their city and become the dominant religion.'
+SET Text = 'Die Bewohner von {@2_MinorCivName} freuen sich, dass {@1_ReligionName} ihre Stadt erreicht und nun die vorherrschende Religion wird.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION';
 
 UPDATE language_de_DE
-SET Text = 'Citizens of {@1_MinorCivName} are glad to see a connected trade route.'
+SET Text = 'Die Bewohner von {@1_MinorCivName} freuen sich über einen angeschlossenen Handelsweg.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE';
 
 -- Land Dispute Text
 UPDATE language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]Territorial disputes strain your relationship.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Territoriale Streitigkeiten belasten Eure Beziehung.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_LAND_DISPUTE';
 
 -- Reversed Tourism for Open Borders
 UPDATE language_de_DE
-SET Text = '+{1_Num}% Bonus for Open Borders from:[NEWLINE]   '
+SET Text = '+{1_Num}% Bonus für offene Grenzen mit:[NEWLINE]   '
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_OPEN_BORDERS_BONUS';
 
 -- Citadel Text
 UPDATE language_de_DE
-SET Text = 'A Citadel is a mighty fortification that can only be constructed by a Great General. You can construct a Citadel anywhere within your territory.[NEWLINE][NEWLINE]Upon constructing the Citadel, your Culture borders will also expand to surround the Citadel on all sides by one hex. If the new Culture border claims hexes already owned by another civilization, you will incur a diplomatic penalty as a result. Any unit stationed within a Citadel receives a 100% defensive strength bonus. Additionally, any enemy unit which ends its turn next to a Citadel takes 30 damage (damage does not stack with other Citadels).[NEWLINE][NEWLINE] The Acropolis in Athens, Greece, is an example of an early powerful Citadel. Such structures were almost impossible to take by direct attack, and they were capable of withstanding protracted sieges before they fell.'
+SET Text = 'Eine Zitadelle ist eine mächtige Festung, die nur von einem Großen General erbaut werden kann. Ihr könnt Zitadellen überall in Eurem Gebiet errichten.[NEWLINE][NEWLINE]Bei der Errichtung der Zitadelle werden die Grenzen Eurer Zivilisation um ein Feld um die Zitadelle herum erweitert. Werden dadurch Felder belegt, die bereits einer anderen Zivilisation gehören, zieht das einen diplomatischen Malus nach sich. In einer Zitadelle stationierte Einheiten erhalten 100% Bonus bei der Verteidigungsstärke. Außerdem nimmt jede feindliche Einheit, die die Runde neben einer Zitadelle beendet, 30 Schaden (Wirkung nicht kumulativ mit anderen Zitadellen).[NEWLINE][NEWLINE]Die Akropolis im griechischen Athen ist ein Beispiel für eine frühe, mächtige Zitadelle. Solche Bauwerke waren durch einen direkten Angriff nahezu uneinnehmbar und sie waren in der Lage, lang andauernden Belagerungen standzuhalten, bevor sie fielen.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT';
 
 -- CS Stuff
 UPDATE language_de_DE
-SET Text = 'You received tribute very recently'
+SET Text = 'Sie erhielten vor sehr kurzer Zeit Tribut'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
 UPDATE language_de_DE
-SET Text = 'You received tribute recently'
+SET Text = 'Sie erhielten vor kurzer Zeit Tribut'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY';
 
 -- Razing
 UPDATE language_de_DE	
-SET Text = '[COLOR_POSITIVE_TEXT]Razing[ENDCOLOR] The City will burn [ICON_RAZING] down each turn until it reaches 0 population, and is removed from the game. This produces a lot of [ICON_HAPPINESS_4] Unhappiness, but also greatly increases your [COLOR_POSITIVE_TEXT]War Score[ENDCOLOR] versus this player.'
+SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegen diesen Spieler.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- LUA
 UPDATE language_de_DE	
-SET Text = 'Base Yield:'
+SET Text = 'Ertrag:'
 WHERE Tag = 'TXT_KEY_PEDIA_YIELD_LABEL';
 
 UPDATE language_de_DE	
-SET Text = 'Connected By:'
+SET Text = 'Verbunden durch:'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENTS_LABEL';
 
 UPDATE language_de_DE
@@ -218,19 +218,19 @@ SET Text = '{@1_ImprovementDescription}: +{3_Yield} {4_Icon} {@2_YieldDescriptio
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_NOFRESHWATERYIELDCHANGES';
 
 UPDATE language_de_DE
-SET Text = '(Not Fresh Water)'
+SET Text = '(Ohne Süßwasser)'
 WHERE Tag = 'TXT_KEY_ABLTY_NO_FRESH_WATER_STRING';
 
 UPDATE language_de_DE
-SET Text = '(Fresh Water)'
+SET Text = '(Süßwasser)'
 WHERE Tag = 'TXT_KEY_ABLTY_FRESH_WATER_STRING';
 
 UPDATE language_de_DE
-SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (Not Fresh Water).'
+SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (Ohne Süßwasser).'
 WHERE Tag = 'TXT_KEY_NO_FRESH_WATER';
 
 UPDATE language_de_DE
-SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (Fresh Water).'
+SET Text = '{1_ImprovementName:textkey}: +{3_Num} {2_YieldType:textkey} (Süßwasser).'
 WHERE Tag = 'TXT_KEY_FRESH_WATER';
 
 UPDATE language_de_DE
@@ -242,7 +242,7 @@ SET Text = '{TXT_KEY_ABLTY_FASTER_MOVEMENT_STRING} {@1_RouteDescription}'
 WHERE Tag = 'TXT_KEY_CIVILOPEDIA_SPECIALABILITIES_MOVEMENT';
 
 UPDATE language_de_DE
-SET Text = 'Allowed units receive [COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR] Promotion: {@2_PromotionHelp}'
+SET Text = 'Ermöglicht allen erlaubten Einheiten die Beförderung [COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR]: {@2_PromotionHelp}'
 WHERE Tag = 'TXT_KEY_FREE_PROMOTION_FROM_TECH';
 
 UPDATE language_de_DE
@@ -258,29 +258,29 @@ SET Text = 'Eine Stadtstaaten Allianz verhindert dies.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR';
 
 UPDATE language_de_DE
-SET Text = 'Stadtstaat f�hrt dauerhaft Krieg.'
+SET Text = 'Stadtstaat führt dauerhaft Krieg.'
 WHERE Tag = 'TXT_KEY_DIPLO_MINOR_PERMANENT_WAR';
 
 -- Fixed diacritics for spy names.
 
 UPDATE language_de_DE
-SET Text = 'Ant�nio'
+SET Text = 'Antônio'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_0';
 
 UPDATE language_de_DE
-SET Text = 'Est�v�o'
+SET Text = 'Estêvão'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_3';
 
 UPDATE language_de_DE
-SET Text = 'Fern�o'
+SET Text = 'Fernão'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_4';
 
 UPDATE language_de_DE
-SET Text = 'Tom�'
+SET Text = 'Tomé'
 WHERE Tag = 'TXT_KEY_SPY_NAME_BRAZIL_8';
 
 UPDATE language_de_DE
-SET Text = 'Provides additional spies based on a fraction of the number of City-States, and levels up all your existing spies. Also provides a 15% reduction in enemy spy effectiveness. Must have a Police Station in all cities.'
+SET Text = 'Bringt zusätzliche Spion, basierend auf einem Bruchteil der Anzahl von Stadtstaaten und erhöht die Stufe aller Eurer existierenden Spione. Reduziert außerdem die Effektivität feindlicher Spione um 15%. Benötigt eine Polizeiwache in allen Städten.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP';
 
 UPDATE language_de_DE
@@ -361,7 +361,7 @@ SET Text = 'The deal we suggest may be an unfair exchange for you. Please inspec
 WHERE Tag = 'TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_2';
 
 UPDATE language_de_DE
-SET Text = 'Impossible. You go too far.'
+SET Text = 'Unmöglich. Ihr geht zu weit.'
 WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU';
 
 UPDATE language_de_DE
@@ -418,7 +418,7 @@ SET Text = 'Great Generals are "Great People" skilled in the art of warfare. The
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE language_de_DE
-SET Text = 'War Score'
+SET Text = 'Kriegspunktzahl'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_TITLE';
 
 UPDATE language_de_DE
@@ -450,7 +450,7 @@ WHERE Tag = 'TXT_KEY_LEADER_BARBARIAN';
 -- War
 
 UPDATE language_de_DE
-SET Text = '[COLOR_CYAN]Capture chance if defeated: {1_Num}%[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]Eroberungschance, wenn besiegt: {1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_CAPTURE_CHANCE';
 
 -- Religion

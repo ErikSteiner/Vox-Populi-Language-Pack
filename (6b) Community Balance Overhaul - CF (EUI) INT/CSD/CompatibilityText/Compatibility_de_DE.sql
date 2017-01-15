@@ -9,7 +9,7 @@ SET Text = '+5 [ICON_TOURISM] Tourism von allen Heiligen Stätten.[NEWLINE][NEWL
 WHERE Tag = 'TXT_KEY_BUILDING_RELIQUARY_HELP';
 
 UPDATE language_de_DE
-SET Text = '+15% Military Unit [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Production von allen Heiligen Stätten.[NEWLINE][NEWLINE]]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt. Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. [NEWLINE][NEWLINE]Erhaltet 1 weiteren Abgeordneten im Weltkongress für je 10 Städte die Ihrer Religion folgen.'
+SET Text = '+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE]]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt. Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. [NEWLINE][NEWLINE]Erhaltet 1 weiteren Abgeordneten im Weltkongress für je 10 Städte die Ihrer Religion folgen.'
 WHERE Tag = 'TXT_KEY_BUILDING_GREAT_ALTAR_HELP';
 
 UPDATE language_de_DE
@@ -107,24 +107,24 @@ WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 -- Cultural Diplomacy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE]Resources gifted by City-States doubled and +1 [ICON_HAPPINESS_1] Happiness from Chanceries. When you complete a [ICON_INTERNATIONAL_TRADE] Trade Route to a City-State, receive a [ICON_TOURISM] Tourism boost with all known Civs based on your recent [ICON_CULTURE] Culture output.'
+SET Text = '[COLOR_POSITIVE_TEXT]Völkerverständigung[ENDCOLOR][NEWLINE]Die Anzahl der von Stadtstaaten verschenkten Ressourcen wird um 100% erhöht und +1 [ICON_HAPPINESS_1] Zufriedenheit von Kanzleien. Erhaltet einen [ICON_TOURISM] Tourismusschub mit allen bekannten Zivilisationen, basierend auf dem aktuellen [ICON_CULTURE] Kulturertrag, wenn Sie einen [ICON_INTERNATIONAL_TRADE] Handelsweg mit einem Stadtstaat abschließen.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
 
 
 UPDATE language_de_DE
-SET Text = 'You are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] with {1_CityStateName:textkey}. Each turn, your [ICON_INFLUENCE] Influence with them will change by {2_Num}. If {1_CityStateName:textkey} is damaged and you have a [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] with them, this decay value will triple.'
+SET Text = 'Ihr seid [COLOR_POSITIVE_TEXT]verbündet[ENDCOLOR] mit dem Stadtstaat {1_CityStateName:textkey}. Jede Runde wird sich Euer [ICON_INFLUENCE] Einfluss mit ihnen um {2_Num} ändern. Wenn {1_CityStateName:textkey} beschädigt wurde und Ihr ihnen ein [COLOR_POSITIVE_TEXT]Schutzversprechen[ENDCOLOR] gabt, wird sich der Wert um das dreifache verringern.'
 WHERE Tag = 'TXT_KEY_ALLIES_CSTATE_TT';
 
 UPDATE language_de_DE
-SET Text = 'Each turn, your [ICON_INFLUENCE] Influence with them will change by {1_InfluenceRate}.  It rests at {2_InfluenceAnchor}. If their Capital is damaged and you have a [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] with them, this decay value will triple.'
+SET Text = 'Mit jeder Runde ändert sich der [ICON_INFLUENCE] Einfluss auf sie um {1_InfluenceRate}, bis er bei {2_InfluenceAnchor} bleibt. Wenn ihre Hauptstadt beschädigt wurde und Ihr ihnen ein [COLOR_POSITIVE_TEXT]Schutzversprechen[ENDCOLOR] gabt, wird sich der Wert um das dreifache verringern.'
 WHERE Tag = 'TXT_KEY_CSTATE_INFLUENCE_RATE';
 
 -- Policy Changes
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] enhances the benefits of City-State friendship and Global Diplomacy.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Statecraft grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET] Resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20. [NEWLINE] [ICON_BULLET] City-State Quest Rewards increased by +25%.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Statecraft policy unlocked grants:[ENDCOLOR] [NEWLINE] [ICON_BULLET]Your City-State [ICON_INFLUENCE] Influence degrades 5% slower.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Statecraft grants:[ENDCOLOR][NEWLINE] [ICON_BULLET] Unlocks building the [COLOR_CYAN]Forbidden Palace[ENDCOLOR]. [NEWLINE] [ICON_BULLET] Allied City-States will occasionally gift you [ICON_GREAT_PEOPLE] Great People. [NEWLINE] [ICON_BULLET] World Wonders require 1 less unlocked Policy for every 4 City-State alliances you maintain.[NEWLINE] [ICON_BULLET] Allows for the purchase of [ICON_DIPLOMAT] Great Diplomats with [ICON_PEACE] Faith starting in the Industrial Era.'
+SET Text = '[COLOR_POSITIVE_TEXT]Staatskunst[ENDCOLOR] erhöht die Vorteile der Freundschaft zwischen Stadtstaaten und dient der Völkerverständigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Die Einführung der Staatskunst gewährt:[ENDCOLOR] [NEWLINE] [ICON_BULLET] Nullpunkt des [ICON_INFLUENCE] Einflusses auf alle Stadtstaaten um 20 Punkte erhöht.[NEWLINE]Quest Belohnungen von [ICON_BULLET] Stadtstaaten um +25% erhöht.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Jede freigeschaltete Staatskunst Politik gewährt:[ENDCOLOR] [NEWLINE] [ICON_BULLET]Euer [ICON_INFLUENCE] Einfluss auf Stadtstaaten sinkt 5% langsamer.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Bei Übernahme aller Politiken im Staatskunst-Zweig:[ENDCOLOR][NEWLINE] [ICON_BULLET] Schaltet das Gebäude [COLOR_CYAN]Verbotener Palast[ENDCOLOR] frei. [NEWLINE] [ICON_BULLET] Verbündete Stadtstaaten schenken Euch von Zeit zu Zeit [ICON_GREAT_PEOPLE] Große Persönlichkeiten. [NEWLINE] [ICON_BULLET] Weltwunder benötigen 1 freigeschaltete Politik weniger, für je 4 verbündete Stadtstaaten die Ihr unterhaltet.[NEWLINE] [ICON_BULLET] Erlaubt den Kauf von [ICON_DIPLOMAT] Großen Diplomaten mit [ICON_PEACE] Glaube, mit beginn des Industriezeitalters.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE]Earn Great Diplomats 25% faster. All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 33% of what they produce for themselves.'
+SET Text = '[COLOR_POSITIVE_TEXT]Scholastik[ENDCOLOR][NEWLINE]Gewinnt Große Diplomaten 25% schneller. Alle Stadtstaaten, die [COLOR_POSITIVE_TEXT]Verbündete[ENDCOLOR] sind, liefern einen [ICON_RESEARCH] Wissenschaftsbonus in Höhe von 33% ihrer Produktion.'
 WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';

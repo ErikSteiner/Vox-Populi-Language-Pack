@@ -17,10 +17,10 @@
 			<Text>{TXT_KEY_CITYVIEW_STAGNATION_TEXT}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_NOBADGOODIES">
-			<Text>No Bad Goodies</Text>
+			<Text>Keine schlechten Goodies</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_RIVALTERRITORY">
-			<Text>Rival Territory</Text>
+			<Text>Gegnerisches Territorium</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_MILITARYSUPPORT">
 			<Text>Military Support</Text>
@@ -35,7 +35,7 @@
 			<Text>Kann eine Stadt gründen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_FOUNDABROAD">
-			<Text>Can Found an Overseas City</Text>
+			<Text>Kann eine überseeische Stadt gründen</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_IGNOREBUILDINGDEFENSE">
 			<Text>Ignores City Fortifications</Text>
@@ -44,10 +44,10 @@
 			<Text>Mechanized</Text>
 		</Row-->
 		<Row Tag="TXT_KEY_EUI_UNIT_SUICIDE">
-			<Text>Unit is Consumed During Attack</Text>
+			<Text>Einheit wird während des Angriffs verbraucht</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_CAPTUREWHILEEMBARKED">
-			<Text>Capture While Embarked</Text>
+			<Text>Während des Wasserns gefangen nehmen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_RUSHBUILDING">
 			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}</Text>
@@ -62,16 +62,16 @@
 			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_REQUIRESENHANCEDRELIGION">
-			<Text>Requires Enhanced Religion</Text>
+			<Text>Benötigt Verbesserungs-Glaubenssätze</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_PROHIBITSSPREAD">
-			<Text>Prohibits Spread</Text>
+			<Text>Verbietet Verbreitung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_CANBUYCITYSTATE">
 			<Text>{TXT_KEY_MISSION_BUY_CITY_STATE}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_RANGEATTACKONLYINDOMAIN">
-			<Text>Range Attack Only In Domain</Text>
+			<Text>Fernkampfangriff nur im Bereich</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_RANGEATTACKIGNORELOS">
 			<Text>{TXT_KEY_PROMOTION_INDIRECT_FIRE}</Text>
@@ -107,10 +107,10 @@
 			<Text>{TXT_KEY_MISSION_INTERCEPT} [ICON_RANGE_STRENGTH]{1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
-			<Text>Air Unit Cap {1}</Text>
+			<Text>Lufteinheiten Obergrenze {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
-			<Text>Nuke Damage Level {1}</Text>
+			<Text>Atombomben Schaden Level {1}</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_WORKRATE">
 			<Text>Work Rate {1}</Text>
@@ -128,7 +128,7 @@
 			<Text>{TXT_KEY_UPANEL_SPREAD_RELIGION_USES}: {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_RELIGIOUSSTRENGTH">
-			<Text>Religious Strength {1}</Text>
+			<Text>Religiöse Stärke {1}</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_UNIT_COMBATLIMIT">
 			<Text>Combat Limit {1}</Text>
@@ -149,7 +149,7 @@
 			<Text>{TXT_KEY_UNHAPPINESS}: {1}[ICON_HAPPINESS_3]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNIT_LEADEREXPERIENCE">
-			<Text>Leader Experience {1}</Text>
+			<Text>Führer Erfahrung {1}</Text>
 		</Row>
 
 <!-- BUILDING attributes -->
@@ -160,43 +160,43 @@
 			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_ISRELIGIOUS">
-			<Text>Is Religious</Text>
+			<Text>Ist religiös</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_BORDEROBSTACLE">
-			<Text>Border Obstacle</Text>
+			<Text>Grenzhindernis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLAYERBORDEROBSTACLE">
-			<Text>Player Border Obstacle</Text>
+			<Text>Spielergrenze Hindernis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CAPITAL">
-			<Text>Capital</Text>
+			<Text>Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GOLDENAGE">
 			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_MAPCENTERING">
-			<Text>Map Centering</Text>
+			<Text>Kartenzentrierung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NEVERCAPTURE">
-			<Text>Never Capture</Text>
+			<Text>Nicht einnehmbar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUKEIMMUNE">
-			<Text>Nuke Immune</Text>
+			<Text>Atombomben Immun</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_ALLOWSWATERROUTES">
-			<Text>Allows Water Routes</Text>
+			<Text>Erlaubt Handelswege über Wasser</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_EXTRALUXURIES">
-			<Text>Extra Luxuries</Text>
+			<Text>Zusätzliche Luxusgüter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_DIPLOMATICVOTING">
-			<Text>Diplomatic Voting</Text>
+			<Text>Diplomatische Abstimmung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_AFFECTSPIESNOW">
-			<Text>Affect Spies Now</Text>
+			<Text>Betrifft nun Spione</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NULLIFYINFLUENCEMODIFIER">
-			<Text>Nullify Influence Modifier</Text>
+			<Text>Einfluss-Modifikator verwerfen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_HOLYCITY">
 			<Text>[COLOR_WHITE]{TXT_KEY_RO_WR_HOLY_CITY}[ENDCOLOR]</Text>
@@ -223,109 +223,109 @@
 			<Text>City Wall</Text>
 		</Row-->
 		<Row Tag="TXT_KEY_EUI_BUILDING_LEAGUECOST">
-			<Text>League Cost {1}</Text>
+			<Text>Bündniskosten {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUMCITYCOSTMOD">
-			<Text>Num City Cost Mod {1}</Text>
+			<Text>Anzahl Stadtkosten-Modifikator {1}</Text>
 		</Row>
 		<!--Row Tag="TXT_KEY_EUI_BUILDING_MINAREASIZE">
 			<Text>Min Area Size {1}</Text>
 		</Row-->
 		<Row Tag="TXT_KEY_EUI_BUILDING_CONQUESTPROB">
-			<Text>{1}% Capture Chance</Text>
+			<Text>{1}% Eroberungschance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CITIESPREREQ">
-			<Text>Cities Prereq {1}</Text>
+			<Text>Städte Voraussetzung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_LEVELPREREQ">
-			<Text>Level Prereq {1}</Text>
+			<Text>Level Voraussetzung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALCULTURERATEMODIFIER">
-			<Text>Global Culture Rate Modifier {1}%</Text>
+			<Text>Globaler Kulturraten Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GREATPEOPLERATEMODIFIER">
 			<Text>+{1}%[ICON_GREAT_PEOPLE] {TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALGREATPEOPLERATEMODIFIER">
-			<Text>Global Great People Rate Modifier {1}%</Text>
+			<Text>Globale Große Persönlichkeiten Rate Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GREATGENERALRATEMODIFIER">
-			<Text>Great General Rate Modifier {1}%</Text>
+			<Text>Große General Rate Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GREATPERSONEXPENDGOLD">
-			<Text>Great Person Expend Gold {1}</Text>
+			<Text>Große Persönlichkeiten aufbrauchen Gold {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GOLDENAGEMODIFIER">
 			<Text>+{1}% {TXT_KEY_REPLAY_DATA_GOLDAGETURNS}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_UNITUPGRADECOSTMOD">
-			<Text>Unit Upgrade Cost Mod {1}%</Text>
+			<Text>Einheiten modernisieren Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_EXPERIENCE">
-			<Text>Experience {1}</Text>
+			<Text>Erfahrung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALEXPERIENCE">
-			<Text>Global Experience {1}</Text>
+			<Text>Globale Erfahrung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_FOODKEPT">
 			<Text>+{1}%[ICON_FOOD] {TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_AIRMODIFIER">
-			<Text>Air Modifier {1}%</Text>
+			<Text>Luft Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUKEMODIFIER">
-			<Text>Nuke Modifier {1}%</Text>
+			<Text>Atombomben Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_NUKEEXPLOSIONRAND">
 			<Text>Nuke Explosion Rand {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_HEALRATECHANGE">
-			<Text>Heal Rate Change {1}</Text>
+			<Text>Heilrate Veräderung {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_UNHAPPINESSMODIFIER">
-			<Text>Unhappiness Modifier {1}%</Text>
+			<Text>Unzufriedenheits Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERCITY">
-			<Text>Happiness Per City {1}</Text>
+			<Text>Zufriedenheit pro Stadt {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERXPOLICIES">
-			<Text>+1 Happiness per {1} Policies</Text>
+			<Text>+1 Zufriedenheit pro {1} Politiken</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CITYCOUNTUNHAPPINESSMOD">
-			<Text>City Count Unhappiness Mod {1}</Text>
+			<Text>Stadtanzahl Unzufriedenheits Mod {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_WORKERSPEEDMODIFIER">
-			<Text>Worker Speed Modifier {1}%</Text>
+			<Text>Bauarbeiter Geschwindigkeits Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_MILITARYPRODUCTIONMODIFIER">
-			<Text>Military Production Modifier {1}%</Text>
+			<Text>Militärproduktion Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_SPACEPRODUCTIONMODIFIER">
-			<Text>Space Production Modifier {1}%</Text>
+			<Text>Weltraum Produktions Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALSPACEPRODUCTIONMODIFIER">
-			<Text>Global Space Production Modifier {1}%</Text>
+			<Text>Globaler Weltraum Produktions Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_BUILDINGPRODUCTIONMODIFIER">
-			<Text>Building Production Modifier {1}%</Text>
+			<Text>Gebäude Produktions Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_WONDERPRODUCTIONMODIFIER">
-			<Text>Wonder Production Modifier {1}%</Text>
+			<Text>Wunder Produktions Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CITYCONNECTIONTRADEROUTEMODIFIER">
-			<Text>City Connection Trade Route Modifier {1}%</Text>
+			<Text>Stadtverbindungs Handelsweg Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_CAPTUREPLUNDERMODIFIER">
-			<Text>Capture Plunder Modifier {1}%</Text>
+			<Text>Eroberung Plünder Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_POLICYCOSTMODIFIER">
-			<Text>Policy Cost Modifier {1}%</Text>
+			<Text>Politikkosten Cost Mod {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTCULTURECOSTMODIFIER">
-			<Text>Plot Culture Cost Modifier {1}%</Text>
+			<Text>Kulturkosten für Geländefelder Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTCULTURECOSTMODIFIER">
-			<Text>Global Plot Culture Cost Modifier {1}%</Text>
+			<Text>Globaler Kulturkosten für Geländefelder Modifikator {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
 			<Text>Plot Buy Cost Modifier {1}%</Text>
@@ -337,16 +337,16 @@
 			<Text>Global Population Change {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_TECHSHARE">
-			<Text>Tech Share {1}</Text>
+			<Text>Technologie Anteil {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_FREETECHS">
-			<Text>{1} Free Techs</Text>
+			<Text>{1} Freie Technologien</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_FREEPOLICIES">
-			<Text>{1} Free Policies</Text>
+			<Text>{1} Freie Politiken</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_FREEGREATPEOPLE">
-			<Text>{1} Free Great People</Text>
+			<Text>{1} Freie Große Persönlichkeiten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_MEDIANTECHPERCENTCHANGE">
 			<Text>Median Tech Percent Change {1}%</Text>
@@ -361,7 +361,7 @@
 			<Text>Minor Friendship Change {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_VICTORYPOINTS">
-			<Text>Victory Points {1}</Text>
+			<Text>Siegpunkte {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_EXTRAMISSIONARYSPREADS">
 			<Text>Extra Missionary Spreads {1}</Text>
@@ -376,7 +376,7 @@
 			<Text>Global Espionage Modifier {1}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_EXTRASPIES">
-			<Text>Extra Spies {1}</Text>
+			<Text>Zusätzliche Spione {1}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_SPYRANKCHANGE">
 			<Text>Spy Rank Change {1}</Text>
@@ -435,25 +435,25 @@
 			<Text>Tablet Data 1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_OPEN_BORDERS_YOUR">
-			<Text>Your borders are open to them</Text>
+			<Text>Eure Grenzen sind für sie offen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_OPEN_BORDERS_THEIR">
-			<Text>Their borders are open to you</Text>
+			<Text>Ihre Grenzen sind für Euch offen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_CLOSED_BORDERS_YOUR">
-			<Text>Your borders are closed to them</Text>
+			<Text>Eure Grenzen sind für sie geschlossen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_CLOSED_BORDERS_THEIR">
-			<Text>Their borders are closed to you</Text>
+			<Text>Ihre Grenzen sind für Euch geschlossen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?None built; 1?Built in 1 City; 2?Built in {1} Cities;}{2: plural 0?; 1?, Building in 1 City; 2?, Building in {2} Cities;}</Text>
+			<Text>{1: plural  0?None built; 1?In 1 Stadt gebaut; 2?In {1} Städten gebaut;}{2: plural 0?; 1?, Gebäude in 1 Stadt; 2?, Gebäude in {2} Städten;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
-			<Text>Built by {@1_CivName} in {@2_CityName}</Text>
+			<Text>Gebaut von {@1_CivName} in {@2_CityName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_UNKNOWN_CITY">
-			<Text>Unknown City</Text>
+			<Text>Unbekannte Stadt</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

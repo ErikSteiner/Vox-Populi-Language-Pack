@@ -112,7 +112,7 @@ SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus diese
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_SALT] Salz oder [ICON_RES_MARBLE] Marmor-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
+SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_SALT] Salz- oder [ICON_RES_MARBLE] Marmor-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 		
 UPDATE Language_de_DE

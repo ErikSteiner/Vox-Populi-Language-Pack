@@ -108,15 +108,15 @@
 
 -- Cover now 25 and 25
 	UPDATE language_de_DE
-	SET Text = '+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].'
+	SET Text = '+25% [COLOR_POSITIVE_TEXT]Verteidigung[ENDCOLOR] gegen alle [COLOR_POSITIVE_TEXT]Fernangriffe[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_COVER_1_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = '+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].'
+	SET Text = '+25% [COLOR_POSITIVE_TEXT]Verteidigung[ENDCOLOR] gegen alle [COLOR_POSITIVE_TEXT]Fernangriffe[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_COVER_2_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 	UPDATE language_de_DE
-	SET Text = '+5% [ICON_STRENGTH] Combat Strength, and +5% additional [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.'
+	SET Text = '+5% [ICON_STRENGTH] Kampfstärke und +5% zusätzliche [ICON_STRENGTH] Kampfstärke neben einer verbündeten Einheit.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_DISCIPLINE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
@@ -242,16 +242,16 @@
 -- Amphibious Change
 
 	UPDATE language_de_DE
-	SET Text = 'Eliminates combat penalties for attacking from the sea or over a river, and grants a movement bonus when moving across rivers.'
+	SET Text = 'Hebt Kampfmalus für Angriffe vom Wasser oder über einen Fluss auf und gewährt einen Bonus auf die Fortbewegungsgeschwindigkeit, wenn ein Fluß überquert wird.'
 	WHERE Tag = 'TXT_KEY_PROMOTION_AMPHIBIOUS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Medic I/II
 	UPDATE language_de_DE
-	SET Text = 'This unit and all units in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 5 Additional HP[ENDCOLOR] per turn.'
+	SET Text = 'Diese Einheit und alle Einheiten in benachbarten Feldern werden pro Runde um [COLOR_POSITIVE_TEXT]um 5 zusätzliche TP geheilt[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	UPDATE language_de_DE
-	SET Text = 'This unit and all units in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 5 Additional HP[ENDCOLOR] per turn. This unit [COLOR_POSITIVE_TEXT]Heals 5 Additional HP[ENDCOLOR] per turn when [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].'
+	SET Text = 'Diese Einheit und alle Einheiten in benachbarten Feldern [COLOR_POSITIVE_TEXT]heilen zusätzlich 5 TP[ENDCOLOR] pro Runde. Diese Einheit [COLOR_POSITIVE_TEXT]heilt zusätzlich 5 TP[ENDCOLOR] pro Runde, wenn sie sich [COLOR_POSITIVE_TEXT]außerhalb freundlich gesinnten Territoriums befindet[ENDCOLOR].'
 	WHERE Tag = 'TXT_KEY_PROMOTION_MEDIC_II_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 	-- Buffalo Loins/Chest

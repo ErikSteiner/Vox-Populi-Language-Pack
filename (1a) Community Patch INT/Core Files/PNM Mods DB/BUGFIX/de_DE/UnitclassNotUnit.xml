@@ -2,11 +2,11 @@
 <GameData>
 	<language_de_DE>
 		<Row Tag="TXT_KEY_TP_FAITH_NEXT_PROPHET_PARAM">
-			<Text>{1_Num} [ICON_PEACE] Glauben wird mindestens benötigt, für die nächste Möglichkeit auf einen {2_UNITCLASS_PROPHET}.</Text>
+			<Text>Für die nächste Möglichkeit auf einen {2_UNITCLASS_PROPHET} wird mindestens {1_Num} [ICON_PEACE] Glauben benötigt.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_RO_FAITH_TOOLTIP_PARAM">
-			<Text>Benötigt mindestens {1_MinFaith} [ICON_PEACE] Glauben für nächsten {2_UNITCLASS_PROPHET}</Text>
+			<Text>Benötigt mindestens {1_MinFaith} [ICON_PEACE] Glauben für den nächsten {2_UNITCLASS_PROPHET}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
 			<Text>Spart auf {1_UNITCLASS_PROPHET}</Text>

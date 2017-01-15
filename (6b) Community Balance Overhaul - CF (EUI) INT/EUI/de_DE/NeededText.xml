@@ -3,7 +3,7 @@
 <GameData>
 	<language_de_DE>
 		<Row Tag="TXT_KEY_DEBUG_X_Y">
-			<Text>X: {1_Num} / Y: {2_Num} / Plot Danger: {3_Num}</Text>
+			<Text>X: {1_Num} / Y: {2_Num} / Gefahr auf Geländefeld: {3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
 			<Text>Örtliche Ressourcen</Text>

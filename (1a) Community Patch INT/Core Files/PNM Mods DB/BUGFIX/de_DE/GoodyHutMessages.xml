@@ -22,7 +22,7 @@
 		<Update>
 			<Where Tag="TXT_KEY_GOODY_CULTURE"/>
 			<Set>
-				<Text>Ihr entdeckt kulturelle Artefakte, welche Eure Bürger in Ehrfurcht versetzen!</Text>
+				<Text>Ihr entdeckt kulturelle Artefakte, die Eure Bürger in Ehrfurcht versetzen!</Text>
 			</Set>
 		</Update>
 		<Update>
