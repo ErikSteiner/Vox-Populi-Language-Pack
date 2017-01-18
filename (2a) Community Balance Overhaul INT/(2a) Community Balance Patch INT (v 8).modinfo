@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="7">
+<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="8">
   <Properties>
     <Name>(2a) Community Balance Overhaul [COLOR_GREEN]Localized[ENDCOLOR]</Name>
     <Stability>Beta</Stability>
@@ -8,7 +8,7 @@
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>7</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>8</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
