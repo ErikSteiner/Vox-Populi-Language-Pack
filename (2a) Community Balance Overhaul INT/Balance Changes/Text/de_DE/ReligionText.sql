@@ -46,7 +46,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Liturgy (Now Goddess of Wisdom)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für je 15 [ICON_RESEARCH] Wissenschaft pro Runde. +1 [ICON_RESEARCH] Wissenschaft und +2 [ICON_PEACE] Glauben in jeder Stadt'
+SET Text = '+1 [ICON_PEACE] Glauben für je 15 [ICON_RESEARCH] Wissenschaft pro Runde. +2 [ICON_RESEARCH] Wissenschaft und +1 [ICON_PEACE] Glauben in jeder Stadt'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -78,7 +78,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Goddess of Love
 UPDATE Language_de_DE
-SET Text = 'Erhaltet 10 [ICON_PEACE] Glauben und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, jedes Mal wenn ein [ICON_CITIZEN] Bürger geboren wird. Bonus steigt mit jedem Zeitalter und Spielgeschwindigkeit'
+SET Text = 'Erhaltet 12 [ICON_PEACE] Glauben und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, jedes Mal wenn ein [ICON_CITIZEN] Bürger geboren wird. Bonus steigt mit jedem Zeitalter und Spielgeschwindigkeit'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Settlements (Now God of the Expanse)
@@ -93,7 +93,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT' AND EXISTS (SELECT * FR
 
 -- God of Festivals
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur und +2 [ICON_GOLD] Gold für jedes einzigartige Luxusgut das Sie kontrollieren'
+SET Text = '+1 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur und +2 [ICON_GOLD] Gold für jedes einzigartige Luxusgut das Sie kontrollieren'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_FESTIVALS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Oral Tradition (Now Goddess of Springtime)
@@ -136,7 +136,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Monuments to the Gods (Now Goddess of Beauty)
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_PEACE] Glauben und +1 [ICON_CULTURE] Kultur von Weltwundern. +15% [ICON_PRODUCTION] Produktion von Vorrenaissancewundern'
+SET Text = '+1 [ICON_PEACE] Glauben von Weltwundern. Ignoriert "Anzahl an Politiken benötigt" Voraussetzung von Vorrenaissancewundern'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -145,7 +145,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Dance of the Aurora (now God of the Stars and Sky)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur und +2 [ICON_PRODUCTION] Produktion von Tundra-Geländefeldern mit modernisierten Ressourcen'
+SET Text = '+1 [ICON_PEACE] Glauben, +1 [ICON_CULTURE] Kultur und +2 [ICON_PRODUCTION] Produktion von Tundra-Geländefeldern mit modernisierten Ressourcen'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -168,7 +168,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER' AND EXISTS (SELECT * FROM COMMUNITY WH
 
 -- God-King
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur, [ICON_PEACE] Glauben, [ICON_GOLD] Gold und [ICON_RESEARCH] Wissenschaft für je 6 Anhänger Eures Pantheons in eigenen Städten'
+SET Text = '+1 [ICON_CULTURE] Kultur, [ICON_PEACE] Glauben, [ICON_GOLD] Gold und [ICON_RESEARCH] Wissenschaft für je 5 Anhänger Eures Pantheons in eigenen Städten'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_KING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Sun God
@@ -289,7 +289,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Heathen Conversion (Now Holy Warriors)
 UPDATE Language_de_DE
-SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten. Die Menge an strategischen Ressourcen in eigenem Territorium ist um +50% erhöht.'
+SET Text = 'Nutzt Glauben für den Kauf von Landeinheiten in Städten. Die Menge an strategischen Ressourcen steigt um 3% pro folgender Stadt (bis zu 50%).'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -298,7 +298,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Pious Celebrations)
 UPDATE Language_de_DE
-SET Text = 'Besitzer der Heiligen Stätte erhält +1 [ICON_HAPPINESS_1] Zufriedenheit für je zwei Städte die dieser Religion folgen und +15 [ICON_INFLUENCE] Einfluß auf den Nullpunkt von Stadtstaaten die dieser Religion folgen.'
+SET Text = 'Besitzer der Heiligen Stätte erhält +1 [ICON_HAPPINESS_1] Zufriedenheit für je zwei Städte die dieser Religion folgen und +25% Erträge von befreundeten/verbündeten Stadtstaaten die dieser Religion folgen.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE

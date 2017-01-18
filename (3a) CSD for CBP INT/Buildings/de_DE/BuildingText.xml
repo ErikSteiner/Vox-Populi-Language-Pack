@@ -76,7 +76,7 @@
 			<Text>Receive 1 free Great Diplomat when completed. +1 [ICON_RES_PAPER] Paper. +20% [ICON_PRODUCTION] Production of Diplomatic Units. All Diplomatic Units receive the [COLOR_POSITIVE_TEXT]Imperial Seal[ENDCOLOR] Promotion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
-			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Gewährt eine freie Kanzlei in der Stadt, in der es gebaut wurde.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Alle Kanzleien produzieren +3 [ICON_GOLD] Gold und +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
 			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
@@ -131,7 +131,7 @@
 			<Text>Baut dieses Wunder um einen permanenten Anstieg auf Eure Beziehungen mit Stadtstaaten, durch besser ausgebildete Diplomatische Einheiten zu erhalten. Gewährt einen Großen Diplomaten, der zu einem nahe gelegenen Stadtstaat geschickt werden kann.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_STRATEGY">
-			<Text>Baut dieses Wunder um Euren Diplomatischen Einheiten das Betreten gegnerischen Geländes zu ermöglichen, ohne Offene Grenzen vereinbart zu haben - Jahrhunderte vor allen anderen. Gewährt eine freie Kanzlei in der Stadt, in der es gebaut wurde.</Text>
+			<Text>Baut dieses Wunder um Euren Diplomatischen Einheiten das Betreten gegnerischen Geländes zu ermöglichen, ohne Offene Grenzen vereinbart zu haben - Jahrhunderte vor allen anderen. Steigert das Potenzial aller Kanzleien in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY">
 			<Text>Dieses Nationale Wunder kann erst gebaut werden, wenn die Zivilisation eine Öffentliche Schule in all seinen Städten gebaut hat. Baut dieses Nationale Wunder um weitere Stimmen für den Weltkongress zu erhalten, basierend auf der Anzahl von momentan vereinbarten Forschungsabkommen mit anderen Spielern. Sie erhalten außerdem einen großen Bonus bei der Kultur- und Wissenschaftsproduktion in der Stadt, in der es gebaut wurde.</Text>

@@ -38,7 +38,7 @@ SET Text = 'Der Basar ist das einzigartige Gebäude der Araber und ersetzt den M
 WHERE Tag = 'TXT_KEY_BUILDING_BAZAAR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Wenn Ihr ein Historisches Ereignis absolviert erhält Eure [ICON_CAPITAL] Hauptstadt erhält +1 [ICON_RESEARCH] Wissenschaft und +1 [ICON_CULTURE] Kultur. Weiterhin 20% auf den Fortschritt für eine zufällige [ICON_GREAT_PEOPLE] Große Persönlichkeit. [ICON_TOURISM] Tourismus durch Historische Ereignisse um 20% erhöht.'
+SET Text = 'Wenn Ihr ein Historisches Ereignis absolviert erhält Eure [ICON_CAPITAL] Hauptstadt erhält +2 [ICON_RESEARCH] Wissenschaft und +1 [ICON_CULTURE] Kultur. Weiterhin 20% auf den Fortschritt für eine zufällige [ICON_GREAT_PEOPLE] Große Persönlichkeit. [ICON_TOURISM] Tourismus durch Historische Ereignisse um 20% erhöht.'
 WHERE Tag = 'TXT_KEY_TRAIT_LAND_TRADE_GOLD2' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE

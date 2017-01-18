@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="8">
   <Properties>
-    <Name>(2a) Community Balance Overhaul [COLOR_GREEN]Localized[ENDCOLOR]</Name>
+    <Name>(2a) Community Balance Overhaul Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(01-10) Translation of the Community Balance Overhaul</Teaser>
+    <Teaser>(01-18) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -21,7 +21,7 @@
   <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="88" maxversion="999" title="Community Patch" />
 	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="7" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="8" maxversion="999" title="(1a) Community Patch Localized" />
   </Dependencies>
   <References />
   <Blocks />

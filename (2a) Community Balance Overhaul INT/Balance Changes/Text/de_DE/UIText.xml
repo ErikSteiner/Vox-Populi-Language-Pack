@@ -193,6 +193,10 @@
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
 			<Text>{1_Num} [ICON_TOURISM] Tourismus durch Weltwunder</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
+			<Text>{1_Num}% [ICON_TOURISM] Tourismus von eigenen fremden Hauptstädten</Text>
+		</Row>
 		<!-- Resource Monopoly Text-->
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY">
 			<Text>(Ihr) {1_Monopoly}%</Text>
@@ -280,18 +284,24 @@
 
 		<!-- Text for HappinessInfo.lua -->
 		<Row Tag ="TXT_KEY_HAPPINESS_FROM_MONOPOLY">
-			<Text>Monopolies</Text>
+			<Text>Monopole</Text>
 		</Row>
 		<Row Tag ="TXT_KEY_HAPPINESS_FROM_EXTRA_LUXURY">
-			<Text>Luxury Pop. Bonus</Text>
+			<Text>Luxusgüter Bev. Bonus</Text>
 		</Row>
 
 		<!-- Text for UnitPanel.lua-->
 		<Row Tag="TXT_KEY_BUILD_TOURISM_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] Tourism</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_TOURISM] Tourismus</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_GAP_STRING">
-			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Golden Age Points</Text>
+			<Text>{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GGP_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_GENERAL] Großer General Punkte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GAP2_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] Großer Admiral Punkte</Text>
 		</Row>
 
 		<!-- Assyria UA Text -->
@@ -897,7 +907,7 @@
 			<Text>Brasilholz</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BRAZILWOOD_HELP">
-			<Text>Einzigartiges Luxusguter der Brazilianer. Kann nur mit dem Brasilholzlager erschlossen werden.</Text>
+			<Text>Einzigartiges Luxusgut der Brasilianer. Kann nur mit dem Brasilholzlager erschlossen werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_BRAZILWOOD">
 			<Text>Brasilholz</Text>
