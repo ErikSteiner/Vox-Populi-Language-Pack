@@ -197,12 +197,12 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY';
 
 -- Razing
 UPDATE language_de_DE	
-SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunktzahl[ENDCOLOR] gegen diesen Spieler.'
+SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunkte[ENDCOLOR] gegen diesen Spieler.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- LUA
 UPDATE language_de_DE	
-SET Text = 'Ertrag:'
+SET Text = 'Grundertrag:'
 WHERE Tag = 'TXT_KEY_PEDIA_YIELD_LABEL';
 
 UPDATE language_de_DE	
@@ -288,76 +288,76 @@ SET Text = 'An important defensive National Wonder for a technology-driven civil
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Conducting Espionage'
+SET Text = 'Spionage durchführen'
 WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE';
 
 UPDATE language_de_DE
-SET Text = 'Disrupting Plans'
+SET Text = 'Pläne vereiteln'
 WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]Your spies were caught operating in their lands.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Eure Spione wurden in ihrem Land gefangen.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CAUGHT_STEALING';
 
 -- Changed Diplo Text for Trade
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]We are trade partners.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]Wir sind Handelspartner.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_TRADE_PARTNER';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]You have shared intrigue with them.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]Ihr habt ihnen eine Intrige offenbart.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_SHARED_INTRIGUE';
 
 -- Changed Diplo Text for Assistance
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Your recent diplomatic actions please them.[ENDCOLOR]'
+SET Text = '[COLOR_POSITIVE_TEXT]Euer kürzliches diplomatisches Vorgehen gefällt ihnen.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_ASSISTANCE_TO_THEM';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]Your recent diplomatic actions disappoint them.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Euer kürzliches diplomatisches Vorgehen enttäuscht sie.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_REFUSED_REQUESTS';
 
 -- Diplo Text for DoF changed
 UPDATE language_de_DE
-SET Text = 'Our Declaration of Friendship must end.'
+SET Text = 'Unsere Freundschaftserklärung muss enden.'
 WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_WORK_WITH_US';
 
 UPDATE language_de_DE
-SET Text = 'I did not want things to end up like this, but I cannot overlook your warmongering. Consider our Declaration of Friendship ended.'
+SET Text = 'Ich wollte nicht, dass es so kommt, aber ich kann Eure Kriegstreiberei nicht länger tolerieren. Betrachtet unsere Freundschaftserklärung als beendet.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_WARMONGER_1';
 
 UPDATE language_de_DE
-SET Text = 'Your dealings with city-states in my sphere of influence is unacceptable. Consider our Declaration of Friendship ended.'
+SET Text = 'Euer Handel mit Stadtstaaten in meinem Einflussbereich ist inakzeptabel. Betrachtet unsere Freundschaftserklärung als beendet.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_MINORS_1';
 
 UPDATE language_de_DE
-SET Text = 'I fear that our close proximity was destined to poison our relationship. Consider our Declaration of Friendship ended.'
+SET Text = 'Unsere Nähe musste unsere Beziehungen wohl irgedwann vergiften. Betrachtet unsere Freundschaftserklärung als beendet.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_LAND_1';
 
 UPDATE language_de_DE
-SET Text = 'Your continued greed in collecting wonders of the world has become a major issue. Consider our Declaration of Friendship ended.'
+SET Text = 'Eure ständige Gier, Weltwunder zu sammeln, hat sich zu einem großen Problem entwickelt. Betrachtet unsere Freundschaftserklärung als beendet.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_WONDERS_1';
 
 UPDATE language_de_DE
-SET Text = 'It is clear to me now that the paths we are traveling must ultimately drive us apart. Consider our Declaration of Friendship ended.'
+SET Text = 'It is clear to me now that the paths we are traveling must ultimately drive us apart. Betrachtet unsere Freundschaftserklärung als beendet.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_VICTORY_1';
 
 UPDATE language_de_DE
-SET Text = 'Circumstances have changed, and I believe there is no longer a need for our Declaration of Friendship to continue. I hope you can understand.'
+SET Text = 'Die Umstände haben sich geändert, und ich glaube, dass es nicht mehr notwendig ist, daß unsere Freundschaftserklärung fortgesetzt wird. Ich hoffe Ihr versteht das.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_DEFAULT_1';
 
 UPDATE language_de_DE
-SET Text = 'I am sorry, but it is time for our Declaration of Friendship to end.'
+SET Text = 'Es tut mir leid, aber es ist an der Zeit, unsere Freundschaftserklärung zu beenden.'
 WHERE Tag = 'TXT_KEY_END_WORK_WITH_US_DEFAULT_2';
 
 UPDATE language_de_DE
-SET Text = 'We cannot offer you enough to make this a fair trade. We can, however, offer you this deal.'
+SET Text = 'Wir können Euch nicht genug bieten, um daraus einen gerechten Handel zu machen. Wir können Euch dieses Angebot jedoch anbieten.'
 WHERE Tag = 'TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_1';
 
 UPDATE language_de_DE
-SET Text = 'The deal we suggest may be an unfair exchange for you. Please inspect it closely.'
+SET Text = 'Die Vereinbarung, die wir vorschlagen, kann ein unfairer Handel für Sie sein. Bitte kontrolliert Sie genau.'
 WHERE Tag = 'TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER_2';
 
 UPDATE language_de_DE
@@ -365,80 +365,85 @@ SET Text = 'Unmöglich. Ihr geht zu weit.'
 WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]You are competing for World Wonders.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Ihr konkurriert um Weltwunder[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_WONDER_DISPUTE';
 
 UPDATE language_de_DE
-SET Text = 'Deployable Troops.'
+SET Text = 'Verlegbare Truppen.'
 WHERE Tag = 'TXT_KEY_DEMOGRAPHICS_ARMY_MEASURE';
 
 UPDATE language_de_DE
-SET Text = 'Germany always looks forward to favorable relations with mighty empires such as yours.'
+SET Text = 'Deutschland pflegt immer gerne vielversprechende Beziehungen mit mächtigen Reichen wie Eurem.'
 WHERE Tag = 'TXT_KEY_LEADER_BISMARCK_GREETING_NEUTRAL_HELLO_1';
 
 UPDATE language_de_DE
-SET Text = '{1_Num} [ICON_CULTURE] from Great Works and Themes'
+SET Text = '{1_Num} [ICON_CULTURE] durch Große Werke und Themen'
 WHERE Tag = 'TXT_KEY_CULTURE_FROM_GREAT_WORKS';
 
 UPDATE language_de_DE
-SET Text = 'You have discovered {1_Num} technologies that {2_CivName} does not know.[NEWLINE]They are receiving +{3_Num} [ICON_RESEARCH] Science on this route due to their Cultural Influence over you.'
+SET Text = 'Ihr habt {1_Num} {1: plural 1?Technologie; other?Technologien;} entdeckt, die {2_CivName} unbekannt {1: plural 1?ist; other?sind;}.[NEWLINE]Sie erhalten aufgrund ihres kulturellen Einflusses auf Euch +{3_Num} [ICON_RESEARCH] Wissenschaft auf diesem Weg.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED';
 
 UPDATE language_de_DE
-SET Text = '{1_CivName} has discovered {2_Num} technologies that you do not know.[NEWLINE]You are receiving +{3_Num} [ICON_RESEARCH] Science on this route due to your Cultural Influence over them.'
+SET Text = '{1_CivName} hat {2_Num} {2: plural 1?Technologie; other?Technologien;} entdeckt, die Euch unbekannt {2: plural 1?ist; other?sind;}.[NEWLINE]Ihr erhaltet aufgrund Eures kulturellen Einflusses auf sie +{3_Num} [ICON_RESEARCH] Wissenschaft auf diesem Weg.'
 WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED';
 
 -- Trade Things
 UPDATE language_de_DE
-SET Text = 'The other leader has not met any third party players, or you do not have an Embassy with this player.'
+SET Text = 'Der andere Anführer hat noch keine anderen Spieler getroffen oder Ihr habt noch keine Botschaft mit diesem Spieler.'
 WHERE Tag = 'TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM';
 
 -- Civilopedia Refresh
 UPDATE language_de_DE
-SET Text = 'Only one combat unit may occupy a city at a time. That military unit is said to "Garrison" the city, and it adds a significant defensive bonus to the city. If a city is attacked while a Garrison is in the city, the Garrison will deflect some of the damage onto itself, thus offering the city even more protection. Be careful, however, as a Garrison can be destroyed this way.[NEWLINE][NEWLINE]Additional combat units may move through the city, but they cannot end their turn there. (So if you build a combat unit in a city with a garrison, you have to move one of the two units out before you end your turn.)'
+SET Text = 'Eine Stadt kann immer nur von einer Kampfeinheit gleichzeitig belegt sein. Diese Militäreinheit ist in der Stadt stationiert und sie gewährt der Stadt einen signifikanten Verteidigungsbonus. Wenn eine Stadt angegriffen wird, während eine Kampfeinheit in der Stadt stationiert ist, wird diese einen Teil des Schadens auf sich lenken und bietet der Stadt damit mehr Schutz. Seid jedoch vorsichtig, denn eine stationierte Einheit kann auf diesem Wege vernichtet werden.[NEWLINE][NEWLINE]Weitere Kampfeinheiten können sich zwar durch die Stadt bewegen, aber sie können ihre Runde nicht dort beenden. (Wenn Ihr eine Kampfeinheit in einer Stadt mit einer Garnison baut, müsst Ihr eine von beiden Einheiten vor dem Ende Eurer Runde aus der Stadt heraus bewegen.)'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = 'Only one combat unit may occupy a city at a time. That military unit is said to "Garrison" the city, and it adds a significant defensive bonus to the city. If a city is attacked while a Garrison is in the city, the Garrison will deflect some of the damage onto itself, thus offering the city even more protection. Be careful, however, as a Garrison can be destroyed this way.[NEWLINE][NEWLINE]Additional combat units may move through the city, but they cannot end their turn there. (So if you build a combat unit in a city with a garrison, you have to move one of the two units out before you end your turn.)'
+SET Text = 'Eine Stadt kann immer nur von einer Kampfeinheit gleichzeitig belegt sein. Diese Militäreinheit ist in der Stadt stationiert und sie gewährt der Stadt einen signifikanten Verteidigungsbonus. Wenn eine Stadt angegriffen wird, während eine Kampfeinheit in der Stadt stationiert ist, wird diese einen Teil des Schadens auf sich lenken und bietet der Stadt damit mehr Schutz. Seid jedoch vorsichtig, denn eine stationierte Einheit kann auf diesem Wege vernichtet werden.[NEWLINE][NEWLINE]Weitere Kampfeinheiten können sich zwar durch die Stadt bewegen, aber sie können ihre Runde nicht dort beenden. (Wenn Ihr eine Kampfeinheit in einer Stadt mit einer Garnison baut, müsst Ihr eine von beiden Einheiten vor dem Ende Eurer Runde aus der Stadt heraus bewegen.)'
 WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = 'A city''s owner may "garrison" a military unit inside the city to bolster its defenses. A portion of the garrisoned unit''s combat strength is added to the city''s strength. The garrisoned will divert part of the all damage to a city when the city is attacked. This can destroy the garrison, so be careful! If the city is captured, the garrisoned unit is destroyed.[NEWLINE][NEWLINE]A unit stationed in the city may attack surrounding enemy units, but if it does so the city loses its garrison bonus, and, if it is a melee attack, the unit may take damage during the combat as normal.'
+SET Text = 'Der Besitzer einer Stadt kann eine Militäreinheit in einer Stadt stationieren, um sie besser zu verteidigen. Ein Teil der Kampfstärke der stationierten Einheit wird zur Stärke der Stadt addiert. Die Garnison wird einen Teil des Schadens auf sich lenken, wenn die Stadt angegriffen wird. Dies kann die Garnison zerstören, seid daher vorsichtig! Die stationierte Einheit wird jedoch vernichtet, wenn diese eingenommen wird.[NEWLINE][NEWLINE]Eine in einer Stadt stationierte Einheit kann feindliche Einheiten in der Umgebung angreifen, verliert aber dabei ihren Stationierungs-Bonus und kann, sofern es sich um einen Nahkampfangriff handelt, auch ganz normal beschädigt werden.'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = 'At the end of melee combat, one or both units may have sustained damage and lost "hit points." If a unit''s hit points are reduced to 0, that unit is destroyed. If after melee combat the defending unit has been destroyed and the attacker survives, the attacking unit moves into the defender''s hex [COLOR_POSITIVE_TEXT]unless[ENDCOLOR] defending a Citadel, Fort, or City, at which point the melee unit remains in place. If it moves, the winner will capture any non-military units in that hex. If the defending unit survives, it retains possession of its hex and any other units in the hex.[NEWLINE][NEWLINE]Most units use up all of their movement when attacking. Some however have the ability to move after combat - if they survive the battle and have movement points left to expend.[NEWLINE][NEWLINE]Any surviving units involved in the combat will receive "experience points" (XPs), which may be expended to give the unit promotions.'
+SET Text = 'Zum Ende des Nahkampfs können eine oder beide Einheiten Schaden genommen und "Trefferpunkte" verloren haben. Wenn die Trefferpunkte einer Einheit auf 0 sinken, ist diese Einheit vernichtet. Wenn nach einem Nahkampf die verteidigende Einheit vernichtet wurde und der Angreifer überlebt, zieht die angreifende Einheit auf das Geländefeld des Verteidigers, [COLOR_POSITIVE_TEXT]außer[ENDCOLOR] sie verteidigt eine Zitadelle, Festung oder Stadt, dann verbleibt sie an Ort und Stelle. Zieht die angreifende Einheit auf das Geländefeld des Verteidigers, nimmt sie alle nicht-militärischen Einheiten auf diesem Geländefeld gefangen. Wenn die verteidigende Einheit überlebt, behält sie die Kontrolle ihres Geländefelds und aller anderen Einheiten darin.[NEWLINE][NEWLINE]Die meisten Einheiten brauchen ihre gesamte Fortbewegung auf, wenn sie angreifen. Einige haben jedoch die Fähigkeit, sich nach dem Kampf zu bewegen - wenn sie den Kampf überleben und noch Fortbewegungspunkte übrig haben.[NEWLINE][NEWLINE]Alle überlebenden Einheiten, die in den Kampf verwickelt waren, erhalten "Erfahrungspunkte" (EP), die ausgegeben werden können, um der Einheit Beförderungen zu ermöglichen.'
 WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_BODY';
 UPDATE language_de_DE
-SET Text = 'Great Generals are "Great People" skilled in the art of warfare. They provide combat bonuses - offensive and defensive bonuses both - to any friendly units within two tiles of their location. A Great General itself is a non-combat unit, so it may be stacked with a combat unit for protection. If an enemy unit ever enters the tile containing a Great General, the General is destroyed.[NEWLINE][NEWLINE]A Great General gives a combat bonus of 20% to units in the General''s tile and all friendly units within 2 tiles of the General.[NEWLINE][NEWLINE]Great Generals are created when your units have been in battle and also can be acquired from buildings, policies, beliefs, and tenets. See the section on "Great People" for more details.'
+SET Text = 'Große Generäle sind "Große Persönlichkeiten", die in der Kunst der Kriegsführung bewandert sind. Sie gewähren jeder freundlich gesinnten Einheit innerhalb eines Radius von zwei Geländefeldern offensive und defensive Kampfbonusse. Ein Großer General ist selbst keine Kampfeinheit und sollte daher von einer solchen beschützt werden. Wenn eine feindliche Einheit ein Geländefeld betritt, auf dem sich ein Großer General befindet, wird der General zerstört.[NEWLINE][NEWLINE]Ein Großer General bringt allen Einheiten auf seinem Geländefeld und allen freundlich gesinnten Einheiten innerhalb eines Radius von 2 Geländefeldern einen Kampfbonus von 20%.[NEWLINE][NEWLINE]Große Generäle entstehen, wenn Einheiten Kämpfe überstehen oder können auf durch Gebäude, Politiken, Glaubenssätze und Grundsätze freigeschaltet. Siehe "Große Persönlichkeiten" für weitere Details.'
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE language_de_DE
-SET Text = 'Great Generals are "Great People" skilled in the art of warfare. They provide combat bonuses - offensive and defensive bonuses both - to any friendly units within two tiles of their location. A Great General itself is a non-combat unit, so it may be stacked with a combat unit for protection. If an enemy unit ever enters the tile containing a Great General, the General is destroyed.[NEWLINE][NEWLINE]A Great General gives a combat bonus of 20% to units in the General''s tile and all friendly units within 2 tiles of the General.[NEWLINE][NEWLINE]Great Generals are created when your units have been in battle and also can be acquired from buildings, policies, beliefs, and tenets. See the section on "Great People" for more details.'
+SET Text = 'Große Generäle sind "Große Persönlichkeiten", die in der Kunst der Kriegsführung bewandert sind. Sie gewähren jeder freundlich gesinnten Einheit innerhalb eines Radius von zwei Geländefeldern offensive und defensive Kampfbonusse. Ein Großer General ist selbst keine Kampfeinheit und sollte daher von einer solchen beschützt werden. Wenn eine feindliche Einheit ein Geländefeld betritt, auf dem sich ein Großer General befindet, wird der General zerstört.[NEWLINE][NEWLINE]Ein Großer General bringt allen Einheiten auf seinem Geländefeld und allen freundlich gesinnten Einheiten innerhalb eines Radius von 2 Geländefeldern einen Kampfbonus von 20%.[NEWLINE][NEWLINE]Große Generäle entstehen, wenn Einheiten Kämpfe überstehen oder können auf durch Gebäude, Politiken, Glaubenssätze und Grundsätze freigeschaltet. Siehe "Große Persönlichkeiten" für weitere Details.'
 WHERE Tag = 'TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY';
 
 UPDATE language_de_DE
-SET Text = 'Kriegspunktzahl'
+SET Text = 'Kriegspunkte'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_TITLE';
 
 UPDATE language_de_DE
-SET Text = 'War Score is ever-shifting status of a war between players. War Score can fluctuate from 100 to -100, where 100 is a total victory for you, and -100 a total victory for your opponent. War Score will also gradually decay over time, to highlight the declining value of past actions in a long, drawn-out conflict.[NEWLINE][NEWLINE]When declared, War Score starts at zero for both players. As you (or your opponent) destroy units, pillage tiles/trade units, capture civilians and take cities, your warscore will go up. The value of these actions varies based on the overall size of your opponent.[NEWLINE][NEWLINE]When it comes time to make peace, the War Score value gives you a good idea of what you should expect to gain from your opponent, or what they will ask of you. In the trade screen, the War Score value will be translated into a ''Max Peace'' value, which shows you exactly what you can take from your opponent (or vice-versa). When peace is concluded, the War Score returns to zero.'
+SET Text = 'Kriegspunkte sind ein immer wechselder Zustand zwischen zwei Spielern. Kriegspunkte können zwischen 100 und -100 schwanken, wobei 100 ein absoluter Sieg für Euch bedeutet und -100 ein absoluter Sieg für den Gegner bedeutet. Kriegspunkte fallen auch allmählich im Laufe der Zeit, um die sinkende Bedeutung von vergangenen Handlungen, in einem langanhaltenden, schleppenden Konflikt wiederzuspiegeln.[NEWLINE][NEWLINE]Wenn der Krieg erklärt wird, starten die Kriegspunkte für beide Spieler bei null. Wenn Ihr (oder Euer Gegner) Einheiten vernichtet, Geländefelder/Handelseinheiten plündert, Zivilisten gefangen nehmt und Städte erobert, steigen Eure Kriegspunkte. Der Wert für diese Handlungen hängt von der Gesamtgröße des Gegners ab.[NEWLINE][NEWLINE]Wenn es Zeit ist, frieden zu schließen, geben Euch die Kriegspunkte eine gute Vorstellung davon, was Ihr von Eurem Gegner verlangen könnt oder was er von Euch verlangt.   Im Handelsbildschirm werden die Kriegspunkte als "Max Frieden" Wert übersetzt der genau zeigt, was Ihr vom Gegner nehmen könnt (oder umgekehrt). Wenn der Frieden beschlossen wurde, werden die Kriegspunkte wieder auf null gesetzt.'
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = 'The ruin provides a map of the nearest unrevealed City (lifting the fog of war from a number of tiles).'
+SET Text = 'Die Ruine liefert eine Karte der Umgebung (beseitigt den Nebel des Krieges von einigen Feldern).'
 WHERE Tag = 'TXT_KEY_BARBARIAN_MAP_HEADING4_BODY';
 
 UPDATE language_de_DE
-SET Text = 'When they fight barbarian units, your less well-trained units will gain experience points. However, any unit that has already acquired 45 XPs (or has exchanged that many for promotions) no longer gains XPs from fighting barbarians.'
+SET Text = 'Eure weniger gut ausgebildeten Einheiten erhalten Erfahrungspunkte, wenn sie gegen Barbaren kämpfen. Jedoch erhalten alle Einheiten, die bereits 45 EP gesammelt haben (oder so viele für Beförderungen ausgegeben haben) keine EP mehr, wenn sie gegen Barbaren kämpfen.
+
+
+Eure weniger gut ausgebildeten Einheiten erhalten Erfahrungspunkte, wenn sie gegen Barbaren kämpfen. Jedoch erhalten alle Einheiten, die bereits 45 EP gesammelt haben (oder so viele für Beförderungen ausgegeben haben) keine EP mehr, wenn sie gegen Barbaren kämpfen.'
 WHERE Tag = 'TXT_KEY_BARBARIAN_POINTLIMITS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = 'Each civilization in Civilization V has one or more special "national units." These units are unique to that civilization, and they are in some way superior to the standard version of that unit. The American civilization, for example, has a Minuteman unit, which is superior to the standard Musketman available to other civs. The Greek civ has the Hoplite unit, which replaces the Spearman.[NEWLINE][NEWLINE]See each civilization''s Civilopedia entry to discover its special unit.'
+SET Text = 'Jede Zivilisation in Civilization V hat eine oder mehrere "nationale Einheiten". Nur die Zivilisation kann über die Einheiten verfügen und sie sind meist etwas besser als die Standardversion der jeweiligen Einheit. Die amerikanische Zivilisation hat z. B. eine Minuteman-Einheit, die besser ist als der Standard-Musketier der anderen Zivilisationen. Die griechische Zivilisation dagegen hat die Einheit, die den Speerkämpfer ersetzen.[NEWLINE][NEWLINE]Die Spezialeinheit jeder Zivilisation könnt Ihr in ihrem jeweiligen Zivilopädie-Eintrag sehen.'
 WHERE Tag = 'TXT_KEY_UNITS_NATIONAL_HEADING2_BODY';
 
 UPDATE language_de_DE
-SET Text = 'If another civ has captured a City-State and you capture it from them, you have the option to "liberate" that city-state. If you do so, you will receive a large amount of [ICON_INFLUENCE] Influence from the City-State, usually enough to make you [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] with it.'
+SET Text = 'Wenn eine andere Zivilisation einen Stadtstaat eingenommen hat und Ihr ihn ihr wieder abnehmt, habt Ihr die Option, diesen Stadtstaat zu "befreien". In diesem Fall erhaltet Ihr auf der Stelle jede Menge Einflusspunkte für diesen Stadtstaat. Außerdem wird der Stadtstaat bei den Wahlen zum "Weltherrscher" auf jeden Fall für Euch stimmen
+
+Wenn eine andere Zivilisation einen Stadtstaat eingenommen hat und Ihr ihn ihr wieder abnehmt, habt Ihr die Option, diesen Stadtstaat zu "befreien". In diesem Fall erhaltet Ihr auf der Stelle jede Menge Einflusspunkte für diesen Stadtstaat, meist genug um Euch mit diesem zu [COLOR_POSITIVE_TEXT]verbünden[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_CITYSTATE_LIBERATING_HEADING2_BODY';
 
 -- Barbarians
@@ -456,78 +461,81 @@ WHERE Tag = 'TXT_KEY_EUPANEL_CAPTURE_CHANCE';
 -- Religion
 
 UPDATE language_de_DE
-SET Text = 'Head of {1_ReligionName}'
+SET Text = 'Gründer der Religion {1_ReligionName}'
 WHERE Tag = 'TXT_KEY_RO_STATUS_FOUNDER';
 
 -- Spies
 
 UPDATE language_de_DE
-SET Text = 'Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station. Potential may increase when using a higher ranking spy to steal technologies from the city.[NEWLINE][NEWLINE]Click to sort cities by their potential.'
+SET Text = 'Potenzial zeigt an, wie verwundbar eine Stadt gegenüber Spionage ist. Je höher der Wert, desto verwundbarer ist die Stadt. Der Basiswert [COLOR_POSITIVE_TEXT](eine Skala von 1 bis 10)[ENDCOLOR] errechnet sich anhand des allgemeinen Wohlstands und der Zufriedenheit der Stadt, insbesondere seines Wissenschafts- und Goldertrags. Potenzial kann durch Verteidigungsgebäude in der Stadt verringert werden, zum Beispiel durch die Gendarmerie und die Polizeiwache. Potenzial kann erhöht werden, wenn ein höherrangiger Spion dazu eingesetzt wird, Technologien aus der Stadt zu stehlen.[NEWLINE][NEWLINE]Klickt, um die Städte nach Potenzial zu sortieren.'
 WHERE Tag = 'TXT_KEY_EO_POTENTIAL_SORT_TT';
 
 UPDATE language_de_DE
-SET Text = 'If your cities have high Potential, you should consider protecting them. There are two ways to do this. You may move your own spies to your cities to act as counterspies that have a chance to catch and kill enemy spies before they steal a technology. You may also slow down how quickly enemy spies can steal technologies by constructing buildings like the Constabulary, Police Station, and the Great Firewall.'
+SET Text = 'DWenn Eure Städte ein hohes Potenzial haben, solltet Ihr in Betracht ziehen diese zu schützen. Dies könnt Ihr auf zwei Arten tun: Ihr könnt Eure eigenen Spione in Eure Städte ziehen, damit sie als Gegenspione arbeiten, die eine Chance darauf haben, gegnerische Spione zu schnappen und zu eliminieren, bevor sie Technologien stehlen können. Ihr könnt auch verlangsamen, wie schnell gegnerische Spione Technologien stehlen können, indem Ihr Gebäude wie die Gendarmerie, Polizeiwache oder die Große Firewall baut.'
 WHERE Tag = 'TXT_KEY_EO_OWN_CITY_POTENTIAL_TT';
 
 UPDATE language_de_DE
-SET Text = '{1_SpyRank} {2_SpyName} is stealing from {3_CityName}.[NEWLINE]The current Potential of {3_CityName} is {4_Num}.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station.'
+SET Text = '{1_SpyRank} {2_SpyName} stiehlt von {3_CityName}.[NEWLINE]Das Basispotenzial von {3_CityName} ist {4_Num}.[NEWLINE][NEWLINE]Potenzial zeigt an, wie verwundbar eine Stadt gegenüber Spionage ist. Je höher der Wert, desto verwundbarer ist die Stadt. Der Basiswert [COLOR_POSITIVE_TEXT](eine Skala von 1 bis 10)[ENDCOLOR] errechnet sich anhand des allgemeinen Wohlstands und der Zufriedenheit der Stadt, insbesondere seines Wissenschafts- und Goldertrags. Potenzial kann durch Verteidigungsgebäude in der Stadt verringert werden, zum Beispiel durch die Gendarmerie und die Polizeiwache.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_TT';
 
 UPDATE language_de_DE
-SET Text = '{1_SpyRank} {2_SpyName} cannot steal technologies from {3_CityName}.[NEWLINE][NEWLINE]The base Potential of {4_CityName} is {5_Num}.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity and happiness of the city, specifically its science and gold output. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station.'
+SET Text = '{1_SpyRank} {2_SpyName} kann in {3_CityName} keine Technologien stehlen.[NEWLINE][NEWLINE]Das Basispotenzial von {4_CityName} ist {5_Num}.[NEWLINE][NEWLINE]Potenzial zeigt an, wie verwundbar eine Stadt gegenüber Spionage ist. Je höher der Wert, desto verwundbarer ist die Stadt. Der Basiswert [COLOR_POSITIVE_TEXT](eine Skala von 1 bis 10)[ENDCOLOR] errechnet sich anhand des allgemeinen Wohlstands und der Zufriedenheit der Stadt, insbesondere seines Wissenschafts- und Goldertrags. Potenzial kann durch Verteidigungsgebäude in der Stadt verringert werden, zum Beispiel durch die Gendarmerie und die Polizeiwache.'
 WHERE Tag = 'TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT';
 
 UPDATE language_de_DE
-SET Text = 'The Potential of {1_CityName} is believed to be {2_Num}. Send a [ICON_SPY] Spy to this City to learn more about it.[NEWLINE][NEWLINE]Potential reflects the vulnerability of a city to Espionage. The higher the value, the more vulnerable the city. The base value [COLOR_POSITIVE_TEXT](a scale, from 1 to 10)[ENDCOLOR] is based on the overall prosperity of the city, specifically its science and gold output.'
+SET Text = 'Das Potenzial der Stadt {1_CityName} war zuletzt {2_Num}.[NEWLINE][NEWLINE]Das war die letzte Potenzialmessung von einem unserer Spione. Wenn Ihr aktuellere Werte haben möchtet, bewegt einen Eurer Spione in diese Stadt.[NEWLINE][NEWLINE]Potenzial zeigt an, wie schnell einer Stadt Technologien gestohlen werden können. Je höher der Wert, desto schneller können Technologien gestohlen werden. Der Basiswert errechnet sich anhand der Wissenschaft, die in der Stadt generiert wird. Potenzial kann durch Verteidigungsgebäude in der Stadt verringert werden, zum Beispiel durch Gendarmerie und die Polizeiwache. Potenzial kann erhöht werden, wenn ein höherrangiger Spion dazu eingesetzt wird, Technologien aus der Stadt zu stehlen.
+
+
+Das Potenzial der Stadt {1_CityName} war zuletzt {2_Num}. Entsendet einen [ICON_SPY] Spion zu dieser Stadt, um mehr zu erfahren.[NEWLINE][NEWLINE]Potenzial zeigt an, wie schnell einer Stadt Technologien gestohlen werden können. Je höher der Wert, desto schneller können Technologien gestohlen werden. Der Basiswert errechnet sich anhand der Wissenschaft, die in der Stadt generiert wird.'
 WHERE Tag = 'TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT';
 
 UPDATE language_de_DE
-SET Text = 'Options for {1_SpyRank} {2_SpyName}:[NEWLINE][NEWLINE][ICON_BULLET] Move to a City-State and attempt to [COLOR_POSITIVE_TEXT]Rig an Election[ENDCOLOR] or [COLOR_POSITIVE_TEXT]Stage a Coup[ENDCOLOR].[NEWLINE][ICON_BULLET] Move to a non-Capital City owned by a Major Civilization and attempt to [COLOR_POSITIVE_TEXT]Steal Technology[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Uncover Intrigue[ENDCOLOR].[NEWLINE][ICON_BULLET] Move to a Capital City owned by a Major Civilization and attempt to [COLOR_POSITIVE_TEXT]Steal Technology[ENDCOLOR], [COLOR_POSITIVE_TEXT]Uncover Intrigue[ENDCOLOR], or [COLOR_POSITIVE_TEXT]Schmooze[ENDCOLOR] as a Diplomat.'
+SET Text = 'Optionen von {1_SpyRank} {2_SpyName}:[NEWLINE][NEWLINE][ICON_BULLET] Geht zu einem Stadtstaat und versucht dort die [COLOR_POSITIVE_TEXT]Wahlen zu manipulieren[ENDCOLOR] oder einen [COLOR_POSITIVE_TEXT]Putsch durchzuführen[ENDCOLOR].[NEWLINE][ICON_BULLET] Geht zu einer Stadt, die nicht Hauptstadt ist und von einer anderen großen Zivilisation gehalten wird und versucht [COLOR_POSITIVE_TEXT]Technologie zu stehlen[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Intrigen aufzudecken[ENDCOLOR].[NEWLINE][ICON_BULLET] Geht zu einer Hauptstadt, die von einer großen Zivilisation gehalten wird und versucht dort [COLOR_POSITIVE_TEXT]Technologie zu stehlen[ENDCOLOR], [COLOR_POSITIVE_TEXT]Intrigen aufzudecken[ENDCOLOR] oder als Diplomat [COLOR_POSITIVE_TEXT]Einfluss zu gewinnen[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 
 -- Notification
 
 UPDATE language_de_DE
-SET Text = '{1_CivName:textkey} lost {1_CivName: plural 1?its; other?their;} [ICON_CAPITAL] Capital'
+SET Text = '{1_CivName:textkey} hat {1_CivName: plural 1?seine; other?ihre;} [ICON_CAPITAL] Hauptstadt verloren'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_LOST_CAPITAL';
 
 -- Ocean travel change
 
 UPDATE language_de_DE
-SET Text = 'Can never end turn on an Ocean tile. May move through Ocean tiles if ending on a Coastal tile.'
+SET Text = 'Kann die Runde niemals auf einem Tiefsee-Geländefeld beenden. Kann sich durch Tiefsee-Geländefelder bewegen, wenn es seinen Zug auf einem Küsten-Geländefeld beendet.'
 WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE';
 
 UPDATE language_de_DE
-SET Text = 'Cannot end turn on an Ocean tile until you have researched [COLOR_POSITIVE_TEXT]Astronomy[ENDCOLOR]. May move through Ocean tiles if ending on a Coastal tile.'
+SET Text = 'Kann bis [COLOR_POSITIVE_TEXT]Astronomie[ENDCOLOR] entdeckt wurde die Runde nicht auf einem Tiefsee-Geländefeld beenden. Kann sich durch Tiefsee-Geländefelder bewegen, wenn es seinen Zug auf einem Küsten-Geländefeld beendet.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Cannot End Turn on Ocean Tile until Astronomy'
+SET Text = 'Kann bis Astronomie die Runde nicht auf einem Tiefsee-Geländefeld beenden.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Cannot End Turn on Ocean Tile'
+SET Text = 'Kann die Runde nicht auf einem Tiefsee-Geländefeld beenden.'
 WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
 
 UPDATE language_de_DE
-SET Text = 'The Trireme is the first naval unit available to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot end its turn on Deep Ocean hexes outside of the city borders unless it is from Polynesia).'
+SET Text = 'Die Triere ist die erste Marineeinheit, die Zivilisationen im Spiel bauen können. Sie ist eine Nahkampf-Einheit, die Einheiten auf dem Meer oder Städte angreifen kann (sie kann aber keine Fernangriffe ausführen). Die Triere ist nützlich, um Barbarenschiffe in heimischen Gewässern zu zerstören oder um in begrenztem Rahmen die Welt zu erkunden (sie kann ihre Runde nicht auf einem Tiefsee-Geländefeld außerhalb der Stadtgrenzen beenden, außer sie stammt aus Polynesien).'
 WHERE Tag = 'TXT_KEY_UNIT_TRIREME_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'The Galleass is the first naval unit with a ranged attack generally available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Galleass is useful for clearing enemy ships out of shallow waters. It cannot end its turn on Deep Ocean hexes unless it is from Polynesia.'
+SET Text = 'Die Galeasse ist die erste Marineeinheit mit einem Fernkampfangriff, die allgemein im Spiel verfügbar ist. Sie ist deutlich stärker als die frühen Marineeinheiten, aber auch etwas langsamer. Sie kann keinen Nahkampf beginnen. Die Galeasse ist nützlich, um feindliche Schiffe aus seichtem Gewässer zu vertreiben. Sie kann ihre Runde nicht auf einem Tiefsee-Geländefeld beenden, außer sie ist von Polynesien.'
 WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY';
 
 -- Lua for Cities
 UPDATE language_de_DE
-SET Text = 'We have no tradeable cities and/or we do not have an Embassy with them.'
+SET Text = 'Wir haben keine Städte zum Handeln und/oder haben keine Botschaft mit ihnen.'
 WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'They have no tradeable cities and/or they do not have an Embassy with us.'
+SET Text = 'Sie haben keine Städte zum Handeln und/oder haben keine Botschaft mit uns.'
 WHERE Tag = 'TXT_KEY_DIPLO_TO_TRADE_CITY_NO_THEM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
 
 INSERT INTO language_de_DE
 			(Tag,										Text)
-SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'Your soldiers found [ICON_RESEARCH] Science during the conquest of {1_Name}!'
+SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'Unsere Soldaten fanden [ICON_RESEARCH] Wissenschaft, während der Eroberung von {1_Name}!'
 WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT' AND Value= 1 );
