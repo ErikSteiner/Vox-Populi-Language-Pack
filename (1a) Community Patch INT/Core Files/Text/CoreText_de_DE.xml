@@ -2347,37 +2347,37 @@
 
 		<!-- Coup -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP">
-			<Text>Spionageberichte aus {@2_CivName} deuten darauf hin, dass {@1_CityName} reif für einen Coup ist. Vollendet diesen Coup und Sie werden reich belohnt!</Text>
+			<Text>Spionageberichte aus {@2_CivName} deuten darauf hin, dass {@1_CityName} reif für einen Putsch ist. Vollendet diesen Putsch und Sie werden reich belohnt!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COUP">
 			<Text>Spionageberichte aus {@1_CivName}</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COUP_CITY_COMPLETE">
-			<Text>{@1_Civname} lobt Sie für Ihren erfolgreichen Coup.</Text>
+			<Text>{@1_Civname} lobt Sie für Ihren erfolgreichen Putsch.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_COUP_CITY_COMPLETE">
-			<Text>Erfolgreicher Coup für {@1_Civname}!</Text>
+			<Text>Erfolgreicher Putsch für {@1_Civname}!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED">
-			<Text>Ihr Coup ist gescheitert, entweder weil Ihr Spion gestorben ist oder weil {@1_City} nicht länger ein gültiges Ziel darstellt. Daher wurde die Quest von {@2_Civname} zurückgezogen.</Text>
+			<Text>Ihr Putsch ist gescheitert, entweder weil Ihr Spion gestorben ist oder weil {@1_City} nicht länger ein gültiges Ziel darstellt. Daher wurde die Quest von {@2_Civname} zurückgezogen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_S">
-			<Text>Coup gescheitert!</Text>
+			<Text>Putsch gescheitert!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B">
-			<Text>Coup gescheitert!</Text>
+			<Text>Putsch gescheitert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUP_FAILED_B_S">
-			<Text>Your coup has failed, either because your spy has died or the is no longer a valid target. As such, the quest from {@1_Civname} was withdrawn.</Text>
+			<Text>Ihr Putsch ist gescheitert, entweder weil Ihr Spion gestorben ist oder weil die Stadt nicht länger verfügbar ist. Daher wurde die Quest von {@1_Civname} zurückgezogen.</Text>
 		</Row>
 
 
 		<!-- Steal -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_STEAL_FROM">
-			<Text>Skrupellose Agenten in {@3_Civ} zeigen, dass {@1_Civ} derzeit sehr anfällig für Spionage ist. Wenn Sie [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] Spionage-Aktionen in {@1_Civ} abschließen (Erweiterte Aktionen oder Technologie Diebstahl), werden Sie reich belohnt.</Text>
+			<Text>Skrupellose Agenten in {@3_Civ} zeigen, dass {@1_Civ} derzeit sehr anfällig für Spionage ist. Wenn Sie [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] Spionage-Aktionen gegen {@1_Civ} durchführen (Erweiterte Aktionen oder Technologie Diebstahl), werden Sie reich belohnt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_STEAL_FROM">
 			<Text>Intelligence update from {@1_Civ}</Text>
@@ -2459,15 +2459,15 @@
 			<Text>Conduct intelligence operations against {1_Civ} ([COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] remaining).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_COUP_CITY_FORMAL">
-			<Text>Stage a coup in {1_Civ}.</Text>
+			<Text>Putsch in {1_Civ} durchführen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_QUEST_DISCOVER_GET_CITY_FORMAL">
-			<Text>Acquire the city of {1_City}.</Text>
+			<Text>Erwerbt die Stadt von {1_City}.</Text>
 		</Row>
 		<!-- Plot Helpers -->
 
 		<Row Tag="TXT_KEY_CITY_STATE_GET_CITY_QUEST_LONG">
-			<Text>{1_Civ} wants you to acquire this city.</Text>
+			<Text>{1_Civ} möchte, dass Ihr diese Stadt erwerbt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_FIND_PLOT_QUEST_LONG">
 			<Text>{1_Civ} wants you to explore around this tile.</Text>
@@ -2696,7 +2696,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
-			<Text>Kriegspunktzahl muss über Null liegen. Aktuelle Kriegspunktzahl: {1_Num}.</Text>
+			<Text>Kriegspunkte müssen über Null liegen. Aktuelle Kriegspunkte: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
 			<Text>Kann keine sich nicht-ergebene Partei zum Friedensabkommen hinzufügen</Text>

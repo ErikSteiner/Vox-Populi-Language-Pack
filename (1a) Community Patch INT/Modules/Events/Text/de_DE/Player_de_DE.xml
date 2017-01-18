@@ -3,54 +3,54 @@
 <GameData>
 	<Language_de_DE>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE">
-			<Text>I'm not interested in this.</Text>
+			<Text>Daran bin ich nicht interessiert.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_NO_CHOICE_HELP">
-			<Text>Ends Event with no effect.</Text>
+			<Text>Ereignis endet ohne Wirkung..</Text>
 		</Row>
 		<!-- Comet Sighted -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_DESCRIPTION">
-			<Text>Comet sighted!</Text>
+			<Text>Komet gesichtet!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_HELP">
-			<Text>A comet has appeared in our night sky. Some believe it to be a miracle, others an ill omen. Your advisors are unsure, and look to you for guidance. What does this mean?</Text>
+			<Text>An unserem Nachthimmel ist ein Komet erschienen. Einige glauben, es sei ein Wunder, andere ein böses Omen. Eure Berater sind sich unsicher und vertrauen auf Eure Hilfe. Was bedeutet das?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1">
-			<Text>This is a good omen.</Text>
+			<Text>Das ist ein gutes Omen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_1_HELP">
 			<Text>{2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2">
-			<Text>Our gods favor us.</Text>
+			<Text>Unsere Götter befürworten uns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2_HELP">
-			<Text>+1 [ICON_HAPPINESS_1] Happiness in all Cities for {4_Turns}.</Text>
+			<Text>+1 [ICON_HAPPINESS_1] Zufriedenheit in allen Städten für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3">
-			<Text>Our priests will conduct a diviniation to see if this is a positive sign.</Text>
+			<Text>Unsere Priester werden eine Wahrsagung durchführen, um zu sehen, ob dies ein positives Zeichen ist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3_HELP">
-			<Text>50% chance to gain {2_InstantYield}.</Text>
+			<Text>50% Wahrscheinlichkeit {2_InstantYield} zu erhalten.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL">
-			<Text>Your priests believe that the divination was successful, and your [ICON_PEACE] Faith has increased greatly as a result.</Text>
+			<Text>Unsere Priester glauben, dass die Wahrsagung erfolgreich war und unser [ICON_PEACE] Glaube stieg in Folge dessen stark an.</Text>
 		</Row>		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_COMET_CHOICE_3_SUCCESSFUL_S">
-			<Text>Diviniation successful!</Text>
+			<Text>Wahrsagung erfolgreich!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4">
-			<Text>Our observatories are going to learn a lot from this.</Text>
+			<Text>Unsere Observatorien werden daraus viel lernen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_4_HELP">
-			<Text>+500 [ICON_RESEARCH] Science.</Text>
+			<Text>+500 [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 
 		<!-- Meteor -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_DESCRIPTION">
-			<Text>A meteor has landed!</Text>
+			<Text>Ein Meteor ist gelandet!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_HELP">
 			<Text>With a bright flash of light and a huge crash, a meteor has landed near one of our cities. Your officials collected the meteorite and brought it to the capital for study. What should they do with it?</Text>

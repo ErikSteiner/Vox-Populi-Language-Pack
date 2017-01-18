@@ -31,13 +31,13 @@
 			<Text>Epona, Göttin der Pferde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA">
-			<Text>+1 [ICON_CULTURE] Kultur für je 15 [ICON_GOLD] Gold pro Runde und +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte für je 10 [ICON_RESEARCH] Wissenschaft pro Runde</Text>
+			<Text>+1 [ICON_CULTURE] Kultur für je 10 [ICON_GOLD] Gold pro Runde und +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte für je 5 [ICON_RESEARCH] Wissenschaft pro Runde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
 			<Text>Nuadu mit der Silberhand</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
-			<Text>+1 [ICON_FOOD] Nahrung von Wäldern und +1 [ICON_PRODUCTION] Produktion von Dschungel</Text>
+			<Text>+1 [ICON_FOOD] Nahrung und [ICON_CULTURE] Kultur von Wäldern und +1 [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft von Dschungel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
 			<Text>Cernunnos der Gehörnte</Text>
@@ -49,19 +49,19 @@
 			<Text>Lugh der Kunstfertige/Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
-			<Text>+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold in jeder Stadt</Text>
+			<Text>+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_RESEARCH] Wissenschaft, [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold in jeder Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
 			<Text>Rhiannon, Göttin der Souveränität</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
-			<Text>+2 [ICON_FOOD] Nahrung, +3 [ICON_PRODUCTION] Produktion und +4 [ICON_GOLD] Gold in Küstenstädten</Text>
+			<Text>+3 [ICON_FOOD] Nahrung, +3 [ICON_PRODUCTION] Produktion und +4 [ICON_GOLD] Gold in Küstenstädten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
 			<Text>Manannan, Sohn des Meeres</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA">
-			<Text>+1 [ICON_RESEARCH] Wissenschaft für je 4 [ICON_CITIZEN] Bürger in einer Stadt und erhaltet 8 [ICON_CULTURE] Kultur, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird</Text>
+			<Text>+1 [ICON_RESEARCH] Wissenschaft für je 3 [ICON_CITIZEN] Bürger in einer Stadt und erhaltet 15 [ICON_CULTURE] Kultur, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
 			<Text>Ogma, Gott der Redekunst</Text>
@@ -73,7 +73,7 @@
 			<Text>Bran der schlafende Wächter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA">
-			<Text>+1 [ICON_CULTURE] Kultur, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft für je 5 Anhänger Eures Pantheons, in eigenen Städten</Text>
+			<Text>+1 [ICON_CULTURE] Kultur, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und [ICON_RESEARCH] Wissenschaft für je 4 Anhänger Eures Pantheons, in eigenen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
 			<Text>Dagda, der große Vater</Text>

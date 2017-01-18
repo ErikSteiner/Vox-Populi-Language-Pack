@@ -226,7 +226,7 @@
 	WHERE Tag = 'TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 	UPDATE Language_de_DE
-	SET Text = 'The Galleass is the second naval unit with a ranged attack available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Galleass is useful for clearing enemy ships out of shallow waters. It cannot end its turn in Deep Ocean hexes.'
+	SET Text = 'Sie ist deutlich stärker als die frühen Marineeinheiten, aber auch etwas langsamer. Sie kann keinen Nahkampf beginnen. Die Galeasse ist nützlich, um feindliche Schiffe aus seichtem Gewässer zu vertreiben. Sie kann ihre Runde nicht auf einem Tiefsee-Geländefeld beenden.'
 	WHERE Tag = 'TXT_KEY_UNIT_GALLEASS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 	UPDATE Language_de_DE
