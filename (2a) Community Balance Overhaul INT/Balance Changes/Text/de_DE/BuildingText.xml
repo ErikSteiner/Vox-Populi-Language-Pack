@@ -314,7 +314,7 @@
 			<Text>+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion for every 5 [ICON_CITIZEN] Citizens in der Stadt. [NEWLINE][NEWLINE]City must not be built next to a River. Cannot be built if the City already has a Watermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
-			<Text>+1 [ICON_FOOD] Nahrung on nearby Forest and Jungle tiles. [NEWLINE][NEWLINE]Stadt muss über eine workable Forest or Jungle tile in its borders.</Text>
+			<Text>+1 [ICON_FOOD] Nahrung von nahe gelegenen Wald- und Dschungel-Geländefeldern. [NEWLINE][NEWLINE]Stadt muss über ein bewirtschaftetes Wald- oder Dschungel-Geländefeld innerhalb seiner Grenzen verfügen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_HELP">
 			<Text>Temples, Amphitheaters, and Gardens in City: +1 [ICON_GOLD] Gold and [ICON_CULTURE] Kultur. +10% [ICON_CULTURE] Kultur in der Stadt during [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE]City must be built next to a River.</Text>

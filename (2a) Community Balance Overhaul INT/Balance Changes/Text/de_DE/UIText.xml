@@ -388,7 +388,7 @@
 
 		<!-- Tech Tree-->
 		<Row Tag="TXT_KEY_SPECIALIST_YIELD_CHANGE">
-			<Text>{1_SpecialistName:textkey}s: +{3_Num} {4_IconString} {2_YieldType:textkey}</Text>
+			<Text>{1_SpecialistName:textkey}: +{3_Num} {4_IconString} {2_YieldType:textkey}</Text>
 		</Row>
 		<!-- Trait LUA -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRAIT_BONUSES">

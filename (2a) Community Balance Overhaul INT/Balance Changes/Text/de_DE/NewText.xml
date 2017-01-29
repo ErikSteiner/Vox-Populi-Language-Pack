@@ -46,7 +46,7 @@
 			<Text>+4 [ICON_CULTURE] Kultur, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold in Städten mit einem Spezialisten, +1 [ICON_CULTURE] Kultur von Weltwundern</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
-			<Text>Lugh der Kunstfertige/Text>
+			<Text>Lugh der Kunstfertige</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
 			<Text>+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_RESEARCH] Wissenschaft, [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold in jeder Stadt</Text>
@@ -95,7 +95,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Kunst[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_CULTURE] Kultur um.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
-			<Text>Das Investieren von Produktion in Kust ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren.</Text>
+			<Text>Das Investieren von Produktion in Kunst ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD">
 			<Text>Landwirtschaft</Text>

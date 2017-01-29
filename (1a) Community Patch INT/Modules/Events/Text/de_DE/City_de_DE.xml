@@ -146,7 +146,7 @@
 			<Text>50% Wahrscheinlichkeit, dass der Tempel zerstört wird. Wenn dem so ist erhält die Stadt +1 [ICON_PEACE] Glaube und +1 [ICON_HAPPINESS_1] Zufriedenheit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
-			<Text>Die Nichtgläubigen in {2_City} holten am Tempel aus und brannten ihn, aus Protest bis auf die Grundmauern nieder. Das erschüttert Euer Volk jedoch nicht. Stadt erhält +1 [ICON_HAPPINESS_1] Zufriedenheit und: {5_Help}</Text>
+			<Text>Die Ungläubigen in {2_City} holten am Tempel aus und brannten ihn, aus Protest bis auf die Grundmauern nieder. Das erschüttert Euer Volk jedoch nicht. Stadt erhält +1 [ICON_HAPPINESS_1] Zufriedenheit und: {5_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
 			<Text>Tempel in {2_City} zerstört!</Text>

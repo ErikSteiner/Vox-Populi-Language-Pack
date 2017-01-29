@@ -53,78 +53,78 @@
 			<Text>Ein Meteor ist gelandet!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_HELP">
-			<Text>With a bright flash of light and a huge crash, a meteor has landed near one of our cities. Your officials collected the meteorite and brought it to the capital for study. What should they do with it?</Text>
+			<Text>Mit einem hellen Blitz und einem lauten Knall ist ein Meteor in der Nähe einer unserer Städte niedergegangen. Eure Funktionäre sammelten das Meteorgestein ein und brachten es zur Untersuchung zur Hauptstadt. Was sollen sie damit machen?</Text>
 		</Row>	
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1">
-			<Text>Break it up and send it to the Forge.</Text>
+			<Text>Brecht es auf und sendet es zu unserer Schmiede.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_HELP">
-			<Text>50% chance to gain 2 [ICON_RES_IRON] Iron.</Text>
+			<Text>50% Wahrscheinlichkeit 2 [ICON_RES_IRON] Eisen zu erhalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL">
-			<Text>Your smiths were able to break large lumps of iron out of the meteor, and can forge fine swords and spears from the material.</Text>
+			<Text>Eure Schmiede waren in der Lage, große Stücke Eisen aus dem Meteor zu brechen, dass sie zu feinen Schwertern und Speeren verarbeiten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_1_SUCCESSFUL_S">
-			<Text>[ICON_RES_IRON] Iron extracted from meteor!</Text>
+			<Text>[ICON_RES_IRON] Eisen aus Meteor extrahiert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2">
-			<Text>Divide it up amongst our Shrines.</Text>
+			<Text>Teilt es auf unsere Schreine auf.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_2_HELP">
-			<Text>+1 [ICON_PEACE] Faith in all Shrines.</Text>
+			<Text>+1 [ICON_PEACE] Glauben in allen Schreinen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3">
-			<Text>Put it next to my throne.</Text>
+			<Text>Stellt es neben meinen Thron.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_3_HELP">
-			<Text>+2 [ICON_CULTURE] Culture from Palace.</Text>
+			<Text>+2 [ICON_CULTURE] Kultur vom Palast.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4">
-			<Text>Donate it to the universities.</Text>
+			<Text>Spendet es den Universitäten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_4_HELP">
-			<Text>+1 [ICON_RESEARCH] Science from all Universities.</Text>
+			<Text>+1 [ICON_RESEARCH] Wissenschaft von allen Universitäten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5">
-			<Text>It belongs in a Museum.</Text>
+			<Text>Es gehört in die Museen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_METEOR_CHOICE_5_HELP">
-			<Text>+1 [ICON_CULTURE] Culture from all Museums.</Text>
+			<Text>+1 [ICON_CULTURE] Kultur von allen Museen.</Text>
 		</Row>
 		<!-- Eclipse -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_DESCRIPTION">
-			<Text>Eclipse!</Text>
+			<Text>Finsternis!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_HELP">
-			<Text>Our people were surprised to witness an eclipse today. What does this mean for our empire?</Text>
+			<Text>Unser Volk wurde heute mit einer Sonnenfinsternis überrascht. Was bedeutet das für unser Reich?</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1">
-			<Text>I'm not sure what this means.</Text>
+			<Text>Ich bin nicht sicher, was das bedeutet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_HELP">
-			<Text>Erhaltet {2_InstantYield}. 25%-ige Chance für diesen Effekt: {1_YieldCost}</Text>
+			<Text>Erhaltet {2_InstantYield}. 25%-ige Wahrscheinlichkeit für diesen Effekt: {1_YieldCost}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL">
-			<Text>It was a bad omen.{4_Help}</Text>
+			<Text>Es war ein schlechtes Zeichen.{4_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_1_SUCCESSFUL_S">
-			<Text>Bad omen!</Text>
+			<Text>Schlechtes Zeichen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2">
-			<Text>Quick, make a sacrifice!</Text>
+			<Text>Schnell, bringt eine Opfergabe!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_2_HELP">
-			<Text>Expend {1_YieldCost} in [ICON_CAPITAL] Capital, Gain {2_InstantYield}.</Text>
+			<Text>Gebt {1_YieldCost} in der [ICON_CAPITAL] Hauptstadt aus, Erhaltet {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3">
-			<Text>Science can explain this!</Text>
+			<Text>Die Wissenschaft kann das erklären!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_3_HELP">
 			<Text>{2_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4">
-			<Text>Quick, take a picture!</Text>
+			<Text>Schnell, macht ein Bild!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ECLIPSE_CHOICE_4_HELP">
 			<Text>{2_InstantYield}</Text>
@@ -148,7 +148,7 @@
 			<Text>Legen Sie Notfallrücklagen zur Seite.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_2_HELP">
-			<Text>{1_YieldCost}. Sie sind hoffnungsvoll, dass Sie eine Dürre vermeiden können.</Text>
+			<Text>{1_YieldCost}. Sie sind voller Hoffnung, dass Sie eine Dürre vermeiden können.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_HEAT_WAVE_CHOICE_3">
 			<Text>Senden Sie Geld an die lokalen Beamten.</Text>
@@ -164,29 +164,29 @@
 		</Row>
 		<!-- Ice Age -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_DESCRIPTION">
-			<Text>Ice age!</Text>
+			<Text>Eiszeit!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_HELP">
-			<Text>A sudden drop in average temperatures can only mean one thing: a small ice age! How should we prepare?</Text>
+			<Text>Ein plötzliches Absinken der durchschnittlichen Temperatur kann nur eins bedeuten: Eine kleine Eiszeit! Wie sollen wir uns vorbereiten?</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1">
-			<Text>People should stay indoors, even if that means less commerce.</Text>
+			<Text>Die Menschen sollen drinnen bleiben, auch wenn das weniger Handel bedeutet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_1_HELP">
-			<Text>-2 [ICON_GOLD] Gold in all Cities for {4_Turns}.</Text>
+			<Text>-2 [ICON_GOLD] Gold in allen Städten für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2">
-			<Text>Take fuel from our industries and distribute it to the poor and needy.</Text>
+			<Text>Nehmt Brennstoff von unserer Industrie und verteilt es an die Armen und Bedürftigen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_2_HELP">
-			<Text>-2 [ICON_PRODUCTION] Production in all Cities for {4_Turns}.</Text>
+			<Text>-2 [ICON_PRODUCTION] Produktion in allen Städten für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3">
-			<Text>Trains and steam power make us immune to the cold.</Text>
+			<Text>Züge und Dampfkraft machen uns immun gegen die Kälte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_ICE_AGE_CHOICE_3_HELP">
-			<Text>No negative effect.</Text>
+			<Text>Keine negativen Auswirkungen.</Text>
 		</Row>
 
 		<!-- Revolution -->
@@ -194,29 +194,29 @@
 			<Text>Revolution!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_HELP">
-			<Text>To arms! Dissident civilians from across our empire have risen up to contest your rule! What will you do?</Text>
+			<Text>Zu den Waffen! Andersdenkende Zivilisten aus unserem Reich haben sich erhoben um Eure Herrschaft anzufechten! Was werdet Ihr machen?</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1">
-			<Text>Let them eat cake.</Text>
+			<Text>Lass sie Kuchen essen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_1_HELP">
-			<Text>2 Barbarians spawn near all owned Cities. 5 turns of [ICON_RESISTANCE] Unrest in all Cities.</Text>
+			<Text>2 Barbaren erscheinen in der Nähe all Eurer Städte. 5 Runden [ICON_RESISTANCE] Unruhe in allen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2">
-			<Text>Use our City-State connections to find common ground.</Text>
+			<Text>Nutzt unsere Stadtstaaten Verbindungen um einen gemeinsamen Nenner zu finden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_2_HELP">
-			<Text>3 turns of [ICON_RESISTANCE] Unrest in all Cities.</Text>
+			<Text>3 Runden [ICON_RESISTANCE] Unruhe in allen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3">
-			<Text>We are all brothers and sisters of progress, are we not?</Text>
+			<Text>Wir sind alle Brüder und Schwestern des Fortschritts, nicht wahr?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_3_HELP">
-			<Text>1 Barbarian spawns near every owned City, 2 turns of [ICON_RESISTANCE] Unrest in all Cities.</Text>
+			<Text>1 Barbar erscheint in der Nähe all Eurer Städte, 2 Runden [ICON_RESISTANCE] Unruhe in allen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4">
-			<Text>Find the leader and bribe him off.</Text>
+			<Text>Findet den Anführer und bestehcht ihn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_REVOLUTION_CHOICE_4_HELP">
 			<Text>{1_YieldCost}.</Text>
@@ -224,311 +224,311 @@
 
 		<!-- War Fervor -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_DESCRIPTION">
-			<Text>War fervor!</Text>
+			<Text>Kriegseifer!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_HELP">
-			<Text>Your people clamor for war! Our martial spirit is high, and your military advisor wishes to know how you would like to channel this energy.</Text>
+			<Text>Ihr Volk schreit nach Krieg! Unser Kampfgeist ist hoch, und Ihr militärischer Berater möchte wissen, wie Ihr diese Energie kanalisieren möchten.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1">
-			<Text>Rally the martial spirit of our people.</Text>
+			<Text>Eine Kundgebung für den Kampfgeist unseres Volkes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1_HELP">
-			<Text>All valid units gain the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion. +5 [ICON_HAPPINESS_1] Happiness for {4_Turns}.</Text>
+			<Text>Alle zulässigen Einheiten erhalten die [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] Beförderung. +5 [ICON_HAPPINESS_1] Zufriedenheit für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2">
-			<Text>Channel the energy into our industries.</Text>
+			<Text>Kanalisiert die Energie in unserer Industrie.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2_HELP">
-			<Text>+{3_CityYield} in all Cities for {4_Turns}.</Text>
+			<Text>+{3_CityYield} in allen Städten für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3">
-			<Text>The New World Order begins now!</Text>
+			<Text>Die neue Weltordnung beginnt jetzt!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_3_HELP">
-			<Text>10 turns of 'We Love the King Day' in all Cities. Military Academies produce +5 [ICON_RESEARCH] Science for {4_Turns}.</Text>
+			<Text>10 Runden 'Feiertag' in allen Städten. Militärakademien produzieren +5 [ICON_RESEARCH] Wissenschaft für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4">
-			<Text>For the Motherland!</Text>
+			<Text>Für's Vaterland!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_4_HELP">
-			<Text>Factories grant Cities +10% [ICON_PRODUCTION] Production for {4_Turns}.</Text>
+			<Text>Fabriken gewähren Städten +10% [ICON_PRODUCTION] Produktion für {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5">
-			<Text>Buy Victory Bonds!</Text>
+			<Text>Kauft Siegesanleihen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_5_HELP">
-			<Text>Banks grant Cities +20% [ICON_GOLD] Gold for {4_Turns}.</Text>
+			<Text>Banken gewähren Städten +20% [ICON_GOLD] Gold für {4_Turns}.</Text>
 		</Row>
 
 		<!-- War Weariness -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_DESCRIPTION">
-			<Text>War weariness!</Text>
+			<Text>Kriegsmüdigkeit!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_HELP">
-			<Text>The toll of war is hard on our people. They seek solace in the face of destruction and defeat, and look to you for guidance. How will you respond?</Text>
+			<Text>Der Tribut des Krieges ist hart für unser Volk. Sie suchen Trost im Angesicht der Zerstörung und Niederlage und blicken auf Eure Führung. Wie werden Sie antworten??</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1">
-			<Text>Give a speech at our Palace.</Text>
+			<Text>Haltet eine Rede in unserem Palast.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_HELP">
-			<Text>75% chance that all Cities will produce -1 [ICON_HAPPINESS_1] Happiness for the next {4_Turns}.</Text>
+			<Text>75% Wahrscheinlichkeit, dass alle Städte -1 [ICON_HAPPINESS_1] Zufriedenheit für die nächsten {4_Turns} produzieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
-			<Text>The speech did not move your populace, and they are unhapppier as a result. -1 [ICON_HAPPINESS_1] Happiness in all Cities.{4_Help}</Text>
+			<Text>Die Rede bewegte Ihre Bevölkerung nicht und sind infolgedessen unglücklicher. -1 [ICON_HAPPINESS_1] Zufriedenheit in allen Städten.{4_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL_S">
-			<Text>Speech unsuccessful!</Text>
+			<Text>Rede erfolglos!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2">
-			<Text>Have our religious leader pray for the wounded and deceased.</Text>
+			<Text>Lasst unsere religiösen Führer für die Verwundeten und Verstorbenen beten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2_HELP">
 			<Text>{1_YieldCost}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3">
-			<Text>Give a radio broadcast to the nation.</Text>
+			<Text>Haltet eine Radioansprache an die Nation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_HELP">
-			<Text>25% chance that all Cities will produce -2 [ICON_HAPPINESS_1] Happiness.</Text>
+			<Text>25% Wahrscheinlichkeit, dass alle Städte -2 [ICON_HAPPINESS_1] Zufriedenheit produzieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
-			<Text>The radio broadcast did not move your populace, and they are unhapppier as a result. -2 [ICON_HAPPINESS_1] Happiness in all Cities.{4_Help}</Text>
+			<Text>Die Radioansprache bewegte Ihre Bevölkerung nicht und sind infolgedessen unglücklicher. -2 [ICON_HAPPINESS_1] Zufriedenheit in allen Städten.{4_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL_S">
-			<Text>Radio broadcast unsuccessful!</Text>
+			<Text>Radioansprache erfolglos!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4">
-			<Text>We must win. Begin conscription.</Text>
+			<Text>Wir müssen gewinnen. Führt die Wehrpflicht ein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_HELP">
-			<Text>50% chance that all Cities will produce a military unit and bein 2 turns of [ICON_RESISTANCE] Resistance.</Text>
+			<Text>50% Wahrscheinlichkeit, dass alle Städte eine Militäreinheit produzieren und für 2 Runden im [ICON_RESISTANCE] Zivilen Widerstand befinden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL">
-			<Text>Conscription was successful, but your people are more angry than ever before. All cities experience 2 turns of [ICON_RESISTANCE] Resistance and produce 1 military unit.</Text>
+			<Text>Die Einführung der Wehrpflicht war erfolgreich, doch Euer Volk ist mehr verärgert als zuvor. Alle Städte stehen unter einem [ICON_RESISTANCE] Zivilen Widerstand und produzieren 1 Militäreinheit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
-			<Text>Conscription!</Text>
+			<Text>Wehrpflicht!</Text>
 		</Row>
 
 		<!-- Market Development -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT">
-			<Text>Crowded Markets, Foreign Tongues</Text>
+			<Text>Überfüllte Märkte, Fremde Sprachen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_HELP">
-			<Text>Crowds gather in your markets, voices from many different lands ringing out as deals are struck and bargains made. Some are angry about this, and believe that foreigners will destroy our trade. Others, however, encourage the foreign business, hoping to learn from their culture.[NEWLINE][NEWLINE]How do you feel about this? Choose from the following options:</Text>
+			<Text>Menschenmengen auf Euren Märkten. Stimmen aus verschiedenen Ländern lärmen über den Platz, während Abmachungen getroffen und Schnäppchen gemacht werden. Einige sind darüber wütend und glauben, dass Ausländer unseren Handel zerstören werden. Andere aber fördern das ausländische Geschäft und hoffen, von ihrer Kultur zu lernen.[NEWLINE][NEWLINE]Wie denkt Ihr darüber? Wählt aus den folgenden Möglichkeiten:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1">
-			<Text>Let the foreigners continue to trade.</Text>
+			<Text>Lasst die Ausländer weiter handeln.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_1_HELP">
-			<Text>Markets in all cities: +1 [ICON_CULTURE] Culture, -1 [ICON_GOLD] Gold.</Text>
+			<Text>Märkte in allen Städten: +1 [ICON_CULTURE] Kultur, -1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2">
-			<Text>Implement heavy taxes on imported goods.</Text>
+			<Text>Legt hohe Zölle auf importierte Waren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT_CHOICE_2_HELP">
-			<Text>Markets in all cities: +1 [ICON_GOLD] Gold.</Text>
+			<Text>Märkte in allen Städten: +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<!-- Monument Development -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT">
-			<Text>Icons of Our Past</Text>
+			<Text>Ikonen unserer Vergangenheit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_HELP">
-			<Text>Monuments represent the most important symbols of your culture. Your people seek to celebrate this by dedicating your Monuments to either their ancestors, or to their gods.[NEWLINE][NEWLINE]How do you feel about this? Choose from the following options:</Text>
+			<Text>Monumente sind die wichtigsten Symbole für unsere Kultur. Euer Volk sucht nach Möglichkeiten dies zu feiern, indem es Eure Monumente entweder ihren Vorfahren oder ihren Göttern widmet.[NEWLINE][NEWLINE]Wie denkt Ihr darüber? Wählt aus den folgenden Möglichkeiten:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1">
-			<Text>Dedicate Monuments to our ancestors.</Text>
+			<Text>Widmet die Monumente unseren Vorfahren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_1_HELP">
-			<Text>Monuments in all cities: +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Monumente in allen Städten: +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2">
-			<Text>The gods are what is important now.</Text>
+			<Text>Die Götter sind jetzt wichtig.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_2_HELP">
-			<Text>Monuments in all cities: +1 [ICON_PEACE] Faith.</Text>
+			<Text>Monumente in allen Städten: +1 [ICON_PEACE] Glauben.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3">
-			<Text>Neither will suffice. The Monument should generate revenue.</Text>
+			<Text>Weder das eine, noch das andere. Das Monument sollte Einnahmen generieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MONUMENT_DEVELOPMENT_CHOICE_3_HELP">
-			<Text>Monuments in all cities: +1 [ICON_GOLD] Gold.</Text>
+			<Text>Monumente in allen Städten: +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 
 		<!-- Castle Keep Policy -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_DESCRIPTION">
-			<Text>Castle Doctrine</Text>
+			<Text>Burg-Doktrin</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_HELP">
-			<Text>People are assembling at the gates of your Castle keeps, demainding safety during war time. Your castles are not large enough to accommodate entire cities, so you must decide: who should be given access to the keep during war?</Text>
+			<Text>Menschen versammeln sich vor den Toren Eures Burgfrieds und verlangen nach Sicherheit in Kriegszeiten. Eure Burgen sind nicht groß genug, um ganze Städte unterzubringen, daher müsst Ihr entscheiden: Wer soll Zugang während eines Krieges erhalten?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1">
-			<Text>The nobility, of course.</Text>
+			<Text>Der Adel, natürlich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_1_HELP">
-			<Text>All Castles produce +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Alle Burgen produzieren +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2">
-			<Text>Our finest merchants and craftsmen, according to merit.</Text>
+			<Text>Unsere besten Kaufleute und Handwerker, gemäß ihres Verdienst.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_2_HELP">
-			<Text>All Castles produce +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Alle Burgen produzieren +2 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3">
-			<Text>The keep is not for citizens!</Text>
+			<Text>Der Burgfried ist nicht für Bürger bestimmt!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_3_HELP">
-			<Text>All Castles produce +2 [ICON_FOOD] Food.</Text>
+			<Text>Alle Burgen produzieren +2 [ICON_FOOD] Nahrung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4">
-			<Text>The clergy, as willed by god.</Text>
+			<Text>Der Klerus, wie von Gott gewollt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_CASTLE_DOCTRINE_CHOICE_4_HELP">
-			<Text>All Castles produce +1 [ICON_PEACE] Faith.</Text>
+			<Text>Alle Burgen produzieren +1 [ICON_PEACE] Glauben.</Text>
 		</Row>
 		
 		<!-- Universities -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_DESCRIPTION">
-			<Text>University Curriculum</Text>
+			<Text>Universitäts Lehrplan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_HELP">
-			<Text>Faculty and administration from your state Universities seek to create a unified curriculum for all current and future Universities in your empire. As head of state, they look to you for the final decision. Which would you prefer?</Text>
+			<Text>Fakultäten und Verwaltungsbehörden Eurer staatlichen Universitäten suchen nach Möglichkeiten einen einheitlichen Lehrplan für alle aktuellen und zukünftigen staatlichen Universitäten zu schaffen. Als Staatsoberhaupt sehen sie Euch in der Pflicht diese Entscheidung zu treffen. Welche bevorzugt Ihr?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1">
-			<Text>Focus on the hard sciences.</Text>
+			<Text>Konzentriert Euch auf die harten Wissenschaften.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_1_HELP">
-			<Text>All Universities gain +2 [ICON_RESEARCH] Science.</Text>
+			<Text>Alle Universitäten erhalten +2 [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2">
-			<Text>Liberal arts education is most important.</Text>
+			<Text>Die Bildung der freien Künste ist besonders wichtig.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_2_HELP">
-			<Text>All Universities gain +1 [ICON_CULTURE] Culture.</Text>
+			<Text>Alle Universitäten erhalten +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3">
-			<Text>Divinity education will benefit us the most.</Text>
+			<Text>Die Religionswissenschaften werden uns am meisten bringen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_3_HELP">
-			<Text>All Universities gain +1 [ICON_PEACE] Faith.</Text>
+			<Text>Alle Universitäten erhalten +1 [ICON_PEACE] Glauben.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4">
-			<Text>Military education seems most prudent.</Text>
+			<Text>Militärische Ausbildung scheint am vernünftigsten zu sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_UNIVERSITY_POLICY_CHOICE_4_HELP">
-			<Text>All Universities gain +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Alle Universitäten erhalten +2 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 
 		<!-- Factory Partnerships -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP">
-			<Text>Factory Partnerships</Text>
+			<Text>Fabrikpartnerschaften</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_HELP">
-			<Text>Businessmen approach your government, asking for permission to begin joint-ventures with your Factories. There are five competing partnership bids, and the your government needs guidance. Which would you prefer?</Text>
+			<Text>Geschäftsleute treten an Euch heran und erbitten die Erlaubnis für ein Joint-Ventue mit Euren Fabriken. Es gibt fünf konkurrierende Partnerschaftsangebote und die Regierung benötigt Eure Empfehlung. Welche bevorzugt Ihr?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1">
-			<Text>Let's produce luxury textiles.</Text>
+			<Text>Lasst uns Luxustextilien produzieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_1_HELP">
-			<Text>Factories in all cities: +2 [ICON_CULTURE] Culture.</Text>
+			<Text>Fabriken in allen Städten: +2 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2">
-			<Text>Cheap textiles sound lucrative.</Text>
+			<Text>Günstige Textilien klingen lukrativ.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_2_HELP">
-			<Text>Factories in all cities: +3 [ICON_GOLD] Gold.</Text>
+			<Text>Fabriken in allen Städten: +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3">
-			<Text>Chemicals are a valuable asset</Text>
+			<Text>Chemikalien sind ein wertvolles Gut</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_3_HELP">
-			<Text>Factories in all cities: +2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Fabriken in allen Städten: +2 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4">
-			<Text>Pharmaceuticals will benefit our local scientists.</Text>
+			<Text>Pharmazeutika wird unseren lokalen Wissenschaftlern nützen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_4_HELP">
-			<Text>Factories in all cities: +2 [ICON_RESEARCH] Science.</Text>
+			<Text>Fabriken in allen Städten: +2 [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5">
-			<Text>Canned goods will support our growing cities.</Text>
+			<Text>Konserven werden unsere wachsenden Städte unterstützen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_FACTORY_PARTNERSHIP_CHOICE_5_HELP">
-			<Text>Factories in all cities: +2 [ICON_FOOD] Food.</Text>
+			<Text>Fabriken in allen Städten: +2 [ICON_FOOD] Nahrung.</Text>
 		</Row>
 
 		<!-- Banks -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_DESCRIPTION">
-			<Text>A New Banking System</Text>
+			<Text>Ein neues Banken System</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_HELP">
-			<Text>The complexities of our banking systems are growing, and economic advisors recommend that you establish an empire-wide banking regulation. Guilds currently manage all money in our empire, but some believe this is an outdated management method. Some believe that centralization is the best option, but your advisors are torn on the issue. Of the following options, which do you prefer?</Text>
+			<Text>Die Komplexität unserer Bankensysteme wächst und Wirtschaftsberater empfehlen, dass Ihr eine landesweite Bankenregulierung einführt. Gilden verwalten derzeit das gesamte Geld in unserem Reich, aber einige glauben, dies sei eine veraltete Verwaltungsmethode. Einige glaube, dass die Zentralisierung die beste Option sei, aber Eure Berater sind zu diesem Thema zerstritten. Welche der folgenden Möglichkeiten bevorzugt Ihr?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1">
-			<Text>Decentralize it. Our people are more than capable of managing their own money.</Text>
+			<Text>Dezentralisieren. Unsere Leute sind mehr als fähig, ihr eigenes Geld zu verwalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_1_HELP">
-			<Text>Receive 1 free Social Policy.</Text>
+			<Text>Erhaltet 1 freie Sozialpolitik.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2">
-			<Text>Guilds should continue to manage our money.</Text>
+			<Text>Gilden sollten weiterhin unser Geld verwalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_2_HELP">
-			<Text>All Banks produce +5% [ICON_GOLD] Gold.</Text>
+			<Text>Alle Banken produzieren +5% [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3">
-			<Text>Centralize it. Money is too important to leave to private citizens.</Text>
+			<Text>Zentralisierung. Geld ist zu wichtig, als dass man es Privatbürgern überlassen sollte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BANK_DECISION_CHOICE_3_HELP">
-			<Text>All Banks produce +3 [ICON_GOLD] Gold.</Text>
+			<Text>Alle Banken produzieren +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 
 		<!-- Public School Decision -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION">
-			<Text>School Boards Established</Text>
+			<Text>Volksschule gegründet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_HELP">
-			<Text>School boards were recently established in your cities, and they seek to reform your public school system. They look to you for guidance: would you prefer free tuition for all students, or would you rather privatize the institutions?</Text>
+			<Text>Volksschulen wurden kürzlich in Euren Städten gegründet und sie versuchen Euer öffentliches Schulsystem zu reformieren. Sie suchen Eure Meinung: Würdet Ihr lieber kostenlosen Unterricht für alle Studenten bevorzugen oder würdet Ihr die Institutionen eher privatisieren?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1">
-			<Text>Education should be free for everyone.</Text>
+			<Text>Bildung sollte für alle kostenlos sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_1_HELP">
-			<Text>Public Schools in all cities: +10% [ICON_CULTURE] Culture in the City.</Text>
+			<Text>Öffentliche Schulen in allen Städten: +10% [ICON_CULTURE] Kultur in der Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2">
-			<Text>Education should be available to those who can afford it.</Text>
+			<Text>Bildung sollte jenen zur Verfügung stehen, die es sich leisten können.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_PUBLIC_SCHOOL_DECISION_CHOICE_2_HELP">
-			<Text>Public Schools in all cities: +10% [ICON_GOLD] Gold in the City.</Text>
+			<Text>Öffentliche Schulen in allen Städten: +10% [ICON_GOLD] Gold in der Stadt.</Text>
 		</Row>
 		
 		<!-- Windmills -->
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_DESCRIPTION">
-			<Text>Aging Windmills</Text>
+			<Text>Alternde Windmühlen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_HELP">
-			<Text>Once the pinnacle of industrial design, our nation's Windmills now appear quite outdated. A few industrialists approach you about this topic, hoping to garner imperial support for the modernization of our Windmills. The following proposals are offered to you by these engineers. Which do you prefer?</Text>
+			<Text>Einst der Höhepunkt der Ingenieursleistung, wirken unsere Windmühlen nun ziemlich veraltet. Einige Industrielle treten an Euch zu diesem Thema heran, in der Hoffnung auf staatliche Unterstützung bei der Modernisierung unserer Windmühlen. Die folgenden Vorschläge wurden von diesen Ingenieuren unterbreitet. Welchen bevorzugt Ihr?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1">
-			<Text>Undertake a complete rework of our Windmills, starting immediately.</Text>
+			<Text>Unternehmen sie eine komplette Überarbeitung der Windmühlen, sofort.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_1_HELP">
-			<Text>{1_YieldCost}. All Windmills gain a +10% [ICON_PRODUCTION] Production boost.</Text>
+			<Text>{1_YieldCost}. Alle Windmühlen erhalten eine +10% [ICON_PRODUCTION] Produktionssteigerung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2">
-			<Text>Coordinate with our Manufactories and integrate them into our modern industrial processes.</Text>
+			<Text>Stimmt sie mit unseren Fabriken ab und integriert sie in unseren modernen industriellen Prozessen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_2_HELP">
-			<Text>{1_YieldCost} and 4 [ICON_RES_IRON] Iron. All Windmills gain a +15% [ICON_PRODUCTION] Production boost.</Text>
+			<Text>{1_YieldCost} und 4 [ICON_RES_IRON] Eisen. Alle Windmühlen erhalten eine +15% [ICON_PRODUCTION] Produktionssteigerung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3">
-			<Text>Retrofit them where we can, otherwise they're fine.</Text>
+			<Text>Rüstet sie nach, wo es geht. Sonst sind sie ja in Ordnung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WINDMILLS_MODERNIZE_CHOICE_3_HELP">
-			<Text>{1_YieldCost}. All Windmills gain a +3 [ICON_PRODUCTION] Production.</Text>
+			<Text>{1_YieldCost}. Alle Windmühlen erhalten +3 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		
 		<!-- Stadium -->
