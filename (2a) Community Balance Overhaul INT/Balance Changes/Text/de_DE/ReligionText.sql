@@ -113,7 +113,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP' AND EXISTS (SELECT * FROM COMMUNIT
 -- Desert Folklore (Now Spirit of the Desert)
 
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_PEACE] Glauben, [ICON_FOOD] Nahrung und [ICON_GOLD] Gold von Wüsten-Geländefeldern mit modernisierten Ressourcen'
+SET Text = '+2 [ICON_PEACE] Glauben, +2 [ICON_GOLD] Gold und +1 [ICON_FOOD] Nahrung von Wüsten-Geländefeldern mit modernisierten Ressourcen'
 WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -191,7 +191,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT' AND EXISTS (SELECT * FROM
 
 -- Evangelism (Now Crusader Zeal)
 UPDATE Language_de_DE
-SET Text = 'Landeinheiten erhalten +10% [ICON_STRENGTH] Kampfstärke gegenüber Landeinheiten in feindlichem Land und weitere +10% gegenüber Landeinheiten von Spielern mit einer anderen Religion. Erhaltet [ICON_CULTURE] Kultur und [ICON_GOLD] Gold wenn Ihr Städte erobert.'
+SET Text = 'Landeinheiten erhalten +10% [ICON_STRENGTH] Kampfstärke gegenüber Landeinheiten in feindlichem Land und weitere +10% gegenüber Landeinheiten von Spielern die nicht Eurer Religion folgen. Erhaltet [ICON_CULTURE] Kultur und [ICON_GOLD] Gold wenn Ihr Städte erobert.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -200,7 +200,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Defender Faith
 UPDATE Language_de_DE
-SET Text = 'Landeinheiten erhalten +15% [ICON_STRENGTH] Kampfstärke gegenüber Landeinheiten in eigenem Land und weitere +15% gegenüber Landeinheiten von Spielern mit einer anderen Religion. +2 [ICON_PEACE] Glauben und +3 [ICON_CULTURE] Kultur von allen Verteidigungsgebäuden.'
+SET Text = 'Landeinheiten erhalten +15% [ICON_STRENGTH] Kampfstärke gegenüber Landeinheiten in eigenem Land und weitere +15% gegenüber Landeinheiten von Spielern die nicht Eurer Religion folgen. +2 [ICON_PEACE] Glauben und +3 [ICON_CULTURE] Kultur von allen Verteidigungsgebäuden.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Jesuit Education 
@@ -224,7 +224,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES' AND EXISTS (SELECT * FROM COMMUNITY WH
 
 -- Glory of God
 UPDATE Language_de_DE
-SET Text = 'Nutzt [ICON_PEACE] Glauben um jegliche Art von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten zu kaufen(im Industriezeitalter). Erhaltet 30 [ICON_GOLD] Gold, [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben wenn Ihr eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufbraucht. Bonus steigt mit jedem Zeitalter.'
+SET Text = 'Nutzt [ICON_PEACE] Glauben um jegliche Art von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten zu kaufen(im Industriezeitalter). Erhaltet 20 [ICON_GOLD] Gold, [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben wenn Ihr eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufbraucht. Bonus steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Underground Sect (Now Faith of the  Masses)

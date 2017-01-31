@@ -287,7 +287,7 @@
 			<Text>The Bath generates Kultur, and boosts the Gold and Kultur yield of Temples, Gardens, and Amphitheaters in der Stadt. Also generates additional Kultur during Golden Ages. Baths can be constructed only in cities next to a river.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
-			<Text>The Herbalist increases City growth, and improves the yields on nearby Dschungel- und Wald-Geländefeldern. Requires a nearby Forest or Jungle in order to be constructed. Build them early to maximize the bonus, and to take advantage of regions with a large number of features.</Text>
+			<Text>Der Druide steigert das städtische Wachstum und verbessert die Erträge von umliegenden Dschungel- und Wald-Geländefeldern, wie auch Plantagen. Für die Errichtung muss umliegender Wald oder Dschungel vorhanden sein. Baut ihn früh um den Bonus zu maximieren und um einen Vorteil aus Regionen zu ziehen, die eine große Anzahl an Geländearten beherbergen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_STRATEGY">
 			<Text>The Well can only be constructed in a city not on a river. The Well increases the city's Nahrung and Produktion based on the city's population, but has a lower efficiency (per citizen) than a Water Mill.</Text>
@@ -296,7 +296,7 @@
 			<Text>Der Windpark ist ein Gebäude der Moderne, das nur in einer Stadt errichtet werden kann die nicht an einem Fluß liegt. Der Windpark steigert den Produktions-, Wissenschafts- und Goldertrag für jedes Grasland- und Ebene-Geländefeld das von dieser Stadt bewirtschaftet wird.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_STRATEGY">
-			<Text>Der Gemischtwarenhändler ist ein Gebäude der Renaissance, das nur gebaut werden kann, wenn die Stadt bereits über ein Aquädukt verfügt. Der Gemischtwarenhändler lässt Eure Stadt schneller wachsen und bekämpft gleichzeitig die Armut.</Text>
+			<Text>Der Gemischtwarenhändler ist ein Gebäude der Renaissance, das nur gebaut werden kann, wenn die Stadt bereits über ein Aquädukt verfügt. Der Gemischtwarenhändler lässt Eure Stadt schneller wachsen, bekämpft gleichzeitig die Armut und erhöht den Geländeertrag von Bananen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_STRATEGY">
 			<Text>The Agribusiness is an Industrial-era building which can only be constructed if you have already built a Gemischtwarenhändler in der Stadt. An Agribusiness helps your City grow more quickly, however the use of Pferde is a risky tradeoff during an era in which Cavalry is still quite powerful.</Text>
@@ -308,19 +308,19 @@
 			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Eisen and you have already built a Harbor in der Stadt. The Minefield increases coastal city defense by +8, hit points by 50, and reduces the movement of enemy naval units and embarked units by 1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROVE_HELP">
-			<Text>Gain 5 [ICON_RESEARCH] Wissenschaft when a new [ICON_CITIZEN] Citizen is born in der Stadt, scaling with Era.</Text>
+			<Text>Erhaltet 5 [ICON_RESEARCH] Wissenschaft wenn ein neuer [ICON_CITIZEN] Bürger in der Stadt geboren wird, steigt mit jedem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_HELP">
 			<Text>+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion for every 5 [ICON_CITIZEN] Citizens in der Stadt. [NEWLINE][NEWLINE]City must not be built next to a River. Cannot be built if the City already has a Watermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
-			<Text>+1 [ICON_FOOD] Nahrung von nahe gelegenen Wald- und Dschungel-Geländefeldern. [NEWLINE][NEWLINE]Stadt muss über ein bewirtschaftetes Wald- oder Dschungel-Geländefeld innerhalb seiner Grenzen verfügen.</Text>
+			<Text>+1 [ICON_FOOD] Nahrung von nahe gelegenen Wald- und Dschungel-Geländefeldern +1 [ICON_PRODUCTION] Produktion von Plantagen.[NEWLINE][NEWLINE]Stadt muss über ein bewirtschaftetes Wald- oder Dschungel-Geländefeld innerhalb seiner Grenzen verfügen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_HELP">
 			<Text>Temples, Amphitheaters, and Gardens in City: +1 [ICON_GOLD] Gold and [ICON_CULTURE] Kultur. +10% [ICON_CULTURE] Kultur in der Stadt during [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE]City must be built next to a River.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_HELP">
-			<Text>15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird (Effekt addiert sich mit Aquädukt). Reduziert [ICON_HAPPINESS_3] Armut.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.</Text>
+			<Text>15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird (Effekt addiert sich mit Aquädukt). Reduziert [ICON_HAPPINESS_3] Armut.[NEWLINE] Umliegende [ICON_RES_BANANA] Bananen: +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_HELP">
 			<Text>+2 [ICON_PRODUCTION] Produktion auf jedem Grasland- und Ebene-Geländefeld. Benötigt für den Bau [ICON_RES_ALUMINUM] Aluminium. [NEWLINE][NEWLINE]Stadt darf nicht neben einem Fluss gebaut werden.</Text>

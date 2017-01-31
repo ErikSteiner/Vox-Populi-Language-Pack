@@ -706,7 +706,7 @@ WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP' AND EXISTS (SELECT * FROM COMMUN
 
 -- Cultural Diplomacy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Völkerverständigung[ENDCOLOR][NEWLINE]Die Anzahl der von Stadtstaaten verschenkten Ressourcen wird um 100% erhöht. Erhaltet einen [ICON_TOURISM] Tourismusschub mit allen bekannten Zivilisationen, basierend auf dem aktuellen [ICON_CULTURE] Kulturertrag, wenn Sie einen [ICON_INTERNATIONAL_TRADE] Handelsweg mit einem Stadtstaat abschließen.'
+SET Text = '[COLOR_POSITIVE_TEXT]Völkerverständigung[ENDCOLOR][NEWLINE]Die Anzahl der von Stadtstaaten verschenkten Ressourcen wird um 100% erhöht. Erhaltet einen [ICON_TOURISM] Tourismusschub mit allen bekannten Zivilisationen, basierend auf dem aktuellen [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag, wenn Sie einen [ICON_INTERNATIONAL_TRADE] Handelsweg mit einem Stadtstaat abschließen.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Merchant Confederacy

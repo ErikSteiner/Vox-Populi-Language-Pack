@@ -6426,11 +6426,14 @@
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_BUILDING">
 			<Text>[COLOR_POSITIVE_TEXT]Das Investieren von [ICON_GOLD] Gold in ein Gebäude reduziert seine [ICON_PRODUCTION] Produktionskosten um {1_Num}% oder um {2_Num}% bei einem Wunder.[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INVESTED">
+			<Text>[COLOR_POSITIVE_TEXT] (INVESTIERT) [ENDCOLOR]</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_INVESTMENT_UNIT">
 			<Text>[COLOR_POSITIVE_TEXT]Das Investieren von [ICON_GOLD] Gold in eine Einheit reduziert seine [ICON_PRODUCTION] Produktionskosten um {1_Num}%.[ENDCOLOR]</Text>
 		</Row>
-		<Row Tag="TXT_KEY_INVESTED">
-			<Text>[COLOR_POSITIVE_TEXT] (INVESTIERT) [ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
+			<Text>Zusätzliche [ICON_PRODUCTION] Produktionskosten durch eigene Weltwunder: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Produktionskosten Steigerung metrisch:[NEWLINE][ICON_BULLET] Wunder des selben Zeitalters: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET] Wunder aus vergangenem Zeitalter: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Wunder aus früheren Zeitaltern: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>Aktiviert Ereignis System</Text>
@@ -6477,6 +6480,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_CHILL_BARBARIANS_HELP">
 			<Text>Barbarian spawn rates reduced slightly, and camps do not spawn two units when created. Groovy, man.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY">
+			<Text>Zufällige Siegbedingungen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY_HELP">
+			<Text>Eine zufällige Siegbedingung (Herrschafts-, Kultur-, Diplomatie- oder Raumschiffsieg) wird aktiviert, sobald ein Spieler das Informationszeitalter erreicht. Alle anderen Siegbedingungen werden deaktiviert (Beachtet: Punkt- und Herrschaftssiege sind immer möglich).</Text>
 		</Row>
 
 		<!-- Egypt CBO-->
