@@ -4,7 +4,7 @@
 	<Language_de_DE>
 		<Row Tag="TXT_KEY_IMPROVEMENT_EKI">
 			<Text>Eki</Text>
-			<Gender>neuter:an</Gender>
+			<Gender>neuter:ein</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EKI_TEXT">
 			<Text>"Eki" ist ein Begriff, den die Hunnen nutzten um die Erde zu beschreiben, vor allem den Teil, der essenziell für ihren grasenden Nutztierbestand war. Der nomadische Pastoralismus ist eine Form des Pastoralismus, in der der Nutztierbestand in einer Herde zusammengeschlossen wird, mit dem Ziel frisches Weideland zu finden. Wahre Nomaden folgen unregelmäßigen Wanderungsmustern, im Gegensatz zur Wanderweidewirtschaft, die saisonabhängiges Weideland festlegt. Dieser Unterschied wird häufig vernachlässigt wenn es um den Begriff Nomaden geht - in historischer Hinsicht ist die Regelmäßigkeit von Wanderungen in vielen Fällen ohnehin unbekannt. Der in einer Herde zusammengeschlossene Viehbestand enthielt Rinder, Yaks, Schafe, Ziegen, Rentiere, Pferde, Esel und Kamele oder Mischungen aus den genannten. Von den geschätzt 30-40 Mio Menschen, die im nomadischen Pastoralismus leben, befinden sich die meisten in Zentralasien und in der Sahel-Zone in Westafrika.[NEWLINE][NEWLINE]Ein Eki kann nur in flachen Grasland oder Ebenen Geländefeldern errichtet werden ohne Zugang zu frischem Wasser. Es gewährt Euch [ICON_PRODUCTION] Produktion, [ICON_CULTURE] Kultur und [ICON_FOOD] Nahrung, sowie zusätzliche [ICON_PRODUCTION] Produktion, wenn [COLOR_POSITIVE_TEXT]angrenzend an zwei[ENDCOLOR] andere Eki. Entfernt alle Eigenschaften auf dem Geländefeld. Kann [COLOR_POSITIVE_TEXT]innerhalb oder angrenzend an[ENDCOLOR] hunnisches Territorium errichtet werden.</Text>
@@ -203,10 +203,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_FOOD] Nahrung auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_CULTURE">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_CULTURE] Kultur auf Rohstoff-Geländefeldern.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +2 [ICON_CULTURE] Kultur auf Rohstoff-Geländefeldern.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_FAITH">
+			<Text>[COLOR_POSITIVE_TEXT]Monopoly Bonus:[ENDCOLOR] +2 [ICON_PEACE] Glauben von Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +10% [ICON_PRODUCTION] Produktion in allen eigenen Städten.</Text>
@@ -232,10 +235,10 @@
 			<Text>Benötigt für mächtige Einheiten und Gebäude im mittleren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Marine Einheiten erhalten +1 [ICON_MOVES] Fortbewegung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
-			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
-			<Text>Benötigt für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION_IRON">
 			<Text>Benötigt für mächtige Einheiten während des gesamten Spiels.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke bei der Verteidigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>

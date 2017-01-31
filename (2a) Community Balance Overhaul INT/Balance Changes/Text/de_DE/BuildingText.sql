@@ -1,6 +1,6 @@
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je 3 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Kunstwerk.[NEWLINE][NEWLINE]Wenn eines der folgenden [COLOR_POSITIVE_TEXT]Historischen Eregnisse[ENDCOLOR] abgeschlossen wurde, erhaltet Ihr einen Schub auf Euren [ICON_TOURISM] Tourismus mit allen bekannten Zivilizationen basierend auf Eurer aktuellen [ICON_CULTURE] Kulturproduktion:[NEWLINE][ICON_BULLET] Erhaltet eine [ICON_GREAT_PEOPLE] Große Persönlichkeit[NEWLINE][ICON_BULLET] Baut ein [ICON_GOLDEN_AGE] Weltwunder[NEWLINE][ICON_BULLET] Gewinnt einen [ICON_WAR] Krieg[NEWLINE][ICON_BULLET] Erreicht ein neues [ICON_RESEARCH] Zeitalter[NEWLINE][NEWLINE][ICON_CONNECTED] Wenn andere Städte durch Straßen mit der [ICON_CAPITAL] Hauptstadt [ICON_CONNECTED] verbunden werden, wird zusätzliches [ICON_GOLD] Gold produziert.'
+SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je 3 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Kunstwerk.[NEWLINE][NEWLINE]Wenn eines der folgenden [COLOR_POSITIVE_TEXT]Historischen Eregnisse[ENDCOLOR] abgeschlossen wurde, erhaltet Ihr einen Schub auf Euren [ICON_TOURISM] Tourismus mit allen bekannten Zivilizationen basierend auf Eurer aktuellen [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusproduktion:[NEWLINE][ICON_BULLET] Erhaltet eine [ICON_GREAT_PEOPLE] Große Persönlichkeit[NEWLINE][ICON_BULLET] Baut ein [ICON_GOLDEN_AGE] Weltwunder[NEWLINE][ICON_BULLET] Gewinnt einen [ICON_WAR] Krieg[NEWLINE][ICON_BULLET] Erreicht ein neues [ICON_RESEARCH] Zeitalter[NEWLINE][NEWLINE][ICON_CONNECTED] Wenn andere Städte durch Straßen mit der [ICON_CAPITAL] Hauptstadt [ICON_CONNECTED] verbunden werden, wird zusätzliches [ICON_GOLD] Gold produziert.'
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -128,7 +128,7 @@ SET Text = 'Wenn eine Stadt durch eine Straße und/oder einen Leuchtturm mit Eur
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt einen Leuchtturm in dieser Stadt. [ICON_INTERNATIONAL_TRADE] Seehandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kulturertrag.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung [ICON_GOLD] von Küsten- und Ozean-Geländefeldern und +1 [ICON_PRODUCTION] Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Seehandelswege haben eine um 50% erhöhte Reichweite und produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion von Marineeinheiten. Stadt muss an der Küste liegen.'
+SET Text = 'Benötigt einen Leuchtturm in dieser Stadt. [ICON_INTERNATIONAL_TRADE] Seehandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung [ICON_GOLD] von Küsten- und Ozean-Geländefeldern und +1 [ICON_PRODUCTION] Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Seehandelswege haben eine um 50% erhöhte Reichweite und produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion von Marineeinheiten. Stadt muss an der Küste liegen.'
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -152,7 +152,7 @@ SET Text = 'Märkte erhöhen die Menge an [ICON_GOLD] Gold, die eine Stadt produ
 WHERE Tag = 'TXT_KEY_BUILDING_MARKET_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_INTERNATIONAL_TRADE] Handelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kulturertrag.[NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE] Handelswege zu dieser Stadt produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt einen Markt.'
+SET Text = '[ICON_INTERNATIONAL_TRADE] Handelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag.[NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE] Handelswege zu dieser Stadt produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt einen Markt.'
 WHERE Tag = 'TXT_KEY_BUILDING_MINT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -176,7 +176,7 @@ SET Text = 'Stadt benötigt eine Bank. +1 [ICON_GOLD] Gold für je 5 [ICON_CITIZ
 WHERE Tag = 'TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_INTERNATIONAL_TRADE] Landhandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kulturertrag.[NEWLINE][NEWLINE]Landhandelswege haben eine um +50% erhöhte Reichweite und +2 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_TRUFFLES] Trüffel: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COTTON] Baumwolle: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_CULTURE] Kultur.[NEWLINE][ICON_RES_FUR] Pelze: +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Produktion.'
+SET Text = '[ICON_INTERNATIONAL_TRADE] Landhandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag.[NEWLINE][NEWLINE]Landhandelswege haben eine um +50% erhöhte Reichweite und +2 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_TRUFFLES] Trüffel: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COTTON] Baumwolle: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_CULTURE] Kultur.[NEWLINE][ICON_RES_FUR] Pelze: +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Produktion.'
 WHERE Tag = 'TXT_KEY_BUILDING_CARAVANSARY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

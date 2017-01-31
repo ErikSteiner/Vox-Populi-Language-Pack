@@ -8,5 +8,20 @@
 		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
 			<Text>Örtliche Ressourcen</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_DP">
+			<Text>Verteidigungsbündnis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_MASTER_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Herr von[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CP_DIPLO_VASSAL_OF">
+			<Text> [COLOR_POSITIVE_TEXT]Vasall von[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
+			<Text> [COLOR_NEGATIVE_TEXT]Kriegspunkte:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
+			<Text> [COLOR_NEGATIVE_TEXT]Im Krieg mit {1_enemy}[ENDCOLOR]</Text>
+		</Row>
 	</language_de_DE>
 </GameData>
