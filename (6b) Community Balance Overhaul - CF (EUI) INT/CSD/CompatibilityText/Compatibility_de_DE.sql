@@ -41,11 +41,11 @@ SET Text = 'Spezialisten bieten folgende Vorteile:[NEWLINE][NEWLINE]Künstler st
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Kann nur in der Hauptstadt gebaut werden.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. [NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Dieses Nationale Wunder ist einzigartig, da es Spieler in Ihrer Hauptstadt ohne weitere Voraussetzungen bauen können. Es gewährt einen kleinen Produktionsvorteil beim Bau von Diplomatischen Einheiten in der Hauptstadt und eine [ICON_RES_PAPER] Papierquelle. Baut dieses Gebäude um Euch ein oder zwei verbündete Stadtstaaten, in den ersten Zeitaltern, zu sichern. Die zusätzlichen Erträge durch befreundete und alliierte Stadtstaaten steigert den Wert von frühen positiven Beziehungen mit Stadtstaaten.'
+SET Text = 'Dieses Nationale Wunder gewährt einen kleinen Produktionsvorteil beim Bau von diplomatischen Einheiten in der Hauptstadt und eine [ICON_RES_PAPER] Papierquelle. Baut dieses Gebäude um Euch ein oder zwei verbündete Stadtstaaten, in den ersten Zeitaltern, zu sichern. Die zusätzlichen Erträge durch befreundete und alliierte Stadtstaaten steigert den Wert von frühen positiven Beziehungen mit Stadtstaaten.'
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY';
 
 UPDATE language_de_DE
@@ -53,7 +53,7 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. +2 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Verteidigungsbündnis[ENDCOLOR] oder jeden [COLOR_POSITIVE_TEXT]Vassall[ENDCOLOR] die Sie kontrollieren.[NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Verteidigungsbündnis[ENDCOLOR] oder jeden [COLOR_POSITIVE_TEXT]Vassall[ENDCOLOR] die Sie kontrollieren.[NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP';
 
 UPDATE language_de_DE
@@ -61,7 +61,7 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_EHRENHALLE_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PRODUCTION] Produktion in der Stadt, in der es gebaut wurde. +2 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle.[NEWLINE][NEWLINE]Benötigt eine Militär Akademie in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PRODUCTION] Produktion in der Stadt, in der es gebaut wurde. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle.[NEWLINE][NEWLINE]Benötigt eine Militär Akademie in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_EHRENHALLE_HELP';
 
 UPDATE language_de_DE
@@ -69,7 +69,7 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wurde. +2 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt.[NEWLINE][NEWLINE]Benötigt eine Börse in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wurde. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt.[NEWLINE][NEWLINE]Benötigt eine Börse in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_FINANCE_CENTER_HELP';
 
 UPDATE language_de_DE
@@ -85,31 +85,30 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+2 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Presseagentur in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Presseagentur in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
 -- Grand Temple Help Text
 
 UPDATE language_de_DE
-SET Text = 'Ein [ICON_GOLDEN_AGE] Goldenes Zeitalter beginnt. Reduziert [ICON_HAPPINESS_3] religiöse Unruhen. Stadt benötigt einen Tempel. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] religiöse Unruhen. Alle Tempel erhalten +2 [ICON_PEACE] Glauben und [ICON_CULTURE] Kultur. Stadt benötigt einen Tempel. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP';
 
 -- Merchant Mission
 
 UPDATE language_de_DE
-SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten. Diese Aktion wird die Einheit opfern.'
+SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert. Erhaltet 1 [ICON_RES_PAPER] Papier.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten. Diese Aktion wird die Einheit opfern.'
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Philanthropy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Informanten[ENDCOLOR][NEWLINE]Erhaltet ein oder weitere [ICON_SPY] Spione (basierend auf der Anzahl an Stadtstaaten im Spiel). Die Buchpresse steigert die [ICON_CULTURE] Kultur um +10.'
+SET Text = '[COLOR_POSITIVE_TEXT]Foreign Service[ENDCOLOR][NEWLINE]+1 of every Strategic Resource for every three City-State Alliances you maintain. Earn [ICON_DIPLOMAT] Great Diplomats 50% faster, and gain +50% Rewards from City-State Quests.'
 WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
 
 -- Cultural Diplomacy
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Völkerverständigung[ENDCOLOR][NEWLINE]Die Anzahl der von Stadtstaaten verschenkten Ressourcen wird um 100% erhöht und +1 [ICON_HAPPINESS_1] Zufriedenheit von Kanzleien. Erhaltet einen [ICON_TOURISM] Tourismusschub mit allen bekannten Zivilisationen, basierend auf dem aktuellen [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag, wenn Sie einen [ICON_INTERNATIONAL_TRADE] Handelsweg mit einem Stadtstaat abschließen.'
+SET Text = '[COLOR_POSITIVE_TEXT]Exchange Markets[ENDCOLOR][NEWLINE]Resources from City-States count towards Global Monopolies. +1 [ICON_INTERNATIONAL_TRADE] Trade Route, and +2 [ICON_HAPPINESS_1] Happiness for every active [ICON_INTERNATIONAL_TRADE] Trade Route. The [ICON_TOURISM] Tourism modifier for [COLOR_POSITIVE_TEXT]Trade Routes[ENDCOLOR] is increased by 15%.'
 WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
-
 
 UPDATE language_de_DE
 SET Text = 'Ihr seid [COLOR_POSITIVE_TEXT]verbündet[ENDCOLOR] mit dem Stadtstaat {1_CityStateName:textkey}. Jede Runde wird sich Euer [ICON_INFLUENCE] Einfluss mit ihnen um {2_Num} ändern. Wenn {1_CityStateName:textkey} beschädigt wurde und Ihr ihnen ein [COLOR_POSITIVE_TEXT]Schutzversprechen[ENDCOLOR] gabt, wird sich der Wert um das dreifache verringern.'
@@ -122,9 +121,5 @@ WHERE Tag = 'TXT_KEY_CSTATE_INFLUENCE_RATE';
 -- Policy Changes
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Staatskunst[ENDCOLOR] erhöht die Vorteile der Freundschaft zwischen Stadtstaaten und dient der Völkerverständigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Die Einführung der Staatskunst gewährt:[ENDCOLOR] [NEWLINE] [ICON_BULLET] Nullpunkt des [ICON_INFLUENCE] Einflusses auf alle Stadtstaaten um 20 Punkte erhöht.[NEWLINE]Quest Belohnungen von [ICON_BULLET] Stadtstaaten um +25% erhöht.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Jede freigeschaltete Staatskunst Politik gewährt:[ENDCOLOR] [NEWLINE] [ICON_BULLET]Euer [ICON_INFLUENCE] Einfluss auf Stadtstaaten sinkt 5% langsamer.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Bei Übernahme aller Politiken im Staatskunst-Zweig:[ENDCOLOR][NEWLINE] [ICON_BULLET] Schaltet das Gebäude [COLOR_CYAN]Verbotener Palast[ENDCOLOR] frei. [NEWLINE] [ICON_BULLET] Verbündete Stadtstaaten schenken Euch von Zeit zu Zeit [ICON_GREAT_PEOPLE] Große Persönlichkeiten. [NEWLINE] [ICON_BULLET] Weltwunder benötigen 1 freigeschaltete Politik weniger, für je 4 verbündete Stadtstaaten die Ihr unterhaltet.[NEWLINE] [ICON_BULLET] Erlaubt den Kauf von [ICON_DIPLOMAT] Großen Diplomaten mit [ICON_PEACE] Glaube, mit beginn des Industriezeitalters.'
+SET Text = '[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] improves your ability to benefit from [ICON_INTERNATIONAL_TRADE] Trade Routes, [ICON_CITY_STATE] City-States, [ICON_SPY] Spies, and [ICON_DIPLOMAT] the World Congress.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 of every Yield in [ICON_CAPITAL] Capital for every 15 [ICON_CITIZEN] Citizens in your Empire.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Statecraft policy unlocked grants:[ENDCOLOR] [NEWLINE][ICON_BULLET]+1 [ICON_GOLD] Gold in every City, and +10% [ICON_INFLUENCE] Influence from Trade Missions.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Unlocks building the [COLOR_CYAN]Palace of Westminster[ENDCOLOR]. [NEWLINE][ICON_BULLET] Every World Congresss Session, gain [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold based on the number of [ICON_DIPLOMAT] Delegates you control, scaling with Era.[NEWLINE][ICON_BULLET] World Wonders require 1 less unlocked Policy for every 3 City-State alliances you maintain.[NEWLINE] [ICON_BULLET] Allows for the purchase of [ICON_DIPLOMAT] Great Diplomats with [ICON_PEACE] Faith starting in the Industrial Era.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP';
-
-UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Scholastik[ENDCOLOR][NEWLINE]Gewinnt Große Diplomaten 25% schneller. Alle Stadtstaaten, die [COLOR_POSITIVE_TEXT]Verbündete[ENDCOLOR] sind, liefern einen [ICON_RESEARCH] Wissenschaftsbonus in Höhe von 33% ihrer Produktion.'
-WHERE Tag = 'TXT_KEY_POLICY_SCHOLASTICISM_HELP';

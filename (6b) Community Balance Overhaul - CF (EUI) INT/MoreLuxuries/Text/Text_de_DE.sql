@@ -1,10 +1,10 @@
 
 UPDATE language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe und generiert +25% Religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe und generiert +25% Religiösen Druck. Verfügt über 1 Platz für ein Großes Musikwerk.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_TEMPLE_HELP';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Hundelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
+SET Text = '+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt. Verfügt über 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Hundelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_BASILICA_HELP';
 
 UPDATE language_de_DE
@@ -16,11 +16,11 @@ SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt. Ste
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
+SET Text = '+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
 WHERE Tag = 'TXT_KEY_BUILDING_ODEON_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus, besonders während des Krieges für die beiden letzteren. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt.'
+SET Text = 'Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus, besonders während des Krieges für die beiden letzteren. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde.'
 WHERE Tag = 'TXT_KEY_BUILDING_ODEON_STRATEGY';
 
 UPDATE language_de_DE
@@ -32,15 +32,15 @@ SET Text = '+33% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Generation in dies
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_Salz] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen.'
+SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_Salz] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP';
 	
 UPDATE language_de_DE
-SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_SALT] Salz- oder [ICON_RES_MARBLE] Marmor- oder [ICON_RES_JADE] Jade-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
+SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_SALT] Salz-, [ICON_RES_URANIUM] Uran-, [ICON_RES_LAPIS] Lapis Lazuli- oder [ICON_RES_AMBER] Bernstein-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_CULTURE] Kultur, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden. Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.'
+SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_PRODUCTION] Produktion, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden. Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP';
 
 UPDATE language_de_DE

@@ -19,7 +19,7 @@ WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_GIORGIO_ARMEIER';
 -- Hexxon Refineries
   
 UPDATE language_de_DE
-SET Text = '[ICON_RES_COAL] Kohle, [ICON_RES_OIL] Öl, [ICON_RES_INCENSE] Räucherwerk, [ICON_RES_URANIUM] Uran, [ICON_RES_PERFUME] Parfüm und [ICON_RES_GLASS] Glas gewährt +1 [ICON_PRODUCTION] Produktion in allen Städten mit einem Hexxon Refineries Konzernbüro.'
+SET Text = '[ICON_RES_COAL] Kohle, [ICON_RES_OIL] Öl, [ICON_RES_INCENSE] Räucherwerk, [ICON_RES_URANIUM] Uran, [ICON_RES_BRAZILWOOD] Brasilholz, [ICON_RES_PERFUME] Parfüm und [ICON_RES_GLASS] Glas gewährt +1 [ICON_PRODUCTION] Produktion in allen Städten mit einem Hexxon Refineries Konzernbüro.'
 WHERE Tag = 'TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY';
  
 -- LandSea Extractors
