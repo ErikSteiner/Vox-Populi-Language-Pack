@@ -517,7 +517,7 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP' AND EXISTS (SELECT * F
 -- India
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Startet mit einem Pantheon. Jeder Anhänger Eurer primären Religion in einer Stadt erhöht den religiösen Druck and das [ICON_FOOD] Wachstum. Können keine Missionare oder Inquisitoren ausbilden.'
+SET Text = 'Startet mit einem Pantheon und [ICON_PROPHET] Große Propheten benötigen 35 % weniger [ICON_PEACE] Glauben. Jeder Anhänger Eurer primären Religion in einer Stadt erhöht den religiösen Druck and das [ICON_FOOD] Wachstum. Können keine Missionare oder Inquisitoren ausbilden.'
 WHERE Tag = 'TXT_KEY_TRAIT_POPULATION_GROWTH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -528,11 +528,11 @@ SET Text = 'Ein Furcht einflößender Anblick auf dem Schlachtfeld und für die 
 WHERE Tag = 'TXT_KEY_CIV5_ANTIQUITY_INDIANWARELEPHANT_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Eine schnelle Fernwaffen-Einheit, die in flachem Gelände sehr effektiv ist. Nur die Inder können sie bauen. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampf- und Fernkampfstärke als der Kürassier, hat dafür jedoch eine geringere Bewegungsreichweite und kann sich nach dem Angriff nicht mehr fortbewegen. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier.' 
+SET Text = 'Eine schnelle Fernwaffen-Einheit, die in flachem Gelände sehr effektiv ist. Nur die Inder können sie bauen. Diese Einheit hat eine höhere [ICON_STRENGTH] Kampf- und Fernkampfstärke als der Kürassier, kann sich jedoch nach dem Angriff nicht mehr fortbewegen. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier.' 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Der Naga-Malla (Kriegselefant) ist die Spezialeinheit der Inder, die den Kürassier ersetzt. Sie ist stärker (aber langsamer) als der Kürassier und kann sich nach dem Angriff nicht mehr fortbewegen. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier. Eine berittene Einheit wie der Naga-Malla ist sehr anfällig gegenüber Speerkämpfern.' 
+SET Text = 'Der Naga-Malla (Kriegselefant) ist die Spezialeinheit der Inder, die den Kürassier ersetzt. Sie ist stärker als der Kürassier, kann sich nach dem Angriff jedoch nicht mehr fortbewegen. Benötigt keine [ICON_RES_HORSE] Pferde und ist etwas früher verfügbar als der Kürassier. Eine berittene Einheit wie der Naga-Malla ist sehr anfällig gegenüber Speerkämpfern.' 
 WHERE Tag = 'TXT_KEY_UNIT_INDIAN_WARELEPHANT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -547,7 +547,7 @@ SET Text = 'In addition to the regular abilities of the Garden, the Candi provid
 WHERE Tag = 'TXT_KEY_BUILDING_CANDI_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'When you found or conquer a City, one of three unique Luxuries will appear next to or under the City. No [ICON_HAPPINESS_3] Unhappiness from Isolation.'
+SET Text = 'When you found or conquer a City, one of three unique Luxuries will appear next to or under the City.'
 WHERE Tag = 'TXT_KEY_TRAIT_SPICE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -609,11 +609,11 @@ WHERE Tag = 'TXT_KEY_BUILDING_LONGHOUSE_STRATEGY' AND EXISTS (SELECT * FROM COMM
 -- Japan
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Gain [ICON_GREAT_WORK] Great Writer/Artist/Musician Points in [ICON_CAPITAL] Capital when [ICON_GREAT_GENERAL] Great Generals or [ICON_GREAT_ADMIRAL] Admirals are born. Recieve -50% [ICON_TOURISM] Tourism from Civs that lack a [ICON_INTERNATIONAL_TRADE] Trade Route from you, and they cannot send you [ICON_INTERNATIONAL_TRADE] Trade Routes.'
+SET Text = '+1 [ICON_CULTURE] Culture and [ICON_PEACE] Faith from Defense and Military Training Buildings. When a [ICON_GREAT_ADMIRAL] Great Admiral or [ICON_GREAT_GENERAL] Great General is born, receive [ICON_GREAT_WORK] Great Artist, Writer, and Musician Points in your [ICON_CAPITAL] Capital.'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Sakoku'
+SET Text = 'Shogunate'
 WHERE Tag = 'TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -636,7 +636,7 @@ SET Text = 'The Zero is unique to the Autocracy Ideology. Requires the [COLOR_PO
 -- Korea 
 --------------------
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_RESEARCH] Wissenschaft from Great Person Improvements. +1 [ICON_RESEARCH] Wissenschaft from Specialists, increasing by +1 in the Medieval, Industrial, and Atomic Eras. +25% [ICON_GREAT_PEOPLE] Great People during [ICON_GOLDEN_AGE] Golden Ages.'
+SET Text = '+1 [ICON_RESEARCH] Wissenschaft from Specialists, increasing by +1 in the Medieval, Industrial, and Atomic Eras. +30% [ICON_GREAT_PEOPLE] Great People during [ICON_GOLDEN_AGE] Golden Ages, and +50 [ICON_GOLDEN_AGE] Golden Age Points when a [ICON_GREAT_PEOPLE] Great Person is born, scaling with era.'
 WHERE Tag = 'TXT_KEY_TRAIT_SCHOLARS_JADE_HALL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -743,15 +743,15 @@ WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' A
 -- Morocco
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Ein Kasbah kann nur an eine Stadt angrenzend gebaut werden. Es gewährt zusätzliche [ICON_FOOD] Nahrung, [ICON_Produktion] Produktion, [ICON_GOLD] Gold und [ICON_CULTURE] Kultur. Außerdem gewährt es einen +30% Verteidigungsbonus, verursacht 5 Schaden an angrenzende Militäreinheiten und verbindet jede Luxus- oder strategische Ressource unter sich mit Eurem Handelsnetz.'
+SET Text = 'Ein Kasbah kann nur an eine Stadt angrenzend gebaut werden. Es gewährt zusätzliche [ICON_FOOD] Nahrung, [ICON_Produktion] Produktion, [ICON_GOLD] Gold und [ICON_CULTURE] Kultur. Außerdem gewährt es einen +30% Verteidigungsbonus, verursacht 5 Schaden an angrenzende Militäreinheiten und verbindet jede Luxus- oder strategische Ressource unter sich mit Eurem Handelsnetz. Angrenzende Fischerboote und Küsten-Geländefelder produzieren +2 [ICON_GOLD] Gold beziehungsweise +1 [ICON_CULTURE] Kultur.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'A Kasbah can only be built adjacent to an owned City. It provides additional [ICON_FOOD] Food, [ICON_Produktion] Produktion, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture. It also provides a +30% defense bonus, deals 5 damage to adjacent enemy Military units, and connects any Luxury or Strategic resources underneath it to your trade network.[NEWLINE][NEWLINE]A Kasbah is a type of medina (a walled quarter in a city) found in the countryside, usually a small settlement on a hilltop or hillside. Originally the home for a tribal chieftain or important Islamic imam, the Kasbah is characterized by high-walled, windowless houses and narrow, winding streets. It is usually dominated by a single fortified tower. Kasbahs were common along the North African coast and Middle East until the early 1900s. Building a Kasbah was a mark of wealth, influence, and power for Moroccan and Algerian families of Arab descent.'
+SET Text = 'A Kasbah can only be built adjacent to an owned City. It provides additional [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture. Adjacent Fishing Boats and Coastal Tiles gain +2 [ICON_GOLD] or +1 [ICON_CULTURE] Culture, respectively. It also provides a +30% defense bonus, deals 5 damage to adjacent enemy Military units, and connects any Luxury or Strategic resources underneath it to your trade network.[NEWLINE][NEWLINE]A Kasbah is a type of medina (a walled quarter in a city) found in the countryside, usually a small settlement on a hilltop or hillside. Originally the home for a tribal chieftain or important Islamic imam, the Kasbah is characterized by high-walled, windowless houses and narrow, winding streets. It is usually dominated by a single fortified tower. Kasbahs were common along the North African coast and Middle East until the early 1900s. Building a Kasbah was a mark of wealth, influence, and power for Moroccan and Algerian families of Arab descent.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Receives +4 Gold [ICON_GOLD], [ICON_GOLDEN_AGE] Golden Age Points, and [ICON_CULTURE] Culture for each Trade Route to or from a different Civ or City-State. Bonuses scale with Era. Trade Route owners receive +2 [ICON_GOLD] Gold for each Trade Route sent to Morocco.'
+SET Text = '+1 to all Yields in [ICON_CAPITAL] Capital per unique Trade Route partner, scaling with Era. Trade Route yields to or from Moroccan cities are not affected by distance. Can plunder Trade Units connected to unowned cities without declaring war.'
 WHERE Tag = 'TXT_KEY_TRAIT_GATEWAY_AFRICA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -763,7 +763,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_BERBER_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 -- Netherlands
 --------------------
 UPDATE Language_de_DE
-SET Text = '+4 [ICON_CULTURE] Kultur für jedes unterschiedliche Luxusgut, das Sie von einer anderen Zivilisation oder einem Stadtstaat importiert, +4 [ICON_GOLD] Gold für jedes unterschiedliche Luxusgut, dass sie zu einer anderen Zivilisation exportieren. Bonus steigt mit jedem Zeitalter.'
+SET Text = '+3 [ICON_CULTURE] Kultur und [ICON_GOLD] Gold für jedes unterschiedliche Luxusgut, das Sie von einer anderen Zivilisation oder einem Stadtstaat importieren oder exportieren. Bonus steigt mit jedem Zeitalter. Kann doppelte Ressourcen importieren, und Importe zählen zu den Ressourcenmonopolen.'
 WHERE Tag = 'TXT_KEY_TRAIT_LUXURY_RETENTION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -798,7 +798,7 @@ SET Text = ' The Sipahi is much faster and can see one hex farther than the Lanc
  WHERE Tag = 'TXT_KEY_UNIT_OTTOMAN_SIPAHI_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Vollendung eines [ICON_INTERNATIONAL_TRADE] Handelswegs gewährt +100 [ICON_RESEARCH] Wissenschaft, [ICON_Produktion] Produktion und [ICON_FOOD] Nahrung der Ausgangsstadt wenn International oder [ICON_CULTURE] Kultur und [ICON_GOLD] Gold wenn National. Bonus steigt mit jedem Zeitalter.'
+SET Text = 'Die Vollendung eines [ICON_INTERNATIONAL_TRADE] Handelswegs gewährt +150 [ICON_RESEARCH] Wissenschaft, [ICON_Produktion] Produktion und [ICON_FOOD] Nahrung der Ausgangsstadt wenn International oder [ICON_CULTURE] Kultur und [ICON_GOLD] Gold wenn National. Bonus steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 
@@ -806,7 +806,7 @@ WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS' AND EXISTS (SELECT * FROM CO
 -- Persia
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_GOLD] Gold und +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde und je 5 [ICON_CITIZEN] Bürgern in der Stadt. Beseitigt zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit von [ICON_OCCUPIED] besetzten Städten (wenn sie [ICON_OCCUPIED] besetzt ist).'
+SET Text = '+1 [ICON_GOLD] Gold und +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde und je 5 [ICON_CITIZEN] Bürgern in der Stadt. +1 [ICON_GOLD] Gold for Wissenschaftler, Ingenieure und Händler-Spezialisten in der Stadt. Beseitigt zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit von [ICON_OCCUPIED] besetzten Städten (wenn sie [ICON_OCCUPIED] besetzt ist).'
 WHERE Tag = 'TXT_KEY_BUILDING_SATRAPS_COURT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -814,7 +814,7 @@ SET Text = 'The Satraps Court is the Persian unique building. It replaces the Co
 WHERE Tag = 'TXT_KEY_BUILDING_SATRAPS_COURT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_GOLDEN_AGE] Goldene Zeitalter dauern 50% länger und 10% Eures [ICON_TOURISM] Tourismusproduktion in [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte jede Runde. Während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters erhalten Einheiten +1 [ICON_MOVES] Fortbewegung und einen Bonus von +15% [ICON_STRENGTH] Kampfstärke.'
+SET Text = '[ICON_GOLDEN_AGE] Goldene Zeitalter dauern 50% länger und 10% Eures [ICON_GOLD] Goldproduktion in [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte jede Runde. Während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters erhalten Einheiten +1 [ICON_MOVES] Fortbewegung und einen Bonus von +15% [ICON_STRENGTH] Kampfstärke.'
 WHERE Tag = 'TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -825,18 +825,18 @@ SET Text = 'Ancient Era Unit which specializes in defeating Mounted Units. Only 
 -- Poland
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Unique Polish Stable replacement. +25% [ICON_Produktion] Produktion and +15 EP for Mounted Melee Units.[NEWLINE]Nearby [ICON_RES_HORSE] Horses: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_SHEEP] Sheep: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nearby [ICON_RES_COW] Cattle: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.'
+SET Text = 'Unique Polish Stable replacement. 1 kostenfreies [ICON_RES_HORSE] Pferd, +50% [ICON_Produktion] Produktion and +15 EP for Mounted Melee Units. Erhöht die Versorgungsobergrenze für Militäreinheit, durch die Bevölkerung in dieser Stadt um 10%.[NEWLINE]Nahegelegene [ICON_RES_HORSE] Pferde: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegene [ICON_RES_SHEEP] Schaafe: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegenes [ICON_RES_COW] Vieh: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Every time you unlock 16 Technologies, gain a free Social Policy.[NEWLINE][ICON_HAPPINESS_3] Unhappiness from [ICON_STRENGTH] Crime reduced in all Cities by 10%.'
+SET Text = 'Starting in the Classical Era, gain a free Social Policy every other Era, and gain two additional free Tenets when you adopt an Ideology for the first time.'
 WHERE Tag = 'TXT_KEY_TRAIT_SOLIDARITY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
 -- Polynesia
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 Sight when embarked. Can embark and move over Oceans immediately. +2 [ICON_FOOD] Food from Fishing Boats and Atolls, and melee Naval Units can construct Fishing Boats.'
+SET Text = '+1 Sight when embarked, can always embark and move over Oceans. +2 [ICON_FOOD] Food from Fishing Boats and Atolls, and melee Naval Units can construct Fishing Boats. No [ICON_HAPPINESS_3] Unhappiness from Isolation.'
 WHERE Tag = 'TXT_KEY_TRAIT_WAYFINDING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -868,7 +868,7 @@ SET Text = 'Melee naval unit which excels at sea exploration. Has higher Combat 
 WHERE Tag = 'TXT_KEY_UNIT_HELP_PORTUGUESE_NAU' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Wenn sich eine Handelseiheit bewegt, erhaltet Ihr +4 [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold, [ICON_GREAT_ADMIRAL] Große Admiral Punkte (für Frachter) und [ICON_GREAT_GENERAL] Große General Punkte (für Karawanen), steigt mit jedem Zeitalter.'
+SET Text = 'Wenn sich eine Handelseiheit bewegt, erhaltet Ihr +5 [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold, [ICON_GREAT_ADMIRAL] Große Admiral Punkte (für Frachter) und [ICON_GREAT_GENERAL] Große General Punkte (für Karawanen), steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_TRAIT_EXTRA_TRADE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -891,7 +891,7 @@ SET Text = ' The Ballista is an excellent siege weapon. It is extremely useful a
  WHERE Tag = 'TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Strong, front-line land Unit of the Classical Era. Only the Romans may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Swordsman, which it replaces, and gains the Cover I promotion for free.'
+SET Text = 'Strong, front-line land Unit of the Classical Era. Only the Romans may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Swordsman, which it replaces, and gains the Cover I promotion for free. It also starts with the Pilum promotion, which deals 10 damage to all adjacent enemies every turn while fortified.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_ROMAN_LEGION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -904,7 +904,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY' AND EXISTS (SELECT * FROM COMMU
 -- Russia
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_Produktion] Produktion to Camps, Mines, and Lumbermills. Decreases tile cost in the City by 25%. Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]Increases city Defense Strength by 25 and Hit Points by 200.'
+SET Text = '+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold to Camps, Mines, Lumbermills, and Strategic Resources. Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]Increases city Defense Strength by 25 and Hit Points by 200. Military Units supplied by this City''s population increased by 10%.'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -912,7 +912,7 @@ SET Text = 'Ostrog'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Das Ostrog ist das einzigartige Gebäude der Russen, es ersetzt das Arsenal. Zuzüglich der normalen Boni des Arsenal erhöht das Ostrog das kulturelle Grenzwachstum um 50% und gewährt +1 Produktion von Jagdlagern, Minen und Sägewerken. Es sorgt ebenfalls dafür, dass feindliche Landeinheiten 1 Bewegungspunkt zusätzlich pro Geländefeld verbrauchen, wenn sie sich auf ein Geländefeld begeben, dass von dieser Stadt bewirtschaftet wird. Die Produktions-, Gold- und Unterhaltsbedingungen der Ostrog sind ebenfalls großzügig reduziert. In einer frisch gegründeten Stadt könnt Ihr es so schneller errichten. Es lohnt sich dieses nützliche Gebäude in allen russischen Städten zu bauen, doch lohnt es sich besonders in Grenzstädten.'
+SET Text = 'Das Ostrog ist das einzigartige Gebäude der Russen, es ersetzt das Arsenal. In addition to the normal bonuses of the Arsenal, the Ostrog is cheaper, unlocks earlier, and grants +1 Production and Gold to Camps, Mines, Lumbermills, and Strategic Resources. Increases Military Units supplied by this City''s population by 10%. Es sorgt ebenfalls dafür, dass feindliche Landeinheiten 1 Bewegungspunkt zusätzlich pro Geländefeld verbrauchen, wenn sie sich auf ein Geländefeld begeben, dass von dieser Stadt bewirtschaftet wird. Die Produktions-, Gold- und Unterhaltsbedingungen der Ostrog sind ebenfalls großzügig reduziert. In einer frisch gegründeten Stadt könnt Ihr es so schneller errichten. Es lohnt sich dieses nützliche Gebäude in allen russischen Städten zu bauen, doch lohnt es sich besonders in Grenzstädten.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -920,7 +920,7 @@ SET Text = 'Ostrog is a Russian term for a small fort, typically wooden and ofte
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Alle strategische Ressourcen gewähren +1 [ICON_RESEARCH] Wissenschaft und verdoppeln ihre Menge. Erhaltet +25 [ICON_RESEARCH] Wissenschaft, wenn Ihr ein Geländefeld auf natürliche Weise erwerbt. Steigt mit jedem Zeitalter.'
+SET Text = 'Alle strategische Ressourcen verdoppeln ihre Menge. Erhaltet +20 [ICON_RESEARCH] Wissenschaft, wenn Ihr ein Geländefeld auf natürliche Weise erwerbt. Steigt mit jedem Zeitalter. Grenzwachstum ist 25 % schneller.'
 WHERE Tag = 'TXT_KEY_TRAIT_STRATEGIC_RICHES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -931,7 +931,7 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_COSSACK' AND EXISTS (SELECT * FROM COMMUNITY WHER
 -- Spain
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Only your official Religion can spread to owned Cities or allied City-States. Gaining or founding Cities after your [ICON_CAPITAL] Capital generates [ICON_PEACE] Faith and [ICON_FOOD] Nahrung, and converts them to your official Religion.'
+SET Text = 'Only your Religion can spread to owned Cities or allied City-States. Gaining or founding Cities generates [ICON_PEACE] Faith and [ICON_FOOD] Food, and converts them to your official Religion. May purchase Naval Units with [ICON_PEACE] Faith.'
 WHERE Tag = 'TXT_KEY_TRAIT_SEVEN_CITIES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -947,7 +947,7 @@ SET Text = 'This Tercio represents the advent of early gunpowder (''Pike and Sho
 WHERE Tag = 'TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. When founded, cities built by Conquistadors start with 3 Bürger, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Watermill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission (Castle)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do apply to the buildings constructed by Pioneers, so expect a large boost to your culture or income when you settle new lands with this unit![NEWLINE][NEWLINE]In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.'
+SET Text = 'The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Knight, it is an exceptional scout on land with extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. When founded, cities built by Conquistadors start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Watermill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Mission (Castle)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do not apply to the buildings constructed by Conquistadors![NEWLINE][NEWLINE]In the water, the Conquistador has the defensive embarkation promotion that allows it to defend itself against naval units. It also suffers no penalty when attacking cities, unlike the Knight.'
  WHERE Tag = 'TXT_KEY_CIV5_SPAIN_CONQUISTADOR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
  
 UPDATE Language_de_DE
@@ -957,20 +957,31 @@ SET Text = 'Medieval Era unit that specializes in scouting and colonizing advanc
 --------------------
 -- Shoshone
 --------------------
-
 UPDATE Language_de_DE 
-SET Text = 'The Comanche Rider can only be gifted by Minor Civilizations. May pillage tiles for free, and has a chance to retreat when attacked via melee.'
+SET Text = 'The Comanche Rider is the unique unit of the Shoshone. May pillage tiles for free, and has a chance to retreat when attacked via melee.'
  WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Faster than Cavalry. Can only be gifted by Minor Civilizations. Is excellent at hit-and-run tactics versus enemy Improvements.'
+SET Text = 'The Comanche Riders replaces the Cavalry, and only the Shoshone may build it. Cheaper and faster than the base unit. May pillage tiles for free, and has a chance to retreat when attacked via melee.'
  WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+
+UPDATE Language_de_DE 
+SET Text = 'This unit is excellent at exploring during the early game. Be wary using it to fend off barbarians, however.'
+ WHERE Tag = 'TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+ 
+UPDATE Language_de_DE 
+SET Text = 'The Pathfinder is the game''s first reconaissance unit. It fights poorly compared to a Warrior, but has better movement and vision.'
+ WHERE Tag = 'TXT_KEY_UNIT_SHOSHONE_PATHFINDER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
+ 
+UPDATE Language_de_DE 
+SET Text = 'Founded cities start with additional territory, and land units receive a combat bonus when fighting within their own territory. All Recon units can choose rewards from Ancient Ruins.'
+ WHERE Tag = 'TXT_KEY_TRAIT_GREAT_EXPANSE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 --------------------
 -- Siam
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Reduces enemy spy stealing rate by 50%. +2 [ICON_RESEARCH] Wissenschaft from Temples and Shrines in this City, and +1 [ICON_CULTURE] Culture from Jungle and Forest tiles worked by this City. Reduces [ICON_HAPPINESS_3] Crime.'
+SET Text = 'Reduces enemy spy stealing rate by 50%, and prevents the disruption of Building construction by Spy Advanced Actions. +2 [ICON_RESEARCH] Science from Temples and Shrines in this City, and +1 [ICON_CULTURE] Culture from Jungle and Forest tiles worked by this City. Reduces [ICON_HAPPINESS_3] Crime.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -982,7 +993,7 @@ SET Text = 'Mächtige berittene Einheit des Mittelalters, anfällig gegenüber P
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Yields from friendly and allied City-States increased by 75%. The [ICON_STRENGTH] Combat Strength of Allied City-State [ICON_CAPITAL] Capitals is increased by +25%.'
+SET Text = '[ICON_INFLUENCE] Influence with City-States starts at 40. Yields from friendly and allied City-States increased by 75%. +25% to [ICON_STRENGTH] Combat Strength of Allied City-State [ICON_CAPITAL] Capitals.'
 WHERE Tag = 'TXT_KEY_TRAIT_CITY_STATE_BONUSES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -997,11 +1008,11 @@ WHERE Tag = 'TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY' AND EXISTS (SELECT * FROM COMMUNI
 -- Songhai
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_CULTURE] Kultur, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen, die mit einem Steinbruch modernisiert wurde.'
+SET Text = 'Gewährt allen Fluß-Geländefeldern +1 [ICON_PRODUCTION] Produktion, nahe der Stadt und +10% [ICON_Produktion] Produktion, wenn Gebäude gebaut werden.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_Produktion] Produktion.[NEWLINE][ICON_RES_SALT] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen, die mit einem Steinbruch modernisiert wurde.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Das Tabya ist das einzigartige Gebäude der Songhai und ersetzt die Steinwerke. Das Tabya erhöht im hohen Maße die [ICON_CULTURE] Kultur, von Städten an Flüßen, steigert den Wert von Stein, Marmor und Salz und steigert die [ICON_Produktion] Produktionsrate von zukünftigen Gebäuden um 10%. Ermöglicht außerdem den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
+SET Text = 'Das Tabya ist das einzigartige Gebäude der Songhai und ersetzt die Steinwerke. Das Tabya erhöht im hohen Maße die [ICON_PRODUCTION] Produktion, von Städten an Flüßen, steigert den Wert von Stein, Marmor und Salz und steigert die [ICON_Produktion] Produktionsrate von zukünftigen Gebäuden um 10%. Ermöglicht außerdem den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -1021,11 +1032,11 @@ WHERE Tag = 'TXT_KEY_TRAIT_AMPHIB_WARLORD' AND EXISTS (SELECT * FROM COMMUNITY W
 -- Sweden
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Land melee units receive +15% [ICON_STRENGTH] Strength when Attacking, and Siege Units gain +1 [ICON_MOVES] Movement. If a [ICON_GREAT_GENERAL] Great General is born while at war, all Military Units are healed and receive +10 EP.'
+SET Text = 'Land melee units have +20% [ICON_STRENGTH] Strength when Attacking, and Siege Units have +1 [ICON_MOVES] Movement.  Military Units are healed and earn +15 XP when a [ICON_GREAT_GENERAL] Great General is born. [ICON_GREAT_GENERAL] Great General combat bonus increased by 15%.'
 WHERE Tag = 'TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Caroleans are the backbone of the Renaissance era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action. The Carolean also receives a 15% combat bonus when stacked with a Great General.'
+SET Text = 'Caroleans are the backbone of the Renaissance era Swedish army. They start with the March promotion that allows it to Heal every turn, even if it performs an action. The Carolean also receives a 15% combat bonus when stacked with a Great General, and deals damage to all adjacent units after advancing from killing a unit.'
  WHERE Tag = 'TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
@@ -1060,7 +1071,7 @@ SET Text = 'Der Händler von Venedig ist ein einzigartiger Ersatz für den Groß
 WHERE Tag = 'TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
-SET Text = 'Doppelt so viele [ICON_INTERNATIONAL_TRADE] Handelswege verfügbar. Kann keine Siedler erhalten oder Städte annektieren, jedoch sind [ICON_GOLD] Käufe in [ICON_PUPPET] Marionettenstädten möglich. Ein Händler von Venedig erscheint nach der Erforschung des Handels und +20% [ICON_GREAT_MERCHANT] Große Händler Rate für jede [ICON_PUPPET] Marionettenstadt in Besitz.'
+SET Text = 'Cannot found/annex cities. [ICON_INTERNATIONAL_TRADE] Trade Route cap doubled. Free Merchant of Venice at Trade. -30% Yield penalties for [ICON_PUPPET] Puppets, and can spend [ICON_GOLD] Gold in them. +20% [ICON_GREAT_MERCHANT] Great Merchant Rate per [ICON_PUPPET] Puppet.'
  WHERE Tag = 'TXT_KEY_TRAIT_SUPER_CITY_STATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
  
@@ -1068,7 +1079,7 @@ SET Text = 'Doppelt so viele [ICON_INTERNATIONAL_TRADE] Handelswege verfügbar. 
 -- Zulu
 --------------------
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Kriminalität leicht.'
+SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Kriminalität leicht. Erhöht die Versorgungsobergrenze für Militäreinheiten um 2.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -1080,5 +1091,5 @@ SET Text = 'Spezialisiert auf das Besiegen von berittenen Einheiten und insgesam
  WHERE Tag = 'TXT_KEY_UNIT_HELP_ZULU_IMPI' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Nahkampfeinheiten und Einheiten mit Schusswaffen kosten 50% weniger Unterhalt, Einheiten benötigen 25% weniger Erfahrung für die nächste Beförderung und der Kampfbonus Eueres [ICON_GREAT_GENERAL] Großen Generals ist um 10% erhöht.'
+SET Text = 'Nahkampfeinheiten und Einheiten mit Schusswaffen kosten 25 % weniger Unterhalt und alle Einheiten benötigen 25 % weniger Erfahrung für die nächste Beförderung. Ihr Militär ist 50 % effektiver bei der Einschüchterung von Stadtstaaten, und Sie erhalten 25 % mehr Ertrag beim Verlangen von Tribut.'
 WHERE Tag = 'TXT_KEY_TRAIT_BUFFALO_HORNS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );

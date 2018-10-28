@@ -13,31 +13,31 @@ WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE' AND EXISTS (SELECT
 
 -- Aesthetics Change
 UPDATE Language_de_DE
-SET Text = 'Wenn verborgene Altertumsstätten mit einer Archäologischen Ausgrabung verbessert werden, können sie ein Artefakt hervorbringen, das in einem Großes-Kunstwerk-Platz platziert oder in eine Wahrzeichen-Modernisierung umgewandelt werden kann. Verborgene Altertumsstätten sind nur für Zivilisationen sichtbar, die alle Politiken im Politik-Zweig Ästhetik haben.'
+SET Text = 'Wenn verborgene Altertumsstätten mit einer Archäologischen Ausgrabung verbessert werden, können sie ein Artefakt hervorbringen, das in einem Großes-Kunstwerk-Platz platziert oder in eine Wahrzeichen-Modernisierung umgewandelt werden kann. Verborgene Altertumsstätten sind nur für Zivilisationen sichtbar, die alle Politiken im Politik-Zweig Künstlertum haben.'
 WHERE Tag = 'TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Help Text Changes
 UPDATE Language_de_DE
-SET Text = '[ICON_TOURISM] Tourismus ist der primäre Ertrag, um Euren kulturellen Einfluss auf andere Zivilisationen auszuweiten. Er wird passiv erzeugt durch [COLOR_POSITIVE_TEXT]Große Kunstwerke[ENDCOLOR] oder [COLOR_POSITIVE_TEXT]Artefakte[ENDCOLOR] und aktiv durch [COLOR_POSITIVE_TEXT]Historische Ereignisse[ENDCOLOR] (mehr über ''Historische Ereignisse'', finden Sie im Abschnitt mit diesem Label). Durch das Platzieren von immer mehr Großen Werken und Artefakten in Euren Museen, Amphitheatern, Opernhäusern, usw., wird sich Euer [ICON_TOURISM] Tourismus stetig erhöhen. Darüber hinaus könnt Ihr Eure [ICON_TOURISM] Tourismusproduktion etwas durch Offene Grenzen, Handelswege, gemeinsame Religion und bestimmte ideologische Grundsätze erhöhen.'
+SET Text = '[ICON_TOURISM] Tourismus ist der primäre Ertrag, um Euren kulturellen Einfluss auf andere Zivilisationen auszuweiten. Er wird passiv erzeugt durch [COLOR_POSITIVE_TEXT]Große Kunstwerke[ENDCOLOR] oder [COLOR_POSITIVE_TEXT]Artefakte[ENDCOLOR] und aktiv durch [COLOR_POSITIVE_TEXT]Historische Ereignisse[ENDCOLOR] (mehr über ''Historische Ereignisse'', finden Sie im Abschnitt mit diesem Label) oder das Einrichten von [COLOR_POSITIVE_TEXT]Handelswegen[ENDCOLOR] (wenn Ihr Gebäude gebaut habt, die solche Boni gewähren). Durch das Platzieren von immer mehr Großen Werken und Artefakten in Euren Museen, Amphitheatern, Opernhäusern, usw., wird sich Euer [ICON_TOURISM] Tourismus stetig erhöhen. Darüber hinaus könnt Ihr Eure [ICON_TOURISM] Tourismusproduktion etwas durch Offene Grenzen, Handelswege, gemeinsame Religion und bestimmte ideologische Grundsätze erhöhen.'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Capture Popup
 
 UPDATE Language_de_DE
-SET Text = 'Wenn Ihr die Stadt zu einer [COLOR_POSITIVE_TEXT]Marionette[ENDCOLOR] macht, wird sie für Euch Gold, Wissenschaft, Kultur usw. generieren, aber Ihr [COLOR_POSITIVE_TEXT]könnt die Produktion der Stadt nicht auswählen[ENDCOLOR] oder anpassen.[NEWLINE][NEWLINE]Sie wird viel weniger [ICON_HAPPINESS_4] Unzufriedenheit produzieren als eine annektierte Stadt und die Kosten für Eure Sozialpolitik und Eure Großen Persönlichkeiten nicht erhöhen. Ihr könnt die Stadt natürlich später immer noch annektieren.'
+SET Text = '[COLOR_POSITIVE_TEXT]Puppeting[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] Generates 80% less Gold, Science, Culture, Tourism, and Faith than a normal city.[NEWLINE][ICON_BULLET] No longer produces Great Person Points.[NEWLINE][ICON_BULLET] You [COLOR_POSITIVE_TEXT]cannot choose what it produces[ENDCOLOR] or spend Gold in the City.[NEWLINE][ICON_BULLET] Generates 1 [ICON_HAPPINESS_3] Unhappiness for every 4 [ICON_CITIZEN] Citizens in the City.[NEWLINE][ICON_BULLET] Does not increase the cost of Social Policies, Technologies, or Tourism.[NEWLINE][NEWLINE]If you choose this, you may later Annex the City at any point.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Wenn Ihr die Stadt [COLOR_POSITIVE_TEXT]annektiert[ENDCOLOR], wird sie eine normale Stadt in Eurem Reich, die ziemlich viel [ICON_HAPPINESS_4] Unzufriedenheit produziert (bis Ihr ein Gerichtsgebäude errichtet).[NEWLINE][NEWLINE]Das unmittelbare Annektieren der Stadt (anstatt sie zu einer Marionette zu machen oder zu zerstören) [COLOR_POSITIVE_TEXT]investiert[ENDCOLOR] in ein Gerichtsgebäude in der Stadt, was die Errichtungszeit um mindestens 50% verringert und den Widerstand [ICON_RESISTANCE] in der Stadt [COLOR_POSITIVE_TEXT]halbiert[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] Produces 1 [ICON_HAPPINESS_4] Unhappiness  per 2 [ICON_CITIZEN] Citizens in the City (until you construct a Courthouse).[NEWLINE][ICON_BULLET] Invests in a Courthouse in the City, reducing its construction time by at least 50%.[NEWLINE][ICON_BULLET] Halves City [ICON_RESISTANCE] Resistance after capture.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Vernichten[ENDCOLOR]. Die Stadt wird bis auf die Grundmauern [ICON_RAZING] niederbrennen, bis die Bevölkerung den Wert 0 erreicht und dann aus dem Spiel entfernt wird. Dieser Vorgang erzeugt viel zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit, erhöht jedoch auch Eure [COLOR_POSITIVE_TEXT]Kriegspunkte[ENDCOLOR] gegen diesen Spieler.[NEWLINE][NEWLINE]Während der Vernichtung besteht eine hohe Wahrscheinlichkeit, dass zu ihrem ehemaligen Besitzer loyale [COLOR_NEGATIVE_TEXT]Partisanen[ENDCOLOR] erscheinen (wenn Ihr Euch immer noch mit diesem Spieler im Krieg befindet).'
+SET Text = '[COLOR_POSITIVE_TEXT]Razing[ENDCOLOR] causes the following:[NEWLINE][ICON_BULLET] City loses [ICON_CITIZEN] Population each turn until it reaches 0 population, and is removed from the game.[NEWLINE][ICON_BULLET] Produces [ICON_HAPPINESS_4] Unhappiness equal to the City''s [ICON_CITIZEN] Population.[NEWLINE][ICON_BULLET] Greatly increases your [COLOR_POSITIVE_TEXT]War Score[ENDCOLOR] every time Population is reduced.[NEWLINE][ICON_BULLET] May generate [COLOR_NEGATIVE_TEXT]Partisans[ENDCOLOR] loyal to the former owner (if you are still at war with this player) or barbarians each turn while razing.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
 UPDATE Language_de_DE
-SET Text = '-{1_Num} {2_IconString} von [ICON_CITIZEN] Bürgern verzehrt'
+SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} von [ICON_CITIZEN] Bürgern verzehrt'
 WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Citizen Food Consumption
