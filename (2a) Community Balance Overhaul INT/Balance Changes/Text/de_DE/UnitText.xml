@@ -3,61 +3,100 @@
 <GameData>
 	<Language_de_DE>
 		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT">
-			<Text>Hovering Unit</Text>
+			<Text>Hovering Unit Embarked</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HOVER_UNIT_HELP">
-			<Text>Can move over all Terrain and Coastal tiles. Embarks on Ocean tiles.</Text>
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water[ENDCOLOR] tiles. Embarked units can enter [COLOR_POSITIVE_TEXT]Ocean[ENDCOLOR] tiles and receive +100% [ICON_STRENGTH] defensive bonus.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER">
 			<Text>Marsh Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
-			<Text>Double movement on Marsh and Flood Plain tiles. Barbarian only.</Text>
+			<Text>Double movement on Marsh and Flood Plain tiles. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER">
 			<Text>White Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
-			<Text>Double movement on Snow and Tundra tiles. Barbarian only.</Text>
+			<Text>Double movement on Snow tiles. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
 			<Text>Woods Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
-			<Text>Double movement on Forest and Jungle tiles. Barbarian only.</Text>
+			<Text>Double movement on Forest and Jungle tiles. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
 			<Text>Desert Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
-			<Text>Double movement on Desert tiles. Barbarian only.</Text>
+			<Text>Double movement on Desert tiles. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER">
 			<Text>Coast Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COAST_WALKER_HELP">
-			<Text>Double movement on Coastal tiles. Barbarian only.</Text>
+			<Text>Allows embarkation. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
 			<Text>Hill Walkers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
-			<Text>Double movement on Hill tiles. Barbarian only.</Text>
+			<Text>Double movement on Hill tiles. [COLOR_NEGATIVE_TEXT]Barbarian only[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
 			<Text>Ironsides</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
-			<Text>+20% Combat Bonus when defending.</Text>
+			<Text>[ICON_STRENGTH] Combat Strength increases from taking damage (Tenacity).</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN">
+			<Text>Lightning Warfare (Gun)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN_HELP">
+			<Text>+15% Combat Bonus when attacking, ignores Zone of Control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR">
+			<Text>Lightning Warfare (Armor)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR_HELP">
+			<Text>+15% Combat Bonus when attacking, +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES">
+			<Text>Prize Rules</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_RULES_HELP">
+			<Text>Receive [ICON_GOLD] Gold in your Capital when you defeat an enemy unit. +20% [ICON_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I">
+			<Text>Air Defense I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_I_HELP">
+			<Text>+5 Damage to [COLOR_POSITIVE_TEXT]Air[ENDCOLOR] Units when defending against Air Strikes. Available once you have researched Flight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II">
+			<Text>Air Defense II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_II_HELP">
+			<Text>+5 Damage to [COLOR_POSITIVE_TEXT]Air[ENDCOLOR] Units when defending against Air Strikes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III">
+			<Text>Air Defense III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_III_HELP">
+			<Text>+5 Damage to [COLOR_POSITIVE_TEXT]Air[ENDCOLOR] Units when defending against Air Strikes.</Text>
+		</Row>
+			
 		<Row Tag="TXT_KEY_UNIT_GUERILLA">
 			<Text>Mercenaries</Text>
 		</Row>
@@ -78,10 +117,25 @@
 			<Text>Ein Feldgeschütz ist ein Geschütz welches für den beweglichen Einsatz im Gelände konzipiert ist, und meist zur Unterstützung der Infanterie eingesetzt wird. Im Kampf konnte das Feldgeschütz schnell über das Schlachtfeld dorthin bewegt werden, wo es gebraucht wurde. Geschütze die in einer Festung installiert waren, Belagerungswaffen und Mörser waren zu groß um sie schnell zu verlegen und wurden daher nur bei lang anhaltenden Belagerungen verwendet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_STRATEGY">
-			<Text>Feldgeschütz haben eine höhere Reichweite und Kampfstärke als Kanonen, auch wenn ihre Sichtweite eingeschränkt ist. Nutzt Feldgeschütze um Eure Armee des Industriezeitalters zu unterstützen, doch lasst den Feind nicht in die Nähe der Geschütze kommen!</Text>
+			<Text>Feldgeschütz haben eine höhere Kampfstärke als Kanonen, auch wenn ihre Sichtweite eingeschränkt ist. Nutzt Feldgeschütze um Eure Armee des Industriezeitalters zu unterstützen, doch lasst den Feind nicht in die Nähe der Geschütze kommen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_HELP">
-			<Text>Mächtige Belagerungseinheit des Industriezeitalters, die bis zu drei Geländefelder weit feuern kann.</Text>
+			<Text>Mächtige Belagerungseinheit des Industriezeitalters, die bis zu 2 Geländefelder weit feuern kann. Bewegt sich mit halber Geschwindigkeit im feindlichen Gebiet.</Text>
+		</Row>
+
+		<!-- Carolean-->
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL">
+			<Text>Grenadiers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL_HELP">
+			<Text>When you advance after destroying an enemy unit, all newly-adjacent enemy units take 10 Damage.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
+			<Text>Pilum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
+			<Text>While [COLOR_POSITIVE_TEXT]Fortified[ENDCOLOR], adjacent enemy units take 10 Damage at the beginning of every turn. [COLOR_NEGATIVE_TEXT]Lost on upgrade.[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
@@ -92,17 +146,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
-			<Text>Logistik</Text>
+			<Text>Heilen beim Töten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
-			<Text>Heilt 10 TP wenn Sie eine feindliche Einheit vernichten.</Text>
+			<Text>Heilt 15 TP wenn Sie eine feindliche Einheit vernichten.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I">
 			<Text>Wegbereiter I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_I_HELP">
-			<Text>Doppelte Fortbewegungsgeschwindigkeit durch Wald und Dschungel</Text>
+			<Text>Doppelte Fortbewegungsgeschwindigkeit durch Wald und Dschungel.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_II">
 			<Text>Wegbereiter II</Text>
@@ -114,19 +168,19 @@
 			<Text>Wegbereiter III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_III_HELP">
-			<Text>Ignoriert Kontrollzone, kann feindliche Straßen und Schienen nutzen</Text>
+			<Text>Ignoriert Kontrollzone, kann feindliche Straßen und Schienen nutzen und versucht sich zurückzuziehen, wenn er mit einem Nahkampfangriff konfrontiert wird.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_I">
-			<Text>Bonus v. Gun (25)</Text>
+			<Text>Bonus vs. Schießpulver (25)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_I_HELP">
-			<Text>+20% [ICON_STRENGTH] Strength VS Gun (Melee) Units</Text>
+			<Text>+25% [ICON_STRENGTH] Kampfstärke vs. [COLOR_POSITIVE_TEXT]Schießpulver[ENDCOLOR] Einheiten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_II">
-			<Text>Bonus v. Siege (25)</Text>
+			<Text>Bonus vs. Belagerungseinheit (25)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_II_HELP">
-			<Text>+25% [ICON_STRENGTH] Strength VS Siege Units</Text>
+			<Text>+25% [ICON_STRENGTH] Kampfstärke vs. [COLOR_POSITIVE_TEXT]Belagerungseinheiten[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
@@ -150,7 +204,7 @@
 			<Text>Guerilla Fighter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>+15% [ICON_STRENGTH] Strength when attacking.</Text>
+			<Text>+20% [ICON_STRENGTH] Stärke beim Angriff.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
 			<Text>No Retreat</Text>
@@ -159,32 +213,49 @@
 			<Text>Atlatl Strike</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATLATL_ATTACK_HELP">
-			<Text>+50% Ranged [ICON_RANGE_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded[ENDCOLOR] Units.</Text>
+			<Text>+50% Fernkampf [ICON_RANGE_STRENGTH] Kampfstärke vs. [COLOR_POSITIVE_TEXT]verwundete[ENDCOLOR] Einheiten. [COLOR_NEGATIVE_TEXT]Geht beim Modernisieren verloren.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
 			<Text>Naval Target Penalty</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
-			<Text>-25% [ICON_RANGE_STRENGTH] Ranged Strength vs. Naval units.</Text>
+			<Text>-20% [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]Marineeinheiten[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
 			<Text>Ungenauigkeit von Belagerungswaffen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
-			<Text>-33% [ICON_RANGE_STRENGTH] Fernkampfstärke vs. Landeinheiten.</Text>
+			<Text>-33% [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]Landeinheiten[ENDCOLOR].</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
+			<Text>Marine-Ungenauigkeit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
+			<Text>-25% [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]Landeinheiten[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
+			<Text>Kriegsgefangene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
+			<Text>-50% Arbeitsrate beim Erstellen von Modernisierungen oder Routen für 50 Runden (ab der Runde der Gefangennahme).</Text>
+		</Row>
+
+
+
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I">
-			<Text>Covering Fire I</Text>
+			<Text>Feuerschutz I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_I_HELP">
-			<Text>-50% [ICON_RANGE_STRENGTH] Ranged Strength vs. Armor Units, Fortified Units, and Cities. +20% [ICON_STRENGTH] Strength when defending, and enemy units within 2 tiles suffer -15% [ICON_STRENGTH] Strength.</Text>
+			<Text>-50 % [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]verschanzte[ENDCOLOR] Einheiten und [COLOR_NEGATIVE_TEXT]Städte[ENDCOLOR]. 25 % [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]gepanzerte[ENDCOLOR] Einheiten. +20 % [ICON_STRENGTH] Stärke bei der Verteidigung. Feindliche Einheiten innerhalb von 2 Feldern erleiden -15 %[ICON_STRENGTH] Stärke. [COLOR_NEGATIVE_TEXT]Geht beim Modernisieren verloren.[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II">
-			<Text>Covering Fire II</Text>
+			<Text>Feuerschutz II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MODERN_RANGED_PENALTY_II_HELP">
-			<Text>-25% [ICON_RANGE_STRENGTH] Ranged Strength vs. Fortified Units and Cities. +15% [ICON_STRENGTH] Strength when defending, and enemy units within 2 tiles suffer -10% [ICON_STRENGTH] Strength.</Text>
+			<Text>-25 % [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_NEGATIVE_TEXT]verschanzte[ENDCOLOR] Einheiten und [COLOR_NEGATIVE_TEXT]Städte[ENDCOLOR]. +10 % [ICON_STRENGTH] Stärke bei der Verteidigung. Feindliche Einheiten innerhalb von 2 Feldern erleiden -10 %[ICON_STRENGTH] Stärke. [COLOR_NEGATIVE_TEXT]Geht beim Modernisieren verloren.[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT">
 			<Text>Gift of the Pharaoh</Text>
@@ -193,16 +264,16 @@
 			<Text>Receive [ICON_PRODUCTION] Production in your Capital when you defeat an enemy unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER">
-			<Text>Raider</Text>
+			<Text>Plünderer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
-			<Text>Flank attack bonus increased by 100%. Steal gold equal to 50% of the damage inflicted on a city. Is able to use enemy roads.</Text>
+			<Text>Der Flankenangriffsbonus um 200 % erhöht. Stehlen Sie [ICON_GOLD] Gold, das 50 % des Schadens entspricht, der einer Stadt zugefügt wurde. Ist in der Lage, feindliche Straßen zu benutzen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
-			<Text>Esprit de Corps</Text>
+			<Text>Welkendes Feuer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]20%[ENDCOLOR] Chance to force an enemy Unit to retreat after taking [ICON_RANGE_STRENGTH] Ranged Damage. If the Unit cannot retreat, it takes [COLOR_POSITIVE_TEXT]50%[ENDCOLOR] more damage than normal.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]25 % [ENDCOLOR] Chance, eine gegnerische Einheit zum Rückzug zu zwingen, nachdem sie [ICON_RANGE_STRENGTH] Fernkampfschaden erlitten hat. Wenn sich die Einheit nicht zurückziehen kann, nimmt sie [FARBE_POSITIVER_TEXT]50%[ENDCOLOR] mehr Schaden als normal.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION">
@@ -220,10 +291,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
-			<Text>Ice Breakers</Text>
+			<Text>Eisbrecher</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS_HELP">
-			<Text>Allows Workboats to move through Ice tiles.</Text>
+			<Text>Ermöglicht Fortbewegung durch Eis-Geländefelder.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
@@ -234,80 +305,96 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
-			<Text>Major Penalty Attacking Cities (75)</Text>
+			<Text>Malus beim Angriff auf Städte (75)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
-			<Text>75% Penalty Attacking Cities</Text>
+			<Text>75 % Malus beim Angriff auf [COLOR_NEGATIVE_TEXT]Städte[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
-			<Text>Faster General</Text>
+			<Text>Schnellerer General</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
-			<Text>+1 [ICON_MOVES] Movement</Text>
+			<Text>+1 [ICON_MOVES] Fortbewegung</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
-			<Text>Brute Force</Text>
+			<Text>Rohe Gewalt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
-			<Text>+33% [ICON_STRENGTH] Combat Bonus VS Barbarians</Text>
+			<Text>+33 % [ICON_STRENGTH] Kampfbonus vs. [COLOR_POSITIVE_TEXT]Barbaren[ENDCOLOR].</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
+			<Text>Imperialismus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
+			<Text>+1 Sichtweite.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
+			<Text>Regiments-Traditionen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP_HELP">
+			<Text>Die Aura der Führung gewinnt +1 Reichweite, +10 % [ICON_STRENGTH] Stärke.</Text>
+		</Row>
+
+		
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
 			<Text>Acht Tugenden des Bushidō</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>Die Beförderung wird durch eine zufällig gewählte neue Beförderung ersetzt, wenn die Einheit den ersten Kampf abgeschlossen hat</Text>
+			<Text>Die Beförderung wird durch eine zufällig gewählte neue Beförderung ersetzt, wenn die Einheit den ersten Kampf abgeschlossen hat.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
 			<Text>Righteousness</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Attack Wounded Mod (20%). +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +20% [ICON_STRENGTH] Kampfstärke vs. [COLOR_POSITIVE_TEXT]verwundete[ENDCOLOR] Einheiten. +10 TP wenn Sie eine feindliche Einheit eliminieren.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>Courage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Attack Mod (15%). +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +15% [COLOR_POSITIVE_TEXT]Angriffsbonus[ENDCOLOR]. +10 TP wenn Sie eine feindliche Einheit eliminieren.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
 			<Text>Nächstenliebe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Einheiten in benachbarten Geländefeldern erhalten +5 TP wenn sie sich heilen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). Einheiten in benachbarten Geländefeldern erhalten +5 TP wenn sie sich heilen. +10 TP wenn Sie eine feindliche Einheit eliminieren.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
 			<Text>Respekt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke gegenüber Nahkampfeinheiten und Einheiten mit Schusswaffen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +15 % [ICON_STRENGTH] Stärke vs. [COLOR_POSITIVE_TEXT]Nahkampf[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Schießpulver[ENDCOLOR] Einheiten. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
-			<Text>Sincerity</Text>
+			<Text>Aufrichtigkeit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. Erhält +50% Erfahrung von Kämpfen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). Erhält +50% Erfahrung von Kämpfen. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
 			<Text>Ehre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke außerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +15% [ICON_STRENGTH] Stärke außerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>Loyalität</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke innerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +15% [ICON_STRENGTH] Stärke innerhalb freundlichem Territoriums. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 
@@ -315,21 +402,21 @@
 			<Text>Selbstbeherrschung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden. +15% [ICON_STRENGTH] Stärke bei Verteidigung. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
+			<Text>Erhöhte [ICON_STRENGTH] Kampfstärke basierend auf dem Einheitenschaden (Hartnäckigkeit). +15% [ICON_STRENGTH] Stärke bei Verteidigung. +10 TP wenn Sie eine feindliche Einheit eliminieren</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
-			<Text>+150% [ICON_STRENGTH] Strength versus Air and Helicopter Units</Text>
+			<Text>+150 % [ICON_STRENGTH] Stärke vs. [COLOR_POSITIVE_TEXT]Luft-[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Hubschrauber-[ENDCOLOR]Einheiten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
-			<Text>+150% [ICON_STRENGTH] Strength versus Air and Helicopter Units</Text>
+			<Text>+150 % [ICON_STRENGTH] Stärke vs. [COLOR_POSITIVE_TEXT]Luft-[ENDCOLOR] und [COLOR_POSITIVE_TEXT]Hubschrauber-[ENDCOLOR]Einheiten.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
 			<Text>Venetian Craftsmanship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
-			<Text>+10% [ICON_STRENGTH] Strength, +1 [ICON_MOVES] Movement</Text>
+			<Text>+10% [ICON_STRENGTH] Stärke und +1 [ICON_MOVES] Fortbewegung</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPLORER_CBP">
@@ -364,10 +451,13 @@
 			<Text>Crusader Zeal</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_NAVAL_DEFENSE_CITY">
-			<Text>Difficult Target</Text>
+			<Text>Schwieriges Ziel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_TRAIT_LOW_POP_BONUS">
-			<Text>Lower Population than Enemy</Text>
+			<Text>Geringere Bevölkerung als Feind</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
+			<Text>Bonus von benachbarten Einheiten</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
@@ -390,24 +480,24 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
-			<Text>Voyage of Discovery</Text>
+			<Text>Entdeckungsreise</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
-			<Text>If the unit is in owned territory, this order will expend the unit, granting you two free copies of a Luxury Resource not available on this map. These Resources will not appear on the map, but can be traded to other civilizations.</Text>
+			<Text>Wenn sich die Einheit im eigenen Territorium befindet, wird dieser Befehl die Einheit verbrauchen. Dadurch gewährt die Einheit zwei kostenlose Kopien eines Luxusguts, die auf dieser Karte nicht verfügbar sind. Diese Ressourcen werden nicht auf der Karte erscheinen, können aber an andere Zivilisationen verkauft werden. Erhöht auch eure militärische Versorgung um 2.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
-			<Text>Unit must be in owned territory to use this ability.</Text>
+			<Text>Die Einheit muss sich im eigenen Territorium befinden, um diese Fähigkeit nutzen zu können.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BUSHIDO">
-			<Text>Bushido</Text>
+			<Text>Hartnäckigkeit</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_PIONEER">
-			<Text>Pioneer</Text>
+			<Text>Pioniere</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
-			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Pioneers start with 3 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Watermill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do apply to the buildings constructed by Pioneers, so expect a large boost to your culture or income when you settle new lands with this unit!</Text>
+			<Text>Verwenden Sie diese Einheit, um neue Städte zu bauen. Sie kann sich nicht verteidigen, also begleiten Sie sie mit einem Kampftrupp. Bei der Gründung beginnen die von Pionieren errichteten Städte mit 3 Bürgern, beanspruchen zusätzliches Territorium und erhalten automatisch die folgende Auswahl an Gebäuden:[NEWLINE][NEWLINE][ICON_BULLET] Stadtverwaltung[NEWLINE][ICON_BULLET] Kornspeicher[NEWLINE][ICON_BULLET] Markt[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Schrein[NEWLINE][ICON_BULLET]] Kaserne[NEWLINE][ICON_BULLET] Wassermühle (falls anwendbar)[NEWLINE][ICON_BULLET] Bibliothek[NEWLINE][ICON_BULLET] Schmiede[NEWLINE][ICON_BULLET] Brunnen (falls anwendbar)[NEWLINE][NEWLINE]Hinweis: Die Boni für den Bau von Gebäuden aus den Bereichen Fortschritt und Industrie gelten nicht für die von Pionieren errichteten Gebäude!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
 			<Text>
@@ -418,10 +508,10 @@
 			<Text>Founds new Cities with advanced infrastructure and additional population. [NEWLINE][NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST">
-			<Text>Colonist</Text>
+			<Text>Kolonisten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>Use this unit to construct new cities. It cannot defend itself, so accompany it with a combat unit. When founded, cities built by Colonists start with 5 Citizens, claim additional territory, and automatically receive the following selection of buildings:[NEWLINE][NEWLINE][ICON_BULLET] Council[NEWLINE][ICON_BULLET] Granary[NEWLINE][ICON_BULLET] Market[NEWLINE][ICON_BULLET] Monument[NEWLINE][ICON_BULLET] Shrine[NEWLINE][ICON_BULLET] Barracks[NEWLINE][ICON_BULLET] Watermill (if applicable)[NEWLINE][ICON_BULLET] Library[NEWLINE][ICON_BULLET] Forge[NEWLINE][ICON_BULLET] Well (if applicable)[NEWLINE][ICON_BULLET] Windmill[NEWLINE][ICON_BULLET] Harbor[NEWLINE][ICON_BULLET] Lighthouse[NEWLINE][ICON_BULLET] Amphitheater[NEWLINE][ICON_BULLET] Temple[NEWLINE][ICON_BULLET] Workshop[NEWLINE][NEWLINE]Note: the bonuses for constructing buildings from the Progress and Industry policy branches do apply to the buildings constructed by Colonists, so expect a large boost to your Culture or income when you settle new lands with this unit!</Text>
+			<Text>Verwenden Sie diese Einheit, um neue Städte zu bauen. Sie kann sich nicht verteidigen, also begleiten Sie sie mit einem Kampftrupp. Bei der Gründung beginnen die von Kolonisten erbauten Städte mit 5 Bürgern, beanspruchen zusätzliches Territorium und erhalten automatisch die folgende Auswahl an Gebäuden:[NEWLINE][NEWLINE][ICON_BULLET] Stadtverwaltung[NEWLINE][ICON_BULLET] Kornspeicher[NEWLINE][ICON_BULLET] Markt[NEWLINE][ICON_BULLET][ICON_BULLET]]. Monument[NEWLINE][ICON_BULLET] Schrein[NEWLINE][ICON_BULLET] Kaserne[NEWLINE][ICON_BULLET] Wassermühle (falls anwendbar)[NEWLINE][ICON_BULLET] Bibliothek[NEWLINE][ICON_BULLET] Schmiede[NEWLINE][ICON_BULLET] Brunnen (falls anwendbar)[NEWLINE][ICON_BULLET] Windmühle[NEWLINE][ICON_BULLET] Hafen[NEWLINE][ICON_BULLET] Leuchtturm[NEWLINE][ICON_BULLET] Amphitheater[NEWLINE][ICON_BULLET] Tempel[NEWLINE][ICON_BULLET] Werkstatt[NEWLINE][NEWLINE][NEWLINE]Hinweis: Die Boni für den Bau von Gebäuden aus den Bereichen Fortschritt und Industrie gelten nicht für die von Kolonisten errichteten Gebäude!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
 			<Text>
@@ -446,60 +536,74 @@
 			<Text>The Bandeirantes ("those who carry the flag") were 17th-century Portuguese settlers in Brazil and fortune hunters. They led expeditions called bandeiras ("flags") which penetrated the interior of Brazil far south and west of the Tordesillas Line of 1494, which officially divided the Castilian or later Spanish (west) domain from the Portuguese (east) domain in South America. Though they originally aimed to capture and force Indigenous Americans into slavery, the bandeirantes later began to focus their expeditions on finding gold, silver, and diamond mines. As they ventured into unmapped regions in search of profit and adventure, they expanded the effective borders of the Brazilian colony.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_STRATEGY">
-			<Text>Medieval-Era Unit that is unique to Brazil, replacing the Explorer. Is faster and stronger than the Explorer, and is available earlier. Generates Gold, Culture, and Science from exploring unrevealed tiles. These yields are added to the nearest owned city. Also has the ability to construct Fort Improvements in owned territory, and is stronger versus Barbarians. Use these units to explore, clear any remaining Barbarian Encampments, and generate valuable yields for your frontier cities.</Text>
+			<Text>Einzigartige mittelalterliche Einheit, der Brasilianer. Ersetzt den Entdecker. Ist schneller und stärker als der Entdecker und ist früher verfügbar. Erzeugt Gold, Kultur und Wissenschaft durch die Erforschung unentdeckter Geländefelder. Diese Erträge werden der nächstgelegenen Stadt hinzugefügt. Hat auch die Fähigkeit, Festungen, Steinbrüche, Minen und Brasilholzlager Modernisierungen in eigenem Gebiet zu errichten. Ist außerdem stärker als Barbaren. Benutzen Sie diese Einheiten, um die verbliebenen Barbarenlager zu erkunden, zu räumen und wertvolle Erträge für Ihre Grenzstädte zu erzielen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BANDEIRANTES_HELP">
-			<Text>Unique Brazilian Explorer. Generates [ICON_GOLD] Gold, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science whenever you reveal tiles with this Unit. Can also construct Forts in owned territory.</Text>
+			<Text>Einzigartige brasilianischer Entdecker. Erzeugt [ICON_GOLD] Gold, [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft, wenn Sie mit dieser Einheit unentdeckte Geländefelder aufdeckt. Kann auch Festungen, Steinbrüche, Minen und Brasilholzlager Modernisierungen in eigenem Gebiet zu errichten.</Text>
 		</Row>
 		
 		<!-- New Tier 4 Promotions -->
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
-			<Text>Overrun</Text>
+			<Text>Überlauf</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
-			<Text>+100% bonus to [COLOR_POSITIVE_TEXT]Flank Attack[ENDCOLOR] [ICON_STRENGTH] Combat Strength bonus.</Text>
+			<Text>+100% Bonus auf[FARBE_POSITIVER_TEXT]Flankenangriff[ENDCOLOR][ICON_STRENGTH] Kampfstärkebonus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
-			<Text>Stalwart</Text>
+			<Text>Standhaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4_HELP">
-			<Text>+35% [ICON_STRENGTH] Combat Strength when defending.</Text>
+			<Text>+35 % [ICON_STRENGTH] Kampfstärke bei der Verteidigung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
-			<Text>Snipers</Text>
+			<Text>Feuerlehre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
-			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength versus [COLOR_POSITIVE_TEXT]Wounded[ENDCOLOR] Units.</Text>
+			<Text>+25 % [ICON_RANGE_STRENGTH] Fernkampfstärke vs. Einheiten [COLOR_POSITIVE_TEXT]über 50 TP[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
-			<Text>Infiltrators</Text>
+			<Text>Infiltratoren</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
-			<Text>Can Pillage without expending movement.</Text>
+			<Text>+15 % [ICON_RANGE_STRENGTH] Fernkampfstärke [COLOR_POSITIVE_TEXT]außerhalb[ENDCOLOR] freundliche Gebiets.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4">
-			<Text>Slipstream</Text>
+			<Text>Windschatten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4_HELP">
-			<Text>Ignores Zone of Control.</Text>
+			<Text>Ignoriert die Kontrollzone.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4">
-			<Text>Broadside</Text>
+			<Text>Breitseite</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4_HELP">
-			<Text>+40% [ICON_RANGE_STRENGTH] Ranged Combat Strength versus [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+			<Text>+40 % [ICON_RANGE_STRENGTH] Fernkampfstärke vs. [COLOR_POSITIVE_TEXT]Städte[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4">
-			<Text>Glory Hounds</Text>
+			<Text>Ruhmeshunde</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>Steal gold equal to 100% of the damage inflicted on a city.</Text>
+			<Text>Stehlen Sie [ICON_GOLD] Gold, das 100 % des Schadens entspricht, der einer Stadt zugefügt wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
-			<Text>Pincer</Text>
+			<Text>Zange</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4_HELP">
-			<Text>+50% bonus to [COLOR_POSITIVE_TEXT]Flank Attack[ENDCOLOR] [ICON_STRENGTH] Combat Strength bonus.</Text>
+			<Text>+50 % Bonus auf [FARBE_POSITIVER_TEXT]Flankenangriff[ENDCOLOR][ICON_STRENGTH] Kampfstärkebonus.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_VIKING">
+			<Text>Wikinger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
+			<Text>Plündern kostet keine [ICON_MOVES] Fortbewegungspunkte. Gewinnen Sie 200 % des Schadens in [ICON_GOLD] Gold, der den Städten zugefügt wurde. 25 % [ICON_STRENGTH] Kampfstärke auf geplünderten Geländefeldern und -25 % [ICON_STRENGTH] Schaden durch Städte.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
+			<Text>Langboot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
+			<Text>Plündern kostet keine [ICON_MOVES] Fortbewegungspunkte und gewinnt +25 % [ICON_STRENGTH] Kampfstärke auf geplünderten Geländefeldern. Gewinnen Sie 200 % des Schadens in [ICON_GOLD] Gold, der den Städten zugefügt wurde. Ignoriert die Kontrollzone und nimmt -20 % [ICON_STRENGTH] Schaden durch Städte.</Text>
 		</Row>
 
 
@@ -514,7 +618,144 @@
 			<Text>Ewige Jugend</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
-			<Text>Einheiten heilen um zusätzliche +10 Trefferpunkte.</Text>
+			<Text>Einheiten heilen für zusätzliche +5 Trefferpunkte.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
+			<Text>Militärische Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST_HELP">
+			<Text>Permanent +2 Military Cap boost when expended via an ability.</Text>
+		</Row>
+
+		
+
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH">
+			<Text>Splash Damage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_HELP">
+			<Text>Deals 5 Damage to all enemy Units [COLOR_POSITIVE_TEXT]adjacent to[ENDCOLOR] targeted Unit (within [ICON_RANGE] Range).</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II">
+			<Text>Splash Damage II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPLASH_II_HELP">
+			<Text>Deals 5 Damage to all enemy Units [COLOR_POSITIVE_TEXT]adjacent to[ENDCOLOR] targeted Unit (within [ICON_RANGE] Range).</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TERROR">
+			<Text>Precision</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_II">
+			<Text>Precision II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TERROR_II_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER">
+			<Text>Coup de Grace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER_HELP">
+			<Text>+30% [ICON_RANGE_STRENGTH] Combat Strength VS Units [COLOR_POSITIVE_TEXT]at or below 50 HP[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY">
+			<Text>Parthian Tactics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
+			<Text>+1 [ICON_MOVES] Movement.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I">
+			<Text>Siege I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_I_HELP">
+			<Text>+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II">
+			<Text>Siege II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_II_HELP">
+			<Text>+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III">
+			<Text>Siege III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_III_HELP">
+			<Text>+10% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_I">
+			<Text>Field I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_I_HELP">
+			<Text>+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_II">
+			<Text>Field II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_II_HELP">
+			<Text>+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_III">
+			<Text>Field III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIELD_III_HELP">
+			<Text>+5% Ranged [ICON_RANGE_STRENGTH] Combat Strength, +10% [ICON_STRENGTH] VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS">
+			<Text>Treasure Hunter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_GOODY_BONUS_HELP">
+			<Text>+25% Yields from [COLOR_POSITIVE_TEXT]Ancient Ruins[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
+			<Text>Scavenger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE_HELP">
+			<Text>+5 XP when you [COLOR_POSITIVE_TEXT]Pillage[ENDCOLOR] a tile.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING">
+			<Text>Spotters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_SPOTTING_HELP">
+			<Text>+2 XP for every turn spent unembarked in the [COLOR_POSITIVE_TEXT]enemy territory[ENDCOLOR] of a Major Civ.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I">
+			<Text>Penalty vs Barbarians (-30)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_I_HELP">
+			<Text>-30% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II">
+			<Text>Penalty vs Barbarians (-20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_II_HELP">
+			<Text>-20% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III">
+			<Text>Penalty vs Barbarians (-10)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_PENALTY_III_HELP">
+			<Text>-10% [ICON_STRENGTH] Combat Strength VS [COLOR_NEGATIVE_TEXT]Barbarians[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
+			<Text>Ocean Explorer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
+			<Text>Can Cross Oceans before researching Astronomy</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>
