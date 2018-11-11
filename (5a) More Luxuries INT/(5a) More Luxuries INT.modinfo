@@ -28,7 +28,7 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="6586e43b69d269ae4c81a8e575a9c21f" import="0">XML/de_DE/NewLuxuries_Text.xml</File>
+    <File md5="4AA8270143E0EDDDEE4951EF469BAD81" import="0">XML/de_DE/NewLuxuries_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
