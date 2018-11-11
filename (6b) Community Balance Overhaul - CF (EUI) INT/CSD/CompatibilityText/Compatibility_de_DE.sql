@@ -41,7 +41,7 @@ SET Text = 'Spezialisten bieten folgende Vorteile:[NEWLINE][NEWLINE]Künstler st
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. [NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP';
 
 UPDATE language_de_DE
@@ -97,18 +97,17 @@ WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP';
 -- Merchant Mission
 
 UPDATE language_de_DE
-SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert. Erhaltet 1 [ICON_RES_PAPER] Papier.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten. Diese Aktion wird die Einheit opfern.'
+SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert. Erhaltet 1 [ICON_RES_PAPER] Papier.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten, erhöht sich um 1 Runde pro eigene Städt die von Euch gegründet wurde. Diese Aktion wird die Einheit opfern.'
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Philanthropy
 UPDATE language_de_DE
 SET Text = '[COLOR_POSITIVE_TEXT]Foreign Service[ENDCOLOR][NEWLINE]+1 of every Strategic Resource for every three City-State Alliances you maintain. Earn [ICON_DIPLOMAT] Great Diplomats 50% faster, and gain +50% Rewards from City-State Quests.'
-WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP';
+WHERE Tag = 'TXT_KEY_POLICY_PHILANTHROPY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
--- Cultural Diplomacy
 UPDATE language_de_DE
 SET Text = '[COLOR_POSITIVE_TEXT]Exchange Markets[ENDCOLOR][NEWLINE]Resources from City-States count towards Global Monopolies. +1 [ICON_INTERNATIONAL_TRADE] Trade Route, and +2 [ICON_HAPPINESS_1] Happiness for every active [ICON_INTERNATIONAL_TRADE] Trade Route. The [ICON_TOURISM] Tourism modifier for [COLOR_POSITIVE_TEXT]Trade Routes[ENDCOLOR] is increased by 15%.'
-WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP';
+WHERE Tag = 'TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
 SET Text = 'Ihr seid [COLOR_POSITIVE_TEXT]verbündet[ENDCOLOR] mit dem Stadtstaat {1_CityStateName:textkey}. Jede Runde wird sich Euer [ICON_INFLUENCE] Einfluss mit ihnen um {2_Num} ändern. Wenn {1_CityStateName:textkey} beschädigt wurde und Ihr ihnen ein [COLOR_POSITIVE_TEXT]Schutzversprechen[ENDCOLOR] gabt, wird sich der Wert um das dreifache verringern.'

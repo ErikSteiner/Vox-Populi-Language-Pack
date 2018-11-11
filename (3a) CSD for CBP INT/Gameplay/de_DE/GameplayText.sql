@@ -57,13 +57,13 @@ SET Text = 'Sobald das Weltkongress Projekt "Vereinte Nationen" abgeschlossen is
 WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_BODY' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'They will reward the player(s) with the largest number of new Followers.'
+SET Text = 'Sie belohnen den/die Spieler mit der größten Anzahl neuer Anhänger.'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} So far, the leader has {1_LeaderScore} new Followers and you have [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Bisher hat der Anführer {1_LeaderScore} new Followers neue Anhänger und Sie haben [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} So far, you have the lead with [COLOR_POSITIVE_TEXT]{1_PlayerScore} new Followers'
+SET Text = '{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Bisher haben Sie die Führung, mit [COLOR_POSITIVE_TEXT]{1_PlayerScore} neuen Anhängern'
 WHERE Tag = 'TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL' AND EXISTS (SELECT * FROM CSD WHERE Type='CSD_TEXT' AND Value= 1 );

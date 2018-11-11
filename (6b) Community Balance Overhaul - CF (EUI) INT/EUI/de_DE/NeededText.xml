@@ -6,28 +6,28 @@
 			<Text>X: {1_Num} / Y: {2_Num} / Plot Danger: {3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
-			<Text>Local Resources</Text>
+			<Text>Lokale Ressourcen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_MISC_RESOURCES">
-			<Text>Resources from Policies, Religion, or Corporations</Text>
+			<Text>Ressourcen durch Politik, Religion oder Konzernen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_DIPLO_DP">
 			<Text>Defensive Pact</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_DIPLO_MARRIAGE">
-			<Text>Marriage</Text>
+			<Text>Heirat</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_DIPLO_MASTER_OF">
-			<Text> [COLOR_POSITIVE_TEXT]Master of[ENDCOLOR]</Text>
+			<Text> [COLOR_POSITIVE_TEXT]Herr(in) von[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_DIPLO_VASSAL_OF">
-			<Text> [COLOR_POSITIVE_TEXT]Vassal of[ENDCOLOR]</Text>
+			<Text> [COLOR_POSITIVE_TEXT]Vassal von[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
-			<Text>Warscore:</Text>
+			<Text>Kriegspunkte:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
-			<Text> [COLOR_NEGATIVE_TEXT]At war with {1_enemy}[ENDCOLOR]</Text>
+			<Text> [COLOR_NEGATIVE_TEXT]Im Krieg mit {1_enemy}[ENDCOLOR]</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

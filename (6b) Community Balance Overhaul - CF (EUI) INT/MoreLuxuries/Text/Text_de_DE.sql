@@ -32,11 +32,11 @@ SET Text = '+33% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Generation in dies
 WHERE Tag = 'TXT_KEY_BUILDING_COFFEE_HOUSE_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_Salz] Salz: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen.'
+SET Text = 'Ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_MARBLE] Marmor: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_STONE] Stein: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_Salz] Salz: +2 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_JADE] Jade: +1 [ICON_Produktion] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Stadt benötigt mindestens eine dieser Ressourcen.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_HELP';
 	
 UPDATE language_de_DE
-SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_SALT] Salz-, [ICON_RES_URANIUM] Uran-, [ICON_RES_LAPIS] Lapis Lazuli- oder [ICON_RES_AMBER] Bernstein-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
+SET Text = 'Steinwerke können nur in einer Stadt gebaut werden, die an einer verbesserten [ICON_RES_STONE] Stein-, [ICON_RES_MARBLE] Marmor, [ICON_RES_SALT] Salz-, [ICON_RES_JADE] Jade, [ICON_RES_URANIUM] Uran-, [ICON_RES_LAPIS] Lapis Lazuli- oder [ICON_RES_AMBER] Bernstein-Ressource liegt. Steinwerke erhöhen die [ICON_PRODUCTION] Produktion einer Stadt und ermöglicht den Transport von [ICON_PRODUCTION] Produktion aus dieser Stadt über Handelswege innerhalb Eurer Zivilisation.'
 WHERE Tag = 'TXT_KEY_BUILDING_STONE_WORKS_STRATEGY';
 
 UPDATE language_de_DE

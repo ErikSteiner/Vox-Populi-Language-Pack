@@ -746,10 +746,10 @@
 			<Text>[ICON_RES_IRON] Eisen, [ICON_RES_ALUMINUM] Aluminium, [ICON_RES_MARBLE] Marmor, [ICON_RES_COPPER] Kupfer und [ICON_RES_PORCELAIN] Porzellan gewährt +1 [ICON_RESEARCH] Wissenschaft in allen Städten mit einem Firaxite Materials Konzernbüro.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_FIRAXITE_MATERIALS">
-			<Text>+3 [ICON_RESEARCH] Science for every Global Franchise, +1 [ICON_RESEARCH] Science on Firaxite Materials Monopoly Resources, and +20% [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+			<Text>+2 [ICON_RESEARCH] Wissenschaft für jedes globale Franchise, +1 [ICON_RESEARCH] Wissenschaft über für Firaxite Materials Monopolressourcen und +20 % [ICON_PRODUCTION] Produktion beim Bau von Gebäuden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes to foreign Cities with a Firaxite Materials Franchise produce double their normal amount of [ICON_RESEARCH] Science.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Handelswege zu fremden Städten mit einem Firaxite Materials Franchise produzieren +50 % zusätzliche [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_OFFICE_BENEFIT_HELP">
 			<Text>Aktueller Konzernbüro Bonus: +{1_Num} [ICON_RESEARCH] Wissenschaft.</Text>
@@ -788,10 +788,10 @@
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Firaxite Materials Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Firaxite Materials cannot be sold or destroyed by the player, and increases the [ICON_RESEARCH] Science output of all Firaxite Materials Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>Wenn ein [ICON_INTERNATIONAL_TRADE] Handelsweg zwischen einer fremden Stadt und dieser Stadt fertiggestellt ist, wird in der fremden Stadt ein Firaxite Materials Franchise errichtet.[NEWLINE][NEWLINE]Firaxite Materials kann vom Spieler nicht verkauft oder zerstört werden und erhöhen die wissenschaftliche Leistung aller Firaxite Materials Konzernbüros um +2.[NEWLINE][NEWLINE][NEWLINE]Sie können nicht mehr Franchises haben als Ihr Franchise Limit (siehe "Übersicht über Unternehmen und Monopole" für mehr Informationen).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
-			<Text>+20% [ICON_PRODUCTION] Production when constructing Buildings in this City, and +1 [ICON_RESEARCH] Science on all Firaxite Materials Monopoly Resources near this City. +3 [ICON_RESEARCH] Science for every Firaxite Materials Franchise (up to your Franchise Limit).[NEWLINE][NEWLINE]Trade Routes to foreign Cities with a Firaxite Materials Franchise produce double their normal amount of [ICON_RESEARCH] Science.</Text>
+			<Text>+20%[ICON_PRODUKTION] Produktion beim Bau von Gebäuden in dieser Stadt und +1 [ICON_RESEARCH] Wissenschaft auf alle Firaxite Materials Monopolressourcen in der Nähe dieser Stadt. +2 [ICON_RESEARCH] Wissenschaft für jedes Firaxite Materials Franchise (bis zu Ihrem Franchise Limit)[NEWLINE][NEWLINE]Handelswege zu fremden Städten mit einem Firaxite Materials Franchise produzieren 50 % mehr [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS">

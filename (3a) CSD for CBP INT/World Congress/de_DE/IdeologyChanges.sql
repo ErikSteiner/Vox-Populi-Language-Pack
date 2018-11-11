@@ -70,11 +70,11 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM C
 -- Scholars in Residence
 
 UPDATE language_de_DE
-SET Text = 'Zivilisationen erforschen Technologien 20% schneller, wenn sie mindestens eine andere Zivilisation entdeckt haben. Dieser Wert erhöht sich um weitere 2% für jeden verbündeten Stadtstaat, den die Zivilisation unterstützt, bis zu -50%.'
+SET Text = 'Zivilisationen erforschen Technologien 20 % schneller, wenn sie mindestens eine andere Zivilisation entdeckt haben. Dieser Wert erhöht sich um weitere 2 % für jeden verbündeten Stadtstaat, den die Zivilisation unterstützt, bis zu -50 %.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] Erforschungskosten für Technologien, die bereits von anderen Zivilisationen erforscht wurden. Weitere -2% für jede Stadtstaaten Allianz, bis zu -50%'
+SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] Erforschungskosten für Technologien, die bereits von anderen Zivilisationen erforscht wurden. Weitere -2 % für jede Stadtstaaten Allianz, bis zu -50 %'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture

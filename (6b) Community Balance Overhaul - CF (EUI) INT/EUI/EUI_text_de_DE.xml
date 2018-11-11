@@ -431,10 +431,10 @@
 		</Row>
 		<!-- Vox Populi -->
 		<Row Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_LOCAL">
-			<Text>Supply Cap Local:</Text>
+			<Text>Lokale Versorgungsobergrenze:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_GLOBAL">
-			<Text>Supply Cap Global:</Text>
+			<Text>Globale Versorgungsobergrenze:</Text>
 		</Row>
 		<!-- VP end -->
 <!-- MISC EUI tooltips -->
@@ -463,7 +463,7 @@
 			<Text>Unbekannte Stadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
-			<Text>Air Strike Defense:</Text>
+			<Text>Luftschlagverteidigung:</Text>
 		</Row>
 	</language_de_DE>
 </GameData>
