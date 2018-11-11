@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="9">
+<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="10">
   <Properties>
     <Name>(1a) Community Patch Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(01-26) [COLOR_GREEN]Translation of the Community Patch[ENDCOLOR]</Teaser>
+    <Teaser>(11-11) [COLOR_GREEN]Translation of the Community Patch[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>9</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>72</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
