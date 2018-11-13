@@ -38,7 +38,7 @@ SET Text = 'Sanktion'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Keine [ICON_INTERNATIONAL_TRADE] Handelswege können mit der gewählten Zivilisation und jeder anderen geschlossen werden.  Kriegstreiber-Strafen bei Kriegserklärungen an sanktionierte Zivilisationen oder durch das Erobern solcher Städte drastisch verringert.'
+SET Text = 'Keine neuen [ICON_INTERNATIONAL_TRADE] Handelswege oder Abkommen können mit der gewählten Zivilisation und jeder anderen geschlossen werden.  Kriegstreiber-Strafen bei Kriegserklärungen an sanktionierte Zivilisationen oder durch das Erobern solcher Städte drastisch verringert.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- World Peace
@@ -64,17 +64,17 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP' AND EXISTS (SELECT * FROM C
 -- World Ideology
 
 UPDATE language_de_DE
-SET Text = 'Bennenen Sie eine Ideologie als offizielle Weltideologie.  Zivilisationen die dieser Ideologie folgen, erhalten einen zusätzlichen Abgeordneten sowie 1 Abgeordneten für jede andere Zivilisation die dieser Ideologie folgen.  Die öffentliche Meinung für diese Ideologie wird für alle Zivilisationen zunehmen. Ermöglicht den [COLOR_POSITIVE_TEXT]Diplomatiesieg[ENDCOLOR], wenn die Vereinten Nationen errichtet sind. [NEWLINE][NEWLINE]Verfügbar, sobald eine beliebige Zivilisation Funkwesen entdeckt.'
+SET Text = 'Bennenen Sie eine Ideologie als offizielle Weltideologie.  Zivilisationen die dieser Ideologie folgen, erhalten einen zusätzlichen Abgeordneten sowie 1 Abgeordneten für jede andere Zivilisation die dieser Ideologie folgen.  Die öffentliche Meinung für diese Ideologie wird für alle Zivilisationen zunehmen. Ermöglicht den [COLOR_POSITIVE_TEXT]Diplomatiesieg[ENDCOLOR], wenn die Vereinten Nationen errichtet sind. [NEWLINE][NEWLINE]Verfügbar, sobald eine beliebige Zivilisation Telekommunikation entdeckt.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 -- Scholars in Residence
 
 UPDATE language_de_DE
-SET Text = 'Zivilisationen erforschen Technologien 20% schneller, wenn sie mindestens eine andere Zivilisation entdeckt haben. Dieser Wert erhöht sich um weitere 5% für jeden verbündeten Stadtstaat, den die Zivilisation unterstützt, bis zu -50%.'
+SET Text = 'Zivilisationen erforschen Technologien 20 % schneller, wenn sie mindestens eine andere Zivilisation entdeckt haben. Dieser Wert erhöht sich um weitere 2 % für jeden verbündeten Stadtstaat, den die Zivilisation unterstützt, bis zu -50 %.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] Erforschungskosten für Technologien, die bereits von anderen Zivilisationen erforscht wurden. Weitere -5% für jede Stadtstaaten Allianz, bis zu -50%'
+SET Text = '-{1_ResearchCostPercent}% [ICON_RESEARCH] Erforschungskosten für Technologien, die bereits von anderen Zivilisationen erforscht wurden. Weitere -2 % für jede Stadtstaaten Allianz, bis zu -50 %'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 --Wonder Culture
@@ -147,7 +147,7 @@ WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP' AND EXISTS (SELEC
 -- Arts/Sciences Funding
 
 UPDATE language_de_DE
-SET Text = 'Steigert die Generierung Großer Schriftsteller, Künstler und Musiker um 33%.  Verringert die Generierung Großer Wissenschaftler, Ingenieure und Händler um 33%. [NEWLINE][NEWLINE]Zivilisationen mit einem Punktestand [COLOR_POSITIVE_TEXT]unter dem globalen Durchschnitt[ENDCOLOR] erhalten einen Schub auf [ICON_PRODUCTION] Produktion und [ICON_CULTURE] Kultur zwischen 10-30%. [NEWLINE][NEWLINE]Details: Der Schub ist die Differenz zwischen dem Punktestand der Zivilisation und dem Führenden, geteilt durch 50.'
+SET Text = 'Steigert die Generierung Großer Schriftsteller, Künstler und Musiker um bis zu 33 %.  Verringert die Generierung Großer Wissenschaftler, Ingenieure und Händler um bis zu 33 %. [NEWLINE][NEWLINE]Zivilisationen mit einem Punktestand durch Politiken und Großen Kunstwerken [COLOR_POSITIVE_TEXT]unter dem globalen Median[ENDCOLOR] erhalten einen Schub auf [ICON_PRODUCTION] Produktion und [ICON_CULTURE] Kultur zwischen von bis zu 33 %. [NEWLINE][NEWLINE]Details: Die Booster sind proporional zur Differenz zwischen dem Punktestand der Zivilisation und dem Führenden.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
@@ -155,7 +155,7 @@ SET Text = 'Stiftung für die Künste'
 WHERE Tag = 'TXT_KEY_RESOLUTION_ARTS_FUNDING' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Steigert die Generierung Großer Wissenschaftler, Ingenieure und Händler um 33%.  Verringert die Generierung Großer Schriftsteller, Künstler und Musiker um  33%. [NEWLINE][NEWLINE]Zivilisationen mit einem Punktestand [COLOR_POSITIVE_TEXT]unter dem globalen Durchschnitt[ENDCOLOR] erhalten einen Schub auf [ICON_FOOD] Nahrung und [ICON_RESEARCH] Wissenschaft zwischen 10-30%. [NEWLINE][NEWLINE]Details: Der Schub ist die Differenz zwischen dem Punktestand der Zivilisation und dem Führenden, geteilt durch 50.'
+SET Text = 'Steigert die Generierung Großer Wissenschaftler, Ingenieure und Händler um bis zu 33 %.  Verringert die Generierung Großer Schriftsteller, Künstler und Musiker um bis zu 33 %. [NEWLINE][NEWLINE]Zivilisationen mit einem Punktestand durch Technologien und Zukunftstechnologien [COLOR_POSITIVE_TEXT]unter dem globalen Median[ENDCOLOR] erhalten einen Schub auf [ICON_FOOD] Nahrung und [ICON_RESEARCH] Wissenschaft zwischen von bis zu 33 %. [NEWLINE][NEWLINE]Details: Die Booster sind proporional zur Differenz zwischen dem Punktestand der Zivilisation und dem Führenden.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE

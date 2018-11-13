@@ -7,7 +7,7 @@
 			<Plurality>1|2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_STRATEGY">
-			<Text>Staatsdiener produzieren 2 [ICON_RESEARCH] Wissenschaft, 2 [ICON_CULTURE] Kultur, 2 [ICON_PRODUCTION] Gold und beschleunigen die Ausbildung von Großen Diplomaten.</Text>
+			<Text>Staatsdiener produzieren 1 [ICON_RESEARCH] Wissenschaft, 1 [ICON_CULTURE] Kultur, 2 [ICON_PRODUCTION] Gold und beschleunigen die Ausbildung von Großen Diplomaten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_SLOTS">
 			<Text>Staatsdiener Plätze:</Text>

@@ -5,7 +5,7 @@
 			<Text>Papier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_PAPER_HELP">
-			<Text>Wird benötigt um [ICON_INFLUENCE] Diplomatische Einheiten auszubilden. Die Produktion höherwertiger Diplomatischer Einheiten benötigen mehr als eine Einheit Papier.</Text>
+			<Text>Wird benötigt um [ICON_INFLUENCE] Diplomatische Einheiten auszubilden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_PAPER">
 			<Text>Papier</Text>

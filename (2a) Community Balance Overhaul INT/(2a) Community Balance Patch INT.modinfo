@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="9">
+<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="10">
   <Properties>
     <Name>(2a) Community Balance Overhaul Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(1-26) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
+    <Teaser>(11-11) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -21,32 +21,32 @@
   <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="88" maxversion="999" title="Community Patch" />
 	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="9" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="10" maxversion="999" title="(1a) Community Patch Localized" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="72e0620559ce200127d3bfeb223eef81" import="0">Balance Changes/Text/de_DE/BuildingText.sql</File>
-    <File md5="b0547b4dfb171e1a9184b542307838f8" import="0">Balance Changes/Text/de_DE/CivText.sql</File>
-    <File md5="8f69301fc1a097b7c705bf271b742588" import="0">Balance Changes/Text/de_DE/BuildingText.xml</File>
-	<File md5="e9cd6ad5875aeb5795ab4685658a7650" import="0">Balance Changes/Text/de_DE/UnitText.xml</File>
-	<File md5="39832619a120de6430e6ea0da66e59b4" import="0">Balance Changes/Text/de_DE/UIText.xml</File>
-	<File md5="890819b2ce933f5e2b10bde9d1c53def" import="0">Balance Changes/Text/de_DE/TerrainText.xml</File>
-	<File md5="766830ff8917f7e9eea0aa91a4663b83" import="0">Balance Changes/Text/de_DE/PromotionText.sql</File>
-	<File md5="9de0678c1f083111842282d5896b3329" import="0">Balance Changes/Text/de_DE/PolicyText.sql</File>
-	<File md5="28a5699f2796eed52021b08b8af8db59" import="0">Balance Changes/Text/de_DE/UIText.sql</File>
-	<File md5="4e24386faef0e2898c7973299059d560" import="0">Balance Changes/Text/de_DE/OtherText.sql</File>
-	<File md5="606ab7798a525a0ab97c0004a0909f5b" import="0">Balance Changes/Text/de_DE/UnitText.sql</File>
-	<File md5="5a63f35a6e2cd7705c7b1caa76c2c873" import="0">Balance Changes/Text/de_DE/ReligionText.sql</File>
-	<File md5="2f6012815cf8adef55e874763238b34c" import="0">Balance Changes/Text/de_DE/NewText.xml</File>
-	<File md5="c033d3dd09e0906d458eefc9e776c8f7" import="0">Balance Changes/Text/de_DE/TextChanges.sql</File>
-    <File md5="7689ee60ae40e0417fc112fe31fdcf2e" import="0">Modular Elements/ArchaeologistUIMods/de_DE/MiniMapPanelText.xml</File>
-	<File md5="32480d7c96088c1871caba23abd14863" import="0">Modular Elements/ArchaeologistUIMods/de_DE/UIAntiquities.xml</File>
-	<File md5="db6ac62d503ad3a29806a65bd9fab73c" import="0">Modular Elements/Corporations/Text/de_DE/CorporationOverviewText.xml</File>
-	<File md5="86fc817b252cec71a36ae3cd7241615e" import="0">Modular Elements/Corporations/Text/de_DE/CorpText.xml</File>
-    <File md5="b33e863bd8b6c5147637be92a58c44bd" import="0">Modular Elements/Events/Text/EventText_de_DE.xml</File>
-	<File md5="5ca744b891ce73edb55fc64c5d9da6a9" import="0">Modular Elements/TradeUIMod/de_DE/GlobalCityStatesGifts.xml</File>
-    <File md5="45155f5d0c15a8689bd6c2d49040ba7d" import="0">Modular Elements/TradeUIMod/de_DE/UITradeRoutesEnhancements.xml</File>
+    <File md5="95E9610F89F580EC03AD48875272A6DE" import="0">Balance Changes/Text/de_DE/BuildingText.sql</File>
+    <File md5="D134B8DC3264FF012176AFD106D0DBE5" import="0">Balance Changes/Text/de_DE/CivText.sql</File>
+    <File md5="A9B62E33E4736D2E66BD2F1CA04A8429" import="0">Balance Changes/Text/de_DE/BuildingText.xml</File>
+	<File md5="5300FD4EAB11E9AB45FF836EDDC6904C" import="0">Balance Changes/Text/de_DE/UnitText.xml</File>
+	<File md5="B594E0B6CA15BB75FA5530E1FED655CF" import="0">Balance Changes/Text/de_DE/UIText.xml</File>
+	<File md5="64778A90F3A3AF942C6D682A457621CA" import="0">Balance Changes/Text/de_DE/TerrainText.xml</File>
+	<File md5="4F8CF237C5AA7AF2491556B78BB5B0ED" import="0">Balance Changes/Text/de_DE/PromotionText.sql</File>
+	<File md5="9A1ACA98DF49E8DB57B0B8DB3CC6FB2F" import="0">Balance Changes/Text/de_DE/PolicyText.sql</File>
+	<File md5="42612EF8CD0F0052415148FF11C9834D" import="0">Balance Changes/Text/de_DE/UIText.sql</File>
+	<File md5="311CE4C11111981DF8C1E833DD0F4B76" import="0">Balance Changes/Text/de_DE/OtherText.sql</File>
+	<File md5="17B1D921129118CDE08B078DB38B759B" import="0">Balance Changes/Text/de_DE/UnitText.sql</File>
+	<File md5="3603B80218BEE4D12833B164E6D0AC67" import="0">Balance Changes/Text/de_DE/ReligionText.sql</File>
+	<File md5="A9F4D2F1C37B7CB7E593FB6DCE8B3EEE" import="0">Balance Changes/Text/de_DE/NewText.xml</File>
+	<File md5="26522118A03D32019BF8F7DAA792E761" import="0">Balance Changes/Text/de_DE/TextChanges.sql</File>
+    <File md5="7689EE60AE40E0417FC112FE31FDCF2E" import="0">Modular Elements/ArchaeologistUIMods/de_DE/MiniMapPanelText.xml</File>
+	<File md5="32480D7C96088C1871CABA23ABD14863" import="0">Modular Elements/ArchaeologistUIMods/de_DE/UIAntiquities.xml</File>
+	<File md5="DB6AC62D503AD3A29806A65BD9FAB73C" import="0">Modular Elements/Corporations/Text/de_DE/CorporationOverviewText.xml</File>
+	<File md5="598983BC8D36D43945B67620D913DB06" import="0">Modular Elements/Corporations/Text/de_DE/CorpText.xml</File>
+    <File md5="B33E863BD8B6C5147637BE92A58C44BD" import="0">Modular Elements/Events/Text/EventText_de_DE.xml</File>
+	<File md5="E9CBB2FB049850A96FC27C67CF340998" import="0">Modular Elements/TradeUIMod/de_DE/GlobalCityStatesGifts.xml</File>
+    <File md5="45155F5D0C15A8689BD6C2D49040BA7D" import="0">Modular Elements/TradeUIMod/de_DE/UITradeRoutesEnhancements.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

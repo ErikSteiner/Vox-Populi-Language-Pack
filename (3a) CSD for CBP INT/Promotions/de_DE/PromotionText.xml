@@ -51,7 +51,7 @@
 		</Row>
 		<!--Diplo Promotion Help-->
 		<Row Tag="TXT_KEY_PROMOTION_EMISSARY_HELP">
-			<Text>Erhaltet 40 [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission durchführt.</Text>
+			<Text>Erhaltet 30 [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission durchführt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENVOY_HELP">
 			<Text>Erhaltet 45 [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission durchführt.</Text>
@@ -90,7 +90,7 @@
 			<Text>Gewährt +15 [ICON_INFLUENCE] Einfluss, wenn Ihr eine diplomatische Mission mit einem Stadtstaat durchführt und die Fähigkeit gegnerisches Gelände zu betreten, ohne die Vereinbarung Offene Grenzen zu besitzen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
-			<Text>Gewährt +1 [ICON_MOVES] Fortbewegung, +1 Sicht, +10% Kampfbonus beim Angriff und die Fähigkeit in nicht freundlichem Wasser zu heilen.</Text>
+			<Text>+1 Sicht, +10% Kampfbonus beim Angriff und die Fähigkeit in nicht freundlichem Wasser zu heilen.</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

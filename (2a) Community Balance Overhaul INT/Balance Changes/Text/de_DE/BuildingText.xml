@@ -22,7 +22,7 @@
 			<Text>Einzigartiges venezianisches Gebäude welches nur in der venezianischen Hauptstadt gebaut werden darf. Das Gebäude steigert den Wert von Handelswegen zu und von der Stadt und generiert 1 Weltkongress Delegierten für je 100 Gold pro Runde das Venedig produziert (bis zu 25% aller verbliebenen Stadtstaaten im Spiel, mind. 1 Delegierter). Des Weiteren reduziert das Gebäude die Goldkosten für den Kauf von Einheiten und Gebäuden in der Stadt um 10%. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
-			<Text>Einzigartiges venezianisches Gebäude. Kosten für den Kauf mit [ICON_GOLD] Gold in allen Städten um 10% reduziert. Gewährt 1 Delegierten im Weltkongress für je 100 erwirtschaftetes [ICON_GOLD] Gold pro Runde (begrenzt auf 25% aller je vorhandenen Stadtstaaten).[NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE] Handelswege zu und von der Stadt und generieren +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
+			<Text>Einzigartiges venezianisches Gebäude. Kosten für den Kauf mit [ICON_GOLD] Gold in allen Städten um 10% reduziert (15% in der [ICON_CAPITAL] Hauptstadt). Gewährt 1 Delegierten im Weltkongress für je 100 erwirtschaftetes [ICON_GOLD] Gold pro Runde (begrenzt auf 25% aller je vorhandenen Stadtstaaten).[NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE] Handelswege zu und von der Stadt und generieren +3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE">
@@ -32,10 +32,10 @@
 			<Text>Arsenal ist der Name der Schiffswerft, des Zeughauses und der Flottenbasis der ehemaligen Republik Venedig. Der Bau des Arsenals wurde unter dem Dogen Ordelaf Falier ab 1104 begonnen. Das Grundstück bestand aus zwei sumpfigen Inseln im Stadtteil Castello. Diese Werft, die als größter Produktionsbetrieb Europas vor dem Zeitalter der Industrialisierung betrachtet werden kann, wurde zum Vorbild für andere Marinearsenale in Europa. Das Gebiet umfasst heute 32 Hektar, ein Zehntel des historischen Zentrums von Venedig.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_STRATEGY">
-			<Text>Einzigartiges venezianisches Gebäude welches nur in der venezianischen Hauptstadt gebaut werden darf. Dieses Gebäude erhöht die Produktion und die Stadtverteidigung. Gewährt allen in dieser Stadt gebauten Marineeinheiten die Beförderung 'Venezianische Handwerkskunst', die die  Kampfstärke und Fortbewegung erhöht. Kann nicht gebaut werden wenn das "Rialto Stadtviertel" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
+			<Text>Einzigartiges venezianisches Gebäude welches nur in der venezianischen Hauptstadt gebaut werden darf. Dieses Gebäude erhöht die Produktion, die Stadtverteidigung sowie die militärische Versorgung. Gewährt allen in dieser Stadt gebauten Marineeinheiten die Beförderung 'Venezianische Handwerkskunst', die die  Kampfstärke und Fortbewegung erhöht. Kann nicht gebaut werden wenn das "Rialto Stadtviertel" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE_HELP">
-			<Text>Einzigartiges venezianisches Gebäude. +15% [ICON_PRODUCTION] Stadtproduktion.[NEWLINE][NEWLINE]In dieser Stadt gebaute Marineeinheiten erhalten die [COLOR_POSITIVE_TEXT]Venezianische Handwerkskunst[ENDCOLOR] Beförderung, die die [ICON_STRENGTH] Kampfstärke um 10% und [ICON_MOVES] Fortbewegung um 1 steigert.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Rialto Stadtviertel" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
+			<Text>Einzigartiges venezianisches Gebäude. +15% [ICON_PRODUCTION] Stadtproduktion. Erhöht die Versorgungsobergrenze für Militäreinheit, durch die Bevölkerung in dieser Stadt um 25%.[NEWLINE][NEWLINE]Alle  Marineeinheiten erhalten die [COLOR_POSITIVE_TEXT]Venezianische Handwerkskunst[ENDCOLOR] Beförderung, die die [ICON_STRENGTH] Kampfstärke um 10% und [ICON_MOVES] Fortbewegung um 1 steigert.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Rialto Stadtviertel" oder die "Murano Glashütte" in der Stadt gebaut wurde.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_PIAZZA_SAN_MARCO">
@@ -58,10 +58,10 @@
 			<Text>Muranos Ruf als Zentrum der Glasherstellung, als die venezianische Republik 1291, aus Angst vor Feuer und der Zerstörung der meist aus Holz gebauten Stadt, den Glasmachern anordnete sich in Murano niederzulassen. Murano-Glas wird immer noch mit venezianischem Glas verbunden. Muranos Glasmacher gehörten bald zu den angesehensten Bürgern der Stadt. Im vierzehnten Jahrhunder wurde ihnen erlaubt Schwerter zu tragen, genossen Immunität gegen Strafverfolgung durch den venezianischen Staat und heirateten ihre Töchter in die wohlhabendsten Familien von Venedig ein. Während sie von bestimmten gesetzlichen Regelungen profitierten, war es ihnen verboten die Republik zu verlassen. Jedoch nahmen viele das Risiko in Zusammenhang mit der Auswanderung auf sich und gründeten Glashütten in den umliegenden Städten und weiter weg, wie etwa in England oder den Niederlanden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_STRATEGY">
-			<Text>Einzigartiges venezianisches Gebäude, dass nur in der venezianischen Hauptstadt gebaut werden darf. Steigert den Wert von Modernisierungen von Großen Persönlichkeiten und Dörfern nahe der Stadt und beinhaltet zwei Plätze für ein Großes Kunstwerk oder Artefakt. Baut dieses Gebäude, wenn Ihr einen Kultursieg anstrebt. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder das "Rialto Stadtviertel" in der Stadt gebaut wurde.</Text>
+			<Text>Einzigartiges venezianisches Gebäude, dass nur in der venezianischen Hauptstadt gebaut werden darf. Steigert den Wert von Modernisierungen von Großen Persönlichkeiten und Dörfern in allen Städten und beinhaltet zwei Plätze für ein Großes Kunstwerk oder Artefakt. Baut dieses Gebäude, wenn Ihr einen Kultursieg anstrebt. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder das "Rialto Stadtviertel" in der Stadt gebaut wurde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_HELP">
-			<Text>Einzigartiges venezianisches Gebäude. Modernisierungen von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten und Dörfern die von der Stadt bewirtschaftet werden produzieren +2 [ICON_FOOD] Nahrung und +2 [ICON_TOURISM] Tourismus.[NEWLINE][NEWLINE]Beinhaltet 2 Plätze für ein [ICON_GREAT_WORK] Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder das "Rialto Stadtviertel" in der Stadt gebaut wurde.[NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.</Text>
+			<Text>Einzigartiges venezianisches Gebäude. Modernisierungen von [ICON_GREAT_PEOPLE] Großen Persönlichkeiten und Dörfern die von Städten bewirtschaftet werden, produzieren +2 [ICON_FOOD] Nahrung und +2 [ICON_TOURISM] Tourismus.[NEWLINE][NEWLINE]Beinhaltet 2 Plätze für ein [ICON_GREAT_WORK] Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Benötigt Piazza San Marco in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. Kann nicht gebaut werden wenn das "Arsenale di Venezia" oder das "Rialto Stadtviertel" in der Stadt gebaut wurde.[NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MURANO_GLASSWORKS_THEMING_BONUS_HELP">
 			<Text>Um den Bonus voll auszunutzen stellt sicher, dass beide Großen Kunstwerke vom Gebäudebesitzer geschaffen wurden.</Text>
@@ -118,7 +118,7 @@
 			<Text>Einzigartiges byzantinisches Gebäude, dass den Tempel ersetzt. Dieses Gebäude benötigt keinen Unterhalt, steigert die Produktion von [ICON_PEACE] Glauben basierend auf der Anzahl von [ICON_CITIZEN] Bürgern in der Stadt und verdoppelt den religiösen Druck der von Handelswegen ausgeht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
-			<Text>+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Handelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
+			<Text>+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Handelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
 			<Text>Großer Kothon</Text>
@@ -130,11 +130,11 @@
 			<Text>Einzigartiges byzantinisches Gebäude, dass die East India Company ersetzt. Benötigt einen Markt in der Stadt. Zusätzlich zu den normalen Boni die die East India Company gewährt, gewährt der Große Kothon in der Stadt in der er gebaut wird zusätzliches Gold für den Adressaten und dem Ziel des Handelsweges, zwei zusätzliche Handeswege. Alle Häfen in Eurem Reich erhalten außerdem +3 Produktion und alle Leuchttürme produzieren +2 Kultur. Anders als die East India Company, wird der Große Kothon in der Klassik, mit der Endeckung der Währung verfügbar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
-			<Text>Benötigt einen Markt in der Stadt.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold für ausgehende [ICON_INTERNATIONAL_TRADE] Handelswege, +3 [ICON_GOLD] Gold für eingehende [ICON_INTERNATIONAL_TRADE] Handelswege. Gewährt zwei zusätzliche [ICON_INTERNATIONAL_TRADE] Handelswege, alle Häfen erhalten +3 [ICON_PRODUCTION] Produktionund alle Leuchttürme produzieren +2 [ICON_CULTURE] Kultur. Erhaltet eine freie Kopie aller Luxusgüter, die um der Stadt liegen. Reduziert [ICON_HAPPINESS_3] Armut. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.</Text>
+			<Text>Benötigt einen Markt in der Stadt.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold für ausgehende [ICON_INTERNATIONAL_TRADE] Handelswege, +3 [ICON_GOLD] Gold für eingehende [ICON_INTERNATIONAL_TRADE] Handelswege. Ressourcenvielfalt Modifikatoren von dieser Stadt erhöhen sich um 25%, wenn positiv und verringern sich um 25%, wenn negativ. Gewährt zwei zusätzliche [ICON_INTERNATIONAL_TRADE] Handelswege, alle Häfen erhalten +3 [ICON_PRODUCTION] Produktion und alle Leuchttürme produzieren +2 [ICON_CULTURE] Kultur. Erhaltet eine freie Kopie aller Luxusgüter, die um der Stadt liegen. Reduziert [ICON_HAPPINESS_3] Armut. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
-			<Text>Erhaltet [ICON_PEACE] Glauben jedes Mal wenn eine eigene Einheit im Kampf getötet wird. Bonus steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung (steigt mit Kartengröße) und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>Erhaltet [ICON_PEACE] Glauben jedes Mal wenn eine eigene Einheit im Kampf getötet wird. Bonus steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung (steigt mit Kartengröße) und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM">
 			<Text>Mausoleum</Text>
@@ -147,7 +147,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE">
 			<Text>Himmlischer Thron</Text>
@@ -160,7 +160,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR">
 			<Text>Großer Altar</Text>
@@ -173,7 +173,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_HELP">
-			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
+			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY">
 			<Text>Reliquienschrein</Text>
@@ -192,7 +192,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>+5 [ICON_GOLD] Gold von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+5 [ICON_GOLD] Gold von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT">
 			<Text>Gottesgericht</Text>
@@ -205,7 +205,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
-			<Text>+5 [ICON_FOOD] Nahrung from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+5 [ICON_FOOD] Nahrung from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN">
 			<Text>Heiliger Garten</Text>
@@ -218,7 +218,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
-			<Text>+5 [ICON_RESEARCH] Wissenschaft from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+5 [ICON_RESEARCH] Wissenschaft from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL">
 			<Text>Heiliger Rat</Text>
@@ -231,7 +231,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>+4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE">
 			<Text>Apostolischer Palast</Text>
@@ -244,7 +244,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>+5 [ICON_CULTURE] Kultur von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+5 [ICON_CULTURE] Kultur von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY">
 			<Text>Großes Ossuarium</Text>
@@ -275,7 +275,7 @@
 			<Text>Agrarindustrie</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT">
-			<Text>Kohlekraftwerk</Text>
+			<Text>Kohle-Raffinerie</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD">
 			<Text>Minenfeld</Text>
@@ -284,13 +284,13 @@
 			<Text>The Council generates Wissenschaft every time city grows, and is availble very early. Build this building if you wish to have a technological advantage over your rivals, though the value of this advantage diminishes as the city becomes larger.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_STRATEGY">
-			<Text>The Bath generates Kultur, and boosts the Gold and Kultur yield of Temples, Gardens, and Amphitheaters in der Stadt. Also generates additional Kultur during Golden Ages. Baths can be constructed only in cities next to a river.</Text>
+			<Text>The Bath generates Kultur, and boosts the Gold and Kultur yield of Temples, Gardens, and Amphitheaters in der Stadt. Also generates additional Kultur during Golden Ages. Baths can be constructed only in cities next to fresh water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
-			<Text>Der Druide steigert das städtische Wachstum und verbessert die Erträge von umliegenden Dschungel- und Wald-Geländefeldern, wie auch Plantagen. Für die Errichtung muss umliegender Wald oder Dschungel vorhanden sein. Baut ihn früh um den Bonus zu maximieren und um einen Vorteil aus Regionen zu ziehen, die eine große Anzahl an Geländearten beherbergen.</Text>
+			<Text>Der Druide steigert das städtische Wachstum und verbessert die Erträge von umliegenden Dschungel- und Wald-Geländefeldern, wie auch Plantagen. Baut ihn früh um den Bonus zu maximieren und um einen Vorteil aus Regionen zu ziehen, die eine große Anzahl an Geländearten beherbergen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_STRATEGY">
-			<Text>The Well can only be constructed in a city not on a river. The Well increases the city's Nahrung and Produktion based on the city's population, but has a lower efficiency (per citizen) than a Water Mill.</Text>
+			<Text>The Well can only be constructed in a city not on a river. The Well increases the city's Produktion based on the city's population, but less efficiently than the Water Mill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_STRATEGY">
 			<Text>Der Windpark ist ein Gebäude der Moderne, das nur in einer Stadt errichtet werden kann die nicht an einem Fluß liegt. Der Windpark steigert den Produktions-, Wissenschafts- und Goldertrag für jedes Grasland- und Ebene-Geländefeld das von dieser Stadt bewirtschaftet wird.</Text>
@@ -302,7 +302,7 @@
 			<Text>The Agribusiness is an Industrial-era building which can only be constructed if you have already built a Gemischtwarenhändler in der Stadt. An Agribusiness helps your City grow more quickly, however the use of Pferde is a risky tradeoff during an era in which Cavalry is still quite powerful.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT_STRATEGY">
-			<Text>The Coal Plant is a Modern-era building which can only be constructed if you have enough Coal and you have already built a Factory in der Stadt. The Coal Plant helps your Produktion, however it negatively impacts Poverty.</Text>
+			<Text>The Coal Refinery is a Modern-era building which can only be constructed in 5 Cities total. The Coal Refinery helps your Production and produces 3 Coal Resources, however it negatively impacts Poverty and has a high maintenance cost.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_STRATEGY">
 			<Text>The Minefield is a Modern-era building which can only be constructed if you have enough Eisen and you have already built a Harbor in der Stadt. The Minefield increases coastal city defense by +8, hit points by 50, and reduces the movement of enemy naval units and embarked units by 1.</Text>
@@ -311,13 +311,13 @@
 			<Text>Erhaltet 5 [ICON_RESEARCH] Wissenschaft wenn ein neuer [ICON_CITIZEN] Bürger in der Stadt geboren wird, steigt mit jedem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL_HELP">
-			<Text>+1 [ICON_FOOD] Nahrung and +1 [ICON_PRODUCTION] Produktion for every 5 [ICON_CITIZEN] Citizens in der Stadt. [NEWLINE][NEWLINE]City must not be built next to a River. Cannot be built if the City already has a Watermill.</Text>
+			<Text>+1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. [NEWLINE][NEWLINE]City must not be built next to a River. Cannot be built if the City already has a Watermill.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
-			<Text>+1 [ICON_FOOD] Nahrung von nahe gelegenen Wald- und Dschungel-Geländefeldern +1 [ICON_PRODUCTION] Produktion von Plantagen.[NEWLINE][NEWLINE]Stadt muss über ein bewirtschaftetes Wald- oder Dschungel-Geländefeld innerhalb seiner Grenzen verfügen.</Text>
+			<Text>+1 [ICON_FOOD] Nahrung für je 2 Wald- oder Dschungel-Geländefelder, die von der Stadt bewirtschaftet werden. +1 [ICON_PRODUCTION] Produktion von Plantagen und Jagdlagern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BATH_HELP">
-			<Text>Temples, Amphitheaters, and Gardens in City: +1 [ICON_GOLD] Gold and [ICON_CULTURE] Kultur. +10% [ICON_CULTURE] Kultur in der Stadt during [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE]City must be built next to a River.</Text>
+			<Text>Temples, Amphitheaters, and Gardens in City: +1 [ICON_GOLD] Gold and [ICON_CULTURE] Kultur. +10% [ICON_CULTURE] Kultur in der Stadt during [ICON_GOLDEN_AGE] Golden Ages.[NEWLINE][NEWLINE]City must be built next to fresh water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_HELP">
 			<Text>15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird (Effekt addiert sich mit Aquädukt). Reduziert [ICON_HAPPINESS_3] Armut.[NEWLINE] Umliegende [ICON_RES_BANANA] Bananen: +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Benötigt ein Aquädukt in der Stadt.</Text>
@@ -326,13 +326,13 @@
 			<Text>+2 [ICON_PRODUCTION] Produktion auf jedem Grasland- und Ebene-Geländefeld. Benötigt für den Bau [ICON_RES_ALUMINUM] Aluminium. [NEWLINE][NEWLINE]Stadt darf nicht neben einem Fluss gebaut werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_HELP">
-			<Text>+15% [ICON_FOOD] Nahrung in dieser Stadt.[NEWLINE][NEWLINE]Benötigt 2 [ICON_RES_HORSE] Pferde.</Text>
+			<Text>+3 [ICON_FOOD] Food from Farms and Pastures worked by the City.[NEWLINE][NEWLINE]Benötigt 2 [ICON_RES_HORSE] Pferde.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT_HELP">
-			<Text>+34% [ICON_PRODUCTION] Produktion. Requires 2 [ICON_RES_COAL] Coal. Increases [ICON_HAPPINESS_3] Poverty, and cannot be built if you have a Nuclear or Solar plant in der Stadt. Requires a Factory in der Stadt.</Text>
+			<Text>+15% [ICON_PRODUCTION] Production. Produces 3 [ICON_RES_COAL] Coal. Greatly increases [ICON_HAPPINESS_3] Poverty. Can be built in up to 5 Cities maximum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
-			<Text>Requires 1 [ICON_RES_IRON] Eisen. Enemy Naval Units and Embarked Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+			<Text>Requires 1 [ICON_RES_IRON] Eisen. Enemy Naval Units and Embarked Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City. Increases City Defense by 15 and City Hit Points by 300.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
 			<Text>A Council is a governing body in an organised community. It is most common in subsistence cultures, with council membership being the condition or quality of being a political leader of a community. Over time, as communities grew, the importance of councils diminished in favor of larger governing institutions.</Text>
@@ -356,7 +356,7 @@
 			<Text>Agribusiness is the business of agricultural production. The term was coined in 1957 by Goldberg and Davis. It includes agrichemicals, breeding, crop production (farming and contract farming), distribution, farm machinery, processing, and seed supply, as well as marketing and retail sales. All agents of the food and fiber value chain and those institutions that influence it are part of the agribusiness system. Within the agriculture industry, "agribusiness" is used simply as a portmanteau of agriculture and business, referring to the range of activities and disciplines encompassed by modern food production. There are academic degrees in and departments of agribusiness, agribusiness trade associations, agribusiness publications, and so forth, worldwide. Examples of agribusinesses include seed and agrichemical producers like Dow AgroSciences, DuPont, Monsanto, and Syngenta; AB Agri (part of Associated British Nahrungs) animal feeds, biofuels, and micro-ingredients, ADM, grain transport and processing; John Deere, farm machinery producer; Ocean Spray, farmer's cooperative; and Purina Farms, agritourism farm.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COAL_PLANT_TEXT">
-			<Text>A fossil fuel power station burns fossil fuels such as coal, natural gas or petroleum (oil) to produce electricity. Central station fossil-fuel power plants are designed on a large scale for continuous operation. In many countries, such plants provide most of the electrical energy used. Fossil-fuel power stations have machinery to convert the heat energy of combustion into mechanical energy, which then operates an electrical generator. The prime mover may be a steam turbine, a gas turbine or, in small plants, a reciprocating internal combustion engine. All plants use the energy extracted from expanding gas, either steam or combustion gases. Very few MHD generators have been built which directly convert the energy of moving hot gas into electricity.</Text>
+			<Text>Refined coal is the product of the application of a coal upgrading technology that removes moisture and certain pollutants from lower-rank coals such as sub-bituminous and lignite (brown) coals and raising their calorific values. Coal refining or upgrading technologies are typically pre-combustion treatments and/or processes that alter the characteristics of a coal before it is burned. The goals of pre-combustion coal upgrading technologies are to increase efficiency and reduce emissions when coal is burned. Depending on the situation, pre-combustion technology can be used in place of or as a supplement to post-combustion technologies to control emissions from coal-fueled boilers. A primary benefit of refined coal is the capacity to reduce the net volume of carbon emissions that is currently emitted from power generators and would reduce the amount of emissions that is proposed to be managed via emerging carbon sequestration methodologies. Refined coal technologies have primarily been developed in the United States, several similar technologies have been researched, developed and tested in Victoria, Australia, including the Densified coal technology (Coldry Process) developed to alter the chemical bonds of brown coal to create a product that is cleaner, stable (not prone to spontaneous combustion), exportable and of sufficiently high calorific value to be a black coal equivalent.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MINEFIELD_TEXT">
 			<Text>A naval mine is a self-contained explosive device placed in water to damage or destroy surface ships or submarines. Unlike depth charges, mines are deposited and left to wait until they are triggered by the approach of, or contact with, an enemy vessel. Naval mines can be used offensively—to hamper enemy shipping movements or lock vessels into a harbour; or defensively—to protect friendly vessels and create "safe" zones.</Text>
@@ -366,7 +366,7 @@
 			<Text>Slater Mühle</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SLATER_MILL_HELP">
-			<Text>City must be built next to a River. Grants a free Factory in der Stadt, and a large boost to [ICON_PRODUCTION] Produktion. Also grants two free [ICON_RES_COAL] Coal.</Text>
+			<Text>City must be built next to a River. Grants a free Factory in der Stadt, and a large boost to [ICON_PRODUCTION] Produktion. Also grants four free [ICON_RES_COAL] Coal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SLATER_MILL_TEXT">
 			<Text>A National Historic Landmark, the Slater Mill is located next to the Blackstone River in Pawtucket, Rhode Island. Modeled after cotton spinning mills first established in England, the Slater Mill is the first water-powered cotton spinning mill in North America to utilize the Arkwright system of cotton spinning as developed by Richard Arkwright. Samuel Slater, the mill's founder, apprenticed as a young man in Belper, England with industrialist Jedediah Strutt. Shortly after immigrating to the United States, Slater was hired by Moses Brown of Providence, Rhode Island to produce a working set of machines necessary to spin cotton yarn using water-power. Construction of the machines, as well as a dam, waterway, waterwheel and mill was completed in 1793. Manufacturing was based on Richard Arkwright's cotton spinning system which included carding, drawing, and spinning machines. Slater initially hired children and families to work in his mill, establishing a pattern that was replicated throughout the Blackstone Valley and known as the "Rhode Island System". It was later eclipsed by Francis Cabot Lowell's Waltham System. Slater Mill was the first property to be listed on the National Register of Historic Places, and was designated a National Historic Landmark on November 13, 1966.</Text>
@@ -378,7 +378,7 @@
 			<Text>Mutter-Heimat-Statue</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP">
-			<Text>Requires Order. 1 Free Social Policy. Greatly reduces [ICON_HAPPINESS_3] Kriminalität in all cities. Receive a free Police Station in der Stadt. Negates the [ICON_TOURISM] Tourismus bonus from other players technologies.</Text>
+			<Text>Requires Order. 1 Free Social Policy. Greatly reduces [ICON_HAPPINESS_3] Kriminalität in all cities. Receive a free Police Station in der Stadt. Foreign spies cannot incite rebellion or unrest in this City, and your spies are much more likely to disrupt Building [ICON_PRODUCTION] Production, cause [ICON_HAPPINESS_3] Unrest, or incite [ICON_RESISTANCE] Rebellion via Advanced Actions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
 			<Text>The Motherland Calls, also called Mother Motherland, Mother Motherland Is Calling, simply The Motherland, or The Mamayev Monument, is a statue in Mamayev Kurgan in Volgograd, Russia, commemorating the Battle of Stalingrad. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the largest statue in the world in 1967. Compared with the later higher statues, The Motherland Calls is significantly more complex from an engineering point of view, due to its characteristic posture with a sword raised high in the right hand and the left hand extended in a calling gesture. The technology behind the statue is based on a combination of prestressed concrete with wire ropes structure, a solution which can be found also in another work of Nikitin's, the super-tall Ostankino Tower in Moscow. It is the tallest statue of a woman in the world.</Text>
@@ -390,7 +390,7 @@
 			<Text>Bletchley Park</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>Receive a free Research Lab in der Stadt. Provides two additional spies and levels up all your existing spies. Also provides a 15% reduction in enemy spy effectiveness in all Cities.</Text>
+			<Text>Requires completion of Rationalism Branch. Receive a free Research Lab in the city. Provides two additional spies, levels up all your existing spies, and reduces enemy spy effectiveness in all Cities by 15%. Your Spies will be immune to the Failure Advanced Action, and will be much more likely to steal [ICON_RESEARCH] Science and disrupt World Wonder [ICON_PRODUCTION] Production via Advanced Actions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>Bletchley Park, in Milton Keynes, Buckinghamshire, was the central site of the United Kingdom's Government Code and Cypher School, which during the Second World War regularly penetrated the secret communications of the Axis Power, most importantly the German Enigma and Lorenz ciphers. The official historian of World War II British Intelligence has written that the "Ultra" intelligence produced at Bletchley shortened the war by two to four years, and that without it the outcome of the war would have been uncertain. The site is now an educational and historical attraction memorialising and celebrating those accomplishments.</Text>
@@ -402,7 +402,7 @@
 			<Text>Empire State Building</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EMPIRE_STATE_BUILDING_HELP">
-			<Text>Erfordert die Vollendung des Rationalismuszweigs. Erhaltet eine freie Börse in der Stadt und eine freie Große Persönlichkeit Eurer Wahl. Spezialisten in allen Städten produzieren +1 [ICON_GOLD] Gold.</Text>
+			<Text>Erhaltet eine freie Börse in der Stadt und eine freie Große Persönlichkeit Eurer Wahl. Spezialisten in allen Städten produzieren +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EMPIRE_STATE_BUILDING_TEXT">
 			<Text>Das Empire State Building ist ein Wolkenkratzer im New Yorker Stadtteil Manhattan. Mit einer strukturellen Höhe von 381 Metern – bis zur Antennenspitze rund 443 Meter – war das von 1930 bis 1931 in ungewöhnlich kurzer Bauzeit errichtete Gebäude nicht nur das höchste Gebäude New Yorks, sondern bis 1972 auch das höchste Gebäude der Welt. Seit der Zerstörung des World Trade Center bei den Anschlägen des 11. September 2001 war es bis zum Richtfest des Nachfolgebaus "One World Trade Center" 2013 wieder das höchste Bauwerk der Stadt. Der Name des Wolkenkratzers ist von The Empire State abgeleitet, einem Spitznamen des US-Bundesstaates New York. Das Empire State Building ist derzeit der vierthöchste fertiggestellte Wolkenkratzer in den Vereinigten Staaten (nach dem One World Trade Center, dem Willis Tower und Trump International Hotel and Tower, beide in Chicago) und das 25.-höchste der Welt. Es ist auch das fünfthöchste freistehende Bauwerk in Nord- und Südamerika.</Text>
@@ -414,7 +414,7 @@
 			<Text>CERN</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CERN_HELP">
-			<Text>Erhaltet zwei freie Technologien bei seiner Vollendung und +35 [ICON_INFLUENCE] Einfluss mit allen Stadtstaaten in der Welt.</Text>
+			<Text>Erhaltet zwei freie Technologien bei seiner Vollendung und +100 [ICON_INFLUENCE] Einfluss mit allen Stadtstaaten in der Welt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CERN_TEXT">
 			<Text>Das CERN, die Europäische Organisation für Kernforschung, ist eine Großforschungseinrichtung bei Meyrin im Kanton Genf in der Schweiz. Am CERN wird physikalische Grundlagenforschung betrieben, insbesondere wird mit Hilfe großer Teilchenbeschleuniger der Aufbau der Materie erforscht. Das Akronym CERN leitet sich vom französischen Namen des Rates ab, der mit der Gründung der Organisation beauftragt war, dem Conseil Européen pour la Recherche Nucléaire. Die offiziellen Namen des CERN sind "European Organization for Nuclear Research" im Englischen beziehungsweise "Organisation Européenne pour la Recherche Nucléaire" im Französischen. Gegründet im Jahr 1954, hat die Organisation mit Sitz in den nordwestlichen Vororten von Genf, an der französisch-schweizerischen Grenze, 21 europäische Mitgliedstaaten. Israel ist das erste (und aktuell einzige) nicht-EU Land dem eine Mitgliedschaft gewährt wurde. Der Begriff CERN meint auch die Forschungseinrichtung, mit seinen etwa 2.513 Mitarbeiter (Stand 2013) und damit das weltgrößte Forschungszentrum auf dem Gebiet der Teilchenphysik. Über 10.000 Gastwissenschaftler aus 85 Nationen arbeiten an CERN-Experimenten. Das Jahresbudget des CERN belief sich 2014 auf ungefähr 1,11 Milliarden Schweizer Franken (ca. 1 Milliarde Euro). Am CERN werden der Aufbau der Materie und die fundamentalen Wechselwirkungen zwischen den Elementarteilchen erforscht, also die grundlegende Frage, woraus das Universum besteht und wie es funktioniert. Mit großen Teilchenbeschleunigern werden Teilchen auf nahezu Lichtgeschwindigkeit beschleunigt und zur Kollision gebracht. Mit einer Vielzahl unterschiedlicher Teilchendetektoren werden sodann die Flugbahnen der bei den Kollisionen entstandenen Teilchen rekonstruiert, woraus sich wiederum Rückschlüsse auf die Eigenschaften der kollidierten sowie der neu entstandenen Teilchen ziehen lassen. Dies ist mit einem enormen technischen Aufwand für die Herstellung und den Betrieb der Anlagen sowie mit extremen Anforderungen an die Rechnerleistung zwecks Datenauswertung verbunden. Auch aus diesem Grund wird CERN international betrieben und finanziert.</Text>
@@ -427,13 +427,13 @@
 			<Text>Stupa</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
-			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Stupa" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut die Stupa um Glauben, Goldenes Zeitalter Punkte und sobald Architektur entdeckt wurde, Tourismus in dieser Stadt zu erhalten.</Text>
+			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Stupa" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut die Stupa um Glauben, Goldenes Zeitalter Punkte und Tourismus in dieser Stadt zu erhalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
 			<Text>Der Stupa (Sanskrit: m., stūpa) ist ein buddhistisches Bauwerk, das Buddha selbst und seine Lehre, den Dharma, symbolisiert. Ein den frühen Stupas ähnlicher kreisförmig aufgeschütteter Grabhügel (tumulus) diente ursprünglich der Bestattung von Herrschern in Indien und ist seit prähistorisch-megalithischer Zeit bekannt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>+2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, +4 [ICON_TOURISM] Tourismus, sobald Architektur entdeckt wurde. Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+3 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +5 [ICON_TOURISM] Tourismus. Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHURCH">
@@ -447,7 +447,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50% und erhöht die Resistenz der Stadt für Bekehrung um 20%. Alle Missionare die in dieser Stadt geboren werden, können Religion dreimal verbreiten.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 40% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Erhöht die religiöse Stärke aller Missionare um 5% (insgesamt bis zu 50%).</Text>
 		</Row>
 
 
@@ -462,7 +462,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Armut. +10% [ICON_FOOD] Nahrung in der Stadt. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. Feindliche [ICON_SPY] Spione in dieser Stadt können keine Attentate auf [ICON_GREAT_PEOPLE] Große Persönlichkeiten verüben oder die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Armut. +10% [ICON_FOOD] Nahrung in der Stadt. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Feindliche [ICON_SPY] Spione in dieser Stadt können keine Attentate auf [ICON_GREAT_PEOPLE] Große Persönlichkeiten verüben oder die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen.</Text>
 		</Row>
 
 
@@ -477,7 +477,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. Während eines 'Feiertags' produziert die Stadt +15% mehr [ICON_RESEARCH] Wissenschaft.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Während eines 'Feiertags' produziert die Stadt +15% mehr [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 
 
@@ -488,7 +488,7 @@
 			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Orden" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut den Orden um Glauben zu erhalten, zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke, +10 EP für Militäreinheiten und die "Moral" Beförderung für Landeinheiten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>+15 EP und die [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] Beförderung für Landeinheiten die in dieser Stadt produziert werden. Gewährt zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke. Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%.</Text>
+			<Text>+15 EP und die [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] Beförderung für Landeinheiten die in dieser Stadt produziert werden. Gewährt zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke. Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
 			<Text>Ein Militärorden ist einer von einer Vielzahl stammender Gesellschaften von Rittern, die ab dem Mittelalter mit dem Zweck gegründet wurden für den Glauben zu kämpfen, ihn zu verbreiten oder zu verteidigen. Ursprünglich katholisch, waren sie nach der Reformation auch evangelisch. Sie waren aktiv im Heiligen Land oder gegen den Islam (wie bspw. während der Reconquista) oder gegen die Heiden (hauptsächlich im Ostseeraum) in Europa. Viele Orden haben sich, seit dem Ende der Kreuzzüge und der osmanischen Einfälle, säkularisiert und werden heutzutage in der Regel durch römisch-katholische Feierlichkeiten, missionarische und gemeinnützige Organisationen dargestellt.</Text>
@@ -496,13 +496,13 @@
 
 		<!-- Cathedral/Mosque/Pagoda-->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. Bauernhöfe nahe der Stadt generieren +1 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Bauernhöfe, Weiden und Steinbrüche nahe der Stadt generieren +1 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. +20% [ICON_CULTURE] Kulturproduktion in der Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. +20% [ICON_CULTURE] Kulturproduktion in der Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile. +2 auf alle Stadterträge, für jede Weltreligion die mindestens einen Anhänger in dieser Stadt hat.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile und [ICON_HAPPINESS_3] Religiöse Unruhen. +2 auf alle Stadterträge, für jede Weltreligion die mindestens einen Anhänger in dieser Stadt hat.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_THRONE_ROOM">
@@ -518,7 +518,7 @@
 			<Text>Nationale Schatzkammer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_HELP">
-			<Text>+15% [ICON_GREAT_PEOPLE] Große Persönlichkeit Rate in allen Städten. Bietet Platz für einen Händler-Spezialisten in der [ICON_CAPITAL] Hauptstadt. Kann nur mit der Politik "Majestät" errichtet werden.</Text>
+			<Text>+25% [ICON_GREAT_PEOPLE] Große Persönlichkeit Rate in der Stadt. Bietet Platz für einen Händler-Spezialisten in der [ICON_CAPITAL] Hauptstadt. Kann nur mit der Politik "Majestät" errichtet werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
 			<Text>Der Begriff Schatzkammer wurde zum ersten Mal in der klassischen Zeit benutzt und beschreibt Gebetshäuser, errichtet um die Geschenke an die Götter zu beherbergen. Hierzu zählen etwa das Schatzhaus der Athener in Delphi oder ähnliche errichtete Gebäude in Olympia (Griechenland), die im Wettstreit errichtet wurden um andere Stadtstaaten während der Olympischen Spiele zu beeindrucken. Im antiken Griechenland waren Schatzkammern fast immer mit religiösen Gebäuden, wie Tempeln verbunden. Dies machte staatliche Gelder deshalb unantastbar, da moralische Beschränkungen sträflich für die ausfallen würden, die zu den Schätzen Zugang hatten.</Text>
@@ -579,10 +579,10 @@
 			<Text>Dojo ist ein japanischer Begriff der "Ort des Weges" bedeutet. Er bezeichnet einen Trainingsraum für verschiedene japanische Kampfkünste (Budō) wie z. B. Karate, Jūdō, Kendō, Jujutsu oder Aikidō. Im übertragenen Sinne steht der Begriff auch für die Gemeinschaft der dort Übenden. Anfangs waren Dōjōs mit Tempeln verbunden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
-			<Text>Einzigartiges japanisches Gebäude, dass die Waffenkammer ersetzt. Reduziert [ICON_HAPPINESS_3] Kriminalität und benötigt keine Kasernen in der Stadt.[NEWLINE][NEWLINE]Gewährt +25 Erfahrung für alle Einheiten die in dieser Stadt ausgebildet werden. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden erhalten die [COLOR_POSITIVE_TEXT]Acht Tugenden des Bushidō[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn eine Einheit die von dieser Stadt befördert wird, erhaltet Ihr [ICON_CULTURE] Kultur, [ICON_RESEARCH] Wissenschaft und [ICON_PEACE] Glauben, basierend auf ihrem aktuellen Rang.</Text>
+			<Text>Einzigartiges japanisches Gebäude, dass die Waffenkammer ersetzt. Reduziert [ICON_HAPPINESS_3] Kriminalität und benötigt keine Kasernen in der Stadt. Erhöht die Versorgungsobergrenze für Militäreinheiten um 2.[NEWLINE][NEWLINE]Gewährt +25 Erfahrung für alle Einheiten die in dieser Stadt ausgebildet werden. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden erhalten die [COLOR_POSITIVE_TEXT]Acht Tugenden des Bushidō[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn Einheiten befördert werden, erhaltet Ihr [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft, basierend auf ihrem aktuellen Rang.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
-			<Text>Baut diese einzigartigen Waffenkammern um dominante Militäreinheiten auszubilden und um zusätzliche Kultur, Wissenschaft und Glauben durch die Beförderung Eurer Einheiten zu erhalten. Einheiten mit höherem Rang generieren deutlich größere Erträge, daher lohnt sich das Trainieren Eurer Einheiten und der Versuch diese am Leben zu halten. Benötigt keine Kaserne. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden, erhalten die Acht Tugenden des Bushidō Beförderung. Diese Beförderung wird durch eine zufällig von acht möglichen neuen Beförderungen ersetzt, wenn die Einheit den ersten Kampf abgeschlossen hat und erhöht den Einheitenschaden wenn sie Schaden erleidet.</Text>
+			<Text>Baut diese einzigartigen Waffenkammern um dominante Militäreinheiten auszubilden. Benötigt keine Kaserne. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden, erhalten die Acht Tugenden des Bushidō Beförderung. Diese Beförderung wird durch eine zufällig von acht möglichen neuen Beförderungen ersetzt, wenn die Einheit den ersten Kampf abgeschlossen hat und erhöht den Einheitenschaden wenn sie Schaden erleidet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON">
 			<Text>Akropolis</Text>
@@ -591,10 +591,10 @@
 			<Text>Die Akropolis ist im ursprünglichen Sinn der zu einer Stadt gehörige Burgberg beziehungsweise die Wehranlage, die zumeist auf der höchsten Erhebung nahe der Stadt erbaut wurde. Zu einer antiken griechischen Stadt gehörte grundsätzlich immer eine Akropolis – auch wenn einige aufgrund flachen Geländes diese Bezeichnung nicht recht zu verdienen scheinen. Aus Verteidigungsgründen wählten die frühen Siedler einer Stadt Erhöhungen und Hügel aus, wenn möglich mit steilen Hängen. Die Akropolis entsprach einer Zitadelle, jedoch entwickelte sie sich im Laufe der Geschichte von einer Wehranlage auf dem Burgberg auch zum Kultplatz mit den wichtigsten Heiligtümern. Die frühen Siedlungen entwickelten sich vielerorts zu den Zentren großer Städte, die sich über die angrenzenden Täler ausbreiteten. Das Wort stammt aus dem Altgriechischen: akrópolis ist zusammengesetzt aus ákros „höchster“, „oberster“ und pólis „Stadt“ und bedeutet „Hochstadt“ oder „Oberstadt“.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
-			<Text>+2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
+			<Text>+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
-			<Text>Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus. Vor allem die beiden letztgenannten, während eines Krieges. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +2 [ICON_TOURISM] Tourismus sobald Ihr Philosophie erforscht habt.</Text>
+			<Text>Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus. Vor allem die beiden letztgenannten, während eines Krieges. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +3 [ICON_TOURISM] Tourismus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM">
 			<Text>Kolosseum</Text>
@@ -615,7 +615,7 @@
 			<Text>Als Dampfmaschine im weiteren Sinne kann umgangssprachlich auch jede andere Maschine verstanden werden, die durch Dampf direkt oder indirekt angetrieben wird. Die Anwendungen der ersten funktionsfähigen Dampfmaschine von Thomas Newcomen fanden sich ab Anfang des 18. Jahrhunderts im Steinkohlebergbau zur Wasserhaltung, wo sie zunächst ältere mechanische Kraftquellen wie z. B. Wasserräder ergänzten und später auch ersetzten. Nach allmählichen Verbesserungen des Wirkungsgrades lohnte es sich gegen Ende des 18. Jahrhunderts, sie ebenfalls in der wachsenden Textilindustrie zum Antrieb von Textilmaschinen einzusetzen und sie verbreiteten sich schließlich auch in weiteren Industriebranchen, wo sie ebenfalls Wasser- und Windmühlen ergänzten. Eine entscheidende Erhöhung gelang James Watt, der 1769 ein Patent erhielt. Im Laufe des 19. Jahrhunderts errangen sie eine wichtige Rolle im Verkehrswesen, insbesondere zum Antrieb von Dampfschiffen und Dampflokomotiven.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_HELP">
-			<Text>+1 [ICON_PRODUCTION] Produktion für je 2 [ICON_CITIZEN] Bürger in der Stadt. Alle Ingenieur-Spezialisten in der Stadt produzieren +2 [ICON_GOLD] Gold und alle Händler-Spezialisten in der Stadt produzieren +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE] Handelswege anderer Spieler zu einer Stadt mit einer Dampfmühle bringen dem Stadtbesitzer zusätzlich 3 [ICON_GOLD] Gold ein und der Besitzer des Handelswegs erhält zusätzlich 3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_COAL] Kohle: +3 [ICON_PRODUCTION] Produktion.</Text>
+			<Text>+1 [ICON_PRODUCTION] Produktion für je 2 [ICON_CITIZEN] Bürger in der Stadt. Fabrikanlagen produzieren +4 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE] Handelswege anderer Spieler zu einer Stadt mit einer Dampfmühle bringen dem Stadtbesitzer zusätzlich 3 [ICON_GOLD] Gold ein und der Besitzer des Handelswegs erhält zusätzlich 3 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_COAL] Kohle: +3 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEAM_MILL_STRATEGY">
 			<Text>Einzigartiges englisches Gebäude, dass die Fabrik ersetzt. Die Dampfmühle ist günstiger, benötigt keine  [ICON_RES_COAL] Kohle und ist früher verfügbar als die Fabrik. Weiterhin bietet sie zusätzliche Produktion für [ICON_RES_COAL] Kohle die von dieser Stadt bewirtschaftet wird und steigert außerdem den Goldertrag von Handelswegen. Was andere Zivilisationen ermutigt mit Euch zu handeln. Da sie keine Kohle benötigen, kann der Kohle Überschuss für den Bau von Seehäfen und Kohlekraftwerke genutzt werden oder Ihr verkauft diesen für eine hohe Summe Gold.</Text>
@@ -627,7 +627,7 @@
 			<Text>Eine Gießerei ist eine Fabrik, die Metallgussteile produziert. Beim Gießen entsteht aus flüssigem Werkstoff nach dem Erstarren ein fester Körper bestimmter Form. Die am häufigsten verarbeiteten Metalle sind Aluminium und Gusseisen. Jedoch können auch andere Metalle wie Bronze, Messing, Stahl, Magnesium und Zink ebenfalls für die Herstellung von Metallgussteilen verwedet werden. Gießverfahren sind besonders vorteilhaft einsetzbar für die Massenproduktion von Bauteilen aller Art, sowohl einfacher als auch komplizierter Gestalt. Im Rahmen des Krieges waren Gießereien wichtig für die Produktion von Geschützen und anderen wichtigen Ausrüstungen für Belagerungswaffen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_HELP">
-			<Text>+1 [ICON_PRODUCTION] Produktion von Minen die von dieser Stadt bewirtschaftet werden. +50% [ICON_PRODUCTION] Produktion auf Belagerungswaffen und alle Belagerungswaffen die in dieser Stadt gebaut werden erhalten die kostenlose [COLOR_POSITIVE_TEXT]Salve[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn ihr eine Einheit in dieser Stadt ausbildet, erhaltet 20 [ICON_RESEARCH] Wissenschaft gleich 20% der [ICON_PRODUCTION] Produktionskosten der Einheit.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_IRON] Eisen: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COPPER] Kupfer: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.</Text>
+			<Text>+2 [ICON_PRODUCTION] Produktion von Minen die von dieser Stadt bewirtschaftet werden. +50% [ICON_PRODUCTION] Produktion auf Belagerungswaffen und alle Belagerungswaffen die in dieser Stadt gebaut werden erhalten die kostenlose [COLOR_POSITIVE_TEXT]Salve[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn ihr eine Einheit in dieser Stadt ausbildet, erhaltet 20 [ICON_RESEARCH] Wissenschaft gleich 20% der [ICON_PRODUCTION] Produktionskosten der Einheit.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_IRON] Eisen: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_COPPER] Kupfer: +1 [ICON_PRODUCTION] Produktion, +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SIEGE_WORKSHOP_STRATEGY">
 			<Text>Einzigartiges osmanisches Gebäude, dass die Schmiede ersetzt. Produziert zusätzliche Wissenschaft durch das Produzieren von militärischen Einheiten, produziert Belagerungswaffen viel schneller als üblich und gewährt kostenlos die [COLOR_POSITIVE_TEXT]Salve[ENDCOLOR] Beförderung. Nutzt diese Eigenschaften um eine schlagkräftige Artillerie aufzubauen und damit die Mauern der Feinde einzureißen und ihre Ländereien zu erobern!</Text>
@@ -645,7 +645,7 @@
 			<Text>Das Smithsonian wurde am 10. August 1846 durch ein Gesetz des US-Kongresses mit Mitteln aus der Hinterlassenschaft des 1829 verstorbenen englischen Wissenschaftlers James Smithson zugunsten der Vereinigten Staaten von Amerika mit dem Auftrag „der Vermehrung und Verbreitung von Wissen“ gegründet und ist in Washington, D.C. angesiedelt. Ursprünglich als "United States National Museum" organisiert, verschwand dieser Name als administrative Bezeichnung 1967. Mit 18 Museen und Galerien sowie dem Nationalzoo ist das Smithsonian der größte Museumskomplex der Welt. Die Smithsonian Institution verwaltet über 142 Millionen Objekte menschlichen oder natürlichen Ursprungs für das US-amerikanische Volk. Das Institut, das gleichzeitig ein bedeutendes Forschungszentrum ist, sieht seinen Auftrag in der Bildung der Allgemeinheit, dem Dienst an der Nation und der Vergabe von Stipendien in den Bereichen Kunst, Naturwissenschaften und Geschichte. Es unterstützt Expeditionen und Ausgrabungen, fördert Forschung insbesondere auf den Gebieten der Astronomie, Astrophysik, Ethnologie und Umweltforschung. Sie verfügt über ein eigenes Observatorium, das Smithsonian Astrophysical Observatory, den Smithsonian-Biopark und das „Archiv amerikanischer Kunst“. Die Smithsonian Institution betreibt die Nationalmuseen für amerikanische Geschichte, amerikanische Kunst und das Nationalmuseum für Luft- und Raumfahrt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOMA_HELP">
-			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. [NEWLINE][NEWLINE]+25% [ICON_CULTURE] Kultur in der Stadt und 50% der [ICON_CULTURE] Kultur von Großen Kunstwerken, Weltwundern, Naturwundern und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Steigert [ICON_CULTURE] Kultur- und [ICON_RESEARCH] Wissenschaftproduktion von Museen und Funktürmen in allen Städten um +5. Beinhaltet 3 Plätze für ein Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Benötigt ein Museum in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. [NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft und +5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.</Text>
+			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. [NEWLINE][NEWLINE]+25% [ICON_CULTURE] Kultur in der Stadt und 50% der [ICON_CULTURE] Kultur von Großen Kunstwerken, Weltwundern, Naturwundern und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Steigert [ICON_CULTURE] Kultur- und [ICON_RESEARCH] Wissenschaftproduktion von Museen und Funktürmen in allen Städten um +5. Beinhaltet 3 Plätze für ein Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. [NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft und +5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOMA_STRATEGY">
 			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. Zusätzlich zu den Boni der Eremitage steigert das Smithsonian Kultur und Tourismus in der Stadt deutlich. The Smithsonian steigert ebenfalls die Kultur- und Wissenschaftsproduktion aller Museen und Funktürme in Eurem Reich. Das Smithsonian ist jedoch etwas später als die Eremitage verfügbar. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.</Text>
@@ -658,22 +658,22 @@
 			<Text>Die Geschichte der spanischen Missionen im amerikanischen Süden und Südwesten offenbart viel über Spaniens Strategie, Beiträgen und Fehlern in dieser Region. Die Expedition von Francisco Vázquez de Coronado (1540-42) und Juan de Oñate (1598) überzeugte spanische Machthaber, dass keine wohlhabenden Indianerreiche wie das der Azteken nördlich von Mexiko gefunden werden sollten. Die katholische Religion und bestimmte Aspekte der spanischen Kultur sollten unter der Aufsicht von Missionaren vermittelt werden, wobei der Staat für ausreichenden Schutz sorgte. Überreste der teilweise noch intakten Anlagen findet man heute im Süden Kaliforniens, in Arizona, New Mexico, Texas und im Norden Mexikos. Die Spanier sahen in den Missionsstationen eine äußerst kostengünstige Möglichkeit, ihre Grenzen in Neuspanien auszudehnen und gegenüber anderen Kolonialmächten zu behaupten. Die Stationen wurden in der Zeit zwischen 1493 und ca. 1840 errichtet, ausgehend vom heutigen Mexiko aus. Um diese Missionen sowie die Bergwerke und Farmen Mexikos vor Angriffen aus dem Norden zu schützen, errichteten die Spanier Presidios, befestigte Garnisonen mit Truppen. Franziskaner Mönche gründeten eine Reihe von Missionen in Florida nach 1573, hauptsächlich entlang des Atlantiks und der Golfküste. Die ersten Missionen in New Mexiko wurden von Mönchen gegründet, die die Entdeckungsreise von Oñate von 1598 begleiten; während der nächsten 100 Jahre gründeten Franziskaner Mönche mehr als 40 weitere Missionen, die meisten von ihnen entlang des Rio Grande. Besonders einflussreich war Vater Alonso de Benavides, der die Gründung von 10 Missionen zwischen 1625 und 1629 leitete und sie danach in Spanien geschickt förderte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_HELP">
-			<Text>Erhaltet die 3x [ICON_PEACE] Glaubens- und [ICON_GOLD] Goldproduktion der Stadt, als [COLOR_POSITIVE_TEXT]sofortigen Schub[ENDCOLOR] jedes Mal, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. [NEWLINE][NEWLINE]Steigert [ICON_RELIGION] Religiösen Druck und Widerstand dieser Stadt um 15%. Benötigt keine Mauern um es zu bauen und kann mit [ICON_PEACE] Glauben gekauft werden.</Text>
+			<Text>Erhaltet die 3x [ICON_PEACE] Glaubens- und [ICON_GOLD] Goldproduktion der Stadt, als [COLOR_POSITIVE_TEXT]sofortigen Schub[ENDCOLOR] jedes Mal, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen.[NEWLINE][NEWLINE]Steigert [ICON_RELIGION] Religiösen Druck und Widerstand dieser Stadt um 15%. Benötigt keine Mauern um es zu bauen und kann mit [ICON_PEACE] Glauben gekauft werden. Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 % erhöht. Beinhaltet 1 Platz für ein Großes Kunstwerk oder Artefakt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
-			<Text>Einzigartiges spanisches Gebäude, dass die Burg ersetzt. Es ist günstiger als eine Burg und kostet keinen Unterhalt, benötigt keine Stadtmauern und kann mit Glauben gekauft werden. Gewährt eine Menge an Glauben und Gold wenn ein neuer Bürger geboren wird (basierend auf den aktuellen Erträgen dieser Stadt, während der Bürger geboren wird). Steigert den religiösen Druck dieser Stadt um 15% und die Resistenz gegenüber der Verbreitung von fremden Religionen um 15%, wodurch die Stadt effektiver beim konvertieren umliegender Städte wird. Baut diese einzigartige Burg um schnell die Verteidigung der Stadt zu erhöhen und die Notwendigkeit von Mauern zu umgehen sowie Eure Religion zu stärken.</Text>
+			<Text>Einzigartiges spanisches Gebäude, dass die Burg ersetzt. Es ist günstiger als eine Burg und kostet keinen Unterhalt, benötigt keine Stadtmauern und kann mit Glauben gekauft werden. Gewährt eine Menge an Glauben und Gold wenn ein neuer Bürger geboren wird (basierend auf den aktuellen Erträgen dieser Stadt, während der Bürger geboren wird). Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 %. Steigert den religiösen Druck dieser Stadt um 15% und die Resistenz gegenüber der Verbreitung von fremden Religionen um 15%, wodurch die Stadt effektiver beim konvertieren umliegender Städte wird. Baut diese einzigartige Burg um schnell die Verteidigung der Stadt zu erhöhen und die Notwendigkeit von Mauern zu umgehen sowie Eure Religion zu stärken.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES">
-			<Text>Runensteine von Jelling</Text>
+			<Text>Runensteine</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_PEDIA">
-			<Text>Die Runensteine von Jelling sind zwei Runensteine aus dem 10. Jahrhundert in Jelling, Jütland. Sie sind die bedeutendsten Steine zur Geschichte Dänemarks und wurden auf Initiative der Könige Gorm und Harald Blauzahn errichtet. Der kleine Jellingstein wurde wahrscheinlich um 935 errichtet. Er ist auf zwei Seiten mit einer Runeninschrift versehen: „König Gorm errichtete dieses Denkmal für Thyra, seine Frau, die Zierde Dänemarks.“ Der Große oder Jüngere Jellingstein wurde wahrscheinlich zwischen 960 und 985 errichtet. Er ist auf allen drei Seiten mit einer Runeninschrift versehen. Die Inschrift lautet: „König Harald befahl, diesen Stein zu errichten zum Gedenken an Gorm, seinen Vater, und an Thyra, seine Mutter. Der Harald, der (dem) sich ganz Dänemark und Norwegen unterwarf und die Dänen zu Christen machte.“ Der Stein wird mitunter auch als „Taufstein“ Dänemarks bezeichnet.</Text>
+			<Text>A runestone is typically a raised stone with a runic inscription, but the term can also be applied to inscriptions on boulders and on bedrock. The tradition began in the 4th century and lasted into the 12th century, but most of the runestones date from the late Viking Age. Most runestones are located in Scandinavia, but there are also scattered runestones in locations that were visited by Norsemen during the Viking Age. Runestones are often memorials to dead men. Runestones were usually brightly coloured when erected, though this is no longer evident as the colour has worn off.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_HELP">
-			<Text>+15% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate und einen sofortigen Schub von 25 [ICON_CULTURE] Kultur. Wenn Ihr eine Einheit besieht, erhaltet +5 [ICON_PRODUCTION] Produktion und +5 [ICON_CULTURE] Kultur in der Stadt. Bonus steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold Küsten- und Ozean-Geländefeldern. Bildet eine [ICON_CONNECTED] Stadtverbingung mit der [ICON_CAPITAL] Hauptstadt über Wasser.</Text>
+			<Text>Whenever you pillage a Tile Improvement, gain +5 [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture in the City, scaling with Era.[NEWLINE]+25% [ICON_PRODUCTION] Production towards Land and Naval Melee units.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold Küsten- und Ozean-Geländefeldern. Bildet eine [ICON_CONNECTED] Stadtverbingung mit der [ICON_CAPITAL] Hauptstadt über Wasser.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_STRATEGY">
-			<Text>Einzigartiges dänisches Gebäude, dass den Leuchtturm ersetzt. Zusätzlich zu den Boni des Leuchtturms, produzieren die Runensteine von Jelling [ICON_CULTURE] Kultur und [ICON_PRODUCTION] Produktion, wenn Ihr eine Einheit besieht. Erhöht die Generierung von Großen Persönlichkeiten in dieser Stadt um 15%. Gewährt 25 [ICON_CULTURE] Kultur wenn vollendet. Anders als beim Leuchtturm, muss die Stadt nicht an der Küste errichtet werden.</Text>
+			<Text>Einzigartiges dänisches Gebäude, dass den Leuchtturm ersetzt. Zusätzlich zu den Boni des Leuchtturms, produzieren die Runensteine [ICON_CULTURE] Kultur und [ICON_PRODUCTION] Produktion, when you pillage a Tile Improvement (Roads and Railroads do not count), generates more Food from ocean tiles, and increases production of melee land and naval units. Unlike the Lighthouse, the City does not have to be built on the coast.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON">
 			<Text>Seowon</Text>
@@ -682,7 +682,7 @@
 			<Text>Seowon waren die häufigsten Bildungseinrichtungen von Korea, während der mittleren bis späten Joseon-Dynastie. Sie waren private Institutionen und kombinierten die Funktion eines konfuzianischen Schreins mit einer vorbereitenden Schule. In pädagogischer Hinsicht waren die Seowons in erster Linie mit die Vorbereitung der Studierenden auf die nationale Prüfung für den Staatsdienst beschäftigt. In den meisten Fällen war Seowon nur Schülern der aristokratischen Yangban-Klasse vorbehalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
-			<Text>+20% [ICON_GREAT_PEOPLE] auf die Rate in dieser Stadt, mit der Große Persönlichkeiten generiert werden. +1 [ICON_RESEARCH] Wissenschaft von Dschungel- und Wald-Geländefeldern die von dieser Stadt bewirtschaftet werden. Erhaltet 50% der [ICON_RESEARCH] Wissenschaftsproduktion als sofortigen Schub auf Eure aktuelle Forschung, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Stadt muss über eine Bibliothek verfügen.</Text>
+			<Text>+1 [ICON_RESEARCH] Science from Jungle tiles worked by the City. +15% [ICON_RESEARCH] Science in the City during [ICON_GOLDEN_AGE] Golden Ages. Erhaltet 50% der [ICON_RESEARCH] Wissenschaftsproduktion als sofortigen Schub auf Eure aktuelle Forschung, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Stadt muss über eine Bibliothek verfügen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
 			<Text>Einzigartiges koreanisches Gebäude, dass die Universität ersetzt. Generiert mehr Wissenschaft als die Universität und gewährt zusätzlich Glauben. Die erhöhte Geschwindigkeit mit der Große Persönlichkeiten generiert werden, hilft Euch bei der Verwendung der Spezialfähigkeit von Korea.</Text>

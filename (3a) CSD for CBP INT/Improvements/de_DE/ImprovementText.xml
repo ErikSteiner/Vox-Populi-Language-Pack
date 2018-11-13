@@ -7,7 +7,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EMBASSY_TEXT">
 			<Text>
-				Botschaften können nur von Großen Diplomaten, auf dem Territorium von Stadtstaaten gebaut werden.
+				Botschaften können nur von Großen Diplomaten auf dem Territorium von Stadtstaaten gebaut werden und nicht auf einem Ressourcen-Feld.
 				[NEWLINE][NEWLINE]Der erste Spieler (und nur der Erste!) der eine Botschaft im Gebiet eines Stadtstaates errichtet [COLOR_POSITIVE_TEXT]erhält eine zusätzliche Stimme im Weltkogress[ENDCOLOR]. Keine anderen Spieler erhalten weitere Stimmen für das Errichten einer Botschaft im Gebiet von Stadtstaaten.
 				[NEWLINE][NEWLINE]Eine Botschaft kann nicht geplündert werden - sobald sie gebaut wurde, kann sie nicht mehr entfernt werden und gewährt die zusätzliche Stimme im Weltkogress immer dem Erbauer. Wenn jedoch der ursprüngliche Erbauer erobert wird, geht der Besitz zum Eroberer über und erhält damit die Stimme!</Text>
 		</Row>
@@ -33,7 +33,7 @@
 		<!-- Tooltips for Resolutions -->
 		
 		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
-			<Text>[NEWLINE][ICON_BULLET] Resolution Wachstumsmodifikator: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Resolution Wachstumsmodifikator: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MINOR_SCIENCE_FROM_LEAGUE_ALLIES">
@@ -53,7 +53,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_LEAGUE">
-			<Text>[NEWLINE][ICON_BULLET] +{1_Num}% [ICON_PRODUCTION] von Resolutionen</Text>
+			<Text>[NEWLINE][ICON_BULLET]Modifikator für Resolutionen: +{1_Num}%</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

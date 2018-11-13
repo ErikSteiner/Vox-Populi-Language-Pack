@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="9">
+<Mod id="bf6d0feb-443e-4d49-9f2b-fe3335d5b972" version="10">
   <Properties>
     <Name>(6b) CBO - Compatibility Files (EUI) Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(01-26) [COLOR_GREEN]Translation of Community Balance Overhaul - Compatibility Files (EUI)[ENDCOLOR]</Teaser>
+    <Teaser>(11-11) [COLOR_GREEN]Translation of Community Balance Overhaul - Compatibility Files (EUI)[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Balance Overhaul - Compatibility Files (EUI) into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -20,9 +20,9 @@
   </Properties>
   <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
-	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="9" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="10" maxversion="999" title="(1a) Community Patch Localized" />
 	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="9" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
+	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="10" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
     <Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="17" maxversion="999" title="CSD" />
     <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="11" maxversion="999" title="C4DF" />
     <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="Community Balance Overhaul - Compatibility Files (EUI)" />
@@ -34,17 +34,19 @@
     <Mod id="828b5b4b-7c62-4afb-a43f-034b596ef5e4" minversion="0" maxversion="999" title="CBP Compatibilty Files (No EUI)" />
   </Blocks>
   <Files>
-    <File md5="12d1d43f5f3f744affa1d5b2e67bea78" import="0">Corporations/Text/CorpText_de_DE.xml</File>
-    <File md5="cda024dfa0b26de662784cdedf57d826" import="0">Corporations/Text/CorpText_de_DE.sql</File>
-    <File md5="6f4548a19d6e7ae4382e46ce300ca599" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
-    <File md5="ac1ad9aac29ff2bef3bd29bac7880023" import="0">CSD/CompatibilityText/Compatibility_de_DE.xml</File>
-    <File md5="a6be8e1821dc7648f38555c6fefa8c03" import="0">EUI/EUI_text_de_DE.xml</File>
-    <File md5="4aa4349b6727fd215e912ddc357ca41e" import="0">EUI/de_DE/NeededText.xml</File>
-    <File md5="46854ce44524ea6356796a27182336cb" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
+    <File md5="D0CC11F9DD699BEE18F31465C99B77B6" import="0">C4DFCompatibility/C4DFCompatibility.sql</File>
+    <File md5="12D1D43F5F3F744AFFA1D5B2E67BEA78" import="0">Corporations/Text/CorpText_de_DE.xml</File>
+    <File md5="031DBA7320417B06AFEED6D8D09ADEF8" import="0">Corporations/Text/CorpText_de_DE.sql</File>
+    <File md5="432920F8417F5A1353B38E9EC766D65A" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
+    <File md5="AC1AD9AAC29FF2BEF3BD29BAC7880023" import="0">CSD/CompatibilityText/Compatibility_de_DE.xml</File>
+    <File md5="3759C798480B3965537C8FFE815FD25D" import="0">EUI/EUI_text_de_DE.xml</File>
+    <File md5="F9CED05C4F7DC240AEFD043F7FF3A7BD" import="0">EUI/de_DE/NeededText.xml</File>
+    <File md5="BC92C9700FA5C0204AA0B813A37BF591" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>EUI/de_DE/NeededText.xml</UpdateDatabase>
+	  <UpdateDatabase>C4DFCompatibility/C4DFCompatibility.sql</UpdateDatabase>
 	  <UpdateDatabase>EUI/EUI_text_de_DE.xml</UpdateDatabase>
 	  <UpdateDatabase>Corporations/Text/CorpText_de_DE.sql</UpdateDatabase>
       <UpdateDatabase>Corporations/Text/CorpText_de_DE.xml</UpdateDatabase>

@@ -1,6 +1,31 @@
+-- Misc text update
+-- Puppet TT TopPanel
+UPDATE Language_de_DE
+SET Text = '{1_Num} {2_IconString} from Traits and Other Sources'
+WHERE Tag = 'TXT_KEY_YIELD_FROM_MISC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+
+-- Puppet TT TopPanel
+UPDATE Language_de_DE
+SET Text = 'Each ([ICON_PUPPET] non-Puppet) City you own will increase Technology costs by {1_Num}%.'
+WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+
+-- Puppet TT TopPanel
+UPDATE Language_de_DE
+SET Text = 'Each ([ICON_PUPPET] non-Puppet) City you own will increase Social Policy costs by {1_Num}%.'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+
+-- Supply Info
+UPDATE Language_de_DE
+SET Text = 'Your empire can support {1_Num} Units. You are over that limit by {2_Num}, which decreases [ICON_PRODUCTION] Production and [ICON_FOOD] Growth in your Cities by {3_Num}%.'
+WHERE Tag = 'TXT_KEY_UNIT_SUPPLY_REACHED_TOOLTIP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = '[ICON_FOOD]/[ICON_PRODUCTION] Penalty'
+WHERE Tag = 'TXT_KEY_SUPPLY_DEFICIT_PENALTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
+
 -- Wonders
 UPDATE Language_de_DE
-SET Text = 'Wonders are the remarkable, one-of-a-kind buildings that ensure that a civilization will be remembered throughout all of history. Wonders engage the mind and lift the spirits.[NEWLINE][NEWLINE]The Pyramids, Notre Dame Cathedral, and Stonehenge are examples of wonders. Wonders require much time and energy from your cities to construct, but once completed, they provide your civilization with many benefits.[NEWLINE][NEWLINE]There are three basic types of wonders: World Wonders, National Wonders and Project Wonders. Only one copy of a World Wonder may be constructed anywhere in the world in a given game. National Wonders are less exclusive: each nation may construct one (but only one) copy of a National Wonder.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]World Wonder Production Modifiers[ENDCOLOR]: In addition to certain Traits and Policies, [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone increase the production modifier of cities with these resources nearby. Marble increases Wonder production by 15% for all pre-Industrial Wonders, whereas Stone increases Wonder production by 10% for all pre-Medieval Wonders.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]World Wonder Production Costs[ENDCOLOR]: For every Wonder you control, the cost of future Wonders goes up. This cost varies based on the Era of the Wonder.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder of the same Era: 25%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder from the previous Era: 15%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder from Eras prior to your previous Era: 10%.[NEWLINE][NEWLINE]If you build too many Wonders during an Era, your ability to gain future Wonders will be compromised, so don''t be too greedy!'
+SET Text = 'Wonders are the remarkable, one-of-a-kind buildings that ensure that a civilization will be remembered throughout all of history. Wonders engage the mind and lift the spirits.[NEWLINE][NEWLINE]The Pyramids, Notre Dame Cathedral, and Stonehenge are examples of wonders. Wonders require much time and energy from your cities to construct, but once completed, they provide your civilization with many benefits.[NEWLINE][NEWLINE]There are three basic types of wonders: World Wonders, National Wonders and Project Wonders. Only one copy of a World Wonder may be constructed anywhere in the world in a given game. National Wonders are less exclusive: each nation may construct one (but only one) copy of a National Wonder.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]World Wonder Production Modifiers[ENDCOLOR]: In addition to certain Traits and Policies, [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone increase the production modifier of cities with these resources nearby. Marble increases Wonder production by 15% for all pre-Industrial Wonders, whereas Stone increases Wonder production by 10% for all pre-Medieval Wonders.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]World Wonder Production Costs[ENDCOLOR]: For every Wonder you control, the cost of future Wonders goes up. This cost varies based on the Era of the Wonder.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder of the same Era: 25%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder from the previous Era: 15%. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]For every owned Wonder from two Eras prior: 10%.[NEWLINE][NEWLINE]If you build too many Wonders during an Era, your ability to gain future Wonders will be compromised, so don''t be too greedy!'
 WHERE Tag = 'TXT_KEY_PEDIA_WONDERS_HELP_TEXT';
 
 -- Barb CS
@@ -130,12 +155,12 @@ WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 -- Public Opinion
 
 UPDATE Language_de_DE
-SET Text = '{1_Num} from Public Opinion (Ideological Pressure or War Weariness).'
+SET Text = '{1_Num} from Public Opinion due to Ideological Pressure.'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Building Purchased
 UPDATE Language_de_DE
-SET Text = 'When you have enough [ICON_GOLD] Gold or [ICON_PEACE] Faith, you can spend it on units and buildings.'
+SET Text = '[ICON_GOLD] Gold spent on Buildings Invests in them, reducing their [ICON_PRODUCTION] Production cost by 50% (25% for Wonders).[NEWLINE][ICON_GOLD] Gold-purchased Units start with half of the XP of a [ICON_PRODUCTION] Produced Unit.[NEWLINE]Some Units and Buildings can be purchased with [ICON_PEACE] Faith (based on Belief and Policy selections).'
 WHERE Tag = 'TXT_KEY_CITYVIEW_PURCHASE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -183,33 +208,38 @@ WHERE Tag = 'TXT_KEY_SPY_BE_DIPLOMAT' AND EXISTS (SELECT * FROM COMMUNITY WHERE 
 -- Update text for tooltips based on what you changed above.
 INSERT INTO Language_de_DE (
 Text, Tag)
-SELECT '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+3%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+1[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]5[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest' , 'TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC'
+SELECT '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+5%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]5[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-15%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest' , 'TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_de_DE
-SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+2[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]4[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
+SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]4[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-30%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
 WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_de_DE
-SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+9%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+3[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]3[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
+SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+6[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]3[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-55%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
 WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_de_DE
-SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+12%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+8[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+4[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]2[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
+SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+20%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+8[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+8[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]2[ENDCOLOR] turns[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-80%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
 WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Update texts for tooltips based on what you changed above.
 UPDATE Language_de_DE
-SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+15%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+5[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]1[ENDCOLOR] turn[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
+SET Text = '[NEWLINE][NEWLINE][COLOR_CYAN]Influence Benefits:[ENDCOLOR][NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Trade Routes to this Civ Generate:[ENDCOLOR][NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+25%[ENDCOLOR] [ICON_FOOD] Growth in Origin City[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10[ENDCOLOR] [ICON_GOLD] Gold[NEWLINE][ICON_BULLET]  [COLOR_POSITIVE_TEXT]+10[ENDCOLOR] [ICON_RESEARCH] Science[NEWLINE][COLOR_POSITIVE_TEXT]Espionage Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [ICON_SPY] Spies Establish Surveillance in [COLOR_POSITIVE_TEXT]1[ENDCOLOR] turn[NEWLINE][COLOR_POSITIVE_TEXT]City Conquest Bonuses versus this Civ:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] [ICON_RESISTANCE] Unrest Time[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]-100%[ENDCOLOR] [ICON_CITIZEN] Citizen loss from City conquest'
 WHERE Tag = 'TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Text for trade view tooltip.
 INSERT INTO Language_de_DE (
 Text, Tag)
 SELECT '+{2_Num} [ICON_GOLD] Gold due to your Cultural Influence over {1_CivName}', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_GOLD_EXPLAINED'
+WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+INSERT INTO Language_de_DE (
+Text, Tag)
+SELECT '+{1_Num}% from Trade Confederacy Policy', 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YIELD_MODIFIER'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 -- Text for trade view tooltip.
@@ -224,16 +254,12 @@ SET Text = 'In the next World Congress session, [COLOR_POSITIVE_TEXT]{1_NumVotes
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_de_DE
+SET Text = 'In the next World Congress session, [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] {1_NumVotes: plural 1?Delegate; other?Delegates;} currently controlled by this player will support {2_ChoiceText} on the proposal to [COLOR_POSITIVE_TEXT]enact[ENDCOLOR] these changes:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]The number of delegates above is based on the number of delegates this player controls, and the Rank of your [ICON_DIPLOMAT] Diplomat. Higher ranks allow you to trade for more delegates.'
+WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
+
+UPDATE Language_de_DE
 SET Text = 'In the next World Congress session, [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] {1_NumVotes: plural 1?Delegate; other?Delegates;} currently controlled by this player will support {2_ChoiceText} on the proposal to [COLOR_WARNING_TEXT]repeal[ENDCOLOR] these effects:[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]The number of delegates above is based on the number of delegates this player controls, and the rank of your [ICON_DIPLOMAT] Diplomat. Higher ranks allow you to trade for more delegates.'
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-UPDATE Language_de_DE
-SET Text = 'Artifact will be placed in nearest Great Work of Art slot. Artifact provides +1 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
-WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
-
-UPDATE Language_de_DE
-SET Text = 'Ancient writing will be placed in nearest Great Work of Writing slot. Writing provides +1 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
-WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_TOURISM_CHANGES' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = 'Barbarian Encampment'
@@ -249,13 +275,16 @@ WHERE Tag = 'TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA' AND EXISTS (SELECT * FROM
 
 -- CS Protection Tooltip for new influence perk
 UPDATE Language_de_DE
-SET Text = 'Pledging to protect a City-State lets the other major powers in the game know that you will protect the City-State from attacks and tribute demands. This action is only possible if you are in the top [COLOR_POSITIVE_TEXT]60%[ENDCOLOR] of the world in terms of Military Power.[NEWLINE][NEWLINE]During protection, your resting point for [ICON_INFLUENCE] Influence with this City-State is increased by {1_InfluenceMinimum}, and you will earn [COLOR_POSITIVE_TEXT]{3_InfluenceBoost}%[ENDCOLOR] [ICON_INFLUENCE] Influence from quests completed for this City-State. The City-State [ICON_CAPITAL] Capital''s base [ICON_STRENGTH] Combat Strength will be increased by [COLOR_POSITIVE_TEXT]{4_DefenseBoost}%[ENDCOLOR], up to a global maximum of [COLOR_POSITIVE_TEXT]{5_DefenseTotal}%[ENDCOLOR]. [NEWLINE][NEWLINE]Protection cannot be revoked until {2_TurnsMinimum} turns after the pledge is made.'
+SET Text = 'Pledging to protect a City-State lets the other major powers in the game know that you will protect the City-State from attacks and tribute demands.[NEWLINE][NEWLINE]During protection, your resting point for [ICON_INFLUENCE] Influence with this City-State is increased by {1_InfluenceMinimum}, and you will earn [COLOR_POSITIVE_TEXT]{3_InfluenceBoost}%[ENDCOLOR] [ICON_INFLUENCE] Influence from quests completed for this City-State. The City-State [ICON_CAPITAL] Capital''s base [ICON_STRENGTH] Combat Strength will be increased by [COLOR_POSITIVE_TEXT]{4_DefenseBoost}%[ENDCOLOR], up to a global maximum of [COLOR_POSITIVE_TEXT]{5_DefenseTotal}%[ENDCOLOR]. [NEWLINE][NEWLINE]Protection cannot be revoked until {2_TurnsMinimum} turns after the pledge is made.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE' AND Value= 1 );
-	
-	
+
 UPDATE Language_de_DE
-SET Text = '[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be at peace, have {1_InfluenceNeededToPledge} or more [ICON_INFLUENCE] Influence to pledge, and be in the top 60% (in terms of military power) of major civilizations.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] You must have {1_InfluenceNeededToPledge} or more [ICON_INFLUENCE] Influence to pledge.'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT';
+
+UPDATE Language_de_DE
+SET Text = '[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] {1_TurnsUntilPledgeAvailable} turns must pass before you can pledge again.[ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT';
 
 UPDATE Language_de_DE
 SET Text = '[ICON_INFLUENCE] Influence too high'
@@ -267,16 +296,16 @@ WHERE Tag = 'TXT_KEY_FEATURE_FALLOUT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY 
 	
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_REC', 'Dies wird Eure [ICON_FOOD] Nahrungsproduktion auf diesem Geländefeld steigern. Für je zwei Bauernhöfe die aneinander angrenzen, erhalten Sie +1 zusätzliche [ICON_FOOD] Nahrung!'
+SELECT 'TXT_KEY_BUILD_FARM_REC', 'It will boost your [ICON_FOOD] Food output on this tile. Farms adjacent to two other Farms and/or to Fresh Water gain +1 [ICON_FOOD] Food. '
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Bauernhöfe können auf fast jedem Land gebaut werden, um die Nahrungsproduktion auf dem Geländefeld zu verbessern. Für je zwei Bauernhöfe die nebeneinander liegen, produzieren sie zusätzliche Nahrung.[NEWLINE][NEWLINE]Landwirtschaft ist einer der ersten und wichtigsten aller menschlichen Berufe, da sie es ermöglicht, das nomadische Leben zu beenden und sich an einem Ort niederzulassen, ohne die vorhandenen Ressourcen gänzlich zu erschöpfen.'
+SET Text = 'Bauernhöfe können auf fast jedem Land gebaut werden, um die Nahrungsproduktion auf dem Geländefeld zu verbessern. Farmen erhalten +1 Nahrung für jeweils zwei benachbarte Farmen und/oder wenn Frischwasser verfügbar ist.[NEWLINE][NEWLINE]Landwirtschaft ist einer der ersten und wichtigsten aller menschlichen Berufe, da sie es ermöglicht, das nomadische Leben zu beenden und sich an einem Ort niederzulassen, ohne die vorhandenen Ressourcen gänzlich zu erschöpfen.'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILD_FARM_HELP', 'Erhaltet zusätzlich +1 [ICON_FOOD] Nahrung für je 2 Bauernhöfe die nebeneinander liegen.'
+SELECT 'TXT_KEY_BUILD_FARM_HELP', 'Erhaltet zusätzlich +1 [ICON_FOOD] Nahrung für je 2 Bauernhöfe die neben diesem Bauernhof und/oder Frischwasser liegen.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 -- Trading Post - name change
@@ -314,7 +343,7 @@ SET Text = 'Das Dorf'
 WHERE Tag = 'TXT_KEY_GOLD_TRADINGPOST_HEADING3_TITLE';
 
 UPDATE Language_de_DE
-SET Text = 'Während des Spiels werdet Ihr "Bautrupps" ausbilden - nicht militärische Einheiten, die das Land um Eure Städte "modernisieren" werden und damit seine Erträge erhöhen oder Zugang zu einer nahegelegenen "Ressource" ermöglichen. Modernisierungen sind z. B. Bauernhöfe, Dörfer, Sägewerke, Steinbrüche, Minen und anderes mehr. In Kriegszeiten kann Euer Gegner Eure Modernisierungen "plündern" (zerstören). Geplünderte Modernisierungen sind leistungsunfähig, bis sie von einem Bautrupp "repariert" wurden.'
+SET Text = 'Während des Spiels werdet Ihr "Bautrupps" ausbilden - nicht militärische Einheiten, die das Land um Eure Städte "modernisieren" werden und damit seine Erträge erhöhen oder Zugang zu einer nahegelegenen "Ressource" ermöglichen. Modernisierungen sind z. B. Bauernhöfe, Dörfer, Sägewerke, Holzfällerlager, Steinbrüche, Minen und anderes mehr. In Kriegszeiten kann Euer Gegner Eure Modernisierungen "plündern" (zerstören). Geplünderte Modernisierungen sind leistungsunfähig, bis sie von einem Bautrupp "repariert" wurden.'
 WHERE Tag = 'TXT_KEY_PEDIA_IMPROVEMENT_HELP_TEXT';
 
 UPDATE Language_de_DE
@@ -433,16 +462,11 @@ UPDATE Language_de_DE
 Set Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_GOLDEN_AGE] von Eurem Goldenen Zeitalter.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_GOLDEN_AGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
--- Rebels!
-UPDATE Language_de_DE
-SET Text = 'Da die [ICON_HAPPINESS_4] Unzufriedenheit im Reich mindestens den Wert 20 erreicht hat, ist es zu einem Aufstand in unserem Territorium gekommen!'
-WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
-
 -- Update Text for Very Unhappy and Super Unhappy
 
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_de_DE
-SET Text = 'Die Bevölkerung in Eurem Reich ist [ICON_HAPPINESS_3] sehr unzufrieden![ENDCOLOR] [NEWLINE][NEWLINE]Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um[COLOR_NEGATIVE_TEXT] {1_num}% [ENDCOLOR] reduziert und die effektive [ICON_STRENGTH] Kampfstärke um [COLOR_NEGATIVE_TEXT] {1_Num}%[ENDCOLOR] verringert!'
+SET Text = 'Die Bevölkerung in Eurem Reich ist [ICON_HAPPINESS_3] sehr unzufrieden![ENDCOLOR] [NEWLINE][NEWLINE]Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um[COLOR_NEGATIVE_TEXT] {1_num}% [ENDCOLOR] reduziert und die effektive [ICON_STRENGTH] Kampfstärke um [COLOR_NEGATIVE_TEXT] {2_Num}%[ENDCOLOR] verringert!'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_VERY_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -451,7 +475,7 @@ WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNIT
 	
 -- Update text for top panel depending on which yields you have enabled above. Change as desired.
 UPDATE Language_de_DE
-SET Text = 'Euer Reich ist [ICON_HAPPINESS_3] unzufrieden! [NEWLINE][NEWLINE][ENDCOLOR]Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um[COLOR_NEGATIVE_TEXT] {1_num}%[ENDCOLOR] reduziert und die effektive [ICON_STRENGTH] Kampfstärke um[COLOR_NEGATIVE_TEXT] {1_Num}%[ENDCOLOR] verringert!'
+SET Text = 'Euer Reich ist [ICON_HAPPINESS_3] unzufrieden! [NEWLINE][NEWLINE][ENDCOLOR]Daher ist im gesamten Reich die Produktion von [ICON_CULTURE] Kultur, [ICON_PEACE] Glaube, [ICON_GOLD] Gold, [ICON_FOOD] Wachstum und [ICON_RESEARCH] Wissenschaft um[COLOR_NEGATIVE_TEXT] {1_num}%[ENDCOLOR] reduziert und die effektive [ICON_STRENGTH] Kampfstärke um[COLOR_NEGATIVE_TEXT] {2_Num}%[ENDCOLOR] verringert!'
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_UNHAPPY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_HAPPINESS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -568,3 +592,35 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT';
 UPDATE Language_de_DE
 SET Text = '[COLOR_NEGATIVE_TEXT]At war with {1_enemy} (Warscore: {2_Num})[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_AT_WAR_WITH';
+
+
+-- New Influence Vector
+
+UPDATE Language_de_DE
+SET Text = 'Public Opinion begins when an empire adopts an Ideology. It is calculated by comparing the [ICON_TOURISM] Influence of Civs with an Ideology to your own [ICON_TOURISM] Influence based on the following criteria:[NEWLINE][ICON_BULLET]  The other Civ must be at least [COLOR_MAGENTA]Popular[ENDCOLOR] with you.[NEWLINE][ICON_BULLET]  The other Civ''s [ICON_TOURISM] Influence must be higher than yours.[NEWLINE][NEWLINE]If both are true, a [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] Public Opinion may cause [COLOR_NEGATIVE_TEXT]Ideological Pressure[ENDCOLOR], generating [ICON_HAPPINESS_4] Unhappiness. There are ways to combat this:[NEWLINE][ICON_BULLET]  Ideologies with fewer followers have a natural resistance to Ideological Pressure.[NEWLINE][ICON_BULLET]  Static or [COLOR_NEGATIVE_TEXT]Falling[ENDCOLOR] [ICON_TOURISM] Influence trends reduce a foreign Civ''s Ideological Pressure.[NEWLINE][ICON_BULLET]  Adopting or switching Ideologies creates a 30-Turn (standard speed) period of reduced Ideological Pressure.[NEWLINE][NEWLINE]See the summary below to see which foreign civs are causing Ideological Pressure.[NEWLINE][NEWLINE]'
+WHERE Tag = 'TXT_KEY_CO_OPINION_TT_OVERVIEW';
+
+
+
+UPDATE Language_de_DE
+SET Text = 'Destroy this trade route to gain [ICON_GOLD] Gold.[NEWLINE][NEWLINE]If you are not at war with the owner of the trade route, you will need to declare war before you plunder (unless an ability allows otherwise). Plundering a trade route going to another civilization will damage your relationship with the destination civilization if you''re not currently at war.'
+WHERE Tag = 'TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP';
+
+
+UPDATE Language_de_DE
+SET Text = 'Max Distance: {1_Num}'
+WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE';
+
+UPDATE Language_de_DE
+SET Text = 'Resource Diversity Modifier: {1_Num}%[NEWLINE][ICON_BULLET]   Our Local Luxuries/Strategics: {2_Num}[NEWLINE][ICON_BULLET]   Their Local Luxuries/Strategics: {3_Num}[NEWLINE] Routes to Cities with fewer Resources earn more [ICON_GOLD] Gold, and Monopoly Resources count double.'
+WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT';
+
+
+UPDATE Language_de_DE
+SET Text = 'Artifact will be placed in nearest Great Work of Art slot. Artifact provides +3 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
+WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT';
+
+UPDATE Language_de_DE
+SET Text = 'Ancient writing will be placed in nearest Great Work of Writing slot. Writing provides +3 [ICON_CULTURE] Culture and +3 [ICON_TOURISM] Tourism. Archaeologist will be consumed.'
+WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
+

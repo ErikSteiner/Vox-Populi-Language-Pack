@@ -45,10 +45,10 @@
 			<Gender>neuter:ein</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_TEXT">
-			<Text>Ein Feldlager kann nur auf flachen Geländefeldern errichtet werden und können nicht neben einem weiteren Feldlager liegen. Es gewährt zusätzlich [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold. Feldlager gewähren dort stationierten Einheiten einen kleinen Verteidigungsmodifikator und schadet feindlichen Einheiten (5)  die ihren Zug auf oder am Feldlager angrenzend beenden. Muss im Schoschonen Gebiet errichtet werden.[NEWLINE][NEWLINE]Ein Tipi besteht aus einem Gestell aus Stangen (dünne Stämme von Nadelbäumen) und einer halbkreisförmigen Plane. Die Plane wird über das Gestell gelegt, an der Vorderseite überlappt und mit kleinen Holzstäben zusammengesteckt. Dadurch ergibt sich die typische Kegelform. Die Plane bestand früher aus Bisonleder. Seit der Nahezu-Ausrottung der Bisons und der Einsperrung der Indianer in Reservate ist die Tipiplane aus festem Stoff (Segeltuch). Das Tipi wurde in Feldlagern von normadischen Stämmen der Großen Ebenen in Nordamerika genutzt. Tipis werden meist stereotypisch mit den Ureinwohnern von Nordamerika assoziiert, doch nutzten Ureinwohner an anderen Orten als den Großen Ebenen meist andere Arten von Behausungen. Das Tipi ist haltbar, spendet Wärme und Behaglichkeit im Winter, ist kühl in der Hitze des Sommers und ist trocken während schwerer Regenfälle. Tipis können schnell auseinandergebaut und verpackt werden, wenn ein Stamm sich entschied weiterzuziehen, sowie schnell wieder an einem neuen Ort aufgebaut werden. Diese Beweglichkeit war wichtig für die Prärie-Indianer mit ihrer normadischen Lebensart. Zeitgenössische Nutzer von Tipis umschließt historische Nachstellungen, Back-to-the-Land Anhänger und amerikanische Ureinwohner Familien die Versammlungen abhalten oder Anhänger die sich einen Teil ihrer Herkunft und Tradition bewahren wollen.</Text>
+			<Text>Ein Feldlager kann nur auf flachen Geländefeldern errichtet werden und können nicht neben einem weiteren Feldlager liegen. Es gewährt zusätzlich [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion und [ICON_CULTURE] Kultur. Feldlager gewähren dort stationierten Einheiten einen kleinen Verteidigungsmodifikator und schadet feindlichen Einheiten (5)  die ihren Zug auf oder am Feldlager angrenzend beenden. Muss im Schoschonen Gebiet errichtet werden.[NEWLINE][NEWLINE]Ein Tipi besteht aus einem Gestell aus Stangen (dünne Stämme von Nadelbäumen) und einer halbkreisförmigen Plane. Die Plane wird über das Gestell gelegt, an der Vorderseite überlappt und mit kleinen Holzstäben zusammengesteckt. Dadurch ergibt sich die typische Kegelform. Die Plane bestand früher aus Bisonleder. Seit der Nahezu-Ausrottung der Bisons und der Einsperrung der Indianer in Reservate ist die Tipiplane aus festem Stoff (Segeltuch). Das Tipi wurde in Feldlagern von normadischen Stämmen der Großen Ebenen in Nordamerika genutzt. Tipis werden meist stereotypisch mit den Ureinwohnern von Nordamerika assoziiert, doch nutzten Ureinwohner an anderen Orten als den Großen Ebenen meist andere Arten von Behausungen. Das Tipi ist haltbar, spendet Wärme und Behaglichkeit im Winter, ist kühl in der Hitze des Sommers und ist trocken während schwerer Regenfälle. Tipis können schnell auseinandergebaut und verpackt werden, wenn ein Stamm sich entschied weiterzuziehen, sowie schnell wieder an einem neuen Ort aufgebaut werden. Diese Beweglichkeit war wichtig für die Prärie-Indianer mit ihrer normadischen Lebensart. Zeitgenössische Nutzer von Tipis umschließt historische Nachstellungen, Back-to-the-Land Anhänger und amerikanische Ureinwohner Familien die Versammlungen abhalten oder Anhänger die sich einen Teil ihrer Herkunft und Tradition bewahren wollen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_ENCAMPMENT_SHOSHONE_HELP">
-			<Text>Ein Feldlager kann nur auf flachen Geländefeldern errichtet werden und können nicht neben einem weiteren Feldlager liegen. Es gewährt zusätzlich [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold. Feldlager gewähren dort stationierten Einheiten einen kleinen Verteidigungsmodifikator und schadet feindlichen Einheiten (5)  die ihren Zug auf oder am Feldlager angrenzend beenden. Muss im Schoschonen Gebiet errichtet werden.</Text>
+			<Text>Ein Feldlager kann nur auf flachen Geländefeldern errichtet werden und können nicht neben einem weiteren Feldlager liegen. Es gewährt zusätzlich [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion und [ICON_CULTURE] Kultur. Feldlager gewähren dort stationierten Einheiten einen kleinen Verteidigungsmodifikator und schadet feindlichen Einheiten (5)  die ihren Zug auf oder am Feldlager angrenzend beenden. Muss im Schoschonen Gebiet errichtet werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_ENCAMPMENT_SHOSHONE">
 			<Text>Errichtet ein [LINK=IMPROVEMENT_ENCAMPMENT_SHOSHONE]Feldlager[\LINK]</Text>
@@ -152,7 +152,10 @@
 			<Text>Potenzielle strategische und globale Monopol-Boni:[NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN">
-			<Text>{1_Num} von {2_Total} der Welt</Text>
+			<Text>Von {2_Total} in der Welt:[NEWLINE]Direkte Steuerung: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BREAKDOWN_IMPORTS">
+			<Text>Von {2_Total} in Welt:[NEWLINE]Direkte Steuerung: {1_Num}[NEWLINE]Import: {3_Import}[NEWLINE]Von Stadtstaaten: {4_CS}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HOVER_INFO">
 			<Text>(Geht auf das Konzern-Symbol oder den Namen für mehr Details.)</Text>
@@ -188,13 +191,13 @@
 			<Text>[NEWLINE][ICON_BULLET]Modifikator von Rohstoff-Monopolen: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_HAPPINESS">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +5 [ICON_HAPPINESS_1] Globale Zufriedenheit</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +6 [ICON_HAPPINESS_1] Globale Zufriedenheit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_GA_LENGTH">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +25% [ICON_GOLDEN_AGE] längere Goldene Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +2 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern</Text>
@@ -218,7 +221,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +10% [ICON_GOLD] Gold in allen eigenen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_FOOD">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +20% [ICON_FOOD] Wachstum in allen eigenen Städten.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +10% [ICON_FOOD] Nahrung in allen eigenen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_CULTURE">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +10% [ICON_CULTURE] Kultur in allen eigenen Städten.</Text>
@@ -229,7 +232,7 @@
 
 		<!-- Strategic Help-->
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION_ALUMINUM">
-			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 TP bei Heilung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 TP bei Heilung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_GOLD_COAL">
 			<Text>Benötigt für mächtige Einheiten und Gebäude im mittleren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Marine Einheiten erhalten +1 [ICON_MOVES] Fortbewegung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern.</Text>
@@ -241,7 +244,7 @@
 			<Text>Benötigt für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_PRODUCTION_IRON">
-			<Text>Benötigt für mächtige Einheiten während des gesamten Spiels.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke bei der Verteidigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten während des gesamten Spiels.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke bei der Verteidigung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_MOD_SCIENCE_URANIUM">
 			<Text>Benötigt für den Bau schrecklicher Massenvernichtungswaffen.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +10% [ICON_RESEARCH] Wissenschaft in allen eigenen Städten.</Text>
@@ -271,7 +274,7 @@
 
 		<!-- Tooltip for Monopolies -->
 		<Row Tag="TXT_KEY_FOODMOD_MONOPOLY_RESOURCE">
-			<Text>[NEWLINE][ICON_BULLET]Ressourcen Monopol Modifikator: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_TRADE_WHITE]Ressourcen Monopol Modifikator: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_FROM_RESOURCE_MONOPOLY">
 			<Text>+{1_Num}% [ICON_CULTURE] für Ressourcen Monopole</Text>

@@ -25,7 +25,8 @@
 			<Text>{TXT_KEY_TOPIC_MONOPOLY}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_BODY">
-			<Text>[COLOR_POSITIVE_TEXT]Monopolies[ENDCOLOR] are one of the new gameplay elements added by the Community Balance Patch.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Luxury Global Monopolies[ENDCOLOR]: the essence of the Monopoly system is expansion: as your empire expands throughout the game (either through combat or settlement), be on the lookout for Luxury resources that you already have copies of. AS you collect more and more copies of the same Luxury Resources, the percentage of global resources you control goes up. If this value goes over 50% (i.e. you control more than 50% of the world's supply of any resource), you gain a Global Monopoly over that Resource. Each Global Monopoly has a unique bonus - some grant additional yields to your tiles, whereas others boost City yields by a set percentage (see the Resource section of the Civilopedia for details).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategic Global Monopolies[ENDCOLOR]: Strategic Resources operate the same way as Luxury Resources with regards to Monpolies, with one major exception. Due to the vast abundance of these resources, a true 50% Monopoly can be quite difficult. As a result, Strategic Resources have two tiers: 'Strategic' Monopolies and 'True' Monopolies. Strategic Monopolies occur at 25%, and generate special combat bonuses (such as increased health regeneration or increase defense). True Monopolies occur at 50% and, like Luxury Monopolies, they generate bonuses to City and/or tile yields.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopole[ENDCOLOR] sind eines der neuen Gameplay-Elemente, die durch den Community Balance Patch hinzugefügt wurden.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Globale Luxus-Monopole[ENDCOLOR]: Das Wesen des Monopolsystems ist die Expansion: Während sich Ihr Imperium im Laufe des Spiels ausdehnt (entweder durch Kampf oder Siedlung), seien Sie auf der Suche nach Luxusgütern, von denen Sie bereits Kopien haben. Wenn Sie mehr und mehr Kopien derselben Luxusguts sammeln, steigt der Prozentsatz der globalen Ressourcen, die Sie kontrollieren. Wenn dieser Wert über 50 % steigt (d. h. Sie kontrollieren mehr als 50 % des weltweiten Angebots an Ressourcen), erhalten Sie ein globales Monopol über dieses Luxusgut. Jedes globale Monopol hat einen einzigartigen Bonus - einige gewähren zusätzliche Erträge auf Geländefelder, während andere die Erträge der Stadt um einen bestimmten Prozentsatz steigern (siehe Abschnitt Luxusgüter der Civilopedia für Details).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Globale strategische Monopole[ENDCOLOR]: Strategische Ressourcen funktionieren in Bezug auf Monopole genauso wie Luxusgüter, mit einer großen Ausnahme. Aufgrund des riesigen Reichtums an diesen Ressourcen kann ein echtes 50 % Monopol ziemlich schwierig sein. Infolgedessen haben strategische Ressourcen zwei Ebenen: "Strategische" Monopole und "Wahre" Monopole. Strategische Monopole treten bei 25 % auf und generieren spezielle Kampfboni (z. B. erhöhte Gesundheitsregeneration oder erhöhte Verteidigung). Wahre Monopole treten bei 50 % auf und generieren, wie Luxusmonopole, Boni auf die Stadt- und/oder Geländefelder.
+			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MONOPOLY_QUESTION">
 			<Text>Was sind Ressourcen Monopole?</Text>
@@ -317,7 +318,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_FOODMOD_CORPORATION">
-			<Text>[NEWLINE][ICON_BULLET]Konzernmodifikator: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_INVEST]Konzernmodifikator: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CULTURE_FROM_CORPORATION">
@@ -464,7 +465,7 @@
 			<Text>[NEWLINE][TAB][TAB]"There is no love sincerer than the love of food."[NEWLINE][TAB][TAB]  - George Bernard Shaw[NEWLINE][TAB]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_CIVILIZED">
-			<Text>[NEWLINE][TAB][TAB]"Will the people in the cheaper seats clap your hands? And the rest of you, if you'll just rattle your jewelry.”[NEWLINE][TAB][TAB]  - John Lennon[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE][TAB][TAB]”Die Leute auf den billigen Plätzen möchten bitte klatschen. Jene Herrschaften auf den teuren Plätzen rasseln bitte mit den Juwelen.”[NEWLINE][TAB][TAB]  - John Lennon[NEWLINE][TAB]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_HELP">
@@ -516,7 +517,7 @@
 			<Text>+4 [ICON_GOLD] Gold for every Global Franchise, +1 [ICON_GOLD] Gold on all Trader Sid's Monopoly Resources near the City, and [ICON_INTERNATIONAL_TRADE] Trade Routes to this City generate +2 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes from owned Cities with a Trader Sid's Office to foreign Cities with a Trader Sid's Franchise produce +50% additional [ICON_GOLD] Gold.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Handelswege von eigenen Städten mit einem Trader Sid's Konzernbüro nach ausländischen Städten mit einem Trader Sid's Franchise produzieren +25 % zusätzliches [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS_OFFICE_BENEFIT_HELP">
 			<Text>Aktueller Konzernbüro Bonus: +{1_Num} [ICON_GOLD] Gold.</Text>
@@ -558,7 +559,7 @@
 			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Trader Sid's Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Trader Sid's cannot be sold or destroyed by the player, and increases the [ICON_GOLD] Gold output of all Trader Sid's Offices by +4.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HELP">
-			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes to this City generate +2 [ICON_GOLD] Gold. +4 [ICON_GOLD] Gold for every Trader Sid's Franchise in foreign Cities (up to your Franchise Limit).[NEWLINE][NEWLINE]Trade Routes from this City to foreign Cities with a Trader Sid's Franchise produce +50% more [ICON_GOLD] Gold.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Handelswege zu dieser Stadt generieren +2 [ICON_GOLD] Gold. +4 [ICON_GOLD] Gold für jedes Trader Sid's Franchise in ausländischen Städten (bis zu Ihrem Franchise Limit)[NEWLINE][NEWLINE]Handelswege von dieser Stadt zu ausländischen Städten mit einem Trader Sid's Franchise produzieren +25 % mehr [ICON_GOLD] Gold.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_LANDSEA_EXTRACTORS">
@@ -626,7 +627,7 @@
 			<Text>Provides bonuses that enhance your ability to wage late-game warfare and amass Strategic Resources. Increases [ICON_INTERNATIONAL_TRADE] Trade Unit limit by one.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production for all Units that require [ICON_RES_OIL] Oil, [ICON_RES_URANIUM] Uranium, or [ICON_RES_ALUMINUM] Aluminum to build. +3 [ICON_PRODUCTION] Production on all Coal, Nuclear, and Solar Plants.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_RESOURCE_BONUS_HEXXON_REFINERY">
-			<Text>[ICON_RES_COAL] Kohle, [ICON_RES_OIL] Öl, [ICON_RES_INCENSE] Räucherwerk und [ICON_RES_URANIUM] Uran gewährt +1 [ICON_PRODUCTION] Produktion in allen Städten mit einem Hexxon Refineries Konzernbüro.</Text>
+			<Text>[ICON_RES_COAL] Kohle, [ICON_RES_OIL] Öl, [ICON_RES_INCENSE] Räucherwerk und [ICON_RES_URANIUM] Uran und [ICON_RES_BRAZILWOOD] Brasilholz gewährt +1 [ICON_PRODUCTION] Produktion in allen Städten mit einem Hexxon Refineries Konzernbüro.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_HEXXON_REFINERY">
 			<Text>+1 additional [ICON_RES_OIL] Oil and [ICON_RES_COAL] Coal for every three Global Franchises. +1 [ICON_PRODUCTION] Production on Hexxon Refineries Monopoly Resources, and +15% [ICON_PRODUCTION] Production towards Military Units.</Text>
@@ -687,7 +688,7 @@
 			<Text>[ICON_RES_SILK] Seide, [ICON_RES_COTTON] Baumwolle, [ICON_RES_DYE] Färbemittel und [ICON_RES_FUR] Pelze gewährt +1 [ICON_CULTURE] Kultur in allen Städten mit einem Giorgio Armeier Konzernbüro.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_GIORGIO_ARMEIER">
-			<Text>+3 [ICON_CULTURE] Culture for every Global Franchise, +1 [ICON_HAPPINESS_1] Happiness, and +1 [ICON_CULTURE] Culture on Giorgio Armeier Monopoly Resources.</Text>
+			<Text>+2 [ICON_CULTURE] Kultur für jedes globale Franchise, +1 [ICON_HAPPINESS_1] Zufriedenheit und +1 [ICON_CULTURE] Kultur auf Giorgio Armeier Monopol-Resourcen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER">
 			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes to a foreign City with a Giorgio Armeier Franchise grant +10% [ICON_CULTURE] Culture to the origin City.</Text>
@@ -729,10 +730,10 @@
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Giorgio Armeier Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Giorgio Armeier cannot be sold or destroyed by the player, and increases the [ICON_CULTURE] Culture output of all Giorgio Armeier Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>Wenn ein [ICON_INTERNATIONAL_TRADE] Handelsweg zwischen einer fremden Stadt und dieser Stadt fertiggestellt ist, wird in der fremden Stadt ein Giorgio Armeier Franchise gebaut.[NEWLINE][NEWLINE]Giorgio Armeier kann vom Spieler nicht verkauft oder zerstört werden und erhöht die Kulturproduktion aller Giorgio Armeier Konzernbüros um +2.[NEWLINE][NEWLINE]Sie können nicht mehr Franchises haben als Ihr Franchise Limit (für mehr siehe Übersicht über Konzerne und Monopole).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>+1 [ICON_CULTURE] Culture on all Monopoly Resources associated with Giorgio Armeier. +3 [ICON_CULTURE] Culture for every Giorgio Armeier Franchise (up to your Franchise Limit).[NEWLINE][NEWLINE]Every Trade Route from this City to a foreign City with a Giorgio Armeier Franchise increases this City's [ICON_CULTURE] Culture rate by +10%.</Text>
+			<Text>+1 [ICON_CULTURE] Kultur von allen Monopol-Ressourcen im Zusammenhang mit Giorgio Armeier. +2 [ICON_CULTURE] Kultur für jedes Giorgio Armeier Franchise (bis zu Ihrem Franchise Limit)[NEWLINE][NEWLINE]Jeder Handelsweg von dieser Stadt in eine ausländische Stadt mit einem Giorgio Armeier Franchise erhöht den Kulturanteil dieser Stadt um +10%.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS">
@@ -745,10 +746,10 @@
 			<Text>[ICON_RES_IRON] Eisen, [ICON_RES_ALUMINUM] Aluminium, [ICON_RES_MARBLE] Marmor, [ICON_RES_COPPER] Kupfer und [ICON_RES_PORCELAIN] Porzellan gewährt +1 [ICON_RESEARCH] Wissenschaft in allen Städten mit einem Firaxite Materials Konzernbüro.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_FIRAXITE_MATERIALS">
-			<Text>+3 [ICON_RESEARCH] Science for every Global Franchise, +1 [ICON_RESEARCH] Science on Firaxite Materials Monopoly Resources, and +20% [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+			<Text>+2 [ICON_RESEARCH] Wissenschaft für jedes globale Franchise, +1 [ICON_RESEARCH] Wissenschaft über für Firaxite Materials Monopolressourcen und +20 % [ICON_PRODUCTION] Produktion beim Bau von Gebäuden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS">
-			<Text>[ICON_INTERNATIONAL_TRADE] Trade Routes to foreign Cities with a Firaxite Materials Franchise produce double their normal amount of [ICON_RESEARCH] Science.</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Handelswege zu fremden Städten mit einem Firaxite Materials Franchise produzieren +50 % zusätzliche [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FIRAXITE_MATERIALS_OFFICE_BENEFIT_HELP">
 			<Text>Aktueller Konzernbüro Bonus: +{1_Num} [ICON_RESEARCH] Wissenschaft.</Text>
@@ -787,10 +788,10 @@
 			<Text>A corporation is a company or group of people authorized to act as a single entity (legally a person) and recognized as such in law. Early incorporated entities were established by charter (i.e. by an ad hoc act granted by a monarch or passed by a parliament or legislature). Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered into two kinds: by whether or not they can issue stock, or by whether or not they are for profit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_STRATEGY">
-			<Text>When a [ICON_INTERNATIONAL_TRADE] Trade Route between a foreign City and this City completes, a Firaxite Materials Franchise is constructed in the foreign City.[NEWLINE][NEWLINE]Firaxite Materials cannot be sold or destroyed by the player, and increases the [ICON_RESEARCH] Science output of all Firaxite Materials Offices by +3.[NEWLINE][NEWLINE]You cannot have more Franchises than your Franchise Limit (see the Corporation and Monopolies Overview for more on this).</Text>
+			<Text>Wenn ein [ICON_INTERNATIONAL_TRADE] Handelsweg zwischen einer fremden Stadt und dieser Stadt fertiggestellt ist, wird in der fremden Stadt ein Firaxite Materials Franchise errichtet.[NEWLINE][NEWLINE]Firaxite Materials kann vom Spieler nicht verkauft oder zerstört werden und erhöhen die wissenschaftliche Leistung aller Firaxite Materials Konzernbüros um +2.[NEWLINE][NEWLINE][NEWLINE]Sie können nicht mehr Franchises haben als Ihr Franchise Limit (siehe "Übersicht über Unternehmen und Monopole" für mehr Informationen).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
-			<Text>+20% [ICON_PRODUCTION] Production when constructing Buildings in this City, and +1 [ICON_RESEARCH] Science on all Firaxite Materials Monopoly Resources near this City. +3 [ICON_RESEARCH] Science for every Firaxite Materials Franchise (up to your Franchise Limit).[NEWLINE][NEWLINE]Trade Routes to foreign Cities with a Firaxite Materials Franchise produce double their normal amount of [ICON_RESEARCH] Science.</Text>
+			<Text>+20%[ICON_PRODUKTION] Produktion beim Bau von Gebäuden in dieser Stadt und +1 [ICON_RESEARCH] Wissenschaft auf alle Firaxite Materials Monopolressourcen in der Nähe dieser Stadt. +2 [ICON_RESEARCH] Wissenschaft für jedes Firaxite Materials Franchise (bis zu Ihrem Franchise Limit)[NEWLINE][NEWLINE]Handelswege zu fremden Städten mit einem Firaxite Materials Franchise produzieren 50 % mehr [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CORPORATION_TWOKAY_FOODS">

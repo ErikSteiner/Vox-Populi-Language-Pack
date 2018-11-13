@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="9">
+<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" version="10">
   <Properties>
     <Name>(1a) Community Patch Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(01-26) [COLOR_GREEN]Translation of the Community Patch[ENDCOLOR]</Teaser>
+    <Teaser>(11-11) [COLOR_GREEN]Translation of the Community Patch[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Patch to different languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>0</AffectsSavedGames>
-    <MinCompatibleSaveVersion>9</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>72</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -34,11 +34,11 @@
     <File md5="7F5684B0029D7072F7E8C48D93A93112" import="0">Core Files/PNM Mods DB/BUGFIX/de_DE/UnitclassNotUnit.xml</File>
     <File md5="3D5DAB2B7F7DD8E45C3EE234AA2196D3" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/UnitNaming.xml</File>
     <File md5="99F6DA4B2DEF5881FA2FBFE14A504AEC" import="0">Core Files/PNM Mods DB/PROMOTIONS/de_DE/VariableRecon.xml</File>
-    <File md5="2D9E8679F9A995EED9A5FECE7EEA4511" import="0">Core Files/Text/CoreText_de_DE.xml</File>
-    <File md5="8327CF82052EB98E15314153C8781BAF" import="0">Core Files/Text/CoreText_de_DE.sql</File>
-    <File md5="8BCC36D2A3CF7EEC86AEF5F203B7D3B7" import="0">Modules/Events/Text/de_DE/City_de_DE.xml</File>
-    <File md5="8E02BEA7FC5001AAB3E8AE62E739EB8B" import="0">Modules/Events/Text/de_DE/EventCore_de_DE.xml</File>
-    <File md5="BA254F9B39234585846E13D6C58BBB09" import="0">Modules/Events/Text/de_DE/Player_de_DE.xml</File>
+    <File md5="FA047DC56FFB0033D3CC994A0EA22648" import="0">Core Files/Text/CoreText_de_DE.xml</File>
+    <File md5="D7117561FD74F36665D4F3BF6A8478A0" import="0">Core Files/Text/CoreText_de_DE.sql</File>
+    <File md5="30B823F2FD58FEB8C78097C71E8A0E42" import="0">Modules/Events/Text/de_DE/City_de_DE.xml</File>
+    <File md5="0BDE73B5660012D48C9FD15C658D2A8E" import="0">Modules/Events/Text/de_DE/EventCore_de_DE.xml</File>
+    <File md5="0EA516574FD3C27CCA45A11E132B76C6" import="0">Modules/Events/Text/de_DE/Player_de_DE.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

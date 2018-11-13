@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="22bfc64e-243a-40e6-aa12-9c51ae64ea5d" version="9">
+<Mod id="22bfc64e-243a-40e6-aa12-9c51ae64ea5d" version="10">
   <Properties>
     <Name>(3a) CS Diplomacy Mod for CBP Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(01-26) [COLOR_GREEN]Translation of City-State Diplomacy Mod for CBP[ENDCOLOR]</Teaser>
+    <Teaser>(11-11) [COLOR_GREEN]Translation of City-State Diplomacy Mod for CBP[ENDCOLOR]</Teaser>
     <Description>Translation of CSD for CBP into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -20,30 +20,30 @@
   </Properties>
   <Dependencies>
     <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="52" maxversion="999" title="Community Patch - Core" />
-	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="9" maxversion="999" title="(1a) Community Patch Localized" />
+	<Mod id="5cfa5cfc-fe0f-456f-8003-73e6b56865c1" minversion="10" maxversion="999" title="(1a) Community Patch Localized" />
 	<Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="9" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
+	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="10" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
 	<Mod id="eead0050-1e3f-4178-a91f-26cf1881ac39" minversion="27" maxversion="999" title="City-State Diplomacy Mod for CBP" />
   </Dependencies>
   <References />
   <Blocks />
   <Files>
-    <File md5="9d8bdfcdc8eb4c3486b8cf9fc2004660" import="0">Buildings/de_DE/BuildingRules.sql</File>
-    <File md5="a1b09a57ff69b216a31ac328e6e671e1" import="0">Buildings/de_DE/BuildingText.xml</File>
-    <File md5="e4ca51b419ed87475906e17dec378f78" import="0">Buildings/de_DE/DiploBuildingText.sql</File>
-    <File md5="aed054314bcc0255dbd7f53320441112" import="0">Buildings/de_DE/VanillaBuildingChanges.sql</File>
-    <File md5="7f3fadd534652feebc0309c4d622bc34" import="0">Gameplay/de_DE/GameplayText.sql</File>
-    <File md5="9f07568960e8e4fcbd1cc5b45cceadfe" import="0">Improvements/de_DE/Build.xml</File>
-    <File md5="9623181eca54de616f3237c391f53040" import="0">Improvements/de_DE/ImprovementText.xml</File>
-    <File md5="d0e4e0c4443f86d012ea35d42495f70f" import="0">Promotions/de_DE/PromotionText.xml</File>
-    <File md5="32d1ac34fb7e64c8feda7107e0334796" import="0">Quests/de_DE/CityStateQuest.xml</File>
-    <File md5="7dfe4acf1b03e2ddcdaafe61370b06b6" import="0">Resource/de_DE/Paper.xml</File>
-    <File md5="e6fb05eec59512819ef4a532ee88101b" import="0">Specialist/de_DE/CivilServant.xml</File>
-    <File md5="3afc3f74ef01f6cbb8e1128fe245fc97" import="0">Units/de_DE/GreatDiplomats.xml</File>
-    <File md5="638e0e0dfd0154dbea3c29f9848db232" import="0">Units/de_DE/UnitText.xml</File>
-    <File md5="38eab4b34008a1796b6114a2af2ad05b" import="0">World Congress/de_DE/Congress.xml</File>
-    <File md5="bd4cbe45419db301606a90ed27015823" import="0">World Congress/de_DE/IdeologyChanges.sql</File>
-    <File md5="872083d1e2451d4be59a9b6f932ca3e6" import="0">World Congress/de_DE/Projects.xml</File>
+    <File md5="9D8BDFCDC8EB4C3486B8CF9FC2004660" import="0">Buildings/de_DE/BuildingRules.sql</File>
+    <File md5="FDB40A09D8FCBCB5FA7247A929B0E779" import="0">Buildings/de_DE/BuildingText.xml</File>
+    <File md5="0E1808916EE55D5C9E82E3FB5EB7143D" import="0">Buildings/de_DE/DiploBuildingText.sql</File>
+    <File md5="AED054314BCC0255DBD7F53320441112" import="0">Buildings/de_DE/VanillaBuildingChanges.sql</File>
+    <File md5="E8F2C8E2830F8B5265710953E3C7A68B" import="0">Gameplay/de_DE/GameplayText.sql</File>
+    <File md5="9F07568960E8E4FCBD1CC5B45CCEADFE" import="0">Improvements/de_DE/Build.xml</File>
+    <File md5="D31BFDDDA6C0409AA21A5FF8B88FE67A" import="0">Improvements/de_DE/ImprovementText.xml</File>
+    <File md5="4E679C71CC0E5F84577F78D7697158E0" import="0">Promotions/de_DE/PromotionText.xml</File>
+    <File md5="32D1AC34FB7E64C8FEDA7107E0334796" import="0">Quests/de_DE/CityStateQuest.xml</File>
+    <File md5="46176788CF23E82E91C0E18D16A6651C" import="0">Resource/de_DE/Paper.xml</File>
+    <File md5="755DB618C9543072FD0F2A3CE48FFFE0" import="0">Specialist/de_DE/CivilServant.xml</File>
+    <File md5="3AFC3F74EF01F6CBB8E1128FE245FC97" import="0">Units/de_DE/GreatDiplomats.xml</File>
+    <File md5="DDC59F1D943F918842C59C6616F65F79" import="0">Units/de_DE/UnitText.xml</File>
+    <File md5="38EAB4B34008A1796B6114A2AF2AD05B" import="0">World Congress/de_DE/Congress.xml</File>
+    <File md5="6CDC0123734E3D0D596FE1C591853720" import="0">World Congress/de_DE/IdeologyChanges.sql</File>
+    <File md5="872083D1E2451D4BE59A9B6F932CA3E6" import="0">World Congress/de_DE/Projects.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

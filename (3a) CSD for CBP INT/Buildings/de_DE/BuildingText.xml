@@ -65,7 +65,7 @@
 			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
-			<Text>+2 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Presseagentur in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Presseagentur in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
@@ -79,16 +79,16 @@
 			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Alle Kanzleien produzieren +3 [ICON_GOLD] Gold und +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
-			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. +1 [ICON_RES_PAPER] Papier. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
-			<Text>Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PRODUCTION] Produktion in der Stadt, in der es gebaut wurde. +1 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle.[NEWLINE][NEWLINE]Benötigt eine Militär Akademie in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>Benötigt Autokratie. +15 [ICON_TOURISM] Tourismus und +25% [ICON_PRODUCTION] Produktion in der Stadt, in der es gebaut wurde. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Feindliche Hauptstadt[ENDCOLOR] unter Eurer Kontrolle.[NEWLINE][NEWLINE]Benötigt eine Militär Akademie in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
-			<Text>Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wurde. +1 [ICON_RES_PAPER] Papier. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt.[NEWLINE][NEWLINE]Benötigt eine Börse in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>Benötigt Freiheit. +15% [ICON_FOOD] Nahrung und [ICON_GOLD] Gold in der Stadt, in der es gebaut wurde. Erhaltet zwei Stimmen für jede [COLOR_POSITIVE_TEXT]Freundschaftserklärung[ENDCOLOR] die Ihr momentan mit anderen Spielern vereinbart habt.[NEWLINE][NEWLINE]Benötigt eine Börse in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
-			<Text>Erhaltet einen weiteren Handelsweg. Gewährt allen Marineeinheiten, außer U-Booten und Frachtern, die Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR], welche +10% Kampfstärke beim Angriff, +1 [ICON_MOVES] Fortbewegung, +1 Sicht und die Fähigkeit sich außerhalb von freundlichem Gebiet zu heilen.</Text>
+			<Text>Erhaltet einen weiteren Handelsweg. Gewährt allen Marineeinheiten, außer U-Booten und Frachtern, die Beförderung [COLOR_POSITIVE_TEXT]Schatzflotte[ENDCOLOR], welche +10% Kampfstärke beim Angriff, +1 Sicht und die Fähigkeit sich außerhalb von freundlichem Gebiet zu heilen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
 			<Text>25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Modernisierungen (Wahrzeichen, Moai-Statuen, Chateau) wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Erhaltet +3 [ICON_HAPPINESS_1] Zufriedenheit und +3 [ICON_CULTURE] Kultur in der Stadt, in der es gebaut wurde.</Text>
@@ -105,7 +105,7 @@
 		</Row>
 		-->
 		<Row Tag="TXT_KEY_UN_HELP">
-			<Text>Erhaltet 10 [ICON_INFLUENCE] Einfluss für alle Stadtstaaten die Ihr getroffen habt, wenn Ihr eine Große Persönlichkeit aufbraucht. Erhaltet einen weiteren Abgeordneten im Weltkongress. Löst sowohl ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, als auch eine Sondersitzung der [COLOR_POSITIVE_TEXT]Vereinten Nationen[ENDCOLOR] aus.</Text>
+			<Text>Erhaltet 25 [ICON_INFLUENCE] Einfluss für alle Stadtstaaten die Ihr getroffen habt, wenn Ihr eine Große Persönlichkeit aufbraucht. Erhaltet einen weiteren Abgeordneten im Weltkongress. Löst sowohl ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, als auch eine Sondersitzung der [COLOR_POSITIVE_TEXT]Vereinten Nationen[ENDCOLOR] aus.</Text>
 		</Row>
 		
 		<!--Diplo Building Strategy
