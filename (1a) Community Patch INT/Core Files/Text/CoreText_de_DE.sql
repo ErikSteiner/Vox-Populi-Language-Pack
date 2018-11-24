@@ -188,12 +188,16 @@ WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT';
 
 -- CS Stuff
 UPDATE language_de_DE
-SET Text = 'Sie erhielten vor sehr kurzer Zeit Tribut'
+SET Text = 'Jemand hat erst kürzlich einen Tribut gefordert'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY';
 
 UPDATE language_de_DE
-SET Text = 'Sie erhielten vor kurzer Zeit Tribut'
+SET Text = 'Jemand hat kürzlich einen Tribut gefordert'
 WHERE Tag = 'TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY';
+
+INSERT INTO language_de_DE
+			(Tag,										Text)
+SELECT		'TXT_KEY_POP_CSTATE_BULLY_FACTOR_MONGOL_TERROR',	'Ihr habt kürzlich einen Stadtstaat annektiert.';
 
 -- Razing
 UPDATE language_de_DE	
@@ -296,7 +300,7 @@ SET Text = 'Pläne vereiteln'
 WHERE Tag = 'TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR';
 
 UPDATE language_de_DE
-SET Text = '[COLOR_NEGATIVE_TEXT]Eure Spione wurden in ihrem Land gefangen.[ENDCOLOR]'
+SET Text = '[COLOR_NEGATIVE_TEXT]Ihr wurdet erwischt, wie Ihr von ihnen gestohlen habt.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_DIPLO_CAUGHT_STEALING';
 
 -- Changed Diplo Text for Trade
@@ -320,7 +324,13 @@ SET Text = '[COLOR_NEGATIVE_TEXT]Euer kürzliches diplomatisches Vorgehen enttä
 WHERE Tag = 'TXT_KEY_DIPLO_REFUSED_REQUESTS';
 
 -- Diplo Text for DoF changed
+
 UPDATE language_de_DE
+SET Text = '[COLOR_NEGATIVE_TEXT]Wir haben eine Freundschaftserklärung abgegeben und sie dann denunziert![ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_DIPLO_HUMAN_FRIEND_DENOUNCED';
+
+
+UPDATE Language_en_US
 SET Text = 'Unsere Freundschaftserklärung muss enden.'
 WHERE Tag = 'TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_WORK_WITH_US';
 
@@ -392,6 +402,10 @@ WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLA
 UPDATE language_de_DE
 SET Text = 'Der andere Anführer hat noch keine anderen Spieler getroffen oder Ihr habt noch keine Botschaft mit diesem Spieler.'
 WHERE Tag = 'TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM';
+
+UPDATE language_de_DE
+SET Text = 'Unsere Wirtschaft wird durch die Anzahl der Einheiten, die wir haben, beeinträchtigt. Wir sollten alle nicht benötigten Einheiten auflösen, damit unsere Zivilisation mit voller Kapazität arbeiten kann.'
+WHERE Tag = 'TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS';
 
 -- Civilopedia Refresh
 UPDATE language_de_DE
@@ -496,7 +510,7 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_LOST_CAPITAL';
 
 UPDATE language_de_DE
 SET Text = 'Kann die Runde niemals auf einem Tiefsee-Geländefeld beenden. Kann sich durch Tiefsee-Geländefelder bewegen, wenn es seinen Zug auf einem Küsten-Geländefeld beendet.'
-WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE';
+WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_OCEAN_IMPASSABLE_HELP';
 
 UPDATE language_de_DE
 SET Text = 'Kann bis [COLOR_POSITIVE_TEXT]Astronomie[ENDCOLOR] entdeckt wurde die Runde nicht auf einem Tiefsee-Geländefeld beenden. Kann sich durch Tiefsee-Geländefelder bewegen, wenn es seinen Zug auf einem Küsten-Geländefeld beendet.'
@@ -532,3 +546,40 @@ INSERT INTO language_de_DE
 			(Tag,										Text)
 SELECT		'TXT_KEY_SCIENCE_BOOST_CONQUEST_ASSYRIA',	'Unsere Soldaten fanden [ICON_RESEARCH] Wissenschaft, während der Eroberung von {1_Name}!'
 WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT' AND Value= 1 );
+
+-- All Growth Modifier Tooltips with Icons
+UPDATE language_de_DE
+SET Text = '[NEWLINE][ICON_BULLET][ICON_CONNECTED] Reichsmodifikator: {1_Num}%'
+WHERE Tag = 'TXT_KEY_FOODMOD_PLAYER';
+
+UPDATE language_de_DE
+SET Text = '[NEWLINE][ICON_BULLET][ICON_RELIGION_PANTHEON] Religiöser Glaubenssatz-Modifikator: {1_Num}%'
+WHERE Tag = 'TXT_KEY_FOODMOD_RELIGION';
+
+UPDATE language_de_DE
+SET Text = '[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1] Feiertagsmodifikator: {1_Num}%'
+WHERE Tag = 'TXT_KEY_FOODMOD_WLTKD';
+
+-- Revolt TT fix.
+UPDATE language_de_DE
+SET Text = 'Da die [ICON_HAPPINESS_4] Unzufriedenheit im Reich mindestens den Wert 20 erreicht hat (oder die Öffentliche Meinung nicht Zufrieden ist), wird eine Stadt in {1_Turns} Runden aufbegehren. Basierend auf der aktuellen Unzufriedenheit und dem Druck durch Kultur/Ideologien aus der Umgebung ist es am wahrscheinlichsten, dass die Stadt {2_CityName} aufbegehren und sich der Zivilisation {3_CivName} anschließen wird. Ihr solltet das Niveau an Unzufriedenheit so schnell wie möglich senken!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
+
+-- Rebels!
+UPDATE language_de_DE
+SET Text = 'Da die [ICON_HAPPINESS_4] Unzufriedenheit im Reich mindestens den Wert 20 erreicht hat, hat die Stadt {1_CityName} aufbegehrt und sich der Zivilisation {2_CivName} angeschlossen!'
+WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+
+
+UPDATE language_de_DE
+SET Text = 'Sehr gut. Aber auf lange Sicht wird keiner von uns profitieren - irgendwann sterben wir alle.'
+WHERE Tag = 'TXT_KEY_LEADER_NEBUCHADNEZZAR_TRADE_YES_HAPPY';
+
+UPDATE language_de_DE
+SET Text = 'Es ehrt mein Volk und hilft den Bedürftigen.'
+WHERE Tag = 'TXT_KEY_LEADER_POCATELLO_TRIBUTE_YES_NEUTRAL';
+
+
+UPDATE language_de_DE
+SET Text = '[COLOR_WARNING_TEXT]{1_Number} Abfangjäger![ENDCOLOR]'
+WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';

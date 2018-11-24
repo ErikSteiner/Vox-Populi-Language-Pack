@@ -53,33 +53,27 @@
 			<Text>Lasst uns auf etwas einfaches konzentrieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1_HELP">
-			<Text>Zahlt {1_Scaled}. 50% Wahrscheinlichkeit um +75 [ICON_FOOD] Nahrung in der Stadt zu erhalten.</Text>
+			<Text>Zahlt {1_Scaled}. Um {2_InstantYield} Nahrung in der Stadt zu erhalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2">
 			<Text>Eine große Investition wird sich bezahlt machen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2_HELP">
-			<Text>Zahlt {1_Scaled}. 50% Wahrscheinlichkeit das Fischerboote nahe der Stadt +2 [ICON_FOOD] Nahrung für {5_Turns} produzieren.</Text>
+			<Text>Fischerboote nahe der Stadt produzieren +5 [ICON_FOOD] Nahrung für {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3">
-			<Text>Ich würde lieber in Infrastruktur investieren.</Text>
+			<Text>Ich würde lieber in etwas viel lukrativeres investieren...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_HELP">
-			<Text>Zahlt {1_Scaled}. Ein Hafen wird in der Stadt errichtet.</Text>
+			<Text>Investiert {1_Scaled}. 50 % Chance das ein Hafens in der Stadt gebaut wird.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1_SUCCESSFUL">
-			<Text>Die Fischer aus {2_City} waren auf ihrer Reise erfolgreich und sind mit einer großen Menge Fisch zurückgekehrt!{5_Help}</Text>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL">
+			<Text>Die Investition in {2_City} war erfolgreich und wurde für den Bau vorbereitet!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_1_SUCCESSFUL_S">
-			<Text>Angelausflug erfolgreich!</Text>
+		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_3_SUCCESSFUL_S">
+			<Text>Hafen gebaut!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2_SUCCESSFUL">
-			<Text>Die Fischer aus {2_City} waren erfolgreich und alle Fischerboote nahe {2_City} produzieren +2 [ICON_FOOD] Nahrung!{5_Help}</Text>
-		</Row>
-		<Row Tag="TXT_KEY_CITY_EVENT_FISHING_EXPEDITION_CHOICE_2_SUCCESSFUL_S">
-			<Text>Angelausflug erfolgreich!</Text>
-		</Row>
-		
+
 		<!-- Amphitheater -->
 		<Row Tag="TXT_KEY_CITY_EVENT_AMPHITHEATER_NEW_DRAMA">
 			<Text>Dramaturgisches Meisterwerk</Text>
@@ -249,31 +243,31 @@
 			<Text>Offensichtlich ein Ski-Wettbewerb.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_1_HELP">
-			<Text>Erhaltet 400 [ICON_GOLD] Gold und 100 [ICON_CULTURE] Kultur. </Text>
+			<Text>Erhaltet 100 [ICON_GOLD] Gold und 75 [ICON_CULTURE] Kultur. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2">
 			<Text>Offensichtlich Wasserspiele.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_2_HELP">
-			<Text>Erhaltet 400 [ICON_GOLD] Gold und 250 [ICON_RESEARCH] Wissenschaft.</Text>
+			<Text>Erhaltet 100 [ICON_GOLD] Gold und 75 [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3">
 			<Text>Ziemlich sicher, dass es Fußball war. Nein, die amerikanische Variante.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_3_HELP">
-			<Text>Erhaltet 500 [ICON_GOLD] Gold.</Text>
+			<Text>Erhaltet 200 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4">
 			<Text>Ziemlich sicher, dass es Fußball war. Ja, die richtige Variante.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_4_HELP">
-			<Text>Erhaltet 500 [ICON_GOLD] Gold.</Text>
+			<Text>Erhaltet 200 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5">
 			<Text>Ein Sportereignis? Nein, es war eine Feierlichkeit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_STADIUM_LOCAL_EVENT_CHOICE_5_HELP">
-			<Text>Erhaltet 300 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.</Text>
+			<Text>Erhaltet 400 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.</Text>
 		</Row>
 
 		<!-- Nuclear Plant -->
@@ -330,17 +324,53 @@
 		</Row>
 
 		<!-- Disasters -->
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE">
+			<Text>Bergbauunfall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_HELP">
+			<Text>Ein Minenschacht in der Nähe der Stadt traf auf eine Art Flüssigkeitsspeicher und hat begonnen, sich mit Flüssigkeit zu füllen.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1">
-			<Text>Minen Unglück</Text>
+			<Text>Schließt die Tunnel, um zu erhalten, was wir können.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_1_HELP">
-			<Text>Ein Grubenschacht ist nahe der Stadt eingestürzt, bei dem alle Bergleute ums Leben kamen und die Mine beschädigt wurde.</Text>
+			<Text>Begrabt den gefährdeten Zweig der Mine. Es geht in den Zustand "Geplündert" über.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2">
+			<Text>Weisen Sie Ingenieure aus der Stadt zu, um den Bruch mit minimalem Verlust des Tunnelzugangs zu schließen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_2_HELP">
+			<Text>Verzögert das aktuelle Bauprojekt der Stadt um {1_YieldCost}, aber rettet die Mine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3">
+			<Text>Die Flüssigkeit scheint reich an Öl zu sein. Benutzen Sie unser Bodenradar, um die Reserve zu lokalisieren und mit der Extraktion zu beginnen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_MINE_COLLAPSE_CHOICE_3_HELP">
+			<Text>Gebt {1_YieldCost} aus, um 1 [ICON_RES_OIL] Öl zu erhalten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE">
+			<Text>Den Rauch tragen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_HELP">
+			<Text>Das Unterholz in einem nahegelegenen Wald ist in Flammen aufgegangen und zwingt die Arbeiter aus dem Wald, bis die Brände nachlassen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1">
-			<Text>Waldbrand</Text>
+			<Text>Es gibt nichts, was wir tun können, außer abzuwarten. Das Leben dieser Männer ist wichtiger als unsere Holzfällerei.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_1_HELP">
-			<Text>Gestrüpp in einem nahe gelegenen Wald ist in Brand geraten und hat die dortigen Arbeiter dazu gezwungen den Wald zu verlassen, bis das Feuer nachlässt. Bis zu zwei Sägewerke nahe der Stadt wurden beschädigt.</Text>
+			<Text>Bis zu zwei Sägewerke in der Nähe der Stadt werden geplündert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2">
+			<Text>Schickt Feuerwehrleute mit Wasser und Äxten rein, schützt unsere Infrastruktur um jeden Preis!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_2_HELP">
+			<Text>{1_YieldCost} im Wert von Männern, die den Flammen erliegen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3">
+			<Text>Ruft unser Reserveflugzeug, um die Feuer zu löschen und hemmenden Stickstoff aus der Luft zu verteilen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FOREST_FIRE_CHOICE_3_HELP">
+			<Text>Geben Sie {1_YieldCost} aus. Üppiges Wachstum gedeiht dort, wo das Feuer einst wütete. Nahe gelegene Wälder produzieren +1 [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_AVALANCHE_CHOICE_1">
 			<Text>Lawine</Text>
@@ -436,19 +466,55 @@
 		</Row>
 		
 		<!-- Pestilence -->
-		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1">
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE">
 			<Text>Plage</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_HELP">
+			<Text>Pflanzen wurden verrottet in der Erde gefunden. Es ist nicht klar, wie weit sich die Infektion ausgebreitet hat, aber ein großer Teil der Ernte ist gefährdet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1">
+			<Text>Verbrennt die verdorbenen Felder.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_1_HELP">
-			<Text>Eine Kartoffelfäule hat das nahe Ackerland dieser Stadt verwüstet. Bis zu zwei Bauernhöfe nahe der Stadt wurden beschädigt.</Text>
+			<Text>Die Bauerngemeinden in der Nähe der Stadt sind am Boden zerstört. Bis zu zwei Bauernhöfe in der Nähe der Stadt gelangen in den Zustand "Geplündert".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2">
+			<Text>Versucht vor dem Winter wieder zu pflanzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_2_HELP">
+			<Text>Entnehmt {1_YieldCost} aus dem Getreidespeicher der Stadt, um eine weitere Ernte zu säen und die Landwirtschaft der Region wie gewohnt fortzusetzen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3">
+			<Text>Entwickelt ein maßgeschneidertes Fungizid zur Ausrottung der Krankheit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_PESTILENCE_CHOICE_3_HELP">
+			<Text>Weist {1_YieldCost} der Forscher zu, um den Ertrag der nahegelegenen Bauernhöfe um +1 [ICON_FOOD] Nahrung zu erhöhen.</Text>
 		</Row>
 
 		<!-- Flooding -->
-		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1">
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING">
 			<Text>Überschwemmungen</Text>
 		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_HELP">
+			<Text>Der Flusspegel der Stadt ist gefährlich hoch gestiegen und bedroht die Stadt und das Umland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1">
+			<Text>Die Überschwemmung ertragen.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_1_HELP">
-			<Text>Der Fluß der Stadt ist über die Ufer getreten und hat das Ackerland und Gebäude der Stadt beschädigt. Bis zu 3 Bauernhöfe sind beschädigt und einige Gebäude können auch zerstört worden sein.</Text>
+			<Text>Bis zu 3 Bauernhöfe werden geplündert, und einige Gebäude können ebenfalls zerstört werden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2">
+			<Text>Schickt Arbeiter zum Bau eines Hochwasserschutzes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_2_HELP">
+			<Text>Neuzuweisung von {1_YieldCost} aus dem Bauprojekt der Stadt zur Rettung der Ackerflächen, auch wenn einige Gebäude noch zerstört werden können.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3">
+			<Text>Plant ein Steuerungssystem im Wasserkraftwerk zur Regulierung des Flusspegels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_EVENT_FLOODING_CHOICE_3_HELP">
+			<Text>Weist {1_YieldCost} Forscher zu, um Überschwemmungen in dieser Region dauerhaft zu lösen. Erhaltet einen Schub von {4_GPChange}.</Text>
 		</Row>
 
 		<!-- Hurricane -->
@@ -590,33 +656,33 @@
 		
 		<!-- Rebels -->
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS">
-			<Text>Ärger braut sich zusammen</Text>
+			<Text>La Resistance</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_HELP">
 			<Text>Drohungen gegen Eure Herrschaft wachsen weiter in der Stadt und Eure Berater sind besorgt, dass es in Gewalt umschlagen kann. Ihr müsst die Wurzeln des Widerstands ausrotten, bevor er zu stark wird. Eure Möglichkeiten sind jedoch begrenzt:</Text>
 		</Row>
-			
+
 
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1">
 			<Text>Sie werden die Inquisition nie erwarten!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_1_HELP">
-			<Text>Die Stadt verliert 5 [ICON_CITIZEN] Bevölkerung.</Text>
+			<Text>Die Stadt verliert 3 [ICON_CITIZEN] Bevölkerung.</Text>
 		</Row>
-			
-			
+
+
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2">
 			<Text>Ködert die Rebellen - wir zermalmen sie mit unserer militärischen Macht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2_HELP">
-			<Text>Vier Rebelleneinheiten erscheinen nahe der Stadt und die Stadt tritt für drei Runden in einen [ICON_RESISTANCE] Zivilen Widerstand.</Text>
+			<Text>Drei Rebelleneinheiten erscheinen nahe der Stadt und die Stadt tritt für 1 Runde in einen [ICON_RESISTANCE] Zivilen Widerstand.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3">
 			<Text>Stellt die Rebellen unter Quarantäne. Sie können Teil der Stadt nehmen, aber das ist unvermeidlich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3_HELP">
-			<Text>15% Wahrscheinlichkeit, dass jedes Gebäude in der Stadt zerstört wird.</Text>
+			<Text>10 % Wahrscheinlichkeit, dass jedes Gebäude in der Stadt zerstört wird.</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>

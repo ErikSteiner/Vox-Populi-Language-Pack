@@ -2611,7 +2611,7 @@
 		<Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED_FIRST">
 			<Text>{1_PlyrName} first to complete {@2_PrjctName}!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED_UNKNOWN_FIRST">
+		<Row Tag="TXT_KEY_MISC_WONDER_COMPLETED_UNKNOWN_FIRST">
 			<Text>{@1_PrjctName} was completed first in a far away land!</Text>
 		</Row>
 
@@ -2659,11 +2659,14 @@
 		</Row>
 
 		<!-- Promises LUA -->
-		<Row Tag="TXT_KEY_DIPLO_PROMISE_EXPANSION">
-			<Text>[[COLOR_POSITIVE_TEXT]]You promised not to settle near them for {1_Num} more turn(s).[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
+			<Text>You promised to keep your military forces away from their borders for {1_Num} more turn(s).</Text>
 		</Row>
-		<Row Tag="TXT_KEY_DIPLO_PROMISE_BORDER">
-			<Text>[[COLOR_POSITIVE_TEXT]]You promised not to buy land near them for {1_Num} more turn(s).[ENDCOLOR]</Text>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
+			<Text>You promised not to settle near them for {1_Num} more turn(s).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
+			<Text>You promised not to buy land near them for {1_Num} more turn(s).</Text>
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
@@ -2687,6 +2690,23 @@
 		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
 			<Text>Offene Grenzen [ICON_GOLD] Gold Bonus: +{1_Num}%</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_DISTANCE_MOD">
+			<Text>Annäherungsstrafe: {1_Num}%</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_MINOR_CS_TT_BONUS">
+			<Text>Goldbonus aus dem Handel innerhalb Eures Reiches: {2_Num}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN">
+			<Text>Gesamt: {1_Num} [ICON_RESEARCH] Wissenschaft (aufgrund des Handels innerhalb Eures Reiches)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CHOOSE_GOLD_INTERNAL_TRADE_ROUTE_ITEM_TT_YOUR_CULTURE_GAIN">
+			<Text>Gesamt: {1_Num} [ICON_CULTURE] Kultur (aufgrund des Handels innerhalb Eures Reiches)</Text>
+		</Row>
+	
 		<!-- LUA for CBP -->
 		<Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
 			<Text>Eine Freundschaftserklärung verhindert dies.</Text>
@@ -2696,7 +2716,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
-			<Text>Kriegspunkte müssen über Null liegen. Aktuelle Kriegspunkte: {1_Num}.</Text>
+			<Text>Kriegspunkte müssen über 75 liegen. Aktuelle Kriegspunkte: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
 			<Text>Kann keine sich nicht-ergebene Partei zum Friedensabkommen hinzufügen</Text>
@@ -2745,6 +2765,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_IMPOSSIBLE">
 			<Text>Deal Value for Them: Impossible!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO">
+			<Text>SANCTIONED BY WORLD CONGRESS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO_TT">
+			<Text>You cannot make deals during peacetime with this Civilization until the Sanction is lifted.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_ACCEPTABLE">
 			<Text>Deal Value for Them: Acceptable</Text>
@@ -3425,7 +3451,7 @@
 			<Text>I find it hard to speak freely with tyrants such as yourself.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_HARUN_GREETING_HOSTILE_HELLO_2">
-			<Text>You are a fool to by my enemy. Do you not see what I do to my enemies?</Text>
+			<Text>Ihr seid ein Narr, mein Feind zu sein. Seht Ihr nicht, was ich mit meinen Feinden mache?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MONTEZUMA_GREETING_HOSTILE_HELLO_2">
 			<Text>The blood of my enemies flows from this shrine. Shall I add yours to the mix?</Text>
@@ -4882,6 +4908,12 @@
 		<!-- ESSENTIAL TEXTS - DO NOT CHANGE -->
 
 		<!-- New Building Pop Requirements -->
+	
+		<Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
+			<Text>[NEWLINE]{2_BuildingName:textkey} benötigt {1_Num} {1_Num: plural 1?weiteren Grundsatz; other?weitere Grundsätze;} der Stufe 3..</Text>
+		</Row>
+
+
 		<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
 			<Text>[NEWLINE]{2_BuildingName:textkey} requires {1_Num} more national citizens to be constructed.</Text>
 		</Row>
@@ -5175,7 +5207,7 @@
 		</Row>
 		<!-- Global Domination Resistance -->
 		<Row Tag="TXT_KEY_EUPANEL_RESISTANCE_POWER">
-			<Text>Resistance (Domination)</Text>
+			<Text>Anti-Warmonger Fervor</Text>
 		</Row>
 
 		<!-- Tooltips for required resource monopolies-->
@@ -5189,6 +5221,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
 			<Text>[NEWLINE]You recently purchased a [ICON_GREAT_PEOPLE] Great Person with [ICON_PEACE] Faith, and must wait for {1_Num} more turn(s) to do so again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
+			<Text>[NEWLINE]You recently made a [ICON_PEACE] Faith purchase in this city, and must wait for {1_Num} more turn(s) to do so again.</Text>
 		</Row>
 
 		<!-- Tooltips for CBP Austria Ability -->
@@ -5246,10 +5281,10 @@
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
 			<Text>[COLOR_POSITIVE_TEXT]Defensive Pact with {1_CivName:textkey}[ENDCOLOR]</Text>
 		</Row>
-		
+
 		<!-- Brazil LUA-->
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-			<Text>Carnaval has begun! All Cities will celebrate Carnaval for {1_Num} turns, during which time they will produce +20% [ICON_CULTURE] Culture instead of the normal 25% [ICON_FOOD] Growth bonus.</Text>
+			<Text>Carnaval has begun! All Cities will celebrate Carnaval for {1_Num} turns, during which time they will produce +25% [ICON_CULTURE] Culture in addition to the normal 25% [ICON_FOOD] Growth bonus.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
 			<Text>Carnaval begins!</Text>
@@ -5272,114 +5307,121 @@
 			<Text>{1_PlayerName} restored!</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY">
+			<Text>Because the empire has at least 20 [ICON_HAPPINESS_4] Unhappiness, a city will revolt in {1_Turns} turns. Based on current Unhappiness levels, the city most likely to revolt is {2_CityName}. If this city revolts, it will become an independent City-State. Try to get your empire's Happiness level out of this range as soon as possible!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_FREE_CITY">
+			<Text>The {1_CivAdjective} city of {2_CityName} has revolted and declared itself the free City-State of {3_CivName}!</Text>
+		</Row>
+
 		<!-- Denounce Statements -->
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_1">
-			<Text>I have stood by long enough while your armies lay waste to this world. I can only hope this denouncement will finally put a stop to your ambitions. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I have stood by long enough while your armies lay waste to this world. I can only hope this denouncement will finally put a stop to your ambitions. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_2">
-			<Text>Your thirst for blood is an abomination, tyrant. As long as I have breath, the entire world will know of the cruelty you have inflicted upon it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your thirst for blood is an abomination, tyrant. As long as I have breath, the entire world will know of the cruelty you have inflicted upon it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_1">
-			<Text>Surely, even you must understand that there is only one path for this world's future. And you are travelling down the wrong one. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Surely, even you must understand that there is only one path for this world's future. And you are travelling down the wrong one. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_2">
-			<Text>You have betrayed not only me, but also your own people, by accepting this ideology. Listen to us both before your actions lead to even worse conflicts. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You have betrayed not only me, but also your own people, by accepting this ideology. Listen to us both before your actions lead to even worse conflicts. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_1">
-			<Text>Even from this far, I hear your people calling out for liberty and justice! If you will not heed their words, these may be the last ones we speak in peace. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Even from this far, I hear your people calling out for liberty and justice! If you will not heed their words, these may be the last ones we speak in peace. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_2">
-			<Text>Democracy, a free press, and a free market are the rights of all people. Our nation shall no longer watch while you continue to trample on the hearts of your citizens! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Democracy, a free press, and a free market are the rights of all people. Our nation shall no longer watch while you continue to trample on the hearts of your citizens! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_1">
-			<Text>Your people's voices call out for economic justice and social equality. As long as you deny the righteous path of Order, we will never be able to see eye to eye. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your people's voices call out for economic justice and social equality. As long as you deny the righteous path of Order, we will never be able to see eye to eye. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_2">
-			<Text>Why do you continue to deny the rights of your workers to live without the evils of hunger and poverty? If it takes this denouncement to end their suffering, so be it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Why do you continue to deny the rights of your workers to live without the evils of hunger and poverty? If it takes this denouncement to end their suffering, so be it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_1">
-			<Text>Without a strong leader to guide them, your nation stands on the edge of a knife. It is not too late to accept the path of security and stability - do not force my hand. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Without a strong leader to guide them, your nation stands on the edge of a knife. It is not too late to accept the path of security and stability - do not force my hand. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_2">
-			<Text>Your choices have made it clear that only one nation has the strength to lead this world to prosperity: mine. Join me or suffer the consequences. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your choices have made it clear that only one nation has the strength to lead this world to prosperity: mine. Join me or suffer the consequences. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_1">
-			<Text>The greed and ambition of your people will only destroy them in the end. Allow your people to throw off the yoke of Freedom, and stop spreading your lies before it is too late. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>The greed and ambition of your people will only destroy them in the end. Allow your people to throw off the yoke of Freedom, and stop spreading your lies before it is too late. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_2">
-			<Text>Your imperialist aggression has grown tiresome. Cease trying to convince my people to follow the path of Freedom before I am forced to take drastic action. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your imperialist aggression has grown tiresome. Cease trying to convince my people to follow the path of Freedom before I am forced to take drastic action. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_1">
-			<Text>I know that you are trying to cause a worker's revolution in my lands. For my nation's stability and yours, cease this envangelizing of Order at once. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I know that you are trying to cause a worker's revolution in my lands. For my nation's stability and yours, cease this envangelizing of Order at once. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_2">
-			<Text>Keep your radical Order beliefs away from my people's ears before I show you what 'better dead than red' really means. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Keep your radical Order beliefs away from my people's ears before I show you what 'better dead than red' really means. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_1" >
-			<Text>Your supposed military might is not enough to hide the cruelty you inflict upon your own people from the world. Cease your tyranny before we are forced to declare war against you! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your supposed military might is not enough to hide the cruelty you inflict upon your own people from the world. Cease your tyranny before we are forced to declare war against you! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_2" >
-			<Text>Other nations may hesitate in fear of you, but for the sake of this world, ours shall be the one to take a stand. Renounce your belief in Autocracy before it is too late! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Other nations may hesitate in fear of you, but for the sake of this world, ours shall be the one to take a stand. Renounce your belief in Autocracy before it is too late! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_1">
-			<Text>Your people's sacrilegious beliefs are a plague upon this land. I wished this day would not come, but if your people will not see the light, then we are fated to be enemies. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your people's sacrilegious beliefs are a plague upon this land. I wished this day would not come, but if your people will not see the light, then we are fated to be enemies. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_2">
-			<Text>That I have allowed your heathen faith to spread this far fills me with disgust. Any nation that willingly believes in such falsehoods can never be trusted. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>That I have allowed your heathen faith to spread this far fills me with disgust. Any nation that willingly believes in such falsehoods can never be trusted. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_1">
-			<Text>I have made it clear that those City-States you have been rubbing shoulders with are mine, not yours. You may make alliances with them, but you shall never have one with me. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I have made it clear that those City-States you have been rubbing shoulders with are mine, not yours. You may make alliances with them, but you shall never have one with me. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_2">
-			<Text>If you think it is diplomacy to steal my allied City-States, you are sorely mistaken. For every alliance you have wrested from me, I will ensure you have made another enemy in return. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>If you think it is diplomacy to steal my allied City-States, you are sorely mistaken. For every alliance you have wrested from me, I will ensure you have made another enemy in return. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_1">
-			<Text>So many years spent planning and building those Wonders... how could someone like you have built them first? Have you stolen secrets from me?! The world will know of this treachery! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>So many years spent planning and building those Wonders... how could someone like you have built them first? Have you stolen secrets from me?! The world will know of this treachery! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_2">
-			<Text>Those are some incredible Wonders you've built. It would be such a shame if something were to... happen to them. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Those are some incredible Wonders you've built. It would be such a shame if something were to... happen to them. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_1">
-			<Text>Do we not seek the same ends? It seems like such a shame that we cannot see past our differences and work together for the betterment of the world. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Do we not seek the same ends? It seems like such a shame that we cannot see past our differences and work together for the betterment of the world. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_2">
-			<Text>You and I both know who is destined to win this competition. For the sake of both of our peoples, give up before this esclates into further conflict. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You and I both know who is destined to win this competition. For the sake of both of our peoples, give up before this esclates into further conflict. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_1">
-			<Text>You are coming too close to victory for comfort. I have spoken to the other leaders and we agree that the time has come to take a stand against you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You are coming too close to victory for comfort. I have spoken to the other leaders and we agree that the time has come to take a stand against you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_2">
-			<Text>Allowing you to take control of the world would be a grave mistake. The time has come to put an end to your ambitions - at any cost. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Allowing you to take control of the world would be a grave mistake. The time has come to put an end to your ambitions - at any cost. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_1">
-			<Text>Those weapons of war you have used are an abomination to humanity. Anyone willing to commit such atrocities against innocent civilians is clearly beyond redemption. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Those weapons of war you have used are an abomination to humanity. Anyone willing to commit such atrocities against innocent civilians is clearly beyond redemption. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_2">
-			<Text>Nothing I can say or do will make up for the horror of your crimes. I can only hope that this denouncement will discourage other leaders from ever using such awful weapons again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Nothing I can say or do will make up for the horror of your crimes. I can only hope that this denouncement will discourage other leaders from ever using such awful weapons again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_1">
-			<Text>Your attempts to steal my technological secrets can no longer be tolerated. I have spoken to the other leaders about your attempted espionage and they will be prepared in the future. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your attempts to steal my technological secrets can no longer be tolerated. I have spoken to the other leaders about your attempted espionage and they will be prepared in the future. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_2">
-			<Text>I have always believed in transparency and honesty, but it is clear that you do not. If you prefer to work in the dark, then it is up to me to shed a light on your deeds. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I have always believed in transparency and honesty, but it is clear that you do not. If you prefer to work in the dark, then it is up to me to shed a light on your deeds. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_1">
-			<Text>Other leaders have told me you aren't to be trusted. I may not know all the details, but I believe them more than I believe you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Other leaders have told me you aren't to be trusted. I may not know all the details, but I believe them more than I believe you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_2">
-			<Text>Whatever you have done to invoke the wrath of the other leaders, I am confident that you deserve it. May our denouncements serve as a lesson to you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Whatever you have done to invoke the wrath of the other leaders, I am confident that you deserve it. May our denouncements serve as a lesson to you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_1">
-			<Text>I warned you that declaring your allegiance with my enemy would be a mistake. Now face the consequences of your actions! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I warned you that declaring your allegiance with my enemy would be a mistake. Now face the consequences of your actions! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_2">
-			<Text>The Declaration of Friendship you have made with my enemy is a betrayal I cannot accept. Your people are no longer welcome in my court. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>The Declaration of Friendship you have made with my enemy is a betrayal I cannot accept. Your people are no longer welcome in my court. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_1">
-			<Text>The only thing worse than a tyrant is a scheming one. If you are incapable of speaking the truth, then I will have to do it for you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>The only thing worse than a tyrant is a scheming one. If you are incapable of speaking the truth, then I will have to do it for you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_2">
-			<Text>Your behavior is beyond despicable. May this denouncement teach you that dishonesty and avarice are poor examples of foreign policy. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your behavior is beyond despicable. May this denouncement teach you that dishonesty and avarice are poor examples of foreign policy. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_3">
 			<Text>You have proven to be a danger to my people, and you must be admonished for this. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
@@ -5394,34 +5436,34 @@
 			<Text>There is no point in hiding it any longer: I used to like you, but now I hate you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_1">
-			<Text>You have proven beyond doubt that your friendships mean nothing. Spare us your prattering - there will be no more words between us. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You have proven beyond doubt that your friendships mean nothing. Spare us your prattering - there will be no more words between us. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_2">
-			<Text>Unlike you, I am honest about who my friends and enemies are. For instance: you have just made yourself my enemy. Never return to this court again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Unlike you, I am honest about who my friends and enemies are. For instance: you have just made yourself my enemy. Never return to this court again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_3">
-			<Text>The genocide you have committed against my people can never be forgiven. All the world shall know the horrors of what you have done. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>The genocide you have committed against my people can never be forgiven. All the world shall know the horrors of what you have done. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_4">
-			<Text>Do you even stop to think of the innocents you killed? My people will not be able to rest until their families and loved ones are avenged... and neither will I. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Do you even stop to think of the innocents you killed? My people will not be able to rest until their families and loved ones are avenged... and neither will I. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_1">
-			<Text>I have made it clear that those lands you have taken are rightfully mine. If we cannot settle these land disputes diplomatically, pray we don't have to settle them on the battlefield. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I have made it clear that those lands you have taken are rightfully mine. If we cannot settle these land disputes diplomatically, pray we don't have to settle them on the battlefield. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_2">
-			<Text>You can call it 'coveting' your lands if you wish. But as far as I am concerned, I cannot covet what you have stolen from me. I believe the other leaders will see it the same way. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You can call it 'coveting' your lands if you wish. But as far as I am concerned, I cannot covet what you have stolen from me. I believe the other leaders will see it the same way. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_1">
-			<Text>Your disrespect for our borders and cultural artifacts has reached a breaking point. From now on, neither your archaeologists nor your diplomats will be welcome here. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>Your disrespect for our borders and cultural artifacts has reached a breaking point. From now on, neither your archaeologists nor your diplomats will be welcome here. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_2">
-			<Text>The cultural artifacts of my people are not yours for the taking. The other leaders will soon know of your brazen theft. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>The cultural artifacts of my people are not yours for the taking. The other leaders will soon know of your brazen theft. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_1">
-			<Text>You are a vicious bully and I have had enough of you preying on the weak. Face me, coward, if you have the guts to stand against someone your own size. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>You are a vicious bully and I have had enough of you preying on the weak. Face me, coward, if you have the guts to stand against someone your own size. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_2">
-			<Text>I have appointed myself the protector of those City-States and yet you continue to torment and oppress them. I have informed the other leaders of your cowardice - do not invoke my wrath further. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR]</Text>
+			<Text>I have appointed myself the protector of those City-States and yet you continue to torment and oppress them. I have informed the other leaders of your cowardice - do not invoke my wrath further. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_STRATEGIC_TRADE_REQUEST_1">
 			<Text>You possess a Strategic Resource that my empire could make use of. Shall we trade?</Text>
@@ -5683,7 +5725,7 @@
 			<Text>Ocean Embarkation with Defense</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
-			<Text>Permits hovering units to embark at the coastal/ocean boundary. Embarked units receive a defensive bonus.</Text>
+			<Text>Permits hovering units to embark at the coastal/ocean boundary. Embarked units receive +100% [ICON_STRENGTH] defensive bonus.</Text>
 		</Row>
 
 		<!-- MP Denounce -->
@@ -5788,51 +5830,51 @@
 			<Text>Historisches Ereignis</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ERA">
-			<Text>Da Eure Zivilisation ein neues [ICON_RESEARCH] Zeitalter erreicht hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da Eure Zivilisation ein neues [ICON_RESEARCH] Zeitalter erreicht hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WAR">
-			<Text>Da Eure Zivilisation einen [ICON_VICTORY_DOMINATION] Krieg gewonnen hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da Eure Zivilisation einen [ICON_VICTORY_DOMINATION] Krieg gewonnen hat (Kriegspunkte von 25 oder mehr), ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP">
-			<Text>Da eine [ICON_GREAT_PEOPLE] Große Persönlichkeit in Eurer Zivilisation geboren wurde, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da eine [ICON_GREAT_PEOPLE] Große Persönlichkeit in Eurer Zivilisation geboren wurde, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_WW">
-			<Text>Da Eure Zivilisation ein [ICON_GOLDEN_AGE] Weltwunder errichtet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da Eure Zivilisation ein [ICON_GOLDEN_AGE] Weltwunder errichtet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_CS">
-			<Text>Da Eure Zivilisation eine globale [ICON_CITY_STATE] Stadtstaaten Quest erfüllt hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da Eure Zivilisation eine globale [ICON_CITY_STATE] Stadtstaaten Quest erfüllt hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_ARCHAEOLOGY">
-			<Text>Da Eure Zivilisation eine [ICON_RES_ARTIFACTS] Archäologische Ausgrabung beendet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da Eure Zivilisation eine [ICON_RES_ARTIFACTS] Archäologische Ausgrabung beendet hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
-			<Text>Da in Eurer Zivilisation ein [ICON_GOLDEN_AGE] Goldenes Zeitalter begonnen hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} gestiegen!</Text>
+			<Text>Da in Eurer Zivilisation ein [ICON_GOLDEN_AGE] Goldenes Zeitalter begonnen hat, ist der [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen um {1_Num} (vor Tourismus-Modifikatoren) gestiegen!</Text>
 		</Row>
 
 		<!-- Arabia -->
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS">
-			<Text>Scheherazade's stories draw brilliant minds from around the world to your land. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} towards a [ICON_GREAT_PEOPLE] Great Person!</Text>
+			<Text>Scheherazade's stories draw brilliant minds from around the world to your land. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} towards a [ICON_GREAT_PEOPLE] Great Person!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_SCIENTIST">
-			<Text>Legends and folklore surrounding strange creatures and artifacts draw wise thinkers to your lands. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_SCIENTIST] Great Scientist progress!</Text>
+			<Text>Legends and folklore surrounding strange creatures and artifacts draw wise thinkers to your lands. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_SCIENTIST] Great Scientist progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_WRITER">
-			<Text>The tales of Scheherazade have inspired generations of your best authors. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_WRITER] Great Writer progress!</Text>
+			<Text>The tales of Scheherazade have inspired generations of your best authors. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_WRITER] Great Writer progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_ARTIST">
-			<Text>Painters from around the world have come to your lands in order to depict scenes from Scheherazade's stories. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_ARTIST] Great Artist progress!</Text>
+			<Text>Painters from around the world have come to your lands in order to depict scenes from Scheherazade's stories. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_ARTIST] Great Artist progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_MUSICIAN">
-			<Text>Scheherazade's poetry has led to a musical renaissance in your empire. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_MUSICIAN] Great Musician progress!</Text>
+			<Text>Scheherazade's poetry has led to a musical renaissance in your empire. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_MUSICIAN] Great Musician progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_MERCHANT">
-			<Text>Powerful and wealthy people flock to your court to listen to the tales of Scheherazade. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_MERCHANT] Great Merchant progress!</Text>
+			<Text>Powerful and wealthy people flock to your court to listen to the tales of Scheherazade. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_MERCHANT] Great Merchant progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_ENGINEER">
-			<Text>Architects and engineers draw inspiration from the legendary heroes of Scheherazade's stories. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_ENGINEER] Great Engineer progress!</Text>
+			<Text>Architects and engineers draw inspiration from the legendary heroes of Scheherazade's stories. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_GREAT_ENGINEER] Great Engineer progress!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GP_BONUS_DIPLOMAT">
-			<Text>Courtiers from around the world beg for an audience with you and Scheherazade. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science, and +{1_Num} to [ICON_DIPLOMAT] Great Diplomat progress!</Text>
+			<Text>Courtiers from around the world beg for an audience with you and Scheherazade. Your [ICON_CAPITAL] Capital gains +1 [ICON_CULTURE] Culture and [ICON_RESEARCH] Science, and +{1_Num} to [ICON_DIPLOMAT] Great Diplomat progress!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_GP_BONUS">
@@ -5843,17 +5885,17 @@
 			<Text>Tourism and Trade</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_SEA">
-			<Text>Citizens from the {2_Adj} City of {4_Dest} used your naval Trade Route to visit the City of {3_Num}. As a result, you gained {1_Num} [ICON_TOURISM] Tourism with {5_num}!</Text>
+			<Text>Citizens from the {2_Adj} City of {4_Dest} used your naval Trade Route to visit the City of {3_Num}. As a result, you gained {1_Num} [ICON_TOURISM] Tourism with {5_num} (before Tourism modifiers)!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_LAND">
-			<Text>Citizens from the {2_Adj} City of {4_Dest} used your land Trade Route to visit the City of {3_Num}. As a result, you gained {1_Num} [ICON_TOURISM] Tourism with {5_num}!</Text>
+			<Text>Citizens from the {2_Adj} City of {4_Dest} used your land Trade Route to visit the City of {3_Num}. As a result, you gained {1_Num} [ICON_TOURISM] Tourism with {5_num} (before Tourism modifiers)!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_TOURISM_EVENT_SUMMARY_TRADE_CS">
 			<Text>City-State Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_TRADE_CS_BONUS">
-			<Text>Because your Civilization completed a [ICON_INTERNATIONAL_TRADE] Trade Route with {2_Name}, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num}!</Text>
+			<Text>Because your Civilization completed a [ICON_INTERNATIONAL_TRADE] Trade Route with {2_Name}, your [ICON_TOURISM] Tourism with all known Civs has increased by {1_Num} (before Tourism modifiers)!</Text>
 		</Row>
 
 		<!-- Religion Majority Est. -->
@@ -5867,19 +5909,19 @@
 			<Text>{1_ReligionName} now your [ICON_RELIGION] primary Religion!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NEW_PLAYER_STATE_RELIGION">
-			<Text>{1_ReligionName} is now your primary [ICON_RELIGION] Religion. You alone will benefit from Founder and Reformation Beliefs related to {1_ReligionName}, and any Founder or Reformation Beliefs related to prior [ICON_RELIGION] Religions are no longer valid.</Text>
+			<Text>{1_ReligionName} is now your primary [ICON_RELIGION] Religion. You alone will benefit from Founder and Enhancer Beliefs related to {1_ReligionName}, and any Founder or Enhancer Beliefs related to prior [ICON_RELIGION] Religions are no longer valid.</Text>
 		</Row>
 
 		<!-- Holy City Lost/Gained-->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST_HOLY">
-			<Text>The Holy City of {1_CityName:textkey} was captured by {@2_CivName}! If {@2_CivName} is eliigble, {3_Religion} may become their primary Religion, thus giving them access to its Founder and Reformation Bonuses. If {3_Religion} was your primary Religion, you will lose access to its Beliefs until you retake it.</Text>
+			<Text>The Holy City of {1_CityName:textkey} was captured by {@2_CivName}! If {@2_CivName} is eliigble, {3_Religion} may become their primary Religion, thus giving them access to its Founder and Enhancer Bonuses. If {3_Religion} was your primary Religion, you will lose access to its Beliefs until you retake it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST_HOLY">
 			<Text>Holy City of {1_CityName:textkey} captured!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_GAINED_HOLY">
-			<Text>You captured the Holy City of {1_CityName:textkey}! If eligible, {2_Religion} may become your primary relgion, thus giving you access to the Founder and Reformation Belief bonuses associated with it (so long as you retain control of the City).</Text>
+			<Text>You captured the Holy City of {1_CityName:textkey}! If eligible, {2_Religion} may become your primary religion, thus giving you access to the Founder and Enhancer Belief bonuses associated with it (so long as you retain control of the City).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_GAINED_HOLY">
 			<Text>Holy City of {1_CityName:textkey} taken!</Text>
@@ -5887,6 +5929,10 @@
 
 		<Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCE_FOUNDERS">
 			<Text>[COLOR_NEGATIVE_TEXT]Religious differences strain your relationship.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DIPLO_CAPTURED_HOLY_CITY">
+			<Text>[COLOR_NEGATIVE_TEXT]You captured their Holy City![ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Great Work Gold (LUA)-->
@@ -5900,7 +5946,7 @@
 			<Text>+{1_Num} [ICON_PEACE] from Great Works and Themes</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
-			<Text>+{1_Num} {2_IconString} from Trait</Text>
+			<Text>{1_Num} {2_IconString} from Trait</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
@@ -6027,6 +6073,13 @@
 			<Text>Your empire has entered a state of anarchy! This will last for {1_num} turns.</Text>
 		</Row>
 
+		<!-- Tooltips for Growth Modifiers -->
+		<Row Tag="TXT_KEY_FOODMOD_EATEN_FOOD">
+			<Text>[NEWLINE][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_FOOD] eaten by [ICON_CITIZEN] Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_PUPPET">
+			<Text>[NEWLINE][ICON_BULLET][ICON_PUPPET] Modifier for Puppet: {1_Num}%</Text>
+		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_YIELD_GOLDEN_AGE_POLICIES">
 			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Modifier (Policies): {1_Num}%</Text>
 		</Row>
@@ -6036,13 +6089,34 @@
 		<Row Tag="TXT_KEY_FOODMOD_TOURISM">
 			<Text>[NEWLINE][ICON_BULLET][ICON_TOURISM] Tourism Modifier (Trade Routes): {1_Num}%</Text>
 		</Row>
+		<Row Tag="TXT_KEY_FOODMOD_YIELD_OVER_SUPPLY">
+			<Text>[NEWLINE][ICON_BULLET][ICON_SILVER_FIST] Growth [COLOR_NEGATIVE_TEXT]Penalty[ENDCOLOR] (Over Military Unit Supply Cap): {1_Num}%</Text>
+		</Row>
 
-
+		<!-- Tooltips for Standard Base Modifiers -->
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_BUILDINGS">
-			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Modifier (Buildings): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Golden Age Modifier (Buildings): {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_POLICIES">
-			<Text>[NEWLINE][ICON_BULLET][ICON_GOLDEN_AGE] Golden Age Modifier (Policies): {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Golden Age Modifier (Policies): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_GOLDEN_AGE_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]Golden Age Modifier (Beliefs): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WLTKD">
+			<Text>[NEWLINE][ICON_BULLET]We Love the King Day Modifier: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WLTKD_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]We Love the King Day Modifier (Beliefs): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_WLTKD_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]We Love the King Day Modifier (Player): {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_GREAT_WORKS">
+			<Text>[NEWLINE][ICON_BULLET]Great Works Modifier: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_SPIES">
+			<Text>[NEWLINE][ICON_BULLET]Active Spies Modifier: {1_Num}%</Text>
 		</Row>
 
 		<!-- Lua for Buildings -->
@@ -6096,14 +6170,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING">
-			<Text>Your Military Advisor warns that the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} is in danger of being annulled due to your weakening military power. Increase the size of your military within [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] turns to maintain this promise!</Text>
+			<Text>Your Military Advisor warns that the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} is in danger of being annulled due to your weakening military power. Increase your Military Ranking by {3_Num}% within [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] turns to maintain this promise!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT">
 			<Text>Pledge of Protection warning!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER">
-			<Text>If you do not improve your global military standing in {2_Num} turns, the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} will be annulled!</Text>
+			<Text>If you do not improve your Military Ranking by {3_Num}% within {2_Num} turns, the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} will be annulled!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT">
 			<Text>Pledge of Protection in jeopardy!</Text>
@@ -6113,6 +6187,64 @@
 			<Text>Your military status in the world has been restored, thus your [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] to {1_CSName} is once again secure.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT">
+			<Text>Pledge of Protection secured.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_MORE_MILITARY_TT">
+			<Text>[NEWLINE][COLOR_WARNING_TEXT][ICON_BULLET] Must be in the top 60% of the world in terms of Military Power. Yours is ranked at {1_Num}% of world Military Power.[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NEED_ALLIES_TT">
+			<Text>[NEWLINE]   [ICON_BULLET] Allied with City-State.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NOT_CLOSE_ENOUGH_TT">
+			<Text>[NEWLINE]   [ICON_BULLET] Can trade with City-State.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_NO_TRADE_TT">
+			<Text>[NEWLINE]   [ICON_BULLET] City-State connected via trade.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_ACHIEVED">
+			<Text>  [ICON_CHECKBOX]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ALL_CORRECT">
+			<Text>[ENDCOLOR][NEWLINE][NEWLINE]You cannot Pledge to Protect because:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PTP_ANY_CORRECT">
+			<Text>[ENDCOLOR][NEWLINE][NEWLINE]One of these attributes must have a [ICON_CHECKBOX] next to it:</Text>
+		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_OPTIONAL">
+			<Text>After due consideration and plenty of warnings, {1_CSName} believes that long distances render you incapable of fulfilling the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you promised. As a result, your Pledge of Protection to {1_CSName} was [COLOR_NEGATIVE_TEXT]annulled[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_CANCELLED_SHORT_OPTIONAL">
+			<Text>Pledge of Protection annulled by {1_CSName}!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_OPTIONAL">
+			<Text>Your Military Advisor warns that the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} is in danger of being annulled due to distance. Ally {1_CSName} or make sure you are within Trade Route range within [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] turns to maintain this promise!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_SHORT_OPTIONAL">
+			<Text>Pledge of Protection warning!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_OPTIONAL">
+			<Text>If you do not ally {1_CSName} or make sure your cities are within Trade Route range before {2_Num} turns pass, the [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] you made to {1_CSName} will be annulled!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_SHORT_OPTIONAL">
+			<Text>Pledge of Protection in jeopardy!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_OPTIONAL">
+			<Text>Your alliance and/or trade connection to {1_CSName} has been restored, thus your [COLOR_POSITIVE_TEXT]Pledge of Protection[ENDCOLOR] to {1_CSName} is once again secure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_PTP_WARNING_TIMER_STOPPED_SHORT_OPTIONAL">
 			<Text>Pledge of Protection secured.</Text>
 		</Row>
 
@@ -6258,6 +6390,9 @@
 		<Row Tag="TXT_KEY_TECH_HELP_YIELDS_UNLOCKED">
 			<Text>[NEWLINE][COLOR_CYAN]Ertragsveränderungen:[ENDCOLOR][NEWLINE]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
+			<Text>{1_Build}: {2_Turns} Turn(s) Required</Text>
+		</Row>
 
 
 		<!-- Plague for JFD-->
@@ -6272,6 +6407,19 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PLAGUE_TRANSFER_THEM_S">
 			<Text>Plague spreads to your {1_Unit}!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER">
+			<Text>{3_Promotion} Status Effect inflicted on {1_Unit} to {2_Unit} during combat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER_S">
+			<Text>Your {1_Unit} inflicted a Status Effect!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER_THEM">
+			<Text>{3_Promotion} Status Effect was inflicted on our {2_Unit} by an enemy {1_Unit} during combat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PROMOTION_TRANSFER_S_THEM_S">
+			<Text>Your {1_Unit} received a Status Effect!</Text>
 		</Row>
 		
 		<!-- Morale Hit -->
@@ -6310,6 +6458,20 @@
 		<Row Tag="TXT_KEY_PEDIA_NUM_POPULATION_LOCAL_NEEDED_LABEL">
 			<Text>Lokale Bevölkerung benötigt: [COLOR_CYAN]{1_Num}[ENDCOLOR] (Haben: {2_Num})</Text>
 		</Row>
+
+		<!-- Great Person Progress -->
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS">
+			<Text>Reisweiter Bonus Große-Persönlichkeit-Punkte (GPP)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS_EMPIRE">
+			<Text>Bonus Große-Persönlichkeit-Punkte (GPP) Update</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON_PROGRESS_IN_CITY">
+			<Text>Bonus Große-Persönlichkeit-Punkte (GPP) in {1_City}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_GREAT_PERSON_PROGRESS_DETAILS">
+			<Text>+{3_Num} {2_Icon} {1_Name}</Text>
+		</Row>
 		
 		<!-- Instant Yield Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_INSTANT_YIELD">
@@ -6332,6 +6494,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH">
 			<Text>Geburt eines [ICON_CITIZEN] Bewohners:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_RETROACTIVE">
+			<Text>Gesamtzahl der [ICON_CITIZEN] Stadtbewohner:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_BIRTH_CAPITAL">
 			<Text>Geburt eines [ICON_CITIZEN] Bewohners in der [ICON_CAPITAL] Hauptstadt:[NEWLINE]{1_YieldString}</Text>
@@ -6368,6 +6533,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_VICTORY">
 			<Text>[ICON_VICTORY_DOMINATION] Eine Schlacht gewinnen:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_PILLAGE">
+			<Text>[ICON_RAzING] Geländefeld plündern:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_UNIT_PRODUCTION">
 			<Text>[ICON_PRODUCTION] Eine Militäreinheit produzieren:[NEWLINE]{1_YieldString}</Text>
@@ -6411,8 +6579,170 @@
 		<Row Tag="TXT_KEY_INSTANT_YIELD_LEVEL_UP">
 			<Text>[ICON_STRENGTH] {2_Unit} Leveled Up:[NEWLINE]{1_YieldString}</Text>
 		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DELEGATES">
+			<Text>Total [ICON_DIPLOMAT] Delegates:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_SPIES">
+			<Text>[ICON_SPY] Spy Actions:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_MINOR_QUEST">
+			<Text>[ICON_CITY_STATE] City-State Quest ({1_Data}):[NEWLINE]{2_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_CULTURE_BOMB">
+			<Text>Erweiterung der [ICON_CULTURE] Grenzen durch Kulturbombe:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_REMOVE_HERESY">
+			<Text>Entfernt [ICON_INQUISITOR] Religiöse Ketzerei:[NEWLINE]{1_YieldString}</Text>
+		</Row>
 
+		<!-- Quest Data -->
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ROUTE_NAME">
+			<Text>Construct Route for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CAMP_NAME">
+			<Text>Kill Camp for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONNECT_RESOURCE_NAME">
+			<Text>Connect Resource for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_WONDER_NAME">
+			<Text>Build Wonder for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GREAT_PERSON_NAME">
+			<Text>Great Person for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CITY_STATE_NAME">
+			<Text>Kill City-State for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_PLAYER_NAME">
+			<Text>Find Player for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_NATURAL_WONDER_NAME">
+			<Text>Find Natural Wonder for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIVE_GOLD_NAME">
+			<Text>Give Gold to {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_PLEDGE_TO_PROTECT_NAME">
+			<Text>Pledge Protection to {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_CULTURE_NAME">
+			<Text>Culture Contest for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_FAITH_NAME">
+			<Text>Faith Contest for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TECHS_NAME">
+			<Text>Tech Contest for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INVEST_NAME">
+			<Text>Invest in {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BULLY_CITY_STATE_NAME">
+			<Text>Bully City-State for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DENOUNCE_MAJOR_NAME">
+			<Text>Denounce Player for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_SPREAD_RELIGION_NAME">
+			<Text>Spread Religion to {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_TRADE_ROUTE_NAME">
+			<Text>Trade Route to {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_WAR_NAME">
+			<Text>War for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_NATIONAL_WONDER_NAME">
+			<Text>Built National Wonder for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_CITY_STATE_NAME">
+			<Text>Found City-State for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_INFLUENCE_NAME">
+			<Text>Influence for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONTEST_TOURISM_NAME">
+			<Text>Tourism Contest for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_ARCHAEOLOGY_NAME">
+			<Text>Archaeology for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CIRCUMNAVIGATION_NAME">
+			<Text>Circumnavigation for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_LIBERATION_NAME">
+			<Text>Liberation for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_HORDE_NAME">
+			<Text>Quell Horde for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_REBELLION_NAME">
+			<Text>Quell Rebellion for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_DISCOVER_PLOT_NAME">
+			<Text>Discover Land for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
+			<Text>Construct Buildings for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_STEAL_FROM_NAME">
+			<Text>Spy for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_COUP_CITY_NAME">
+			<Text>Coup for {1_CSName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
+			<Text>Conquest for {1_CSName}</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
+			<Text>+{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_INFLUENCE">
+			<Text>+{1_Num} [ICON_INFLUENCE] Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_EXPERIENCE">
+			<Text>+{1_Num} [ICON_STRENGTH] Experience for all Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP_GLOBAL">
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Great Person Points in all Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP">
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Great Person Points in [ICON_CAPITAL] Capital</Text>
+		</Row>
 
+		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">
+			<Text>[COLOR_POSITIVE_TEXT]Instant Yields gained this turn, and over the past {1_Num} Turn(s)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE">
+			<Text>[NEWLINE]        [ICON_BULLET] Average: +{1_Num} Per Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE_CITIES">
+			<Text>[NEWLINE]        [ICON_BULLET] Per-City Average: +{1_Num} Per Turn</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INSTANT_YIELD_TOTAL">
+			<Text>[ICON_BULLET] {2_YieldIcon} {3_YieldColorString}{1_YieldType}[ENDCOLOR]: {4_Num}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER_EMPTY">
+			<Text>Instant Yields are gained in many ways, including Policies, Beliefs, and Buildings. A sum of Instant Yields earned from this turn, and the past 10 turns, will be listed here.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_YIELD_GREAT_WORK_MODIFIER">
+			<Text>[NEWLINE][ICON_BULLET]Great Works Modifier: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_SPY_MODIFIER">
+			<Text>[NEWLINE][ICON_BULLET]Active Spies Modifier: {1_Num}%</Text>
+		</Row>
+		<!-- Unit Panel stuff -->
+		<Row Tag="TXT_KEY_UPANEL_BUILDER_STRENGTH">
+			<Text>Baukosten</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_BUILDER_STRENGTH_TT">
+			<Text>Die Anzahl der Male, die Sie mit dieser Einheit bauen können. Bei Null wird die Einheit verbraucht, es sei denn, es handelt sich um eine militärische Einheit.</Text>
+		</Row>
 		<!-- Tooltip for Investments in cities -->
 		<Row Tag="TXT_KEY_ALREADY_INVESTED">
 			<Text>[NEWLINE]Sie haben bereits [ICON_GOLD] Gold in dieses Gebäude investiert. Die [ICON_PRODUCTION] Produktionskosten dieses Gebäudes sind um {1_Num}% reduziert.</Text>
@@ -6433,7 +6763,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Das Investieren von [ICON_GOLD] Gold in eine Einheit reduziert seine [ICON_PRODUCTION] Produktionskosten um {1_Num}%.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_COST_INCREASE_METRIC">
-			<Text>Zusätzliche [ICON_PRODUCTION] Produktionskosten durch eigene Weltwunder: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Produktionskosten Steigerung metrisch:[NEWLINE][ICON_BULLET] Wunder des selben Zeitalters: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET] Wunder aus vergangenem Zeitalter: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Wunder aus früheren Zeitaltern: [COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
+			<Text>Zusätzliche [ICON_PRODUCTION] Produktionskosten durch eigene Weltwunder: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION] Produktionskosten steigen metrisch:[NEWLINE][ICON_BULLET] Wunder des selben Zeitalters: [COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET] Wunder aus dem vergangenem Zeitalter: [COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET] Wunder aus dem vor-vergangenem Zeitalter:[COLOR_POSITIVE_TEXT]10%.[ENDCOLOR][NEWLINE][ICON_BULLET] Hinweis: Wunder aus drei Zeitaltern früher oder mehr zählen nicht zu den Kosten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_EVENTS">
 			<Text>Aktiviert Ereignis System</Text>
@@ -6486,9 +6816,16 @@
 			<Text>Zufällige Siegbedingungen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GAMEOPTION_RANDOM_VICTORY_HELP">
-			<Text>Eine zufällige Siegbedingung (Herrschafts-, Kultur-, Diplomatie- oder Raumschiffsieg) wird aktiviert, sobald ein Spieler das Informationszeitalter erreicht. Alle anderen Siegbedingungen werden deaktiviert (Beachtet: Punkt- und Herrschaftssiege sind immer möglich).</Text>
+			<Text>Eine zufällige Siegbedingung (Kultur-, Diplomatie- oder Raumschiffsieg) wird aktiviert, sobald ein Spieler das Atomzeitalter erreicht. Alle anderen Siegbedingungen werden deaktiviert (Beachtet: Punkt- und Herrschaftssiege sind immer möglich).</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
+			<Text>Verberge noch nicht getroffene Zivs in der Lobby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMEOPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
+			<Text>Zeigt in der Spieleinrichtung keine Oberhäupter/Zivilisation Details anderer menschlicher Spieler, in anderen Teams an (wenn sie kein zufälliges Oberhaupt wählen)[NEW_LINE]Beim Laden eines Spielstands werden keine Oberhäupter/Zivilisation  Details von Spielern in anderen Teams gezeigt, die Sie im Spiel noch nicht getroffen haben[NEW_LINE].</Text>
+		</Row>
+			
 		<!-- Egypt CBO-->
 
 		<Row Tag="TXT_KEY_ARTIFACT_SARCOPHAGUS_1">
@@ -6543,16 +6880,17 @@
 			<Text>Sarcophagus of Ptolemy I</Text>
 		</Row>
 
+
 		<!--Policies-->
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
 			<Text>[COLOR_WARNING_TEXT]You must unlock {1_Num} Policies from other Branches before this Branch becomes unlocked. Finishers do not count towards this amount.[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- Spy GW Theft Text-->
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GW">
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK">
 			<Text>{1_SpyRank} {2_SpyName} cannot steal Great Works from {@3_CivShortName} because they have none, or we have no empty slots in our Empire!</Text>
 		</Row>
-		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GW_S">
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_GREAT_WORK_S">
 			<Text>Can't steal Great Works from {@1_CivShortName}</Text>
 		</Row>
 
@@ -6642,18 +6980,30 @@
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_CATCH">
 			<Text>[ICON_BULLET] Chance to identify [ICON_SPY] Spies: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_DETECT">
+			<Text>[ICON_BULLET] Chance to detect [ICON_SPY] Spies: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_KILL">
-			<Text>[ICON_BULLET] Chance to be killed: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[ICON_BULLET] Chance to be killed (if Counterspy): [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_CATCH">
 			<Text>[ICON_BULLET] Chance to be caught: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_DETECT">
+			<Text>[ICON_BULLET] Chance to be detected: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_UNDETECTED">
+			<Text>[ICON_BULLET] Chance to remain undetected: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_KILL">
-			<Text>[ICON_BULLET] Chance to be killed: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+			<Text>[ICON_BULLET] Chance to be killed (if Counterspy): [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_CATCH">
 			<Text>[ICON_BULLET] Chance to be caught: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_DANGER_ADVANCED_ACTION_DETECT">
+			<Text>[ICON_BULLET] Chance to be detected: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_KILL">
@@ -6661,6 +7011,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_CATCH">
 			<Text>[ICON_BULLET] Chance to identify [ICON_SPY] Spies: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES_ADVANCED_ACTION_DETECT">
+			<Text>[ICON_BULLET] Chance to detect [ICON_SPY] Spies: [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DEFENSIVE_SPY_BONUSES">
@@ -6708,7 +7061,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_POTENTIAL_LIST_TT">
-			<Text>Potential Advanced Actions in this City:</Text>
+			<Text>Potential Enemy Advanced Actions in this City:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_OWN_CITY_ADVANCED_REBELLION">
 			<Text>[NEWLINE][ICON_BULLET] Rebellion in City</Text>
@@ -6772,6 +7125,9 @@
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_DEATH_POSSIBILITY">
 			<Text>[NEWLINE][ICON_BULLET] Foreign agents given License to Kill - is possible to [COLOR_NEGATIVE_TEXT]die[ENDCOLOR] during Advanced Actions!</Text>
 		</Row>
+		<Row Tag="TXT_KEY_OFFENSIVE_SPY_COUNTERSPY_POSSIBLY_PRESENT">
+			<Text>Foreign [ICON_SPY] Counterspies are rumored to be in the City - be careful!</Text>
+		</Row>
 		<Row Tag="TXT_KEY_OFFENSIVE_ADVANCED_HUNTERS">
 			<Text>Foreign agents pursuing {2_SpyName}: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]. Laying low (no Advanced Actions) until number reaches [COLOR_POSITIVE_TEXT]0[ENDCOLOR].</Text>
 		</Row>
@@ -6823,6 +7179,89 @@
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_CONQUEST_OF_WORLD">
 			<Text>Golden Age Conquest Of The World Bonus</Text>
+		</Row>
+		
+		<!-- Autocracy-->
+
+		
+		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS">
+			<Text>{2_Civ} bullied {1_CS}, reducing your [ICON_INFLUENCE] Influence with {1_CS} by {3_Influence}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_S">
+			<Text>{2_Civ} terrorizes {1_CS}!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_YOU">
+			<Text>Your bullying of {1_CS} increased your [ICON_INFLUENCE] Influence by {2_Influence}, and reduced the [ICON_INFLUENCE] Influence of other Civiliations by {3_Percent}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALANCE_AUTOCRACY_BULLY_INFLUENCE_REDUCTION_CS_YOU_S">
+			<Text>You tighten your grip on {1_CS}!</Text>
+		</Row>
+
+
+		<!-- Randomization Victory Data-->
+		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_SPLASH">
+			<Text>Victory Condition Enabled!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_DIPLO">
+			<Text>Human history is a history of violence, yet a new era dawns, and with it, a chance at human redemption. The World Congress is the battleground of the future; the prize is leadership over all other nations as the first World Leader.[NEWLINE][COLOR_POSITIVE_TEXT]Secure power as the Global Hegemon via a Diplomatic Victory![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_CULTURE">
+			<Text>The survival of humanity depends on the creation of a single, unifying cultural entity, a monolith of ideas, ideologies, and values. The world's cultural powers will each strive to define this monolith themselves - it is up to you to show the world what a truly unifed culture should look like.[NEWLINE][COLOR_POSITIVE_TEXT]Unify the world via a Cultural Victory![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_SPACERACE">
+			<Text>Modernity has not been kind to planet earth. The very vessel upon which we depend - Spaceship Earth - may soon perish. Our first flights took us to the edge of space; we must harness this power and be the first to discover a new home for humanity.[NEWLINE][COLOR_POSITIVE_TEXT]Be the first to escape a dying planet via a Spaceship Victory![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_CONQUEST">
+			<Text>An age of eternal war has fallen upon humanity. Bitter rivalries, unsolved through diplomacy, look to the battlefield for resolution.To be second place in this contest is to be condemnded to the ash heap of history. Harness the weapons of war and bring glory to your empire![NEWLINE][COLOR_POSITIVE_TEXT]Conquer or be conquered via a Domination Victory![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_TOURISM">
+			<Text>Tourismus [ICON_TOURISM] pro Runde</Text>
+		</Row>
+
+		<!-- Hopefully removed if option is not needed or better solution in place -->
+		<Row Tag="TXT_KEY_FORCE_MP_SAVE">
+			<Text>Force Mid-Turn New Save (Not recommended - may corrupt save game!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
+			<Text>DANGER! Emulate vanilla where a save of the current turn state could be made mid-turn by exploiting a bug in the overwrite file check. Normally a save is/was just a renamed copy of the most recent autosave. With this option enabled mid-turn state can be saved BUT Firaxis explicitly tried to prevent this, presumably because it can cause issues. This option is in NO WAY recommended and to use at own risk.</Text>
+		</Row>
+		<!-- Splash Damage popup texts -->
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
+			<Text>Rend</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_PLAGUE_CHANCE">
+			<Text>[COLOR_CYAN]Status Effect Chance ({1_Name}): {2_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ALREADY_PLAGUED">
+			<Text>[COLOR_CYAN]Has {1_Num} Status Effect[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_IMMUNE_PLAGUED">
+			<Text>[COLOR_CYAN]Immune to {1_Num}[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_IGNORE_ZOC">
+			<Text>[COLOR_CYAN]Ignores ZoC Effects[ENDCOLOR]</Text>
+		</Row>
+
+		<!-- Tooltip helpers for unhappiness -->
+		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GROWTH">
+			<Text>[NEWLINE][NEWLINE]With [ICON_CITIZEN] Growth, [ICON_HAPPINESS_3] Unhappiness from Needs estimated to increase as follows:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GOLD">
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD] Poverty: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_SCIENCE">
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_RESEARCH] Illiteracy: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_CULTURE">
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE] Boredom: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE">
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD] Distress: {1_Num}</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

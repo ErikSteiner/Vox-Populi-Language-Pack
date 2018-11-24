@@ -389,11 +389,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_OBSOLETE_ERA">
-			<Text>[NEWLINE] [ICON_BULLET] Veraltet durch das Verlassen des {1_Desc} Zeitalters</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Veraltet durch das Verlassen des Zeitalters {1_Desc}</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_NEED_ERA">
-			<Text>[NEWLINE] [ICON_BULLET] Erfordert mindestens, dass Ihr Euch im Zeitalter {1_Desc} befindet</Text>
+			<Text>[NEWLINE] [ICON_BULLET] Erfordert, dass Ihr Euch mindestens im Zeitalter {1_Desc} befindet.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_OBSOLETE_TECH">
