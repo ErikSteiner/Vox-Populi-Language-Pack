@@ -19,6 +19,10 @@ SET Text = '15% [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZE
 WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
+SET Text = 'Der Aquädukt verringert die zum Wachstum der Stadt benötigte [ICON_FOOD] Nahrung um 15 %. Baut Aquädukte in Städten, die mit der Zeit groß werden sollen.'
+WHERE Tag = 'TXT_KEY_BUILDING_AQUEDUCT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
 SET Text = '15 % [ICON_FOOD] Nahrung bleibt erhalten, wenn ein neuer [ICON_CITIZEN] Bürger geboren wird. Wissenschaftler-, Händler- und Ingenieur-Spezialisten produzieren +1 ihres Grundertrags in der Stadt. Reduziert [ICON_HAPPINESS_3] Armut stark.'
 WHERE Tag = 'TXT_KEY_BUILDING_MEDICAL_LAB_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
@@ -47,11 +51,11 @@ SELECT 'TXT_KEY_BUILDING_MONUMENT_HELP', '[ICON_CULTURE] Kulturkosten für den E
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_AMPHITHEATER_HELP', '+33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.'
+SELECT 'TXT_KEY_BUILDING_AMPHITHEATER_HELP', '+33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt und gewährt Boni auf umliegende [ICON_RES_DYE] Färbemittel und [ICON_RES_SILK] Seide Ressourcen. Steigert außerdem die Großer Schriftsteller Rate in der Stadt und den Wert der Schriftstellergilden. Beinhaltet 1 Platz für ein Großes Literaturwerk.'
+SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt und gewährt Boni auf umliegende [ICON_RES_DYE] Färbemittel und [ICON_RES_SILK] Seide Ressourcen. Steigert außerdem die Großer Schriftsteller Rate in der Stadt und den Wert der Schriftstellergilden. Beinhaltet 2 Plätze für ein Großes Literaturwerk.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -67,11 +71,11 @@ SET Text = 'Das Museum ist ein Gebäude im mittleren Abschnitt des Spiels, das d
 WHERE Tag = 'TXT_KEY_BUILDING_MUSEUM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_MUSEUM_HELP', 'Reduziert [ICON_HAPPINESS_3] Unwissenheit stark. +1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +33% [ICON_GREAT_ARTIST] Großer Künstler Rate in der Stadt und alle Künstlergilde produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
+SELECT 'TXT_KEY_BUILDING_MUSEUM_HELP', 'Reduziert [ICON_HAPPINESS_3] Unwissenheit stark. +1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +33% [ICON_GREAT_ARTIST] Großer Künstler Rate in der Stadt und alle Künstlergilde produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+4 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile stark. +1 [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus für je 5 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]+15 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile stark. +1 [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus für je 5 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]+10 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -79,19 +83,19 @@ SET Text = 'Ein Funkturm ist ein Gebäude im späteren Verlauf des Spiels, das d
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Kriminalität leicht. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = '+15 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend leicht. Erhöht das Militäreinheiten Versorgungslimit um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_BARRACKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = '+20 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Kriminalität.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = '+20 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht das Militäreinheiten Versorgungslimit um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARMORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht das Militäreinheiten Versorgungslimit um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 		
 UPDATE Language_de_DE
-SET Text = '+33 % [ICON_PRODUCTION] Produktion beim Bau von berittenen Einheiten. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_HORSE] Pferde: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SHEEP] Schafen: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_COW] Vieh : +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE]Die Stadt benötigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.'
+SET Text = '+33 % [ICON_PRODUCTION] Produktion beim Bau von berittenen Nahkampf-Einheiten. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_HORSE] Pferde: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SHEEP] Schafen: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_COW] Vieh : +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE]Die Stadt benötigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.'
 WHERE Tag = 'TXT_KEY_BUILDING_STABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -199,7 +203,7 @@ SET Text = '+4 [ICON_RESEARCH] Wissenschaft von [ICON_RES_ALUMINUM] Aluminium, u
 WHERE Tag = 'TXT_KEY_BUILDING_LABORATORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadt erhält +2 [ICON_RESEARCH] Wissenschaft pro Gebirge innerhalb von 3 Geländefeldern von der Stadt. Benötigt die ''Wissenschaftliche Revolution'' Politik.'
+SET Text = 'Stadt erhält +1 [ICON_RESEARCH] Wissenschaft pro Gebirge innerhalb von 3 Geländefeldern von der Stadt. Benötigt die ''Wissenschaftliche Revolution'' Politik.'
 WHERE Tag = 'TXT_KEY_BUILDING_OBSERVATORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -227,42 +231,54 @@ SET Text = 'Beseitigt zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit in einer [
 WHERE Tag = 'TXT_KEY_BUILDING_COURTHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
+SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 % und erhöht die Reichweite des Fernkampfangriffs der Stadt um 1. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
 WHERE Tag = 'TXT_KEY_BUILDING_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILDING_WALLS_HELP', 'Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %.'
+SELECT 'TXT_KEY_BUILDING_WALLS_HELP', 'Erhöht die Reichweite des [ICON_RANGE_STRENGTH] Fernkampfangriffs der Stadt um 1 und das Militäreinheiten Limit durch Bevölkerung in dieser Stadt um 10 %.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15 und die Trefferpunkte um 100 erhöht. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 % und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
+SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15, Fernkampfschaden um 25% und die Trefferpunkte um 100 erhöht. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 % und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_en_US
-SET Text = 'Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen, die von dieser Stadt bewirtschaftet werden. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 5 %. Stellt 1 Platz für ein Großes Kunstwerk oder Artefakt bereit.'
+SET Text = 'Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen, die von dieser Stadt bewirtschaftet werden. Erhöht the städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100%. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %. Stellt 1 Platz für ein Großes Kunstwerk oder Artefakt bereit.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 
 UPDATE Language_de_DE
-SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
+SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfschaden-Reichweite um 1 und erlaubt ihr durch indirektes Feuer die Sichtweite zu ignorieren. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 15 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadt benötigt eine Burg. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 5 %.'
+SET Text = 'Stadt benötigt eine Burg. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 15 %. Erhöht den Fernkampf-Trefferbereich der Stadt [ICON_RANGE_STRENGTH] um 1 und erlaubt indirektes Feuer.[NEWLINE][NEWLINE]Stationierte Einheiten erhalten zusätzliche 10 Trefferpunkte, wenn sie in dieser Stadt heilen. Fremde Spione können keine Wissenschaft aus dieser Stadt stehlen.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität stark. +20 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +10 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt.[NEWLINE][NEWLINE] Stationierte Einheiten erhalten 10 zusätzliche Gesundheit, wenn sie sich in dieser Stadt heilen. Fremde Spione können keine [ICON_RESEARCH] Wissenschaft von dieser Stadt stehlen.[NEWLINE][NEWLINE]Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 5 %. Stadt benötigt ein Arsenal.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +15 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100 %.[NEWLINE][NEWLINE] Stationierte Einheiten erhalten 25 zusätzliche Gesundheit und stationierte Einhalten erhalten zusätzliche 10 Trefferpunkte, wenn sie in dieser Stadt heilen. Stadt benötigt ein Arsenal.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Militärstützpunkt ist ein Gebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um 200 erhöht. Außerdem verbessert es die Verteidigung gegen Lufteinheiten.  Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Stationierte Einheiten erhalten zusätzlich 10 Gesundheit, wenn sie sich in dieser Stadt heilen. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %.'
+SET Text = 'Der Militärstützpunkt ist ein Gebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um 200 erhöht. Außerdem verbessert es die Verteidigung gegen Lufteinheiten.  Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Stationierte Einheiten erhalten zusätzlich 10 Gesundheit, wenn sie sich in dieser Stadt heilen. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 25 %.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert Bevölkerungsverluste durch Atomangriffe um 75%. Erhöht die Verteidigungsstärke der Stadt um 5 und [ICON_HAPPINESS_1] Zufriedenheit um 1. +10 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt.'
+SET Text = '50% chance to detonate nuclear weapons [COLOR_POSITIVE_TEXT]without damaging the city or surrounding tiles[ENDCOLOR]. Reduces population loss from nuclear attack by 75%, increases Defensive Strength by 5, and [ICON_HAPPINESS_1] Happiness by 1. +10 [ICON_STRENGTH] Damage to Air Units during Air Strikes on City.'
 WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Strategic Defense Systems have a 50% chance to detonate nuclear weapons without damaging the city or surrounding tiles, reduce population loss from a nuclear attack on this city by 75% if a missile does strike, and improve the city''s happiness. Duck and Cover!'
+WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Strategic Defense System'
+WHERE Tag = 'TXT_KEY_BUILDING_BOMB_SHELTER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'The Strategic Defense Initiative (SDI) was a proposed missile defense system intended to protect the United States from attack by ballistic strategic nuclear weapons (intercontinental ballistic missiles and submarine-launched ballistic missiles). The concept was first announced publicly by President Ronald Reagan on 23 March 1983. Reagan was a vocal critic of the doctrine of mutual assured destruction (MAD), which he described as a ''suicide pact,'' and he called upon the scientists and engineers of the United States to develop a system that would render nuclear weapons obsolete.'
+WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_BOMB_SHELTER_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
 SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +1 [ICON_PRODUCTION] Produktion für je 4 [ICON_CITIZEN] Bürger in der Stadt.[NEWLINE][NEWLINE]Alle von der Stadt bewirtschafteten Fabrikanlage erhalten +2 [ICON_PRODUCTION] Produktion.'
@@ -277,11 +293,11 @@ SET Text = 'Die Raumschiffteile Fabrik steigert die Geschwindigkeit mit der eine
 WHERE Tag = 'TXT_KEY_BUILDING_SPACESHIP_FACTORY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25%.'
+SET Text = '25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Geländefeldern wird zur [ICON_TOURISM] Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25%.'
 WHERE Tag = 'TXT_KEY_BUILDING_HOTEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ermöglicht Lufttransport in diese oder aus dieser Stadt. [COLOR_POSITIVE_TEXT]Erhöht die Lufteinheiten-Kapazität der Stadt von 6 auf 10.[ENDCOLOR] +10 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. 25 % der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM]  Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25 %.'
+SET Text = 'Ermöglicht Lufttransport in diese oder aus dieser Stadt. [COLOR_POSITIVE_TEXT]Erhöht die Lufteinheiten-Kapazität der Stadt von 6 auf 10.[ENDCOLOR] +10 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. 25 % der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Geländefeldern wird zur [ICON_TOURISM]  Tourismusproduktion der Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25 %.'
 WHERE Tag = 'TXT_KEY_BUILDING_AIRPORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -325,15 +341,15 @@ SET Text = 'Baut das Stadion wenn Ihr einen [COLOR_POSITIVE_TEXt]Kultursieg[ENDC
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile stark. Gewährt eine riesige Summe an [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, wenn vollendet.[NEWLINE][NEWLINE]25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Verbesserungen wird zur [ICON_TOURISM] Tourismusproduktion einer Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25%.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile stark. Gewährt eine riesige Summe an [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, wenn vollendet.[NEWLINE][NEWLINE]25% der [ICON_CULTURE] Kultur von Weltwundern, Naturwundern und Geländefeldern wird zur [ICON_TOURISM] Tourismusproduktion einer Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken +25%.'
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität stark. Senkt die Diebstahlrate feindlicher Spione um 25 % und den Diebstahl von [ICON_GOLD] Gold während einer Erweiterten Spionageaktion. Wenn ein feindlicher Spion getötet wird, erhaltet Ihr 500 [ICON_RESEARCH] Wissenschaft und [ICON_CULTURE] Kultur, steigt mit dem Zeitalter und dem Level des getöteten Spions.[NEWLINE][NEWLINE]Stadt benötigt eine Gendarmerie.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. Senkt die Diebstahlrate feindlicher Spione um 25 % und den Diebstahl von [ICON_GOLD] Gold während einer Erweiterten Spionageaktion. Wenn ein feindlicher Spion getötet wird, erhaltet Ihr 500 [ICON_RESEARCH] Wissenschaft und [ICON_CULTURE] Kultur, steigt mit dem Zeitalter und dem Level des getöteten Spions.[NEWLINE][NEWLINE]Stadt benötigt eine Gendarmerie.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität. Senkt die Diebstahlrate feindlicher Spione um 25 % und die Störung von im Bau befindlichen Gebäuden, durch Erweiterte Spionageaktion.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend. Senkt die Diebstahlrate feindlicher Spione um 25 % und die Störung von im Bau befindlichen Gebäuden, durch Erweiterte Spionageaktion.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -397,7 +413,7 @@ SET Text = 'Dieses Nationale Wunder gewährt +1 [ICON_CULTURE] Kultur für je 4 
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein wichtiges nationales Wunder für eine auf Technologie ausgerichtete Zivilisation. Reduziert [ICON_HAPPINESS_3] Kriminalität. Der Nationale Nachrichtendienst bringt einen zusätzlichen Spion ein, verbessert die Wahrscheinlichkeit für Attentatsversuche auf Große Persönlichkeiten, durch Erweiterte Spionageaktionen, erhöht die Stufe all Eurer existierenden Spione und reduziert die Effektivität feindlicher Spione um 15 %. Reiche mit einer großen Anzahl an offensiven Spionen werden stark von diesem Gebäude profitieren. Die Stadt muss über eine Polizeiwache verfügen, bevor der Nationale Nachrichtendienst errichtet werden kann.'
+SET Text = 'Ein wichtiges nationales Wunder für eine auf Technologie ausgerichtete Zivilisation. Reduziert [ICON_HAPPINESS_3] Elend. Der Nationale Nachrichtendienst bringt einen zusätzlichen Spion ein, verbessert die Wahrscheinlichkeit für Attentatsversuche auf Große Persönlichkeiten, durch Erweiterte Spionageaktionen, erhöht die Stufe all Eurer existierenden Spione und reduziert die Effektivität feindlicher Spione um 15 %. Reiche mit einer großen Anzahl an offensiven Spionen werden stark von diesem Gebäude profitieren. Die Stadt muss über eine Polizeiwache verfügen, bevor der Nationale Nachrichtendienst errichtet werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -435,15 +451,15 @@ SET Text = '+25 [ICON_RESEARCH] Wissenschaft wenn Ihr ein Gebäude in der Stadt 
 WHERE Tag = 'TXT_KEY_BUILDING_IRONWORKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Großer Wissenschaftler erscheint neben Eurer Stadt. +75 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Bonus steigt mit jedem Zeitalter. Enthält 2 Plätze für Große Literaturwerke. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Benötigt eine Universität in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+3 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.'
+SET Text = 'Ein Großer Wissenschaftler erscheint neben Eurer Stadt. +75 [ICON_CULTURE] Kultur jedes Mal, wenn Ihr eine Technologie erforscht. Bonus steigt mit jedem Zeitalter. Enthält 2 Plätze für Große Literaturwerke. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Benötigt eine Universität in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+4 [ICON_RESEARCH] Wissenschaft, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +10% [ICON_CULTURE] Kultur in dieser Stadt. Beinhaltet 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]Benötigt ein Opernhaus in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
+SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Stadt. +10% [ICON_CULTURE] Kultur in dieser Stadt. Beinhaltet 3 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]Benötigt ein Opernhaus in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.[NEWLINE][NEWLINE]+4 [ICON_GOLD] Gold und [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Fremde Spione können keine Rebellion oder Unruhen in dieser Stadt anzetteln und es ist viel wahrscheinlicher, dass Eure Spione auf fremde [ICON_GREAT_PEOPLE] Große Persönlichkeiten einen Mordanschlag ausführen. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Fremde Spione können keine Rebellion oder Unruhen in dieser Stadt anzetteln und es ist viel wahrscheinlicher, dass Eure Spione auf fremde [ICON_GREAT_PEOPLE] Große Persönlichkeiten einen Mordanschlag ausführen. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -451,7 +467,7 @@ SET Text = 'Alle Tempel produzieren +2 [ICON_PEACE] Glaube und [ICON_CULTURE] Ku
 WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt ein Hotel in der Stadt.[NEWLINE][NEWLINE]25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion aller Städte und weitere 25% zu dieser Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken in allen Städten um 25% und in dieser um weitere 25% erhöht.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Benötigt ein Hotel in der Stadt.[NEWLINE][NEWLINE]25% der [ICON_CULTURE] Kultur für Weltwunder, Naturwunder und Geländefeldern wird zur [ICON_TOURISM] Tourismusproduktion aller Städte und weitere 25% zu dieser Stadt addiert. [ICON_TOURISM] Tourismusproduktion von Großen Werken in allen Städten um 25% und in dieser um weitere 25% erhöht.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -459,7 +475,7 @@ SET Text = 'Geschwindigkeit für Geländefeld-Modernisierungen um 25% erhöht un
 WHERE Tag = 'TXT_KEY_WONDER_CHICHEN_ITZA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Alle Einheiten erhalten +15% [ICON_STRENGTH] Kampfstärke beim Angriff auf Städte. Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten. Erhaltet eine freie Kaserne in der Stadt.'
+SET Text = 'Alle Einheiten erhalten +15% [ICON_STRENGTH] Kampfstärke beim Angriff auf Städte. Reduziert [ICON_HAPPINESS_3] Elend in allen Städten. Erhaltet eine freie Kaserne in der Stadt.'
 WHERE Tag = 'TXT_KEY_WONDER_STATUE_ZEUS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -487,7 +503,7 @@ SET Text = 'Bietet einen kostenlosen Garten in der Stadt, in der das Wunder geba
 WHERE Tag = 'TXT_KEY_WONDER_HANGING_GARDEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Kriminalität in allen Städten und erhöht in der Stadt die Militäreinheiten Versorgungsgrenze um 3. Erschafft eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Menge an [ICON_CULTURE] Kultur, wenn vollendet.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend in allen Städten und erhöht in der Stadt die Militäreinheiten Versorgungsgrenze um 3. Erschafft eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Menge an [ICON_CULTURE] Kultur, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -503,7 +519,7 @@ SET Text = '[ICON_CULTURE] Kultur- und [ICON_GOLD] Goldkosten für das erschlie�
 WHERE Tag = 'TXT_KEY_WONDER_ANGKOR_WAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten verbrauchen alle [ICON_MOVES] Bewegungszüge, wenn sie Euer Territorium betreten. Erhöht die Militäreinheiten Versorgungsgrenze um 3. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern.[NEWLINE][NEWLINE]Durch die Entdeckung des Dynamits veraltet die Große Mauer.'
+SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten verbrauchen alle [ICON_MOVES] Bewegungszüge, wenn sie Euer Territorium betreten. Erhöht die Militäreinheiten Versorgungsgrenze um 3. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern.[NEWLINE][NEWLINE]Durch die Entdeckung des Dynamits veraltet die Große Mauer, mit all seinen Boni.'
 WHERE Tag = 'TXT_KEY_WONDER_GREAT_WALL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -523,11 +539,11 @@ SET Text = 'Als Zentrum einer islamisch-wissenschaftlichen Gemeinschaft, war die
 WHERE Tag = 'TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein freier Großer Prophet erscheint. Gewährt eine freie Kirche in der Stadt in der es gebaut wurde.'
+SET Text = 'Ein freier Großer Prophet erscheint. Gewährt eine freie Kirche in der Stadt in der es gebaut wurde. Erhöht die anfängliche religiöse Stärke aller Missionare um 25 %.'
 WHERE Tag = 'TXT_KEY_WONDER_HAGIA_SOPHIA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erlaubt Euch einen Reformations-Glaubenssatz zu wählen, ohne die Voraussetzungen dafür zu haben. Muss in einer Heiligen Stätte errichtet werden.'
+SET Text = 'Erlaubt Euch einen Reformations-Glaubenssatz zu wählen, der 5 % unter der normalen globalen [ICON_RELIGION] Anhänger-Anforderung liegt (20 % auf Standard). Erhaltet ein freies Ordnung-Gebääude, in der Stadt in der es gebaut wurde. Muss in einer Heiligen Stätte errichtet werden.'
 WHERE Tag = 'TXT_KEY_WONDER_KREMLIN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -539,11 +555,11 @@ SET Text = 'Die Basilius-Kathedrale, eigentlich: Kathedrale des seligen Basilius
 WHERE Tag = 'TXT_KEY_WONDER_KREMLIN_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Muss in einer Heiligen Stätte errichtet werden. 2 freie Missionare erscheinen und alle Missionare erhalten eine zusätzliche Religion verbreiten Aktion. Eine freie Stupa wird in der Stadt errichtet.'
+SET Text = 'Muss in einer Heiligen Stätte errichtet werden. 2 freie Missionare erscheinen und alle kommenden und bestehenden Missionare erhalten eine zusätzliche Religion verbreiten Aktion. Eine freie Stupa wird in der Stadt errichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_BOROBUDUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Erhöht die Militäreinheiten Versorgungsgrenze in jeder Stadt um 1. Gewährt eine freie Burg in der Stadt in der es gebaut wurde.'
+SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Erhöht die Militäreinheiten Versorgungsgrenze um 5. Gewährt eine freie Burg in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -551,7 +567,7 @@ SET Text = '+15 % [ICON_GOLD] Gold durch [ICON_CONNECTED] Stadtverbindungen. Sta
 WHERE Tag = 'TXT_KEY_WONDER_MACHU_PICHU_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
-SELECT 'TXT_KEY_BUILDING_NOTRE_DAME_HELP', 'Erhaltet eine freie Kathedrale in der Stadt und es beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. Beinhaltet 2 Plätze für Große Kunstwerke oder Artefakte.[NEWLINE][NEWLINE]+3 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
+SELECT 'TXT_KEY_BUILDING_NOTRE_DAME_HELP', 'Erhaltet eine freie Kathedrale in der Stadt und es beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. Beinhaltet 2 Plätze für Große Kunstwerke oder Artefakte.[NEWLINE][NEWLINE]+3 [ICON_PEACE] Glauben und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, wenn thematisch ausgerichtet.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -571,15 +587,15 @@ SET Text = '1 freier Großer Künstler erscheint bei der Stadt, in der das Wunde
 WHERE Tag = 'TXT_KEY_WONDER_UFFIZI_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Lehnstreue Zweigs. Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde, für je 2 [ICON_CITIZEN] Bürger in der Stadt. Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe in allen Städten.'
+SET Text = 'Erfordert die Vollendung des Lehnstreue Zweigs. Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde, für je 2 [ICON_CITIZEN] Bürger in der Stadt. +50 [ICON_CULTURE] Kultur und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, wenn eine eigene Einheit in der Schlacht vernichtet wird, steigt mit jedem Zeitalter. Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_PYRAMIDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+10% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben, wenn thematisch ausgerichtet.'
+SET Text = '+10% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze für Große Kunstwerke.[NEWLINE][NEWLINE]+3 [ICON_PEACE] Glauben und [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_SISTINE_CHAPEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Militäreinheiten Versorgungsgrenze durch die Bevölkerung in allen Städten um 5 %.'
+SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Städtische [ICON_RANGE_STRENGTH] Fernkampfstärke erhöht sich um 50 % und Fernkampf Reichweite um 1. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Militäreinheiten Versorgungsgrenze durch die Bevölkerung in allen Städten um 5 %.'
 WHERE Tag = 'TXT_KEY_WONDER_RED_FORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -591,7 +607,7 @@ SET Text = 'Ein großer Wissenschaftler erscheint bei der Stadt, in der das Wund
 WHERE Tag = 'TXT_KEY_WONDER_PORCELAIN_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Kriminalität und erhöht die Militäreinheiten Versorgungsgrenze um 10, in der Stadt in der es gebaut wurde.'
+SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Elend und erhöht die Militäreinheiten Versorgungsgrenze um 10, in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_BRANDENBURG_GATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -615,7 +631,7 @@ SET Text = '+1 [ICON_GOLD] Gold, [ICON_CULTURE] Kultur und [ICON_HAPPINESS_1] Zu
 WHERE Tag = 'TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Fleiß Zweigs. 1 freier Großer Musiker erscheint bei der Stadt, in der das Wunder gebaut wurde. Enthält 3 Plätze für Große Musikwerke. +250 [ICON_CULTURE] Kultur für den Bau eines Gebäudes in der Stadt, steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+15 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
+SET Text = 'Erfordert die Vollendung des Fleiß Zweigs. 1 freier Großer Musiker erscheint bei der Stadt, in der das Wunder gebaut wurde. Enthält 3 Plätze für Große Musikwerke. +250 [ICON_CULTURE] Kultur für den Bau eines Gebäudes in der Stadt, steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+20 [ICON_GOLD] Gold, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_BROADWAY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -623,10 +639,15 @@ SET Text = 'Benötigt Autokratie. +1 [ICON_HAPPINESS_1] Zufriedenheit für je 2 
 WHERE Tag = 'TXT_KEY_WONDER_PRORA_RESORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Imperialismus Zweigs. [ICON_GOLD] Goldkosten für das modernisieren von Militäreinheiten um 33 % reduziert. Eigene Spione können durch Erweiterte Spionageaktionen leichter die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen.'
+SET Text = 'Erfordert die Vollendung des Imperialismus Zweigs. [ICON_GOLD] Goldkosten für das modernisieren von Militäreinheiten um 33 % reduziert. Eigene Spione können durch Erweiterte Spionageaktionen leichter die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen. Erhöht die Versorgungsobergrenze für Militäreinheit, durch die Bevölkerung in jeder Stadt um 1.'
 WHERE Tag = 'TXT_KEY_WONDER_PENTAGON_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
+
 UPDATE Language_de_DE
+SET Text = '+1 [ICON_CITIZEN] Population in each city and +1 [ICON_HAPPINESS_1] Happiness per city. All [ICON_GREAT_WORK] Great Works gain +2 [ICON_GOLD] Gold and +3 [ICON_TOURISM] Tourism. 50% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Tiles is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +50%. Provides a free Broadcast Tower in the City in which it is built'
+WHERE Tag = 'TXT_KEY_WONDER_CN_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_en_US
 SET Text = '+25 [ICON_TOURISM] Tourismus. Hotels produzieren +2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, [ICON_CULTURE] Kultur und [ICON_TOURISM] Tourismus.'
 WHERE Tag = 'TXT_KEY_WONDER_CRISTO_REDENTOR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
@@ -649,3 +670,19 @@ WHERE Tag = 'TXT_KEY_PROCESS_WORLD_GAMES_HELP' AND EXISTS (SELECT * FROM COMMUNI
 UPDATE Language_de_DE
 SET Text = 'Ihr tragt mit der [ICON_PRODUCTION] Produktion dieser Stadt zur Fertigstellung des Projekts Internationale Raumstation bei. Die Kosten steigen in Abhängigkeit zur Spieleranzahl und dem derzeitigen Zeitalter.'
 WHERE Tag = 'TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Citizen Earth Protocol'
+WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Construct the Citizen Earth Protocol to win a [ICON_POSITIVE_TEXT]Cultural Victory[ENDCOLOR]![NEWLINE][NEWLINE]Requirements for Construction: [NEWLINE]  [ICON_BULLET] Must have an Ideology (with a [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] Population).[NEWLINE]   [ICON_BULLET] Must be [ICON_TOURISM] [COLOR_POSITIVE_TEXT]Influential[ENDCOLOR] with all other Civilizations in the world.[NEWLINE]   [ICON_BULLET] Must have [COLOR_POSITIVE_TEXT]two[ENDCOLOR] Tier 3 Tenets in your current Ideology.'
+WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'Global citizenship is idea of all persons having rights and civic responsibilities that come with being a member of the World, with whole-world philosophy and sensibilities, rather than as a citizen of a particular nation or place. The idea is that one’s identity transcends geography or political borders and that responsibilities or rights are derived from membership in a broader class: ''humanity.'' This does not mean that such a person denounces or waives their nationality or other, more local identities, but such identities are given ''second place'' to their membership in a global community. Extended, the idea leads to questions about the state of global society in the age of globalization. In general usage, the term may have much the same meaning as ''world citizen'' or cosmopolitan, but it also has additional, specialized meanings in differing contexts. Various organizations, such as the World Service Authority, have advocated global citizenship.'
+WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
+
+UPDATE Language_de_DE
+SET Text = 'You must have an Ideology (with a [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] population), two Tier 3 Tenets in this Ideology, and be [ICON_TOURISM] Influential with all other Civilizations in the world in order to construct this. Once you have completed these tasks, construct this project to win a Cultural Victory!'
+WHERE Tag = 'TXT_KEY_PROJECT_UTOPIA_PROJECT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );

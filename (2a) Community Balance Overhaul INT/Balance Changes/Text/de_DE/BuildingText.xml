@@ -118,7 +118,7 @@
 			<Text>Einzigartiges byzantinisches Gebäude, dass den Tempel ersetzt. Dieses Gebäude benötigt keinen Unterhalt, steigert die Produktion von [ICON_PEACE] Glauben basierend auf der Anzahl von [ICON_CITIZEN] Bürgern in der Stadt und verdoppelt den religiösen Druck der von Handelswegen ausgeht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
-			<Text>+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Handelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
+			<Text>+1 [ICON_PEACE] Glauben für je 3 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Handelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON">
 			<Text>Großer Kothon</Text>
@@ -130,56 +130,56 @@
 			<Text>Einzigartiges byzantinisches Gebäude, dass die East India Company ersetzt. Benötigt einen Markt in der Stadt. Zusätzlich zu den normalen Boni die die East India Company gewährt, gewährt der Große Kothon in der Stadt in der er gebaut wird zusätzliches Gold für den Adressaten und dem Ziel des Handelsweges, zwei zusätzliche Handeswege. Alle Häfen in Eurem Reich erhalten außerdem +3 Produktion und alle Leuchttürme produzieren +2 Kultur. Anders als die East India Company, wird der Große Kothon in der Klassik, mit der Endeckung der Währung verfügbar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
-			<Text>Benötigt einen Markt in der Stadt.[NEWLINE][NEWLINE]+5 [ICON_GOLD] Gold für ausgehende [ICON_INTERNATIONAL_TRADE] Handelswege, +3 [ICON_GOLD] Gold für eingehende [ICON_INTERNATIONAL_TRADE] Handelswege. Ressourcenvielfalt Modifikatoren von dieser Stadt erhöhen sich um 25%, wenn positiv und verringern sich um 25%, wenn negativ. Gewährt zwei zusätzliche [ICON_INTERNATIONAL_TRADE] Handelswege, alle Häfen erhalten +3 [ICON_PRODUCTION] Produktion und alle Leuchttürme produzieren +2 [ICON_CULTURE] Kultur. Erhaltet eine freie Kopie aller Luxusgüter, die um der Stadt liegen. Reduziert [ICON_HAPPINESS_3] Armut. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.</Text>
+			<Text>Reduces [ICON_HAPPINESS_3] Poverty. Receive a free copy of all Luxury Resources around the City. Incoming [ICON_INTERNATIONAL_TRADE] Trade Routes generate +5 [ICON_GOLD] Gold for the City, and +3 [ICON_GOLD] Gold for Trade Route owner. Resource Diversity Modifiers for Trade Routes from this City increase by 25% if positive, and decrease by 25% if negative. Grants two additional [ICON_INTERNATIONAL_TRADE] Trade Routes, all Harbors gain +3 [ICON_PRODUCTION] Production, and all Lighthouses gain +2 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Requires a Market in the City. The [ICON_PRODUCTION] Production Cost and [ICON_CITIZEN] Population Requirements increase based on the number of cities you own.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
-			<Text>Erhaltet [ICON_PEACE] Glauben jedes Mal wenn eine eigene Einheit im Kampf getötet wird. Bonus steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung (steigt mit Kartengröße) und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>Erhaltet [ICON_PEACE] Glauben jedes Mal wenn eine eigene Einheit im Kampf getötet wird. Bonus steigt mit jedem Zeitalter.[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung (steigt mit Kartengröße) und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM">
 			<Text>Mausoleum</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_STRATEGY">
-			<Text>Baut das Mausoleum um [ICON_PEACE] Glauben durch Verluste im Krieg zu erhalten und um Heilige Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).</Text>
+			<Text>Baut das Mausoleum um [ICON_PEACE] Glauben durch Verluste im Krieg zu erhalten und um Heilige Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
 			<Text>Ein Mausoleum ist ein monumentales Grabmal in Gebäudeform. Der Ausdruck leitet sich ab von Maussol-eion, dem zu den antiken sieben Weltwundern gehörenden Grab von Maussolos in Halikarnassos, gewidmet dem Statthalter von Karien an der Westküste der heutigen Türkei zwischen 377 und 353 v. Chr. Ein Denkmal ohne Beisetzung ist ein Kenotaph und ein christliches Mausoleum enthält manchmal eine Kapelle.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße).[NEWLINE][NEWLINE]+5 [ICON_PEACE] Glauben von allen Heiligen Stätten.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE">
 			<Text>Himmlischer Thron</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_STRATEGY">
-			<Text>Baut den Himmlischen Thron für die Steigerung der Grunderträge Eurer Heiligen Stadt und um Eure Heiligen Stätte zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Baut den Himmlischen Thron für die Steigerung der Grunderträge Eurer Heiligen Stadt und um Eure Heiligen Stätte zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
 			<Text>Als Thron (u.a. über lat. thronus, aus altgr. thrónos; zu dt. „Stuhl“ oder Herrscher-Sitz wird der meist opulent gestaltete Stuhl als Insigne eines Monarchen bezeichnet, auf dem dieser zu besonderen Anlässen Platz nimmt. Thron kann abstrakt auch die Monarchie selbst meinen und ist auch in vielen Ausdrücken wie "die Macht hinter dem Thron" verwendet.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+15 % [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR">
 			<Text>Großer Altar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_STRATEGY">
-			<Text>Build the Great Altar for a boost to Military Unit production and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie den Großen Altar, um die Produktion von Militäreinheiten zu steigern und alle Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
 			<Text>An altar is any structure upon which offerings such as sacrifices are made for religious purposes. Altars are usually found at shrines, and they can be located in temples, churches and other places of worship. Today they are used particularly in Christianity, Buddhism, Hinduism, Shinto, Taoism, as well as in Neopaganism and Ceremonial Magic. Judaism used such a structure until the destruction of the Second Temple. Many historical faiths also made use of them, including Greek and Norse religion.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_HELP">
-			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
+			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY">
 			<Text>Reliquienschrein</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_STRATEGY">
-			<Text>Build the Reliquary for a powerful Tourismus-centric bonus and bonuses for all Holy Sites. The building's Tourismus bonus is only possible if all four Works of Art/Artifacts come from differing players. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie die Reliquie für einen mächtigen tourismuszentrierten Bonus und Boni für alle Heiligen Stätten. Der Tourismusbonus des Gebäudes ist nur möglich, wenn alle vier Kunstwerke von unterschiedlichen Akteuren stammen. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_TEXT">
 			<Text>A reliquary is a container for relics. These may be the purported physical remains of saints, such as bones, pieces of clothing, or some object associated with saints or other religious figures. The authenticity of any given relic is often a matter of debate; for that reason, some churches require documentation of the relic's provenance. Relics have long been important to Buddhists, Christians, Hindus and many other religions. In these cultures, reliquaries are often presented in shrines, churches, or temples to which the faithful make pilgrimages in order to gain blessings. In Central West Africa, reliquaries used in the Bwete rituals contain objects considered magical, or the bones of ancestors, and are commonly constructed with a guardian figure attached to the reliquary.</Text>
@@ -192,65 +192,65 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>+5 [ICON_GOLD] Gold von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
+			<Text>+5 [ICON_GOLD] Gold von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT">
-			<Text>Gottesgericht</Text>
+			<Text>Göttlicher Hof</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_STRATEGY">
-			<Text>Build the Divine Court for a boost to Gold output and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie den Göttlichen Hof für eine Steigerung der Goldgewinnung und zur Verbesserung aller Heiligen Stätten. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
 			<Text>A beth din ("house of judgment," or divine court) is a rabbinical court of Judaism. In ancient times, it was the building block of the legal system in the Biblical Land of Israel. Today, it is invested with legal powers in a number of religious matters (din Torah, "matter of litigation," plural dinei Torah) both in Israel and in Jewish communities in the Diaspora, where its judgments hold varying degrees of authority (depending upon the jurisdiction and subject matter) in matters specifically related to Jewish religious life.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
-			<Text>+5 [ICON_FOOD] Nahrung from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+5 [ICON_FOOD] Nahrung von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN">
 			<Text>Heiliger Garten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_STRATEGY">
-			<Text>Build the Sacred Garden for a boost to Kultur output and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie den Heiligen Garten, um den Ertrag von Kultur zu steigern und alle Heiligen Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
 			<Text>Religion has been an important influence on garden design. Temple gardens were made in Mesopotamia and Ancient Egypt. Sacred groves were made in ancient India, Greece, Rome, China and Japan. Sacred trees were important in Celtic and Germanic Europe and still are important in India. Many groves or forests were sacred in ancient India and continue to be so in modern Hindu worship. Buddhism had a significant influence on garden design, with the Zen gardens of China and Japan as famous examples. In Christianity, particularly Catholicism and Anglicanism, Mary gardens are common among churches and institutions. The practise of creating sacred gardens is re-invigorated and adapted for modern times in the Ringing Cedars Series of books by Russian author Vladimir Megre.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
-			<Text>+5 [ICON_RESEARCH] Wissenschaft from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+5 [ICON_RESEARCH] Wissenschaft von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL">
-			<Text>Heiliger Rat</Text>
+			<Text>Heiliges Konzil</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_STRATEGY">
-			<Text>Build the Holy Council for a boost to Nahrung output and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie das Heilige Konzil, um die Nahrungsmittelproduktion zu steigern und alle Heiligen Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
 			<Text>An ecumenical council (or holy council) is a conference of ecclesiastical dignitaries and theological experts convened to discuss and settle matters of Church doctrine and practice in which those entitled to vote are convoked from the whole world (oikoumene) and which secures the approbation of the whole Church.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>+4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte.[NEWLINE][NEWLINE]+5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE">
 			<Text>Apostolischer Palast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_STRATEGY">
-			<Text>Build the Apostolic Palace for more rapid Golden Ages and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Bauen Sie den Apostolischen Palast für schnellere Goldene Zeitalter und zur Verbesserung aller Heiligen Stätten. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
 			<Text>The Latin word basilica has three distinct applications in modern English. The word was originally used to describe an open, Roman, public court building, usually located adjacent to the forum of a Roman town. By extension it was applied to Christian buildings of the same form and continues to be used in an architectural sense to describe those buildings with a central nave and aisles. Later, the term came to refer specifically to a large and important church, the Apostolic Palace, that has been given special ceremonial rights by the Pope.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>+5 [ICON_CULTURE] Kultur von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+5 [ICON_CULTURE] Kultur von allen Heiligen Stätten.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 50 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY">
 			<Text>Großes Ossuarium</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_STRATEGY">
-			<Text>Build the Ossuary for lots of Faith and to improve all Holy Sites. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
+			<Text>Baut das Ossuarium für viel Glauben und um alle Heiligen Stätten zu verbessern. Die Errichtung des nationalen Wunders erlaubt Euch außerdem die Wahl eines Reformations-Glaubenssatzes. Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
 			<Text>An ossuary is a chest, box, building, well, or site made to serve as the final resting place of human skeletal remains. They are frequently used where burial space is scarce. A body is first buried in a temporary grave, then after some years the skeletal remains are removed and placed in an ossuary. The greatly reduced space taken up by an ossuary means that it is possible to store the remains of many more people in a single tomb than if the original coffins were left as is. In Persia, the Zoroastrians used a deep well for this function from the earliest times (circa 3,000 years ago) and called it astudan (literally, "the place for the bones"). There are many rituals and regulations in the Zoroastrian faith concerning the astudans. Among the pre-7th-century Sogdians in the region of central Asia, the name for an ossuary was tanbar.</Text>
@@ -378,7 +378,7 @@
 			<Text>Mutter-Heimat-Statue</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP">
-			<Text>Requires Order. 1 Free Social Policy. Greatly reduces [ICON_HAPPINESS_3] Kriminalität in all cities. Receive a free Police Station in der Stadt. Foreign spies cannot incite rebellion or unrest in this City, and your spies are much more likely to disrupt Building [ICON_PRODUCTION] Production, cause [ICON_HAPPINESS_3] Unrest, or incite [ICON_RESISTANCE] Rebellion via Advanced Actions.</Text>
+			<Text>Requires Order. 1 Free Social Policy. Greatly reduces [ICON_HAPPINESS_3] Elend in all cities. Receive a free Police Station in der Stadt. Foreign spies cannot incite rebellion or unrest in this City, and your spies are much more likely to disrupt Building [ICON_PRODUCTION] Production, cause [ICON_HAPPINESS_3] Unrest, or incite [ICON_RESISTANCE] Rebellion via Advanced Actions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
 			<Text>The Motherland Calls, also called Mother Motherland, Mother Motherland Is Calling, simply The Motherland, or The Mamayev Monument, is a statue in Mamayev Kurgan in Volgograd, Russia, commemorating the Battle of Stalingrad. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the largest statue in the world in 1967. Compared with the later higher statues, The Motherland Calls is significantly more complex from an engineering point of view, due to its characteristic posture with a sword raised high in the right hand and the left hand extended in a calling gesture. The technology behind the statue is based on a combination of prestressed concrete with wire ropes structure, a solution which can be found also in another work of Nikitin's, the super-tall Ostankino Tower in Moscow. It is the tallest statue of a woman in the world.</Text>
@@ -390,7 +390,7 @@
 			<Text>Bletchley Park</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
-			<Text>Requires completion of Rationalism Branch. Receive a free Research Lab in the city. Provides two additional spies, levels up all your existing spies, and reduces enemy spy effectiveness in all Cities by 15%. Your Spies will be immune to the Failure Advanced Action, and will be much more likely to steal [ICON_RESEARCH] Science and disrupt World Wonder [ICON_PRODUCTION] Production via Advanced Actions.</Text>
+			<Text>Requires completion of Rationalism Branch. Receive a free Research Lab in the city, and all Scientist Specialists gain +1 [ICON_RESEARCH] Science. Provides two additional spies, levels up all your existing spies, and reduces enemy spy effectiveness in all Cities by 15%. Your Spies will be immune to the Failure Advanced Action, and will be much more likely to steal [ICON_RESEARCH] Science and disrupt World Wonder [ICON_PRODUCTION] Production via Advanced Actions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
 			<Text>Bletchley Park, in Milton Keynes, Buckinghamshire, was the central site of the United Kingdom's Government Code and Cypher School, which during the Second World War regularly penetrated the secret communications of the Axis Power, most importantly the German Enigma and Lorenz ciphers. The official historian of World War II British Intelligence has written that the "Ultra" intelligence produced at Bletchley shortened the war by two to four years, and that without it the outcome of the war would have been uncertain. The site is now an educational and historical attraction memorialising and celebrating those accomplishments.</Text>
@@ -440,14 +440,14 @@
 			<Text>Kirche</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_STRATEGY">
-			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Kirche" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut die Kirche um Glauben und einen Platz für ein Großes Musikwerk in dieser Stadt zu erhalten. Missionare werden ebenfalls wirkungsvoller.</Text>
+			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Kirche" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut die Kirche um Glauben und einen Platz für ein Großes Musikwerk in dieser Stadt zu erhalten. Missionare werden ebenfalls wirkungsvoller und ein Feiertag beginnt in der Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
 			<Text>Unter einer Kirche oder einem Kirchengebäude wird ein von einer christlichen Glaubensgemeinschaft zum Gebet und zum Gottesdienst genutztes Bauwerk verstanden. Der Begriff in seiner architektonischen Bedeutung wird oft von den Christen verwendet um sich auf ihr religiöses Gebäude zu beziehen, doch kann dieser Begriff auch von anderen Religionen verwendet werden. In der traditionellen christlichen Architektur, ist die Kirche oft in Form eines christlichen Kreuzes angelegt. Wenn aus der Draufsicht betrachtet bildet der längste Teil des Kreuzes einen Gang und die Verbindung des Kreuzes repräsentiert den Platz für den Altar..</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 40% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Erhöht die religiöse Stärke aller Missionare um 5% (insgesamt bis zu 50%).</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Langeweile. 15 Runden "Feiertag" in der Stadt, wenn fertig gestellt. Alle [ICON_GREAT_WORK] Großen Werke in der Stadt erzeugen +1 [ICON_PEACE] Glauben. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 40% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 
 
@@ -477,7 +477,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Während eines 'Feiertags' produziert die Stadt +15% mehr [ICON_RESEARCH] Wissenschaft.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Elend. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Während eines 'Feiertags' produziert die Stadt +15% mehr [ICON_RESEARCH] Wissenschaft.</Text>
 		</Row>
 
 
@@ -485,10 +485,10 @@
 			<Text>Orden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_STRATEGY">
-			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Orden" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut den Orden um Glauben zu erhalten, zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke, +10 EP für Militäreinheiten und die "Moral" Beförderung für Landeinheiten.</Text>
+			<Text>Kann nur in Städten gebaut werden, die der Religion des Glaubenssatzes "Orden" folgen. Errichtet dieses Gebäude durch den Kauf mit [ICON_PEACE] Glauben. Baut den Orden um Glauben zu erhalten, zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke, +15 EP für alle Militäreinheiten und die "Moral" Beförderung für Eure militärischen Landeinheiten. Gewährt auch+2 [ICON_PEACE] Glauben, wenn Ihr feindliche Einheiten vernichtet, steigt mit dem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>+15 EP und die [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] Beförderung für Landeinheiten die in dieser Stadt produziert werden. Gewährt zusätzliche Trefferpunkte von Städten und [ICON_STRENGTH] Stärke. Reduziert [ICON_HAPPINESS_3] Kriminalität. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+2 [ICON_PEACE] Glauben, wenn Ihr eine feindliche Einheit vernichtet, steigt mit dem Zeitalter. +15 EP und die [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] Beförderung für alle in der Stadt produzierten militärischen Einheiten. Gewährt zusätzliche Stadt-Trefferpunkte und [ICON_STRENGTH] Stärke. Reduziert [ICON_HAPPINESS_3] Elend. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
 			<Text>Ein Militärorden ist einer von einer Vielzahl stammender Gesellschaften von Rittern, die ab dem Mittelalter mit dem Zweck gegründet wurden für den Glauben zu kämpfen, ihn zu verbreiten oder zu verteidigen. Ursprünglich katholisch, waren sie nach der Reformation auch evangelisch. Sie waren aktiv im Heiligen Land oder gegen den Islam (wie bspw. während der Reconquista) oder gegen die Heiden (hauptsächlich im Ostseeraum) in Europa. Viele Orden haben sich, seit dem Ende der Kreuzzüge und der osmanischen Einfälle, säkularisiert und werden heutzutage in der Regel durch römisch-katholische Feierlichkeiten, missionarische und gemeinnützige Organisationen dargestellt.</Text>
@@ -496,7 +496,7 @@
 
 		<!-- Cathedral/Mosque/Pagoda-->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Bauernhöfe, Weiden und Steinbrüche nahe der Stadt generieren +1 [ICON_GOLD] Gold und [ICON_PRODUCTION] Produktion.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Bauernhöfe, Weiden und Steinbrüche nahe der Stadt generieren +1 [ICON_GOLD] Gold. Erhaltet +10 [ICON_GOLD] Gold in der Stadt, wenn sich deren Grenzen erweitern, skaliert mit den Zeitaltern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
 			<Text>Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. +20% [ICON_CULTURE] Kulturproduktion in der Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.</Text>
@@ -579,7 +579,7 @@
 			<Text>Dojo ist ein japanischer Begriff der "Ort des Weges" bedeutet. Er bezeichnet einen Trainingsraum für verschiedene japanische Kampfkünste (Budō) wie z. B. Karate, Jūdō, Kendō, Jujutsu oder Aikidō. Im übertragenen Sinne steht der Begriff auch für die Gemeinschaft der dort Übenden. Anfangs waren Dōjōs mit Tempeln verbunden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
-			<Text>Einzigartiges japanisches Gebäude, dass die Waffenkammer ersetzt. Reduziert [ICON_HAPPINESS_3] Kriminalität und benötigt keine Kasernen in der Stadt. Erhöht die Versorgungsobergrenze für Militäreinheiten um 2.[NEWLINE][NEWLINE]Gewährt +25 Erfahrung für alle Einheiten die in dieser Stadt ausgebildet werden. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden erhalten die [COLOR_POSITIVE_TEXT]Acht Tugenden des Bushidō[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn Einheiten befördert werden, erhaltet Ihr [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft, basierend auf ihrem aktuellen Rang.</Text>
+			<Text>Einzigartiges japanisches Gebäude, dass die Waffenkammer ersetzt. Reduziert [ICON_HAPPINESS_3] Elend und benötigt keine Kasernen in der Stadt. Erhöht die Versorgungsobergrenze für Militäreinheiten um 2.[NEWLINE][NEWLINE]Gewährt +25 Erfahrung für alle Einheiten die in dieser Stadt ausgebildet werden. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden erhalten die [COLOR_POSITIVE_TEXT]Acht Tugenden des Bushidō[ENDCOLOR] Beförderung.[NEWLINE][NEWLINE]Wenn Einheiten befördert werden, erhaltet Ihr [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft, basierend auf ihrem aktuellen Rang.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
 			<Text>Baut diese einzigartigen Waffenkammern um dominante Militäreinheiten auszubilden. Benötigt keine Kaserne. Alle berittenen Einheiten, Nahkampfeinheiten, Einheiten mit Schusswaffen und gepanzerte Einheiten die in dieser Stadt ausgebildet werden, erhalten die Acht Tugenden des Bushidō Beförderung. Diese Beförderung wird durch eine zufällig von acht möglichen neuen Beförderungen ersetzt, wenn die Einheit den ersten Kampf abgeschlossen hat und erhöht den Einheitenschaden wenn sie Schaden erleidet.</Text>
@@ -591,7 +591,7 @@
 			<Text>Die Akropolis ist im ursprünglichen Sinn der zu einer Stadt gehörige Burgberg beziehungsweise die Wehranlage, die zumeist auf der höchsten Erhebung nahe der Stadt erbaut wurde. Zu einer antiken griechischen Stadt gehörte grundsätzlich immer eine Akropolis – auch wenn einige aufgrund flachen Geländes diese Bezeichnung nicht recht zu verdienen scheinen. Aus Verteidigungsgründen wählten die frühen Siedler einer Stadt Erhöhungen und Hügel aus, wenn möglich mit steilen Hängen. Die Akropolis entsprach einer Zitadelle, jedoch entwickelte sie sich im Laufe der Geschichte von einer Wehranlage auf dem Burgberg auch zum Kultplatz mit den wichtigsten Heiligtümern. Die frühen Siedlungen entwickelten sich vielerorts zu den Zentren großer Städte, die sich über die angrenzenden Täler ausbreiteten. Das Wort stammt aus dem Altgriechischen: akrópolis ist zusammengesetzt aus ákros „höchster“, „oberster“ und pólis „Stadt“ und bedeutet „Hochstadt“ oder „Oberstadt“.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
-			<Text>+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.</Text>
+			<Text>+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
 			<Text>Einzigartiges griechisches Gebäude, dass das Amphitheater ersetzt. Baut die Akropolis um Eure Stadtverteidigung zu steigern, die Kultur und den Tourismus. Vor allem die beiden letztgenannten, während eines Krieges. Steigert weiterhin die städtische Rate der Großen Schriftsteller und den Wert der Schriftstellergilde. Produziert +3 [ICON_TOURISM] Tourismus.</Text>
@@ -645,10 +645,20 @@
 			<Text>Das Smithsonian wurde am 10. August 1846 durch ein Gesetz des US-Kongresses mit Mitteln aus der Hinterlassenschaft des 1829 verstorbenen englischen Wissenschaftlers James Smithson zugunsten der Vereinigten Staaten von Amerika mit dem Auftrag „der Vermehrung und Verbreitung von Wissen“ gegründet und ist in Washington, D.C. angesiedelt. Ursprünglich als "United States National Museum" organisiert, verschwand dieser Name als administrative Bezeichnung 1967. Mit 18 Museen und Galerien sowie dem Nationalzoo ist das Smithsonian der größte Museumskomplex der Welt. Die Smithsonian Institution verwaltet über 142 Millionen Objekte menschlichen oder natürlichen Ursprungs für das US-amerikanische Volk. Das Institut, das gleichzeitig ein bedeutendes Forschungszentrum ist, sieht seinen Auftrag in der Bildung der Allgemeinheit, dem Dienst an der Nation und der Vergabe von Stipendien in den Bereichen Kunst, Naturwissenschaften und Geschichte. Es unterstützt Expeditionen und Ausgrabungen, fördert Forschung insbesondere auf den Gebieten der Astronomie, Astrophysik, Ethnologie und Umweltforschung. Sie verfügt über ein eigenes Observatorium, das Smithsonian Astrophysical Observatory, den Smithsonian-Biopark und das „Archiv amerikanischer Kunst“. Die Smithsonian Institution betreibt die Nationalmuseen für amerikanische Geschichte, amerikanische Kunst und das Nationalmuseum für Luft- und Raumfahrt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOMA_HELP">
-			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. [NEWLINE][NEWLINE]+25% [ICON_CULTURE] Kultur in der Stadt und 50% der [ICON_CULTURE] Kultur von Großen Kunstwerken, Weltwundern, Naturwundern und Modernisierungen wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Steigert [ICON_CULTURE] Kultur- und [ICON_RESEARCH] Wissenschaftproduktion von Museen und Funktürmen in allen Städten um +5. Beinhaltet 3 Plätze für ein Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. [NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft und +5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.</Text>
+			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. [NEWLINE][NEWLINE]+25% [ICON_CULTURE] Kultur in der Stadt und 50% der [ICON_CULTURE] Kultur von Großen Kunstwerken, Weltwundern, Naturwundern und Geländefeldern wird zur [ICON_TOURISM] Tourismusproduktion der Stadt hinzugefügt. Steigert [ICON_CULTURE] Kultur- und [ICON_RESEARCH] Wissenschaftproduktion von Museen und Funktürmen in allen Städten um +5. Beinhaltet 3 Plätze für ein Großes Kunstwerk oder Artefakt.[NEWLINE][NEWLINE]Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat. [NEWLINE][NEWLINE]+5 [ICON_RESEARCH] Wissenschaft und +5 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOMA_STRATEGY">
 			<Text>Einzigartiges amerikanisches Gebäude, dass die Eremitage ersetzt. Zusätzlich zu den Boni der Eremitage steigert das Smithsonian Kultur und Tourismus in der Stadt deutlich. The Smithsonian steigert ebenfalls die Kultur- und Wissenschaftsproduktion aller Museen und Funktürme in Eurem Reich. Das Smithsonian ist jedoch etwas später als die Eremitage verfügbar. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
+			<Text>National Epics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_GLOBAL">
+			<Text>Global Epics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMPHITHEATER_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings either from your own Civilization, or from Civilizations other than your own.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MISSION">
@@ -658,10 +668,10 @@
 			<Text>Die Geschichte der spanischen Missionen im amerikanischen Süden und Südwesten offenbart viel über Spaniens Strategie, Beiträgen und Fehlern in dieser Region. Die Expedition von Francisco Vázquez de Coronado (1540-42) und Juan de Oñate (1598) überzeugte spanische Machthaber, dass keine wohlhabenden Indianerreiche wie das der Azteken nördlich von Mexiko gefunden werden sollten. Die katholische Religion und bestimmte Aspekte der spanischen Kultur sollten unter der Aufsicht von Missionaren vermittelt werden, wobei der Staat für ausreichenden Schutz sorgte. Überreste der teilweise noch intakten Anlagen findet man heute im Süden Kaliforniens, in Arizona, New Mexico, Texas und im Norden Mexikos. Die Spanier sahen in den Missionsstationen eine äußerst kostengünstige Möglichkeit, ihre Grenzen in Neuspanien auszudehnen und gegenüber anderen Kolonialmächten zu behaupten. Die Stationen wurden in der Zeit zwischen 1493 und ca. 1840 errichtet, ausgehend vom heutigen Mexiko aus. Um diese Missionen sowie die Bergwerke und Farmen Mexikos vor Angriffen aus dem Norden zu schützen, errichteten die Spanier Presidios, befestigte Garnisonen mit Truppen. Franziskaner Mönche gründeten eine Reihe von Missionen in Florida nach 1573, hauptsächlich entlang des Atlantiks und der Golfküste. Die ersten Missionen in New Mexiko wurden von Mönchen gegründet, die die Entdeckungsreise von Oñate von 1598 begleiten; während der nächsten 100 Jahre gründeten Franziskaner Mönche mehr als 40 weitere Missionen, die meisten von ihnen entlang des Rio Grande. Besonders einflussreich war Vater Alonso de Benavides, der die Gründung von 10 Missionen zwischen 1625 und 1629 leitete und sie danach in Spanien geschickt förderte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_HELP">
-			<Text>Erhaltet die 3x [ICON_PEACE] Glaubens- und [ICON_GOLD] Goldproduktion der Stadt, als [COLOR_POSITIVE_TEXT]sofortigen Schub[ENDCOLOR] jedes Mal, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen.[NEWLINE][NEWLINE]Steigert [ICON_RELIGION] Religiösen Druck und Widerstand dieser Stadt um 15%. Benötigt keine Mauern um es zu bauen und kann mit [ICON_PEACE] Glauben gekauft werden. Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 % erhöht. Beinhaltet 1 Platz für ein Großes Kunstwerk oder Artefakt.</Text>
+			<Text>Erhaltet die 3x [ICON_PEACE] Glaubens- und [ICON_GOLD] Goldproduktion der Stadt, als [COLOR_POSITIVE_TEXT]sofortigen Schub[ENDCOLOR] jedes Mal, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen.[NEWLINE][NEWLINE]Steigert [ICON_RELIGION] Religiösen Druck und Widerstand dieser Stadt um 15%. Benötigt keine Mauern um es zu bauen und kann mit [ICON_PEACE] Glauben gekauft werden. Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 % erhöht. Erhöht die Fernkampfstärke der Stadt [ICON_RANGE_STRENGTH] um 100 %. Beinhaltet 1 Platz für ein Großes Kunstwerk oder Artefakt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MISSION_STRATEGY">
-			<Text>Einzigartiges spanisches Gebäude, dass die Burg ersetzt. Es ist günstiger als eine Burg und kostet keinen Unterhalt, benötigt keine Stadtmauern und kann mit Glauben gekauft werden. Gewährt eine Menge an Glauben und Gold wenn ein neuer Bürger geboren wird (basierend auf den aktuellen Erträgen dieser Stadt, während der Bürger geboren wird). Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 %. Steigert den religiösen Druck dieser Stadt um 15% und die Resistenz gegenüber der Verbreitung von fremden Religionen um 15%, wodurch die Stadt effektiver beim konvertieren umliegender Städte wird. Baut diese einzigartige Burg um schnell die Verteidigung der Stadt zu erhöhen und die Notwendigkeit von Mauern zu umgehen sowie Eure Religion zu stärken.</Text>
+			<Text>Einzigartiges spanisches Gebäude, dass die Burg ersetzt. Es ist günstiger als eine Burg und kostet keinen Unterhalt, benötigt keine Stadtmauern und kann mit Glauben gekauft werden. Gewährt eine Menge an Glauben und Gold wenn ein neuer Bürger geboren wird (basierend auf den aktuellen Erträgen dieser Stadt, während der Bürger geboren wird). Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 % und Fernkampfschaden um 25%. Steigert den religiösen Druck dieser Stadt um 15% und die Resistenz gegenüber der Verbreitung von fremden Religionen um 15%, wodurch die Stadt effektiver beim konvertieren umliegender Städte wird. Baut diese einzigartige Burg um schnell die Verteidigung der Stadt zu erhöhen und die Notwendigkeit von Mauern zu umgehen sowie Eure Religion zu stärken.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES">
 			<Text>Runensteine</Text>
@@ -682,10 +692,10 @@
 			<Text>Seowon waren die häufigsten Bildungseinrichtungen von Korea, während der mittleren bis späten Joseon-Dynastie. Sie waren private Institutionen und kombinierten die Funktion eines konfuzianischen Schreins mit einer vorbereitenden Schule. In pädagogischer Hinsicht waren die Seowons in erster Linie mit die Vorbereitung der Studierenden auf die nationale Prüfung für den Staatsdienst beschäftigt. In den meisten Fällen war Seowon nur Schülern der aristokratischen Yangban-Klasse vorbehalten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
-			<Text>+1 [ICON_RESEARCH] Science from Jungle tiles worked by the City. +15% [ICON_RESEARCH] Science in the City during [ICON_GOLDEN_AGE] Golden Ages. Erhaltet 50% der [ICON_RESEARCH] Wissenschaftsproduktion als sofortigen Schub auf Eure aktuelle Forschung, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Stadt muss über eine Bibliothek verfügen.</Text>
+			<Text>+1 [ICON_RESEARCH] Wissenschaft von Dschungel-Geländefeldern, die von dieser Stadt bearbeitet werden. +1 [ICON_RESEARCH] Wissenschaft und [ICON_PRODUCTION] Produktion von [ICON_GREAT_WORK] Große Werke in der Stadt. +15% [ICON_RESEARCH] Wissenschaft in der Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters. Erhaltet 50% der [ICON_RESEARCH] Wissenschaftsproduktion als sofortigen Schub auf Eure aktuelle Forschung, wenn ein [ICON_CITIZEN] Bürger in dieser Stadt geboren wird. Reduziert [ICON_HAPPINESS_3] Unwissenheit.[NEWLINE][NEWLINE]Stadt muss über eine Bibliothek verfügen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
-			<Text>Einzigartiges koreanisches Gebäude, dass die Universität ersetzt. Generiert mehr Wissenschaft als die Universität und gewährt zusätzlich Glauben. Die erhöhte Geschwindigkeit mit der Große Persönlichkeiten generiert werden, hilft Euch bei der Verwendung der Spezialfähigkeit von Korea.</Text>
+			<Text>Einzigartiges koreanisches Gebäude, dass die Universität ersetzt. Generiert mehr Wissenschaft und Produktion als die Universität, gewährt zusätzlichen Glauben und ist früher verfügbar. Die erhöhte Geschwindigkeit mit der Große Persönlichkeiten generiert werden, hilft Euch bei der Verwendung der Spezialfähigkeit von Korea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_YURT">
 			<Text>Ger</Text>
@@ -711,6 +721,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_THEMING_BONUS_HELP">
 			<Text>Um den Bonus zu maximieren stellt sicher, dass beide Große Kunstwerke von Spielern geschaffen wurden die nicht die Besitzer sind.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED">
+			<Text>{1_Player} has begun constructing the {2_Building}, and will completed it in {3_Turns} Turn(s)! If completed, {1_Player} will achieve a [COLOR_POSITIVE_TEXT]Cultural Victory[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED_S">
+			<Text>Construction of {1_Building} underway!</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>
