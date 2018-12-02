@@ -381,7 +381,7 @@
 		</Row>
 		<!-- Tooltip for Top Panel Happiness -->
 		<Row Tag ="TXT_KEY_TP_HAPPINESS_RESOURCE_POP_BONUS">
-			<Text>{1_Happiness} durch Luxusgüter (basierend auf der Bevölkerung)</Text>
+			<Text>{1_Happiness} durch Luxusgüter (Bonus)</Text>
 		</Row>
 
 		<!-- Tooltips for EU Panel -->
@@ -554,6 +554,11 @@
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_BULLY_VARIABLE_CBP">
 			<Text>If this City-State is more [COLOR_POSITIVE_TEXT]afraid[ENDCOLOR] of you than they are [COLOR_WARNING_TEXT]resilient[ENDCOLOR], you can take exact heavy tribute from them. Doing so will net you [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production, [ICON_PEACE] Faith, or [ICON_FOOD] Food, depending on the City-State being targeted.[NEWLINE][NEWLINE]The amount you can exact in tribute is based on Game Speed and the Yield output of your Capital. Local Yields, like [ICON_FOOD] Food or [ICON_PRODUCTION] Production, will be delivered to your Capital.[NEWLINE][NEWLINE]{1_FearLevel}{2_FactorDetails}</Text>
+		</Row>
+		
+		<!-- City-State Diplo Popup -->
+		<Row Tag="TXT_KEY_POP_CSTATE_LABEL_CONTENDER">
+			<Text>Contender:</Text>
 		</Row>
 
 		<!-- Tech Tree-->
@@ -872,7 +877,7 @@
 			<Text>{1_Num} durch [ICON_CULTURE] Langeweile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_DEFENSE">
-			<Text>{1_Num} durch [ICON_STRENGTH] Kriminalität.</Text>
+			<Text>{1_Num} durch [ICON_FOOD]/[ICON_PRODUCTION] Elend.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_UNHAPPINESS_GOLD">
 			<Text>{1_Num} durch [ICON_GOLD] Armut.</Text>
@@ -914,7 +919,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] durch Langeweile ([ICON_CULTURE]). [NEWLINE]          Verursacht: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_CULTURE] pro [ICON_CITIZEN][NEWLINE]          Bedarf: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] [ICON_CULTURE] pro [ICON_CITIZEN][NEWLINE]          Mangel: [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR] [ICON_CULTURE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] durch Kriminalität ([ICON_STRENGTH]). [NEWLINE]          Verursacht: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_STRENGTH] pro [ICON_CITIZEN][NEWLINE]          Bedarf: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] [ICON_STRENGTH] pro [ICON_CITIZEN][NEWLINE]          Mangel: [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR] [ICON_STRENGTH]</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] durch Elend ([ICON_FOOD]/[ICON_PRODUCTION]). [NEWLINE]          Verursacht: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION] pro [ICON_CITIZEN][NEWLINE]          Bedarf: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION] pro [ICON_CITIZEN][NEWLINE]          Mangel: [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR] [ICON_FOOD]/[ICON_PRODUCTION]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] durch Armut ([ICON_GOLD]). [NEWLINE]          Verursacht: [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_GOLD] pro [ICON_CITIZEN][NEWLINE]          Bedarf: [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR] [ICON_GOLD] pro [ICON_CITIZEN][NEWLINE]          Mangel: [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR] [ICON_GOLD]</Text>
@@ -949,7 +954,7 @@
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] über [ICON_RESEARCH] Bedarf.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_UNHAPPINESS_SURPLUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] über [ICON_STRENGTH] Bedarf.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] über [ICON_FOOD]/[ICON_PRODUCTION] Bedarf.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GOLD_UNHAPPINESS_SURPLUS">
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] über [ICON_GOLD] Bedarf.</Text>
@@ -969,7 +974,7 @@
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Wir sind [ICON_RESEARCH] unwissend!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_UNDEFENDED">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Diese Stadt ist [ICON_STRENGTH] unsicher!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Unsere Stadt ist [ICON_FOOD]/[ICON_PRODUCTION] in Not!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_POOR">
 			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Wir sind [ICON_GOLD] arm!"</Text>
@@ -991,8 +996,8 @@
 		</Row>
 
 		<!-- Luxury Tooltip -->
-		<Row Tag="TXT_KEY_TP_HAPPINESS_THRESHOLD_VALUE">
-			<Text>Basierend auf Eurer aktuellen [ICON_CITIZEN] Bevölkerung ([COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]) erhöht sich durch die Erschließung eines neues Luxusguts die [ICON_HAPPINESS_1] Zufriedenheit im Reich um [COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]. Um die [ICON_HAPPINESS_1] Zufriedenheit von durch im Besitz befindlichen Luxusgütern zu erhöhen, müssen Sie die [ICON_CITIZEN] Gesamtbevölkerung auf [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] erhöhen.</Text>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_LUXURY_BONUS">
+			<Text>{1_Num} Bonus[ICON_HAPPINESS_1] aus Luxusgütern, da die durchschnittliche Stadtgröße {2_Num}[ICON_CITIZEN] beträgt.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_CONNECTED">
@@ -1005,7 +1010,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_AVERAGE_MODIFIER">
-			<Text>[ICON_STRENGTH] Verteidigung Bedarf Modifikator: {1_num}%</Text>
+			<Text>[ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse Modifikator: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_AVERAGE_MODIFIER">
@@ -1025,7 +1030,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_GLOBAL_AVERAGE_MODIFIER">
-			<Text>[ICON_STRENGTH] Verteidigung Bedarf Modifikator in allen Städten: {1_num}%</Text>
+			<Text>[ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse Modifikator in allen Städten: {1_num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_GLOBAL_AVERAGE_MODIFIER">
@@ -1048,7 +1053,7 @@
 			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_RESEARCH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_RESEARCH] pro [ICON_CITIZEN]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DEFENSE_NEW_THRESHOLD">
-			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_STRENGTH] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_STRENGTH] pro [ICON_CITIZEN]</Text>
+			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_FOOD]/[ICON_PRODUCTION] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_FOOD]/[ICON_PRODUCTION] pro [ICON_CITIZEN]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CULTURE_NEW_THRESHOLD">
 			<Text>[ICON_BULLET] Wir benötigen: {1_num} [ICON_CULTURE] pro [ICON_CITIZEN][NEWLINE][ICON_BULLET] Aktuell: {2_Num} [ICON_CULTURE] pro [ICON_CITIZEN]</Text>
@@ -1080,7 +1085,7 @@
 			<Text>[ICON_BULLET] [ICON_RESEARCH] Science Need: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE">
-			<Text>[ICON_BULLET] [ICON_STRENGTH] Defense Need: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE">
 			<Text>[ICON_BULLET] [ICON_CULTURE] Culture Need: {1_Num}%</Text>
@@ -1093,7 +1098,7 @@
 			<Text>[ICON_BULLET] [ICON_RESEARCH] Science Need: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_STRENGTH] Defense Need: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE_POSITIVE">
 			<Text>[ICON_BULLET] [ICON_CULTURE] Culture Need: +{1_Num}%</Text>
@@ -1206,6 +1211,9 @@
 
 		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
 			<Text>[NEWLINE][ICON_BULLET]Modified by Civilizing Mission: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
+			<Text>[NEWLINE][ICON_BULLET]Modifiziert durch Religion: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_NONE">

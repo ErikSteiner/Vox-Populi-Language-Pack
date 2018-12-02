@@ -74,7 +74,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus:[ENDCOLOR] Einheiten erhalten +5 TP bei Heilung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_OIL">
-			<Text>[COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus:[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus:[ENDCOLOR] Einheiten erhalten +2 EP nach dem Kampf.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
 			<Text>[COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus:[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.</Text>
@@ -194,7 +194,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +6 [ICON_HAPPINESS_1] Globale Zufriedenheit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_GA_LENGTH">
-			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +25% [ICON_GOLDEN_AGE] längere Goldene Zeitalter.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +25% [ICON_GOLDEN_AGE] längere Goldene Zeitalter, +2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von allen Ressourcen-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_PRODUCTION">
 			<Text>[COLOR_POSITIVE_TEXT]Monopol-Bonus:[ENDCOLOR] +2 [ICON_PRODUCTION] Produktion auf Rohstoff-Geländefeldern.</Text>

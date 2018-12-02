@@ -316,29 +316,29 @@ WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH_SHORT' AND EXISTS (SELECT * FROM COMMUNITY W
 
 -- Missionary Zeal (Now Scholar-Priests)
 UPDATE Language_de_DE
-SET Text = 'Missionar Konvertierungsstärke +25%. Heilige Stätte erhält [ICON_RESEARCH] Wissenschaft wenn der eigene Missionar die Religion in anderen Städten mit anderen Religionen verbreitet, basierend auf der Anzahl der Anhänger der anderen Religion in der Zielstadt.'
+SET Text = '[ICON_CAPITAL] Hauptstadt erhält +10 [ICON_CULTURE] Kultur und [ICON_RELIGION] Heilige Stätte erhält +10 [ICON_PEACE] Glauben. +2 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und [ICON_GOLD] Gold in [ICON_RELIGION] Heiliger Stadt für jede fremde Stadt, die dieser Religion folgt. Missionare dieser Religion sind 25% stärker.'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Missionierung'
+SET Text = 'Bistümer'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Holy Order
 UPDATE Language_de_DE
-SET Text = 'Religion verbreitet sich von Städten um 20% weiter. Druck zu befreundeten Stadtstaaten und über eigene [ICON_INTERNATIONAL_TRADE] Handelswege verdoppelt.'
+SET Text = '[ICON_RELIGION] Religion verbreitet sich 20 % schneller (40 % mit Buchpresse) und von Städten um 20 % weiter entfernt. Druck zu befreundeten Stadtstaaten und fremden Städten, die über einen [ICON_INTERNATIONAL_TRADE] Handelsweg verbunden sind verdoppelt.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ritual'
+SET Text = 'Orthodoxie'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Unity
 UPDATE Language_de_DE
-SET Text = 'Missionare und Inquisitoren kosten 30% weniger [ICON_PEACE] Glauben. Besitzer der Heiligen Stätte erhält +1 [ICON_HAPPINESS_1] Zufriedenheit für je 10 Anhänger dieser Religion in nicht feindlichen Städten.'
+SET Text = '+1 [ICON_PEACE] Glauben ,[ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Heiliger Stadt für je 2 Anhänger anderer Religionen in eigenen Städten. +5 [ICON_CULTURE] Kultur, wenn ein[ICON_CITIZEN] Bürger in einer eigenen Stadt geboren wird, die dieser Religion folgt. Skaliert mit Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Pazifismus'
+SET Text = 'Synkretismus'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Cathedral
@@ -412,7 +412,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Choral Music (Now Scholarship)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je zwei Anhänger in der Stadt (max +15 [ICON_RESEARCH] Wissenschaft)'
+SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je 2 Anhänger in der Stadt (max +15 [ICON_RESEARCH] Wissenschaft)'
 WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -421,7 +421,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Religious Art (Now Mastery)
 UPDATE Language_de_DE
-SET Text = 'Spezialisten generieren +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +1 ihres primären Ertrags ([ICON_RESEARCH]/[ICON_GOLD]/[ICON_PRODUCTION]/[ICON_CULTURE].'
+SET Text = 'Spezialisten generieren +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +1 ihres primären Ertrags ([ICON_RESEARCH]/[ICON_GOLD]/[ICON_PRODUCTION]/[ICON_CULTURE]).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -430,7 +430,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Liturgical Drama (Now Veneration)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für jeden zweiten Anhänger in der Stadt (max +15 [ICON_PEACE] Glauben)'
+SET Text = '+1 [ICON_PEACE] Glauben für jede 3 Anhänger in der Stadt (max +10 [ICON_PEACE] Glauben)'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -439,7 +439,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Ascetism
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_FOOD] Nahrung für je zwei Anhänger in der Stadt (max +10 [ICON_FOOD] Nahrung)'
+SET Text = '+1 [ICON_FOOD] Nahrung für je zwei Anhänger in der Stadt (max +15 [ICON_FOOD] Nahrung)'
 WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Center (Now Order)
@@ -462,7 +462,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY' AND EXISTS (SELECT * FROM COMMU
 
 -- Divine Inspiration (Now Inspiration)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur für je zwei Anhänger in der Stadt (max +15 [ICON_CULTURE] Kultur)'
+SET Text = '+1 [ICON_CULTURE] Kultur für je 3 Anhänger in der Stadt (max +10 [ICON_CULTURE] Kultur)'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -471,7 +471,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Peace Loving (Now Mandate of Heaven)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Himmlischer Thron" frei (+2 [ICON_PEACE] Glauben, [ICON_CULTURE] Kultur, [ICON_FOOD] Nahrung, [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und +5 [ICON_PEACE] Glauben von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Heilige Stätte produziert +10% seines Ertrags während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
+SET Text = 'Schaltet das Nationale Wunder "Himmlischer Thron" frei ([COLOR_MAGENTA]+2 [ICON_PEACE] Glauben, [ICON_CULTURE] Kultur, [ICON_FOOD] Nahrung, [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold, [ICON_PRODUCTION] Produktion und +5 [ICON_PEACE] Glauben von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Heilige Stätte produziert +20 % seines Ertrags während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -480,7 +480,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Interfaith Dialog (Now Hero Worship)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Großer Altar" frei (+5 [ICON_PEACE] Glauben, +15% [ICON_PRODUCTION] Produktion auf Militäreinheiten und +5 [ICON_PRODUCTION] Produktion von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Erhaltet [ICON_PEACE] Glauben und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte wenn Ihr eine Stadt erobert. Bonus steigt mit Stadtbevölkerung und Zeitalter.'
+SET Text = 'Schaltet das Nationale Wunder "Großer Altar" frei ([COLOR_MAGENTA]+5 [ICON_PEACE] Glauben, +15% [ICON_PRODUCTION] Produktion auf Militäreinheiten und +5 [ICON_PRODUCTION] Produktion von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Erhaltet [ICON_PEACE] Glauben und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte wenn Ihr eine Stadt erobert. Bonus steigt mit Stadtbevölkerung und Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -489,12 +489,12 @@ WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT' AND EXISTS (SELECT * FROM
 
 -- Ceremonial Burial
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Mausoleum" frei (+5 [ICON_PEACE] Glauben, erhaltet [ICON_PEACE] Glauben wenn eine eigene Einheit in der Schlacht fällt und +5 [ICON_PEACE] Glauben von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Wenn eine große Persönlichkeit aufgebraucht wird, gewinnt 10 [ICON_PEACE] Glauben und [ICON_CULTURE] Kultur für jede Stadt, die Eurer Religion folgt.'
+SET Text = 'Schaltet das Nationale Wunder "Mausoleum" frei ([COLOR_MAGENTA]+5 [ICON_PEACE] Glauben, erhaltet [ICON_PEACE] Glauben wenn eine eigene Einheit in der Schlacht fällt und +5 [ICON_PEACE] Glauben von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn eine große Persönlichkeit aufgebraucht wird, gewinnt 8 [ICON_PEACE] Glauben und [ICON_CULTURE] Kultur für jede Stadt, die Eurer Religion folgt  (max. 20 Städte).'
 WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Church Property (Now Holy Law)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Gottesgericht" frei (+4 [ICON_PEACE] Glauben, +6 [ICON_GOLD] Gold, +5 [ICON_GOLD] Gold von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Erhaltet 4 [ICON_PEACE] Glauben, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold wenn Ihr eine Politik freischaltet, für jeden Anhänger Eurer Religion.'
+SET Text = 'Schaltet das Nationale Wunder "Gottesgericht" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +6 [ICON_GOLD] Gold, +5 [ICON_GOLD] Gold von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Erhaltet 5 [ICON_PEACE] Glauben, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold wenn Ihr eine Politik freischaltet, für jeden Anhänger Eurer Religion (max. 200 Anhänger).'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -503,7 +503,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Tithe (Now Way of the Pilgrim)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Reliquienschrein" frei (+4 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur, 4 [ICON_GREAT_WORK] Große-Kunstwerk-Plätze und +5 [ICON_TOURISM] Tourismus von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Erhaltet 15 [ICON_TOURISM] Tourismus und [ICON_CULTURE] Kultur, wenn Ihr Eure Religion in fremden Städten verbreitet, skaliert mit der Anzahl der Anhänger anderer Religionen. Weltwunder erfordern 1 weniger freigeschaltete Politiken, pro 8 Städte die Eurer Religion folgen.'
+SET Text = 'Schaltet das Nationale Wunder "Reliquienschrein" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +2 [ICON_CULTURE] Kultur, 4 [ICON_GREAT_WORK] Große-Kunstwerk-Plätze und +5 [ICON_TOURISM] Tourismus von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Erhaltet 15 [ICON_TOURISM] Tourismus und [ICON_CULTURE] Kultur, wenn Ihr Eure Religion in fremden Städten verbreitet, skaliert mit der Anzahl der Anhänger anderer Religionen.'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -512,7 +512,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHE
 
 -- Initiation Rites (Now Way of Transcendence)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Heiliger Garten" frei (+3 [ICON_PEACE] Glauben, +5 [ICON_CULTURE] Kultur und +5 [ICON_TOURISM] Nahrung von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Wenn Ihr in ein neues Zeitalter eintretet, erhält die Heilige Stadt 30 von jedem Ertrag für jede Stadt, die Eurer Religion folgt. Skaliert mit jedem Zeitalter.'
+SET Text = 'Schaltet das Nationale Wunder "Heiliger Garten" frei ([COLOR_MAGENTA]+3 [ICON_PEACE] Glauben, +5 [ICON_CULTURE] Kultur und +5 [ICON_TOURISM] Nahrung von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn Ihr in ein neues Zeitalter eintretet, erhält die Heilige Stadt 20 von jedem Ertrag für jede Stadt, die Eurer Religion folgt (max. 20 Städte). Skaliert mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -521,7 +521,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Papal Primacy (Now Council of Elders)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Heiliger Rat" frei (+4 [ICON_PEACE] Glauben, +5 [ICON_FOOD] Nahrung und +5 [ICON_RESEARCH] Wissenschaft von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Wenn eine Stadt Eure Religion zum ersten Mal annimmt, gewinnt 6 [ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Eurer Heiligen Stadt für jede Stadt, die Eurer Religion folgt.'
+SET Text = 'Schaltet das Nationale Wunder "Heiliger Rat" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +5 [ICON_FOOD] Nahrung und +5 [ICON_RESEARCH] Wissenschaft von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn eine Stadt Eure Religion zum ersten Mal annimmt, gewinnt 30 [ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Eurer Heiligen Stadt, schrittweise Skalierung basierend auf der Anzahl der Städte, die Eurer Religion folgen (Bonusobergrenzen bei 20 Städten).'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -530,7 +530,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Pilgrimage (Now Apostolic Tradition
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Apostolischer Palast" frei (+4 [ICON_PEACE] Glauben, +4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Wenn Sie die Anzahl der Anhänger in einer Stadt erhöhen, indem Sie die Religion verbreiten, erhalten Sie 25 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und [ICON_FOOD] Nahrung in der Heiligen Stadt, skaliert mit der Anzahl der neuen Anhänger Ihrer Religion.'
+SET Text = 'Schaltet das Nationale Wunder "Apostolischer Palast" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +4 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn Sie die Anzahl der Anhänger in einer Stadt erhöhen, indem Sie die Religion verbreiten, erhalten Sie 25 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und [ICON_FOOD] Nahrung in der Heiligen Stadt, skaliert mit der Anzahl der neuen Anhänger Ihrer Religion.'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -539,7 +539,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- World Church (Now Theocratic Rule)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Großes Ossuarium" frei (+10 [ICON_PEACE] Glauben und +5 [ICON_CULTURE] Kultur von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei). Feiertag steigert die Generierung von [ICON_PEACE] Glauben, [ICON_CULTURE] Kultur und [ICON_GOLD] Gold in einer Stadt um 10 %.'
+SET Text = 'Schaltet das Nationale Wunder "Großes Ossuarium" frei ([COLOR_MAGENTA]+10 [ICON_PEACE] Glauben und +5 [ICON_CULTURE] Kultur von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Feiertag steigert die Generierung von [ICON_PEACE] Glauben, [ICON_CULTURE] Kultur und [ICON_GOLD] Gold in einer Stadt um 15 %.'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
