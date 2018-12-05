@@ -4,19 +4,19 @@ SET Text = 'Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe und generiert +25% Re
 WHERE Tag = 'TXT_KEY_BUILDING_TEMPLE_HELP';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für je 2 [ICON_CITIZEN] Bürger in der Stadt. Verfügt über 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Hundelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
+SET Text = '+1 [ICON_PEACE] Glauben für je 3 [ICON_CITIZEN] Bürger in der Stadt. Verfügt über 1 Platz für ein Großes Musikwerk.[NEWLINE][NEWLINE]Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe, verdoppelt den religiösen Druck der von Hundelswegen ausgeht und produziert +25% religiösen Druck.[NEWLINE]Jede von dieser Stadt genutzte Quelle [ICON_RES_INCENSE] Räucherwerk: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_WINE] Wein: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_Bernstein] Bernstein: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_BASILICA_HELP';
 
 UPDATE language_de_DE
-SET Text = '+33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
+SET Text = '+33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.[NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_HELP';
 
 UPDATE language_de_DE
-SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt. Steigert die Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren zusätzliches Gold. Gewährt Boni auf umliegende [ICON_RES_DYE] Färbemittel, [ICON_RES_SILK] Seide und [ICON_RES_LAPIS] Lapis Lazuli Ressourcen, steigert das Wachstum des Territoriums der Stadt und der Annahme von Sozialpolitiken. Beinhaltet 1 Platz für ein Großes Literaturwerk.'
+SET Text = 'Das Amphitheater steigert die [ICON_CULTURE] Kultur einer Stadt. Steigert die Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren zusätzliches Gold. Gewährt Boni auf umliegende [ICON_RES_DYE] Färbemittel, [ICON_RES_SILK] Seide und [ICON_RES_LAPIS] Lapis Lazuli Ressourcen, steigert das Wachstum des Territoriums der Stadt und der Annahme von Sozialpolitiken. Beinhaltet 2 Plätze für Große Literaturwerke.'
 WHERE Tag = 'TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur.'
+SET Text = '+3 [ICON_TOURISM] Tourismus. +33% [ICON_GREAT_WRITER] Großer Schriftsteller Rate in der Stadt und alle Schriftstellergilden produzieren +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +5 [ICON_CULTURE] Kultur in der Stadt, Bonus steigt mit jedem Zeitalter.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_DYE] Färbemittel: +1 [ICON_Kultur] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_SILK] Seide: +1 [ICON_CULTURE] Kultur, +1 [ICON_GOLD] Gold.[NEWLINE][ICON_RES_LAPIS] Lapis Lazuli: +2 [ICON_Kultur] Kultur. [NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_BUILDING_ODEON_HELP';
 
 UPDATE language_de_DE
@@ -48,7 +48,7 @@ SET Text = 'Das Tabya ist das einzigartige Gebäude der Songhai und ersetzt die 
 WHERE Tag = 'TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile leicht. Kaserne, Schmiede und Waffenkammer in dieser Stadt erhalten: +2 [ICON_Produktion] Produktion.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_Parfüm] Parfüm: +2 [ICON_Kultur] Kultur.[NEWLINE][ICON_RES_OLIVE] Oliven: +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile leicht. Kaserne, Schmiede und Waffenkammer in dieser Stadt erhalten: +2 [ICON_Produktion] Produktion.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_Parfüm] Parfüm: +1 [ICON_Kultur] Kultur.[NEWLINE][ICON_RES_OLIVE] Oliven: +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_HELP';
 
 UPDATE language_de_DE
@@ -56,7 +56,7 @@ SET Text = 'Die Arena reduziert Langeweile in einer Stadt, gewährt zusätzliche
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = 'Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +3 [ICON_GREAT_GENERAL] Großer-General-Punkte (+3 [ICON_GREAT_ADMIRAL] Großer-Admiral-Punkte wenn Marineeinheiten) und +3 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte. [ICON_CITY_CONNECTED] Stadtverbingungen produzieren +2% mehr [ICON_GOLD] Gold. Reduziert [ICON_HAPPINESS_3] Langeweile leicht. Kasernen, Schmieden und Waffenkammern in dieser Stadt erhalten: +2 [ICON_Produktion] Produktion.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_Parfüm] Parfüm: +2 [ICON_Kultur] Kultur.[NEWLINE][ICON_RES_OLIVE] Oliven: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.'
+SET Text = 'Jedes Mal, wenn eine Landeinheit besiegt wird, produziert Ihr +3 [ICON_GREAT_GENERAL] Großer-General-Punkte (+3 [ICON_GREAT_ADMIRAL] Großer-Admiral-Punkte wenn Marineeinheiten) und +3 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte. [ICON_CITY_CONNECTED] Stadtverbingungen produzieren +2% mehr [ICON_GOLD] Gold. Reduziert [ICON_HAPPINESS_3] Langeweile leicht. Kasernen, Schmieden und Waffenkammern in dieser Stadt erhalten: +2 [ICON_Produktion] Produktion.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_Parfüm] Parfüm: +1 [ICON_Kultur] Kultur.[NEWLINE][ICON_RES_OLIVE] Oliven: +1 [ICON_FOOD] Nahrung, +1 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP';
 
 UPDATE language_de_DE

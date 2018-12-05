@@ -3,7 +3,7 @@
   <Properties>
     <Name>(6b) CBO - Compatibility Files (EUI) Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(11-11) [COLOR_GREEN]Translation of Community Balance Overhaul - Compatibility Files (EUI)[ENDCOLOR]</Teaser>
+    <Teaser>(11-21) [COLOR_GREEN]Translation of Community Balance Overhaul - Compatibility Files (EUI)[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Balance Overhaul - Compatibility Files (EUI) into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>

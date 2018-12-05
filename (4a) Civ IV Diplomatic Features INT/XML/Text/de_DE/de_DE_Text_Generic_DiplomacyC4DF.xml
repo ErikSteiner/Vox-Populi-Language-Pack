@@ -69,7 +69,7 @@
 			<Text>{1_PlayerName:textkey}'s rule taints this earth and I would see no problem with it ending. (Hostile)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_2">
-			<Text>{1_PlayerName:textkey} is a tyrant and a villian that needs to be taken care of. (Hostile)</Text>
+			<Text>{1_PlayerName:textkey} is a tyrant and a villain that needs to be taken care of. (Hostile)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_SHARE_OPINION_HOSTILE_3">
 			<Text>Don't remind me that {1_PlayerName:textkey} still walks this earth... (Hostile)</Text>
