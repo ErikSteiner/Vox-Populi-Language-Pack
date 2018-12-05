@@ -302,7 +302,7 @@ WHERE Tag = 'TXT_KEY_TECH_METAL_CASTING_HELP' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Fix Construction Text
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]Arena[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely.'
+SET Text = 'Ermöglicht es Euch die [COLOR_POSITIVE_TEXT]Arena[ENDCOLOR] zu bauen, die die Zufriedenheit im Reich verbessert [ICON_HAPPINESS_1], was wiederum das Wachstum Eurer Stadt fördert und die Wahrscheinlichkeit von Goldenen Zeitaltern erhöht.'
 WHERE Tag = 'TXT_KEY_TECH_CONSTRUCTION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Wheel Text

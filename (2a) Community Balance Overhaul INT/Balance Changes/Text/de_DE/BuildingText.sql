@@ -317,7 +317,7 @@ SET Text = 'Die Arena generiert Tourismus, reduziert Langeweile in einer Stadt u
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Eine Arena ist eine Fläche mit ringsum steigend angeordneten Zuschauersitzen, die häufig kreisförmig oder oval geformt ist. Entworfen um Theaterstücke, musikalische Ereignisse oder Sportveranstaltungen zu präsentieren. Arena in der Bedeutung „Platz für Wettkämpfe und Vorführungen, Sportplatz, Manege“, ursprünglich „sandbestreuter Kampfplatz im altrömischen Amphitheater“, wurde in der ersten Hälfte des 18. Jahrhunderts in die deutsche Sprache aufgenommen. Der Begriff blieb zunächst eine Bezeichnung für die Kampfstätten im alten Rom, wurde aber in der Mitte des 19. Jahrhunderts auch auf moderne Vorführungs- und Kampfplätze übertragen. Das Hauptmerkmal einer Arena ist, dass der Schauplatz der niedrigste Punkt ist und damit einer Vielzahl von Zuschauen, die eine Arena aufnehmen kann, die bestmöglichste Sicht bietet.'
+SET Text = 'Eine Arena ist ein geschlossener Bereich, oft kreisförmig oder oval, der dazu bestimmt ist, Theater, Musikaufführungen oder Sportveranstaltungen zu präsentieren. Das Wort leitet sich vom lateinischen harena ab, einem besonders feinen/glatten Sand, der in alten Arenen wie dem Kolosseum in Rom zur Blutaufnahme verwendet wurde. Es besteht aus einem großen offenen Raum, der von den meisten oder allen Seiten von abgestuften Sitzplätzen für die Zuschauer umgeben ist. Das Hauptmerkmal einer Arena ist, dass der Veranstaltungsraum der tiefste Punkt ist, was eine maximale Sicht ermöglicht. Arenen sind in der Regel für eine große Anzahl von Zuschauern ausgelegt.'
 WHERE Tag = 'TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -389,7 +389,7 @@ SET Text = 'Dieses Nationale Wunder steigert die Generierung [ICON_GREAT_PEOPLE]
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_EPIC_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Dieses Nationale Wunder steigert die [ICON_HAPPINESS_1] Zufriedenheit um +2, die [ICON_CULTURE] Kultur um +1 und reduziert [ICON_HAPPINESS_3] Langeweile. Generiert +10 % [ICON_CULTURE] Kultur und [ICON_GOLD] Gold während eines Feiertags in der Stadt in der es gebaut wurde. Die Stadt benötigt ein Kolloseum, bevor es den Circus Maximus bauen kann.'
+SET Text = 'Dieses Nationale Wunder steigert die [ICON_HAPPINESS_1] Zufriedenheit um +2, die [ICON_CULTURE] Kultur um +1 und reduziert [ICON_HAPPINESS_3] Langeweile. Generiert +10 % [ICON_CULTURE] Kultur und [ICON_GOLD] Gold während eines Feiertags in der Stadt in der es gebaut wurde. Die Stadt benötigt eine Arena, bevor es den Circus Maximus bauen kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
