@@ -131,11 +131,11 @@ SET Text = 'Wenn eine Stadt durch eine Straße und/oder einen Leuchtturm mit Eur
 WHERE Tag = 'TXT_KEY_GOLD_TRADE_ROUTES_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt einen Leuchtturm in dieser Stadt. +100 Trefferpunkte in der Stadt. [ICON_INTERNATIONAL_TRADE] Seehandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung [ICON_GOLD] von Küsten- und Ozean-Geländefeldern und +1 [ICON_PRODUCTION] Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Seehandelswege haben eine um 50% erhöhte Reichweite und produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion von Marineeinheiten und erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %. Stadt muss an der Küste liegen.'
+SET Text = 'Benötigt einen Leuchtturm in dieser Stadt. +100 Trefferpunkte in der Stadt. [ICON_INTERNATIONAL_TRADE] Seehandelswege, die in dieser Stadt beginnen und eine Verbindung zu einer anderen Zivilisation herstellen, erhalten mehr [ICON_TOURISM] Tourismus mit der Zivilisation, basierend auf Eurem jüngsten [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusertrag.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung [ICON_GOLD] von Küsten- und Ozean-Geländefeldern und +1 [ICON_PRODUCTION] Produktion von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Seehandelswege haben eine um 50% erhöhte Reichweite und produzieren +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Produktion von Marineeinheiten und erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10%. Stadt muss an der Küste liegen.'
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Hafen ist ein Gebäude des Mittelalters und kann erst gebaut werden, wenn die Stadt über einen Leuchtturm verfügt. Er verbessert die Reichweite und den Ertrag von [ICON_GOLD] Gold für Seehandelswege und steigert den Ertrag von Wasser-Geländefeldern  und Meeresressourcen. Der Hafen steigert auch die [ICON_PRODUCTION] Produktion von Marineeinheiten um 15 % und Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %.'
+SET Text = 'Der Hafen ist ein Gebäude des Mittelalters und kann erst gebaut werden, wenn die Stadt über einen Leuchtturm verfügt. Er verbessert die Reichweite und den Ertrag von [ICON_GOLD] Gold für Seehandelswege und steigert den Ertrag von Wasser-Geländefeldern  und Meeresressourcen. Der Hafen steigert auch die [ICON_PRODUCTION] Produktion von Marineeinheiten um 15 % und erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10%.'
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -231,37 +231,37 @@ SET Text = 'Beseitigt zusätzliche [ICON_HAPPINESS_4] Unzufriedenheit in einer [
 WHERE Tag = 'TXT_KEY_BUILDING_COURTHOUSE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 % und erhöht die Reichweite des Fernkampfangriffs der Stadt um 1. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
+SET Text = 'Stadtmauern erhöhen die Verteidigungsstärke einer Stadt um 10 und die Trefferpunkte um 50; sie kann dann nicht mehr so leicht eingenommen werden. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10% und erhöht die Reichweite des Fernkampfangriffs der Stadt um 1. Stadtmauern sind vor allem in Städten entlang der Grenzen einer Zivilisation überaus hilfreich.'
 WHERE Tag = 'TXT_KEY_BUILDING_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILDING_WALLS_HELP', 'Erhöht die Reichweite des [ICON_RANGE_STRENGTH] Fernkampfangriffs der Stadt um 1 und das Militäreinheiten Limit durch Bevölkerung in dieser Stadt um 10 %.'
+SELECT 'TXT_KEY_BUILDING_WALLS_HELP', 'Erhöht die Reichweite des [ICON_RANGE_STRENGTH] Fernkampfangriffs der Stadt um 1. '
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15, Fernkampfschaden um 25% und die Trefferpunkte um 100 erhöht. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 % und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
+SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15, Fernkampfschaden um 25% und die Trefferpunkte um 100 erhöht. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10% und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_en_US
-SET Text = 'Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen, die von dieser Stadt bewirtschaftet werden. Erhöht the städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100%. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 10 %. Stellt 1 Platz für ein Großes Kunstwerk oder Artefakt bereit.'
+SET Text = 'Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann. +1 [ICON_PRODUCTION] Produktion von Steinbrüchen, die von dieser Stadt bewirtschaftet werden. Erhöht the städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100%. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10%. Stellt 1 Platz für ein Großes Kunstwerk oder Artefakt bereit.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 
 UPDATE Language_de_DE
-SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfschaden-Reichweite um 1 und erlaubt ihr durch indirektes Feuer die Sichtweite zu ignorieren. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 15 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
+SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfschaden-Reichweite um 1 und erlaubt ihr durch indirektes Feuer die Sichtweite zu ignorieren. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Stadt benötigt eine Burg. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 15 %. Erhöht den Fernkampf-Trefferbereich der Stadt [ICON_RANGE_STRENGTH] um 1 und erlaubt indirektes Feuer.[NEWLINE][NEWLINE]Stationierte Einheiten erhalten zusätzliche 10 Trefferpunkte, wenn sie in dieser Stadt heilen. Fremde Spione können keine Wissenschaft aus dieser Stadt stehlen.'
+SET Text = 'Stadt benötigt eine Burg. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15 %. Erhöht den Fernkampf-Trefferbereich der Stadt [ICON_RANGE_STRENGTH] um 1 und erlaubt indirektes Feuer.[NEWLINE][NEWLINE]Stationierte Einheiten erhalten zusätzliche 10 Trefferpunkte, wenn sie in dieser Stadt heilen. Fremde Spione können keine Wissenschaft aus dieser Stadt stehlen.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +15 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100 %.[NEWLINE][NEWLINE] Stationierte Einheiten erhalten 25 zusätzliche Gesundheit und stationierte Einhalten erhalten zusätzliche 10 Trefferpunkte, wenn sie in dieser Stadt heilen. Stadt benötigt ein Arsenal.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +15 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100 %. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 25% und stationierte Einheiten erhalten 10 zusätzliche Gesundheit, wenn sie in dieser Stadt heilen. Stadt benötigt ein Arsenal.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Der Militärstützpunkt ist ein Gebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um 200 erhöht. Außerdem verbessert es die Verteidigung gegen Lufteinheiten.  Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Stationierte Einheiten erhalten zusätzlich 10 Gesundheit, wenn sie sich in dieser Stadt heilen. Erhöht das Militäreinheiten Limit, durch Bevölkerung in dieser Stadt um 25 %.'
+SET Text = 'Der Militärstützpunkt ist ein Gebäude im späteren Abschnitt des Spielverlaufs, das die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um 200 erhöht. Außerdem verbessert es die Verteidigung gegen Lufteinheiten. Die Stadt muss über ein Arsenal verfügen, bevor ein Militärstützpunkt errichtet werden kann. Stationierte Einheiten erhalten zusätzlich 10 Gesundheit, wenn sie sich in dieser Stadt heilen. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 25%.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -507,7 +507,7 @@ SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend in allen Städten und erhöht die
 WHERE Tag = 'TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %. Enthält ein vorgefertigtes Kunstwerk im Großes-Werk-Platz.[NEWLINE][NEWLINE]+3 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10 %. Enthält ein vorgefertigtes Kunstwerk im Großes-Werk-Platz. Alle eigenen Amphitheater produzieren +1 [ICON_CULTURE] Kultur und +1 [ICON_RESEARCH] Wissenschaft.[NEWLINE][NEWLINE]+3 [ICON_CULTURE] Kultur, wenn thematisch ausgerichtet.'
 WHERE Tag = 'TXT_KEY_WONDER_PARTHENON_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

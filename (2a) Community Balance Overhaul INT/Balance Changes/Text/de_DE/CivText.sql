@@ -146,12 +146,12 @@ SET Text = 'Der Kampfbogenschütze ist die babylonische Spezialeinheit und erset
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_BOWMAN_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Mauern von Babylon erhöhen den Schaden durch Fernangriffe der Stadt und die Verteidigung der Stadt. Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 %.'
+SET Text = 'Die Mauern von Babylon erhöhen den Schaden durch Fernangriffe der Stadt und die Verteidigung der Stadt. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10 %.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_INFO' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (
 Tag, Text)
-SELECT 'TXT_KEY_BUILDING_BABYLON_WALLS_HELP', 'Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 %. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1. Wissenschaftler in dieser Stadt produzieren +2 [ICON_GOLD] Gold.'
+SELECT 'TXT_KEY_BUILDING_BABYLON_WALLS_HELP', 'Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10 %. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1. Wissenschaftler in dieser Stadt produzieren +2 [ICON_GOLD] Gold.'
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -915,7 +915,7 @@ WHERE Tag = 'TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY' AND EXISTS (SELECT * FROM COMMU
 -- Russia
 --------------------
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold to Camps, Mines, Lumbermills, and Strategic Resources. Increases the City''s [ICON_RANGE_STRENGTH] Ranged Strike Range by 1, and allows Indirect Fire. Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile if they move into a Tile worked by this City.[NEWLINE][NEWLINE]Increases city Defense Strength by 25 and Hit Points by 200. Military Units supplied by this City''s population increased by 15%.'
+SET Text = '+1 [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Jagdlagern, Minen, Sägewerken und strategischen Ressourcen. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1 und erlaubt Indirektes Feuer. Feindliche Landeinheiten müssen 1 zusätzlichen [ICON_MOVES] Fortbewegungspunkt pro Geländefeld aufwenden, wenn sie sich auf Geländefeldern bewegen, die von dieser Stadt bewirtschaftet werden.[NEWLINE][NEWLINE]Erhöht die Verteidigungsstärke der Stadt um 25 und die Trefferpunkte um . Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15%.'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -923,11 +923,11 @@ SET Text = 'Ostrog'
 WHERE Tag = 'TXT_KEY_BUILDING_KREPOST_DESC' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Das Ostrog ist das einzigartige Gebäude der Russen, es ersetzt das Arsenal. In addition to the normal bonuses of the Arsenal, the Ostrog is cheaper, unlocks earlier, and grants +1 Production and Gold to Camps, Mines, Lumbermills, and Strategic Resources. Increases Military Units supplied by this City''s population by 15%. Es sorgt ebenfalls dafür, dass feindliche Landeinheiten 1 Bewegungspunkt zusätzlich pro Geländefeld verbrauchen, wenn sie sich auf ein Geländefeld begeben, dass von dieser Stadt bewirtschaftet wird. Die Produktions-, Gold- und Unterhaltsbedingungen der Ostrog sind ebenfalls großzügig reduziert. In einer frisch gegründeten Stadt könnt Ihr es so schneller errichten. Es lohnt sich dieses nützliche Gebäude in allen russischen Städten zu bauen, doch lohnt es sich besonders in Grenzstädten.'
+SET Text = 'Das Ostrog ist das einzigartige Gebäude der Russen, es ersetzt das Arsenal. Zusätzlich zu den normalen Boni des Arsenals ist das Ostrog günstiger, wird früher freigeschaltet und gewährt +1 Produktion und Gold für Jagdlager, Minen, Sägewerke und strategische Ressourcen. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15%. Es sorgt ebenfalls dafür, dass feindliche Landeinheiten 1 Bewegungspunkt zusätzlich pro Geländefeld verbrauchen, wenn sie sich auf ein Geländefeld begeben, dass von dieser Stadt bewirtschaftet wird. Die Produktions-, Gold- und Unterhaltsbedingungen der Ostrog sind ebenfalls großzügig reduziert. In einer frisch gegründeten Stadt könnt Ihr es so schneller errichten. Es lohnt sich dieses nützliche Gebäude in allen russischen Städten zu bauen, doch lohnt es sich besonders in Grenzstädten.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ostrog is a Russian term for a small fort, typically wooden and often non-permanently manned. Ostrogs were widely used during the age of Russian imperial expansion, particularly during the 18th and early 19th centuries. Ostrogs were encircled by 6 metres high palisade walls made from sharpened trunks. The name derives from the Russian word strogat, "to shave the wood". Ostrogs were smaller and exclusively military forts, compared to larger kremlins that were the cores of Russian cities. Ostrogs were often built in remote areas or within the fortification lines, such as the Great Abatis Line.'
+SET Text = 'Ostrog ist ein russischer Begriff für ein kleines Fort, typisch hölzern und oft nicht dauerhaft besetzt. Ostrogs wurden während der Zeit der russischen imperialen Expansion genutzt, insbesondere im 18. und frühen 19. Jahrhundert waren sie weit verbreitet. Ostrogs wurden von 6 Meter hohen Palisadenwänden aus geschliffenen Stämmen umgeben. Der Name leitet sich vom russischen Wort strogat ab, "um das Holz zu rasieren". Ostrogs waren kleinere und ausschließlich militärische Festungen, verglichen mit größeren Kremlen, die die Kerne der russischen Städte waren. Ostrogs wurden oft in abgelegenen Gebieten oder innerhalb der Befestigungslinien gebaut, wie zum Beispiel der Großen Verhau Linie.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_KREPOST_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
