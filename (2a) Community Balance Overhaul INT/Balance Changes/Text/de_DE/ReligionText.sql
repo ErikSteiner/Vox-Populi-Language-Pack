@@ -298,7 +298,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Pious Celebrations)
 UPDATE Language_de_DE
-SET Text = 'Ignorieren Sie alle Anforderungen an die Politik für Wunder. Heilige Stadt erhält +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +2 [ICON_GREAT_PEOPLE] Große Persönlichkeiten Punkte pro Runde für alle [ICON_GREAT_PEOPLE] Großen Persönlichkeiten. +15 % [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der Heiligen Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
+SET Text = 'Ignorieren Sie alle Anforderungen an die Politik für Wunder. Heilige Stadt erhält +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +2 [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) pro Runde für alle [ICON_GREAT_PEOPLE] Großen Persönlichkeiten. +15 % [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der Heiligen Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE

@@ -2310,10 +2310,10 @@
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GOLD] Gold</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Größe Persönlichkeiten Punkte in der [ICON_CAPITAL] Hauptstadt</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) in der [ICON_CAPITAL] Hauptstadt</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_GPP_GLOBAL">
-			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Größe Persönlichkeiten Punkte in allen Städten</Text>
+			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) in allen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CS_QUEST_HAPPINESS">
 			<Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_HAPPINESS_1] Zufriedenheit in der [ICON_CAPITAL] Hauptstadt</Text>
