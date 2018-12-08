@@ -494,7 +494,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL' AND EXISTS (SELECT * FROM COMMUNI
 
 -- Church Property (Now Holy Law)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Gottesgericht" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +6 [ICON_GOLD] Gold, +5 [ICON_GOLD] Gold von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Erhaltet 5 [ICON_PEACE] Glauben, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold wenn Ihr eine Politik freischaltet, für jeden Anhänger Eurer Religion (max. 200 Anhänger).'
+SET Text = 'Schaltet das Nationale Wunder "Göttlicher Hof" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +6 [ICON_GOLD] Gold, +5 [ICON_GOLD] Gold von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Erhaltet 5 [ICON_PEACE] Glauben, [ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold wenn Ihr eine Politik freischaltet, für jeden Anhänger Eurer Religion (max. 200 Anhänger).'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
