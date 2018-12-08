@@ -83,19 +83,19 @@ SET Text = 'Ein Funkturm ist ein Gebäude im späteren Verlauf des Spiels, das d
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend leicht. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = '+15 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_BARRACKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = '+20 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = '+20 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARMORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht das Militäreinheiten Versorgungslimit um 1.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 		
 UPDATE Language_de_DE
-SET Text = '+33 % [ICON_PRODUCTION] Produktion beim Bau von berittenen Nahkampf-Einheiten. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_HORSE] Pferde: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SHEEP] Schafen: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_COW] Vieh : +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE]Die Stadt benötigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.'
+SET Text = '+33 % [ICON_PRODUCTION] Produktion beim Bau von berittenen Nahkampf-Einheiten. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%.[NEWLINE]Jede von dieser Stadt genutzten Quelle [ICON_RES_HORSE] Pferde: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_SHEEP] Schafen: +2 [ICON_PRODUCTION] Produktion.[NEWLINE][ICON_RES_COW] Vieh : +2 [ICON_PRODUCTION] Produktion.[NEWLINE][NEWLINE]Die Stadt benötigt mindestens eine dieser Ressourcen modernisiert mit einer Weide.'
 WHERE Tag = 'TXT_KEY_BUILDING_STABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
@@ -139,11 +139,11 @@ SET Text = 'Der Hafen ist ein Gebäude des Mittelalters und kann erst gebaut wer
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +250 Trefferpunkte in der Stadt. +25% [ICON_PRODUCTION] Produktion in der Stadt. +1 [ICON_PRODUCTION] Produktion und +1 [ICON_GOLD] Gold von allen Küsten- und Ozean-Geländefeldern. +2 [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %.[NEWLINE][NEWLINE]Die Stadt muss an der Küste liegen. Kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
+SET Text = 'Benötigt 1 [ICON_RES_COAL] Kohle. +250 Trefferpunkte in der Stadt. +25% [ICON_PRODUCTION] Produktion in der Stadt. +1 [ICON_PRODUCTION] Produktion und +1 [ICON_GOLD] Gold von allen Küsten- und Ozean-Geländefeldern. +2 [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Meeresressourcen, die von dieser Stadt bewirtschaftet werden. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%.[NEWLINE][NEWLINE]Die Stadt muss an der Küste liegen. Kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Seehafen erhöht die [ICON_PRODUCTION] Produktion einer Stadt und der modernisierten Meeresressource während des Industriezeitalters. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %. Benötigt einen Hafen und kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
+SET Text = 'Ein Seehafen erhöht die [ICON_PRODUCTION] Produktion einer Stadt und der modernisierten Meeresressource während des Industriezeitalters. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%. Benötigt einen Hafen und kann nicht gebaut werden, wenn die Stadt bereits einen Bahnhof besitzt.'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 INSERT INTO Language_de_DE (Tag, Text)
@@ -381,7 +381,7 @@ SET Text = 'Philosophie ist die Studie von allgemeinen und grundsätzlichen Prob
 WHERE Tag = 'TXT_KEY_BUILDING_NATIONAL_COLLEGE_PEDIA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Dieses Nationale Wunder gewährt allen Einheiten, die in dieser Stadt ausgebildet wurden (Vergangenheit oder Zukunft), die "Moral"-Beförderung, was ihre Kampfstärke um +10 % verbessert. +1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %. Das Heldenepos kann erst gebaut werden, wenn eine Stadt über eine Kaserne verfügt.'
+SET Text = 'Dieses Nationale Wunder gewährt allen Einheiten, die in dieser Stadt ausgebildet wurden (Vergangenheit oder Zukunft), die "Moral"-Beförderung, was ihre Kampfstärke um +10 % verbessert. +1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%. Das Heldenepos kann erst gebaut werden, wenn eine Stadt über eine Kaserne verfügt.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -427,7 +427,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_TOURIST_CENTER_STRATEGY' AND EXISTS (SELECT * FROM
 -- Help Text
 
 UPDATE Language_de_DE
-SET Text = 'Alle von dieser Stadt ausgebildeten Einheiten (Vergangenheit oder Zukunft) erhalten die Beförderung [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR], was ihre [ICON_STRENGTH] Kampfstärke um 10% erhöht. +1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. Erhöht die Militäreinheiten Versorgung, durch die Bevölkerung dieser Stadt um 10 %. Beinhaltet 1 Platz für ein Großes Literaturwerk.[NEWLINE][NEWLINE]Benötigt eine Kaserne in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Alle von dieser Stadt ausgebildeten Einheiten (Vergangenheit oder Zukunft) erhalten die Beförderung [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR], was ihre [ICON_STRENGTH] Kampfstärke um 10% erhöht. +1 [ICON_PRODUCTION] Produktion für je 5 [ICON_CITIZEN] Bürger in der Stadt. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%. Beinhaltet 1 Platz für ein Großes Literaturwerk.[NEWLINE][NEWLINE]Benötigt eine Kaserne in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_HEROIC_EPIC_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -503,7 +503,7 @@ SET Text = 'Bietet einen kostenlosen Garten in der Stadt, in der das Wunder geba
 WHERE Tag = 'TXT_KEY_WONDER_HANGING_GARDEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend in allen Städten und erhöht in der Stadt die Militäreinheiten Versorgungsgrenze um 3. Erschafft eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Menge an [ICON_CULTURE] Kultur, wenn vollendet.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend in allen Städten und erhöht die Versorgungsgrenze für militärische Einheiten um 3. Erstellt eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Summe an [ICON_CULTURE] Kultur, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -519,7 +519,7 @@ SET Text = '[ICON_CULTURE] Kultur- und [ICON_GOLD] Goldkosten für das erschlie�
 WHERE Tag = 'TXT_KEY_WONDER_ANGKOR_WAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten verbrauchen alle [ICON_MOVES] Bewegungszüge, wenn sie Euer Territorium betreten. Erhöht die Militäreinheiten Versorgungsgrenze um 3. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern.[NEWLINE][NEWLINE]Durch die Entdeckung des Dynamits veraltet die Große Mauer, mit all seinen Boni.'
+SET Text = 'Erhaltet einen freien Großen General. [NEWLINE][NEWLINE]Feindliche Landeinheiten verbrauchen alle [ICON_MOVES] Bewegungszüge, wenn sie Euer Territorium betreten. Erhöht die Versorgungsgrenze für militärische Einheiten um 3. Bringt der Stadt, in der sie gebaut wird, kostenlos Mauern.[NEWLINE][NEWLINE]Durch die Entdeckung des Dynamits veraltet die Große Mauer, mit all seinen Boni.'
 WHERE Tag = 'TXT_KEY_WONDER_GREAT_WALL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -559,7 +559,7 @@ SET Text = 'Muss in einer Heiligen Stätte errichtet werden. 2 freie Missionare 
 WHERE Tag = 'TXT_KEY_WONDER_BOROBUDUR_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Erhöht die Militäreinheiten Versorgungsgrenze um 5. Gewährt eine freie Burg in der Stadt in der es gebaut wurde.'
+SET Text = '+15% [ICON_STRENGTH] Kampfstärke für Einheiten die in freundlichem Territorium kämpfen und +10% [ICON_STRENGTH] Verteidigung für alle Städte. Erhöht die Versorgungsgrenze für militärische Einheiten um 5. Gewährt eine freie Burg in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_HIMEJI_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -595,7 +595,7 @@ SET Text = '+10% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze fü
 WHERE Tag = 'TXT_KEY_WONDER_SISTINE_CHAPEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Städtische [ICON_RANGE_STRENGTH] Fernkampfstärke erhöht sich um 50 % und Fernkampf Reichweite um 1. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Militäreinheiten Versorgungsgrenze durch die Bevölkerung in allen Städten um 5 %.'
+SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Städtische [ICON_RANGE_STRENGTH] Fernkampfstärke erhöht sich um 50 % und Fernkampf Reichweite um 1. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung in allen Städten um 5 %.'
 WHERE Tag = 'TXT_KEY_WONDER_RED_FORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -607,7 +607,7 @@ SET Text = 'Ein großer Wissenschaftler erscheint bei der Stadt, in der das Wund
 WHERE Tag = 'TXT_KEY_WONDER_PORCELAIN_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Elend und erhöht die Militäreinheiten Versorgungsgrenze um 10, in der Stadt in der es gebaut wurde.'
+SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Elend und erhöht die Versorgungsgrenze für militärische Einheiten um 10, in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_BRANDENBURG_GATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -639,7 +639,7 @@ SET Text = 'Benötigt Autokratie. +1 [ICON_HAPPINESS_1] Zufriedenheit für je 2 
 WHERE Tag = 'TXT_KEY_WONDER_PRORA_RESORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Imperialismus Zweigs. [ICON_GOLD] Goldkosten für das modernisieren von Militäreinheiten um 33 % reduziert. Eigene Spione können durch Erweiterte Spionageaktionen leichter die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen. Erhöht die Versorgungsobergrenze für Militäreinheit, durch die Bevölkerung in jeder Stadt um 1.'
+SET Text = 'Erfordert die Vollendung des Imperialismus Zweigs. [ICON_GOLD] Goldkosten für das modernisieren von Militäreinheiten um 33 % reduziert. Eigene Spione können durch Erweiterte Spionageaktionen leichter die [ICON_PRODUCTION] Produktion von Einheiten unterbrechen. Erhöht die Versorgungsgrenze für militärische Einheiten um 1 in jeder Stadt.'
 WHERE Tag = 'TXT_KEY_WONDER_PENTAGON_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 

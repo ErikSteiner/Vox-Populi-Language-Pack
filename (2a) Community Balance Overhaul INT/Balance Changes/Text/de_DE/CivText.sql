@@ -155,7 +155,7 @@ SELECT 'TXT_KEY_BUILDING_BABYLON_WALLS_HELP', 'Erhöht die Militäreinheiten Ver
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Mauern von Babylon sind ein einzigartiges Bauwerk von Babylon und ersetzen die normalen Stadtmauern. Die Mauern von Babylon erhöhen die Verteidigungsfähigkeit der Stadt um 15 und verschaffen der Stadt eine größere Kampfstärke von 75 Punkte bei Bombardierungsangriffen (weit mehr als normale Stadtmauern). Erhöht die Militäreinheiten Versorgung durch die Bevölkerung dieser Stadt um 10 % und erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1. Die Mauern von Babylon bieten außerdem Platz für einen Spezialisen der Wissenschaft und verbessern den Goldertrag aller Wissenschaftler in der Stadt.'
+SET Text = 'Die Mauern von Babylon sind ein einzigartiges Bauwerk von Babylon und ersetzen die normalen Stadtmauern. Die Mauern von Babylon erhöhen die Verteidigungsfähigkeit der Stadt um 15 und verschaffen der Stadt eine größere Kampfstärke von 75 Punkte bei Bombardierungsangriffen (weit mehr als normale Stadtmauern). Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10 % und erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1. Die Mauern von Babylon bieten außerdem Platz für einen Spezialisen der Wissenschaft und verbessern den Goldertrag aller Wissenschaftler in der Stadt.'
 WHERE Tag = 'TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 --------------------
@@ -836,7 +836,7 @@ SET Text = 'Ancient Era Unit which specializes in defeating Mounted Units. Only 
 -- Poland
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Unique Polish Stable replacement. 1 kostenfreies [ICON_RES_HORSE] Pferd, +50% [ICON_Produktion] Produktion and +15 EP for Mounted Melee Units. Erhöht die Versorgungsobergrenze für Militäreinheit, durch die Bevölkerung in dieser Stadt um 10%.[NEWLINE]Nahegelegene [ICON_RES_HORSE] Pferde: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegene [ICON_RES_SHEEP] Schaafe: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegenes [ICON_RES_COW] Vieh: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.'
+SET Text = 'Unique Polish Stable replacement. 1 kostenfreies [ICON_RES_HORSE] Pferd, +50% [ICON_Produktion] Produktion and +15 EP for Mounted Melee Units. Erhöht die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung, in dieser Stadt um 10%.[NEWLINE]Nahegelegene [ICON_RES_HORSE] Pferde: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegene [ICON_RES_SHEEP] Schaafe: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.[NEWLINE]Nahegelegenes [ICON_RES_COW] Vieh: +3 [ICON_Produktion] Produktion, +3 [ICON_GOLD] Gold.'
 WHERE Tag = 'TXT_KEY_BUILDING_DUCAL_STABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -1090,7 +1090,7 @@ SET Text = 'Cannot found/annex cities. [ICON_INTERNATIONAL_TRADE] Trade Route ca
 -- Zulu
 --------------------
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Elend leicht. Erhöht die Versorgungsobergrenze für Militäreinheiten um 2.'
+SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Elend leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 2.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE

@@ -32,23 +32,23 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_HEADING3_TITLE">
-			<Text>War Weariness</Text>
+			<Text>Kriegsmüdigkeit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_HEADING3_BODY">
-			<Text>War, war never changes. Well, actually, it does. As the game progresses, the citizens of your empire will become more and more aware of the dangers of prolonged conflict, and will begin to develop [COLOR_NEGATIVE_TEXT]War Weariness[ENDCOLOR]. War Weariness is calculated based on two factors: the length of your longest current war (however long that may be), and the largest amount of damage your cities and armies have sustained in a single combat against an opponent you are currently fighting. Every City lost or unit destroyed will increase your War Weariness, leading to three major effects:[NEWLINE][ICON_BULLET] Unhappiness from War Weariness[NEWLINE][ICON_BULLET] Increased Production and Gold costs for Military Units[NEWLINE][ICON_BULLET] Reduced maximum Military Unit Supply Cap.[NEWLINE]The latter two cap at 75%. Be careful of overextending during a single conflict!</Text>
+			<Text>Krieg, Krieg ändert sich nie. Nun, eigentlich schon. Im Laufe des Spiels werden sich die Bürger Ihres Reiches immer mehr der Gefahren eines anhaltenden Konflikts bewusst und beginnen,[COLOR_NEGATIVE_TEXT]Kriegsmüdigkeit[ENDCOLOR] zu entwickeln. Kriegsmüdigkeit wird auf der Grundlage von zwei Faktoren berechnet: der Länge des längsten aktuellen Krieges (wie lang auch immer er sein mag) und der größten Menge an Schaden, den Eure Städte und Armeen in einem einzigen Kampf gegen einen Gegner erlitten haben, den Ihr gerade kämpft. Jede verlorene Stadt oder zerstörte Einheit erhöht Ihre Kriegsmüdigkeit und führt zu drei Haupteffekten:[NEWLINE][ICON_BULLET] Unzufriedenheit durch Kriegsmüdigkeit[NEWLINE][ICON_BULLET] Erhöhte Produktions- und Goldkosten für militärische Einheiten[NEWLINE][ICON_BULLET] Reduzierte maximale  Versorgungsgrenze für militärische Einheiten[NEWLINE]Die letzten beiden Obergrenzen betragen 75%. Achtet darauf, dass Ihr euch während eines einzelnen Konflikts nicht überfordert!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_WAR_WEARINESS_ADV_QUEST">
-			<Text>What is War Weariness?</Text>
+			<Text>Was ist Kriegsmüdigkeit?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_TITLE">
-			<Text>Military Supply</Text>
+			<Text>Militärische Versorgung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_HEADING3_BODY">
-			<Text>The maximum number of Military Units you can field at any one time is called your Military Unit Supply Cap. This number, indicated on the Top Panel next to the [ICON_WAR] Symbol, increases based on two factors: the total population of all of your cities, and the number of buildings or policies you have that increase your Military Unit Supply Cap. Some buildings, such as the Barracks, increase your Supply Cap by a fixed amount. Others, like Walls, increase your Supply cap by a percentage of the city's population.[NEWLINE][NEWLINE]Military Unit Supply Cap increases from static elements, like Barracks, and percentage bonuses from population decline over time based on your empire's technological level. You will need more and more percentage bonuses to overcome this and field large armies![NEWLINE][NEWLINE]If, for any reason, you exceed your Military Unit Supply Cap, you will be penalized 5% Production and Food in all Cities (per unit over the cap).</Text>
+			<Text>Die maximale Anzahl von Militäreinheiten, die Sie gleichzeitig einsetzen können, wird als Versorgungsgrenze für militärische Einheiten bezeichnet. Diese Zahl, die auf oberes Bedienfeld neben dem [ICON_WAR] Symbol angezeigt wird, steigt aufgrund von zwei Faktoren: der Gesamtbevölkerung aller Ihrer Städte und der Anzahl der Gebäude oder angenommener Politiken, die die Versorgungsgrenze für militärische Einheiten erhöht hat. Einige Gebäude, wie z.B. die Kaserne, erhöhen Ihre Versorgungsgrenze um einen festen Betrag. Andere, wie Mauern, erhöhen Ihre Versorgungsgrenze um einen Prozentsatz der Stadtbevölkerung[NEWLINE][NEWLINE]Die durch statische Elemente erhöhte Versorgungsgrenze für militärische Einheiten, wie Kasernen, und prozentuale Boni aus der Bevölkerung nehmen mit der Zeit ab, basierend auf dem technologischen Niveau Eures Reiches. Sie werden immer mehr prozentuale Boni benötigen, um dies zu überwinden und große Armeen aufzustellen[NEWLINE][NEWLINE]Wenn Sie aus irgendeinem Grund Ihre Versorgungsgrenze für militärische Einheiten überschreiten, werden Sie mit 5% Produktion und Nahrung in allen Städten bestraft (pro Einheit über der Grenze).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MILITARY_SUPPLY_ADV_QUEST">
-			<Text>What is Military Supply?</Text>
+			<Text>Was ist militärische Versorgung?</Text>
 		</Row>
 			
 		<Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
@@ -266,10 +266,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
-			<Text>Expending a {1_UnitName} increased your Military Unit Supply Cap by {2_Num}!</Text>
+			<Text>Das Aufbrauchen {@1: gender masculine?der; feminine?der; other?des;} {1_UnitName} erhöht Eure Versorgungsgrenze für militärische Einheiten um {2_Num}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY_S">
-			<Text>Military Unit Supply Cap Increased!</Text>
+			<Text>Versorgungsgrenze für militärische Einheiten erhöht!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MO_SORT_LEVEL">
