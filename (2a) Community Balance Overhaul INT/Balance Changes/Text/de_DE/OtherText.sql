@@ -247,7 +247,7 @@ WHERE Tag = 'TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP' AND EXISTS (SELECT * FROM CO
 
 -- Fix Globalization Text
 UPDATE Language_de_DE
-SET Text = 'Allows you to build the [COLOR_POSITIVE_TEXT]SS Cockpit[ENDCOLOR], a component necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. With Globalization, each Spy you send to another Civilization as a [ICON_DIPLOMAT] Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR].'
+SET Text = 'Ermöglicht es Ihnen, das [COLOR_POSITIVE_TEXT]RS-Cockpit[ENDCOLOR] zu bauen, eine Komponente, die notwendig ist, um einen [COLOR_POSITIVE_TEXT]Wissenschaftssieg[ENDCOLOR] zu erringen. Mit der Globalisierung wird jeder Spion, den Ihr als Diplomat in eine andere Zivilisation schickt, die Zahl der Abgeordneten erhöhen, die Ihr im Weltkongress kontrolliert, und Euch so näher an den [COLOR_POSITIVE_TEXT]Diplomatiesieg[ENDCOLOR] bringen.'
 WHERE Tag = 'TXT_KEY_TECH_GLOBALIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_UNITS' AND Value= 1 );
 
 -- Fix Computers Text

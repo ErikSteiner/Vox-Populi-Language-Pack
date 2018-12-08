@@ -436,7 +436,7 @@ SET Text = 'In addition to the regular abilities of the Customs House (additiona
 WHERE Tag = 'TXT_KEY_BUILDING_HANSE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte in Eurer [ICON_CAPITAL] Hauptstadt per Stadtstaaten Allianz (+1 pro Freund), Bonus steigt mit jedem Zeitalter. +1 Deligierter im Weltkongress for je 3 Allianzen mit Stadtstaaten.'
+SET Text = '+2 [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte in Eurer [ICON_CAPITAL] Hauptstadt per Stadtstaaten Allianz (+1 pro Freund), Bonus steigt mit jedem Zeitalter. +1 Abgeordneten im Weltkongress for je 3 Allianzen mit Stadtstaaten.'
 WHERE Tag = 'TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE

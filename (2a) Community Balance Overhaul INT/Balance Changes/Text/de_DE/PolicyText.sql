@@ -186,7 +186,7 @@ WHERE Tag = 'TXT_KEY_POLICY_MEDIA_CULTURE_HELP' AND EXISTS (SELECT * FROM COMMUN
 
 -- Treaty Organization
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR]: +4 [ICON_INFLUENCE] Influence per turn (Standard speed) with City-States you have a trade route with. +4 Delegates (scaling with map size) for the World Congress.'
+SET Text = '[COLOR_POSITIVE_TEXT]Vertragliche Organisationen[ENDCOLOR]: +4 [ICON_INFLUENCE] Einfluss pro Runde (Standardgeschwindigkeit) auf Stadtstaaten, mit denen Ihr einen Handelsweg haben. +4 Abgeordnete (Skalierung mit Kartengröße) für den Weltkongress.'
 WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Finest Hour
@@ -798,23 +798,23 @@ WHERE Tag = 'TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT' AND EXISTS (SELECT * FROM COM
 -- Opener
 
 UPDATE language_de_DE
-SET Text = 'STATECRAFT'
+SET Text = 'STAATSKUNST'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Statecraft'
+SET Text = 'Staatskunst'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Statecraft[ENDCOLOR] improves your ability to benefit from [ICON_INTERNATIONAL_TRADE] Trade Routes, [ICON_CITY_STATE] City-States, [ICON_SPY] Spies, and [ICON_DIPLOMAT] the World Congress.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 of every Yield in [ICON_CAPITAL] Capital for every 15 [ICON_CITIZEN] Citizens in your Empire.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Each Statecraft policy unlocked grants:[ENDCOLOR] [NEWLINE][ICON_BULLET]+10% [ICON_INFLUENCE] Influence from Trade Missions, and +1 [ICON_GOLD] Gold in every City.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Statecraft grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Unlocks building the [COLOR_CYAN]Palace of Westminster[ENDCOLOR]. [NEWLINE][ICON_BULLET] Every World Congresss Session, gain [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, and [ICON_GOLD] Gold based on the number of [ICON_DIPLOMAT] Delegates you control, scaling with Era.[NEWLINE][ICON_BULLET] World Wonders require 1 less unlocked Policy for every 3 City-State alliances you maintain.'
+SET Text = '[COLOR_POSITIVE_TEXT]Staatskunst[ENDCOLOR] verbessert die Fähigkeit, von [ICON_INTERNATIONAL_TRADE] Handelswegen, [ICON_CITY_STATE] Stadtstaaten, [ICON_SPY] Spionen und dem [ICON_DIPLOMAT] Weltkongress zu profitieren.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Übernahme von Staatskunst gewährt:[ENDCOLOR][NEWLINE][ICON_BULLET] +1 von jedem Ertrag in der [ICON_CAPITAL] Hauptstadt für jede 15 [ICON_CITIZEN] Bürger in Eurem Reich.[NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold in jeder Stadt.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Jede freigeschaltete Staatskunstpolitik gewährt:[ENDCOLOR][NEWLINE][ICON_BULLET] +10% [ICON_INFLUENCE] Einfluss von Handelsmissionen und +1 [ICON_GOLD] Gold in jeder Stadt.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Bei Übernahme aller Politiken im Staatskunst-Zweig:[ENDCOLOR][NEWLINE][ICON_BULLET] Schaltet das Gebäude [COLOR_CYAN]Palace of Westminster[ENDCOLOR] frei.[NEWLINE][ICON_BULLET] Gewinnt in jeder Weltkongresssitzung [ICON_CULTURE] Kultur,[ICON_RESEARCH] Wissenschaft und [ICON_GOLD] Gold basierend auf der Anzahl der von Euch kontrollierten [ICON_DIPLOMAT] Abgeordneten, skaliert mit den Zeitaltern.[NEWLINE][ICON_BULLET] Weltwunder benötigen 1 freigeschaltete Politik weniger, für je 3 Allianzen mit Stadtstaaten die Ihr unterhaltet.'
 WHERE Tag = 'TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '{@1: gender feminine?Mistress; other?Master;} {1_PlayerName:textkey} of {2_CivName:textkey}'
+SET Text = '{@1: gender feminine?Herrin; other?Herr;} {1_PlayerName:textkey} von {2_CivName:textkey}'
 WHERE Tag = 'TXT_KEY_PATRONAGE_TITLE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Statecraft is the domain of the wealthy and powerful, and is the capacity of a political entity to interact with other political entities. In many societies, statecraft is managed by a few individuals: the Royal Family, say, or the merchant princes. Today, statecraft is largely a democratic process, though some things remain the exclusive domain of those with enough influence.'
+SET Text = 'Staatskunst ist die Domäne der Reichen und Mächtigen und ist die Fähigkeit einer politischen Einheit, mit anderen politischen Einheiten zu interagieren. In vielen Gesellschaften wird die Staatskunst von einigen wenigen Personen geleitet: der Königsfamilie zum Beispiel oder den Kaufmannsprinzen. Heute ist die Staatskunst weitgehend ein demokratischer Prozess, obwohl einige Dinge nach wie vor ausschließlich denjenigen vorbehalten sind, die über genügend Einfluss verfügen.'
 WHERE Tag = 'TXT_KEY_POLICY_PATRONAGE_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Philanthropy
