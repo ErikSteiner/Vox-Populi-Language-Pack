@@ -5228,30 +5228,30 @@
 
 		<!-- Tooltips for CBP Austria Ability -->
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE">
-			<Text>Marriage between {@2_MinorCivName} and {@1_CivName}!</Text>
+			<Text>Heirat zwischen {@2_MinorCivName} und {@1_CivName}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_1">
-			<Text>A beautiful princess of {@1_CivName} has been married off to a nobleman of {@2_MinorCivName}.  With a diplomatic relationship united by marriage, {@2_MinorCivName} grants {@1_CivName} an additional Delegate in the World Congress, boosts their [ICON_CAPITAL] Capital's [ICON_GREAT_PEOPLE] Great Person rate, and their [ICON_INFLUENCE] Influence with the City-State no longer decays.</Text>
+			<Text>Eine schöne Prinzessin von {@1_CivName} wurde mit einem Adligen von {@2_MinorCivName} verheiratet.  Mit einer durch Heirat vereinten diplomatischen Beziehung gewährt {@2_MinorCivName} {@1_CivName} einen zusätzlichen Abgeordneten im Weltkongress, erhöht die [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate ihrer [ICON_CAPITAL] Hauptstadt und ihr [ICON_INFLUENCE] Einfluss auf den Stadtstaat verfällt nicht mehr.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_MARRIAGE_TT_2">
-			<Text>A handsome prince of {@1_CivName} has been married off to a noblewoman of {@2_MinorCivName}.  With a diplomatic relationship united by marriage, {@2_MinorCivName} grants {@1_CivName} an additional Delegate in the World Congress, boosts their [ICON_CAPITAL] Capital's [ICON_GREAT_PEOPLE] Great Person rate, and their [ICON_INFLUENCE] Influence with the City-State no longer decays.</Text>
+			<Text>Ein hübscher Prinz von {@1_CivName} wurde mit einer Adligen von {@2_MinorCivName} verheiratet.  Mit einer durch Heirat vereinten diplomatischen Beziehung gewährt {@2_MinorCivName} {@1_CivName} einen zusätzlichen Abgeordneten im Weltkongress, erhöht die [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate ihrer [ICON_CAPITAL] Hauptstadt und ihr [ICON_INFLUENCE] Einfluss auf den Stadtstaat verfällt nicht mehr.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_MARRIED_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Diplomatic Marriages</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} aus diplomatischen Ehen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_TT">
-			<Text>You may spend {1_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants: an additional delegate in the World Congress, +15% [ICON_GREAT_PEOPLE] Great Person rate in [ICON_CAPITAL] Capital, and [ICON_INFLUENCE] Influence with the City-State no longer decays.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.</Text>
+			<Text>Ihr könnt {1_BuyoutCost} [ICON_GOLD] Gold ausgeben, um eine diplomatische Ehe mit diesem Stadtstaat zu arrangieren. Dabei werden gewährt: ein zusätzlicher Abgeordneter im Weltkongress, +15% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der [ICON_CAPITAL] Hauptstadt und [ICON_INFLUENCE] Einfluss auf den Stadtstaat verfällt nicht mehr.[NEWLINE][NEWLINE]Dies kann nur einmal pro Stadtstaat geschehen und die [ICON_GOLD] Goldkosten steigen mit jeder diplomatischen Ehe.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_TT">
-			<Text>You may spend {2_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants: an additional delegate in the World Congress, +15% [ICON_GREAT_PEOPLE] Great Person rate in [ICON_CAPITAL] Capital, and [ICON_INFLUENCE] Influence with the City-State no longer decays.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns and have {2_BuyoutCost} [ICON_GOLD] Gold to perform this action.[ENDCOLOR]</Text>
+			<Text>Ihr könnt {2_BuyoutCost} [ICON_GOLD] Gold ausgeben, um eine diplomatische Ehe mit diesem Stadtstaat zu schließen. Dabei werden gewährt: ein zusätzlicher Abgeordneter im Weltkongress, +15% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der [ICON_CAPITAL] Hauptstadt und [ICON_INFLUENCE] Einfluss auf den Stadtstaat verfällt nicht mehr.[NEWLINE][NEWLINE]Dies kann nur einmal pro Stadtstaat geschehen und die [ICON_GOLD] Goldkosten steigen mit jeder diplomatischen Ehe.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr müsst für {1_NumTurns} Runden verbündet sein und {2_BuyoutCost} [ICON_GOLD] Gold besitzen, um diese Aktion durchzuführen.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POP_CSTATE_MARRIAGE_DISABLED_ALLY_TT">
-			<Text>You may spend {3_BuyoutCost} [ICON_GOLD] Gold to arrange a Diplomatic Marriage with this City-State. Doing so grants: an additional delegate in the World Congress, +15% [ICON_GREAT_PEOPLE] Great Person rate in [ICON_CAPITAL] Capital, and [ICON_INFLUENCE] Influence with the City-State no longer decays.[NEWLINE][NEWLINE] This can be only be done once per City-State, and the [ICON_GOLD] Gold cost increases with each Diplomatic Marriage.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]You must be allied for {1_NumTurns} turns ({2_TurnsAllied} turns so far) and have {3_BuyoutCost} [ICON_GOLD] Gold to perform this action.[ENDCOLOR]</Text>
+			<Text>Ihr könnt {3_BuyoutCost} [ICON_GOLD] Gold ausgeben, um eine diplomatische Ehe mit diesem Stadtstaat zu schließen. Dabei werden gewährt: ein zusätzlicher Abgeordneter im Weltkongress, +15% [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der [ICON_CAPITAL] Hauptstadt und [ICON_INFLUENCE] Einfluss auf den Stadtstaat verfällt nicht mehr.[NEWLINE][NEWLINE]Dies kann nur einmal pro Stadtstaat geschehen und die [ICON_GOLD] Goldkosten steigen mit jeder diplomatischen Ehe.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr müsst für {1_NumTurns} Runden ({2_TurnsAllied} Runden bisher) verbündet sein und {3_BuyoutCost} [ICON_GOLD] Gold besitzen, um diese Aktion durchzuführen.[ENDCOLOR]</Text>
 		</Row>
 		
 		<!-- Venice Tooltip -->
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
-			<Text>[NEWLINE][ICON_BULLET]{1_Num} from Gold Per Turn</Text>
+			<Text>[NEWLINE][ICON_BULLET]{1_Num} aus Gold pro Runde</Text>
 		</Row>
 
 		<!-- Attack City -->
@@ -6580,7 +6580,7 @@
 			<Text>[ICON_STRENGTH] {2_Unit} Leveled Up:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DELEGATES">
-			<Text>Total [ICON_DIPLOMAT] Delegates:[NEWLINE]{1_YieldString}</Text>
+			<Text>Gesamte [ICON_DIPLOMAT] Abgeordnete:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_SPIES">
 			<Text>[ICON_SPY] Spy Actions:[NEWLINE]{1_YieldString}</Text>
