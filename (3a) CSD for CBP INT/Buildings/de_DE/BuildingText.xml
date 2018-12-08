@@ -97,7 +97,7 @@
 			<Text>Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +2 [ICON_PRODUCTION] Produktion und +2 [ICON_RESEARCH] Wissenschaft von allen Fabriken in eigenen Städten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONSULATE_HELP">
-			<Text>Erhaltet einen weiteren Abgeordneten im Weltkongress.</Text>
+			<Text>Erhaltet 1 weiteren Abgeordneten im Weltkongress.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_SECURITY_COUNCIL_HELP">
@@ -105,7 +105,7 @@
 		</Row>
 		-->
 		<Row Tag="TXT_KEY_UN_HELP">
-			<Text>Erhaltet 25 [ICON_INFLUENCE] Einfluss für alle Stadtstaaten die Ihr getroffen habt, wenn Ihr eine Große Persönlichkeit aufbraucht. Erhaltet einen weiteren Abgeordneten im Weltkongress. Löst sowohl ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, als auch eine Sondersitzung der [COLOR_POSITIVE_TEXT]Vereinten Nationen[ENDCOLOR] aus.</Text>
+			<Text>Erhaltet 25 [ICON_INFLUENCE] Einfluss für alle Stadtstaaten die Ihr getroffen habt, wenn Ihr eine Große Persönlichkeit aufbraucht. Erhaltet 1 weiteren Abgeordneten im Weltkongress. Löst sowohl ein [ICON_GOLDEN_AGE] Goldenes Zeitalter, als auch eine Sondersitzung der [COLOR_POSITIVE_TEXT]Vereinten Nationen[ENDCOLOR] aus.</Text>
 		</Row>
 		
 		<!--Diplo Building Strategy
@@ -152,7 +152,7 @@
 			<Text>Wie sein reales Gegenstück, besticht der Kristallpalast mit einer breiten Palette an Boni. Spieler mit vielen Städten und Fabriken profitieren am meisten von ihm. Jedoch sind die zusätzliche Kultur und Plätze für Große Kunstwerke für jede Zivilisation nützlich. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CONSULATE_STRATEGY">
-			<Text>Das Konsulat gibt dem Besitzer einen leichten Vorsprung im Weltkongress, durch Gewährung eines weiteren Abgeordneten. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
+			<Text>Das Konsulat gibt dem Besitzer einen leichten Vorsprung im Weltkongress, durch Gewährung 1 weiteren Abgeordneten. Darf nur gemeinsam mit dem Weltkongress gebaut werden.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_SECURITY_COUNCIL_STRATEGY">

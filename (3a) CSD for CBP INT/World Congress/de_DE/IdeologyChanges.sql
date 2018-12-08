@@ -205,7 +205,7 @@ SET Text = 'Globale Hegemonie nicht erreicht'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Mit der erforderlichen Unterstützung von mindestens {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneten; other?Abgeordneten;},  hat die Zivilisation {@2_CivName} Globale Hegemonie erreicht.'
+SET Text = 'Mit der erforderlichen Unterstützung von mindestens {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneten; other?Abgeordneten;}, hat die Zivilisation {@2_CivName} Globale Hegemonie erreicht.'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS' AND EXISTS (SELECT * FROM CSD WHERE Type='IDEOLOGY_CSD' AND Value= 1 );
 
 UPDATE language_de_DE
