@@ -521,11 +521,11 @@ WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT' AND EXISTS (SELECT * FROM CO
 
 -- Papal Primacy (Now Council of Elders)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Heiliger Rat" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +5 [ICON_FOOD] Nahrung und +5 [ICON_RESEARCH] Wissenschaft von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn eine Stadt Eure Religion zum ersten Mal annimmt, gewinnt 30 [ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Eurer Heiligen Stadt, schrittweise Skalierung basierend auf der Anzahl der Städte, die Eurer Religion folgen (Bonusobergrenzen bei 20 Städten).'
+SET Text = 'Schaltet das Nationale Wunder "Heiliges Konzil" frei ([COLOR_MAGENTA]+4 [ICON_PEACE] Glauben, +5 [ICON_FOOD] Nahrung und +5 [ICON_RESEARCH] Wissenschaft von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn eine Stadt Eure Religion zum ersten Mal annimmt, gewinnt 30 [ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Eurer Heiligen Stadt, schrittweise Skalierung basierend auf der Anzahl der Städte, die Eurer Religion folgen (Bonusobergrenzen bei 20 Städten).'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ältestenrat'
+SET Text = 'Ältestenkreis'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Pilgrimage (Now Apostolic Tradition
