@@ -274,7 +274,7 @@
 			<Text>Plünderer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
-			<Text>Der Flankenangriffsbonus um 150 % erhöht. Stehlen Sie [ICON_GOLD] Gold, das 50 % des Schadens entspricht, der einer Stadt zugefügt wurde, begrenzt auf städtische [ICON_STRENGTH] Verteidigung x 10. Ist in der Lage, feindliche Straßen zu benutzen.</Text>
+			<Text>Der Flankenangriffsbonus um 150 % erhöht. Goldraub in Höhe von 50% des bei einer Stadt angerichteten Schadens, begrenzt auf städtische [ICON_STRENGTH] Verteidigung x 10. Ist in der Lage, feindliche Straßen zu benutzen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
 			<Text>Welkendes Feuer</Text>
