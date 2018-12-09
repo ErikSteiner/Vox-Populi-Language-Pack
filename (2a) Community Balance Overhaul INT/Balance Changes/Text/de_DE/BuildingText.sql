@@ -83,15 +83,15 @@ SET Text = 'Ein Funkturm ist ein Gebäude im späteren Verlauf des Spiels, das d
 WHERE Tag = 'TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
+SET Text = '+15 EP für alle Einheiten. Reduziert die [ICON_HAPPINESS_3] Not leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_BARRACKS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 	
 UPDATE Language_de_DE
-SET Text = '+20 EP für alle Einheiten. Reduziert [ICON_HAPPINESS_3] Elend.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
+SET Text = '+20 EP für alle Einheiten. Reduziert die [ICON_HAPPINESS_3] Not.[NEWLINE][NEWLINE]Stadt benötigt Kaserne. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARMORY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not stark. +25 EP für alle Einheiten.[NEWLINE][NEWLINE]Stadt benötigt eine Waffenkammer. Erhöht die Versorgungsgrenze für militärische Einheiten um 1.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 		
 UPDATE Language_de_DE
@@ -257,7 +257,7 @@ SET Text = 'Stadt benötigt eine Burg. Erhöht die von der Bevölkerung dieser S
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. +25 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +15 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100 %. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 25% und stationierte Einheiten erhalten 10 zusätzliche Gesundheit, wenn sie in dieser Stadt heilen. Stadt benötigt ein Arsenal.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not stark. +25 % [ICON_PRODUCTION] Produktion von Lufteinheiten, +15 [ICON_STRENGTH] Schaden an Lufteinheiten, während eines Luftangriffs auf die Stadt. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfstärke um 100 %. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 25% und stationierte Einheiten erhalten 10 zusätzliche Gesundheit, wenn sie in dieser Stadt heilen. Stadt benötigt ein Arsenal.'
 WHERE Tag = 'TXT_KEY_BUILDING_MILITARY_BASE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -345,11 +345,11 @@ SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile stark. Gewährt eine riesige
 WHERE Tag = 'TXT_KEY_BUILDING_STADIUM_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend stark. Senkt die Diebstahlrate feindlicher Spione um 25 % und den Diebstahl von [ICON_GOLD] Gold während einer Erweiterten Spionageaktion. Wenn ein feindlicher Spion getötet wird, erhaltet Ihr 500 [ICON_RESEARCH] Wissenschaft und [ICON_CULTURE] Kultur, steigt mit dem Zeitalter und dem Level des getöteten Spions.[NEWLINE][NEWLINE]Stadt benötigt eine Gendarmerie.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not stark. Senkt die Diebstahlrate feindlicher Spione um 25 % und den Diebstahl von [ICON_GOLD] Gold während einer Erweiterten Spionageaktion. Wenn ein feindlicher Spion getötet wird, erhaltet Ihr 500 [ICON_RESEARCH] Wissenschaft und [ICON_CULTURE] Kultur, steigt mit dem Zeitalter und dem Level des getöteten Spions.[NEWLINE][NEWLINE]Stadt benötigt eine Gendarmerie.'
 WHERE Tag = 'TXT_KEY_BUILDING_POLICE_STATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend. Senkt die Diebstahlrate feindlicher Spione um 25 % und die Störung von im Bau befindlichen Gebäuden, durch Erweiterte Spionageaktion.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not. Senkt die Diebstahlrate feindlicher Spione um 25 % und die Störung von im Bau befindlichen Gebäuden, durch Erweiterte Spionageaktion.'
 WHERE Tag = 'TXT_KEY_BUILDING_CONSTABLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -413,7 +413,7 @@ SET Text = 'Dieses Nationale Wunder gewährt +1 [ICON_CULTURE] Kultur für je 4 
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein wichtiges nationales Wunder für eine auf Technologie ausgerichtete Zivilisation. Reduziert [ICON_HAPPINESS_3] Elend. Der Nationale Nachrichtendienst bringt einen zusätzlichen Spion ein, verbessert die Wahrscheinlichkeit für Attentatsversuche auf Große Persönlichkeiten, durch Erweiterte Spionageaktionen, erhöht die Stufe all Eurer existierenden Spione und reduziert die Effektivität feindlicher Spione um 15 %. Reiche mit einer großen Anzahl an offensiven Spionen werden stark von diesem Gebäude profitieren. Die Stadt muss über eine Polizeiwache verfügen, bevor der Nationale Nachrichtendienst errichtet werden kann.'
+SET Text = 'Ein wichtiges nationales Wunder für eine auf Technologie ausgerichtete Zivilisation. Reduziert die [ICON_HAPPINESS_3] Not. Der Nationale Nachrichtendienst bringt einen zusätzlichen Spion ein, verbessert die Wahrscheinlichkeit für Attentatsversuche auf Große Persönlichkeiten, durch Erweiterte Spionageaktionen, erhöht die Stufe all Eurer existierenden Spione und reduziert die Effektivität feindlicher Spione um 15 %. Reiche mit einer großen Anzahl an offensiven Spionen werden stark von diesem Gebäude profitieren. Die Stadt muss über eine Polizeiwache verfügen, bevor der Nationale Nachrichtendienst errichtet werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -459,7 +459,7 @@ SET Text = '+1 [ICON_CULTURE] Kultur für je 4 [ICON_CITIZEN] Bürger in der Sta
 WHERE Tag = 'TXT_KEY_BUILDING_HERMITAGE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Fremde Spione können keine Rebellion oder Unruhen in dieser Stadt anzetteln und es ist viel wahrscheinlicher, dass Eure Spione auf fremde [ICON_GREAT_PEOPLE] Große Persönlichkeiten einen Mordanschlag ausführen. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not. Bringt einen zusätzlichen Spion ein und erhöht die Stufe aller Eurer existierenden Spione. Fremde Spione können keine Rebellion oder Unruhen in dieser Stadt anzetteln und es ist viel wahrscheinlicher, dass Eure Spione auf fremde [ICON_GREAT_PEOPLE] Große Persönlichkeiten einen Mordanschlag ausführen. Reduziert außerdem die Effektivität feindlicher Spione um 15%.[NEWLINE][NEWLINE]Benötigt eine Polizeiwache in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_NATIONAL_WONDERS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -475,7 +475,7 @@ SET Text = 'Geschwindigkeit für Geländefeld-Modernisierungen um 25% erhöht un
 WHERE Tag = 'TXT_KEY_WONDER_CHICHEN_ITZA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Alle Einheiten erhalten +15% [ICON_STRENGTH] Kampfstärke beim Angriff auf Städte. Reduziert [ICON_HAPPINESS_3] Elend in allen Städten. Erhaltet eine freie Kaserne in der Stadt.'
+SET Text = 'Alle Einheiten erhalten +15% [ICON_STRENGTH] Kampfstärke beim Angriff auf Städte. Reduziert die [ICON_HAPPINESS_3] Not in allen Städten. Erhaltet eine freie Kaserne in der Stadt.'
 WHERE Tag = 'TXT_KEY_WONDER_STATUE_ZEUS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 INSERT INTO Language_de_DE (Tag, Text)
@@ -503,7 +503,7 @@ SET Text = 'Bietet einen kostenlosen Garten in der Stadt, in der das Wunder geba
 WHERE Tag = 'TXT_KEY_WONDER_HANGING_GARDEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Reduziert [ICON_HAPPINESS_3] Elend in allen Städten und erhöht die Versorgungsgrenze für militärische Einheiten um 3. Erstellt eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Summe an [ICON_CULTURE] Kultur, wenn vollendet.'
+SET Text = 'Reduziert die [ICON_HAPPINESS_3] Not in allen Städten und erhöht die Versorgungsgrenze für militärische Einheiten um 3. Erstellt eine Kopie jeder Art von militärischen Landeinheiten, die Ihr kontrolliert, und platziert die Einheit bei der Stadt, in der die Terrakottaarmee gebaut wird. Erhaltet eine sehr große Summe an [ICON_CULTURE] Kultur, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -607,7 +607,7 @@ SET Text = 'Ein großer Wissenschaftler erscheint bei der Stadt, in der das Wund
 WHERE Tag = 'TXT_KEY_WONDER_PORCELAIN_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert [ICON_HAPPINESS_3] Elend und erhöht die Versorgungsgrenze für militärische Einheiten um 10, in der Stadt in der es gebaut wurde.'
+SET Text = 'Ein Großer General erscheint in der Nähe der Stadt, in der das Wunder errichtet wurde, und allen in dieser Stadt ausgebildeten Einheiten werden +15 EP gewährt. Reduziert die [ICON_HAPPINESS_3] Not und erhöht die Versorgungsgrenze für militärische Einheiten um 10, in der Stadt in der es gebaut wurde.'
 WHERE Tag = 'TXT_KEY_WONDER_BRANDENBURG_GATE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

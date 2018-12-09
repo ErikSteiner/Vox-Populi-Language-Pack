@@ -1090,7 +1090,7 @@ SET Text = 'Cannot found/annex cities. [ICON_INTERNATIONAL_TRADE] Trade Route ca
 -- Zulu
 --------------------
 UPDATE Language_de_DE
-SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert [ICON_STRENGTH] Elend leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 2.'
+SET Text = '+15 EP für alle Einheiten. Gewährt einzigartige Beförderungen für alle Nahkampfeinheiten und reduziert die [ICON_HAPPINESS_3] Not leicht. Erhöht die Versorgungsgrenze für militärische Einheiten um 2.'
 WHERE Tag = 'TXT_KEY_BUILDING_IKANDA_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
