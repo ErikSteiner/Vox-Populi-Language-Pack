@@ -249,7 +249,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_HELP' AND EXISTS (SELECT * FROM COMMUNITY W
 
 
 UPDATE Language_de_DE
-SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampfschaden-Reichweite um 1 und erlaubt ihr durch indirektes Feuer die Sichtweite zu ignorieren. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
+SET Text = 'Das Arsenal ist ein Militärgebäude im mittleren Abschnitt des Spiels, das die Verteidigungsstärke einer Stadt um 20 und die Trefferpunkte um 150 erhöht, sodass sie schwieriger einzunehmen ist. Erhöht die städtische [ICON_RANGE_STRENGTH] Fernkampf-Reichweite um 1 und erlaubt ihr durch indirektes Feuer die Sichtweite zu ignorieren. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 15 %. Die Stadt muss über eine Burg verfügen, bevor ein Arsenal gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_ARSENAL_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
