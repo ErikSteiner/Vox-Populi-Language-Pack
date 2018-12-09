@@ -747,13 +747,13 @@
 			<Text>Barbarians assaulted {2_City}, destroying research materials worth {1_Science} [ICON_RESEARCH] Science![NEWLINE]Destroy these Barbarians before they burn more things!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_SCIENCE_THEFT_CITY">
-			<Text>Barbarians assaulting {1_City}!</Text>
+			<Text>Barbaren greifen {1_Stadt} an!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY_DETAILED">
-			<Text>Barbarians pillaged the stores of {2_City}, taking {1_Food} [ICON_FOOD] Food![NEWLINE]Destroy these Barbarians before they take more stuff!</Text>
+			<Text>Barbaren plünderten die Geschäfte von {2_City} und nahmen {1_Food} [ICON_FOOD] Nahrung mit![NEWLINE]Vernichten Sie diese Barbaren, bevor sie sich noch mehr Zeug nehmen!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY">
-			<Text>Barbarians stealing from {1_City}!</Text>
+			<Text>Barbaren stehlen von {1_City}!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_THEFT_CITY_DETAILED">
 			<Text>Barbarians kidnapped citizens from {2_City}, costing the city {1_Production} [ICON_PRODUCTION] Production![NEWLINE]Destroy these Barbarians before they cause more panic!</Text>
