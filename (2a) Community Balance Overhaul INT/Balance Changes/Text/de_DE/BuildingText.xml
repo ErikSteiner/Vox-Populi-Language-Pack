@@ -496,7 +496,7 @@
 
 		<!-- Cathedral/Mosque/Pagoda-->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Bauernhöfe, Weiden und Steinbrüche nahe der Stadt generieren +1 [ICON_GOLD] Gold. Erhaltet +10 [ICON_GOLD] Gold in der Stadt, wenn sich deren Grenzen erweitern, skaliert mit den Zeitaltern.</Text>
+			<Text>Reduziert [ICON_HAPPINESS_3] Armut. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. Bauernhöfe, Weiden und Steinbrüche nahe der Stadt generieren +1 [ICON_GOLD] Gold. Erhaltet +10 [ICON_GOLD] Gold in der Stadt, wenn sich deren Grenzen erweitern, steigt mit jedem Zeitalter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
 			<Text>Reduziert [ICON_HAPPINESS_3] Unwissenheit. Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 10%. +20% [ICON_CULTURE] Kulturproduktion in der Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.</Text>

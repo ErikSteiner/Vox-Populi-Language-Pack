@@ -205,7 +205,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH' AND EXISTS (SELECT * FROM COMMUNITY 
 
 -- Jesuit Education 
 UPDATE Language_de_DE
-SET Text = 'Bau von Universitäten, Öffentlichen Schulen und Forschungslaboren mit [ICON_PEACE] Glauben möglich. Diese Gebäude produzieren jeweils +2 [ICON_RESEARCH] Wissenschaft. Heilige Stätten erhält 20 [ICON_PEACE] Glauben jedes Mal, wenn der Besitzer eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufwendet. Skaliert mit den Zeitaltern.'
+SET Text = 'Bau von Universitäten, Öffentlichen Schulen und Forschungslaboren mit [ICON_PEACE] Glauben möglich. Diese Gebäude produzieren jeweils +2 [ICON_RESEARCH] Wissenschaft. Heilige Stätten erhält 20 [ICON_PEACE] Glauben jedes Mal, wenn der Besitzer eine [ICON_GREAT_PEOPLE] Große Persönlichkeit aufwendet, steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 -- Religious Fervor (Now The One True Faith)
@@ -271,7 +271,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT' AND EXISTS (SELECT * FROM COM
 
 -- Reliquary (Now Tithes)
 UPDATE Language_de_DE
-SET Text = '+2 [ICON_CULTURE] Kultur und [ICON_PEACE] Glaube an alle im Besitz befindlichen Städte nach dieser [ICON_RELIGION] Religion. Interne [ICON_INTERNATIONAL_TRADE] Handelswege produzieren +2 [ICON_FOOD] Nahrung und [ICON_PRODUKTION] Produktion, skaliert mit den Zeitaltern.'
+SET Text = '+2 [ICON_CULTURE] Kultur und [ICON_PEACE] Glaube an alle im Besitz befindlichen Städte nach dieser [ICON_RELIGION] Religion. Interne [ICON_INTERNATIONAL_TRADE] Handelswege produzieren +2 [ICON_FOOD] Nahrung und [ICON_PRODUKTION] Produktion, steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -334,7 +334,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT' AND EXISTS (SELECT * FROM COMMUNIT
 
 -- Religious Unity
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben ,[ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Heiliger Stadt für je 2 Anhänger anderer Religionen in eigenen Städten. +5 [ICON_CULTURE] Kultur, wenn ein[ICON_CITIZEN] Bürger in einer eigenen Stadt geboren wird, die dieser Religion folgt. Skaliert mit Zeitalter.'
+SET Text = '+1 [ICON_PEACE] Glauben ,[ICON_RESEARCH] Wissenschaft und [ICON_PRODUKTION] Produktion in Heiliger Stadt für je 2 Anhänger anderer Religionen in eigenen Städten. +5 [ICON_CULTURE] Kultur, wenn ein[ICON_CITIZEN] Bürger in einer eigenen Stadt geboren wird, die dieser Religion folgt - steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -512,7 +512,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT' AND EXISTS (SELECT * FROM COMMUNITY WHE
 
 -- Initiation Rites (Now Way of Transcendence)
 UPDATE Language_de_DE
-SET Text = 'Schaltet das Nationale Wunder "Heiliger Garten" frei ([COLOR_MAGENTA]+3 [ICON_PEACE] Glauben, +5 [ICON_CULTURE] Kultur und +5 [ICON_TOURISM] Nahrung von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn Ihr in ein neues Zeitalter eintretet, erhält die Heilige Stadt 20 von jedem Ertrag für jede Stadt, die Eurer Religion folgt (max. 20 Städte). Skaliert mit jedem Zeitalter.'
+SET Text = 'Schaltet das Nationale Wunder "Heiliger Garten" frei ([COLOR_MAGENTA]+3 [ICON_PEACE] Glauben, +5 [ICON_CULTURE] Kultur und +5 [ICON_TOURISM] Nahrung von Heiligen Stätten; schaltet Reformations-Glaubenssatz frei[ENDCOLOR]). Wenn Ihr in ein neues Zeitalter eintretet, erhält die Heilige Stadt 20 von jedem Ertrag für jede Stadt, die Eurer Religion folgt (max. 20 Städte) - steigt mit jedem Zeitalter.'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE

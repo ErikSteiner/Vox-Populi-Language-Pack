@@ -186,7 +186,7 @@ WHERE Tag = 'TXT_KEY_POLICY_MEDIA_CULTURE_HELP' AND EXISTS (SELECT * FROM COMMUN
 
 -- Treaty Organization
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Vertragliche Organisationen[ENDCOLOR]: +4 [ICON_INFLUENCE] Einfluss pro Runde (Standardgeschwindigkeit) auf Stadtstaaten, mit denen Ihr einen Handelsweg haben. +4 Abgeordnete (Skalierung mit Kartengröße) für den Weltkongress.'
+SET Text = '[COLOR_POSITIVE_TEXT]Vertragliche Organisationen[ENDCOLOR]: +4 [ICON_INFLUENCE] Einfluss pro Runde (Standardgeschwindigkeit) auf Stadtstaaten, mit denen Ihr einen Handelsweg haben. +4 Abgeordnete (Skaliert mit Kartengröße) für den Weltkongress.'
 WHERE Tag = 'TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Finest Hour
