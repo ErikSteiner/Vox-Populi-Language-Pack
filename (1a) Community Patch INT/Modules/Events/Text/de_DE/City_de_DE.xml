@@ -399,7 +399,7 @@
 			<Text>{3_CityYield} in der Stadt für {5_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3">
-			<Text>Jemand hat Geld aus der Schatzkammer gestohlen?</Text>
+			<Text>Jemand hat Gold aus der Schatzkammer gestohlen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_3_HELP">
 			<Text>{3_CityYield} in der Stadt für {5_Turns}.</Text>
