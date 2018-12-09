@@ -7261,7 +7261,7 @@
 			<Text>[NEWLINE]   [ICON_BULLET] [ICON_CULTURE] Boredom: {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_DEFENSE">
-			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD] Distress: {1_Num}</Text>
+			<Text>[NEWLINE]   [ICON_BULLET] [ICON_PRODUCTION]/[ICON_FOOD] Not: {1_Num}</Text>
 		</Row>
 	</language_de_DE>
 </GameData>

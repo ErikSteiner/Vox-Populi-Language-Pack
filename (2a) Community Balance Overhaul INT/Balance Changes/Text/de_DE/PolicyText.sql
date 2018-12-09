@@ -27,11 +27,11 @@ WHERE Tag = 'TXT_KEY_POLICY_ELITE_FORCES_HELP' AND EXISTS (SELECT * FROM COMMUNI
 -- Fortified Borders
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]New World Order[ENDCOLOR]: Reduces [ICON_HAPPINESS_3] Distress in all Cities by 15%. Police Stations and Constabularies provide +3 [ICON_CULTURE] Culture and +5 [ICON_PRODUCTION] Production, and are constructed 100% more quickly.'
+SET Text = '[COLOR_POSITIVE_TEXT]Neue Weltordnung[ENDCOLOR]: Reduziert die [ICON_HAPPINESS_3] Not in allen Städten um 15%. Polizeiwachen und Gendarmerie produzieren +3 [ICON_CULTURE] Kultur und +5 [ICON_PRODUCTION] Produktion und werden 100% schneller errichtet.'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'New World Order'
+SET Text = 'Neue Weltordnung'
 WHERE Tag = 'TXT_KEY_POLICY_FORTIFIED_BORDERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Futurism
@@ -765,15 +765,15 @@ WHERE Tag = 'TXT_KEY_CIV5_POLICY_REPUBLIC_TEXT' AND EXISTS (SELECT * FROM COMMUN
 
 -- Representation 
 UPDATE language_de_DE
-SET Text = 'Equality'
+SET Text = 'Gleichstellung'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = '[COLOR_POSITIVE_TEXT]Equality[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for every 12 [ICON_CITIZEN] Citizens in your Empire. [ICON_HAPPINESS_3] Unhappiness from Poverty, Illiteracy, Boredom, and Distress reduced by 5% in all Cities.'
+SET Text = '[COLOR_POSITIVE_TEXT]Gleichstellung[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Zufriedenheit für je 12 [ICON_CITIZEN] Bürger in Eurem Reich. [ICON_HAPPINESS_3] Unzufriedenheit von Armut, Unwissenheit, Langeweile und Not in allen Städten um 5% reduziert.'
 WHERE Tag = 'TXT_KEY_POLICY_REPRESENTATION_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 UPDATE language_de_DE
-SET Text = 'Social equality is a state of affairs in which all people within a specific society or isolated group have the same status in certain respects, often including civil rights, freedom of speech, property rights, and equal access to social goods and services. However, it also includes concepts of health equity, economic equality and other social securities. It also includes equal opportunities and obligations, and so involves the whole of society. Social equality requires the absence of legally enforced social class or caste boundaries and the absence of discrimination motivated by an inalienable part of a person''s identity.'
+SET Text = 'Soziale Gleichstellung ist ein Zustand, in dem alle Menschen innerhalb einer bestimmten Gesellschaft oder isolierten Gruppe in gewisser Hinsicht den gleichen Status haben, oft einschließlich Bürgerrechte, Meinungsfreiheit, Eigentumsrechte und gleichberechtigten Zugang zu sozialen Gütern und Dienstleistungen. Sie umfasst aber auch Konzepte der Gesundheitsgerechtigkeit, der wirtschaftlichen Gleichstellung und anderer sozialer Sicherheiten. Dazu gehört auch die Chancengleichheit und die Verpflichtung zur Chancengleichheit, und damit die gesamte Gesellschaft. Die soziale Gleichstellung erfordert das Fehlen gesetzlich durchgesetzter sozialer Klassen- oder Kastengrenzen und das Fehlen von Diskriminierung, die durch einen unveräußerlichen Teil der Identität einer Person begründet ist.'
 WHERE Tag = 'TXT_KEY_CIV5_POLICY_REPRESENTATION_TEXT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_POLICIES' AND Value= 1 );
 
 -- Meritocracy

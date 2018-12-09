@@ -992,11 +992,11 @@ SET Text = 'Founded cities start with additional territory, and land units recei
 -- Siam
 --------------------
 UPDATE Language_de_DE
-SET Text = 'Reduces enemy spy stealing rate by 50%, and prevents the disruption of Building construction by Spy Advanced Actions. +2 [ICON_RESEARCH] Science from Temples and Shrines in this City, and +1 [ICON_CULTURE] Culture from Jungle and Forest tiles worked by this City. Reduces [ICON_HAPPINESS_3] Distress.'
+SET Text = 'Reduziert die Diebstahlrate feindlicher Spionage um 50% und verhindert die Unterbrechung der Gebäudekonstruktion durch Erweiterte Spionageaktionen. +2 [ICON_RESEARCH] Wissenschaft von Tempeln und Schreinen in dieser Stadt sowie +1 [ICON_CULTURE] Kultur von Dschungel- und Wald-Geländefeldern, die von dieser Stadt bewirtschaftet werden. Reduziert die [ICON_HAPPINESS_3] Not.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'The Wat is the Siamese unique building, replacing the Constabulary. It is available much earlier than the building it replaces. The Wat increases the [ICON_CULTURE] Culture and [ICON_RESEARCH] Wissenschaft of a City, increases the [ICON_RESEARCH] Wissenschaft output of Temples and Shrines, and reduces spy stealing rates much more than the Constabulary. It also receives an additional Scientist Specialist, thus allowing it to produce Great Scientists more rapidly than other Civilizations.'
+SET Text = 'Der Wat ist das einzigartige Gebäude der Siamesen und ersetzt die Gendarmerie. Es ist viel früher verfügbar als das Gebäude, das es ersetzt. Er steigert die [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft einer Stadt, erhöht die [ICON_RESEARCH] Wissenschaftsproduktion von Tempeln und Schreinen und reduziert die Rate des Spionagediebstahls viel stärker als die der Gendarmerie. Er erhält auch einen zusätzlichen Wissenschaftler-Spezialisten, was dazu führt, dass große Wissenschaftler schneller als bei andere Zivilisationen produziert werden.'
 WHERE Tag = 'TXT_KEY_BUILDING_WAT_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_LEADERS' AND Value= 1 );
 
 UPDATE Language_de_DE 
