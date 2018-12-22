@@ -173,7 +173,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY_HELP">
-			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
+			<Text>+5 [ICON_TOURISM] Tourismus from all Holy Sites.[NEWLINE][NEWLINE]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10 %.[NEWLINE][NEWLINE]Contains 4 slots for Great Works of Art or Artifacts. +10 [ICON_PEACE] Faith if Themed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RELIQUARY">
 			<Text>Reliquienschrein</Text>
