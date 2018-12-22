@@ -1,6 +1,6 @@
 INSERT INTO language_de_DE (
   Tag, Text)
-SELECT 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP', '+1 [ICON_RES_PAPER] Papier. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz.';
+SELECT 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP', '+1 [ICON_RES_PAPER] Papier. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz.';
 
 INSERT INTO language_de_DE (
   Tag, Text)
@@ -8,7 +8,7 @@ SELECT 'TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY', 'Dieses Nationale Wunder ist ei
 
 INSERT INTO language_de_DE (
   Tag, Text)
-SELECT 'TXT_KEY_BUILDING_CHANCERY_HELP', '+10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Gewährt die Beförderung [COLOR_POSITIVE_TEXT]Königliches Siegel[ENDCOLOR] Diplomatischen Einheiten, in der Stadt in der sie gebaut werden. [NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PRODUCTION] Produktion für jeden verbündeten Stadtstaat.';
+SELECT 'TXT_KEY_BUILDING_CHANCERY_HELP', '+10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt. Gewährt die Beförderung [COLOR_POSITIVE_TEXT]Königliches Siegel[ENDCOLOR] Diplomatischen Einheiten, in der Stadt in der sie gebaut werden. [NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PRODUCTION] Produktion für jeden verbündeten Stadtstaat.';
 
 INSERT INTO language_de_DE (
   Tag, Text)
@@ -20,4 +20,4 @@ SELECT 'TXT_KEY_BUILDING_WIRE_SERVICE_STRATEGY', 'Erhöht die Produktionsgeschwi
 
 INSERT INTO language_de_DE (
   Tag, Text)
-SELECT 'TXT_KEY_BUILDING_WIRE_SERVICE_HELP', '+20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Gewährt die Beförderung [COLOR_POSITIVE_TEXT]Nachrichtenagentur[ENDCOLOR] Diplomatischen Einheiten, in der Stadt in der sie gebaut werden. [NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_RESEARCH] Wissenschaft für jeden verbündeten Stadtstaat.';
+SELECT 'TXT_KEY_BUILDING_WIRE_SERVICE_HELP', '+20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt. Gewährt die Beförderung [COLOR_POSITIVE_TEXT]Nachrichtenagentur[ENDCOLOR] Diplomatischen Einheiten, in der Stadt in der sie gebaut werden. [NEWLINE][NEWLINE]+2 [ICON_CULTURE] Kultur in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_RESEARCH] Wissenschaft für jeden verbündeten Stadtstaat.';

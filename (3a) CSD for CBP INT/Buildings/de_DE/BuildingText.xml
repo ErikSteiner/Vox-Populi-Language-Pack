@@ -62,10 +62,10 @@
 		</Row>-->
 		<!--Diplo National Wonder Help-->
 		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
-			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten in dieser Stadt. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
-			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Presseagentur in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt Presseagentur in allen Stadt. Benötigt eine Kanzlei in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
@@ -73,10 +73,10 @@
 		</Row>-->
 		<!--Diplo World Wonder Help-->
 		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
-			<Text>Receive 1 free Great Diplomat when completed. +1 [ICON_RES_PAPER] Paper. +20% [ICON_PRODUCTION] Production of Diplomatic Units. All Diplomatic Units receive the [COLOR_POSITIVE_TEXT]Imperial Seal[ENDCOLOR] Promotion.</Text>
+			<Text>Erhaltet 1 freien Großen Diplomaten, wenn vollendet. +1 [ICON_RES_PAPIER] Papier. +20% [ICON_PRODUCTION] Produktion von diplomatischen Einheiten in dieser Stadt. Alle diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kaiserliches Siegel[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
-			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Alle Kanzleien produzieren +3 [ICON_GOLD] Gold und +1 [ICON_CULTURE] Kultur.</Text>
+			<Text>+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Adelsstand[ENDCOLOR]. Alle Kanzleien produzieren +3 [ICON_GOLD] Gold und +1 [ICON_CULTURE] Kultur.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
 			<Text>Benötigt Ordnung. +15% [ICON_CULTURE] Kultur und [ICON_RESEARCH] Wissenschaft in der Stadt, in der es gebaut wird. Erhaltet eine Stimme für jedes [COLOR_POSITIVE_TEXT]Forschungsabkommen[ENDCOLOR] das Ihr momentan mit anderen Spielern abgeschlossen habt. [NEWLINE][NEWLINE]Benötigt eine Öffentliche Schule in allen Städten. Kosten steigen mit der Anzahl an Städten in Eurem Reich.</Text>

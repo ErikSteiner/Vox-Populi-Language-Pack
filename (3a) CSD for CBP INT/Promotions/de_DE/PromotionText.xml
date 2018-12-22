@@ -22,9 +22,6 @@
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT">
 			<Text>Meister Diplomat</Text>
 		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_GREAT_MERCHANT">
-			<Text>Marktbeherrschung</Text>
-		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE">
 			<Text>Nobelpreisträger</Text>
 		</Row>
@@ -64,9 +61,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
 			<Text>Erhaltet 70 [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission durchführt und rediziert den [ICON_INFLUENCE] Einfluss von anderen Zivilisationen mit diesen Stadtstaat um den selben Betrag. Erhaltet zusätzlich [ICON_INFLUENCE] Einfluss für jedes vollendete Zeitalter. Hat die Fähigkeit gegnerisches Gelände zu betreten ohne die Vereinbarung Offene Grenzen zu besitzen.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_GREAT_MERCHANT_HELP">
-			<Text>Erhaltet jede Menge [ICON_GOLD] Gold, aber keinen [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission mit dieser Einheit durchführt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBEL_LAUREATE_HELP">
 			<Text>Gewährt Diplomatischen Einheiten +10 [ICON_INFLUENCE] Einfluss, wenn Ihr eine Diplomatische Mission durchführt. Bonus ist exklusiv für die schwedische Zivilisation (wenn CSDs Custom Trait for Sweden verwendet)</Text>
