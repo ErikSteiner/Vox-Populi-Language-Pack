@@ -641,10 +641,10 @@
 			<Text>Eine freie militärische Einheit erscheint in der Nähe Eurer Stadt Stadt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4">
-			<Text>Ladet sie ein, sich in die Stadt zu integrieren, sodass wir von ihrer Kultur lernen können.</Text>
+			<Text>Ladet sie ein, sich in die Stadt zu integrieren.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_4_HELP">
-			<Text>Stadt erhält 1 [ICON_CITIZEN] Bevölkerung. +{4_GPChange} in der Stadt.</Text>
+			<Text>Stadt erhält 1 [ICON_CITIZEN] Bevölkerung.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_2_SUCCESSFUL">

@@ -583,3 +583,15 @@ WHERE Tag = 'TXT_KEY_LEADER_POCATELLO_TRIBUTE_YES_NEUTRAL';
 UPDATE language_de_DE
 SET Text = '[COLOR_WARNING_TEXT]{1_Number} Abfangjäger![ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_EUPANEL_VISIBLE_AA_UNITS';
+
+UPDATE language_de_DE
+SET Text = 'Sobald Sie die Ritterlichkeit-Technologie erworben haben, können Sie einen Verteidigungsbündnis abschließen. Verteidigungsbündnisse sind immer gegenseitig. Wird ein Unterzeichner eines Verteidigungsbündnis angegriffen, befindet sich der andere Partner automatisch im Krieg mit dem Angreifer.[NEWLINE][NEWLINE]Ein Verteidigungsbündnis dauert 30 Runden (bei Normalgeschwindigkeit). Nach Ablauf dieser Zeit verfällt der Pakt, wenn er nicht neu verhandelt wird.'
+WHERE Tag = 'TXT_KEY_DIPLOMACY_DEFENSIVEPACT_HEADING3_BODY';
+
+UPDATE language_de_DE
+SET Text = 'Gib mir, was ich will, und ich kann dich verschonen.... für den Moment.'
+WHERE Tag = 'TXT_KEY_LEADER_GAJAH_MADA_DEMANDTRIBUTE_NEUTRAL';
+
+UPDATE language_de_DE
+SET Text = 'Kluger Zug.'
+WHERE Tag = 'TXT_KEY_LEADER_GAJAH_MADA_TRADE_YES_ANGRY';

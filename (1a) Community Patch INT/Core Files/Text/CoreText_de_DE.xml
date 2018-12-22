@@ -6535,7 +6535,7 @@
 			<Text>[ICON_VICTORY_DOMINATION] Eine Schlacht gewinnen:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_PILLAGE">
-			<Text>[ICON_RAzING] Geländefeld plündern:[NEWLINE]{1_YieldString}</Text>
+			<Text>[ICON_RAZING] Geländefeld plündern:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_UNIT_PRODUCTION">
 			<Text>[ICON_PRODUCTION] Eine Militäreinheit produzieren:[NEWLINE]{1_YieldString}</Text>
@@ -6593,6 +6593,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_REMOVE_HERESY">
 			<Text>Entfernt [ICON_INQUISITOR] Religiöse Ketzerei:[NEWLINE]{1_YieldString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INSTANT_YIELD_FAITH_PURCHASE">
+			<Text>Kauf durch [ICON_RELIGION] Glauben in der Stadt:[NEWLINE]{1_YieldString}</Text>
 		</Row>
 
 		<!-- Quest Data -->
@@ -7218,6 +7221,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_TOURISM">
 			<Text>Tourismus [ICON_TOURISM] pro Runde</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_REPLAY_VIEWER_GRAPHBY_GAP">
+			<Text>Goldenes Zeitalter Punkte [ICON_GOLDEN_AGE] pro Runde</Text>
 		</Row>
 
 		<!-- Hopefully removed if option is not needed or better solution in place -->
