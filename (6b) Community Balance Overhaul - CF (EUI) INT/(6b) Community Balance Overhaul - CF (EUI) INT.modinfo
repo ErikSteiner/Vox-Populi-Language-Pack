@@ -37,11 +37,11 @@
     <File md5="D0CC11F9DD699BEE18F31465C99B77B6" import="0">C4DFCompatibility/C4DFCompatibility.sql</File>
     <File md5="12D1D43F5F3F744AFFA1D5B2E67BEA78" import="0">Corporations/Text/CorpText_de_DE.xml</File>
     <File md5="031DBA7320417B06AFEED6D8D09ADEF8" import="0">Corporations/Text/CorpText_de_DE.sql</File>
-    <File md5="432920F8417F5A1353B38E9EC766D65A" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
+    <File md5="1EA7AA5CCE69B055BACFBC661BED9F75" import="0">CSD/CompatibilityText/Compatibility_de_DE.sql</File>
     <File md5="AC1AD9AAC29FF2BEF3BD29BAC7880023" import="0">CSD/CompatibilityText/Compatibility_de_DE.xml</File>
-    <File md5="3759C798480B3965537C8FFE815FD25D" import="0">EUI/EUI_text_de_DE.xml</File>
+    <File md5="B0345176A01EC2CD25F8B38FCF4F6B0F" import="0">EUI/EUI_text_de_DE.xml</File>
     <File md5="F9CED05C4F7DC240AEFD043F7FF3A7BD" import="0">EUI/de_DE/NeededText.xml</File>
-    <File md5="BC92C9700FA5C0204AA0B813A37BF591" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
+    <File md5="7529A64DDB1A494EC35DCE8C24BCBA0E" import="0">MoreLuxuries/Text/Text_de_DE.sql</File>
   </Files>
   <Actions>
     <OnModActivated>
