@@ -29,21 +29,21 @@
   <Blocks />
   <Files>
     <File md5="9D8BDFCDC8EB4C3486B8CF9FC2004660" import="0">Buildings/de_DE/BuildingRules.sql</File>
-    <File md5="FDB40A09D8FCBCB5FA7247A929B0E779" import="0">Buildings/de_DE/BuildingText.xml</File>
-    <File md5="0E1808916EE55D5C9E82E3FB5EB7143D" import="0">Buildings/de_DE/DiploBuildingText.sql</File>
+    <File md5="789C2E141B4172741A6042E7FADED0C0" import="0">Buildings/de_DE/BuildingText.xml</File>
+    <File md5="7F3A24B34711CE0C6E183D0EF3F69CDA" import="0">Buildings/de_DE/DiploBuildingText.sql</File>
     <File md5="AED054314BCC0255DBD7F53320441112" import="0">Buildings/de_DE/VanillaBuildingChanges.sql</File>
     <File md5="E8F2C8E2830F8B5265710953E3C7A68B" import="0">Gameplay/de_DE/GameplayText.sql</File>
     <File md5="9F07568960E8E4FCBD1CC5B45CCEADFE" import="0">Improvements/de_DE/Build.xml</File>
     <File md5="D31BFDDDA6C0409AA21A5FF8B88FE67A" import="0">Improvements/de_DE/ImprovementText.xml</File>
-    <File md5="4E679C71CC0E5F84577F78D7697158E0" import="0">Promotions/de_DE/PromotionText.xml</File>
+    <File md5="48379E4FAA55F6778FDFF7F17862ACC6" import="0">Promotions/de_DE/PromotionText.xml</File>
     <File md5="32D1AC34FB7E64C8FEDA7107E0334796" import="0">Quests/de_DE/CityStateQuest.xml</File>
     <File md5="46176788CF23E82E91C0E18D16A6651C" import="0">Resource/de_DE/Paper.xml</File>
     <File md5="755DB618C9543072FD0F2A3CE48FFFE0" import="0">Specialist/de_DE/CivilServant.xml</File>
     <File md5="3AFC3F74EF01F6CBB8E1128FE245FC97" import="0">Units/de_DE/GreatDiplomats.xml</File>
-    <File md5="DDC59F1D943F918842C59C6616F65F79" import="0">Units/de_DE/UnitText.xml</File>
+    <File md5="E0829EBE516E3B95CDD8B48EA2490A8B" import="0">Units/de_DE/UnitText.xml</File>
     <File md5="38EAB4B34008A1796B6114A2AF2AD05B" import="0">World Congress/de_DE/Congress.xml</File>
-    <File md5="6CDC0123734E3D0D596FE1C591853720" import="0">World Congress/de_DE/IdeologyChanges.sql</File>
-    <File md5="872083D1E2451D4BE59A9B6F932CA3E6" import="0">World Congress/de_DE/Projects.xml</File>
+    <File md5="ADBEC7C973DBE2098AFF6F6C0365BA58" import="0">World Congress/de_DE/IdeologyChanges.sql</File>
+    <File md5="026C453C428297857D8F335B5A37376A" import="0">World Congress/de_DE/Projects.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
