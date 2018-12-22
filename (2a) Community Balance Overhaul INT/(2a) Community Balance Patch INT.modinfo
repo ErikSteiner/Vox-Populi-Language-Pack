@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="10">
+<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" version="12">
   <Properties>
     <Name>(2a) Community Balance Overhaul Localized</Name>
     <Stability>Beta</Stability>
-    <Teaser>(11-21) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
+    <Teaser>(12-18) [COLOR_GREEN]Translation of the Community Balance Overhaul[ENDCOLOR]</Teaser>
     <Description>Translation of the Community Balance Overhaul into several non-English languages. Currently to German only.</Description>
     <Authors>The Community</Authors>
     <HideSetupGame>0</HideSetupGame>

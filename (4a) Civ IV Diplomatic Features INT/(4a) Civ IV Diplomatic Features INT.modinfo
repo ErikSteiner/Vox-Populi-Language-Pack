@@ -20,7 +20,7 @@
   </Properties>
   <Dependencies>
     <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="13" maxversion="999" title="Community Balance Patch" />
-	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="11" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
+	<Mod id="64830ab8-3276-4f3c-916c-1e23f17993d6" minversion="12" maxversion="999" title="(2a) Community Balance Overhaul Localized" />
     <Mod id="c7bf7064-d1b1-4708-9e93-7a1560868582" minversion="11" maxversion="999" title="(4) C4DF - CBP" />
   </Dependencies>
   <References />
