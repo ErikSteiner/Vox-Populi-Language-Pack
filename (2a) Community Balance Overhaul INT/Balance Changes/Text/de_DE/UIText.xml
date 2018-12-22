@@ -262,7 +262,7 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_SUPPLY_REMAINING_TOOLTIP">
-			<Text>Number of Military Units: {2_Num}[NEWLINE]Current Military Supply: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]War Weariness Supply Cap Reduction: {6_Num}%.[ENDCOLOR][NEWLINE][NEWLINE]Military Supply Base Values:[NEWLINE]  [ICON_BULLET]+{4_Num} from owned [ICON_CITY_STATE] Cities[NEWLINE]  [ICON_BULLET]+{3_Num} from total [ICON_CITIZEN] Population[NEWLINE]  [ICON_BULLET]+{5_Num} from [ICON_CHECKBOX] Handicap[NEWLINE]  [NEWLINE][NEWLINE]Military Supply Reductions:[NEWLINE]   [ICON_BULLET] -{8_Num} from [ICON_RESEARCH] Tech Level[NEWLINE]  [ICON_BULLET] -{7_Num} from [ICON_HAPPINESS_3] War Weariness[NEWLINE][NEWLINE]Military Unit [ICON_PRODUCTION]/[ICON_GOLD] Costs increased by {6_Num}% due to [ICON_HAPPINESS_3] War Weariness.[NEWLINE]</Text>
+			<Text>Number of Military Units: {2_Num}[NEWLINE]Current Military Supply: {1_Num}[NEWLINE][COLOR_NEGATIVE_TEXT]War Weariness Supply Cap Reduction: {6_Num}[ENDCOLOR][NEWLINE][NEWLINE]Military Supply Base Values:[NEWLINE]  [ICON_BULLET]+{4_Num} from owned [ICON_CITY_STATE] Cities[NEWLINE]  [ICON_BULLET]+{3_Num} from total [ICON_CITIZEN] Population[NEWLINE]  [ICON_BULLET]+{5_Num} from [ICON_CHECKBOX] Handicap[NEWLINE]  [NEWLINE][NEWLINE]Military Supply Reductions:[NEWLINE]   [ICON_BULLET] -{8_Num} from [ICON_RESEARCH] Tech Level[NEWLINE]  [ICON_BULLET] -{7_Num} from [ICON_HAPPINESS_3] War Weariness[NEWLINE][NEWLINE]Military Unit [ICON_PRODUCTION]/[ICON_GOLD] Costs increased by {6_Num}% due to [ICON_HAPPINESS_3] War Weariness.[NEWLINE]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
@@ -436,6 +436,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_GAP2_STRING">
 			<Text>{1_Num}[ENDCOLOR] [ICON_GREAT_ADMIRAL] Großer Admiral Punkte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CULTURE_LOCAL_STRING">
+			<Text>{1_Num}[ENDCOLOR] [ICON_CULTURE_LOCAL] Grenzwachstums-Punkte</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UPANEL_REPAIR_CHARGES">
@@ -790,7 +793,7 @@
 			<Text>Holzfällerlager</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT_JUNGLE">
-			<Text>A Logging Camp allows you to improve the production output of Jungle hexes.</Text>
+			<Text>Ein Holzfällerlager ermöglicht die Gold-Ausbeute von Dschungel-Geländefeldern zu verbessern. Erhaltet zusätzliches Gold für jeweils zwei benachbarte Holzfällerlager. Versucht  diese daher nach Möglichkeit in Dreiergruppen zu bauen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_JUNGLE">
 			<Text>Construct a [LINK=IMPROVEMENT_LUMBERMILL]Logging Camp[\LINK]</Text>
@@ -904,10 +907,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PUPPET_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_PUPPET] Marionetten Bedürfnisse: {1_Num}%[NEWLINE]</Text>
+			<Text>[ICON_BULLET] [ICON_PUPPET] Ist Marionette: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CAPITAL_UNHAPPINESS_MOD">
-			<Text>[ICON_BULLET] [ICON_CAPITAL] Hauptstadt Bedürfnisse: +{1_Num}%[NEWLINE]</Text>
+			<Text>[ICON_BULLET] [ICON_CAPITAL] Ist Hauptstadt: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DEVIATION_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Technologie: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_POP_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CITIZEN] Stadtgröße: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EMPIRE_UNHAPPINESS_MOD">
+			<Text>[ICON_BULLET] [ICON_CITY_STATE] Reichsgröße: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYCOUNT_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] durch die Anzahl an Städten.</Text>
@@ -1076,36 +1088,46 @@
 			<Text>Lokale [ICON_HAPPINESS_1] Zufriedenheit: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS">
-			<Text>[COLOR_POSITIVE_TEXT]Global Average (Need) Modifiers:[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Gesamt Bedarf Modifikatoren:[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS_BREAKDOWN">
+			<Text>[COLOR_POSITIVE_TEXT]Faktoren, die den Bedarf erhöhen:[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_REDUCTION_AVERAGE_MODS_BREAKDOWN">
+			<Text>[COLOR_POSITIVE_TEXT]Faktoren, die den Bedarf verringern:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_GOLD">
-			<Text>[ICON_BULLET] [ICON_GOLD] Gold Need: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_GOLD] Gold Bedarf: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_SCIENCE">
-			<Text>[ICON_BULLET] [ICON_RESEARCH] Science Need: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Wissenschaft Bedarf: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE">
 			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE">
-			<Text>[ICON_BULLET] [ICON_CULTURE] Culture Need: {1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CULTURE] Kultur Bedarf: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_FAITH">
+			<Text>[ICON_BULLET] [ICON_PEACE] Religion Modifikator: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_GOLD_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_GOLD] Gold Need: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_GOLD] Gold Bedarf: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_SCIENCE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_RESEARCH] Science Need: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_RESEARCH] Wissenschaft Bedarf: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_DEFENSE_POSITIVE">
 			<Text>[ICON_BULLET] [ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse: +{1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GLOBAL_AVERAGE_MOD_CULTURE_POSITIVE">
-			<Text>[ICON_BULLET] [ICON_CULTURE] Culture Need: +{1_Num}%</Text>
+			<Text>[ICON_BULLET] [ICON_CULTURE] Kultur Bedarf: +{1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_AVERAGE_MODS_EXPLANATION">
-			<Text>[NEWLINE](These modifiers are based on a number of factors, such as the size of the City, Technologies researched, Policies chosen, Buildings constructed and/or Civilization traits. Special traits, such as being the [ICON_CAPITAL] Capital or a [ICON_PUPPET] Puppet, are highlighted. Positive modifiers raise the global average for this city, whereas negative modifiers reduce it.)</Text>
+			<Text>[NEWLINE](Diese Modifikatoren basieren auf einer Reihe von Faktoren, wie z.B. Bevölkerung, Technologielevel, Politiken, Gebäude und/oder Zivilisationsmerkmale. Spezielle Modifikatoren, wie z.B. die [ICON_CAPITAL] Hauptstadt oder eine [ICON_PUPPET] Marionette, werden hervorgehoben. Positive Modifikatoren erhöhen den globalen Durchschnitt; negative Modifikatoren reduzieren ihn.)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_VP_CULTURAL_NEED_IDEOLOGY">
@@ -1234,6 +1256,10 @@
 
 		<Row Tag="TXT_KEY_BUILD_COST_REDUCTION">
 			<Text>{1_Build} needs {2_Turns} Turn(s) to complete.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
+			<Text>Beschluss, der vor der Sitzung vorgeschlagen wurde, kann bis zur nächsten Sitzung nicht erneut vorgeschlagen werden.</Text>
 		</Row>
 	</Language_de_DE>
 </GameData>

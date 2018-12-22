@@ -92,10 +92,10 @@
 			<Text>Kunst</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Kunst[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_CULTURE] Kultur um.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Kunst[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_CULTURE] Kultur um und reduziert das Bedürfnis nach [ICON_CULTURE] Kultur um 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
-			<Text>Das Investieren von Produktion in Kunst ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren.</Text>
+			<Text>Das Investieren von Produktion in Kunst ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren. Reduziert außerdem Langeweile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
 			<Text>Defense</Text>
@@ -111,10 +111,10 @@
 			<Text>Landwirtschaft</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Landwirtschaft[ENDCOLOR] wandelt 20% der städtischen [ICON_PRODUCTION] Produktion in [ICON_FOOD] Nahrung um.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Landwirtschaft[ENDCOLOR] wandelt 25% der städtischen [ICON_PRODUCTION] Produktion in [ICON_FOOD] Nahrung um und reduziert [ICON_FOOD]/[ICON_PRODUCTION] Grundbedürfnisse um 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
-			<Text>Das Investieren von Produktion in Landwirtschaft ist eine gute Möglichkeit das Stadtwachstum zu erhöhen. Dies kann nützlich sein wenn Ihr technologisch zurückfallt oder einfach eine größere Stadt benötigt.</Text>
+			<Text>Das Investieren von Produktion in Landwirtschaft ist eine gute Möglichkeit das Stadtwachstum zu erhöhen. Dies kann nützlich sein wenn Ihr technologisch zurückfallt oder einfach eine größere Stadt benötigt. Reduziert außerdem Not.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_POLICY_FIRST_ON_MOON">
@@ -149,7 +149,7 @@
 		</Row>
 		<!-- Sweden Grenadiers -->
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
-			<Text>Grenadiers</Text>
+			<Text>Flächenschäden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
 			<Text>Pilum</Text>

@@ -564,6 +564,11 @@ SET Text = 'Stein findet sich in der Erdkruste und im oberen Erdmantel und ist v
 WHERE Tag = 'TXT_KEY_CIV5_RESOURCE_STONE_TEXT';
 
 
+UPDATE Language_de_DE
+SET Text = 'Gewinnt zusätzliche Produktion für jeweils zwei benachbarte Sägewerke. Versucht also diese nach Möglichkeit in Dreiergruppen zu bauen.'
+WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT';
+
+
 -- Founding Cities
 
 UPDATE Language_de_DE

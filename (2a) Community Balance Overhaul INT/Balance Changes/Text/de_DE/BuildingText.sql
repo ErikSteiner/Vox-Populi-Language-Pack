@@ -1,5 +1,5 @@
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je 3 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Kunstwerk.[NEWLINE][NEWLINE]Wenn eines der folgenden [COLOR_POSITIVE_TEXT]Historischen Eregnisse[ENDCOLOR] abgeschlossen wurde, erhaltet Ihr einen Schub auf Euren [ICON_TOURISM] Tourismus mit allen bekannten Zivilizationen basierend auf Eurer aktuellen [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusproduktion:[NEWLINE][ICON_BULLET] Erhaltet eine [ICON_GREAT_PEOPLE] Große Persönlichkeit[NEWLINE][ICON_BULLET] Baut ein [ICON_GOLDEN_AGE] Weltwunder[NEWLINE][ICON_BULLET] Gewinnt einen [ICON_WAR] Krieg (Kriegspunkte: 25+)[NEWLINE][ICON_BULLET] Erreicht ein neues [ICON_RESEARCH] Zeitalter[NEWLINE][NEWLINE][ICON_CONNECTED] Wenn andere Städte durch Straßen mit der [ICON_CAPITAL] Hauptstadt [ICON_CONNECTED] verbunden werden, wird zusätzliches [ICON_GOLD] Gold produziert.'
+SET Text = '+1 [ICON_RESEARCH] Wissenschaft für je 3 [ICON_CITIZEN] Bürger in der Stadt. Beinhaltet 1 Platz für ein Großes Kunstwerk.[NEWLINE][NEWLINE]Wenn eines der folgenden [COLOR_POSITIVE_TEXT]Historischen Eregnisse[ENDCOLOR] abgeschlossen wurde, erhaltet Ihr einen Schub auf Euren [ICON_TOURISM] Tourismus mit allen bekannten Zivilisationen basierend auf Eurer aktuellen [ICON_CULTURE] Kultur- und [ICON_TOURISM] Tourismusproduktion:[NEWLINE][ICON_BULLET] Erhaltet eine [ICON_GREAT_PEOPLE] Große Persönlichkeit[NEWLINE][ICON_BULLET] Baut ein [ICON_GOLDEN_AGE] Weltwunder[NEWLINE][ICON_BULLET] Gewinnt einen [ICON_WAR] Krieg (Kriegspunkte: 25+)[NEWLINE][ICON_BULLET] Erreicht ein neues [ICON_RESEARCH] Zeitalter[NEWLINE][NEWLINE][ICON_CONNECTED] Wenn andere Städte durch Straßen mit der [ICON_CAPITAL] Hauptstadt [ICON_CONNECTED] verbunden werden, wird zusätzliches [ICON_GOLD] Gold produziert.'
 WHERE Tag = 'TXT_KEY_BUILDING_PALACE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -240,7 +240,7 @@ SELECT 'TXT_KEY_BUILDING_WALLS_HELP', 'Erhöht die Reichweite des [ICON_RANGE_ST
 WHERE EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15, Fernkampfschaden um 25% und die Trefferpunkte um 100 erhöht. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10% und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
+SET Text = 'Die Burg ist ein Gebäude des Mittelalters, das die Verteidigungsstärke einer Stadt um 15, Fernkampfschaden um 100% und die Trefferpunkte um 100 erhöht. Erhöht die von der Bevölkerung dieser Stadt versorgten Militäreinheiten um 10% und erhöht die Produktion aller umliegenden Steinbrüchen um 1. Die Stadt muss über Stadtmauern verfügen, bevor die Burg gebaut werden kann.'
 WHERE Tag = 'TXT_KEY_BUILDING_CASTLE_STRATEGY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_en_US
@@ -325,7 +325,7 @@ SET Text = 'Arena'
 WHERE Tag = 'TXT_KEY_BUILDING_COLOSSEUM' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_HAPPINESS_1] Zufriedenheit. Reduziert [ICON_HAPPINESS_3] Langeweile. Nahe Dschungel- und Waldgeländefelder gewähren +1 [ICON_TOURISM] Tourismus. Erhaltet 200 [ICON_TOURISM] Tourismus (steigt mit jedem Zeitalter) mit allen bekannten Zivilisationen, wenn vollendet.'
+SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile. Nahe Dschungel- und Waldgeländefelder gewähren +1 [ICON_TOURISM] Tourismus. Erhaltet 200 [ICON_TOURISM] Tourismus (steigt mit jedem Zeitalter) mit allen bekannten Zivilisationen, wenn vollendet.'
 WHERE Tag = 'TXT_KEY_BUILDING_THEATRE_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -487,7 +487,7 @@ SET Text = '''Feiertag'' beginnt in der Stadt. Während eines ''Feiertag'' ist d
 WHERE Tag = 'TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '+10% [ICON_FOOD] Nahrung in allen Städten. +15% [ICON_PRODUCTION] Produktion beim Bau von Fernwaffen-Einheiten. Erhaltet einen freien Druiden in der Stadt.'
+SET Text = '+10% [ICON_FOOD] Nahrung in allen Städten. +25% [ICON_PRODUCTION] Produktion beim Bau von Fernwaffen-Einheiten in dieser Stadt. Erhaltet einen freien Druiden in der Stadt.'
 WHERE Tag = 'TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -587,7 +587,7 @@ SET Text = '1 freier Großer Künstler erscheint bei der Stadt, in der das Wunde
 WHERE Tag = 'TXT_KEY_WONDER_UFFIZI_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Lehnstreue Zweigs. Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde, für je 2 [ICON_CITIZEN] Bürger in der Stadt. +50 [ICON_CULTURE] Kultur und [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte, wenn eine eigene Einheit in der Schlacht vernichtet wird, steigt mit jedem Zeitalter. Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe in allen Städten.'
+SET Text = 'Im Reich beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. +1 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte pro Runde, für je 2 [ICON_CITIZEN] Bürger in der Stadt. +3 [ICON_RESEARCH] Wissenschaft, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben in der Stadt, für jede vorhandene [ICON_RELIGION] Religion. Reduziert [ICON_HAPPINESS_3] Religiöse Unruhe in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_PYRAMIDS_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -595,7 +595,7 @@ SET Text = '+10% [ICON_CULTURE] Kultur in allen Städten. Enthält 2 Plätze fü
 WHERE Tag = 'TXT_KEY_WONDER_SISTINE_CHAPEL_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Städtische [ICON_RANGE_STRENGTH] Fernkampfstärke erhöht sich um 50 % und Fernkampf Reichweite um 1. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung in allen Städten um 5 %.'
+SET Text = 'Erfordert die Vollendung des Lehnstreue Zweigs. Erhaltet einen freien Großer Ingenieur und ein freies Arsenal in der Stadt. Städtische [ICON_RANGE_STRENGTH] Fernkampfstärke erhöht sich um 50 % und Fernkampf Reichweite um 1. Steigert deutlich die [ICON_STRENGTH] Verteidigung und die Trefferpunkte der Stadt. Erhöht außerdem die Versorgungsgrenze für militärische Einheiten durch die Bevölkerung in allen Städten um 5 %.'
 WHERE Tag = 'TXT_KEY_WONDER_RED_FORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -619,7 +619,7 @@ SET Text = 'Reduziert [ICON_HAPPINESS_3] Langeweile in allen Städten.  [ICON_CU
 WHERE Tag = 'TXT_KEY_WONDER_EIFFEL_TOWER_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Erfordert die Vollendung des Staatskunst Zweigs. Gewährt 3 zusätzliche Abgeordnete für je 8 Stadtstaaten im Spiel. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
+SET Text = 'Erfordert die Vollendung des Staatskunst Zweigs. Gewährt 2 zusätzliche Abgeordnete für je 8 Stadtstaaten im Spiel und einen freien Großen Händler. Reduziert [ICON_HAPPINESS_3] Armut in allen Städten.'
 WHERE Tag = 'TXT_KEY_WONDER_BIG_BEN_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -635,7 +635,7 @@ SET Text = 'Erfordert die Vollendung des Fleiß Zweigs. 1 freier Großer Musiker
 WHERE Tag = 'TXT_KEY_WONDER_BROADWAY_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'Benötigt Autokratie. +1 [ICON_HAPPINESS_1] Zufriedenheit für je 2 angenommene Politiken. 1 freie Sozialpolitik. Feindliche Spione können die [ICON_PRODUCTION] Produktion von Weltwundern in dieser Stadt nicht unterbrechen[NEWLINE][NEWLINE]Erhaltet 10 [ICON_CULTURE] Kultur für das Plündern von Geländefeldern, steigt mit jedem Zeitalter. Muss in einer Küstenstadt errichtet werden.'
+SET Text = 'Benötigt Autokratie. +1 [ICON_HAPPINESS_1] Zufriedenheit für je 2 angenommene Politiken. 1 freie Sozialpolitik. Feindliche Spione können die [ICON_PRODUCTION] Produktion von Weltwundern in dieser Stadt nicht unterbrechen[NEWLINE][NEWLINE]Erhaltet 10 [ICON_CULTURE] Kultur für das Plündern von Geländefeldern einer großen Zivilisation, steigt mit jedem Zeitalter. Muss in einer Küstenstadt errichtet werden.'
 WHERE Tag = 'TXT_KEY_WONDER_PRORA_RESORT_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_BUILDINGS' AND Value= 1 );
 
 UPDATE Language_de_DE

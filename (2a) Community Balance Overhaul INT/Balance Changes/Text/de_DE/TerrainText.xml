@@ -238,7 +238,7 @@
 			<Text>Benötigt für mächtige Einheiten und Gebäude im mittleren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Marine Einheiten erhalten +1 [ICON_MOVES] Fortbewegung.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +3 [ICON_GOLD] Gold auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_OIL">
-			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +5 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
+			<Text>Benötigt für mächtige Einheiten und Gebäude im späteren Spielverlauf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +2 EP nach dem Kampf.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_YIELD_SCIENCE_HORSE">
 			<Text>Benötigt für mächtige Einheiten.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Strategischer Monopol-Bonus (25%):[ENDCOLOR] Einheiten erhalten +10% [ICON_STRENGTH] Stärke beim Angriff.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Weltweiter Monopol-Bonus (50%):[ENDCOLOR] +2 [ICON_RESEARCH] Wissenschaft auf Rohstoff-Geländefeldern.</Text>

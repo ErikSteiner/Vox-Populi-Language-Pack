@@ -298,7 +298,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT' AND EXISTS (SELECT * FROM 
 
 -- Itinerant Preachers (Pious Celebrations)
 UPDATE Language_de_DE
-SET Text = 'Ignorieren Sie alle Anforderungen an die Politik für Wunder. Heilige Stadt erhält +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +2 [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) pro Runde für alle [ICON_GREAT_PEOPLE] Großen Persönlichkeiten. +15 % [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der Heiligen Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
+SET Text = 'Reduziert die Mindestanforderung an Politiken für Wunder um 1. Heilige Stadt erhält +5 [ICON_GOLDEN_AGE] Goldenes Zeitalter Punkte und +2 [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) pro Runde für alle [ICON_GREAT_PEOPLE] Großen Persönlichkeiten. +15 % [ICON_GREAT_PEOPLE] Große Persönlichkeiten Rate in der Heiligen Stadt während eines [ICON_GOLDEN_AGE] Goldenen Zeitalters.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -430,7 +430,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT' AND EXISTS (SELECT * FROM COMMU
 
 -- Liturgical Drama (Now Veneration)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben für jede 3 Anhänger in der Stadt (max +10 [ICON_PEACE] Glauben)'
+SET Text = '+1 [ICON_FRIED] Glauben, [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold und [ICON_FOOD] Nahrung in der Stadt. 25% von Kauf durch [ICON_PEACE] Glauben in dieser Stadt wird in [ICON_CULTURE] Kultur umgewandelt.'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
@@ -462,7 +462,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY' AND EXISTS (SELECT * FROM COMMU
 
 -- Divine Inspiration (Now Inspiration)
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_CULTURE] Kultur für je 3 Anhänger in der Stadt (max +10 [ICON_CULTURE] Kultur)'
+SET Text = '+1 [ICON_CULTURE] Kultur für je 2 Anhänger in der Stadt (max +6 [ICON_CULTURE] Kultur) und +2 [ICON_PEACE] Glaube, wenn sich mindestens 1 Spezialist in der Stadt befindet'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE

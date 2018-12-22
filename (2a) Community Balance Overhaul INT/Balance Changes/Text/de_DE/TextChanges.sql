@@ -151,3 +151,11 @@
 	SET Text = 'Workers, Workboats, Missionaries, Inquisitors, and Settlers produced by the owner of this Natural Wonder gain the [COLOR_POSITIVE_TEXT]Sacred Steps[ENDCOLOR] Promotion, granting them +2 [ICON_MOVES] Movement.'
 	WHERE Tag = 'TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 	
+	
+	UPDATE Language_de_DE
+	SET Text = '[COLOR_POSITIVE_TEXT]Wohlstand[ENDCOLOR] wandelt 25% der [ICON_PRODUCTION] Produktion dieser Stadt in [ICON_GOLD] Gold um und reduziert Bedürfnisse durch [ICON_GOLD] Gold um 25%.'
+	WHERE Tag = 'TXT_KEY_PROCESS_WEALTH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
+	
+	UPDATE Language_de_DE
+	SET Text = '[COLOR_POSITIVE_TEXT]Forschung[ENDCOLOR] wandelt 25% der [ICON_PRODUCTION] Produktion dieser Stadt in [ICON_RESEARCH] Wissenschaft um und reduziert Bedürfnisse durch [ICON_RESEARCH] Wissenschaft um 25%.'
+	WHERE Tag = 'TXT_KEY_PROCESS_RESEARCH_HELP' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );

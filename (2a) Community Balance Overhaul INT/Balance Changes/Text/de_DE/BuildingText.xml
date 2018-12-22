@@ -160,7 +160,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>+15 % [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
+			<Text>+15 % [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten in dieser Stadt.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE] Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 15 % der globalen Bevölkerung Eurer Religion folgt (steigt mit Kartengröße). Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25 % und erhöht die Resistenz der Stadt für Bekehrung um 10%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR">
 			<Text>Großer Altar</Text>
@@ -680,10 +680,10 @@
 			<Text>A runestone is typically a raised stone with a runic inscription, but the term can also be applied to inscriptions on boulders and on bedrock. The tradition began in the 4th century and lasted into the 12th century, but most of the runestones date from the late Viking Age. Most runestones are located in Scandinavia, but there are also scattered runestones in locations that were visited by Norsemen during the Viking Age. Runestones are often memorials to dead men. Runestones were usually brightly coloured when erected, though this is no longer evident as the colour has worn off.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_HELP">
-			<Text>Whenever you pillage a Tile Improvement, gain +5 [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture in the City, scaling with Era.[NEWLINE]+25% [ICON_PRODUCTION] Production towards Land and Naval Melee units.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold Küsten- und Ozean-Geländefeldern. Bildet eine [ICON_CONNECTED] Stadtverbingung mit der [ICON_CAPITAL] Hauptstadt über Wasser.</Text>
+			<Text>Wenn Ihr eine Ressource plündert oder eine Modernisierungen einer Großen Persönlichkeit, welche einer großen Zivilisation gehört, erhaltet Ihr +10 [ICON_GOLD] Gold (wenn Land) und +10 [ICON_CULTURE] Kultur (wenn See) in der Stadt, steigt mit jedem Zeitalter.[NEWLINE]+25% [ICON_PRODUCTION] Production towards Land and Naval Melee units.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Nahrung und +1 [ICON_GOLD] Gold Küsten- und Ozean-Geländefeldern. Bildet eine [ICON_CONNECTED] Stadtverbingung mit der [ICON_CAPITAL] Hauptstadt über Wasser.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_JELLING_STONES_STRATEGY">
-			<Text>Einzigartiges dänisches Gebäude, dass den Leuchtturm ersetzt. Zusätzlich zu den Boni des Leuchtturms, produzieren die Runensteine [ICON_CULTURE] Kultur und [ICON_PRODUCTION] Produktion, when you pillage a Tile Improvement (Roads and Railroads do not count), generates more Food from ocean tiles, and increases production of melee land and naval units. Unlike the Lighthouse, the City does not have to be built on the coast.</Text>
+			<Text>Einzigartiges dänisches Gebäude, dass den Leuchtturm ersetzt. Zusätzlich zu den Boni des Leuchtturms, produzieren die Runensteine [ICON_CULTURE] Kultur und [ICON_GOLD] Gold, wenn Ihr Geländefeld Modernisierungen plündert, welche großen Zivilisationen gehören (Straßen und Eisenbahnstrecken zählen nicht). Produziert mehr Nahrung aus Ozean-Geländefeldern und erhöht die Produktion von Landeinheiten zu Land und zu Wasser. Anders als der Leuchtturm, muss die Stadt nicht an der Küste gebaut werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON">
 			<Text>Seowon</Text>
