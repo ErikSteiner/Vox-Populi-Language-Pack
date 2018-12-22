@@ -9,7 +9,7 @@ SET Text = '+5 [ICON_TOURISM] Tourism von allen Heiligen Stätten.[NEWLINE][NEWL
 WHERE Tag = 'TXT_KEY_BUILDING_RELIQUARY_HELP';
 
 UPDATE language_de_DE
-SET Text = '+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE]]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt. Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. [NEWLINE][NEWLINE]Erhaltet 1 weiteren Abgeordneten im Weltkongress für je 10 Städte die Ihrer Religion folgen.'
+SET Text = '+15% [ICON_PRODUCTION] Produktion für den Bau von Militäreinheiten in dieser Stadt.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION] Produktion von allen Heiligen Stätten.[NEWLINE][NEWLINE]]Kann nur in einer Heiligen Stätte errichtet werden und wenn mindestens 20% der globalen Bevölkerung Eurer Religion folgt. Reduziert [ICON_HAPPINESS_3] Religiöse Spaltung und erlaubt die Wahl eines Reformations-Glaubenssatzes. [NEWLINE][NEWLINE]Steigert den Druck der [ICON_RELIGION] Religionsmehrheit, der von dieser Stadt ausgeht um 25% und erhöht die Resistenz der Stadt für Bekehrung um 20%. [NEWLINE][NEWLINE]Erhaltet 1 weiteren Abgeordneten im Weltkongress für je 10 Städte die Ihrer Religion folgen.'
 WHERE Tag = 'TXT_KEY_BUILDING_GREAT_ALTAR_HELP';
 
 UPDATE language_de_DE
@@ -41,7 +41,7 @@ SET Text = 'Spezialisten bieten folgende Vorteile:[NEWLINE][NEWLINE]Künstler st
 WHERE Tag = 'TXT_KEY_CITIES_BENEFITSSPECIALISTS_HEADING3_BODY';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier und 1 freier Abgesandter. +10% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Nahrung in der Stadt für jeden befreundeten Stadtstaat und +2 [ICON_PEACE] Glauben für jede Allianz mit einem Stadtstaat.'
 WHERE Tag = 'TXT_KEY_BUILDING_COURT_SCRIBE_HELP';
 
 UPDATE language_de_DE
@@ -77,7 +77,7 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]]Benötigt eine Kanzlei in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion auf Diplomatische Einheiten in dieser Stadt. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Kompetenz[ENDCOLOR].[NEWLINE][NEWLINE]]Benötigt eine Kanzlei in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_PRINTING_PRESS_HELP';
 
 UPDATE language_de_DE
@@ -85,7 +85,7 @@ SET Text = 'Dieses Nationale Wunder kann erst gebaut werden, wenn die Stadt eine
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY';
 
 UPDATE language_de_DE
-SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Presseagentur in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
+SET Text = '+1 [ICON_RES_PAPER] Papier. +20% [ICON_PRODUCTION] Produktion von Diplomatischen Einheiten in dieser Stadt. Alle Diplomatischen Einheiten erhalten die Beförderung [COLOR_POSITIVE_TEXT]Diplomatische Immunität[ENDCOLOR].[NEWLINE][NEWLINE]Benötigt eine Presseagentur in der Stadt. Die [ICON_PRODUCTION] Produktionskosten und [ICON_CITIZEN] Bevölkerungsvoraussetzungen erhöhen sich, je mehr Städte ein Reich hat.'
 WHERE Tag = 'TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP';
 
 -- Grand Temple Help Text
@@ -97,7 +97,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_GRAND_TEMPLE_HELP';
 -- Merchant Mission
 
 UPDATE language_de_DE
-SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert. Erhaltet 1 [ICON_RES_PAPER] Papier.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten, erhöht sich um 1 Runde pro eigene Städt die von Euch gegründet wurde. Diese Aktion wird die Einheit opfern.'
+SET Text = 'Wenn die Einheit sich im Territorium eines Stadtstaates befindet, mit dem Ihr Euch nicht im Krieg befindet, könnt Ihr diese Einheit opfern.[NEWLINE][COLOR_POSITIVE_TEXT]Es gibt drei Einheiten, die zu dieser Mission fähig sind, jede mit unterschiedlichen Fähigkeiten:[ENDCOLOR][NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Diplomatische Einheiten:[ENDCOLOR] Erhaltet [ICON_INFLUENCE] Einfluss auf Stadtstaaten basierend auf der Beförderung der Einheit.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Große Diplomaten:[ENDCOLOR] Erhaltet eine große Menge an [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat und der [ICON_INFLUENCE] Einfluss aller anderen großen bekannten Zivilisationen wird mit diesem Stadtstaat um den selben Wert verringert. Erhaltet 1 [ICON_RES_PAPER] Papier.[NEWLINE][ICON_BULLET]   [COLOR_POSITIVE_TEXT]Großer Händler:[ENDCOLOR] Erhaltet eine große Menge [ICON_GOLD] Gold und einen sofortigen ''Feiertag'' in allen eigenen Städten, erhöht sich um 1 Runde je Stadt unter Eurer Kontrolle. Diese Aktion wird die Einheit opfern.'
 WHERE Tag = 'TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP';
 
 -- Philanthropy
