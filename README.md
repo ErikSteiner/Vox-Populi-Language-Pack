@@ -1,4 +1,4 @@
-# Vox-Populi-Language-Pack v11-21-1
+# Vox-Populi-Language-Pack v12-18-1
 The Language Pack contains all data that are needed to show you Vox Populi in a different language than English.
 Currently only German is supported.
 
