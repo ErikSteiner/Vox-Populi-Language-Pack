@@ -263,7 +263,8 @@
 			<Text>Stadtverwaltung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST">
-			<Text>Druide</Text>
+			<Text>Druide|Druiden</Text>
+			<Plurality>1|2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WELL">
 			<Text>Brunnen</Text>
