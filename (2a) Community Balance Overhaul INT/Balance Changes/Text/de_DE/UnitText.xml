@@ -561,7 +561,7 @@
 			<Text>Überlauf</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
-			<Text>+100% Bonus auf[FARBE_POSITIVER_TEXT]Flankenangriff[ENDCOLOR][ICON_STRENGTH] Kampfstärkebonus.</Text>
+			<Text>+100% [ICON_STRENGTH] Kampfstärke-Bonus auf [FARBE_POSITIVER_TEXT]Flankenangriff[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
 			<Text>Standhaft</Text>
