@@ -113,7 +113,7 @@ WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP' AND EXISTS (SELECT * FROM COMMUNIT
 -- Desert Folklore (Now Spirit of the Desert)
 
 UPDATE Language_de_DE
-SET Text = '+1 [ICON_PEACE] Glauben, [ICON_PRODUCTION] Production und [ICON_GOLD] Gold von Wüsten-Geländefeldern mit Ressourcen und +3 [ICON_FOOD] Nahrung von Oasen'
+SET Text = '+1 [ICON_PEACE] Glauben, [ICON_PRODUCTION] Produktion und [ICON_GOLD] Gold von Wüsten-Geländefeldern mit Ressourcen und +3 [ICON_FOOD] Nahrung von Oasen'
 WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_RELIGION' AND Value= 1 );
 
 UPDATE Language_de_DE
