@@ -619,7 +619,7 @@
 			<Text>Nomadischer Einfall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_HELP">
-			<Text>Eine Gruppe von nomadischen Stämmen ist an Ihrer Grenze erschienen und erbittet das Recht, sich in Ihrem Gebiet niederzulassen. Sie scheinen freundlich und bereit zu verhandeln, um das was sie sich wünschen zu erreichen. Wie reagieren Sie?</Text>
+			<Text>An euren Grenzen ist eine Gruppe von Nomadenvölkern erschienen, die das Recht auf Niederlassung in eurem Gebiet fordern. Sie wirken freundlich und sind bereit zu verhandeln, um das zu bekommen, was sie sich wünschen. Wie reagieren Sie darauf?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_NOMADS_CHOICE_1">

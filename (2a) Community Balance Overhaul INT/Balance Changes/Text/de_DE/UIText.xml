@@ -398,10 +398,10 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
-			<Text>Target above 50 HP</Text>
+			<Text>Ziel über 50 TP</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_LESS_50_HP_UNITS">
-			<Text>Target below/at 50 HP</Text>
+			<Text>Ziel unter/bei 50 TP</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS">
@@ -973,7 +973,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_PUPPET">
-			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "We want [ICON_PUPPET] Equal Rights!"</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]({1_Num})[ENDCOLOR] [ICON_CITIZEN]: "Wir wollen [ICON_PUPPET] Gleichberechtigung!"</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_EO_CITY_OCCUPATION">
@@ -1225,37 +1225,37 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CSTATE_CANNOT_EMBASSY">
-			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITY_STATE] Embassy already Established.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITY_STATE] Botschaft bereits errichtet.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CSTATE_CAN_EMBASSY">
-			<Text>[COLOR_POSITIVE_TEXT][ICON_CITY_STATE] Establish an Embassy Available![ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT][ICON_CITY_STATE] Errichtet eine Botschaft verfügbar![ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
-			<Text>[NEWLINE][ICON_BULLET]Modified by Civilizing Mission: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Geändert durch Zivilisation-Mission: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
 			<Text>[NEWLINE][ICON_BULLET]Modifiziert durch Religion: {1_Num}%</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_NONE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Weariness:[ENDCOLOR] They are resilient.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Müdigkeit:[ENDCOLOR] Sie sind standhaft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_MINOR">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Weariness:[ENDCOLOR] They are disheartened.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Müdigkeit:[ENDCOLOR] Sie sind entmutigt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_MAJOR">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Weariness:[ENDCOLOR] They are winded.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Müdigkeit:[ENDCOLOR] Sie sind außer Atem.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_SERIOUS">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Weariness:[ENDCOLOR] They are fatigued.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Müdigkeit:[ENDCOLOR] Sie sind erschöpft.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_WEARINESS_THEM_CRIPPLED">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Weariness:[ENDCOLOR] They are utterly exhausted.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_WAR] Müdigkeit:[ENDCOLOR] Sie sind völlig erschöpft.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILD_COST_REDUCTION">
-			<Text>{1_Build} needs {2_Turns} Turn(s) to complete.</Text>
+			<Text>{1_Build} benötigt {2_Turns} Runde(n) für die Vollendung.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">

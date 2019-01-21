@@ -155,45 +155,45 @@ WHERE Tag = 'TXT_KEY_EO_SPY_MOVE_TT';
 -- Public Opinion
 
 UPDATE Language_de_DE
-SET Text = '{1_Num} from Public Opinion due to Ideological Pressure.'
+SET Text = '{1_Num} aus der öffentlichen Meinung aufgrund von ideologischem Druck.'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Building Purchased
 UPDATE Language_de_DE
-SET Text = '[ICON_GOLD] Gold spent on Buildings Invests in them, reducing their [ICON_PRODUCTION] Production cost by 50% (25% for Wonders).[NEWLINE][ICON_GOLD] Gold-purchased Units start with half of the XP of a [ICON_PRODUCTION] Produced Unit.[NEWLINE]Some Units and Buildings can be purchased with [ICON_PEACE] Faith (based on Belief and Policy selections).'
+SET Text = '[ICON_GOLD] Gold das in Gebäude investiert wird, reduziert ihre [ICON_PRODUCTION] Produktionskosten um 50% (25% für Wunder).[NEWLINE]Einheiten die mit [ICON_GOLD] Gold gekauft werden, beginnen im Gegensatz zu einer [ICON_PRODUCTION] produzierten Einheit mit der Hälfte der EP.[NEWLINE]Einige Einheiten und Gebäude können mit [ICON_PEACE] Glauben gekauft werden (basierend auf der Auswahl von Glauben und Politiken).'
 WHERE Tag = 'TXT_KEY_CITYVIEW_PURCHASE_TT' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'You can change city construction orders on the City Screen. You can also expend gold to purchase a unit (or invest in a building) on this screen as well. See the City Screen section for details.'
+SET Text = 'Ihr könnt die Bauanweisungen einer Stadt im Stadt-Bildschirm ändern. In diesem Bildschirm könnt Ihr auch Gold dafür ausgeben, in ein Gebäude (oder anderes Objekt) zu investieren. Siehe Abschnitt 'Stadt-Bildschirm' für weitere Details.'
 WHERE Tag = 'TXT_KEY_BUILDINGS_PURCHASING_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = 'You can purchase units with gold, or invest gold in buildings to reduce their construction cost, from within your city screen. This can be helpful if you need something in a hurry, like additional units to defend against an invader.'
+SET Text = 'Ihr könnt von Eurem Stadtbildschirm aus Einheiten mit Gold kaufen oder in Gebäude investieren. Das kann nützlich sein, wenn Ihr etwas rasch benötigt, z. B. zusätzliche Truppen, um eine Invasion abzuwehren.'
 WHERE Tag = 'TXT_KEY_CITIES_PURCHASINGITEM_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = ' You can spend gold to purchase units or invest in a building in a city. Click on a unit (if you can afford it!) and it will be immediately trained in the city, and the amount deducted from your treasury. If you click on a building, you will invest in it, reducing the production cost of the building by 50%.[NEWLINE][NEWLINE]Note that "projects" - the Manhattan Project, etc. - cannot be purchased.'
+SET Text = 'Man kann Gold ausgeben, um in einer Stadt Einheiten zu kaufen oder in Gebäude zu investieren. Klickt auf eine Einheit (wenn Ihr es Euch leisten könnt) und sie wird sofort in der Stadt ausgebildet, nachdem das Gold aus Eurer Schatzkammer genommen wurde. Wenn Ihr auf ein Gebäude klickt, investiert Ihr darin und reduziert die Produktionskosten des Gebäudes um 50%.[NEWLINE][NEWLINE]Beachtet, dass "Projekte" wie das das Manhattan-Projekt usw. nicht gekauft werden können.'
 WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Happiness from Policies to Culture/Science change
 UPDATE Language_de_DE
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Policies.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] von Politiken.'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Policies.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] von Politiken.'
 WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_HAPPINESS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Scholasticism.'
+SET Text = '[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] von Scholastik.'
 WHERE Tag = 'TXT_KEY_TP_SCIENCE_FROM_MINORS' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_RES_ARTIFACTS] Sites Left: {1_Num}'
+SET Text = '[ICON_RES_ARTIFACTS] Stätten verbleibend: {1_Num}'
 WHERE Tag = 'TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 UPDATE Language_de_DE
-SET Text = '[ICON_RES_HIDDEN_ARTIFACTS] Hidden Sites Left: {1_Num}'
+SET Text = '[ICON_RES_HIDDEN_ARTIFACTS] Verborgene Stätten verbleibend: {1_Num}'
 WHERE Tag = 'TXT_KEY_HIDDEN_SITES_TO_EXCAVATE' AND EXISTS (SELECT * FROM COMMUNITY WHERE Type='COMMUNITY_CORE_BALANCE_CIVS' AND Value= 1 );
 
 -- Update text for diplomat.

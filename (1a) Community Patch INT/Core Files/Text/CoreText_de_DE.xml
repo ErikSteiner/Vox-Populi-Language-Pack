@@ -2332,17 +2332,17 @@
 
 		<!-- Capture City -->
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CAPTURE_CITY">
-			<Text>Tactical experts from {@2_CivName} believe {@1_CityName} to be of significant strategic importance. Acquire it by any means, and you will be greatly rewarded!</Text>
+			<Text>Die taktischen Experten von {@2_CivName} halten {@1_CityName} für von großer strategischer Bedeutung. Erwerbt es auf jede erdenkliche Weise, und Ihr werdet reich belohnt werden!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CAPTURE_CITY">
-			<Text>Tacticians from {@2_CivName} want you to capture {@1_CityName}</Text>
+			<Text>Taktiker von {@2_CivName} möchten, dass Ihr {@1_CityName} erobert.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GET_CITY_COMPLETE">
-			<Text>The tactical experts from {@1_CivName} commend you for your efforts, and hope that the city is as militarily useful as they foresaw.</Text>
+			<Text>Die taktischen Experten von {@1_CivName} loben Euch für Eure Bemühungen und hoffen, dass die Stadt so militärisch nützlich ist, wie sie es vorausgesehen haben.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GET_CITY_COMPLETE">
-			<Text>Successful city capture for {@1_CivName}!</Text>
+			<Text>Erfolgreiche Stadteroberung für {@1_CivName}!</Text>
 		</Row>
 
 		<!-- Coup -->
@@ -2660,13 +2660,13 @@
 
 		<!-- Promises LUA -->
 		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
-			<Text>You promised to keep your military forces away from their borders for {1_Num} more turn(s).</Text>
+			<Text>Ihr habt versprochen, Eure Streitkräfte von ihren Grenzen fernzuhalten für {1_Num} weitere Runde(n).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
-			<Text>You promised not to settle near them for {1_Num} more turn(s).</Text>
+			<Text>Ihr habt versprochen, nicht in ihrer Nähe zu siedeln für {1_Num} weitere Runde(n).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
-			<Text>You promised not to buy land near them for {1_Num} more turn(s).</Text>
+			<Text>Ihr habt versprochen, kein Land in ihrer Nähe zu kaufen, für {1_Num} weitere Runde(n).</Text>
 		</Row>
 		<!-- Tourism Lua -->
 		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
@@ -2733,50 +2733,50 @@
 		
 		<!-- Peace Out Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR">
-			<Text>Peace Deal Value: {1_Num}.</Text>
+			<Text>Friedensabkommen Wert: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_IMPOSSIBLE">
-			<Text>Peace Deal Value: Impossible!</Text>
+			<Text>Friedensabkommen Wert: Unmöglich!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_ACCEPTABLE">
-			<Text>Peace Deal Value: Acceptable</Text>
+			<Text>Friedensabkommen Wert: Akzeptabel</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAX_STR">
-			<Text>Max Value: {1_Num}.</Text>
+			<Text>Maximalwert: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_TT">
-			<Text>Current trade value of items in Peace Deal for AI. If the value here is 'Impossible,' that means the AI refuses to trade one or more of the items in the Peace Deal.</Text>
+			<Text>Aktueller KI-Handelswert der Gegenstände im Friedensabkommen. Wenn der Wert hier "Unmöglich" ist, bedeutet das, dass die KI sich weigert, einen oder mehrere der Gegenstände im Friedensabkommen zu handeln.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_MAX_STR_TT">
-			<Text>Maximum trade value of items in Peace Deal with AI. If the value to the left of this exceeds this number, the AI will refuse the deal.</Text>
+			<Text>Maximaler Handelswert der Gegenstände im Friedensabkommen mit der KI. Wenn der Wert links davon diese Zahl überschreitet, wird die KI das Geschäft ablehnen.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT_ONE_LINE">
-			<Text>Cannot have Gold Per Turn and Gold in same trade.</Text>
+			<Text>Es ist nicht möglich, Gold pro Runde und Gold im gleichen Handel zu haben.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
-			<Text>[NEWLINE][ICON_BULLET]Modifier for Unit Class: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]Modifikator für die Einheiten-Klasse: {1_Num}%</Text>
 		</Row>
 
 		<!-- Regular Deal Details - Lua -->
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE">
-			<Text>Deal Value for Them: {1_Num}.</Text>
+			<Text>Handelswert für die Gegenseite: {1_Num}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_IMPOSSIBLE">
-			<Text>Deal Value for Them: Impossible!</Text>
+			<Text>Handelswert für die Gegenseite: Unmöglich!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO">
 			<Text>SANCTIONED BY WORLD CONGRESS</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_EMBARGO_TT">
-			<Text>You cannot make deals during peacetime with this Civilization until the Sanction is lifted.</Text>
+			<Text>Ihr könnt in Friedenszeiten mit dieser Zivilisation keine Geschäfte abschließen, bis die Sanktion aufgehoben ist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_ACCEPTABLE">
-			<Text>Deal Value for Them: Acceptable</Text>
+			<Text>KI-Handelswert: Annehmbar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_TRADE_VALUE_STR_PEACE_TT">
-			<Text>AI's current valuation of the trade items in this Deal. If the value here is 'Impossible' or too negative, the AI will refuse to accept the Deal.</Text>
+			<Text>Aktueller KI-Handelswert der Gegenstände in diesem Handel. Wenn der Wert hier "Unmöglich" oder zu negativ ist, lehnt die KI die Annahme des Handels ab.</Text>
 		</Row>
 
 		<!-- No Supply -->
@@ -2819,15 +2819,15 @@
 
 		<!-- Aggressive Posture -->
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_MEDIUM">
-			<Text>[COLOR_NEGATIVE_TEXT]Your military deployment is threatening.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Eure militärische Entsendung ist bedrohlich.[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
-			<Text>[COLOR_NEGATIVE_TEXT]Your military deployment is extremely threatening.[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]Eure militärische Entsendung ist außerst bedrohlich.[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Defense Pact Offer -->
 		<Row Tag="TXT_KEY_DEFENSE_PACT_OFFER_1">
-			<Text>I admire your military prowess. Shall we make a Defensive Pact?</Text>
+			<Text>Ich bewundere Eure militärischen Fähigkeiten. Sollen wir ein Verteidigungsbündnis schließen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEFENSE_PACT_OFFER_2">
 			<Text>We should form an alliance, in order to bring ruin to our enemies. Do you want to make a Defensive Pact?</Text>
@@ -2913,7 +2913,7 @@
 		</Row>
 		<!-- Diplo Modifier Texts-->
 		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_DEC_FRIENDSHIP_TT">
-			<Text>This action cancels your current Declaration of Friendship and breaks your Defensive Pact (if you have one). This action will assuredly anger your friend, and may have severe global diplomatic repercussions.</Text>
+			<Text>Diese Aktion hebt Eure aktuelle Freundschaftserklärung auf und bricht Euren Verteidigungspakt (falls Ihr einen habt). Diese Aktion wird Euren Freund sicherlich verärgern und kann schwerwiegende globale diplomatische Auswirkungen haben.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_DOF_BROKEN">
 			<Text>{1_CivName:textkey} and {2_CivName:textkey} have [COLOR_NEGATIVE_TEXT]broken[ENDCOLOR] their public Declaration of Friendship, citing diplomatic tension as the cause.</Text>
@@ -2961,7 +2961,7 @@
 		</Row>
 		<!-- AI over Human -->
 		<Row Tag="TXT_KEY_GENERIC_INFLUENTIAL_ON_HUMAN_CLASSICAL_1">
-			<Text>I am happy to see that you have finally abandoned your miserable, barbaric customs. Do not despair, as it is far better for a culture to die by choice than by the sword ... though yours, perhaps, may succumb to both.</Text>
+			<Text>Ich freue mich zu sehen, dass Ihr Eure erbärmlichen, barbarischen Bräuche endlich aufgegeben habt. Verzweifelt nicht, denn es ist viel besser für eine Kultur, freiwillig zu sterben, als durch das Schwert.... obwohl Ihr vielleicht beiden erliegen könnt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_INFLUENTIAL_ON_HUMAN_RENAISSANCE_1">
 			<Text>Do not fear the new way of life that has enthralled your people. You will soon forget all about the backwards and rude traditions you laughably called 'culture.'</Text>
@@ -3110,7 +3110,7 @@
 			<Text>Let others tremble at our shared belief in Order. We have nothing to lose but our chains. We have a world to win. Workers of the world, unite!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_SAME_POLICIES_AUTOCRACY_2">
-			<Text>Greetings, fellow warlord! Our mutual decision shall decide the future of humanity: it shall be either our view or theirs, as there can be no compromises!</Text>
+			<Text>Seid gegrüßt, Kriegsherr! Unsere gemeinsame Entscheidung soll über die Zukunft der Menschheit entscheiden: Sie soll entweder unsere oder ihre Meinung sein, denn es darf keine Kompromisse geben!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_CAUGHT_YOUR_SPY_HOSTILE_2">
 			<Text>Your agents escaped my grasp this time, but they shall not be so lucky in the future. You shall tempt fate if you dare to spy on me again.</Text>
@@ -3228,7 +3228,7 @@
 			<Text>You are mistaken in your views, and are thus on the wrong side of this discussion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HUMAN_BULLIED_MINOR_GOOD_2">
-			<Text>We shall see if your actions mirror your words.</Text>
+			<Text>Wir werden sehen, ob Eure Taten Euren Worten entsprechen.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_DISAGREE_2">
@@ -3346,28 +3346,28 @@
 			<Text>The Lawgiver welcomes you to his court. Come, let us discuss the finer points of leadership.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_DARIUS_GREETING_POLITE_HELLO_2">
-			<Text>Greetings, noble friend. Come, let us converse while sitting on this luxurious rug I just received.</Text>
+			<Text>Seid gegrüßt, edler Freund. Kommt, lass uns reden, während wir auf diesem luxuriösen Teppich sitzen, den ich gerade erhalten habe.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_AUGUSTUS_GREETING_POLITE_HELLO_2">
-			<Text>Hail, friend, I was just about to dine. Care for some salad? I made it myself.</Text>
+			<Text>Heil dir, Freund, ich war gerade dabei zu essen. Möchtest Ihr etwas Salat? Ich habe ihn selbst gemacht.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_CATHERINE_GREETING_POLITE_HELLO_2">
-			<Text>Welcome back to my court, friend. I knew the Russian cold could not keep you away forever.</Text>
+			<Text>Willkommen zurück an meinem Hof, Freund. Ich wusste, dass die russische Kälte Euch nicht für immer fernhalten konnte.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_GREETING_POLITE_HELLO_2">
-			<Text>The Siamese people are moved by your return to our lands. How may we be of service?</Text>
+			<Text>Das siamesische Volk ist bewegt von Eurer Rückkehr in unser Land. Wie können wir Euch behilflich sein?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_ASKIA_GREETING_POLITE_HELLO_2">
-			<Text>Welcome back to my kingdom. Is it getting a bit hot around here, or is it just me?</Text>
+			<Text>Willkommen zurück in meinem Königreich. Wird es hier gerade heiß oder bin ich das?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_7">
-			<Text>Hail.</Text>
+			<Text>Heil.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_8">
 			<Text>Ja?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_9">
-			<Text>How may I help you?</Text>
+			<Text>Wie kann ich Euch helfen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GREETING_NEUTRAL_HELLO_10">
 			<Text>Good day, noble leader.</Text>
@@ -3607,10 +3607,10 @@
 			<Text>The enemy of my enemy is my friend. In this case, our mutual hatred of {1_PlayerName} makes us allies. For now.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_DOF_3">
-			<Text>Friends? Already? We barely know each other.</Text>
+			<Text>Freunde? Schon? Wir kennen uns kaum.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_TOO_SOON_FOR_DOF_4">
-			<Text>Look, you are really nice, but I need some time to think about this level of commitment.</Text>
+			<Text>Schaut, Ihr seid wirklich nett, aber ich brauche etwas Zeit, um über dieses Maß an Verbindlichkeit nachzudenken.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_AI_DENOUNCE_REQUEST_2">
 			<Text>{1_CivName} has crossed the line, and needs to be admonished publicly. Can I count on you to join me in denouncing him?</Text>
@@ -3619,16 +3619,16 @@
 			<Text>I have decided that my conflicts with {1_CivName} must be solved through war. As one of my oldest allies, can I count on you to join me? (WILL DECLARE WAR IMMEDIATELY)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_NOT_HONORED_3">
-			<Text>You have proven to be an unworthy and traitorous coward. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You have proven to be an unworthy and traitorous coward. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DOF_NOT_HONORED_4">
-			<Text>Of all the people to betray me, I did not think it would be you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Of all the people to betray me, I did not think it would be you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCING_FRIEND_3">
-			<Text>I tried to overlook your misdeeds, but I can do so no longer. You are a tyrant, and tyrants must be admonished.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I tried to overlook your misdeeds, but I can do so no longer. You are a tyrant, and tyrants must be admonished.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCING_FRIEND_4">
-			<Text>There is no point in hiding it any longer: I used to like you, but now I hate you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>There is no point in hiding it any longer: I used to like you, but now I hate you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_TO_BEING_DENOUNCED_5">
 			<Text>Your cruel words have no power here. Begone!</Text>
@@ -3640,7 +3640,7 @@
 			<Text>You are an absolute fool.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_TO_BEING_DENOUNCED_8">
-			<Text>You may be honest, but that doesn't make you any less of a terrible, awful person.</Text>
+			<Text>Ihr seid vielleicht ehrlich, aber das macht Euch nicht weniger zu einem schrecklichen, schrecklichen Menschen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HUMAN_DOFED_FRIEND_2">
 			<Text>Greetings, friend. I just wanted to let you know that your good opinion of {1_CivName} mirrors my own.</Text>
@@ -3831,7 +3831,7 @@
 			<Text>I hope your obsession with land ends soon enough, as it is beginning to strain our relationship.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EXPANSION_WARNING_7">
-			<Text>There can be no peace between us if you continue claiming territory that is rightfully mine.</Text>
+			<Text>Es kann keinen Frieden zwischen uns geben, wenn Ihr weiterhin Territorium beansprucht, das mir rechtmäßig gehört.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EXPANSION_WARNING_8">
 			<Text>Your greedy expansion has fouled my impression of you. I thought you noble, but I see now that you are a fool.</Text>
@@ -3840,7 +3840,7 @@
 			<Text>Though I thought my opinion of you could not be lower, it seems I was wrong. Not only are you a thief, you are also a liar.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EXPANSION_BROKEN_PROMISE_3">
-			<Text>Your broken promise is but the latest crime you have committed against my people. I will not forget this injustice.</Text>
+			<Text>Euer gebrochenes Versprechen ist nur das jüngste Verbrechen, das Ihr gegen mein Volk begangen habt. Ich werde diese Ungerechtigkeit nicht vergessen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLOT_BUYING_SERIOUS_WARNING_2">
 			<Text>You foolishly squander money buying up land, but for what purpose? It will all be mine soon enough.</Text>
@@ -3867,40 +3867,40 @@
 			<Text>I've recently learned that {@1_MinorCivName} is under your protection. Do not take my actions against this city-state personally.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WE_ATTACKED_YOUR_MINOR_5">
-			<Text>I sincerely hope that my war with {@1_MinorCivName} will not make you think less of me.</Text>
+			<Text>Ich hoffe aufrichtig, dass mein Krieg mit {@1_MinorCivName} Euch nicht dazu bringt, weniger von mir zu halten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_5">
 			<Text>Sollen wir öffentlich eine Freundschaftserklärung unterzeichnen? Eine solche Tat wäre ein Vorbild der Verbindlichkeit für die kleineren Reiche dieser Welt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_6">
-			<Text>I believe that you are an honorable and righteous leader. Let us make a Declaration of Friendship, so that others may look upon our pact with fear.</Text>
+			<Text>Ich glaube, dass Ihr ein ehrenwerter und rechtschaffener Führer seid. Lasst uns eine Erklärung der Freundschaft abgeben, damit andere unseren Pakt mit Angst betrachten können.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_7">
-			<Text>This world can be a lonely and isolating place, and we could each use a strong ally. Shall we make a Declaration of Friendship?</Text>
+			<Text>Diese Welt kann ein einsamer und isolierender Ort sein, und wir könnten alle einen starken Verbündeten brauchen. Sollen wir eine Freundschaftserklärung abgeben?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DEC_FRIENDSHIP_8">
-			<Text>A Declaration of Friendship would be of great benefit to both of us. Come, let us show the other empires of the world what 'civilization' truly means.</Text>
+			<Text>Eine Freundschaftserklärung wäre für uns beide von großem Nutzen. Kommt, lasst uns den anderen Reichen der Welt zeigen, was "Zivilisation" wirklich bedeutet.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_4">
-			<Text>You are an awful person, did you know that?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Ihr seid ein schrecklicher Mensch, wusstet Ihr das?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_5">
-			<Text>There can be no peace in the world, so long as you exist.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Es kann keinen Frieden auf der Welt geben, solange Ihr existiert.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_6">
-			<Text>Why must you behave like such an imbecile?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Warum müsst Ihr Euch wie ein Trottel benehmen?[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_7">
-			<Text>There are only a few words that describe you, and they aren't very nice.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Es gibt nur ein paar Worte, die Euch beschreiben, und sie sind nicht sehr schön.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_8">
-			<Text>I cannot bite my tongue any longer. You are a tyrant.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I cannot bite my tongue any longer. You are a tyrant.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_9">
-			<Text>I hope death comes swiftly for you, knave.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I hope death comes swiftly for you, knave.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DENOUNCE_10">
-			<Text>Don't take this personally, but...wait, no, take this personally: you are terrible.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Don't take this personally, but...wait, no, take this personally: you are terrible.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_REQUEST_4">
 			<Text>The time for war against {1_PlayerName:textkey} is nigh. Shall we combine our arms and strike down this villain?</Text>
@@ -3909,13 +3909,13 @@
 			<Text>{1_PlayerName:textkey} ist zu weit gegangen und muss aufgehalten werden. Ich baue auf Eure Unterstützung: Sollen wir diese Bedrohung zusammen bekämpfen??</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_REQUEST_6">
-			<Text>The actions of {1_PlayerName:textkey} have forced my hand. War is inevitable, and I need an ally. Will you join me?</Text>
+			<Text>Die Handlungen von {1_PlayerName:textkey} haben meine Hand erzwungen. Krieg ist unvermeidlich, und ich brauche einen Verbündeten. Werdet Ihr Euch mir anschließen?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COOP_WAR_TIME_2">
-			<Text>The war against {1_PlayerName:textkey} has come. Shall we?</Text>
+			<Text>Der Krieg gegen {1_PlayerName:textkey} ist gekommen. Sollen wir?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOW_UNFORGIVABLE_2">
-			<Text>Your treachery will bring the wrath of fate itself upon you. Our vengeance will be absolute.</Text>
+			<Text>Euer Verrat wird den Zorn des Schicksals selbst über Euch bringen. Unsere Rache wird vollkommen sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOW_UNFORGIVABLE_3">
 			<Text>Of all the people in the world to betray me...so long as I breathe, we shall never be friends again.</Text>
@@ -4716,40 +4716,40 @@
 			<Text>So it is. We are prepared for war. Are you?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_AGGRESSIVE_MILITARY_WARNING_GOOD_2">
-			<Text>We'll see about that.</Text>
+			<Text>Das werden wir sehen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_AGGRESSIVE_MILITARY_WARNING_GOOD_3">
-			<Text>I believe you...for now.</Text>
+			<Text>Ich glaube Euch... im Moment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_AGGRESSIVE_MILITARY_WARNING_BAD_2">
-			<Text>Oh dear.</Text>
+			<Text>Oh je.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_AGGRESSIVE_MILITARY_WARNING_BAD_3">
-			<Text>Seems my fears were well-placed.</Text>
+			<Text>Scheint so, als wären meine Ängste gut platziert gewesen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_AGGRESSIVE_MILITARY_WARNING_GOOD_2">
-			<Text>We shall see how honest you really are.</Text>
+			<Text>Wir werden sehen, wie ehrlich Ihr wirklich seid.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_AGGRESSIVE_MILITARY_WARNING_GOOD_3">
-			<Text>Let's see if your actions betray your words.</Text>
+			<Text>Mal sehen, ob Eure Taten Eure Worte verraten.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_BAD_2">
-			<Text>Sure. Whatever.</Text>
+			<Text>Sicher. Wie auch immer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_BAD_3">
-			<Text>A foolish statement.</Text>
+			<Text>Eine dumme Behauptung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_BAD_4">
-			<Text>I'm not surprised you said that.</Text>
+			<Text>Es überrascht mich nicht, dass Ihr das gesagt habt.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_GOOD_2">
-			<Text>A wise choice.</Text>
+			<Text>Eine kluge Wahl.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_GOOD_3">
-			<Text>You are a coward.</Text>
+			<Text>Ihr seid ein Feigling.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HOSTILE_WE_ATTACKED_MINOR_GOOD_4">
-			<Text>Just as I suspected.</Text>
+			<Text>Genau wie ich vermutet habe.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_WE_ATTACKED_MINOR_BAD_2">
 			<Text>You wouldn't understand. I did what had to be done.</Text>
@@ -5256,30 +5256,30 @@
 
 		<!-- Attack City -->
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
-			<Text>Your {@2_UnitName} bombarded the enemy City of {@1_CityName} ({3_Num} damage)!</Text>
+			<Text>{2: gender masculine?Euer; feminine?Eure;} {@2_UnitName} hat die gegnerische Stadt {@1_CityName} ({3_Num} Schaden) bombardiert!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_ACTUALLY">
-			<Text>Your {@1_UnitName} bombarded the enemy City of {@2_CityName}, and was not intercepted ({3_Num} damage)!</Text>
+			<Text>{1: gender masculine?Euer; feminine?Eure;} {@1_UnitName} bombardierte die feindliche Stadt {@2_CityName} und wurde nicht abgefangen ({3_Num} Schaden)!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_INTERCEPTED">
-			<Text>While attacking {@4_CityName), an enemy {@1_UnitName} intercepted your {@2_DefUnitName} ({3_Num} damage)!</Text>
+			<Text>Beim Angriff auf {@4_CityName) fing ein Feind {@1_UnitName} {2: gender masculine?Euren; feminine?Eure;} {@2_DefUnitName} ({3_Num} Schaden) ab!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_CITY">
-			<Text>The City of {@1_CityName} ({3_Num} damage) was bombarded by an enemy {@2_EnUName}!</Text>
+			<Text>Die Stadt {@1_CityName} ({3_Num} Schaden) wurde von einem Gegner {@2_EnUName} bombardiert!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED_CITY">
-			<Text>Thanks to your intercepting {@1_UnitName}, we damaged the {@2_owner_adjective} {@3_EnUName} ({4_Num} damage) attacking your City of {@5_CityName}.</Text>
+			<Text>Dank des Abfangens der {@1_UnitName} haben wir den {@2_owner_adjective} {@3_EnUName} ({4_Num} Schaden) beschädigt, der Ihre Stadt {@5_CityName} angreift.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_DECLARE_WAR_DPS_CP">
-			<Text>DEFENSIVE PACTS</Text>
+			<Text>VERTEIDIGUNGSBÜNDNIS</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
-			<Text>[COLOR_POSITIVE_TEXT]Defensive Pact with {1_CivName:textkey}[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Verteidigungsbündnis mit {1_CivName:textkey}[ENDCOLOR]</Text>
 		</Row>
 
 		<!-- Brazil LUA-->
@@ -5316,154 +5316,154 @@
 
 		<!-- Denounce Statements -->
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_1">
-			<Text>I have stood by long enough while your armies lay waste to this world. I can only hope this denouncement will finally put a stop to your ambitions. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I have stood by long enough while your armies lay waste to this world. I can only hope this denouncement will finally put a stop to your ambitions. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WARMONGER_2">
-			<Text>Your thirst for blood is an abomination, tyrant. As long as I have breath, the entire world will know of the cruelty you have inflicted upon it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your thirst for blood is an abomination, tyrant. As long as I have breath, the entire world will know of the cruelty you have inflicted upon it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_1">
-			<Text>Surely, even you must understand that there is only one path for this world's future. And you are travelling down the wrong one. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Surely, even you must understand that there is only one path for this world's future. And you are travelling down the wrong one. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_IDEOLOGY_2">
-			<Text>You have betrayed not only me, but also your own people, by accepting this ideology. Listen to us both before your actions lead to even worse conflicts. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You have betrayed not only me, but also your own people, by accepting this ideology. Listen to us both before your actions lead to even worse conflicts. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_1">
-			<Text>Even from this far, I hear your people calling out for liberty and justice! If you will not heed their words, these may be the last ones we speak in peace. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Even from this far, I hear your people calling out for liberty and justice! If you will not heed their words, these may be the last ones we speak in peace. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_FREEDOM_2">
-			<Text>Democracy, a free press, and a free market are the rights of all people. Our nation shall no longer watch while you continue to trample on the hearts of your citizens! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Democracy, a free press, and a free market are the rights of all people. Our nation shall no longer watch while you continue to trample on the hearts of your citizens! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_1">
-			<Text>Your people's voices call out for economic justice and social equality. As long as you deny the righteous path of Order, we will never be able to see eye to eye. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your people's voices call out for economic justice and social equality. As long as you deny the righteous path of Order, we will never be able to see eye to eye. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_ORDER_2">
-			<Text>Why do you continue to deny the rights of your workers to live without the evils of hunger and poverty? If it takes this denouncement to end their suffering, so be it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Why do you continue to deny the rights of your workers to live without the evils of hunger and poverty? If it takes this denouncement to end their suffering, so be it. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_1">
-			<Text>Without a strong leader to guide them, your nation stands on the edge of a knife. It is not too late to accept the path of security and stability - do not force my hand. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Without a strong leader to guide them, your nation stands on the edge of a knife. It is not too late to accept the path of security and stability - do not force my hand. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BELIEVES_AUTOCRACY_2">
-			<Text>Your choices have made it clear that only one nation has the strength to lead this world to prosperity: mine. Join me or suffer the consequences. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your choices have made it clear that only one nation has the strength to lead this world to prosperity: mine. Join me or suffer the consequences. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_1">
-			<Text>The greed and ambition of your people will only destroy them in the end. Allow your people to throw off the yoke of Freedom, and stop spreading your lies before it is too late. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>The greed and ambition of your people will only destroy them in the end. Allow your people to throw off the yoke of Freedom, and stop spreading your lies before it is too late. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_FREEDOM_2">
-			<Text>Your imperialist aggression has grown tiresome. Cease trying to convince my people to follow the path of Freedom before I am forced to take drastic action. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your imperialist aggression has grown tiresome. Cease trying to convince my people to follow the path of Freedom before I am forced to take drastic action. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_1">
-			<Text>I know that you are trying to cause a worker's revolution in my lands. For my nation's stability and yours, cease this envangelizing of Order at once. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I know that you are trying to cause a worker's revolution in my lands. For my nation's stability and yours, cease this envangelizing of Order at once. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_ORDER_2">
-			<Text>Keep your radical Order beliefs away from my people's ears before I show you what 'better dead than red' really means. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Keep your radical Order beliefs away from my people's ears before I show you what 'better dead than red' really means. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_1" >
-			<Text>Your supposed military might is not enough to hide the cruelty you inflict upon your own people from the world. Cease your tyranny before we are forced to declare war against you! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your supposed military might is not enough to hide the cruelty you inflict upon your own people from the world. Cease your tyranny before we are forced to declare war against you! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_HUMAN_BELIEVES_AUTOCRACY_2" >
-			<Text>Other nations may hesitate in fear of you, but for the sake of this world, ours shall be the one to take a stand. Renounce your belief in Autocracy before it is too late! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Other nations may hesitate in fear of you, but for the sake of this world, ours shall be the one to take a stand. Renounce your belief in Autocracy before it is too late! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_1">
-			<Text>Your people's sacrilegious beliefs are a plague upon this land. I wished this day would not come, but if your people will not see the light, then we are fated to be enemies. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your people's sacrilegious beliefs are a plague upon this land. I wished this day would not come, but if your people will not see the light, then we are fated to be enemies. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_FAITH_2">
-			<Text>That I have allowed your heathen faith to spread this far fills me with disgust. Any nation that willingly believes in such falsehoods can never be trusted. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>That I have allowed your heathen faith to spread this far fills me with disgust. Any nation that willingly believes in such falsehoods can never be trusted. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_1">
-			<Text>I have made it clear that those City-States you have been rubbing shoulders with are mine, not yours. You may make alliances with them, but you shall never have one with me. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Ich habe deutlich gemacht, dass die Stadtstaaten, mit denen Ihr Euch anlegt, meine sind, nicht Eure. Ihr könnt Allianzen mit ihnen eingehen, aber Ihr werdet nie eine mit mir haben.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_2">
-			<Text>If you think it is diplomacy to steal my allied City-States, you are sorely mistaken. For every alliance you have wrested from me, I will ensure you have made another enemy in return. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>If you think it is diplomacy to steal my allied City-States, you are sorely mistaken. For every alliance you have wrested from me, I will ensure you have made another enemy in return. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_1">
-			<Text>So many years spent planning and building those Wonders... how could someone like you have built them first? Have you stolen secrets from me?! The world will know of this treachery! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>So many years spent planning and building those Wonders... how could someone like you have built them first? Have you stolen secrets from me?! The world will know of this treachery! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_WONDERS_2">
-			<Text>Those are some incredible Wonders you've built. It would be such a shame if something were to... happen to them. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Those are some incredible Wonders you've built. It would be such a shame if something were to... happen to them. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_1">
-			<Text>Do we not seek the same ends? It seems like such a shame that we cannot see past our differences and work together for the betterment of the world. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Do we not seek the same ends? It seems like such a shame that we cannot see past our differences and work together for the betterment of the world. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_DISPUTE_2">
-			<Text>You and I both know who is destined to win this competition. For the sake of both of our peoples, give up before this esclates into further conflict. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You and I both know who is destined to win this competition. For the sake of both of our peoples, give up before this esclates into further conflict. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_1">
-			<Text>You are coming too close to victory for comfort. I have spoken to the other leaders and we agree that the time has come to take a stand against you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You are coming too close to victory for comfort. I have spoken to the other leaders and we agree that the time has come to take a stand against you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_VICTORY_BLOCK_2">
-			<Text>Allowing you to take control of the world would be a grave mistake. The time has come to put an end to your ambitions - at any cost. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Allowing you to take control of the world would be a grave mistake. The time has come to put an end to your ambitions - at any cost. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_1">
-			<Text>Those weapons of war you have used are an abomination to humanity. Anyone willing to commit such atrocities against innocent civilians is clearly beyond redemption. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Those weapons of war you have used are an abomination to humanity. Anyone willing to commit such atrocities against innocent civilians is clearly beyond redemption. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_NUKE_2">
-			<Text>Nothing I can say or do will make up for the horror of your crimes. I can only hope that this denouncement will discourage other leaders from ever using such awful weapons again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Nothing I can say or do will make up for the horror of your crimes. I can only hope that this denouncement will discourage other leaders from ever using such awful weapons again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_1">
-			<Text>Your attempts to steal my technological secrets can no longer be tolerated. I have spoken to the other leaders about your attempted espionage and they will be prepared in the future. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your attempts to steal my technological secrets can no longer be tolerated. I have spoken to the other leaders about your attempted espionage and they will be prepared in the future. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_SPIES_2">
-			<Text>I have always believed in transparency and honesty, but it is clear that you do not. If you prefer to work in the dark, then it is up to me to shed a light on your deeds. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I have always believed in transparency and honesty, but it is clear that you do not. If you prefer to work in the dark, then it is up to me to shed a light on your deeds. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_1">
-			<Text>Other leaders have told me you aren't to be trusted. I may not know all the details, but I believe them more than I believe you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Other leaders have told me you aren't to be trusted. I may not know all the details, but I believe them more than I believe you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_DOGPILE_2">
-			<Text>Whatever you have done to invoke the wrath of the other leaders, I am confident that you deserve it. May our denouncements serve as a lesson to you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Whatever you have done to invoke the wrath of the other leaders, I am confident that you deserve it. May our denouncements serve as a lesson to you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_1">
-			<Text>I warned you that declaring your allegiance with my enemy would be a mistake. Now face the consequences of your actions! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I warned you that declaring your allegiance with my enemy would be a mistake. Now face the consequences of your actions! [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ENEMY_FRIENDSHIP_2">
-			<Text>The Declaration of Friendship you have made with my enemy is a betrayal I cannot accept. Your people are no longer welcome in my court. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>The Declaration of Friendship you have made with my enemy is a betrayal I cannot accept. Your people are no longer welcome in my court. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_1">
-			<Text>The only thing worse than a tyrant is a scheming one. If you are incapable of speaking the truth, then I will have to do it for you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>The only thing worse than a tyrant is a scheming one. If you are incapable of speaking the truth, then I will have to do it for you. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_2">
-			<Text>Your behavior is beyond despicable. May this denouncement teach you that dishonesty and avarice are poor examples of foreign policy. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your behavior is beyond despicable. May this denouncement teach you that dishonesty and avarice are poor examples of foreign policy. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_3">
-			<Text>You have proven to be a danger to my people, and you must be admonished for this. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You have proven to be a danger to my people, and you must be admonished for this. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_4">
-			<Text>Of all the people to be deemed unfit for this world, I did not think it would be you. Too bad. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Of all the people to be deemed unfit for this world, I did not think it would be you. Too bad. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_5">
-			<Text>I tried to overlook your actions, but I can do so no longer. You are a tyrant, and tyrants must be admonished.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I tried to overlook your actions, but I can do so no longer. You are a tyrant, and tyrants must be admonished.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_PROMISE_BROKEN_6">
-			<Text>There is no point in hiding it any longer: I used to like you, but now I hate you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>There is no point in hiding it any longer: I used to like you, but now I hate you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_1">
-			<Text>You have proven beyond doubt that your friendships mean nothing. Spare us your prattering - there will be no more words between us. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You have proven beyond doubt that your friendships mean nothing. Spare us your prattering - there will be no more words between us. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_2">
-			<Text>Unlike you, I am honest about who my friends and enemies are. For instance: you have just made yourself my enemy. Never return to this court again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Unlike you, I am honest about who my friends and enemies are. For instance: you have just made yourself my enemy. Never return to this court again. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_3">
-			<Text>The genocide you have committed against my people can never be forgiven. All the world shall know the horrors of what you have done. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>The genocide you have committed against my people can never be forgiven. All the world shall know the horrors of what you have done. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_BETRAYAL_4">
-			<Text>Do you even stop to think of the innocents you killed? My people will not be able to rest until their families and loved ones are avenged... and neither will I. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Do you even stop to think of the innocents you killed? My people will not be able to rest until their families and loved ones are avenged... and neither will I. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_1">
-			<Text>I have made it clear that those lands you have taken are rightfully mine. If we cannot settle these land disputes diplomatically, pray we don't have to settle them on the battlefield. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Ich habe deutlich gemacht, dass die Ländereien, die Ihr eingenommen habt, zu Recht mir gehören. Wenn wir diese Landstreitigkeiten nicht diplomatisch lösen können, betet, dass wir sie nicht auf dem Schlachtfeld lösen müssen.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_COVET_2">
-			<Text>You can call it 'coveting' your lands if you wish. But as far as I am concerned, I cannot covet what you have stolen from me. I believe the other leaders will see it the same way. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Ihr könnt es als "Euer Land Begehren" bezeichnen, wenn Ihr wollt. Aber was mich betrifft, kann ich nicht begehren, was Ihr mir gestohlen habt. Ich glaube, die anderen Staatsführer werden es genauso sehen. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_1">
-			<Text>Your disrespect for our borders and cultural artifacts has reached a breaking point. From now on, neither your archaeologists nor your diplomats will be welcome here. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>Your disrespect for our borders and cultural artifacts has reached a breaking point. From now on, neither your archaeologists nor your diplomats will be welcome here. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_ARTIFACTS_2">
-			<Text>The cultural artifacts of my people are not yours for the taking. The other leaders will soon know of your brazen theft. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>The cultural artifacts of my people are not yours for the taking. The other leaders will soon know of your brazen theft. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_1">
-			<Text>You are a vicious bully and I have had enough of you preying on the weak. Face me, coward, if you have the guts to stand against someone your own size. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>You are a vicious bully and I have had enough of you preying on the weak. Face me, coward, if you have the guts to stand against someone your own size. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_DENOUNCE_MINORS_BULLY_2">
-			<Text>I have appointed myself the protector of those City-States and yet you continue to torment and oppress them. I have informed the other leaders of your cowardice - do not invoke my wrath further. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+			<Text>I have appointed myself the protector of those City-States and yet you continue to torment and oppress them. I have informed the other leaders of your cowardice - do not invoke my wrath further. [NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]Sie haben uns öffentlich denunziert! HINWEIS: Ihr befindet Euch nicht im Krieg.[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESPONSE_STRATEGIC_TRADE_REQUEST_1">
 			<Text>You possess a Strategic Resource that my empire could make use of. Shall we trade?</Text>
@@ -5746,55 +5746,55 @@
 
 		<!-- Warmonger Strings-->
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_HEADER">
-			<Text>Repercussions from [COLOR_NEGATIVE_TEXT]conquering[ENDCOLOR] this city:</Text>
+			<Text>Auswirkungen der [COLOR_NEGATIVE_TEXT]Eroberung[ENDCOLOR] dieser Stadt:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_HEADER">
-			<Text>Bonuses from [COLOR_POSITIVE_TEXT]liberating[ENDCOLOR] this city:</Text>
+			<Text>Boni durch das [COLOR_POSITIVE_TEXT]Befreien[ENDCOLOR] dieser Stadt:</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_1000">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be extremely upset.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird extrem verärgert sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_800">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be greatly upset.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird sehr verärgert sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_600">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be quite upset.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird ziemlich verärgert sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_400">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be somewhat upset.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird etwas verärgert sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_200">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be mildly upset.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird leicht verärgert sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_NIL">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will barely notice.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird es kaum bemerken.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_1000">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be extremely grateful.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird extrem dankbar sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_800">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be very grateful.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird sehr dankbar sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_600">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be quite grateful.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird ziemlich dankbar sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_400">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be mildly grateful.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird etwas dankbar sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_200">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will be a little grateful.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird ein wenig dankbar sein.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_NIL">
-			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] will barely notice.</Text>
+			<Text>[ICON_BULLET]  [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] wird es kaum bemerken.</Text>
 		</Row>
 
 		<!--AI Return Unit Text -->
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI">
-			<Text>{1_Player:textkey} returned your captured {@2_UnitName} to you. How nice!</Text>
+			<Text>{1_Player:textkey} hat Euch Eure gefangen genommene Einheit {@2_UnitName} zurückgegeben. Wie schön!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
-			<Text>{@2_UnitName} saved by {1_Player:textkey}!</Text>
+			<Text>{@2_UnitName} gerettet durch {1_Player:textkey}!</Text>
 		</Row>
 
 		<!-- Razing -->
@@ -5807,7 +5807,7 @@
 
 		<!-- Tooltip for 'You'll Pay' Text -->
 		<Row Tag ="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
-			<Text>Selecting this insulting response may result in [COLOR_NEGATIVE_TEXT]war[ENDCOLOR]! If this insult does not result in war, the leader will be humbled, and their opinion of you will temporarily be reset to Neutral.</Text>
+			<Text>Die Auswahl dieser beleidigenden Reaktion kann zu einem [COLOR_NEGATIVE_TEXT]Krieg[ENDCOLOR] führen! Wenn diese Beleidigung nicht zu einem Krieg führt, wird der Anführer gedemütigt, und seine Meinung über dich wird vorübergehend auf Neutral zurückgesetzt.</Text>
 		</Row>
 
 		<!-- Tourism -->
@@ -6255,28 +6255,28 @@
 			<Text>[COLOR_POSITIVE_TEXT]War Score: {1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
-			<Text>This value indiates how well your war is going. Ranges between [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR] and [COLOR_POSITIVE_TEXT]100[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Current war information:[ENDCOLOR]</Text>
+			<Text>Dieser Wert gibt an, wie gut Euer Krieg verläuft. Bereiche zwischen [COLOR_NEGATIVE_TEXT]-100[ENDCOLOR] und [COLOR_POSITIVE_TEXT]100[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]Aktuelle Kriegsinformationen:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_PATHETIC">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are pathetic!</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind erbärmlich!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_WEAK">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are very weak.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind sehr schwach.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_POOR">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are weaker.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind schwächer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_AVERAGE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] We are equals.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Wir sind gleich.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_STRONG">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are strong.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind stark.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_POWERFUL">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are mighty.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind mächtig.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WAR_STRENGTH_IMMENSE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Military Power:[ENDCOLOR] They are immense!</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_STRENGTH] Militärische Stärke:[ENDCOLOR] Sie sind gewaltig!</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_WAR_ECONOMY_PATHETIC">
@@ -6328,34 +6328,34 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_WAR_NO_PEACE_OFFER">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Impossible!</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Unmöglich!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_WHITE_PEACE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] White Peace.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Weißer Friede.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_ARMISTICE">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Armistice.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Waffenstillstand.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SETTLEMENT">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Small settlement.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Kleine Siedlung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_BACKDOWN">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Large settlement.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Große Siedlung.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SUBMISSION">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Minor concessions.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Geringfügige Zugeständnisse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SURRENDER">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Some concessions.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Einige Zugeständnisse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CESSION">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Major concessions.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Große Zugeständnisse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CAPITULATION">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Huge concessions.</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Riesige Zugeständnisse.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OFFER_PEACE_TREATY_UNCONDITIONAL_SURRENDER">
-			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Their Peace Offer:[ENDCOLOR] Total Surrender!</Text>
+			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT][ICON_PEACE] Ihr Friedensangebot:[ENDCOLOR] Totale Kapitulation!</Text>
 		</Row>
 
 
@@ -6603,28 +6603,28 @@
 			<Text>Construct Route for {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CAMP_NAME">
-			<Text>Kill Camp for {1_CSName}</Text>
+			<Text>Räumt das Barbarenlager für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONNECT_RESOURCE_NAME">
-			<Text>Connect Resource for {1_CSName}</Text>
+			<Text>Bindet die Ressource für {1_CSName} an das Handelsnetz an</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_WONDER_NAME">
-			<Text>Build Wonder for {1_CSName}</Text>
+			<Text>Baut für {1_CSName} ein Wunder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GREAT_PERSON_NAME">
-			<Text>Great Person for {1_CSName}</Text>
+			<Text>Große Persönlichkeit für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_KILL_CITY_STATE_NAME">
-			<Text>Kill City-State for {1_CSName}</Text>
+			<Text>Tötet Stadtstaat für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_PLAYER_NAME">
-			<Text>Find Player for {1_CSName}</Text>
+			<Text>Findet Spieler für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_FIND_NATURAL_WONDER_NAME">
-			<Text>Find Natural Wonder for {1_CSName}</Text>
+			<Text>Findet ein Naturwunder für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_GIVE_GOLD_NAME">
-			<Text>Give Gold to {1_CSName}</Text>
+			<Text>Gebt {1_CSName} Gold </Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_PLEDGE_TO_PROTECT_NAME">
 			<Text>Pledge Protection to {1_CSName}</Text>
@@ -6654,7 +6654,7 @@
 			<Text>Trade Route to {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_WAR_NAME">
-			<Text>War for {1_CSName}</Text>
+			<Text>Krieg für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_CONSTRUCT_NATIONAL_WONDER_NAME">
 			<Text>Built National Wonder for {1_CSName}</Text>
@@ -6675,7 +6675,7 @@
 			<Text>Circumnavigation for {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_LIBERATION_NAME">
-			<Text>Liberation for {1_CSName}</Text>
+			<Text>Befreiung für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_HORDE_NAME">
 			<Text>Quell Horde for {1_CSName}</Text>
@@ -6687,32 +6687,32 @@
 			<Text>Discover Land for {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_BUILD_X_BUILDINGS_NAME">
-			<Text>Construct Buildings for {1_CSName}</Text>
+			<Text>Errichtet Gebäude für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_STEAL_FROM_NAME">
-			<Text>Spy for {1_CSName}</Text>
+			<Text>Spion für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_COUP_CITY_NAME">
-			<Text>Coup for {1_CSName}</Text>
+			<Text>Coup für {1_CSName}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MINOR_CIV_QUEST_UNIT_GET_CITY_NAME">
-			<Text>Conquest for {1_CSName}</Text>
+			<Text>Eroberung für {1_CSName}</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
-			<Text>+{1_Num} [ICON_HAPPINESS_1] Happiness</Text>
+			<Text>+{1_Num} [ICON_HAPPINESS_1] Zufriedenheit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_INFLUENCE">
-			<Text>+{1_Num} [ICON_INFLUENCE] Influence</Text>
+			<Text>+{1_Num} [ICON_INFLUENCE] Einfluss</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_EXPERIENCE">
-			<Text>+{1_Num} [ICON_STRENGTH] Experience for all Units</Text>
+			<Text>+{1_Num} [ICON_STRENGTH] Erfahrung für alle Einheiten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP_GLOBAL">
-			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Great Person Points in all Cities</Text>
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) in allen Städten</Text>
 		</Row>
 		<Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_GPP">
-			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Great Person Points in [ICON_CAPITAL] Capital</Text>
+			<Text>+{1_Num} [ICON_GREAT_PEOPLE] Große-Persönlichkeit-Punkte (GPP) in der [ICON_CAPITAL] Haupstadt</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">

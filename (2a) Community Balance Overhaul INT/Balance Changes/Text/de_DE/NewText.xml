@@ -98,13 +98,13 @@
 			<Text>Das Investieren von Produktion in Kunst ist eine gute Möglichkeit den [ICON_CULTURE] Kulturertrag Eurer Zivilisation zu steigern, entweder um die nächste Politik einzuführen oder einen Tourismussieg abzuwehren. Reduziert außerdem Langeweile.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE">
-			<Text>Defense</Text>
+			<Text>Verteidigung</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] boosts City [ICON_STRENGTH] Defense and increases Hit Point recovery by 10% of the City's [ICON_PRODUCTION] Production.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Verteidigung[ENDCOLOR] stärkt die Stadt [ICON_STRENGTH] Verteidigung und erhöht die Wiederherstellung von Trefferpunkten, um 10% der städtischen [ICON_PRODUCTION] Produktion.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_DEFENSE_STRATEGY">
-			<Text>Investing production in defense is a last-ditch method to stave off your city's conquest by a foreign power.</Text>
+			<Text>Die Investition der Produktion in die Verteidigung ist die letzte Möglichkeit, die Eroberung Eurer Stadt durch eine fremde Macht abzuwenden.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_PROCESS_FOOD">

@@ -33,10 +33,10 @@
 		
 		<!-- Rare Crop -->
 		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1">
-			<Text>Rare Specimen</Text>
+			<Text>Seltene Exemplare</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_PLANTATION_RARE_CROP_CHOICE_1_HELP">
-			<Text>Your farmers discovered a rare plant never before seen in a Plantation near the City. Your researchers are excited about studying it! Gain +{2_InstantYield}.</Text>
+			<Text>Ihre Bauern entdeckten eine seltene Pflanze, die noch nie zuvor in einer Plantage in der Nähe der Stadt gesehen wurde. Ihre Forscher sind begeistert, sie zu studieren! Gewinnt +{2_InstantYield}.</Text>
 		</Row>
 			
 	</Language_de_DE>
