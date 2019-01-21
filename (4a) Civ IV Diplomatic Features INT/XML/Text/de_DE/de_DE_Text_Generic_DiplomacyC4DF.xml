@@ -120,16 +120,16 @@
 			<Text>We'd like to purchase a technology from you. Is this acceptable?</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_1">
-			<Text>Friend, please accept this offer as a gesture of gratitude for our friendship.</Text>
+			<Text>Freund, bitte nehmt dieses Angebot als Zeichen der Dankbarkeit für unsere Freundschaft an.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_2">
 			<Text>In your time of need I offer you a gift.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_GENEROUS_OFFER_3">
-			<Text>To show our support of our friendship, I offer your people this in hopes you will one day return the favor.</Text>
+			<Text>Um unsere Unterstützung für unsere Freundschaft zu zeigen, biete ich Eurem Volk dies in der Hoffnung an, dass Sie sich eines Tages dafür revanchieren werden.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_1">
-			<Text>I am glad to help.</Text>
+			<Text>Ich helfe gerne weiter.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GENERIC_HELP_REQUEST_YES_2">
 			<Text>May this gift bring prosperity to your people.</Text>
